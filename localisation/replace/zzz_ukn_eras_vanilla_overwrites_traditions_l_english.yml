@@ -6,4 +6,5 @@
  
 # MERCANTILE #---------------------------------------------------------
 
-tr_mercantile_commercial_enterprise_desc:0 "All types of £district£ §YCommercial Districts§! additionally provide §Y1§! £job_merchant£ §YMerchant Job§!."
+ tr_mercantile_trickle_up_economics_desc:0 "£job_bugged_trader£ §Y$job_bugged_trader_plural$§! produce §Y2§! additional §YTrade Value§!."
+ tr_mercantile_commercial_enterprise_desc:0 "All types of £district£ §YCommercial Districts§! additionally provide §Y1§! £job_merchant£ §YMerchant Job§!."
