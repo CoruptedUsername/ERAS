@@ -1,0 +1,59 @@
+﻿l_english:
+
+#[ALL] POP JOB MODIFIERS #---------------------------------
+ mod_planet_researchers_energy_upkeep_mult:0 "£job_researcher£ $planet_researchers$ £energy£ $energy$ Upkeep"
+ mod_planet_researchers_energy_upkeep_add:0 "$mod_planet_researchers_energy_upkeep_mult$"
+ 
+ mod_planet_artisans_energy_upkeep_add:0 "£job_artisan£ $planet_artisans$ £energy£ $energy$ Upkeep"
+ 
+ mod_planet_priests_energy_upkeep_add:0 "£job_priest£ $planet_priests$ $energy$ Upkeep"
+ mod_planet_priests_society_research_produces_add:0 "£society_research£ $society_research$ from £job_priest£ $planet_priests$"
+ mod_planet_priests_unity_produces_add:0 "£unity£ $unity$ from £job_priest£ $planet_priests$"
+ 
+ mod_planet_managers_energy_upkeep_add:0 "£job_manager£ $planet_managers$ $energy$ Upkeep"
+ mod_planet_managers_society_research_produces_add:0 "£society_research£ $society_research$ from £job_manager£ $planet_managers$"
+ mod_planet_managers_unity_produces_add:0 "£unity£ $unity$ from £job_manager£ $planet_managers$"
+ 
+ mod_planet_refiners_energy_upkeep_add:0 "£job_gas_refiner£ $planet_refiners$ £energy£ $energy$ Upkeep"
+ mod_planet_refiners_minerals_upkeep_add:0 "£job_gas_refiner£ $planet_refiners$ £minerals£ $minerals$ Upkeep"
+ mod_planet_refiners_volatile_motes_produces_add:0 "£volatile_motes£ $volatile_motes$ from £job_gas_refiner£ $planet_refiners$"
+ mod_planet_refiners_exotic_gases_produces_add:0 "£exotic_gases£ $exotic_gases$ from £job_gas_refiner£ $planet_refiners$"
+ mod_planet_refiners_rare_crystals_produces_add:0 "£rare_crystals£ $rare_crystals$ from £job_gas_refiner£ $planet_refiners$"
+ 
+ mod_planet_metallurgists_energy_upkeep_add:0 "£job_foundry£ $planet_metallurgists$ £energy£ $energy$ Upkeep"
+ 
+ mod_planet_culture_workers_energy_upkeep_add:0 "£job_culture_worker£ $planet_culture_workers$ $energy$ Upkeep"
+ mod_planet_culture_workers_society_research_produces_add:0 "£society_research£ $society_research$ from £job_culture_worker£ $planet_culture_workers$"
+ mod_planet_culture_workers_unity_produces_add:0 "£unity£ $unity$ from £job_culture_worker£ $planet_culture_workers$"
+ 
+ mod_planet_miners_energy_upkeep_add:0 "£job_miner£ $planet_miners$ £energy£ $energy$ Upkeep"
+ 
+ mod_planet_pops_biologicals_food_upkeep_add:0 "Biological Pop Food Upkeep"
+ 
+ mod_planet_pops_lithoids_minerals_upkeep_add:0 "Lithoid Pop Mineral Upkeep"
+
+
+# SUB-KILLOSTRUCTURES #------------------
+    
+# Vanilla Habitat
+ name_habitat_vanilla:0 "Habitat"
+ habitat_0:0 "Orbital $name_habitat_vanilla$"
+ 
+# Orbital Arcology
+ name_orbital_arcology:0 "Orbital Loop"
+ orbital_arcology_0_site:0 "$name_orbital_arcology$ Site"
+ orbital_arcology_0_upgrade:0 "Construct $name_orbital_arcology$"
+ orbital_arcology_0_upgrade_DESC:0 "This construction platform is being upgraded into a full $name_orbital_arcology$."
+ 
+ 
+# MEGATRUCTURES #------------------
+
+# Vanilla Ringworld
+ name_ringworld_vanilla:0 "Ringworld"
+ ring_world_1:0 "$name_ringworld_vanilla$ Site"
+ ring_world_2_intermediate:0 "$name_ringworld_vanilla$ Frame"
+ 
+ 
+# MODIFIERS (PLANETS) #------------------
+ 
+ mod_planet_non_artificial_max_districts_add:0 "Non-Artificial Planet Max Districts"

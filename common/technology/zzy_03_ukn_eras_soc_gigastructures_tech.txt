@@ -1,0 +1,23 @@
+          #########################
+#---------## [GIGASTRUCTURES] GE ##---------#
+          #########################
+
+#########
+# STARS # (ORBITAL!)
+#########
+
+### Ringworld Upgrade ###----------------------
+
+
+#########
+# STARS # (HARVESTING!)
+#########
+
+###[TECH-2] Star Lifter ###----------------------
+
+
+#########
+# STARS # (MANUFACTURING!)
+#########
+
+### Hyperstructural Assembly Yards ###----------------------
