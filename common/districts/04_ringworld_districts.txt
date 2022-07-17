@@ -179,7 +179,7 @@ district_rw_city = {
 		potential = {
 			exists = owner
 			owner = {
-				has_valid_civic = civic_agrarian_idyll
+				is_bugged_agrarian_idyll = yes
 			}
 		}
 		modifier = {
@@ -196,7 +196,7 @@ district_rw_city = {
 			}
 		}
 		modifier = {
-			job_clerk_add = 5
+			job_clerk_add = 4
 		}
 	}
 
@@ -227,7 +227,7 @@ district_rw_city = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_2
-				NOT = { has_valid_civic = civic_agrarian_idyll }
+				NOT = { is_bugged_agrarian_idyll = yes }
 			}
 		}
 		modifier = {
@@ -241,9 +241,22 @@ district_rw_city = {
 			owner = { has_active_tradition = tr_prosperity_interstellar_franchising }
 		}
 		modifier = {
-			job_clerk_add = 5
+			job_clerk_add = 1
 		}
 	}
+
+	#Bug Branch
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_valid_civic = civic_bugged_rooftop_farmers }
+		}
+		modifier = {
+			job_clerk_add = -4
+			job_farmer_add = 4
+		}
+	}
+	#Bug Branch
 
 	triggered_desc = {
 		trigger = {
@@ -384,9 +397,9 @@ district_rw_hive = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 60
+		planet_housing_add = 50
 #		planet_jobs_produces_mult = -0.10
-		job_maintenance_drone_add = 15
+		job_maintenance_drone_add = 5
 	}
 
 	triggered_planet_modifier = {
@@ -460,7 +473,7 @@ district_rw_hive = {
 		}
 		modifier = {
 			planet_housing_add = 10
-			job_maintenance_drone_add = 5
+			job_maintenance_drone_add = 1
 		}
 	}
 
@@ -605,7 +618,7 @@ district_rw_nexus = {
 	planet_modifier = {
 		planet_housing_add = 50
 #		planet_jobs_produces_mult = -0.10
-		job_maintenance_drone_add = 10
+		job_maintenance_drone_add = 5
 	}
 
 	triggered_planet_modifier = {
@@ -679,7 +692,7 @@ district_rw_nexus = {
 		}
 		modifier = {
 			planet_housing_add = 10
-			job_maintenance_drone_add = 5
+			job_maintenance_drone_add = 1
 		}
 	}
 
@@ -953,7 +966,7 @@ district_rw_industrial = {
 	}
 
 	triggered_planet_modifier = {
-		planet_housing_add = 3
+		planet_housing_add = 1
 #		planet_jobs_produces_mult = -0.10
 	}
 #----------------------------------------------------
@@ -1790,7 +1803,7 @@ district_rw_science = {
 	}
 
 	triggered_planet_modifier = {
-		planet_housing_add = 3
+		planet_housing_add = 1
 #		planet_jobs_produces_mult = -0.10
 	}
 
@@ -2131,7 +2144,7 @@ district_rw_generator = {
 	}
 
 	triggered_planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 #		planet_jobs_produces_mult = -0.10
 	}
 
@@ -2464,7 +2477,7 @@ district_rw_farming = {
 	# triggered for tooltip formatting purposes
 	triggered_planet_modifier = {
 		modifier = {
-			planet_housing_add = 2
+			planet_housing_add = 1
 	#		planet_jobs_produces_mult = -0.10
 		}
 	}
@@ -2517,7 +2530,7 @@ district_rw_farming = {
 		potential = {
 			exists = owner
 			owner = {
-				has_valid_civic = civic_agrarian_idyll
+				is_bugged_agrarian_idyll = yes
 			}
 		}
 		modifier = {
@@ -2530,7 +2543,7 @@ district_rw_farming = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_agrarian_idyll
-				has_valid_civic = civic_agrarian_idyll
+				is_bugged_agrarian_idyll = yes
 			}
 		}
 		modifier = {

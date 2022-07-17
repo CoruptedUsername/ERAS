@@ -101,10 +101,20 @@ district_city = {
 		upkeep = {
 			energy = @district_ukn_city_1_upkeep_energy
 		}
+		#Bug Branch
+		upkeep = {
+			trigger = {
+				owner = {
+					is_bugged_government_intervention = yes
+				}
+			}
+			energy = 0.25
+		}
+		#Bug Branch
 	}
 
 	planet_modifier = {
-		planet_housing_add = 5
+		planet_housing_add = 8
 	}
 
 	triggered_planet_modifier = {
@@ -165,7 +175,7 @@ district_city = {
 		potential = {
 			exists = owner
 			owner = {
-				has_valid_civic = civic_agrarian_idyll
+				is_bugged_agrarian_idyll = yes
 			}
 		}
 		modifier = {
@@ -212,7 +222,7 @@ district_city = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_2
-				NOT = { has_valid_civic = civic_agrarian_idyll }
+				NOT = { is_bugged_agrarian_idyll = yes }
 			}
 		}
 		modifier = {
@@ -230,6 +240,31 @@ district_city = {
 		}
 	}
 
+	#Bug Branch
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		modifier = {
+			planet_housing_add = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_valid_civic = civic_bugged_rooftop_farmers }
+		}
+		modifier = {
+			job_clerk_add = -1
+			job_farmer_add = 1
+		}
+	}
+	#Bug Branch
+
 	triggered_desc = {
 		trigger = {
 			exists = owner
@@ -237,6 +272,16 @@ district_city = {
 		}
 		text = job_clerk_effect_desc
 	}
+
+	#Bug Branch
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { has_valid_civic = civic_bugged_rooftop_farmers }
+		}
+		text = job_farmer_effect_desc
+	}
+	#Bug Branch
 }
 
 district_hive = {
@@ -341,8 +386,8 @@ district_hive = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 6
-		job_maintenance_drone_add = 3
+		planet_housing_add = 8
+		job_maintenance_drone_add = 2
 	}
 
 	triggered_planet_modifier = {
@@ -350,8 +395,8 @@ district_hive = {
 			is_planet_class = pc_hive
 		}
 		modifier = {
-			planet_housing_add = 6
-			job_maintenance_drone_add = 3
+			planet_housing_add = 8
+			job_maintenance_drone_add = 2
 		}
 	}
 
@@ -489,8 +534,8 @@ district_nexus = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 5
-		job_maintenance_drone_add = 3
+		planet_housing_add = 8
+		job_maintenance_drone_add = 2
 	}
 
 	triggered_planet_modifier = {
@@ -754,21 +799,6 @@ district_ukn_automation = {
 		}
 		text = job_ukn_automation_technician_drone_normal_effect_desc
 	}
-#----------------------------------------------------
-
-#A]	ai_resource_production = {
-#A]		ukn_icon_automation_integrity = 10000
-#A]		energy = 1000000
-#A]		minerals = 1000000
-#A]		food = 1000000
-#A]		alloys = 1000000
-#A]		physics_research = 1000000
-#A]		society_research = 1000000
-#A]		engineering_research = 1000000
-#A]		trigger = {
-#A]			always = yes
-#A]		}
-#A]	}
 }
 
 
@@ -905,7 +935,7 @@ district_industrial = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 #----------------------------------------------------
 
@@ -1563,7 +1593,7 @@ district_srw_commercial = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {

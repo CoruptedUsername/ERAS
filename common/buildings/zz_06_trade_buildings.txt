@@ -1209,8 +1209,8 @@ building_commercial_megaplex = {
 building_galactic_stock_exchange = {
 	base_buildtime = @b2_time
 	position_priority = 102
-	base_cap_amount = 1
 
+	can_build = no
 	category = trade
 
 	potential = {
@@ -1221,6 +1221,7 @@ building_galactic_stock_exchange = {
 	allow = {
 		buildings_simple_allow = yes
 		has_major_upgraded_capital = yes
+		has_global_flag = galactic_market_founded
 	}
 
 	destroy_trigger = {
@@ -1235,9 +1236,25 @@ building_galactic_stock_exchange = {
 
 
 	planet_modifier = {
-		job_bugged_trader_add = 2
+		job_merchant_add = 2
 		trade_value_mult = 0.20
 	}
+
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                OR = {
+                    has_civic = civic_merchant_guilds
+                    has_civic = civic_bugged_state_monopoly
+                }
+            }
+        }
+        modifier = {
+            job_merchant_add = 2
+            trade_value_mult = 0.1
+        }
+    }
 
 	resources = {
 		category = planet_buildings_galactic_stock_exchange
@@ -1256,9 +1273,12 @@ building_galactic_stock_exchange = {
 	}
 
 	triggered_desc = {
-		text = job_bugged_trader_effect_desc
-	}
-
+        text = building_galactic_stock_exchange_effect_desc
+    }
+    triggered_desc = {
+        text = job_merchant_effect_desc
+    }
+	
 	ai_resource_production = {
 		energy = 3
 		trigger = {

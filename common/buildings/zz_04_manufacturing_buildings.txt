@@ -5203,15 +5203,6 @@ building_ministry_production = {
 	}
 }
 
-
-
-
-
-
-
-
-
-
 building_production_center = {
 	base_buildtime = @building_ukn_production_center_5_build_time
 	base_cap_amount = 1
