@@ -155,20 +155,19 @@ district_ukn_commercial = {
 		planet_housing_add = 2
 	}
 
-	triggered_planet_modifier = {
-		potential = {
-			UKN_USES_BASIC_DISTRICTS = yes
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-		}
-		
-		modifier = {
-			job_clerk_add = 1
-			job_bugged_trader_add = 1
-		}
-	}
+    triggered_planet_modifier = {
+        potential = {
+            UKN_USES_BASIC_DISTRICTS = yes
+            exists = owner
+            owner = {
+                is_regular_empire = yes
+            }
+        }
+        
+        modifier = {
+            job_bugged_trader_add = 2
+        }
+    }
 
 	triggered_planet_modifier = {
 		potential = {
@@ -182,15 +181,15 @@ district_ukn_commercial = {
 		}
 	}
 
-	triggered_desc = {
-		trigger = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-		}
-		text = job_clerk_effect_desc
-	}
+#	triggered_desc = {
+#		trigger = {
+#			exists = owner
+#			owner = {
+#				is_regular_empire = yes
+#			}
+#		}
+#		text = job_clerk_effect_desc
+#	}
 
 	triggered_desc = {
 		trigger = {
@@ -423,7 +422,7 @@ district_ukn_bureaucratic = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {
@@ -669,7 +668,7 @@ district_ukn_corporate_bureaucratic = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {
@@ -725,13 +724,13 @@ district_ukn_temple = {
 
 	abort_trigger = {
 		NOR = {
-#[SPIRITUALISTS] UNITY BUILDINGS
+ #[SPIRITUALISTS] UNITY BUILDINGS
 			has_building = building_temple
 			has_building = building_holotemple
 			has_building = building_sacred_nexus
 			has_building = building_ukn_temple_4
 			has_building = building_ukn_temple_5
-#[DEATH-CULT] UNITY BUILDINGS
+ #[DEATH-CULT] UNITY BUILDINGS
 			has_building = building_sacrificial_temple_1
 			has_building = building_sacrificial_temple_2
 			has_building = building_sacrificial_temple_3
@@ -744,13 +743,13 @@ district_ukn_temple = {
 		exists = from
 		UKN_USES_BASIC_DISTRICTS = yes
 		OR = {
-#[SPIRITUALISTS] UNITY BUILDINGS
+ #[SPIRITUALISTS] UNITY BUILDINGS
 			has_building = building_temple
 			has_building = building_holotemple
 			has_building = building_sacred_nexus
 			has_building = building_ukn_temple_4
 			has_building = building_ukn_temple_5
-#[DEATH-CULT] UNITY BUILDINGS
+ #[DEATH-CULT] UNITY BUILDINGS
 			has_building = building_sacrificial_temple_1
 			has_building = building_sacrificial_temple_2
 			has_building = building_sacrificial_temple_3
@@ -764,13 +763,13 @@ district_ukn_temple = {
 		exists = owner
 		UKN_USES_BASIC_DISTRICTS = yes
 		OR = {
-#[SPIRITUALISTS] UNITY BUILDINGS
+ #[SPIRITUALISTS] UNITY BUILDINGS
 			has_building = building_temple
 			has_building = building_holotemple
 			has_building = building_sacred_nexus
 			has_building = building_ukn_temple_4
 			has_building = building_ukn_temple_5
-#[DEATH-CULT] UNITY BUILDINGS
+ #[DEATH-CULT] UNITY BUILDINGS
 			has_building = building_sacrificial_temple_1
 			has_building = building_sacrificial_temple_2
 			has_building = building_sacrificial_temple_3
@@ -779,25 +778,25 @@ district_ukn_temple = {
 			has_district = district_ukn_temple
 		}
 		NOR = {
-#[BASIC] UNITY BUILDINGS
+ #[BASIC] UNITY BUILDINGS
 			has_building = building_bureaucratic_1
 			has_building = building_bureaucratic_2
 			has_building = building_bureaucratic_2
 			has_building = building_ukn_bureaucratic_4
 			has_building = building_ukn_bureaucratic_5
-#[MEGACORP] UNITY BUILDINGS
+ #[MEGACORP] UNITY BUILDINGS
 			has_building = building_ukn_corporate_bureaucratic_1
 			has_building = building_ukn_corporate_bureaucratic_2
 			has_building = building_ukn_corporate_bureaucratic_3
 			has_building = building_ukn_corporate_monument_4
 			has_building = building_ukn_corporate_monument_5
-#[HIVE] UNITY BUILDINGS
+ #[HIVE] UNITY BUILDINGS
 			has_building = building_hive_node
 			has_building = building_hive_cluster
 			has_building = building_hive_confluence
 			has_building = building_ukn_hive_node_4
 			has_building = building_ukn_hive_node_5
-#[MACHINE] UNITY BUILDINGS
+ #[MACHINE] UNITY BUILDINGS
 			has_building = building_uplink_node
 			has_building = building_network_junction
 			has_building = building_system_conflux
@@ -808,13 +807,13 @@ district_ukn_temple = {
 
 	allow = {
 		OR = {
-#[SPIRITUALISTS] UNITY BUILDINGS
+ #[SPIRITUALISTS] UNITY BUILDINGS
 			has_building = building_temple
 			has_building = building_holotemple
 			has_building = building_sacred_nexus
 			has_building = building_ukn_temple_4
 			has_building = building_ukn_temple_5
-#[DEATH-CULT] UNITY BUILDINGS
+ #[DEATH-CULT] UNITY BUILDINGS
 			has_building = building_sacrificial_temple_1
 			has_building = building_sacrificial_temple_2
 			has_building = building_sacrificial_temple_3
@@ -829,13 +828,13 @@ district_ukn_temple = {
 
 	conversion_ratio = 0.5
 	convert_to = {
-#[NORMAL] UNITY DISTRICTS
+ #[NORMAL] UNITY DISTRICTS
 		district_ukn_bureaucratic
 		district_ukn_corporate_bureaucratic
-#		district_ukn_temple
+ #		district_ukn_temple
 		district_ukn_hive_node
 		district_ukn_uplink
-#[ARCOLOGY] UNITY DISTRICTS
+ #[ARCOLOGY] UNITY DISTRICTS
 		district_arcology_leisure
 		district_ukn_arcology_leisure
 		district_ukn_arcology_religious
@@ -933,7 +932,18 @@ district_ukn_temple = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
+		job_priest_add = 2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_bugged_militant_zealots = yes }
+		}
+		modifier = {
+			job_bugged_templar_add = 1
+		}
 	}
 
 	triggered_planet_modifier = {
@@ -942,14 +952,12 @@ district_ukn_temple = {
 			exists = owner
 			owner = {
 				is_spiritualist = yes
-				NOR = {
-					has_valid_civic = civic_death_cult
-					has_valid_civic = civic_death_cult_corporate
-				}
+				is_bugged_luminosity_cult = yes
 			}
 		}
 		modifier = {
-			job_priest_add = 2
+			job_priest_add = -2
+			job_bugged_luminosity_priest_add = 2
 		}
 	}
 
@@ -959,15 +967,73 @@ district_ukn_temple = {
 			exists = owner
 			owner = {
 				is_spiritualist = yes
-				OR = {
-					has_valid_civic = civic_death_cult
-					has_valid_civic = civic_death_cult_corporate
-				}
+				is_bugged_death_cult = yes
 			}
 		}
 		modifier = {
+			job_priest_add = -2
 			job_death_priest_add = 1
 			job_mortal_initiate_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			UKN_USES_BASIC_DISTRICTS = yes
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+				is_bugged_war_cult = yes
+			}
+		}
+		modifier = {
+			job_priest_add = -2
+			job_bugged_warrior_priest_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			UKN_USES_BASIC_DISTRICTS = yes
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+				is_bugged_gravity_cult = yes
+			}
+		}
+		modifier = {
+			job_priest_add = -2
+			job_bugged_gravity_priest_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			UKN_USES_BASIC_DISTRICTS = yes
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+				is_bugged_life_cult = yes
+			}
+		}
+		modifier = {
+			job_priest_add = -2
+			job_bugged_lifescribe_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			UKN_USES_BASIC_DISTRICTS = yes
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+				is_bugged_machine_cult = yes
+			}
+		}
+		modifier = {
+			job_priest_add = -2
+			job_bugged_techno_priest_add = 3
 		}
 	}
 #----------------------------------------------------
@@ -977,10 +1043,7 @@ district_ukn_temple = {
 			exists = owner
 			owner = {
 				is_spiritualist = yes
-				NOR = {
-					has_valid_civic = civic_death_cult
-					has_valid_civic = civic_death_cult_corporate
-				}
+				is_cult = no
 			}
 		}
 		text = job_priest_effect_desc
@@ -990,11 +1053,28 @@ district_ukn_temple = {
 		trigger = {
 			exists = owner
 			owner = {
+				is_bugged_militant_zealots = yes
+			}
+		}
+		text = job_bugged_templar_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_bugged_militant_zealots = yes
+			}
+		}
+		text = job_bugged_templar_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
 				is_spiritualist = yes
-				OR = {
-					has_valid_civic = civic_death_cult
-					has_valid_civic = civic_death_cult_corporate
-				}
+				is_bugged_death_cult = yes
 			}
 		}
 		text = job_death_priest_effect_desc
@@ -1004,13 +1084,54 @@ district_ukn_temple = {
 			exists = owner
 			owner = {
 				is_spiritualist = yes
-				OR = {
-					has_valid_civic = civic_death_cult
-					has_valid_civic = civic_death_cult_corporate
-				}
+				is_bugged_death_cult = yes
 			}
 		}
 		text = job_mortal_initiate_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+				is_bugged_war_cult = yes
+			}
+		}
+		text = job_bugged_templar_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+				is_bugged_gravity_cult = yes
+			}
+		}
+		text = job_bugged_gravity_priest_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+				is_bugged_life_cult = yes
+			}
+		}
+		text = job_bugged_lifescribe_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+				is_bugged_machine_cult = yes
+			}
+		}
+		text = job_bugged_techno_priest_effect_desc
 	}
 #----------------------------------------------------
 
@@ -1252,7 +1373,7 @@ district_ukn_hive_node = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {
@@ -1500,7 +1621,7 @@ district_ukn_uplink = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {

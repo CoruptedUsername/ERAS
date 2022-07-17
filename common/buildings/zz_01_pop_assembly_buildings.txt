@@ -667,6 +667,18 @@ building_clone_army_clone_vat = {
 		modifier = { planet_pop_assembly_organic_add = 5 }
 	}
 
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_bugged_evolutionary_architects = yes
+            }
+        }
+        modifier = {
+            planet_jobs_unity_produces_mult = 0.1
+        }
+    }
+	
 	resources = {
 		category = planet_buildings
 		cost = {

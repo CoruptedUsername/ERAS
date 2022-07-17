@@ -1744,7 +1744,10 @@ building_institute = {
 		OR = {
 			has_modifier = resort_colony
 			has_modifier = slave_colony
-			owner = { is_regular_empire = no }
+			owner = { 
+				is_regular_empire = no 
+				is_gestalt = no
+			}
 		}
 	}
 
@@ -1887,6 +1890,19 @@ building_institute = {
 	planet_modifier = {
 		planet_researchers_produces_mult = 0.15
 		job_head_researcher_add = 1
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_civic = civic_bugged_research_cooperatives
+			}
+		}
+		modifier = {
+			planet_jobs_unity_produces_mult = 0.05
+
+		}
 	}
 
 	prerequisites = {
@@ -2120,6 +2136,17 @@ building_supercomputer = {
 		}
 	}
 
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_civic = civic_bugged_machine_researcher }
+		}
+		modifier = {
+			job_bugged_examinatron_add = 1
+#			job_calculator_add = -1
+		}
+	}
+
 	prerequisites = {
 		"tech_global_research_initiative"
 	}
@@ -2140,6 +2167,14 @@ building_supercomputer = {
 		text = job_calculator_effect_desc
 	}
 
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { has_civic = civic_bugged_machine_researcher }
+		}
+		text = job_bugged_examinatron_effect_desc
+	}
+	
 	show_tech_unlock_if = {
 		is_gestalt = yes
 	}

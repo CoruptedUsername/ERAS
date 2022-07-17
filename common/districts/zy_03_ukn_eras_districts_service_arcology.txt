@@ -220,25 +220,24 @@ district_ukn_arcology_commercial = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 4
+		planet_housing_add = 3
 	}
 
-	triggered_planet_modifier = {
-		potential = {
-			OR = {
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-			}
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-		}
-		modifier = {
-			job_clerk_add = 2
-			job_bugged_trader_add = 2
-		}
-	}
+    triggered_planet_modifier = {
+        potential = {
+            OR = {
+                UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+                UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+            }
+            exists = owner
+            owner = {
+                is_regular_empire = yes
+            }
+        }
+        modifier = {
+            job_bugged_trader_add = 3
+        }
+    }
 
 	triggered_planet_modifier = {
 		potential = {
@@ -252,15 +251,15 @@ district_ukn_arcology_commercial = {
 		}
 	}
 
-	triggered_desc = {
-		trigger = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-		}
-		text = job_clerk_effect_desc
-	}
+#	triggered_desc = {
+#		trigger = {
+#			exists = owner
+#			owner = {
+#				is_regular_empire = yes
+#			}
+#		}
+#		text = job_clerk_effect_desc
+#	}
 
 	triggered_desc = {
 		trigger = {
@@ -571,7 +570,7 @@ district_arcology_administrative = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {
@@ -895,7 +894,7 @@ district_arcology_leisure = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {
@@ -1247,47 +1246,126 @@ district_arcology_religious = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
+		job_priest_add = 2
 	}
 
 	triggered_planet_modifier = {
 		potential = {
-			OR = {
+			exists = owner
+			owner = { is_bugged_militant_zealots = yes }
+		}
+		modifier = {
+			job_bugged_templar_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+		OR = {
 			UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 		}
 			exists = owner
 			owner = {
 				is_spiritualist = yes
-				NOR = {
-					has_valid_civic = civic_death_cult
-					has_valid_civic = civic_death_cult_corporate
-				}
+				is_bugged_luminosity_cult = yes
 			}
 		}
 		modifier = {
-			job_priest_add = 2
+			job_priest_add = -2
+			job_bugged_luminosity_priest_add = 2
 		}
 	}
 
 	triggered_planet_modifier = {
 		potential = {
-			OR = {
+		OR = {
 			UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 		}
 			exists = owner
 			owner = {
 				is_spiritualist = yes
-				OR = {
-					has_valid_civic = civic_death_cult
-					has_valid_civic = civic_death_cult_corporate
-				}
+				is_bugged_death_cult = yes
 			}
 		}
 		modifier = {
+			job_priest_add = -2
 			job_death_priest_add = 2
 			job_mortal_initiate_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+		OR = {
+			UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+		}
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+				is_bugged_war_cult = yes
+			}
+		}
+		modifier = {
+			job_priest_add = -2
+			job_bugged_warrior_priest_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+		OR = {
+			UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+		}
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+				is_bugged_gravity_cult = yes
+			}
+		}
+		modifier = {
+			job_priest_add = -2
+			job_bugged_gravity_priest_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+		OR = {
+			UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+		}
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+				is_bugged_life_cult = yes
+			}
+		}
+		modifier = {
+			job_priest_add = -2
+			job_bugged_lifescribe_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+		OR = {
+			UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+		}
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+				is_bugged_machine_cult = yes
+			}
+		}
+		modifier = {
+			job_priest_add = -2
+			job_bugged_techno_priest_add = 3
 		}
 	}
 #----------------------------------------------------
@@ -1297,10 +1375,7 @@ district_arcology_religious = {
 			exists = owner
 			owner = {
 				is_spiritualist = yes
-				NOR = {
-					has_valid_civic = civic_death_cult
-					has_valid_civic = civic_death_cult_corporate
-				}
+				is_cult = no
 			}
 		}
 		text = job_priest_effect_desc
@@ -1310,11 +1385,28 @@ district_arcology_religious = {
 		trigger = {
 			exists = owner
 			owner = {
+				is_bugged_militant_zealots = yes
+			}
+		}
+		text = job_bugged_templar_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_bugged_militant_zealots = yes
+			}
+		}
+		text = job_bugged_templar_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
 				is_spiritualist = yes
-				OR = {
-					has_valid_civic = civic_death_cult
-					has_valid_civic = civic_death_cult_corporate
-				}
+				is_bugged_death_cult = yes
 			}
 		}
 		text = job_death_priest_effect_desc
@@ -1324,13 +1416,54 @@ district_arcology_religious = {
 			exists = owner
 			owner = {
 				is_spiritualist = yes
-				OR = {
-					has_valid_civic = civic_death_cult
-					has_valid_civic = civic_death_cult_corporate
-				}
+				is_bugged_death_cult = yes
 			}
 		}
 		text = job_mortal_initiate_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+				is_bugged_war_cult = yes
+			}
+		}
+		text = job_bugged_templar_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+				is_bugged_gravity_cult = yes
+			}
+		}
+		text = job_bugged_gravity_priest_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+				is_bugged_life_cult = yes
+			}
+		}
+		text = job_bugged_lifescribe_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_spiritualist = yes
+				is_bugged_machine_cult = yes
+			}
+		}
+		text = job_bugged_techno_priest_effect_desc
 	}
 #----------------------------------------------------
 
@@ -1651,7 +1784,7 @@ district_ukn_arcology_hive_node = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {
@@ -1979,7 +2112,7 @@ district_ukn_arcology_uplink = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {

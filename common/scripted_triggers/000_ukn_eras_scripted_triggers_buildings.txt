@@ -161,10 +161,7 @@ UKN_CANNOT_BUILD_UPLINK_GRID = {
 UKN_CAN_BUILD_SACRIFICIAL_TEMPLE_GRID = {
 	owner = {
 		is_spiritualist = yes
-		OR = {
-			has_valid_civic = civic_death_cult
-			has_valid_civic = civic_death_cult_corporate
-		}
+		is_bugged_death_cult = yes
 	}
 	NOT = { has_modifier = slave_colony }
 }
@@ -174,10 +171,7 @@ UKN_CANNOT_BUILD_SACRIFICIAL_TEMPLE_GRID = {
 		owner = {
 			OR = {
 				is_spiritualist = no
-				NOR = {
-					has_valid_civic = civic_death_cult
-					has_valid_civic = civic_death_cult_corporate
-				}
+				is_bugged_death_cult = no
 			}
 		}
 		has_modifier = slave_colony
@@ -218,6 +212,50 @@ UKN_CANNOT_BUILD_GALACTIC_MEMORIAL_GRID = {
 					has_valid_civic = civic_hive_memorialist
 					has_valid_civic = civic_machine_memorialist
 				}
+			}
+		}
+		has_modifier = slave_colony
+	}
+}
+#---
+
+# LIGHT TEMPLE GRID
+UKN_CAN_BUILD_LIGHT_TEMPLE_GRID = {
+	owner = {
+		is_spiritualist = yes
+		is_bugged_luminosity_cult = yes
+	}
+	NOT = { has_modifier = slave_colony }
+}
+
+UKN_CANNOT_BUILD_LIGHT_TEMPLE_GRID = {
+	OR = {
+		owner = {
+			OR = {
+				is_spiritualist = no
+				is_bugged_luminosity_cult = no
+			}
+		}
+		has_modifier = slave_colony
+	}
+}
+#---
+
+# WAR TEMPLE GRID
+UKN_CAN_BUILD_WAR_TEMPLE_GRID = {
+	owner = {
+		is_spiritualist = yes
+		is_bugged_luminosity_cult = yes
+	}
+	NOT = { has_modifier = slave_colony }
+}
+
+UKN_CANNOT_BUILD_WAR_TEMPLE_GRID = {
+	OR = {
+		owner = {
+			OR = {
+				is_spiritualist = no
+				is_bugged_luminosity_cult = no
 			}
 		}
 		has_modifier = slave_colony

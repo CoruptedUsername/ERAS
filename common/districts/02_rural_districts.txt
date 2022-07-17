@@ -113,17 +113,28 @@ district_generator_uncapped = {
 		upkeep = {
 			energy = @district_ukn_generator_1_upkeep_energy
 		}
+		#Bug Branch
+		upkeep = {
+			trigger = {
+				exists = owner
+				owner = {
+					is_bugged_government_intervention = yes
+				}
+			}
+			energy = 0.15
+		}
+		#Bug Branch
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = {
-				has_valid_civic = civic_agrarian_idyll
+				is_bugged_agrarian_idyll = yes
 			}
 		}
 		modifier = {
@@ -174,6 +185,33 @@ district_generator_uncapped = {
 			job_fe_acolyte_generator_add = 2
 		}
 	}
+
+	#Bug Branch
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+            		owner = {
+				is_bugged_government_intervention = yes
+			} 
+		}
+		modifier = {
+			job_technician_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_policy_flag = economic_stance_bugged_free_market
+			}
+		}
+		modifier = {
+			job_technician_add = -1
+			job_bugged_trader_add = 1
+		}
+	}
+	#Bug Branch
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -200,6 +238,17 @@ district_generator_uncapped = {
 		}
 		text = job_fe_acolyte_generator_effect_desc
 	}
+	#Bug Branch
+	triggered_desc = {
+        trigger = {
+            exists = owner
+            owner = {
+                has_policy_flag = economic_stance_bugged_free_market
+            }
+        }
+        text = job_bugged_trader_effect_desc
+    }
+	#Bug Branch
 #----------------------------------------------------
 
 #A]	ai_resource_production = {
@@ -345,17 +394,37 @@ district_mining = {
 		upkeep = {
 			energy = 1
 		}
+		#Bug Branch
+		upkeep = {
+			trigger = {
+				exists = owner
+				owner = {
+					is_bugged_government_intervention = yes
+				}
+			}
+			energy = 0.15
+		}
+		upkeep = {
+			trigger = {
+				exists = owner
+				owner = {
+					has_valid_civic = civic_mining_guilds
+				}
+			}
+			energy = 0.2
+	  	}
+		#Bug Branch
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = {
-				has_valid_civic = civic_agrarian_idyll
+				is_bugged_agrarian_idyll = yes
 			}
 		}
 		modifier = {
@@ -406,6 +475,33 @@ district_mining = {
 			job_fe_acolyte_mine_add = 2
 		}
 	}
+
+	#Bug Branch
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_bugged_mining_civic = yes
+			}
+		}
+		modifier = {
+			planet_housing_add = 1
+			job_miner_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		modifier = {
+			job_miner_add = 1
+		}
+	}
+	#Bug Branch
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -578,17 +674,37 @@ district_mining_uncapped = {
 		upkeep = {
 			energy = 1
 		}
+		#Bug Branch
+		upkeep = {
+			trigger = {
+				exists = owner
+				owner = {
+					is_bugged_government_intervention = yes
+				}
+			}
+			energy = 0.15
+		}
+		upkeep = {
+			trigger = {
+				exists = owner
+				owner = {
+					has_valid_civic = civic_mining_guilds
+				}
+			}
+			energy = 0.2
+	  	}
+		#Bug Branch
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = {
-				has_valid_civic = civic_agrarian_idyll
+				is_bugged_agrarian_idyll = yes
 			}
 		}
 		modifier = {
@@ -639,6 +755,33 @@ district_mining_uncapped = {
 			job_fe_acolyte_mine_add = 2
 		}
 	}
+
+	#Bug Branch
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_bugged_mining_civic = yes
+			}
+		}
+		modifier = {
+			planet_housing_add = 1
+			job_miner_add = 1
+		}
+	}	
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		modifier = {
+			job_miner_add = 1
+		}
+	}
+	#Bug Branch
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -864,17 +1007,28 @@ district_farming_uncapped = {
 		upkeep = {
 			energy = 1
 		}
+		#Bug Branch
+		upkeep = {
+			trigger = {
+				exists = owner
+				owner = {
+					is_bugged_government_intervention = yes
+				}
+			}
+			energy = 0.15
+		}
+		#Bug Branch
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = {
-				has_valid_civic = civic_agrarian_idyll
+				is_bugged_agrarian_idyll = yes
 			}
 		}
 		modifier = {
@@ -887,7 +1041,7 @@ district_farming_uncapped = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_agrarian_idyll
-				has_valid_civic = civic_agrarian_idyll
+				is_bugged_agrarian_idyll = yes
 			}
 		}
 		modifier = {
@@ -954,6 +1108,20 @@ district_farming_uncapped = {
 			job_pearl_diver_add = 1
 		}
 	}
+
+	#Bug Branch
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		modifier = {
+			job_farmer_add = 1
+		}
+	}
+	#Bug Branch
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -1198,17 +1366,28 @@ district_farming = {
 		upkeep = {
 			energy = 1
 		}
+		#Bug Branch
+		upkeep = {
+			trigger = {
+				exists = owner
+				owner = {
+					is_bugged_government_intervention = yes
+				}
+			}
+			energy = 0.15
+		}
+		#Bug Branch
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = {
-				has_valid_civic = civic_agrarian_idyll
+				is_bugged_agrarian_idyll = yes
 			}
 		}
 		modifier = {
@@ -1221,7 +1400,7 @@ district_farming = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_agrarian_idyll
-				has_valid_civic = civic_agrarian_idyll
+				is_bugged_agrarian_idyll = yes
 			}
 		}
 		modifier = {
@@ -1288,6 +1467,40 @@ district_farming = {
 			job_pearl_diver_add = 1
 		}
 	}
+
+	#Bug Branch
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+				NOR = {
+					has_valid_civic = civic_anglers
+					has_valid_civic = civic_corporate_anglers
+				}
+			}
+		}
+		modifier = {
+			job_farmer_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+				OR = {
+					has_valid_civic = civic_anglers
+					has_valid_civic = civic_corporate_anglers
+				}
+			}
+		}
+		modifier = {
+			job_angler_add = 1
+		}
+	}
+	#Bug Branch
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -1499,17 +1712,28 @@ district_generator = {
 		upkeep = {
 			energy = @district_ukn_generator_1_upkeep_energy
 		}
+		#Bug Branch
+		upkeep = {
+			trigger = {
+				exists = owner
+				owner = {
+					is_bugged_government_intervention = yes
+				}
+			}
+			energy = 0.15
+		}
+		#Bug Branch
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = {
-				has_valid_civic = civic_agrarian_idyll
+				is_bugged_agrarian_idyll = yes
 			}
 		}
 		modifier = {
@@ -1560,6 +1784,33 @@ district_generator = {
 			job_fe_acolyte_generator_add = 2
 		}
 	}
+
+	#Bug Branch
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+            		owner = {
+				is_bugged_government_intervention = yes
+			} 
+		}
+		modifier = {
+			job_technician_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_policy_flag = economic_stance_bugged_free_market
+			}
+		}
+		modifier = {
+			job_technician_add = -1
+			job_bugged_trader_add = 1
+		}
+	}
+	#Bug Branch
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -1585,6 +1836,16 @@ district_generator = {
 			owner = { is_fallen_empire_spiritualist = yes }
 		}
 		text = job_fe_acolyte_generator_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_policy_flag = economic_stance_bugged_free_market
+			}
+		}
+		text = job_bugged_trader_effect_desc
 	}
 #----------------------------------------------------
 

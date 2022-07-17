@@ -169,7 +169,7 @@ district_ukn_hab_refinery = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {

@@ -848,6 +848,19 @@ building_paradise_dome = {
 			planet_housing_add = 1
 		}
 	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_bugged_keepers_of_harmony = yes
+			}
+		}
+		modifier = {
+			planet_jobs_unity_produces_mult = 0.1
+			planet_housing_add = 2
+		}
+	}
 #----------------------------------------------------
 }
 
