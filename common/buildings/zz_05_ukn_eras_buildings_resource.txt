@@ -256,6 +256,24 @@ building_ukn_food_processing_facility_3 = {
 	}
 #----------------------------------------------------
 	
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_bugged_functional_architecture = yes
+            }
+            NOR = {
+                is_planet_class = pc_habitat
+                is_planet_class = pc_machine
+                is_planet_class = pc_hive
+                is_planet_class = pc_city
+            }
+        }
+        modifier = {
+            district_farming_max = 2
+        }
+    }
+
 #[NORMAL] Default Empire - Building Base Resource Add
 	triggered_planet_modifier = {
 		potential = {
@@ -677,6 +695,24 @@ building_ukn_food_processing_facility_4 = {
 	}
 #----------------------------------------------------
 	
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_bugged_functional_architecture = yes
+            }
+            NOR = {
+                is_planet_class = pc_habitat
+                is_planet_class = pc_machine
+                is_planet_class = pc_hive
+                is_planet_class = pc_city
+            }
+        }
+        modifier = {
+            district_farming_max = 2
+        }
+    }
+
 #[NORMAL] Default Empire - Building Base Resource Add
 	triggered_planet_modifier = {
 		potential = {
@@ -1145,6 +1181,24 @@ building_ukn_food_processing_facility_5 = {
 		text = upgrade_district_ukn_alderson_farming
 	}
 #----------------------------------------------------
+
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_bugged_functional_architecture = yes
+            }
+            NOR = {
+                is_planet_class = pc_habitat
+                is_planet_class = pc_machine
+                is_planet_class = pc_hive
+                is_planet_class = pc_city
+            }
+        }
+        modifier = {
+            district_farming_max = 2
+        }
+    }
 	
 #[NORMAL] Default Empire - Building Base Resource Add
 	triggered_planet_modifier = {
@@ -1578,6 +1632,24 @@ building_ukn_mineral_purification_plant_3 = {
 			district_mining_max = 4
 		}
 	}
+
+	triggered_planet_modifier = { 
+        potential = {
+            exists = owner
+            owner = {
+                is_bugged_functional_architecture = yes
+            }
+            NOR = {
+                is_planet_class = pc_habitat
+                is_planet_class = pc_machine
+                is_planet_class = pc_hive
+                is_planet_class = pc_city
+            }
+        }
+        modifier = {
+            district_mining_max = 2
+        }
+    }
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -2003,6 +2075,24 @@ building_ukn_mineral_purification_plant_4 = {
 			district_mining_max = 4
 		}
 	}
+
+	triggered_planet_modifier = { 
+        potential = {
+            exists = owner
+            owner = {
+                is_bugged_functional_architecture = yes
+            }
+            NOR = {
+                is_planet_class = pc_habitat
+                is_planet_class = pc_machine
+                is_planet_class = pc_hive
+                is_planet_class = pc_city
+            }
+        }
+        modifier = {
+            district_mining_max = 2
+        }
+    }
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -2472,6 +2562,24 @@ building_ukn_mineral_purification_plant_5 = {
 			district_mining_max = 4
 		}
 	}
+
+	triggered_planet_modifier = { 
+        potential = {
+            exists = owner
+            owner = {
+                is_bugged_functional_architecture = yes
+            }
+            NOR = {
+                is_planet_class = pc_habitat
+                is_planet_class = pc_machine
+                is_planet_class = pc_hive
+                is_planet_class = pc_city
+            }
+        }
+        modifier = {
+            district_mining_max = 2
+        }
+    }
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -2942,6 +3050,24 @@ building_ukn_energy_grid_3 = {
 			district_generator_max = 4
 		}
 	}
+
+	triggered_planet_modifier = { 
+        potential = {
+            exists = owner
+            owner = {
+                is_bugged_functional_architecture = yes
+            }
+            NOR = {
+                is_planet_class = pc_habitat
+                is_planet_class = pc_machine
+                is_planet_class = pc_hive
+                is_planet_class = pc_city
+            }
+        }
+        modifier = {
+            district_generator_max = 2
+        }
+    }
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -3392,6 +3518,24 @@ building_ukn_energy_grid_4 = {
 			district_generator_max = 4
 		}
 	}
+
+	triggered_planet_modifier = { 
+        potential = {
+            exists = owner
+            owner = {
+                is_bugged_functional_architecture = yes
+            }
+            NOR = {
+                is_planet_class = pc_habitat
+                is_planet_class = pc_machine
+                is_planet_class = pc_hive
+                is_planet_class = pc_city
+            }
+        }
+        modifier = {
+            district_generator_max = 2
+        }
+    }
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -3893,6 +4037,24 @@ building_ukn_energy_grid_5 = {
 			district_generator_max = 4
 		}
 	}
+
+	triggered_planet_modifier = { 
+        potential = {
+            exists = owner
+            owner = {
+                is_bugged_functional_architecture = yes
+            }
+            NOR = {
+                is_planet_class = pc_habitat
+                is_planet_class = pc_machine
+                is_planet_class = pc_hive
+                is_planet_class = pc_city
+            }
+        }
+        modifier = {
+            district_generator_max = 2
+        }
+    }
 #----------------------------------------------------
 
 	triggered_desc = {

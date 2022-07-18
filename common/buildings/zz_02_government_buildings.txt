@@ -158,6 +158,14 @@ building_precinct_house = {
 		upkeep = {
 			energy = 2
 		}
+		upkeep = {
+            trigger = {
+                owner = {
+                    has_civic = civic_police_state
+                }
+            }
+            energy = 1
+        }
 	}
 
 	prerequisites = {
@@ -210,6 +218,14 @@ building_hall_judgment = {
 			energy = @b1_upkeep
 			volatile_motes = @b2_rare_upkeep
 		}
+		upkeep = {
+            trigger = {
+                owner = {
+                    has_civic = civic_police_state
+                }
+            }
+            energy = 2
+        }
 	}
 
 	prerequisites = {
@@ -419,6 +435,18 @@ building_clone_vats = {
 		}
 	}
 
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_bugged_evolutionary_architects = yes
+            }
+        }
+        modifier = {
+            planet_jobs_unity_produces_mult = 0.1
+        }
+    }
+	
 	triggered_desc = {
 		trigger = {
 			OR = {

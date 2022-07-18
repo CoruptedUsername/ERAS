@@ -162,7 +162,7 @@ district_ukn_rw_refinery = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {
@@ -1089,7 +1089,7 @@ district_ukn_rw_exotic_particle_factory = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 #		planet_jobs_produces_mult = -0.10
 	}
 

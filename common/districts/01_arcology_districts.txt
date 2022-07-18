@@ -184,7 +184,7 @@ district_arcology_housing = {
 			owner = { is_gestalt = yes }
 		}
 		modifier = {
-			job_maintenance_drone_add = 9
+			job_maintenance_drone_add = 3
 		}
 	}
 
@@ -194,7 +194,7 @@ district_arcology_housing = {
 			owner = { has_active_tradition = tr_prosperity_public_works }
 		}
 		modifier = {
-			planet_housing_add = 3
+			planet_housing_add = 1
 		}
 	}
 
@@ -206,7 +206,7 @@ district_arcology_housing = {
 			}
 		}
 		modifier = {
-			planet_housing_add = 3
+			planet_housing_add = 1
 		}
 	}
 
@@ -215,11 +215,11 @@ district_arcology_housing = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_2
-				NOT = { has_valid_civic = civic_agrarian_idyll }
+				NOT = { is_bugged_agrarian_idyll = yes }
 			}
 		}
 		modifier = {
-			planet_housing_add = 3
+			planet_housing_add = 1
 		}
 	}
 
@@ -232,7 +232,7 @@ district_arcology_housing = {
 			}
 		}
 		modifier = {
-			job_maintenance_drone_add = 3
+			job_maintenance_drone_add = 1
 		}
 	}
 
@@ -244,7 +244,7 @@ district_arcology_housing = {
 			}
 		}
 		modifier = {
-			job_clerk_add = 6
+			job_clerk_add = 2
 		}
 	}
 
@@ -254,9 +254,22 @@ district_arcology_housing = {
 			owner = { has_active_tradition = tr_prosperity_interstellar_franchising }
 		}
 		modifier = {
-			job_clerk_add = 6
+			job_clerk_add = 1
 		}
 	}
+
+	#Bug Branch
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_valid_civic = civic_bugged_rooftop_farmers }
+		}
+		modifier = {
+			job_clerk_add = -2
+			job_farmer_add = 2
+		}
+	}
+	#Bug Branch
 
 	triggered_desc = {
 		trigger = {
@@ -275,6 +288,16 @@ district_arcology_housing = {
 		}
 		text = job_maintenance_drone_effect_desc
 	}
+
+	#Bug Branch
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { has_valid_civic = civic_bugged_rooftop_farmers }
+		}
+		text = job_farmer_effect_desc
+	}
+	#Bug Branch
 }
 
 
@@ -834,7 +857,7 @@ district_arcology_arms_industry = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 2
+		planet_housing_add = 1
 	}
 #----------------------------------------------------
 
@@ -1664,7 +1687,7 @@ district_arcology_civilian_industry = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 3
+		planet_housing_add = 1
 	}
 
 	triggered_planet_modifier = {

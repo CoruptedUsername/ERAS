@@ -96,9 +96,8 @@ UKN_CANNOT_BUILD_CORPORATE_BUREAUCRATIC_GRID = {
 UKN_CAN_BUILD_TEMPLE_GRID = {
 	owner = {
 		is_spiritualist = yes
-		NOR = {
-			has_valid_civic = civic_death_cult
-			has_valid_civic = civic_death_cult_corporate
+		NOT = {
+			is_cult = yes
 		}
 	}
 	NOT = { has_modifier = slave_colony }
@@ -109,8 +108,7 @@ UKN_CANNOT_BUILD_TEMPLE_GRID = {
 		owner = {
 			OR = {
 				is_spiritualist = no
-				has_valid_civic = civic_death_cult
-				has_valid_civic = civic_death_cult_corporate
+				is_cult = yes
 			}
 		}
 		has_modifier = slave_colony

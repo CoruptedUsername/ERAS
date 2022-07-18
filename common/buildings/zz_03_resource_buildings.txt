@@ -529,6 +529,24 @@ building_food_processing_facility = {
 	
 #----------------------------------------------------
 
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_bugged_functional_architecture = yes
+            }
+            NOR = {
+                is_planet_class = pc_habitat
+                is_planet_class = pc_machine
+                is_planet_class = pc_hive
+                is_planet_class = pc_city
+            }
+        }
+        modifier = {
+            district_farming_max = 1
+        }
+    }
+
 #[NORMAL] Jobs
 	triggered_desc = {
 		trigger = {
@@ -898,6 +916,24 @@ building_food_processing_center = {
 	
 #----------------------------------------------------
 
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_bugged_functional_architecture = yes
+            }
+            NOR = {
+                is_planet_class = pc_habitat
+                is_planet_class = pc_machine
+                is_planet_class = pc_hive
+                is_planet_class = pc_city
+            }
+        }
+        modifier = {
+            district_farming_max = 2
+        }
+    }
+
 #[NORMAL] Jobs
 	triggered_desc = {
 		trigger = {
@@ -1216,6 +1252,24 @@ building_mineral_purification_plant = {
 			district_mining_max = 2
 		}
 	}
+
+	triggered_planet_modifier = { 
+        potential = {
+            exists = owner
+            owner = {
+                is_bugged_functional_architecture = yes
+            }
+            NOR = {
+                is_planet_class = pc_habitat
+                is_planet_class = pc_machine
+                is_planet_class = pc_hive
+                is_planet_class = pc_city
+            }
+        }
+        modifier = {
+            district_mining_max = 1
+        }
+    }
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -1594,6 +1648,24 @@ building_mineral_purification_hub = {
 			district_mining_max = 4
 		}
 	}
+
+	triggered_planet_modifier = { 
+        potential = {
+            exists = owner
+            owner = {
+                is_bugged_functional_architecture = yes
+            }
+            NOR = {
+                is_planet_class = pc_habitat
+                is_planet_class = pc_machine
+                is_planet_class = pc_hive
+                is_planet_class = pc_city
+            }
+        }
+        modifier = {
+            district_mining_max = 2
+        }
+    }
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -1988,6 +2060,24 @@ building_energy_grid = {
 			district_generator_max = 2
 		}
 	}
+
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_bugged_functional_architecture = yes
+            }
+            NOR = {
+                is_planet_class = pc_habitat
+                is_planet_class = pc_machine
+                is_planet_class = pc_hive
+                is_planet_class = pc_city
+            }
+        }
+        modifier = {
+            district_generator_max = 1
+        }
+    }
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -2385,6 +2475,24 @@ building_energy_nexus = {
 			district_generator_max = 4
 		}
 	}
+
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_bugged_functional_architecture = yes
+            }
+            NOR = {
+                is_planet_class = pc_habitat
+                is_planet_class = pc_machine
+                is_planet_class = pc_hive
+                is_planet_class = pc_city
+            }
+        }
+        modifier = {
+            district_generator_max = 1
+        }
+    }
 #----------------------------------------------------
 
 	triggered_desc = {
