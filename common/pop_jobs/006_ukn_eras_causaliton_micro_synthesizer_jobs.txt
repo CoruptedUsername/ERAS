@@ -1,8 +1,8 @@
-##########[RINGWORLD] QUASI-MATTER ##########
-ukn_quasi_matter_supramutator = {
+##########[RINGWORLD] OSCILLYONS ##########
+ukn_causaliton_micro_synthesizer = {
 	category = specialist
 	condition_string = SPECIALIST_JOB_TRIGGER
-	building_icon = building_ukn_quasi_matter_micro_array_grid
+	building_icon = building_ukn_causaliton_micro_synthesizer_grid
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {
@@ -18,7 +18,7 @@ ukn_quasi_matter_supramutator = {
 	}
 
 	resources = {
-		category = planet_ukn_quasi_matter_supramutators
+		category = planet_ukn_causaliton_micro_synthesizers
 #############
 # RINGWORLD #
 #############
@@ -28,7 +28,7 @@ ukn_quasi_matter_supramutator = {
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			ukn_quasi_matter = 3
+			ukn_causalitons = 2
 		}
 		upkeep = {
 			trigger = {
@@ -36,9 +36,8 @@ ukn_quasi_matter_supramutator = {
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 165
-			energy = 690
-			sr_dark_matter = 15
+			ukn_quasi_matter = 6
+			ehof_sr_negative_mass = 10
 		}
 ############
 # ALDERSON #
@@ -49,7 +48,7 @@ ukn_quasi_matter_supramutator = {
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			ukn_quasi_matter = 10
+			ukn_causalitons = 7
 		}
 		upkeep = {
 			trigger = {
@@ -57,22 +56,21 @@ ukn_quasi_matter_supramutator = {
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 550
-			energy = 2300
-			sr_dark_matter = 50
+			ukn_quasi_matter = 21
+			ehof_sr_negative_mass = 35
 		}
 	}
 
 	weight = {
 		weight = @specialist_job_weight
-		mult = value:job_weights_modifier|JOB|ukn_quasi_matter_supramutator|RESOURCE|ukn_quasi_matter|
+		mult = value:job_weights_modifier|JOB|ukn_causaliton_micro_synthesizer|RESOURCE|ukn_causaliton|
 	}
 }
 
-ukn_quasi_matter_supramutation_drone = {
+ukn_causaliton_micro_synthesis_drone = {
 	category = complex_drone
 	condition_string = DRONE_JOB_TRIGGER
-	building_icon = building_ukn_condensics_compositation_grid
+	building_icon = building_ukn_causaliton_micro_synthesizer_grid
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {
@@ -88,7 +86,7 @@ ukn_quasi_matter_supramutation_drone = {
 	}
 
 	resources = {
-		category = planet_ukn_quasi_matter_supramutators
+		category = planet_ukn_causaliton_micro_synthesizers
 #############
 # RINGWORLD #
 #############
@@ -98,7 +96,7 @@ ukn_quasi_matter_supramutation_drone = {
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			ukn_quasi_matter = 3
+			ukn_causalitons = 2
 		}
 		upkeep = {
 			trigger = {
@@ -106,9 +104,8 @@ ukn_quasi_matter_supramutation_drone = {
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 165
-			energy = 690
-			sr_dark_matter = 15
+			ukn_quasi_matter = 6
+			ehof_sr_negative_mass = 10
 		}
 ############
 # ALDERSON #
@@ -119,7 +116,7 @@ ukn_quasi_matter_supramutation_drone = {
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			ukn_quasi_matter = 10
+			ukn_causalitons = 7
 		}
 		upkeep = {
 			trigger = {
@@ -127,15 +124,13 @@ ukn_quasi_matter_supramutation_drone = {
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 550
-			energy = 2300
-			sr_dark_matter = 50
+			ukn_quasi_matter = 21
+			ehof_sr_negative_mass = 35
 		}
 	}
 
 	weight = {
 		weight = @complex_drone_job_weight
-		mult = value:job_weights_modifier|JOB|ukn_quasi_matter_supramutation_drone|RESOURCE|ukn_quasi_matter|
+		mult = value:job_weights_modifier|JOB|ukn_causaliton_micro_synthesis_drone|RESOURCE|ukn_causaliton|
 	}
 }
-

@@ -18,6 +18,34 @@ researcher = {
 		complex_specialist_job_check_trigger = yes
 	}
 
+	#Bug Branch
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_bugged_research_consultants
+			}
+		}
+		trade_value_add = 2
+        mult = value:scripted_modifier_mult|MODIFIER|pop_job_trade_mult|
+	}
+	triggered_planet_modifier = {
+		potential = {
+			planet = { has_active_building = building_bugged_planetary_stock_exchange }
+			owner = { has_valid_civic = civic_bugged_research_consultants }
+		}
+		trade_value_add = 1
+        mult = value:scripted_modifier_mult|MODIFIER|pop_job_trade_mult|
+	}
+	triggered_planet_modifier = {
+		potential = {
+			planet = { has_active_building = building_galactic_stock_exchange }
+			owner = { has_valid_civic = civic_bugged_research_consultants }
+		}
+		trade_value_add = 2
+        mult = value:scripted_modifier_mult|MODIFIER|pop_job_trade_mult|
+	}
+
 	resources = {
 		category = planet_researchers
 ##########
@@ -244,10 +272,39 @@ researcher = {
 			}
 			energy = 50
 		}
+############
+# OVERLORD #
+############
+		upkeep = {
+			consumer_goods = 2
+		}
+		upkeep = {
+			trigger = {
+				planet = {
+					has_planet_flag = has_science_ministry
+				}
+			}
+			consumer_goods = 1
+		}
+	}
+
+	overlord_resources = {
+		category = planet_requisitioned_research
+		produces = {
+			trigger = {
+				planet = {
+					has_planet_flag = has_science_ministry
+				}
+			}
+			physics_research = 2
+			engineering_research = 2
+			society_research = 2
+		}
 	}
 
 	weight = {
 		weight = @specialist_job_weight
+		mult = value:job_weights_research_modifier|JOB|researcher|
 		modifier = {
 			factor = 0.2
 			has_citizenship_rights = no
@@ -258,82 +315,17 @@ researcher = {
 			has_living_standard = { type = living_standard_academic_privilege }
 		}
 		modifier = {
-			factor = 3
-			has_trait = trait_erudite
-		}
-		modifier = {
-			factor = 2
-			OR = {
-				has_trait = trait_robot_logic_engines
-				has_trait = trait_intelligent
-			}
-		}
-		modifier = {
-			factor = 2
-			has_trait = trait_brainslug
-		}
-		modifier = {
-			factor = 1.5
-			OR = {
-				has_trait = trait_natural_engineers
-				has_trait = trait_natural_physicists
-				has_trait = trait_natural_sociologists
-			}
-		}
-		modifier = {
 			factor = 0.1
 			can_take_servant_job = yes
-		}
-		modifier = {
-			factor = 0.65
-			has_trait = trait_presapient_proles
 		}
 		modifier = {
 			factor = 1.5
 			has_job = researcher
 		}
 		modifier = {
-			factor = 1.5
-			has_trait = trait_latent_psionic
-		}
-		modifier = {
-			factor = 2
-			has_trait = trait_psionic
-		}
-		modifier = {
-			factor = 0.1
-			has_trait = trait_enigmatic_intelligence_failed
-		}
-		modifier = {
-			factor = 2
-			OR = {
-				has_trait = trait_enigmatic_intelligence
-				has_trait = trait_enigmatic_intelligence_poor
-			}
-		}
-		modifier = {
-			factor = 2
-			has_trait = trait_presapient_natural_intellectuals
-		}
-		modifier = {
-			factor = 1.5
-			OR = {
-				has_trait = trait_robust
-				has_trait = trait_robot_efficient_processors
-			}
-		}
-		modifier = {
 			factor = 0.8
 			is_enslaved = yes
 			has_slavery_type = { type = slavery_indentured }
-		}
-		modifier = {
-			factor = 1.5
-			has_trait = trait_void_dweller_1
-		}
-		modifier = {
-			factor = 1.5
-			has_trait = trait_necrophage
 		}
 	}
 }
@@ -583,48 +575,42 @@ calculator = {
 			}
 			energy = 50
 		}
+############
+# OVERLORD #
+############
+		upkeep = {
+			trigger = {
+				planet = {
+					has_planet_flag = has_science_ministry
+				}
+			}
+			energy = 2
+		}
+	}
+
+	overlord_resources = {
+		category = planet_requisitioned_research
+		produces = {
+			trigger = {
+				planet = {
+					has_planet_flag = has_science_ministry
+				}
+			}
+			physics_research = 2
+			engineering_research = 2
+			society_research = 2
+		}
 	}
 
 	weight = {
 		weight = @complex_drone_job_weight
-		modifier = {
-			factor = 3
-			has_trait = trait_erudite
-		}
-		modifier = {
-			factor = 2
-			OR = {
-				has_trait = trait_robot_logic_engines
-				has_trait = trait_intelligent
-			}
-		}
-		modifier = {
-			factor = 1.5
-			OR = {
-				has_trait = trait_natural_engineers
-				has_trait = trait_natural_physicists
-				has_trait = trait_natural_sociologists
-			}
-		}
+		mult = value:job_weights_research_modifier|JOB|calculator|
 		modifier = {
 			factor = 0.9
 			exists = owner
 			years_passed < 1
 			owner = { has_valid_civic = civic_machine_assimilator }
 			has_trait = trait_cybernetic
-		}
-		modifier = {
-			factor = 0
-			planet = {
-				owner = {
-					is_ai = yes
-					has_resource = { type = minerals amount < 500 }
-					has_monthly_income = {
-						resource = minerals
-						value < 25
-					}
-				}
-			}
 		}
 	}
 }
@@ -874,52 +860,42 @@ brain_drone = {
 			}
 			energy = 50
 		}
+############
+# OVERLORD #
+############
+		upkeep = {
+			trigger = {
+				planet = {
+					has_planet_flag = has_science_ministry
+				}
+			}
+			minerals = 2
+		}
+	}
+
+	overlord_resources = {
+		category = planet_requisitioned_research
+		produces = {
+			trigger = {
+				planet = {
+					has_planet_flag = has_science_ministry
+				}
+			}
+			physics_research = 2
+			engineering_research = 2
+			society_research = 2
+		}
 	}
 
 	weight = {
 		weight = @complex_drone_job_weight
-		modifier = {
-			factor = 3
-			has_trait = trait_erudite
-		}
-		modifier = {
-			factor = 2
-			has_trait = trait_intelligent
-		}
-		modifier = {
-			factor = 1.5
-			OR = {
-				has_trait = trait_natural_engineers
-				has_trait = trait_natural_physicists
-				has_trait = trait_natural_sociologists
-			}
-		}
-		modifier = {
-			factor = 0.65
-			OR = {
-				has_trait = trait_syncretic_proles
-				has_trait = trait_presapient_proles
-			}
-		}
+		mult = value:job_weights_research_modifier|JOB|brain_drone|
 		modifier = {
 			factor = 0.9
 			exists = owner
 			years_passed < 1
 			owner = { has_valid_civic = civic_machine_assimilator }
 			has_trait = trait_cybernetic
-		}
-		modifier = {
-			factor = 0
-			planet = {
-				owner = {
-					is_ai = yes
-					has_resource = { type = minerals amount < 500 }
-					has_monthly_income = {
-						resource = minerals
-						value < 25
-					}
-				}
-			}
 		}
 	}
 }

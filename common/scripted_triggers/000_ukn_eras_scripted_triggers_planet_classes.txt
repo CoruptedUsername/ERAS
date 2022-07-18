@@ -14,10 +14,10 @@ UKN_CAN_BUILD_GAIA_WORLDS = {
 	always = yes
 }
 UKN_CAN_BUILD_CITY_WORLDS = {
-	OR = {
-# ARCOLOGY PROJECT AP
-		has_ascension_perk = ap_arcology_project
-	}
+    OR = {
+# ARCOLOGY PROJECT TECH
+        has_technology = tech_ukn_ecumenopolis
+    }
 }
 UKN_CAN_BUILD_MACHINE_WORLDS = {
 	OR = {

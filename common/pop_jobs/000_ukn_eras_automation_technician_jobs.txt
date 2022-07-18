@@ -38,7 +38,7 @@ ukn_automation_technician_normal = {
 	}
 
 	weight = {
-		weight = @specialist_job_weight
+		weight = 1000
 		modifier = {
 			factor = 100
 		}
