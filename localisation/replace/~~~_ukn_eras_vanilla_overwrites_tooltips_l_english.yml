@@ -311,11 +311,6 @@
  operation_sabotage_starbase_no_targets:0 "$TRIGGER_FAIL$ §RWe can only target Starbases with modules and $name_ukn_building_lower_case$ types which aren't Shipyards.§!"
  tech_planetary_infrastructure_1_desc:0 "Stronger alloys allow us to create prefabricated $name_ukn_building_lower_case$ types, providing our colonies with the improved infrastructural integrity."
  
-#overlord_mega_l_english
- sm_ring_trade_hub_effect:0 "£amenities£ Amenities from £job_bugged_trader£ $job_bugged_trader_plural$: §G+1§!"
- 
-#overlord_subjects_l_english
- holding_franchise_headquarters_effect:0 "\n£job_bugged_trader£ §Y$job_bugged_trader_plural$§! produce §R-2§! £trade_value£ §YTrade Value§! for the Subject and produce §G0.5§! £unity£ §Y$unity$§! for the Overlord."
  
 #pop_factions_l_english
  POP_FACTION_PLANET_SEPARATIST_SABOTAGE_DESC:0 "Riots on the planet §Rruin§! an $name_ukn_building$ Type."
