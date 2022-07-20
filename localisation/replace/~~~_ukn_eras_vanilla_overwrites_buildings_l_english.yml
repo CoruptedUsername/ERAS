@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿l_english:
+l_english:
 
 # MISCELLAEOUS CITY-BUFFING BUILDINGS #-------------
  
@@ -421,5 +420,3 @@
  building_planetary_shield_generator_desc:0 "$building_ukn_planetary_shield_generator_1_desc$"
  mod_planet_building_planetary_shield_generator_build_speed_mult:0 "$mod_planet_building_ukn_planetary_shield_generator_1_build_speed_mult$"
  PLANET_DESTRUCTION_COMPONENT:0 "§HColossal Component§! "
->>>>>>> 870a04855bc519b0e106bf79a9766bce587e91b5
- 
