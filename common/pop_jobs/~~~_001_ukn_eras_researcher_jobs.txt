@@ -276,9 +276,6 @@ researcher = {
 # OVERLORD #
 ############
 		upkeep = {
-			consumer_goods = 2
-		}
-		upkeep = {
 			trigger = {
 				planet = {
 					has_planet_flag = has_science_ministry
