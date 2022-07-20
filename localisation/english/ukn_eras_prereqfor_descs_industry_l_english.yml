@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿l_english:
+l_english:
  
  
 # SPACE STRUCTURES TECHS #---------------------------------------------------------
@@ -416,5 +415,4 @@
  TECH_UNLOCK_UKN_ENGINEERING_OUTPUT_8_DESC:0 "§H$UKN_SET_ARMOR_9$§!\n$UKN_SET_ARMOR_9_desc$"
  
  TECH_UNLOCK_UKN_ENGINEERING_OUTPUT_9_TITLE:0 "§HUnlocks Component Set:§! £ukn_icon_armor£ $UKN_SET_ARMOR_10$"
->>>>>>> 870a04855bc519b0e106bf79a9766bce587e91b5
  TECH_UNLOCK_UKN_ENGINEERING_OUTPUT_9_DESC:0 "§H$UKN_SET_ARMOR_10$§!\n$UKN_SET_ARMOR_10_desc$"
