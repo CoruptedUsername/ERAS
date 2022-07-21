@@ -162,5 +162,5 @@
  decision_ukn_planet_articles_construction_boost_desc:0 "By installing grants for heavy construction machinery and equipment, we can enable the rapid assembly of local infrastructure."
  
 #[PRODUCTION] Distribute Articles
- decision_ukn_planet_articles_abstract_production_boost:0 "§L§!§B§!£consumer_goods£ Distribute Specialist Apparatus"
+ decision_ukn_planet_articles_abstract_production_boost:0 "§L§!§H§!£consumer_goods£ Distribute Specialist Apparatus"
  decision_ukn_planet_articles_abstract_production_boost_desc:0 "By supplying tech- and management groups with specialist equipment, their productivity can be significantly increased."
