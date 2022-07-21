@@ -560,8 +560,8 @@ guiTypes = {
 					}
 					expandedWindow = {
 						name = "expanded_window"
-						hide_position = { x = 0 y = -190 }
-						show_position = { x = 0 y = 44 }
+						hide_position = { x = -4 y = -190 }
+						show_position = { x = -4 y = 44 }
 						size = { width = 510 height = 300 }
 						if_resolution = {
 							min_width = 2560
@@ -680,7 +680,7 @@ guiTypes = {
 						position = { x = -23 y = -100 }
 						hide_position = { x = -23 y = -100 }
 						show_position = { x = -23 y = 44 }
-						size = { width = 110 height = 85 }
+						size = { width = 110 height = 105 }
 						show_animation_type = decelerated
 						hide_animation_type = accelerated
 						animation_time = 200
