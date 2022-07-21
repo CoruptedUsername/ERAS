@@ -282,7 +282,7 @@ mod_ukn_causalitons_based_exotic_particle_production = {
 mod_ukn_planet_articles_trade_boost = {
 	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_planet_articles_trade_boost.dds"
 	icon_frame = 1
-	trade_value_mult  = 0.075
+	trade_value_mult  = 0.10
 }
 mod_ukn_planet_articles_construction_boost = {
 	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_planet_articles_construction_boost.dds"

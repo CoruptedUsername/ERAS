@@ -164,7 +164,6 @@ decision_ukn_planet_articles_construction_boost = {
 		cost = {
 			trigger = {
 				num_districts = { type = any value >= 45 }
-				num_districts >= 45
 			}
 			consumer_goods = 1100
 		}
