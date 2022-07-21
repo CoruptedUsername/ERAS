@@ -566,7 +566,7 @@ strike_craft_component_template = {
 		produces = { 
 			unity = 20 
 			society_research = 25 
-			trade_value = 40
+			# trade_value = 40
 		}
 		upkeep = { 
 			energy = 5

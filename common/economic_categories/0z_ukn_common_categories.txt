@@ -970,8 +970,11 @@ ships = {
 		}
 
 		trigger = {
-			is_scope_valid = yes #When called from ship designer the design is not valid yet.
-			is_ship_size = corvette
+			is_scope_valid = yes
+			OR = {
+				is_ship_size = corvette
+				is_ship_size = offspring_corvette
+			}
 		}
 	}
 
@@ -984,8 +987,11 @@ ships = {
 		}
 
 		trigger = {
-			is_scope_valid = yes #When called from ship designer the design is not valid yet.
-			is_ship_size = destroyer
+			is_scope_valid = yes
+			OR = {
+				is_ship_size = destroyer
+				is_ship_size = offspring_destroyer
+			}
 		}
 	}
 
@@ -998,8 +1004,11 @@ ships = {
 		}
 
 		trigger = {
-			is_scope_valid = yes #When called from ship designer the design is not valid yet.
-			is_ship_size = cruiser
+			is_scope_valid = yes
+			OR = {
+				is_ship_size = cruiser
+				is_ship_size = offspring_cruiser
+			}
 		}
 	}
 
@@ -1012,8 +1021,11 @@ ships = {
 		}
 
 		trigger = {
-			is_scope_valid = yes #When called from ship designer the design is not valid yet.
-			is_ship_size = battleship
+			is_scope_valid = yes
+			OR = {
+				is_ship_size = battleship
+				is_ship_size = offspring_battleship
+			}
 		}
 	}
 
@@ -1030,7 +1042,18 @@ ships = {
 			is_ship_size = military_station_small
 		}
 	}
+	triggered_upkeep_modifier = {
+		key = shipsize_military_station_small
+		use_parent_icon = yes
+		modifier_types = {
+			mult
+		}
 
+		trigger = {
+			is_scope_valid = yes
+			is_ship_size = military_station_small
+		}
+	}
 	triggered_cost_modifier = {
 		key = ship_science
 		use_parent_icon = yes
@@ -1042,6 +1065,36 @@ ships = {
 		trigger = {
 			is_scope_valid = yes #When called from ship designer the design is not valid yet.
 			is_ship_class = shipclass_science_ship
+		}
+	}
+	triggered_cost_modifier = {
+		key = ship_military
+		use_parent_icon = yes
+		modifier_types = {
+			mult
+		}
+
+		trigger = {
+			is_scope_valid = yes
+			OR = {
+				is_ship_class = shipclass_military
+				is_ship_class = shipclass_military_special
+			}
+		}
+	}
+	triggered_upkeep_modifier = {
+		key = ship_military
+		use_parent_icon = yes
+		modifier_types = {
+			mult
+		}
+
+		trigger = {
+			is_scope_valid = yes
+			OR = {
+				is_ship_class = shipclass_military
+				is_ship_class = shipclass_military_special
+			}
 		}
 	}
 }
@@ -1227,7 +1280,10 @@ starbase_stations = {
 
 		trigger = {
 			is_scope_valid = yes #When called from ship designer the design is not valid yet.
-			is_ship_size = starbase_outpost
+			OR = {
+				is_ship_size = starbase_outpost
+				is_ship_size = orbital_ring_tier_1 #TODOJM: Remove?
+			}
 		}
 	}
 }
@@ -4517,18 +4573,18 @@ planet_farmers = {
 	}
 }
 
-planet_miners = {
-	parent = planet_jobs_productive
+# planet_miners = {
+# 	parent = planet_jobs_productive
 
-    generate_mult_modifiers = {
-		produces
-		upkeep
-	}
-    generate_add_modifiers = {
-		produces
-		upkeep
-	}
-}
+#     generate_mult_modifiers = {
+# 		produces
+# 		upkeep
+# 	}
+#     generate_add_modifiers = {
+# 		produces
+# 		upkeep
+# 	}
+# }
 
 planet_sr_miners = { #added because we don't want miners_minerals_produces_add to apply to these
 	parent = planet_miners

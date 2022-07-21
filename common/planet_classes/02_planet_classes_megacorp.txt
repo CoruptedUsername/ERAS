@@ -1,7 +1,7 @@
 pc_city = {
 	entity = "city_planet"
 	entity_scale = @planet_standard_scale
-	icon_frame = 25
+	# #icon_frame = 25
 
 	climate = "dry"
 

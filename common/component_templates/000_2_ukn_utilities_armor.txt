@@ -624,6 +624,7 @@ utility_component_template = {
 	component_set = "UKN_SET_ARMOR_4"
 	upgrades_to = "MEDIUM_ARMOR_5"
 	resources = {
+		cost = {
 			minerals = @ukn_medium_t4_component_cost_minerals
 			alloys = @ukn_medium_t4_component_cost_alloys
 #			ukn_meta_materials = @ukn_medium_t4_component_cost_ukn_meta_materials
@@ -637,7 +638,7 @@ utility_component_template = {
 #---
 			ukn_meta_materials = @ukn_medium_t4_armor_cost_ukn_meta_materials
 			nanites = @ukn_medium_t4_armor_cost_nanites
-#---
+#---}
 #			ukn_meta_materials = @ukn_medium_t4_shields_cost_ukn_meta_materials
 #			volatile_motes = @ukn_medium_t4_shields_cost_volatile_motes
 		}
@@ -661,6 +662,7 @@ utility_component_template = {
 #			alloys = @ukn_medium_t4_kinetics_upkeep_alloys
 #			ukn_meta_materials = @ukn_medium_t4_kinetics_upkeep_ukn_meta_materials
 	}
+}
 	ai_weight = {
 		weight = 32
 	}

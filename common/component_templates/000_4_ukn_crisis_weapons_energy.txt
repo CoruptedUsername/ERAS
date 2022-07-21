@@ -38,11 +38,11 @@ weapon_component_template = {
     shield_damage = @ukn_crisis_scourge_plasma_8_shield_damage_mult
     tracking = @ukn_crisis_scourge_plasma_8_s_tracking
 	
-	prerequisites = { "tech_ukn_scourge_plasma_8" } #To Be Done
+	prerequisites = { "tech_ukn_LOCKED" } #To Be Done
 	component_set = "UKN_SET_SCOURGE_PLASMA_0"
 	projectile_gfx = "projectile_ukn_scourge_plasma_0S"
 	tags = { weapon_type_energy ukn_weapon_type_plasma }
-	upgrades_to = "UKN_SMALL_SCOURGE_PLASMA_1"
+	# upgrades_to = "UKN_SMALL_SCOURGE_PLASMA_1"
 	
 	resources = {
 		category = ship_components
@@ -121,11 +121,11 @@ weapon_component_template = {
     shield_damage = @ukn_crisis_scourge_plasma_8_shield_damage_mult
     tracking = @ukn_crisis_scourge_plasma_8_m_tracking
 	
-	prerequisites = { "tech_ukn_scourge_plasma_8" } #To Be Done
+	prerequisites = { "tech_ukn_LOCKED" } #To Be Done
 	component_set = "UKN_SET_SCOURGE_PLASMA_0"
 	projectile_gfx = "projectile_ukn_scourge_plasma_0M"
 	tags = { weapon_type_energy ukn_weapon_type_plasma }
-	upgrades_to = "UKN_MEDIUM_SCOURGE_PLASMA_1"
+	# upgrades_to = "UKN_MEDIUM_SCOURGE_PLASMA_1"
 	
 	resources = {
 		category = ship_components
@@ -203,11 +203,11 @@ weapon_component_template = {
     shield_damage = @ukn_crisis_scourge_plasma_8_shield_damage_mult
     tracking = @ukn_crisis_scourge_plasma_8_l_tracking
 	
-	prerequisites = { "tech_ukn_scourge_plasma_8" } #To Be Done
+	prerequisites = { "tech_ukn_LOCKED" } #To Be Done
 	component_set = "UKN_SET_SCOURGE_PLASMA_0"
 	projectile_gfx = "projectile_ukn_scourge_plasma_0L"
 	tags = { weapon_type_energy ukn_weapon_type_plasma }
-	upgrades_to = "UKN_LARGE_SCOURGE_PLASMA_1"
+	# upgrades_to = "UKN_LARGE_SCOURGE_PLASMA_1"
 	
 	resources = {
 		category = ship_components

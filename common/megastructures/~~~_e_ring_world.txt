@@ -2531,7 +2531,7 @@ ring_world_3_intermediate = {
 	}
 }
 ##################################|
-
+}
 
 # UNUSED ###########################|
 #(Here so other mods which spawn vanilla ringworlds/vanilla ruined ringworlds don't break)

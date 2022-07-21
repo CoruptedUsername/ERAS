@@ -5,7 +5,7 @@ mega_shipyard_0 = {
 	place_entity_on_planet_plane = no
 	entity_offset = { x = -27 y = -27 }
 	prerequisites = { "tech_mega_shipyard" }
-	ship_modifiers = { ship_starting_experience_add = @ukn_mega_shipyard_p0_ship_starting_experience_add }
+	ship_modifier = { ship_starting_experience_add = @ukn_mega_shipyard_p0_ship_starting_experience_add }
 	station_modifier = {
 		starbase_shipyard_capacity_add = @ukn_mega_shipyard_p0_starbase_shipyard_capacity_add
 		starbase_shipyard_build_speed_mult = @ukn_mega_shipyard_p0_starbase_shipyard_build_speed_mult
@@ -130,7 +130,7 @@ mega_shipyard_1 = {
 	entity_offset = { x = -27 y = -27 }
 	upgrade_from = { mega_shipyard_0 }
 	prerequisites = { "tech_mega_shipyard" }
-	ship_modifiers = { ship_starting_experience_add = @ukn_mega_shipyard_p1_ship_starting_experience_add }
+	ship_modifier = { ship_starting_experience_add = @ukn_mega_shipyard_p1_ship_starting_experience_add }
 	station_modifier = {
 		starbase_shipyard_capacity_add = @ukn_mega_shipyard_p1_starbase_shipyard_capacity_add
 		starbase_shipyard_build_speed_mult = @ukn_mega_shipyard_p1_starbase_shipyard_build_speed_mult
@@ -170,7 +170,7 @@ mega_shipyard_2 = {
 	entity_offset = { x = -27 y = -27 }
 	upgrade_from = { mega_shipyard_1 }
 	prerequisites = { "tech_mega_shipyard" }
-	ship_modifiers = { ship_starting_experience_add = @ukn_mega_shipyard_p2_ship_starting_experience_add }
+	ship_modifier = { ship_starting_experience_add = @ukn_mega_shipyard_p2_ship_starting_experience_add }
 	station_modifier = {
 		starbase_shipyard_capacity_add = @ukn_mega_shipyard_p2_starbase_shipyard_capacity_add
 		starbase_shipyard_build_speed_mult = @ukn_mega_shipyard_p2_starbase_shipyard_build_speed_mult
@@ -212,7 +212,7 @@ mega_shipyard_3 = {
 	upgrade_from = { mega_shipyard_2 }
 	prerequisites = { "tech_mega_shipyard" }
 #	show_prereqs = yes
-	ship_modifiers = { ship_starting_experience_add = @ukn_mega_shipyard_p3_ship_starting_experience_add }
+	ship_modifier = { ship_starting_experience_add = @ukn_mega_shipyard_p3_ship_starting_experience_add }
 	station_modifier = {
 		starbase_shipyard_capacity_add = @ukn_mega_shipyard_p3_starbase_shipyard_capacity_add
 		starbase_shipyard_build_speed_mult = @ukn_mega_shipyard_p3_starbase_shipyard_build_speed_mult
@@ -269,7 +269,7 @@ mega_shipyard_restored = {
 	place_entity_on_planet_plane = no
 	entity_offset = { x = -27 y = -27 }
 	upgrade_from = { mega_shipyard_ruined }
-	ship_modifiers = { ship_starting_experience_add = @ukn_mega_shipyard_r_ship_starting_experience_add }
+	ship_modifier = { ship_starting_experience_add = @ukn_mega_shipyard_r_ship_starting_experience_add }
 	station_modifier = {
 		starbase_shipyard_capacity_add = @ukn_mega_shipyard_r_starbase_shipyard_capacity_add
 		starbase_shipyard_build_speed_mult = @ukn_mega_shipyard_r_starbase_shipyard_build_speed_mult

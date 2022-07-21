@@ -1,0 +1,6 @@
+planet_miners_specific_minerals = {
+	icon = mod_planet_amenities_mult
+	percentage = no
+	good = yes
+	category = pop
+}

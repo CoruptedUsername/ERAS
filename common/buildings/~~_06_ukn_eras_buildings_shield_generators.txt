@@ -2,7 +2,7 @@
 building_ukn_planetary_shield_generator_2 = {
 	base_buildtime = 90	
 	can_build = no
-	add_to_first_building_slot = yes
+	position_priority = 1
 
 	category = army
 	
@@ -58,7 +58,7 @@ building_ukn_planetary_shield_generator_2 = {
 building_ukn_planetary_shield_generator_3 = {
 	base_buildtime = 90	
 	can_build = no
-	add_to_first_building_slot = yes
+	position_priority = 1
 
 	category = army
 	
@@ -113,7 +113,7 @@ building_ukn_planetary_shield_generator_3 = {
 building_ukn_planetary_shield_generator_4 = {
 	base_buildtime = 90	
 	can_build = no
-	add_to_first_building_slot = yes
+	position_priority = 1
 
 	category = army
 	
@@ -167,7 +167,7 @@ building_ukn_planetary_shield_generator_4 = {
 building_ukn_planetary_shield_generator_5 = {
 	base_buildtime = 90	
 	can_build = no
-	add_to_first_building_slot = yes
+	position_priority = 1
 
 	category = army
 	
@@ -220,7 +220,7 @@ building_ukn_planetary_shield_generator_5 = {
 building_ukn_planetary_shield_generator_6 = {
 	base_buildtime = 90	
 	can_build = no
-	add_to_first_building_slot = yes
+	position_priority = 1
 
 	category = army
 	
@@ -273,8 +273,7 @@ building_ukn_planetary_shield_generator_6 = {
 building_ukn_planetary_shield_generator_psi_1 = {
 	base_buildtime = @b3_time
 	base_cap_amount = 1
-	add_to_first_building_slot = yes
-
+	position_priority = 1
 	category = army
 	
 	allow = {
@@ -330,7 +329,7 @@ building_ukn_planetary_shield_generator_psi_1 = {
 building_ukn_planetary_shield_generator_psi_2 = {
 	base_buildtime = 90	
 	can_build = no
-	add_to_first_building_slot = yes
+	position_priority = 1
 
 	category = army
 	
@@ -386,7 +385,7 @@ building_ukn_planetary_shield_generator_psi_2 = {
 building_ukn_planetary_shield_generator_psi_3 = {
 	base_buildtime = 90
 	can_build = no
-	add_to_first_building_slot = yes
+	position_priority = 1
 
 	category = army
 	
@@ -441,8 +440,7 @@ building_ukn_planetary_shield_generator_psi_3 = {
 building_ukn_planetary_shield_generator_psi_4 = {
 	base_buildtime = 90	
 	can_build = no
-	add_to_first_building_slot = yes
-
+	position_priority = 1
 	category = army
 	
 	allow = {

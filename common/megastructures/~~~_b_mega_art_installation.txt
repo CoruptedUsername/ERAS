@@ -5,10 +5,8 @@ mega_art_installation_0 = {
 	place_entity_on_planet_plane = yes
 	entity_offset = { x = -27 y = -27 }
 	prerequisites = { "tech_mega_art" }
-	system_modifier = {
-		pop_happiness = @ukn_mega_art_installation_p0_pop_happiness
-		pop_amenities_usage_mult = @ukn_mega_art_installation_p0_pop_amenities_usage_mult
-	}
+	
+	
 	
 
 	build_time = @ukn_mega_art_installation_p0_build_time
@@ -134,10 +132,7 @@ mega_art_installation_1 = {
 	entity_offset = { x = -27 y = -27 }
 	upgrade_from = { mega_art_installation_0 }
 	prerequisites = { tech_mega_art }
-	system_modifier = {
-		pop_happiness = @ukn_mega_art_installation_p1_pop_happiness
-		pop_amenities_usage_mult = @ukn_mega_art_installation_p1_pop_amenities_usage_mult
-	}
+	
 
 	build_time = @ukn_mega_art_installation_p1_build_time
 	resources = {
@@ -189,10 +184,7 @@ mega_art_installation_2 = {
 	entity_offset = { x = -27 y = -27 }
 	upgrade_from = { mega_art_installation_1 }
 	prerequisites = { "tech_mega_art" }
-	system_modifier = {
-		pop_happiness = @ukn_mega_art_installation_p2_pop_happiness
-		pop_amenities_usage_mult = @ukn_mega_art_installation_p2_pop_amenities_usage_mult
-	}
+
 
 	build_time = @ukn_mega_art_installation_p2_build_time
 	resources = {
@@ -245,10 +237,7 @@ mega_art_installation_3 = {
 	upgrade_from = { mega_art_installation_2 }
 	prerequisites = { "tech_mega_art" }
 #	show_prereqs = yes
-	system_modifier = {
-		pop_happiness = @ukn_mega_art_installation_p3_pop_happiness
-		pop_amenities_usage_mult = @ukn_mega_art_installation_p3_pop_amenities_usage_mult
-	}
+	
 
 	build_time = @ukn_mega_art_installation_p3_build_time
 	resources = {
@@ -306,10 +295,7 @@ mega_art_installation_4 = {
 	prerequisites = { "tech_mega_art" }
 #	show_prereqs = no
 	possible = { from = { has_ancrel = yes } }
-	system_modifier = {
-		pop_happiness = @ukn_mega_art_installation_p4_pop_happiness
-		pop_amenities_usage_mult = @ukn_mega_art_installation_p4_pop_amenities_usage_mult
-	}
+	
 
 	build_time = @ukn_mega_art_installation_p4_build_time
 	resources = {
@@ -362,10 +348,7 @@ mega_art_installation_restored = {
 	place_entity_on_planet_plane = no
 	entity_offset = { x = -27 y = -27 }
 	upgrade_from = { mega_art_installation_ruined }
-	system_modifier = {
-		pop_happiness = @ukn_mega_art_installation_r_pop_happiness
-		pop_amenities_usage_mult = @ukn_mega_art_installation_r_pop_amenities_usage_mult
-	}
+	
 
 	build_time = @ukn_mega_art_installation_r_build_time
 	resources = {
@@ -437,10 +420,7 @@ mega_art_installation_restored_2 = {
 		exists = from
 		from = { has_ancrel = yes }
 	}
-	system_modifier = {
-		pop_happiness = @ukn_mega_art_installation_p4_pop_happiness
-		pop_amenities_usage_mult = @ukn_mega_art_installation_p4_pop_amenities_usage_mult
-	}
+	
 
 	build_time = @ukn_mega_art_installation_p4_build_time
 	resources = {

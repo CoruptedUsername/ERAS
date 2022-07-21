@@ -1,6 +1,5 @@
 ###################
 ##### LASERS ######
-###################
 
 @ukn_laser_1_hull_damage_mult = 1.00
 @ukn_laser_2_hull_damage_mult = 1.00
@@ -89,7 +88,6 @@
 @ukn_laser_9_s_power = -102 
 @ukn_laser_10_s_power = -158 
 @ukn_laser_planck_s_power = -68 
-#---
 
 @ukn_laser_1_s_dmg_min = 6 
 @ukn_laser_2_s_dmg_min = 8 
@@ -114,7 +112,6 @@
 @ukn_laser_9_s_dmg_max = 274 
 @ukn_laser_10_s_dmg_max = 425 
 @ukn_laser_planck_s_dmg_max = 183 
-#---
 
 @ukn_laser_1_s_windup_min = 2
 @ukn_laser_2_s_windup_min = 2
@@ -139,7 +136,6 @@
 @ukn_laser_9_s_windup_max = 20
 @ukn_laser_10_s_windup_max = 20
 @ukn_laser_planck_s_windup_max = 20
-#---
 
 @ukn_laser_1_s_total_fire_time = 35
 @ukn_laser_2_s_total_fire_time = 35
@@ -152,7 +148,6 @@
 @ukn_laser_9_s_total_fire_time = 35
 @ukn_laser_10_s_total_fire_time = 35
 @ukn_laser_planck_s_total_fire_time = 35
-#---
 
 @ukn_laser_1_s_range = 40
 @ukn_laser_2_s_range = 40
@@ -165,7 +160,6 @@
 @ukn_laser_9_s_range = 55
 @ukn_laser_10_s_range = 55
 @ukn_laser_planck_s_range = 45
-#---
 
 @ukn_laser_1_s_tracking = 0.50
 @ukn_laser_2_s_tracking = 0.50
@@ -193,7 +187,6 @@
 @ukn_laser_9_m_power = -179 
 @ukn_laser_10_m_power = -277
 @ukn_laser_planck_m_power = -119
-#---
 
 @ukn_laser_1_m_dmg_min = 15 
 @ukn_laser_2_m_dmg_min = 20 
@@ -218,7 +211,6 @@
 @ukn_laser_9_m_dmg_max = 685 
 @ukn_laser_10_m_dmg_max = 1062 
 @ukn_laser_planck_m_dmg_max = 457 
-#---
 
 @ukn_laser_1_m_windup_min = 2
 @ukn_laser_2_m_windup_min = 2
@@ -243,7 +235,6 @@
 @ukn_laser_9_m_windup_max = 20
 @ukn_laser_10_m_windup_max = 20
 @ukn_laser_planck_m_windup_max = 20
-#---
 
 @ukn_laser_1_m_total_fire_time = 35
 @ukn_laser_2_m_total_fire_time = 35
@@ -256,7 +247,6 @@
 @ukn_laser_9_m_total_fire_time = 35
 @ukn_laser_10_m_total_fire_time = 35
 @ukn_laser_planck_m_total_fire_time = 35
-#---
 
 @ukn_laser_1_m_range = 60
 @ukn_laser_2_m_range = 60
@@ -269,7 +259,6 @@
 @ukn_laser_9_m_range = 80
 @ukn_laser_10_m_range = 80
 @ukn_laser_planck_m_range = 65
-#---
 
 @ukn_laser_1_m_tracking = 0.30
 @ukn_laser_2_m_tracking = 0.30
@@ -297,7 +286,6 @@
 @ukn_laser_9_l_power = -349 
 @ukn_laser_10_l_power = -540 
 @ukn_laser_planck_l_power = -232 
-#---
 
 @ukn_laser_1_l_dmg_min = 36 
 @ukn_laser_2_l_dmg_min = 47 
@@ -322,7 +310,6 @@
 @ukn_laser_9_l_dmg_max = 1645 
 @ukn_laser_10_l_dmg_max = 2549 
 @ukn_laser_planck_l_dmg_max = 1096 
-#---
 
 @ukn_laser_1_l_windup_min = 2
 @ukn_laser_2_l_windup_min = 2
@@ -347,7 +334,6 @@
 @ukn_laser_9_l_windup_max = 20
 @ukn_laser_10_l_windup_max = 20
 @ukn_laser_planck_l_windup_max = 20
-#---
 
 @ukn_laser_1_l_total_fire_time = 35
 @ukn_laser_2_l_total_fire_time = 35
@@ -360,7 +346,6 @@
 @ukn_laser_9_l_total_fire_time = 35
 @ukn_laser_10_l_total_fire_time = 35
 @ukn_laser_planck_l_total_fire_time = 35
-#---
 
 @ukn_laser_1_l_range = 80
 @ukn_laser_2_l_range = 80
@@ -373,7 +358,6 @@
 @ukn_laser_9_l_range = 105
 @ukn_laser_10_l_range = 105
 @ukn_laser_planck_l_range = 90
-#---
 
 @ukn_laser_1_l_tracking = 0.05
 @ukn_laser_2_l_tracking = 0.05
@@ -390,7 +374,6 @@
 
 #############################
 ##### ENERGY TORPEDOES ######
-#############################
 
 @ukn_energy_torpedo_1_hull_damage_mult = 1.75
 @ukn_energy_torpedo_2_hull_damage_mult = 1.75
@@ -451,7 +434,6 @@
 @ukn_energy_torpedo_9_shield_damage_mult = 0.65
 @ukn_energy_torpedo_10_shield_damage_mult = 0.65
 @ukn_energy_torpedo_planck_shield_damage_mult = 0.55
-#---
 
 @ukn_energy_torpedo_1_accuracy = 0.90
 @ukn_energy_torpedo_2_accuracy = 0.90
@@ -479,7 +461,6 @@
 @ukn_energy_torpedo_9_power = -536 
 @ukn_energy_torpedo_10_power = -831 
 @ukn_energy_torpedo_planck_power = -358 
-#---
 
 @ukn_energy_torpedo_1_dmg_min = 164 
 @ukn_energy_torpedo_2_dmg_min = 213 
@@ -504,7 +485,6 @@
 @ukn_energy_torpedo_9_dmg_max = 6197 
 @ukn_energy_torpedo_10_dmg_max = 9605 
 @ukn_energy_torpedo_planck_dmg_max = 4131 
-#---
 
 @ukn_energy_torpedo_1_windup_min = 1
 @ukn_energy_torpedo_2_windup_min = 1
@@ -529,7 +509,6 @@
 @ukn_energy_torpedo_9_windup_max = 19
 @ukn_energy_torpedo_10_windup_max = 19
 @ukn_energy_torpedo_planck_windup_max = 19
-#---
 
 @ukn_energy_torpedo_1_total_fire_time = 150
 @ukn_energy_torpedo_2_total_fire_time = 150
@@ -542,7 +521,6 @@
 @ukn_energy_torpedo_9_total_fire_time = 150
 @ukn_energy_torpedo_10_total_fire_time = 150
 @ukn_energy_torpedo_planck_total_fire_time = 150
-#---
 
 @ukn_energy_torpedo_1_range = 130
 @ukn_energy_torpedo_2_range = 130
@@ -555,7 +533,6 @@
 @ukn_energy_torpedo_9_range = 170
 @ukn_energy_torpedo_10_range = 170
 @ukn_energy_torpedo_planck_range = 145
-#---
 
 @ukn_energy_torpedo_1_tracking = 0.00
 @ukn_energy_torpedo_2_tracking = 0.00
@@ -571,9 +548,7 @@
 
 
 
-###################
 ##### PLASMA ######
-###################
 
 @ukn_plasma_1_hull_damage_mult = 1.50
 @ukn_plasma_2_hull_damage_mult = 1.50
@@ -634,7 +609,6 @@
 @ukn_plasma_9_shield_damage_mult = 0.35
 @ukn_plasma_10_shield_damage_mult = 0.35
 @ukn_plasma_planck_shield_damage_mult = 0.30
-#---
 
 @ukn_plasma_1_accuracy = 0.80
 @ukn_plasma_2_accuracy = 0.80
@@ -649,7 +623,6 @@
 @ukn_plasma_planck_accuracy = 0.80
 
 
-# SMALL #---------------------------
 
 @ukn_plasma_1_s_power = -6 
 @ukn_plasma_2_s_power = -8 
@@ -662,7 +635,6 @@
 @ukn_plasma_9_s_power = -102 
 @ukn_plasma_10_s_power = -158 
 @ukn_plasma_planck_s_power = -68 
-#---
 
 @ukn_plasma_1_s_dmg_min = 7 
 @ukn_plasma_2_s_dmg_min = 9 
@@ -687,7 +659,6 @@
 @ukn_plasma_9_s_dmg_max = 250 
 @ukn_plasma_10_s_dmg_max = 388 
 @ukn_plasma_planck_s_dmg_max = 167 
-#---
 
 @ukn_plasma_1_s_windup_min = 2
 @ukn_plasma_2_s_windup_min = 2
@@ -712,7 +683,6 @@
 @ukn_plasma_9_s_windup_max = 20
 @ukn_plasma_10_s_windup_max = 20
 @ukn_plasma_planck_s_windup_max = 20
-#---
 
 @ukn_plasma_1_s_total_fire_time = 40
 @ukn_plasma_2_s_total_fire_time = 40
@@ -725,7 +695,6 @@
 @ukn_plasma_9_s_total_fire_time = 40
 @ukn_plasma_10_s_total_fire_time = 40
 @ukn_plasma_planck_s_total_fire_time = 40
-#---
 
 @ukn_plasma_1_s_range = 40
 @ukn_plasma_2_s_range = 40
@@ -738,7 +707,6 @@
 @ukn_plasma_9_s_range = 50
 @ukn_plasma_10_s_range = 50
 @ukn_plasma_planck_s_range = 45
-#---
 
 @ukn_plasma_1_s_tracking = 0.40
 @ukn_plasma_2_s_tracking = 0.40
@@ -753,7 +721,6 @@
 @ukn_plasma_planck_s_tracking = 0.44
 
 
-# MEDIUM #---------------------------
 
 @ukn_plasma_1_m_power = -11 
 @ukn_plasma_2_m_power = -14 
@@ -766,7 +733,6 @@
 @ukn_plasma_9_m_power = -179 
 @ukn_plasma_10_m_power = -277 
 @ukn_plasma_planck_m_power = -119 
-#---
 
 @ukn_plasma_1_m_dmg_min = 18 
 @ukn_plasma_2_m_dmg_min = 23 
@@ -791,7 +757,6 @@
 @ukn_plasma_9_m_dmg_max = 626 
 @ukn_plasma_10_m_dmg_max = 970 
 @ukn_plasma_planck_m_dmg_max = 417 
-#---
 
 @ukn_plasma_1_m_windup_min = 2
 @ukn_plasma_2_m_windup_min = 2
@@ -816,7 +781,6 @@
 @ukn_plasma_9_m_windup_max = 20
 @ukn_plasma_10_m_windup_max = 20
 @ukn_plasma_planck_m_windup_max = 20
-#---
 
 @ukn_plasma_1_m_total_fire_time = 40
 @ukn_plasma_2_m_total_fire_time = 40
@@ -829,7 +793,6 @@
 @ukn_plasma_9_m_total_fire_time = 40
 @ukn_plasma_10_m_total_fire_time = 40
 @ukn_plasma_planck_m_total_fire_time = 40
-#---
 
 @ukn_plasma_1_m_range = 60
 @ukn_plasma_2_m_range = 60
@@ -842,7 +805,6 @@
 @ukn_plasma_9_m_range = 75
 @ukn_plasma_10_m_range = 75
 @ukn_plasma_planck_m_range = 65
-#---
 
 @ukn_plasma_1_m_tracking = 0.20
 @ukn_plasma_2_m_tracking = 0.20
@@ -857,7 +819,6 @@
 @ukn_plasma_planck_m_tracking = 0.22
 
 
-# LARGE #---------------------------
 
 @ukn_plasma_1_l_power = -20 
 @ukn_plasma_2_l_power = -27 
@@ -870,7 +831,6 @@
 @ukn_plasma_9_l_power = -349 
 @ukn_plasma_10_l_power = -540 
 @ukn_plasma_planck_l_power = -232 
-#---
 
 @ukn_plasma_1_l_dmg_min = 42 
 @ukn_plasma_2_l_dmg_min = 55 
@@ -895,7 +855,6 @@
 @ukn_plasma_9_l_dmg_max = 1502 
 @ukn_plasma_10_l_dmg_max = 2327 
 @ukn_plasma_planck_l_dmg_max = 1001 
-#---
 
 @ukn_plasma_1_l_windup_min = 2
 @ukn_plasma_2_l_windup_min = 2
@@ -920,7 +879,6 @@
 @ukn_plasma_9_l_windup_max = 20
 @ukn_plasma_10_l_windup_max = 20
 @ukn_plasma_planck_l_windup_max = 20
-#---
 
 @ukn_plasma_1_l_total_fire_time = 40
 @ukn_plasma_2_l_total_fire_time = 40
@@ -933,7 +891,6 @@
 @ukn_plasma_9_l_total_fire_time = 40
 @ukn_plasma_10_l_total_fire_time = 40
 @ukn_plasma_planck_l_total_fire_time = 40
-#---
 
 @ukn_plasma_1_l_range = 80
 @ukn_plasma_2_l_range = 80
@@ -946,7 +903,6 @@
 @ukn_plasma_9_l_range = 100
 @ukn_plasma_10_l_range = 100
 @ukn_plasma_planck_l_range = 90
-#---
 
 @ukn_plasma_1_l_tracking = 0.05
 @ukn_plasma_2_l_tracking = 0.05
@@ -964,7 +920,6 @@
 
 ##################################
 ##### POTENTIAL DISLOCATORS ######
-##################################
 
 @ukn_potential_dislocator_1_hull_damage_mult = 1.75
 @ukn_potential_dislocator_2_hull_damage_mult = 1.75
@@ -1025,7 +980,6 @@
 @ukn_potential_dislocator_9_shield_damage_mult = 1.55
 @ukn_potential_dislocator_10_shield_damage_mult = 1.55
 @ukn_potential_dislocator_planck_shield_damage_mult = 1.35
-#---
 
 @ukn_potential_dislocator_1_accuracy = 0.90
 @ukn_potential_dislocator_2_accuracy = 0.90
@@ -1040,7 +994,6 @@
 @ukn_potential_dislocator_planck_accuracy = 0.90
 
 
-# SMALL #---------------------------
 
 @ukn_potential_dislocator_1_s_power = -6 
 @ukn_potential_dislocator_2_s_power = -8 
@@ -1053,7 +1006,6 @@
 @ukn_potential_dislocator_9_s_power = -102 
 @ukn_potential_dislocator_10_s_power = -158 
 @ukn_potential_dislocator_planck_s_power = -68 
-#---
 
 @ukn_potential_dislocator_1_s_dmg_min = 4 
 @ukn_potential_dislocator_2_s_dmg_min = 5 
@@ -1078,7 +1030,6 @@
 @ukn_potential_dislocator_9_s_dmg_max = 132 
 @ukn_potential_dislocator_10_s_dmg_max = 204 
 @ukn_potential_dislocator_planck_s_dmg_max = 88 
-#---
 
 @ukn_potential_dislocator_1_s_windup_min = 1
 @ukn_potential_dislocator_2_s_windup_min = 1
@@ -1092,18 +1043,17 @@
 @ukn_potential_dislocator_10_s_windup_min = 1
 @ukn_potential_dislocator_planck_s_windup_min = 1
 
-@ukn_potential_dislocator_1_s_windup_min = 19
-@ukn_potential_dislocator_2_s_windup_min = 19
-@ukn_potential_dislocator_3_s_windup_min = 19
-@ukn_potential_dislocator_4_s_windup_min = 19
-@ukn_potential_dislocator_5_s_windup_min = 19
-@ukn_potential_dislocator_6_s_windup_min = 19
-@ukn_potential_dislocator_7_s_windup_min = 19
-@ukn_potential_dislocator_8_s_windup_min = 19
-@ukn_potential_dislocator_9_s_windup_min = 19
-@ukn_potential_dislocator_10_s_windup_min = 19
-@ukn_potential_dislocator_planck_s_windup_min = 19
-#---
+@ukn_potential_dislocator_1_s_windup_max = 19
+@ukn_potential_dislocator_2_s_windup_max = 19
+@ukn_potential_dislocator_3_s_windup_max = 19
+@ukn_potential_dislocator_4_s_windup_max = 19
+@ukn_potential_dislocator_5_s_windup_max = 19
+@ukn_potential_dislocator_6_s_windup_max = 19
+@ukn_potential_dislocator_7_s_windup_max = 19
+@ukn_potential_dislocator_8_s_windup_max = 19
+@ukn_potential_dislocator_9_s_windup_max = 19
+@ukn_potential_dislocator_10_s_windup_max = 19
+@ukn_potential_dislocator_planck_s_windup_max = 19
 
 @ukn_potential_dislocator_1_s_total_fire_time = 20
 @ukn_potential_dislocator_2_s_total_fire_time = 20
@@ -1116,7 +1066,6 @@
 @ukn_potential_dislocator_9_s_total_fire_time = 20
 @ukn_potential_dislocator_10_s_total_fire_time = 20
 @ukn_potential_dislocator_planck_s_total_fire_time = 20
-#---
 
 @ukn_potential_dislocator_1_s_range = 40
 @ukn_potential_dislocator_2_s_range = 40
@@ -1129,7 +1078,6 @@
 @ukn_potential_dislocator_9_s_range = 50
 @ukn_potential_dislocator_10_s_range = 50
 @ukn_potential_dislocator_planck_s_range = 45
-#---
 
 @ukn_potential_dislocator_1_s_tracking = 0.50
 @ukn_potential_dislocator_2_s_tracking = 0.50
@@ -1144,7 +1092,6 @@
 @ukn_potential_dislocator_planck_s_tracking = 0.55
 
 
-# MEDIUM #---------------------------
 
 @ukn_potential_dislocator_1_m_power = -11 
 @ukn_potential_dislocator_2_m_power = -14 
@@ -1157,7 +1104,6 @@
 @ukn_potential_dislocator_9_m_power = -179 
 @ukn_potential_dislocator_10_m_power = -277 
 @ukn_potential_dislocator_planck_m_power = -119 
-#---
 
 @ukn_potential_dislocator_1_m_dmg_min = 11 
 @ukn_potential_dislocator_2_m_dmg_min = 14 
@@ -1182,7 +1128,6 @@
 @ukn_potential_dislocator_9_m_dmg_max = 329 
 @ukn_potential_dislocator_10_m_dmg_max = 510 
 @ukn_potential_dislocator_planck_m_dmg_max = 219 
-#---
 
 @ukn_potential_dislocator_1_m_windup_min = 1
 @ukn_potential_dislocator_2_m_windup_min = 1
@@ -1196,18 +1141,17 @@
 @ukn_potential_dislocator_10_m_windup_min = 1
 @ukn_potential_dislocator_planck_m_windup_min = 1
 
-@ukn_potential_dislocator_1_m_windup_min = 19
-@ukn_potential_dislocator_2_m_windup_min = 19
-@ukn_potential_dislocator_3_m_windup_min = 19
-@ukn_potential_dislocator_4_m_windup_min = 19
-@ukn_potential_dislocator_5_m_windup_min = 19
-@ukn_potential_dislocator_6_m_windup_min = 19
-@ukn_potential_dislocator_7_m_windup_min = 19
-@ukn_potential_dislocator_8_m_windup_min = 19
-@ukn_potential_dislocator_9_m_windup_min = 19
-@ukn_potential_dislocator_10_m_windup_min = 19
-@ukn_potential_dislocator_planck_m_windup_min = 19
-#---
+@ukn_potential_dislocator_1_m_windup_max = 19
+@ukn_potential_dislocator_2_m_windup_max = 19
+@ukn_potential_dislocator_3_m_windup_max = 19
+@ukn_potential_dislocator_4_m_windup_max = 19
+@ukn_potential_dislocator_5_m_windup_max = 19
+@ukn_potential_dislocator_6_m_windup_max = 19
+@ukn_potential_dislocator_7_m_windup_max = 19
+@ukn_potential_dislocator_8_m_windup_max = 19
+@ukn_potential_dislocator_9_m_windup_max = 19
+@ukn_potential_dislocator_10_m_windup_max = 19
+@ukn_potential_dislocator_planck_m_windup_max = 19
 
 @ukn_potential_dislocator_1_m_total_fire_time = 20
 @ukn_potential_dislocator_2_m_total_fire_time = 20
@@ -1220,7 +1164,6 @@
 @ukn_potential_dislocator_9_m_total_fire_time = 20
 @ukn_potential_dislocator_10_m_total_fire_time = 20
 @ukn_potential_dislocator_planck_m_total_fire_time = 20
-#---
 
 @ukn_potential_dislocator_1_m_range = 60
 @ukn_potential_dislocator_2_m_range = 60
@@ -1233,7 +1176,6 @@
 @ukn_potential_dislocator_9_m_range = 75
 @ukn_potential_dislocator_10_m_range = 75
 @ukn_potential_dislocator_planck_m_range = 65
-#---
 
 @ukn_potential_dislocator_1_m_tracking = 0.30
 @ukn_potential_dislocator_2_m_tracking = 0.30
@@ -1248,7 +1190,6 @@
 @ukn_potential_dislocator_planck_m_tracking = 0.33
 
 
-# LARGE #---------------------------
 
 @ukn_potential_dislocator_1_l_power = -20 
 @ukn_potential_dislocator_2_l_power = -27 
@@ -1261,7 +1202,6 @@
 @ukn_potential_dislocator_9_l_power = -349 
 @ukn_potential_dislocator_10_l_power = -540 
 @ukn_potential_dislocator_planck_l_power = -232 
-#---
 
 @ukn_potential_dislocator_1_l_dmg_min = 25 
 @ukn_potential_dislocator_2_l_dmg_min = 33 
@@ -1286,7 +1226,6 @@
 @ukn_potential_dislocator_9_l_dmg_max = 789 
 @ukn_potential_dislocator_10_l_dmg_max = 1224 
 @ukn_potential_dislocator_planck_l_dmg_max = 526 
-#---
 
 @ukn_potential_dislocator_1_l_windup_min = 1
 @ukn_potential_dislocator_2_l_windup_min = 1
@@ -1300,18 +1239,17 @@
 @ukn_potential_dislocator_10_l_windup_min = 1
 @ukn_potential_dislocator_planck_l_windup_min = 1
 
-@ukn_potential_dislocator_1_l_windup_min = 19
-@ukn_potential_dislocator_2_l_windup_min = 19
-@ukn_potential_dislocator_3_l_windup_min = 19
-@ukn_potential_dislocator_4_l_windup_min = 19
-@ukn_potential_dislocator_5_l_windup_min = 19
-@ukn_potential_dislocator_6_l_windup_min = 19
-@ukn_potential_dislocator_7_l_windup_min = 19
-@ukn_potential_dislocator_8_l_windup_min = 19
-@ukn_potential_dislocator_9_l_windup_min = 19
-@ukn_potential_dislocator_10_l_windup_min = 19
-@ukn_potential_dislocator_planck_l_windup_min = 19
-#---
+@ukn_potential_dislocator_1_l_windup_max = 19
+@ukn_potential_dislocator_2_l_windup_max = 19
+@ukn_potential_dislocator_3_l_windup_max = 19
+@ukn_potential_dislocator_4_l_windup_max = 19
+@ukn_potential_dislocator_5_l_windup_max = 19
+@ukn_potential_dislocator_6_l_windup_max = 19
+@ukn_potential_dislocator_7_l_windup_max = 19
+@ukn_potential_dislocator_8_l_windup_max = 19
+@ukn_potential_dislocator_9_l_windup_max = 19
+@ukn_potential_dislocator_10_l_windup_max = 19
+@ukn_potential_dislocator_planck_l_windup_max = 19
 
 @ukn_potential_dislocator_1_l_total_fire_time = 20
 @ukn_potential_dislocator_2_l_total_fire_time = 20
@@ -1324,7 +1262,6 @@
 @ukn_potential_dislocator_9_l_total_fire_time = 20
 @ukn_potential_dislocator_10_l_total_fire_time = 20
 @ukn_potential_dislocator_planck_l_total_fire_time = 20
-#---
 
 @ukn_potential_dislocator_1_l_range = 80
 @ukn_potential_dislocator_2_l_range = 80
@@ -1337,7 +1274,6 @@
 @ukn_potential_dislocator_9_l_range = 100
 @ukn_potential_dislocator_10_l_range = 100
 @ukn_potential_dislocator_planck_l_range = 90
-#---
 
 @ukn_potential_dislocator_1_l_tracking = 0.05
 @ukn_potential_dislocator_2_l_tracking = 0.05

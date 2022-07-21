@@ -10,9 +10,7 @@ strategic_coordination_center_0 = {
 		country_starbase_capacity_add = @ukn_strategic_coordination_center_p0_country_starbase_capacity_add
 		ship_speed_mult = @ukn_strategic_coordination_center_p0_ship_speed_mult
 	}
-	system_modifier = {
-		starbase_defense_platform_capacity_add = @ukn_strategic_coordination_center_p0_starbase_defense_platform_capacity_add
-	}
+
 	
 
 	build_time = @ukn_strategic_coordination_center_p0_build_time
@@ -139,9 +137,7 @@ strategic_coordination_center_1 = {
 		country_starbase_capacity_add = @ukn_strategic_coordination_center_p1_country_starbase_capacity_add
 		ship_speed_mult = @ukn_strategic_coordination_center_p1_ship_speed_mult
 	}
-	system_modifier = {
-		starbase_defense_platform_capacity_add = @ukn_strategic_coordination_center_p1_starbase_defense_platform_capacity_add
-	}
+
 
 	build_time = @ukn_strategic_coordination_center_p1_build_time
 	resources = {
@@ -194,9 +190,7 @@ strategic_coordination_center_2 = {
 		country_starbase_capacity_add = @ukn_strategic_coordination_center_p2_country_starbase_capacity_add
 		ship_speed_mult = @ukn_strategic_coordination_center_p2_ship_speed_mult
 	}
-	system_modifier = {
-		starbase_defense_platform_capacity_add = @ukn_strategic_coordination_center_p2_starbase_defense_platform_capacity_add
-	}
+
 
 	build_time = @ukn_strategic_coordination_center_p2_build_time
 	resources = {
@@ -250,9 +244,7 @@ strategic_coordination_center_3 = {
 		country_starbase_capacity_add = @ukn_strategic_coordination_center_p3_country_starbase_capacity_add
 		ship_speed_mult = @ukn_strategic_coordination_center_p3_ship_speed_mult
 	}
-	system_modifier = {
-		starbase_defense_platform_capacity_add = @ukn_strategic_coordination_center_p3_starbase_defense_platform_capacity_add
-	}
+
 
 	build_time = @ukn_strategic_coordination_center_p3_build_time
 	resources = {
@@ -318,9 +310,7 @@ strategic_coordination_center_restored = {
 		country_starbase_capacity_add = @ukn_strategic_coordination_center_r_country_starbase_capacity_add
 		ship_speed_mult = @ukn_strategic_coordination_center_r_ship_speed_mult
 	}
-	system_modifier = {
-		starbase_defense_platform_capacity_add = @ukn_strategic_coordination_center_r_starbase_defense_platform_capacity_add
-	}
+
 
 	build_time = @ukn_strategic_coordination_center_r_build_time
 	resources = {

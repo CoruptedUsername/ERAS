@@ -2488,7 +2488,7 @@ tech_starbase_3 = {
 	weight = @tech_ukn_starbase_3_weight
 	area = engineering
 	category = { voidcraft }
-	tier = 	weight = @tech_ukn_starbase_3_tier
+	tier = 	@tech_ukn_starbase_3_tier
 	prerequisites = { "tech_starbase_2" }
 	
 	prereqfor_desc = {
@@ -2565,7 +2565,7 @@ tech_starbase_4 = {
 	weight = @tech_ukn_starbase_4_weight
 	area = engineering
 	category = { voidcraft }
-	tier = tech_ukn_starbase_4_tier
+	tier = @tech_ukn_starbase_4_tier
 	prerequisites = { "tech_starbase_3" }
 
 	prereqfor_desc = {
@@ -2920,7 +2920,7 @@ tech_defense_platform_hull_1 = {
 	cost = @tech_ukn_defense_platform_hull_1_cost
 	weight = @tech_ukn_defense_platform_hull_1_weight
 	area = engineering
-	tier = tech_ukn_defense_platform_hull_1_tier
+	tier = @tech_ukn_defense_platform_hull_1_tier
 	category = { voidcraft }
 	prerequisites = { "tech_starbase_3" }
 	is_rare = yes
@@ -3295,10 +3295,12 @@ tech_titans = {
 		country_command_limit_add = 10
 	}
 
-#P]	potential = {
+#P]	
+potential = {
 		host_has_dlc = "Apocalypse"		#needs to stay
 #P]		has_technology = tech_battleships
-#P]	}
+#P]	
+}
 
 	## unlock titans
 	prereqfor_desc = {
@@ -3377,11 +3379,13 @@ tech_juggernaut = {
 	prerequisites = { "tech_battleships" "tech_starbase_5" }
 	is_rare = yes
 
-#P]	potential = {
+#P]	
+potential = {
 		host_has_dlc = "Federations"		#needs to stay
 #P]		has_technology = tech_battleships
 #P]		has_technology = tech_starbase_5
-#P]	}
+#P]	
+}
 
 	# unlocks Juggernaut
 	prereqfor_desc = {
@@ -3542,7 +3546,7 @@ tech_corvette_hull_1 = {
 tech_corvette_hull_2 = {
 	cost = @tech_ukn_corvette_hull_2_cost
 	area = engineering
-	tier = tech_ukn_corvette_hull_2_tier
+	tier = @tech_ukn_corvette_hull_2_tier
 	is_rare = yes
 	category = { voidcraft }
 	prerequisites = { "tech_corvette_hull_1" }

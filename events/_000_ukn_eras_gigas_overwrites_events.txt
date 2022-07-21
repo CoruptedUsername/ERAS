@@ -38,7 +38,7 @@ country_event = {
 			}
 		}
 		add_resource = {
-			conumer_goods = -0.33333333333
+			consumer_goods = -0.33333333333
 			mult = orbital_arcology_alloy_cost
 		}
 		add_resource = {
