@@ -101,68 +101,69 @@ decision_ukn_planet_articles_construction_boost = {
 		category = decisions
 		cost = {
 			trigger = {
-				num_districts < 5
+				num_districts = { type = any value < 5 }
 			}
 			consumer_goods = 200
 		}
 		cost = {
 			trigger = {
-				num_districts >= 5
-				num_districts < 10
+				num_districts = { type = any value >= 5 }
+				num_districts = { type = any value < 10 }
 			}
 			consumer_goods = 300
 		}
 		cost = {
 			trigger = {
-				num_districts >= 10
-				num_districts < 15
+				num_districts = { type = any value >= 10 }
+				num_districts = { type = any value < 15 }
 			}
 			consumer_goods = 400
 		}
 		cost = {
 			trigger = {
-				num_districts >= 15
-				num_districts < 20
+				num_districts = { type = any value >= 15 }
+				num_districts = { type = any value < 20 }
 			}
 			consumer_goods = 500
 		}
 		cost = {
 			trigger = {
-				num_districts >= 20
-				num_districts < 25
+				num_districts = { type = any value >= 20 }
+				num_districts = { type = any value < 25 }
 			}
 			consumer_goods = 600
 		}
 		cost = {
 			trigger = {
-				num_districts >= 25
-				num_districts < 30
+				num_districts = { type = any value >= 25 }
+				num_districts = { type = any value < 30 }
 			}
 			consumer_goods = 700
 		}
 		cost = {
 			trigger = {
-				num_districts >= 30
-				num_districts < 35
+				num_districts = { type = any value >= 30 }
+				num_districts = { type = any value < 35 }
 			}
 			consumer_goods = 800
 		}
 		cost = {
 			trigger = {
-				num_districts >= 35
-				num_districts < 40
+				num_districts = { type = any value >= 35 }
+				num_districts = { type = any value < 40 }
 			}
 			consumer_goods = 900
 		}
 		cost = {
 			trigger = {
-				num_districts >= 40
-				num_districts < 45
+				num_districts = { type = any value >= 40 }
+				num_districts = { type = any value < 45 }
 			}
 			consumer_goods = 1000
 		}
 		cost = {
 			trigger = {
+				num_districts = { type = any value >= 45 }
 				num_districts >= 45
 			}
 			consumer_goods = 1100
