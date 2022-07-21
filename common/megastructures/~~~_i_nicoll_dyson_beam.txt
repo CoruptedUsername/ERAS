@@ -9,7 +9,7 @@ nicoll_beam_0 = {
 	ai_weight = { factor = 0 }
 	prerequisites = { giga_tech_ndb_1 }
 
-	build_time = @ukn_nicoll_dyson_beam/_p0_build_time_a_star
+	build_time = @ukn_nicoll_dyson_beam_p0_build_time_a_star
 	resources = {
 		category = ukn_gigastructure_site
 		cost = {
