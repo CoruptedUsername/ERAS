@@ -2584,6 +2584,7 @@
 #[X]
 @tech_ukn_juggernaut_weight = 25
 
+
 ###################
 # [SHIP] UPGRADES #
 ###################
@@ -2634,3 +2635,316 @@
 @tech_ukn_battleship_hull_2_weight = 40
 @tech_ukn_titan_hull_1_weight = 35
 @tech_ukn_titan_hull_2_weight = 35
+
+
+          ###################################
+#---------## [MACRO-CONSTRUCTIONS] PHYSICS ##---------#
+          ###################################
+
+########################################
+# [MACRO-CONSTRUCTIONS] KILOSTRUCTURES #
+########################################
+
+#[M]
+@tech_ukn_gateway_activation_tier = 4
+@tech_ukn_gateway_activation_cost = 20000
+@tech_ukn_gateway_activation_weight = 40
+
+#[L]
+@tech_ukn_gateway_construction_tier = 4
+@tech_ukn_gateway_construction_cost = 24000
+@tech_ukn_gateway_construction_weight = 35
+
+#[M]
+@tech_ukn_particle_accelerator_tier = 4
+@tech_ukn_particle_accelerator_cost = 20000
+@tech_ukn_particle_accelerator_weight = 40
+
+#[L]
+@tech_ukn_sentry_array_tier = 4
+@tech_ukn_sentry_array_cost = 24000
+@tech_ukn_sentry_array_weight = 35
+
+#[L]
+@tech_ukn_akugelblitz_tier = 4
+@tech_ukn_akugelblitz_cost = 24000
+@tech_ukn_akugelblitz_weight = 35
+
+#[X]
+@tech_ukn_terraform_gas_tier = 4
+@tech_ukn_terraform_gas_cost = 32000
+@tech_ukn_terraform_gas_weight = 30
+
+#[L]
+@tech_ukn_disco_moon_tier = 4
+@tech_ukn_disco_moon_cost = 24000
+@tech_ukn_disco_moon_weight = 35
+
+#[L]
+@tech_ukn_penrose_sphere_1_tier = 4
+@tech_ukn_penrose_sphere_1_cost = 24000
+@tech_ukn_penrose_sphere_1_weight = 35
+
+
+########################################
+# [MACRO-CONSTRUCTIONS] MEGASTRUCTURES #
+########################################
+
+#[L]
+@tech_ukn_substellar_compressor_tier = 5
+@tech_ukn_substellar_compressor_cost = 60000
+@tech_ukn_substellar_compressor_weight = 30
+
+#[L]
+@tech_ukn_fusion_suppressor_tier = 5
+@tech_ukn_fusion_suppressor_cost = 60000
+@tech_ukn_fusion_suppressor_weight = 30
+
+#[X]
+@tech_ukn_ringworld_titanic_1_tier = 5
+@tech_ukn_ringworld_titanic_1_cost = 80000
+@tech_ukn_ringworld_titanic_1_weight = 25
+
+#[S]
+@tech_ukn_penrose_sphere_2_tier = 5
+@tech_ukn_penrose_sphere_2_cost = 40000
+@tech_ukn_penrose_sphere_2_weight = 40
+
+
+########################################
+# [MACRO-CONSTRUCTIONS] GIGASTRUCTURES #
+########################################
+
+#[X]
+@tech_ukn_tetradimensional_engineering_tier = 6
+@tech_ukn_tetradimensional_engineering_cost = 240000
+@tech_ukn_tetradimensional_engineering_weight = 20
+
+#[L]
+@tech_ukn_matrioshka_brain_2_tier = 6
+@tech_ukn_matrioshka_brain_2_cost = 180000
+@tech_ukn_matrioshka_brain_2_weight = 25
+
+#[M]
+@tech_ukn_ndb_1_tier = 6
+@tech_ukn_ndb_1_cost = 150000
+@tech_ukn_ndb_1_weight = 30
+
+#[M+]
+@tech_ukn_ndb_2_tier = 6
+@tech_ukn_ndb_2_cost = 160000		#+10000
+@tech_ukn_ndb_2_weight = 30
+
+#[M+]
+@tech_ukn_ndb_3_tier = 6
+@tech_ukn_ndb_3_cost = 170000		#+10000
+@tech_ukn_ndb_3_weight = 30
+
+#[L]
+@tech_ukn_ndb_4_tier = 6
+@tech_ukn_ndb_4_cost = 180000
+@tech_ukn_ndb_4_weight = 25
+
+
+########################################
+# [MACRO-CONSTRUCTIONS] TERASTRUCTURES #
+########################################
+
+
+          ###################################
+#---------## [MACRO-CONSTRUCTIONS] SOCIETY ##---------#
+          ###################################
+
+########################################
+# [MACRO-CONSTRUCTIONS] KILOSTRUCTURES #
+########################################
+
+#[L]
+@tech_ukn_orbital_artificial_eco_tier = 4
+@tech_ukn_orbital_artificial_eco_cost = 24000
+@tech_ukn_orbital_artificial_eco_weight = 35
+
+#[L]
+@tech_ukn_strategic_coordination_tier = 4
+@tech_ukn_strategic_coordination_cost = 24000
+@tech_ukn_strategic_coordination_weight = 35
+
+#[L]
+@tech_ukn_interstellar_assembly_tier = 4
+@tech_ukn_interstellar_assembly_cost = 24000
+@tech_ukn_interstellar_assembly_weight = 35
+
+#[L]
+@tech_ukn_mega_art_tier = 4
+@tech_ukn_mega_art_cost = 24000
+@tech_ukn_mega_art_weight = 35
+
+#[L]
+@tech_ukn_mega_shipyard_tier = 4
+@tech_ukn_mega_shipyard_cost = 24000
+@tech_ukn_mega_shipyard_weight = 35
+
+#[X]
+@tech_ukn_terraform_barren_tier = 4
+@tech_ukn_terraform_barren_cost = 32000
+@tech_ukn_terraform_barren_weight = 30
+
+#[X]
+@tech_ukn_terraform_toxic_tier = 4
+@tech_ukn_terraform_toxic_cost = 32000
+@tech_ukn_terraform_toxic_weight = 30
+
+#[X]
+@tech_ukn_terraform_molten_tier = 4
+@tech_ukn_terraform_molten_cost = 32000
+@tech_ukn_terraform_molten_weight = 30
+
+
+########################################
+# [MACRO-CONSTRUCTIONS] MEGASTRUCTURES #
+########################################
+
+#[L]
+@tech_ukn_yggdrasil_orchid_tier = 5
+@tech_ukn_yggdrasil_orchid_cost = 60000
+@tech_ukn_yggdrasil_orchid_weight = 30
+
+#[X]
+@tech_ukn_terraform_shattered_tier = 5
+@tech_ukn_terraform_shattered_cost = 80000
+@tech_ukn_terraform_shattered_weight = 25
+
+
+########################################
+# [MACRO-CONSTRUCTIONS] GIGASTRUCTURES #
+########################################
+
+
+########################################
+# [MACRO-CONSTRUCTIONS] TERASTRUCTURES #
+########################################
+
+
+          #######################################
+#---------## [MACRO-CONSTRUCTIONS] ENGINEERING ##---------#
+          #######################################
+
+########################################
+# [MACRO-CONSTRUCTIONS] KILOSTRUCTURES #
+########################################
+
+#[M]
+@tech_ukn_engineering_test_site_tier = 4
+@tech_ukn_engineering_test_site_cost = 20000
+@tech_ukn_engineering_test_site_weight = 50
+
+#[M]
+@tech_ukn_asteroid_manufactory_tier = 4
+@tech_ukn_asteroid_manufactory_cost = 20000
+@tech_ukn_asteroid_manufactory_weight = 50
+
+#[L]
+@tech_ukn_orbital_elysium_tier = 4
+@tech_ukn_orbital_elysium_cost = 24000
+@tech_ukn_orbital_elysium_weight = 35
+
+#[L]
+@tech_ukn_crystal_megabore_tier = 4
+@tech_ukn_crystal_megabore_cost = 24000
+@tech_ukn_crystal_megabore_weight = 35
+
+#[L]
+@tech_ukn_automated_stripmine_1_tier = 4
+@tech_ukn_automated_stripmine_1_cost = 24000
+@tech_ukn_automated_stripmine_1_weight = 35
+
+#[L]
+@tech_ukn_orbital_bastion_tier = 4
+@tech_ukn_orbital_bastion_cost = 24000
+@tech_ukn_orbital_bastion_weight = 35
+
+
+########################################
+# [MACRO-CONSTRUCTIONS] MEGASTRUCTURES #
+########################################
+
+#[X]
+@tech_mega_engineering_tier = 5
+@tech_mega_engineering_cost = 80000
+@tech_mega_engineering_weight = 25
+
+#[L]
+@tech_ukn_equatorial_shipyard_tier = 5
+@tech_ukn_equatorial_shipyard_cost = 60000
+@tech_ukn_equatorial_shipyard_weight = 30
+
+#[L]
+@tech_ukn_planetary_drive_yard_tier = 5
+@tech_ukn_planetary_drive_yard_cost = 60000
+@tech_ukn_planetary_drive_yard_weight = 30
+
+#[M]
+@tech_ukn_planetary_drive_yard_defense_tier = 5
+@tech_ukn_planetary_drive_yard_defense_cost = 50000
+@tech_ukn_planetary_drive_yard_defense_weight = 35
+
+#[M]
+@tech_ukn_planetary_drive_yard_shipyard_tier = 5
+@tech_ukn_planetary_drive_yard_shipyard_cost = 50000
+@tech_ukn_planetary_drive_yard_shipyard_weight = 35
+
+#[S]
+@tech_ukn_automated_stripmine_2_tier = 5
+@tech_ukn_automated_stripmine_2_cost = 40000
+@tech_ukn_automated_stripmine_2_weight = 40
+
+#[L]
+@tech_ukn_succ_tier = 5
+@tech_ukn_succ_cost = 60000
+@tech_ukn_succ_weight = 30
+
+#[L]
+@tech_ukn_interstellar_habitat_tier = 5
+@tech_ukn_interstellar_habitat_cost = 60000
+@tech_ukn_interstellar_habitat_weight = 30
+
+#[X]
+@tech_ukn_interstellar_ringworld_tier = 5
+@tech_ukn_interstellar_ringworld_cost = 80000
+@tech_ukn_interstellar_ringworld_weight = 25
+
+#[X]
+@tech_ukn_ringworld_titanic_2_tier = 5
+@tech_ukn_ringworld_titanic_2_cost = 80000
+@tech_ukn_ringworld_titanic_2_weight = 25
+
+#[L]
+@tech_ukn_star_lifter_tier = 5
+@tech_ukn_star_lifter_cost = 60000
+@tech_ukn_star_lifter_weight = 30
+
+#[X]
+@tech_ukn_penrose_sphere_3_tier = 5
+@tech_ukn_penrose_sphere_3_cost = 80000
+@tech_ukn_penrose_sphere_3_weight = 25
+
+#[L]
+@tech_ukn_war_moon_1_tier = 5
+@tech_ukn_war_moon_1_cost = 60000
+@tech_ukn_war_moon_1_weight = 30
+
+#[L]
+@tech_ukn_war_moon_2_tier = 5
+@tech_ukn_war_moon_2_cost = 60000
+@tech_ukn_war_moon_2_weight = 30
+
+
+########################################
+# [MACRO-CONSTRUCTIONS] GIGASTRUCTURES #
+########################################
+
+
+########################################
+# [MACRO-CONSTRUCTIONS] TERASTRUCTURES #
+########################################
+

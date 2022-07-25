@@ -63,7 +63,7 @@ building_colony_shelter = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -214,7 +214,7 @@ building_capital = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -843,7 +843,7 @@ building_major_capital = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -1358,7 +1358,7 @@ building_system_capital = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -1873,7 +1873,7 @@ building_deployment_post = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -2028,7 +2028,7 @@ building_machine_capital = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -2221,7 +2221,7 @@ building_machine_major_capital = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -2422,7 +2422,7 @@ building_machine_system_capital = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -2657,7 +2657,7 @@ building_hive_capital = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -2807,7 +2807,7 @@ building_hive_major_capital = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -2969,7 +2969,7 @@ building_hab_capital = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -3390,7 +3390,7 @@ building_hab_major_capital = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -3947,7 +3947,7 @@ building_resort_capital = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -4158,7 +4158,7 @@ building_resort_major_capital = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -4369,7 +4369,7 @@ building_slave_capital = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -4556,7 +4556,7 @@ building_slave_major_capital = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -4748,7 +4748,7 @@ building_imperial_capital = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -5078,7 +5078,7 @@ building_imperial_machine_capital = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 
@@ -5281,7 +5281,7 @@ building_imperial_hive_capital = {
 			}
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 10
 		}
 	}
 

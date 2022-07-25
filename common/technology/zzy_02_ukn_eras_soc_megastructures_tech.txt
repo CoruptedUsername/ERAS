@@ -8,13 +8,13 @@
 
 ### Orbital Bastion ###----------------------
 giga_tech_yggdrasil_orchid = {
-	cost = 40000
+	cost = @giga_tech_yggdrasil_orchid_cost
 	area = society
-	tier = 4
+	tier = @giga_tech_yggdrasil_orchid_tier
 	category = { biology }
 	is_rare = yes
 	prerequisites = { "tech_battleships" "tech_mega_engineering" "tech_terrestrial_sculpting" "giga_tech_orbital_artificial_eco" }
-	weight = @tier4weight3
+	weight = @giga_tech_yggdrasil_orchid_weight
 	prereqfor_desc = {
 		custom = { title = "allow_yggdrasil"	desc = "desc_yggdrasil" }
 	}
@@ -51,13 +51,13 @@ giga_tech_yggdrasil_orchid = {
 
 ### Shattered Terraforming ###----------------------
 giga_tech_terraform_shattered = {
-	cost = 100000
+	cost = @giga_tech_terraform_shattered_cost
 	area = society
-	tier = 5
+	tier = @giga_tech_terraform_shattered_tier
 	category = { new_worlds }
 	is_rare = yes
 	prerequisites = { "giga_tech_terraform_molten" }
-	weight = @tier4weight3
+	weight = @giga_tech_terraform_shattered_weight
 	prereqfor_desc = {
 		custom = { title = "allow_terraform_shattered"	desc = "desc_terraform_shattered" }
 	}
