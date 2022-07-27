@@ -197,36 +197,3 @@ hyper_relay_restored = {
 		}
 	}
 }
-
-hyper_relay_0_dummy_text = {
-	entity = "hyper_relay_entity"
-	construction_entity = "hyper_relay_entity"
-	construction_blocks_and_blocked_by = none
-	portrait = "GFX_megastructure_construction_background"
-	place_entity_on_planet_plane = no
-	build_outside_gravity_well = yes
-	show_galactic_map_icon = no
-
-	build_time = @ukn_hyper_relay_p1_build_time
-	resources = {
-		category = megastructures_habitat
-		cost = {
-			influence = @ukn_hyper_relay_p1_cost_influence
-			unity = @ukn_hyper_relay_p1_cost_unity
-####
-			consumer_goods = @ukn_hyper_relay_p1_cost_consumer_goods
-			alloys = @ukn_hyper_relay_p1_cost_alloys
-#			ukn_quasi_matter = @ukn_hyper_relay_p1_cost_ukn_quasi_matter
-#			ukn_causalitons = @ukn_hyper_relay_p1_cost_ukn_causalitons
-		}
-	}
-#######################
-
-	construction_blocks_and_blocked_by = self_type
-
-	potential = {
-		NOT = { has_technology = tech_habitat_1 }
-	}
-
-	ai_weight = { factor = 0 } # Never
-}

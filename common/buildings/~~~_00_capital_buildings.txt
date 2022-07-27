@@ -38,18 +38,14 @@ building_colony_shelter = {
 		building_ancient_palace
 	}
 
-	planet_modifier = {
-		planet_housing_add = 3
-		planet_amenities_add = 3
-#		planet_max_buildings_add = @buildings_t1
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { is_mechanical_empire = no }
+	resources = {
+		category = planet_buildings
+##########
+# UPKEEP #
+##########
+		upkeep = {
+			energy = 1
 		}
-		job_colonist_add = 2
 	}
 #----------------------------------------------------
 
@@ -64,28 +60,6 @@ building_colony_shelter = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -113,6 +87,20 @@ building_colony_shelter = {
 	}
 #----------------------------------------------------
 
+	planet_modifier = {
+		planet_housing_add = 3
+		planet_amenities_add = 7
+#B]		planet_max_buildings_add = @buildings_t1
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_mechanical_empire = no }
+		}
+		job_colonist_add = 2
+	}
+
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -120,13 +108,6 @@ building_colony_shelter = {
 		}
 		job_roboticist_add = 1
 		job_colonist_add = 1
-	}
-
-	resources = {
-		category = planet_buildings
-		upkeep = {
-			energy = 1
-		}
 	}
 
 	upgrades = {
@@ -146,6 +127,15 @@ building_colony_shelter = {
 	}
 }
 
+
+
+
+
+
+
+
+
+
 # Planetary Administration
 building_capital = {
 	base_buildtime = @b2_time
@@ -154,7 +144,6 @@ building_capital = {
 	can_demolish = no
 	can_be_ruined = no
 	can_be_disabled = no
-	position_priority = 0
 
 	category = government
 
@@ -170,6 +159,10 @@ building_capital = {
 		}
 	}
 
+	allow = {
+		num_pops >= 10
+	}
+
 	convert_to = {
 		building_hive_capital
 		building_machine_capital
@@ -179,8 +172,31 @@ building_capital = {
 		building_ancient_palace
 	}
 
-	allow = {
-		num_pops >= 10
+	resources = {
+		category = planet_buildings
+#########
+# COSTS #
+#########
+#[BASIC] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+			}
+			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+		}
+		
+#[BASIC] MINERALS
+		cost = {
+			minerals = @b2_minerals
+		}
+##########
+# UPKEEP #
+##########
+		upkeep = {
+			energy = @b2_upkeep
+		}
 	}
 
 	upgrades = {
@@ -193,14 +209,6 @@ building_capital = {
 
 	show_tech_unlock_if = {
 		is_regular_empire = yes
-	}
-
-	planet_modifier = {
-		planet_housing_add = 5
-		planet_amenities_add = 5
-#		planet_max_buildings_add = @buildings_t2
-		planet_max_branch_office_buildings_add = 1
-		job_enforcer_add = 1
 	}
 #----------------------------------------------------
 
@@ -215,28 +223,6 @@ building_capital = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -264,142 +250,12 @@ building_capital = {
 	}
 #----------------------------------------------------
 
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-		}
-		modifier = {
-#			job_bureaucrat_add = 1
-		}
-	}
-#----------------------------------------------------
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_valid_civic = civic_bugged_distributism
-			}
-			NAND = {
-				has_climate = wet
-				owner = {
-					has_valid_civic = civic_anglers
-				}
-			}
-		}
-		modifier = {
-			job_farmer_per_pop = 0.066
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_valid_civic = civic_bugged_distributism
-			}
-			AND = {
-				has_climate = wet
-				owner = {
-					has_valid_civic = civic_anglers
-				}
-			}
-		}
-		modifier = {
-			job_angler_per_pop = 0.066
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				AND = {
-					has_valid_civic = civic_bugged_distributism
-					NOT = {
-						has_valid_civic = civic_catalytic_processing
-					}
-				}
-			}
-		}
-		modifier = {
-			job_foundry_per_pop = 0.05
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				AND = {
-					has_valid_civic = civic_bugged_distributism
-					has_valid_civic = civic_catalytic_processing
-				}
-			}
-		}
-		modifier = {
-			job_catalytic_technician_per_pop = 0.05
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				AND = {
-					has_valid_civic = civic_bugged_distributism
-					NOT = {
-						has_valid_civic = civic_crafters
-					}
-				}
-			}
-		}
-		modifier = {
-			job_artisan_per_pop = 0.05
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				AND = {
-					has_valid_civic = civic_bugged_distributism
-					has_valid_civic = civic_crafters
-				}
-			}
-		}
-		modifier = {
-			job_artificer_per_pop = 0.05
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_ethic = ethic_authoritarian
-			}
-		}
-		modifier = {
-			job_enforcer_add = 1
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_ethic = ethic_fanatic_authoritarian
-			}
-		}
-		modifier = {
-			job_enforcer_add = 2
-		}
+	planet_modifier = {
+		planet_housing_add = 5
+		planet_amenities_add = 5
+#B]		planet_max_buildings_add = 2
+		planet_max_branch_office_buildings_add = 1
+		job_enforcer_add = 1
 	}
 
 	triggered_planet_modifier = {
@@ -662,27 +518,6 @@ building_capital = {
 		}
 	}
 
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_1 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = @b2_minerals
-		}
-		upkeep = {
-			energy = @b2_upkeep
-		}
-	}
-
 	triggered_desc = {
 		trigger = {
 			exists = owner
@@ -777,7 +612,24 @@ building_capital = {
 	triggered_desc = {
 		text = job_enforcer_effect_desc
 	}
+
+	ai_weight = {
+		weight = 100 # get rid of the colony malus asap
+		modifier = {
+			factor = 0.25
+			owner = { has_resource = { type = minerals amount < 500 } }
+		}#This is here to prevent the AI from queuing up to buy this building when it could really do with another mineral district
+	}
 }
+
+
+
+
+
+
+
+
+
 
 # Major Capital
 building_major_capital = {
@@ -787,7 +639,6 @@ building_major_capital = {
 	can_demolish = no
 	can_be_ruined = no
 	can_be_disabled = no
-	position_priority = 0
 
 	category = government
 
@@ -816,20 +667,43 @@ building_major_capital = {
 		building_ancient_palace
 	}
 
+	resources = {
+		category = planet_buildings
+#########
+# COSTS #
+#########
+#[BASIC] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+			}
+			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+		}
+		
+#[BASIC] MINERALS
+		cost = {
+			minerals = @b3_minerals
+		}
+##########
+# UPKEEP #
+##########
+		upkeep = {
+			energy = @b3_upkeep
+		}
+	}
+
+	upgrades = {
+		"building_system_capital"
+	}
+
 	prerequisites = {
 		"tech_colonial_centralization"
 	}
 
 	show_tech_unlock_if = {
 		is_regular_empire = yes
-	}
-
-	planet_modifier = {
-		planet_housing_add = 8
-		planet_amenities_add = 8
-#		planet_max_buildings_add = @buildings_t3
-		planet_max_branch_office_buildings_add = 2
-		job_enforcer_add = 2
 	}
 #----------------------------------------------------
 
@@ -844,28 +718,6 @@ building_major_capital = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -893,19 +745,13 @@ building_major_capital = {
 	}
 #----------------------------------------------------
 
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-		}
-		modifier = {
-#			job_bureaucrat_add = 1
-		}
+	planet_modifier = {
+		planet_housing_add = 8
+		planet_amenities_add = 8
+#B]		planet_max_buildings_add = 3
+		planet_max_branch_office_buildings_add = 2
+		job_enforcer_add = 2
 	}
-#----------------------------------------------------
 
 	triggered_planet_modifier = {
 		potential = {
@@ -1160,38 +1006,6 @@ building_major_capital = {
 		}
 	}
 
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_1 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_2 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = @b3_minerals
-		}
-		upkeep = {
-			energy = @b3_upkeep
-		}
-	}
-
 	triggered_desc = {
 		trigger = {
 			exists = owner
@@ -1289,11 +1103,24 @@ building_major_capital = {
 		text = job_enforcer_effect_desc
 	}
 
-	upgrades = {
-		"building_system_capital"
+	ai_weight = {
+		weight = 30
+		modifier = {
+			factor = 0.25
+			owner = { has_resource = { type = minerals amount < 1000 } }
+		}#This is here to prevent the AI from queuing up to buy this building when it could really do with another mineral district
 	}
 }
 
+
+
+
+
+
+
+
+
+# System Capital
 building_system_capital = {
 	base_buildtime = @b4_time
 	capital = yes
@@ -1301,7 +1128,6 @@ building_system_capital = {
 	can_demolish = no
 	can_be_ruined = no
 	can_be_disabled = no
-	position_priority = 0
 
 	category = government
 
@@ -1317,6 +1143,10 @@ building_system_capital = {
 		}
 	}
 
+	allow = {
+		num_pops >= 40
+	}
+
 	convert_to = {
 		building_hive_major_capital
 		building_machine_major_capital
@@ -1327,8 +1157,35 @@ building_system_capital = {
 		building_ancient_palace
 	}
 
-	allow = {
-		num_pops >= 40
+	resources = {
+		category = planet_buildings
+#########
+# COSTS #
+#########
+#[BASIC] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+			}
+			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+		}
+		
+#[BASIC] MINERALS
+		cost = {
+			minerals = @b4_minerals
+		}
+##########
+# UPKEEP #
+##########
+		upkeep = {
+			energy = @b4_upkeep
+		}
+	}
+
+	upgrades = {
+		"building_imperial_capital"
 	}
 
 	prerequisites = {
@@ -1337,14 +1194,6 @@ building_system_capital = {
 
 	show_tech_unlock_if = {
 		is_regular_empire = yes
-	}
-
-	planet_modifier = {
-		planet_housing_add = 12
-		planet_amenities_add = 12
-#		planet_max_buildings_add = @buildings_t4
-		planet_max_branch_office_buildings_add = 4
-		job_enforcer_add = 3
 	}
 #----------------------------------------------------
 
@@ -1359,28 +1208,6 @@ building_system_capital = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -1408,19 +1235,13 @@ building_system_capital = {
 	}
 #----------------------------------------------------
 
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-		}
-		modifier = {
-#			job_bureaucrat_add = 1
-		}
+	planet_modifier = {
+		planet_housing_add = 12
+		planet_amenities_add = 12
+#B]		planet_max_buildings_add = 4
+		planet_max_branch_office_buildings_add = 4
+		job_enforcer_add = 3
 	}
-#----------------------------------------------------
 
 	triggered_planet_modifier = {
 		potential = {
@@ -1675,49 +1496,6 @@ building_system_capital = {
 		}
 	}
 
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_1 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_2 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_3 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = @b4_minerals
-		}
-		upkeep = {
-			energy = @b4_upkeep
-		}
-	}
-
 	triggered_desc = {
 		trigger = {
 			exists = owner
@@ -1814,11 +1592,24 @@ building_system_capital = {
 	triggered_desc = {
 		text = job_enforcer_effect_desc
 	}
-
-	upgrades = {
-		building_imperial_capital
+	
+	ai_weight = {
+		weight = 20
+		modifier = {
+			factor = 0.25
+			owner = { has_resource = { type = minerals amount < 2000 } }
+		}#This is here to prevent the AI from queuing up to buy this building when it could really do with another mineral district
 	}
 }
+
+
+
+
+
+
+
+
+
 
 #############
 # Machine buildings
@@ -1853,13 +1644,18 @@ building_deployment_post = {
 		building_ancient_palace
 	}
 
-	planet_modifier = {
-		planet_housing_add = 3
-		planet_amenities_add = 8
-		job_replicator_add = 2
-		job_patrol_drone_add = 1
-		job_maintenance_drone_add = 2
-#		planet_max_buildings_add = @buildings_t1
+	resources = {
+		category = planet_buildings
+##########
+# UPKEEP #
+##########
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	upgrades = {
+		building_machine_capital
 	}
 #----------------------------------------------------
 
@@ -1874,28 +1670,6 @@ building_deployment_post = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -1923,6 +1697,15 @@ building_deployment_post = {
 	}
 #----------------------------------------------------
 
+	planet_modifier = {
+		planet_housing_add = 3
+		planet_amenities_add = 8
+		job_replicator_add = 2
+		job_patrol_drone_add = 1
+		job_maintenance_drone_add = 2
+#B]		planet_max_buildings_add = @buildings_t1
+	}
+
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -1931,17 +1714,6 @@ building_deployment_post = {
 		modifier = {
 			job_replicator_add = -1
 		}
-	}
-
-	resources = {
-		category = planet_buildings
-		upkeep = {
-			energy = 1
-		}
-	}
-
-	upgrades = {
-		building_machine_capital
 	}
 
 	triggered_desc = {
@@ -1957,6 +1729,15 @@ building_deployment_post = {
 	}
 }
 
+
+
+
+
+
+
+
+
+
 # Administrative Array
 building_machine_capital = {
 	base_buildtime = @b2_time
@@ -1965,7 +1746,6 @@ building_machine_capital = {
 	can_demolish = no
 	can_be_ruined = no
 	can_be_disabled = no
-	position_priority = 0
 
 	category = government
 
@@ -1984,6 +1764,10 @@ building_machine_capital = {
 		}
 	}
 
+	allow = {
+		num_pops >= 10
+	}
+
 	destroy_trigger = {
 		exists = owner
 		owner = { is_machine_empire = no }
@@ -1996,8 +1780,35 @@ building_machine_capital = {
 		building_ancient_palace
 	}
 
-	allow = {
-		num_pops >= 10
+	resources = {
+		category = planet_buildings
+#########
+# COSTS #
+#########
+#[BASIC] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+			}
+			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+		}
+		
+#[BASIC] MINERALS
+		cost = {
+			minerals = @b2_minerals
+		}
+##########
+# UPKEEP #
+##########
+		upkeep = {
+			energy = @b2_upkeep
+		}
+	}
+
+	upgrades = {
+		building_machine_major_capital
 	}
 
 	prerequisites = {
@@ -2006,15 +1817,6 @@ building_machine_capital = {
 
 	show_tech_unlock_if = {
 		is_machine_empire = yes
-	}
-
-	planet_modifier = {
-		planet_housing_add = 5
-		planet_amenities_add = 10
-		job_replicator_add = 2
-		job_patrol_drone_add = 1
-		job_maintenance_drone_add = 3
-#		planet_max_buildings_add = @buildings_t2
 	}
 #----------------------------------------------------
 
@@ -2029,28 +1831,6 @@ building_machine_capital = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -2078,19 +1858,14 @@ building_machine_capital = {
 	}
 #----------------------------------------------------
 
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_machine_empire = yes
-			}
-		}
-		modifier = {
-#			job_coordinator_add = 1
-		}
+	planet_modifier = {
+		planet_housing_add = 5
+		planet_amenities_add = 10
+		job_replicator_add = 2
+		job_patrol_drone_add = 1
+		job_maintenance_drone_add = 3
+#B]		planet_max_buildings_add = 2
 	}
-#----------------------------------------------------
 
 	triggered_planet_modifier = {
 		potential = {
@@ -2113,31 +1888,6 @@ building_machine_capital = {
 		}
 	}
 
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_1 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = @b2_minerals
-		}
-		upkeep = {
-			energy = @b2_upkeep
-		}
-	}
-
-	upgrades = {
-		building_machine_major_capital
-	}
-
 	triggered_desc = {
 		text = job_replicator_effect_desc
 	}
@@ -2157,7 +1907,24 @@ building_machine_capital = {
 		}
 		text = job_bugged_examinatron_effect_desc
 	}
+
+	ai_weight = {
+		weight = 50
+		modifier = {
+			factor = 0.25
+			owner = { has_resource = { type = minerals amount < 500 } }
+		}#This is here to prevent the AI from queuing up to buy this building when it could really do with another mineral district
+	}
 }
+
+
+
+
+
+
+
+
+
 
 # Planetary Processor
 building_machine_major_capital = {
@@ -2167,7 +1934,6 @@ building_machine_major_capital = {
 	can_demolish = no
 	can_be_ruined = no
 	can_be_disabled = no
-	position_priority = 0
 
 	category = government
 
@@ -2182,6 +1948,10 @@ building_machine_major_capital = {
 		}
 	}
 
+	allow = {
+		num_pops >= 25
+	}
+
 	convert_to = {
 		building_hive_major_capital
 		building_major_capital
@@ -2189,8 +1959,31 @@ building_machine_major_capital = {
 		building_ancient_palace
 	}
 
-	allow = {
-		num_pops >= 25
+	resources = {
+		category = planet_buildings
+#########
+# COSTS #
+#########
+#[BASIC] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+			}
+			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+		}
+		
+#[BASIC] MINERALS
+		cost = {
+			minerals = @b3_minerals
+		}
+##########
+# UPKEEP #
+##########
+		upkeep = {
+			energy = @b3_upkeep
+		}
 	}
 
 	prerequisites = {
@@ -2199,15 +1992,6 @@ building_machine_major_capital = {
 
 	show_tech_unlock_if = {
 		is_machine_empire = yes
-	}
-
-	planet_modifier = {
-		planet_housing_add = 8
-		planet_amenities_add = 12
-		job_replicator_add = 2
-		job_patrol_drone_add = 2
-		job_maintenance_drone_add = 4
-#		planet_max_buildings_add = @buildings_t3
 	}
 #----------------------------------------------------
 
@@ -2222,28 +2006,6 @@ building_machine_major_capital = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -2271,19 +2033,14 @@ building_machine_major_capital = {
 	}
 #----------------------------------------------------
 
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_machine_empire = yes
-			}
-		}
-		modifier = {
-#			job_coordinator_add = 1
-		}
+	planet_modifier = {
+		planet_housing_add = 8
+		planet_amenities_add = 12
+		job_replicator_add = 2
+		job_patrol_drone_add = 2
+		job_maintenance_drone_add = 4
+#B]		planet_max_buildings_add = 3
 	}
-#----------------------------------------------------
 
 	triggered_planet_modifier = {
 		potential = {
@@ -2306,36 +2063,8 @@ building_machine_major_capital = {
 		}
 	}
 
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_1 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_2 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = @b3_minerals
-		}
-		upkeep = {
-			energy = @b3_upkeep
-		}
+	triggered_desc = {
+		text = job_coordinator_effect_desc
 	}
 
 	triggered_desc = {
@@ -2346,6 +2075,10 @@ building_machine_major_capital = {
 		text = job_patrol_drone_effect_desc
 	}
 
+	upgrades = {
+		"building_machine_system_capital"
+	}
+
 	triggered_desc = {
 		trigger = {
 			exists = owner
@@ -2353,11 +2086,15 @@ building_machine_major_capital = {
 		}
 		text = job_bugged_examinatron_effect_desc
 	}
-
-	upgrades = {
-		"building_machine_system_capital"
-	}
 }
+
+
+
+
+
+
+
+
 
 # Primary Nexus
 building_machine_system_capital = {
@@ -2367,7 +2104,6 @@ building_machine_system_capital = {
 	can_demolish = no
 	can_be_ruined = no
 	can_be_disabled = no
-	position_priority = 0
 
 	category = government
 
@@ -2382,6 +2118,10 @@ building_machine_system_capital = {
 		}
 	}
 
+	allow = {
+		num_pops >= 40
+	}
+
 	convert_to = {
 		building_hive_major_capital
 		building_major_capital
@@ -2390,8 +2130,35 @@ building_machine_system_capital = {
 		building_ancient_palace
 	}
 
-	allow = {
-		num_pops >= 40
+	resources = {
+		category = planet_buildings
+#########
+# COSTS #
+#########
+#[BASIC] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+			}
+			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+		}
+		
+#[BASIC] MINERALS
+		cost = {
+			minerals = @b4_minerals
+		}
+##########
+# UPKEEP #
+##########
+		upkeep = {
+			energy = @b4_upkeep
+		}
+	}
+
+	upgrades = {
+		"building_imperial_machine_capital"
 	}
 
 	prerequisites = {
@@ -2408,83 +2175,9 @@ building_machine_system_capital = {
 		job_replicator_add = 2
 		job_patrol_drone_add = 3
 		job_maintenance_drone_add = 5
-#		planet_max_buildings_add = @buildings_t4
-	}
-#----------------------------------------------------
-
-#[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-		}
-		modifier = {
-			planet_max_buildings_add = 10
-		}
+#B]		planet_max_buildings_add = 4
 	}
 
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
-		}
-	}
-
-#[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_NORMAL_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_district = district_ukn_automation
-				has_district = district_ukn_hab_automation
-				has_district = district_ukn_arcology_automation
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 1
-		}
-	}
-#----------------------------------------------------
-
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_machine_empire = yes
-			}
-		}
-		modifier = {
-#			job_coordinator_add = 1
-		}
-	}
-#----------------------------------------------------
 	triggered_planet_modifier = {
 		potential = {
 			num_pops >= 10
@@ -2522,49 +2215,6 @@ building_machine_system_capital = {
 		}
 	}
 
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_1 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_2 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_3 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = @b4_minerals
-		}
-		upkeep = {
-			energy = @b4_upkeep
-		}
-	}
-
 	triggered_desc = {
 		text = job_replicator_effect_desc
 	}
@@ -2572,7 +2222,7 @@ building_machine_system_capital = {
 	triggered_desc = {
 		text = job_patrol_drone_effect_desc
 	}
-	
+
 	triggered_desc = {
 		trigger = {
 			exists = owner
@@ -2581,10 +2231,22 @@ building_machine_system_capital = {
 		text = job_bugged_examinatron_effect_desc
 	}
 
-	upgrades = {
-		"building_imperial_machine_capital"
+	ai_weight = {
+		weight = 20
+		modifier = {
+			factor = 0.25
+			owner = { has_resource = { type = minerals amount < 2000 } }
+		}#This is here to prevent the AI from queuing up to buy this building when it could really do with another mineral district
 	}
 }
+
+
+
+
+
+
+
+
 
 
 #############
@@ -2625,6 +2287,33 @@ building_hive_capital = {
 		building_ancient_palace
 	}
 
+	resources = {
+		category = planet_buildings
+#########
+# COSTS #
+#########
+#[BASIC] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+			}
+			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+		}
+		
+#[BASIC] MINERALS
+		cost = {
+			minerals = 1000
+		}
+##########
+# UPKEEP #
+##########
+		upkeep = {
+			energy = 2
+		}
+	}
+
 	upgrades = {
 		"building_hive_major_capital"
 	}
@@ -2635,15 +2324,6 @@ building_hive_capital = {
 
 	show_tech_unlock_if = {
 		is_hive_empire = yes
-	}
-
-	planet_modifier = {
-		planet_housing_add = 5
-		planet_amenities_add = 8
-		job_synapse_drone_add = 2
-		job_maintenance_drone_add = 2
-		job_patrol_drone_add = 1
-#		planet_max_buildings_add = @buildings_t2
 	}
 #----------------------------------------------------
 
@@ -2658,28 +2338,6 @@ building_hive_capital = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -2707,25 +2365,23 @@ building_hive_capital = {
 	}
 #----------------------------------------------------
 
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_1 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
+	planet_modifier = {
+		planet_housing_add = 5
+		planet_amenities_add = 8
+		job_synapse_drone_add = 2
+		job_maintenance_drone_add = 2
+		job_patrol_drone_add = 1
+#B]		planet_max_buildings_add = @buildings_t2
+	}
 
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = 1000
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_origin = origin_progenitor_hive }
+			is_planet_class = pc_hive
 		}
-		upkeep = {
-			energy = 2
-		}
+		job_spawning_drone_add = -1
+		job_offspring_drone_add = 1
 	}
 
 	triggered_desc = {
@@ -2740,6 +2396,15 @@ building_hive_capital = {
 		text = job_patrol_drone_effect_desc
 	}
 }
+
+
+
+
+
+
+
+
+
 
 # Hive Nexus
 building_hive_major_capital = {
@@ -2764,6 +2429,10 @@ building_hive_major_capital = {
 		}
 	}
 
+	allow = {
+		num_pops >= 25
+	}
+
 	convert_to = {
 		building_machine_major_capital
 		building_major_capital
@@ -2771,12 +2440,35 @@ building_hive_major_capital = {
 		building_ancient_palace
 	}
 
-	upgrades = {
-		"building_imperial_hive_capital"
+	resources = {
+		category = planet_buildings
+#########
+# COSTS #
+#########
+#[BASIC] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+			}
+			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+		}
+		
+#[BASIC] MINERALS
+		cost = {
+			minerals = @b2_minerals
+		}
+##########
+# UPKEEP #
+##########
+		upkeep = {
+			energy = @b2_upkeep
+		}
 	}
 
-	allow = {
-		num_pops >= 25
+	upgrades = {
+		"building_imperial_hive_capital"
 	}
 
 	prerequisites = {
@@ -2785,15 +2477,6 @@ building_hive_major_capital = {
 
 	show_tech_unlock_if = {
 		is_hive_empire = yes
-	}
-
-	planet_modifier = {
-		planet_housing_add = 10
-		planet_amenities_add = 12
-		job_synapse_drone_add = 3
-		job_maintenance_drone_add = 5
-		job_patrol_drone_add = 2
-#		planet_max_buildings_add = @buildings_t4
 	}
 #----------------------------------------------------
 
@@ -2808,28 +2491,6 @@ building_hive_major_capital = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -2857,47 +2518,23 @@ building_hive_major_capital = {
 	}
 #----------------------------------------------------
 
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_1 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
+	planet_modifier = {
+		planet_housing_add = 10
+		planet_amenities_add = 12
+		job_synapse_drone_add = 3
+		job_maintenance_drone_add = 5
+		job_patrol_drone_add = 2
+#B]		planet_max_buildings_add = @buildings_t4
+	}
 
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_2 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_3 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = @b2_minerals
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_origin = origin_progenitor_hive }
+			is_planet_class = pc_hive
 		}
-		upkeep = {
-			energy = @b2_upkeep
-		}
+		job_spawning_drone_add = -1
+		job_offspring_drone_add = 1
 	}
 
 	triggered_desc = {
@@ -2912,6 +2549,15 @@ building_hive_major_capital = {
 		text = job_patrol_drone_effect_desc
 	}
 }
+
+
+
+
+
+
+
+
+
 
 #############
 # Habitat buildings
@@ -2941,7 +2587,10 @@ building_hab_capital = {
 	}
 
 	resources = {
-		category = planet_buildings
+		category = planet_buildings_hab_capital
+##########
+# UPKEEP #
+##########
 		upkeep = {
 			energy = 3
 			alloys = 5
@@ -2950,12 +2599,6 @@ building_hab_capital = {
 			trigger = { owner = { has_active_tradition = tr_domination_adopt_void } }
 			alloys = -1
 		}
-	}
-
-	planet_modifier = {
-		planet_housing_add = 3
-		planet_amenities_add = 3
-#		planet_max_buildings_add = @buildings_t1
 	}
 #----------------------------------------------------
 
@@ -2970,28 +2613,6 @@ building_hab_capital = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -3019,33 +2640,16 @@ building_hab_capital = {
 	}
 #----------------------------------------------------
 
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-		}
-		modifier = {
-#			job_bureaucrat_add = 1
-		}
+	planet_modifier = {
+		planet_housing_add = 3
+		planet_amenities_add = 3
+#B]		planet_max_buildings_add = @buildings_t1
 	}
-#----------------------------------------------------
 
-#[ALL] Admin Cap Job Add
 	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_machine_empire = yes
-			}
-		}
-		modifier = {
-#			job_coordinator_add = 1
-		}
+		modifier = { planet_stability_add = 1 }
+		mult = modifier:habitat_stability_add
 	}
-#----------------------------------------------------
 
 	triggered_planet_modifier = {
 		potential = {
@@ -3150,6 +2754,26 @@ building_hab_capital = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
+			owner = { has_active_tradition = tr_prosperity_void_works }
+		}
+		modifier = {
+#B]			planet_max_buildings_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_ascension_perk = ap_voidborn }
+		}
+		modifier = {
+#B]			planet_max_buildings_add = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
 			owner = {
 				has_active_tradition = tr_domination_imperious_architecture
 			}
@@ -3158,16 +2782,6 @@ building_hab_capital = {
 			planet_housing_add = 1
 		}
 	}
-
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_active_tradition = tr_prosperity_void_works }
-#		}
-#		modifier = {
-#			 planet_max_buildings_add = 1
-#		}
-#	}
 
 	triggered_planet_modifier = {
 		potential = {
@@ -3181,10 +2795,7 @@ building_hab_capital = {
 		potential = {
 			exists = owner
 			owner = {
-				NOR = {
-					has_authority = auth_corporate
-					has_origin = origin_void_dwellers
-				}
+				is_megacorp = no
 				is_regular_empire = yes
 			}
 		}
@@ -3194,10 +2805,7 @@ building_hab_capital = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = {
-				has_authority = auth_corporate
-				NOT = { has_origin = origin_void_dwellers }
-			}
+			owner = { is_megacorp = yes }
 		}
 		modifier = {
 			job_executive_add = 1
@@ -3207,25 +2815,12 @@ building_hab_capital = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = {
-				has_origin = origin_void_dwellers
-				is_regular_empire = yes
-			}
+			owner = { has_ascension_perk = ap_voidborn }
 		}
 		modifier = {
-			job_colonist_add = 2
+			planet_max_buildings_add = 2
 		}
 	}
-
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_ascension_perk = ap_voidborn }
-#		}
-#		modifier = {
-#			 planet_max_buildings_add = 2
-#		}
-#	}
 
 	triggered_planet_modifier = {
 		potential = {
@@ -3251,21 +2846,7 @@ building_hab_capital = {
 		trigger = {
 			exists = owner
 			owner = {
-				has_origin = origin_void_dwellers
-				is_regular_empire = yes
-			}
-		}
-		text = job_colonist_effect_desc
-	}
-
-	triggered_desc = {
-		trigger = {
-			exists = owner
-			owner = {
-				NOR = {
-					has_authority = auth_corporate
-					has_origin = origin_void_dwellers
-				}
+				NOT = { has_authority = auth_corporate }
 				is_regular_empire = yes
 			}
 		}
@@ -3285,7 +2866,6 @@ building_hab_capital = {
 			exists = owner
 			owner = {
 				has_authority = auth_corporate
-				NOT = { has_origin = origin_void_dwellers }
 			}
 		}
 		text = job_executive_effect_desc
@@ -3329,6 +2909,15 @@ building_hab_capital = {
 }
 
 
+
+
+
+
+
+
+
+
+
 # Habitat Central Complex
 building_hab_major_capital = {
 	base_buildtime = @b2_time
@@ -3349,19 +2938,36 @@ building_hab_major_capital = {
 		owner = { is_fallen_empire = no }
 	}
 
-	convert_to = {
-		building_hab_fe_capital
-	}
-
 	allow = {
 		num_pops >= 10
 	}
 
+	convert_to = {
+		building_hab_fe_capital
+	}
+
 	resources = {
-		category = planet_buildings
+		category = planet_buildings_hab_capital
+#########
+# COSTS #
+#########
+#[BASIC] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+			}
+			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+		}
+		
+#[BASIC] MINERALS
 		cost = {
 			minerals = @b2_minerals
 		}
+##########
+# UPKEEP #
+##########
 		upkeep = {
 			energy = 3
 			alloys = 5
@@ -3370,13 +2976,6 @@ building_hab_major_capital = {
 			trigger = { owner = { has_active_tradition = tr_domination_adopt_void } }
 			alloys = -1
 		}
-	}
-
-	planet_modifier = {
-		planet_housing_add = 5
-		planet_amenities_add = 10
-#		planet_max_buildings_add = @buildings_t2
-		planet_max_branch_office_buildings_add = 1
 	}
 #----------------------------------------------------
 
@@ -3391,28 +2990,6 @@ building_hab_major_capital = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -3440,33 +3017,22 @@ building_hab_major_capital = {
 	}
 #----------------------------------------------------
 
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-		}
-		modifier = {
-#			job_bureaucrat_add = 1
-		}
+	planet_modifier = {
+		planet_housing_add = 5
+		planet_amenities_add = 5
+#B]		planet_max_buildings_add = @buildings_t2
+		planet_max_branch_office_buildings_add = 1
 	}
-#----------------------------------------------------
 
-#[ALL] Admin Cap Job Add
 	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_machine_empire = yes
-			}
-		}
-		modifier = {
-#			job_coordinator_add = 1
-		}
+		modifier = { planet_stability_add = 1 }
+		mult = modifier:habitat_stability_add
 	}
-#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		modifier = { planet_stability_add = 1 }
+		mult = modifier:habitat_stability_add
+	}
 
 	triggered_planet_modifier = {
 		potential = {
@@ -3571,6 +3137,26 @@ building_hab_major_capital = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
+			owner = { has_active_tradition = tr_prosperity_void_works }
+		}
+		modifier = {
+#B]			planet_max_buildings_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_ascension_perk = ap_voidborn }
+		}
+		modifier = {
+#B]			planet_max_buildings_add = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
 			owner = {
 				has_active_tradition = tr_domination_imperious_architecture
 			}
@@ -3579,16 +3165,6 @@ building_hab_major_capital = {
 			planet_housing_add = 1
 		}
 	}
-
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_active_tradition = tr_prosperity_void_works }
-#		}
-#		modifier = {
-#			 planet_max_buildings_add = 1
-#		}
-#	}
 
 	triggered_planet_modifier = {
 		potential = {
@@ -3603,8 +3179,7 @@ building_hab_major_capital = {
 			exists = owner
 			owner = { is_hive_empire = yes }
 		}
-		job_synapse_drone_add = 3
-		planet_amenities_add = 3
+		job_synapse_drone_add = 2
 	}
 
 	triggered_planet_modifier = {
@@ -3614,8 +3189,6 @@ building_hab_major_capital = {
 		}
 		job_coordinator_add = 2
 		job_replicator_add = 1
-		job_maintenance_drone_add = 3
-		planet_amenities_add = 3
 	}
 
 	triggered_planet_modifier = {
@@ -3626,7 +3199,7 @@ building_hab_major_capital = {
 		job_roboticist_add = 2
 	}
 
-triggered_planet_modifier = {
+    triggered_planet_modifier = {
         potential = {
             exists = owner
             owner = {
@@ -3744,26 +3317,15 @@ triggered_planet_modifier = {
 		}
 	}
 
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_ascension_perk = ap_voidborn }
-#		}
-#		modifier = {
-#			 planet_max_buildings_add = 2
-#		}
-#	}
-
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_1 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_ascension_perk = ap_voidborn }
+		}
+		modifier = {
+			 planet_max_buildings_add = 2
+		}
+	}
 
 	triggered_desc = {
 		trigger = {
@@ -3890,7 +3452,24 @@ triggered_planet_modifier = {
 		}
 		text = job_bugged_examinatron_effect_desc
 	}
+
+	ai_weight = {
+		weight = 30
+		modifier = {
+			factor = 0.25
+			owner = { has_resource = { type = minerals amount < 500 } }
+		}#This is here to prevent the AI from queuing up to buy this building when it could really do with another mineral district
+	}
 }
+
+
+
+
+
+
+
+
+
 
 #############
 # Special
@@ -3923,17 +3502,12 @@ building_resort_capital = {
 
 	resources = {
 		category = planet_buildings
+##########
+# UPKEEP #
+##########
 		upkeep = {
 			energy = 2
 		}
-	}
-
-	planet_modifier = {
-		planet_housing_add = 5
-		planet_amenities_add = 5
-		job_entertainer_add = 1
-#		planet_max_buildings_add = 5
-		planet_max_branch_office_buildings_add = 1
 	}
 #----------------------------------------------------
 
@@ -3948,28 +3522,6 @@ building_resort_capital = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -3997,33 +3549,13 @@ building_resort_capital = {
 	}
 #----------------------------------------------------
 
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-		}
-		modifier = {
-#			job_bureaucrat_add = 1
-		}
+	planet_modifier = {
+		planet_housing_add = 5
+		planet_amenities_add = 5
+		job_entertainer_add = 1
+#B]		planet_max_buildings_add = 5
+		planet_max_branch_office_buildings_add = 1
 	}
-#----------------------------------------------------
-
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_machine_empire = yes
-			}
-		}
-		modifier = {
-#			job_coordinator_add = 1
-		}
-	}
-#----------------------------------------------------
 
 	triggered_planet_modifier = {
 		potential = {
@@ -4099,6 +3631,14 @@ building_resort_capital = {
 	}
 }
 
+
+
+
+
+
+
+
+
 # Resort Governing Complex
 building_resort_major_capital = {
 	base_buildtime = @b2_time
@@ -4117,6 +3657,10 @@ building_resort_major_capital = {
 		has_modifier = resort_colony
 	}
 
+	allow = {
+		num_pops >= 20
+	}
+
 	convert_to = {
 		building_hive_major_capital
 		building_machine_major_capital
@@ -4125,26 +3669,31 @@ building_resort_major_capital = {
 		building_ancient_palace
 	}
 
-	allow = {
-		num_pops >= 20
-	}
-
 	resources = {
 		category = planet_buildings
+#########
+# COSTS #
+#########
+#[BASIC] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+			}
+			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+		}
+		
+#[BASIC] MINERALS
 		cost = {
 			minerals = @b2_minerals
 		}
+##########
+# UPKEEP #
+##########
 		upkeep = {
 			energy = @b2_upkeep
 		}
-	}
-
-	planet_modifier = {
-		planet_housing_add = 10
-		planet_amenities_add = 10
-		job_entertainer_add = 2
-#		planet_max_buildings_add = 11
-		planet_max_branch_office_buildings_add = 2
 	}
 #----------------------------------------------------
 
@@ -4159,28 +3708,6 @@ building_resort_major_capital = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -4208,33 +3735,13 @@ building_resort_major_capital = {
 	}
 #----------------------------------------------------
 
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-		}
-		modifier = {
-#			job_bureaucrat_add = 1
-		}
+	planet_modifier = {
+		planet_housing_add = 10
+		planet_amenities_add = 10
+		job_entertainer_add = 2
+#B]		planet_max_buildings_add = 11
+		planet_max_branch_office_buildings_add = 2
 	}
-#----------------------------------------------------
-
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_machine_empire = yes
-			}
-		}
-		modifier = {
-#			job_coordinator_add = 1
-		}
-	}
-#----------------------------------------------------
 
 	triggered_planet_modifier = {
 		potential = {
@@ -4277,17 +3784,6 @@ building_resort_major_capital = {
 		}
 	}
 
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_1 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
 	triggered_desc = {
 		trigger = {
 			exists = owner
@@ -4317,6 +3813,15 @@ building_resort_major_capital = {
 	}
 }
 
+
+
+
+
+
+
+
+
+
 # Thrall-World Capital
 building_slave_capital = {
 	capital = yes
@@ -4344,18 +3849,12 @@ building_slave_capital = {
 
 	resources = {
 		category = planet_buildings
+##########
+# UPKEEP #
+##########
 		upkeep = {
 			energy = 2
 		}
-	}
-
-	planet_modifier = {
-		planet_housing_add = 5
-		planet_amenities_add = 5
-		job_slave_overseer_add = 2
-		planet_stability_add = 5
-#		planet_max_buildings_add = 5
-		planet_max_branch_office_buildings_add = 1
 	}
 #----------------------------------------------------
 
@@ -4370,28 +3869,6 @@ building_slave_capital = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -4419,33 +3896,14 @@ building_slave_capital = {
 	}
 #----------------------------------------------------
 
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-		}
-		modifier = {
-#			job_bureaucrat_add = 1
-		}
+	planet_modifier = {
+		planet_housing_add = 5
+		planet_amenities_add = 5
+		job_slave_overseer_add = 2
+		planet_stability_add = 5
+#B]		planet_max_buildings_add = 5
+		planet_max_branch_office_buildings_add = 1
 	}
-#----------------------------------------------------
-
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_machine_empire = yes
-			}
-		}
-		modifier = {
-#			job_coordinator_add = 1
-		}
-	}
-#----------------------------------------------------
 
 	triggered_planet_modifier = {
 		potential = {
@@ -4496,6 +3954,14 @@ building_slave_capital = {
 	}
 }
 
+
+
+
+
+
+
+
+
 # Thrall-World Major Capital
 building_slave_major_capital = {
 	base_buildtime = @b2_time
@@ -4528,21 +3994,29 @@ building_slave_major_capital = {
 
 	resources = {
 		category = planet_buildings
+#########
+# COSTS #
+#########
+#[BASIC] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+			}
+			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+		}
+		
+#[BASIC] MINERALS
 		cost = {
 			minerals = 500
 		}
+##########
+# UPKEEP #
+##########
 		upkeep = {
 			energy = @b1_upkeep
 		}
-	}
-
-	planet_modifier = {
-		planet_housing_add = 10
-		planet_amenities_add = 10
-		job_slave_overseer_add = 4
-		planet_stability_add = 10
-#		planet_max_buildings_add = 11
-		planet_max_branch_office_buildings_add = 2
 	}
 #----------------------------------------------------
 
@@ -4557,28 +4031,6 @@ building_slave_major_capital = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -4606,33 +4058,14 @@ building_slave_major_capital = {
 	}
 #----------------------------------------------------
 
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-		}
-		modifier = {
-#			job_bureaucrat_add = 1
-		}
+	planet_modifier = {
+		planet_housing_add = 10
+		planet_amenities_add = 10
+		job_slave_overseer_add = 4
+		planet_stability_add = 10
+#B]		planet_max_buildings_add = 11
+		planet_max_branch_office_buildings_add = 2
 	}
-#----------------------------------------------------
-
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_machine_empire = yes
-			}
-		}
-		modifier = {
-#			job_coordinator_add = 1
-		}
-	}
-#----------------------------------------------------
 
 	triggered_planet_modifier = {
 		potential = {
@@ -4654,16 +4087,16 @@ building_slave_major_capital = {
 		}
 	}
 
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_1 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_technology = tech_capital_productivity_1 }
+		}
+		modifier = {
+			planet_jobs_productive_upkeep_mult = 0.1
+			planet_jobs_productive_produces_mult = 0.1
+		}
+	}
 
 	triggered_desc = {
 		trigger = {
@@ -4691,8 +4124,14 @@ building_slave_major_capital = {
 }
 
 
-# Imperial Capital
 
+
+
+
+
+
+
+# Imperial Capital
 building_imperial_capital = {
 	base_buildtime = @b4_time
 	capital = yes
@@ -4713,6 +4152,10 @@ building_imperial_capital = {
 		planet = { is_capital = yes }
 	}
 
+	allow = {
+		num_pops >= 50
+	}
+
 	convert_to = {
 		building_hive_major_capital
 		building_machine_system_capital
@@ -4722,19 +4165,34 @@ building_imperial_capital = {
 		building_ancient_palace
 	}
 
-	allow = {
-		num_pops >= 50
+	resources = {
+		category = planet_buildings
+#########
+# COSTS #
+#########
+#[BASIC] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+			}
+			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+		}
+		
+#[BASIC] MINERALS
+		cost = {
+			minerals = @b4_minerals
+		}
+##########
+# UPKEEP #
+##########
+		upkeep = {
+			energy = @b4_upkeep
+		}
 	}
 
 	prerequisites = {
-	}
-
-	planet_modifier = {
-		planet_housing_add = 18
-		planet_amenities_add = 18
-#		planet_max_buildings_add = 11
-		planet_max_branch_office_buildings_add = 3
-		job_enforcer_add = 5
 	}
 #----------------------------------------------------
 
@@ -4749,28 +4207,6 @@ building_imperial_capital = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -4798,19 +4234,13 @@ building_imperial_capital = {
 	}
 #----------------------------------------------------
 
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-		}
-		modifier = {
-#			job_bureaucrat_add = 1
-		}
+	planet_modifier = {
+		planet_housing_add = 18
+		planet_amenities_add = 18
+#B]		planet_max_buildings_add = 11
+		planet_max_branch_office_buildings_add = 4
+		job_enforcer_add = 5
 	}
-#----------------------------------------------------
 
 	triggered_planet_modifier = {
 		potential = {
@@ -4860,7 +4290,6 @@ building_imperial_capital = {
 		}
 	}
 
-
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -4900,51 +4329,8 @@ building_imperial_capital = {
 			owner = { has_civic = civic_merchant_guilds }
 		}
 		modifier = {
-			job_merchant_add = 2
-			job_politician_add = 2
-		}
-	}
-
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_1 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_2 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_3 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = @b4_minerals
-		}
-		upkeep = {
-			energy = @b4_upkeep
+			job_merchant_add = 3
+			job_politician_add = 3
 		}
 	}
 
@@ -5017,6 +4403,14 @@ building_imperial_capital = {
 	}
 }
 
+
+
+
+
+
+
+
+
 # Imperial Center
 building_imperial_machine_capital = {
 	base_buildtime = @b4_time
@@ -5041,6 +4435,10 @@ building_imperial_machine_capital = {
 		planet = { is_capital = yes }
 	}
 
+	allow = {
+		num_pops >= 50
+	}
+
 	convert_to = {
 		building_hive_major_capital
 		building_machine_system_capital
@@ -5050,21 +4448,34 @@ building_imperial_machine_capital = {
 		building_ancient_palace
 	}
 
-	allow = {
-		num_pops >= 50
+	resources = {
+		category = planet_buildings
+#########
+# COSTS #
+#########
+#[BASIC] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+			}
+			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+		}
+		
+#[BASIC] MINERALS
+		cost = {
+			minerals = @b4_minerals
+		}
+##########
+# UPKEEP #
+##########
+		upkeep = {
+			energy = @b4_upkeep
+		}
 	}
 
 	prerequisites = {
-	}
-
-	planet_modifier = {
-		planet_housing_add = 18
-		planet_amenities_add = 20
-		job_replicator_add = 4
-		job_patrol_drone_add = 5
-		job_maintenance_drone_add = 6
-#		planet_max_buildings_add = 11
-		planet_max_branch_office_buildings_add = 3
 	}
 #----------------------------------------------------
 
@@ -5079,28 +4490,6 @@ building_imperial_machine_capital = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -5128,19 +4517,16 @@ building_imperial_machine_capital = {
 	}
 #----------------------------------------------------
 
-#[ALL] Admin Cap Job Add
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_machine_empire = yes
-			}
-		}
-		modifier = {
-#			job_coordinator_add = 1
-		}
+	planet_modifier = {
+		planet_housing_add = 18
+		planet_amenities_add = 20
+		job_replicator_add = 4
+		job_patrol_drone_add = 5
+		job_maintenance_drone_add = 6
+#B]		planet_max_buildings_add = 11
+		planet_max_branch_office_buildings_add = 3
 	}
-#----------------------------------------------------
+	
 	triggered_planet_modifier = {
 		potential = {
 			num_pops >= 10
@@ -5149,6 +4535,7 @@ building_imperial_machine_capital = {
 			job_replicator_add = 1
 		}
 	}
+	
 	triggered_planet_modifier = {
 		potential = {
 			num_pops >= 40
@@ -5157,6 +4544,7 @@ building_imperial_machine_capital = {
 			job_replicator_add = 1
 		}
 	}
+	
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -5168,47 +4556,8 @@ building_imperial_machine_capital = {
 		}
 	}
 
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_1 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_2 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_3 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = @b4_minerals
-		}
-		upkeep = {
-			energy = @b4_upkeep
-		}
+	triggered_desc = {
+		text = job_maintenance_drone_effect_desc
 	}
 
 	triggered_desc = {
@@ -5219,6 +4568,14 @@ building_imperial_machine_capital = {
 		text = job_patrol_drone_effect_desc
 	}
 }
+
+
+
+
+
+
+
+
 
 # Imperial Complex
 building_imperial_hive_capital = {
@@ -5244,6 +4601,10 @@ building_imperial_hive_capital = {
 		planet = { is_capital = yes }
 	}
 
+	allow = {
+		num_pops >= 50
+	}
+
 	convert_to = {
 		building_hive_major_capital
 		building_machine_system_capital
@@ -5253,21 +4614,34 @@ building_imperial_hive_capital = {
 		building_ancient_palace
 	}
 
-	allow = {
-		num_pops >= 50
+	resources = {
+		category = planet_buildings
+#########
+# COSTS #
+#########
+#[BASIC] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+			}
+			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+		}
+		
+#[BASIC] MINERALS
+		cost = {
+			minerals = @b4_minerals
+		}
+##########
+# UPKEEP #
+##########
+		upkeep = {
+			energy = @b4_upkeep
+		}
 	}
 
 	prerequisites = {
-	}
-
-	planet_modifier = {
-		planet_housing_add = 20
-		planet_amenities_add = 20
-		job_synapse_drone_add = 5
-		job_maintenance_drone_add = 7
-		job_patrol_drone_add = 4
-#		planet_max_buildings_add = 11
-		planet_max_branch_office_buildings_add = 3
 	}
 #----------------------------------------------------
 
@@ -5282,28 +4656,6 @@ building_imperial_hive_capital = {
 		}
 		modifier = {
 			planet_max_buildings_add = 10
-		}
-	}
-
-#[BASIC-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			OR = {
-				UKN_USES_BASIC_DISTRICTS = yes
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-			}
-			NOR = {
-				has_building = building_ukn_automation_grid_1
-				has_building = building_ukn_automation_grid_2
-			}
-			is_capital = yes
-		}
-		modifier = {
-			planet_max_buildings_add = 2
 		}
 	}
 
@@ -5331,47 +4683,23 @@ building_imperial_hive_capital = {
 	}
 #----------------------------------------------------
 
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_1 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
+	planet_modifier = {
+		planet_housing_add = 20
+		planet_amenities_add = 20
+		job_synapse_drone_add = 5
+		job_maintenance_drone_add = 7
+		job_patrol_drone_add = 4
+#B]		planet_max_buildings_add = 11
+		planet_max_branch_office_buildings_add = 3
+	}
 
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_2 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-#	triggered_planet_modifier = {
-#		potential = {
-#			exists = owner
-#			owner = { has_technology = tech_capital_productivity_3 }
-#		}
-#		modifier = {
-#			planet_jobs_upkeep_mult = 0.1
-#			planet_jobs_produces_mult = 0.1
-#		}
-#	}
-
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = @b4_minerals
+	triggered_planet_modifier = {
+		potential = {
+			owner = { has_origin = origin_progenitor_hive }
+			is_planet_class = pc_hive
 		}
-		upkeep = {
-			energy = @b4_upkeep
-		}
+		job_spawning_drone_add = -1
+		job_offspring_drone_add = 1
 	}
 
 	triggered_desc = {

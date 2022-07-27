@@ -17,6 +17,7 @@ on_tech_increased = {
 on_game_start_country = {
 	events = {
 		ukn_building_and_district_add_country_events.1
+		ukn_building_and_district_add_country_events.2
 		ukn_resource_add_country_events.1
 		ukn_automation_country_events.1
 	}
@@ -46,7 +47,7 @@ on_monthly_pulse_country = {
 		ukn_exotic_particles_production_events.13
 		ukn_exotic_particles_production_events.14
 		ukn_exotic_particles_production_events.15
-		ukn_building_and_district_add_country_events.2
+		ukn_building_and_district_add_country_events.3
 		ukn_automation_country_events.1
 	}
 }

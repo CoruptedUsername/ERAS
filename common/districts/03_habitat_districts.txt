@@ -229,7 +229,7 @@ district_ukn_hab_automation = {
 	exempt_from_ai_planet_specialization = yes
 
 	abort_trigger = {
-		NOR = { 
+		NOR = {
 			has_building = building_ukn_automation_grid_1
 			has_building = building_ukn_automation_grid_2
 		}
@@ -248,72 +248,13 @@ district_ukn_hab_automation = {
 	potential = {
 		exists = owner
 		UKN_USES_HABITAT_DISTRICTS = yes
-		OR = {
-			has_building = building_ukn_automation_grid_1
-			has_building = building_ukn_automation_grid_2
-			has_district = district_ukn_hab_automation
-		}
 	}
 
 	allow = {
+		owner = { is_ai = no }
 		OR = {
-			AND = {
-				owner = { is_ai = no }
-				OR = {
-					has_building = building_ukn_automation_grid_1
-					has_building = building_ukn_automation_grid_2
-				}
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 5 }
-				num_districts = { type = district_ukn_automation value < 1 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 15 }
-				num_districts = { type = district_ukn_automation value < 2 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 25 }
-				num_districts = { type = district_ukn_automation value < 3 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 35 }
-				num_districts = { type = district_ukn_automation value < 4 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 45 }
-				num_districts = { type = district_ukn_automation value < 5 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 55 }
-				num_districts = { type = district_ukn_automation value < 6 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 65 }
-				num_districts = { type = district_ukn_automation value < 7 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 75 }
-				num_districts = { type = district_ukn_automation value < 8 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 85 }
-				num_districts = { type = district_ukn_automation value < 9 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 95 }
-				num_districts = { type = district_ukn_automation value < 10 }
-			}
+			has_building = building_ukn_automation_grid_1
+			has_building = building_ukn_automation_grid_2
 		}
 	}
 
