@@ -584,7 +584,7 @@ district_ukn_automation = {
 	exempt_from_ai_planet_specialization = yes
 
 	abort_trigger = {
-		NOR = { 
+		NOR = {
 			has_building = building_ukn_automation_grid_1
 			has_building = building_ukn_automation_grid_2
 		}
@@ -603,11 +603,6 @@ district_ukn_automation = {
 	potential = {
 		exists = owner
 		UKN_USES_BASIC_DISTRICTS = yes
-		OR = {
-			has_building = building_ukn_automation_grid_1
-			has_building = building_ukn_automation_grid_2
-			has_district = district_ukn_automation
-		}
 	}
 
 	allow = {

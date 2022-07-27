@@ -316,7 +316,7 @@ district_ukn_arcology_automation = {
 	exempt_from_ai_planet_specialization = yes
 
 	abort_trigger = {
-		NOR = { 
+		NOR = {
 			has_building = building_ukn_automation_grid_1
 			has_building = building_ukn_automation_grid_2
 		}
@@ -344,12 +344,6 @@ district_ukn_arcology_automation = {
 			UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-		}
-		OR = {
-			has_building = building_ukn_automation_grid_1
-			has_building = building_ukn_automation_grid_2
-			has_district = district_ukn_arcology_automation
-			has_district = district_ukn_automation
 		}
 	}
 

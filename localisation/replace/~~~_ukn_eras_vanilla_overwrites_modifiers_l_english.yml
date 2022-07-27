@@ -1,0 +1,272 @@
+﻿l_english:
+ 
+################
+##### SHIP #####
+################
+
+ MOD_SHIP_FTL_JUMPDRIVE_RANGE_MULT:0 "Jump Drive Range"
+ MOD_SHIP_JUMPDRIVE_COOLDOWN_MULT:0 "Jump Drive Cooldown"
+ MOD_SHIP_FTL_HYPER_RANGE_MULT:0 "Hyper Range"
+ MOD_SHIP_WINDDOWN_MULT:1 "Attunement Duration"
+ MOD_SHIP_WINDUP_MULT:1 "Decoupling Duration"
+ MOD_SHIP_INTERSTELLAR_SPEED_MULT:1 "FTL Speed"
+ MOD_SHIP_EMERGENCY_FTL:2 "Emergency FTL Damage Risk"
+ EMERGENCY_JUMP:0 "Emergency Jump"
+ 
+ FLEETORDER_PREPARING_JUMP_DRIVE:1 "Preparing Jump to $SYSTEM|H$: $DAYS|Y0$ Days"
+ FLEETORDER_PREPARING_JUMP_DRIVE_EXT:0 "Preparing Jump to $SYSTEM|H$\nProgress: $CUR|Y0$/$COST|Y0$ ( $DAYS|Y$ Days )"
+ FLEETORDER_ENTERING_HYPERLANE:1 "Entering Hyperlane to $SYSTEM|H$: $DAYS|Y0$ Days"
+ FLEETORDER_ENTERING_HYPERLANE_EXT:0 "Entering Hyperlane to $SYSTEM|H$\nProgress: $CUR|Y0$/$COST|Y0$ ( $DAYS|Y$ Days )"
+ FLEETORDER_IN_HYPERLANE:0 "Travelling through Hyperlane to $SYSTEM|H$, $PROGRESS|Y%0$"
+ 
+ station_gatherers:0 "Extraction Stations"
+ mod_station_gatherers_cost_mult:0 "Extraction Station Build Cost"
+ mod_station_gatherers_produces_mult:0 "Extraction Station Output"
+ mod_station_gatherers_energy_produces_mult:0 "Extraction Station Energy Output"
+ mod_station_gatherers_minerals_produces_mult:0 "Extraction Station Minerals Output"
+ 
+###################
+##### COUNTRY #####
+###################
+ 
+ mod_country_food_produces_mult:0 "Monthly £food£ $food$"
+ mod_country_food_produces_add:0 "$mod_country_food_produces_mult$"
+ mod_country_unity_produces_mult:0 "Monthly £unity£ $unity$"
+ mod_country_unity_produces_add:0 "$mod_country_unity_produces_mult$"
+ mod_country_minerals_produces_mult:0 "Monthly £minerals£ $minerals$"
+ mod_country_minerals_produces_add:0 "$mod_country_minerals_produces_mult$"
+ mod_country_alloys_produces_mult:0 "Monthly £alloys£ $alloys$"
+ mod_country_alloys_produces_add:0 "$mod_country_alloys_produces_mult$"
+ mod_country_energy_produces_mult:0 "Monthly £energy£ $energy$"
+ mod_country_energy_produces_add:0 "$mod_country_energy_produces_mult$"
+ mod_country_engineering_research_produces_mult:0 "Monthly £engineering_research£ $engineering_research$"
+ mod_country_engineering_research_produces_add:0 "$mod_country_engineering_research_produces_mult$"
+ mod_country_society_research_produces_mult:0 "Monthly £society_research£ $society_research$"
+ mod_country_society_research_produces_add:0 "$mod_country_society_research_produces_mult$"
+ mod_country_physics_research_produces_mult:0 "Monthly £physics_research£ $physics_research$"
+ mod_country_physics_research_produces_add:0 "$mod_country_physics_research_produces_mult$"
+ mod_country_rare_crystals_produces_mult:0 "Monthly £rare_crystals£ $rare_crystals$"
+ mod_country_rare_crystals_produces_add:0 "$mod_country_rare_crystals_produces_mult$"
+ mod_country_volatile_motes_produces_mult:0 "Monthly £volatile_motes£ $volatile_motes$"
+ mod_country_volatile_motes_produces_add:0 "$mod_country_volatile_motes_produces_mult$"
+ mod_country_exotic_gases_produces_mult:0 "Monthly £exotic_gases£ $exotic_gases$"
+ mod_country_exotic_gases_produces_add:0 "$mod_country_exotic_gases_produces_mult$"
+ mod_country_influence_produces_mult:0 "Monthly £influence£ $influence$"
+ mod_country_influence_produces_add:0 "$mod_country_influence_produces_mult$"
+ mod_country_consumer_goods_produces_mult:0 "Monthly £consumer_goods£ $consumer_goods$"
+ mod_country_consumer_goods_produces_add:0 "$mod_country_consumer_goods_produces_mult$"
+ 
+ tr_adaptability_dietary_enrichment_desc:1 "§Y$mod_country_food_produces_mult$§! output increased by §G+10%§!."
+ tr_prosperity_efficiency_algorithms_desc:0 "§Y$mod_country_energy_produces_mult$§! increased by §G5%§!."
+ 
+ 
+##########################
+##### MEGASTRUCTURES #####
+##########################
+ 
+ MOD_MEGASTRUCTURE_BUILD_SPEED_MULT:0 "Macro-Constructions Build Speed"
+ MOD_MEGASTRUCTURE_BUILD_SPEED_ADD:0 "Macro-Constructions Build Speed"
+ MOD_MEGASTRUCTURE_BUILD_COST_MULT:0 "Macro-Constructions Build Cost"
+ MOD_COUNTRY_MEGASTRUCTURE_BUILD_CAP_ADD:0 "Macro-Constructions Build Capacity"
+ 
+ 
+###################
+##### PLANETS #####
+###################
+ 
+ mod_planet_non_artificial_max_districts_add:0 "Non-Artificial Planet Max Districts"
+ mod_planet_districts_upkeep_mult:0 "£district£District Upkeep"
+ 
+ 
+####################
+##### POP JOBS #####
+####################
+
+# BIO-TROPHIES #-----------
+
+ mod_planet_bio_trophies_produces_mult:0 "£job_bio_trophy£ $planet_bio_trophies$ Output"
+
+# FARMERS #-----------
+
+ mod_planet_farmers_produces_mult:0 "£job_farmer£ $planet_farmers$ Output"
+ mod_planet_farmers_food_produces_mult:1 "£food£ $food$ from £job_farmer£ $planet_farmers$"
+ mod_planet_farmers_food_produces_add:0 "$mod_planet_farmers_food_produces_mult$"
+ mod_planet_farmers_unity_produces_mult:1 "£unity£ $unity$ from £job_farmer£ $planet_farmers$"
+ mod_planet_farmers_unity_produces_add:0 "$mod_planet_farmers_unity_produces_mult$"
+ mod_planet_farmers_energy_upkeep_add:0 "£job_farmer£ $planet_farmers$ £energy£ $energy$ Upkeep"
+
+# MINERS #-----------
+
+ mod_planet_miners_produces_mult:0 "£job_miner£ $planet_miners$ Output"
+ mod_planet_miners_minerals_produces_mult:1 "£minerals£ $minerals$ from £job_miner£ $planet_miners$"
+ mod_planet_miners_minerals_produces_add:0 "$mod_planet_miners_minerals_produces_mult$"
+ mod_planet_miners_alloys_produces_add:0 "£alloys£ $alloys$ from £job_miner£ $planet_miners$"
+ mod_planet_miners_energy_upkeep_add:0 "£job_miner£ $planet_miners$ £energy£ $energy$ Upkeep"
+ mod_planet_sr_miners_energy_upkeep_add:0 "$planet_sr_miners$ £energy£ $energy$ Upkeep"
+ 
+# TECHNICIANS #-----------
+
+ mod_planet_technician_produces_mult:0 "£job_technician£ $planet_technician$ Output"
+ mod_planet_technician_energy_produces_mult:1 "£energy£ $energy$ from £job_technician£ $planet_technician$"
+ mod_planet_technician_energy_produces_add:0 "$mod_planet_technician_energy_produces_mult$"
+ mod_planet_technician_energy_upkeep_add:0 "£job_technician£ $planet_technician$ £energy£ $energy$ Upkeep"
+
+# POLITICIAS #-----------
+
+ mod_planet_politicians_produces_mult: "£job_bureaucrat£ Politicians Output"
+ mod_planet_politicians_produces_add: "$mod_planet_politicians_produces_mult$"
+ mod_planet_politicians_upkeep_mult: "£job_bureaucrat£ Politicians Upkeep"
+ mod_planet_politicians_unity_produces_mult: "£unity£ $unity$ from £job_bureaucrat£ Politicians"
+ mod_planet_politicians_unity_produces_add: "$mod_planet_bureaucrats_unity_produces_mult$"
+ mod_planet_politicians_consumer_goods_upkeep_mult: "£job_bureaucrat£ Politicians £consumer_goods£ $consumer_goods$ Upkeep"
+ mod_planet_politicians_consumer_goods_upkeep_add: "$mod_planet_bureaucrats_consumer_goods_upkeep_mult$"
+
+# EXECUTIVES #-----------
+
+ mod_planet_executives_produces_mult: "£job_executive£ $planet_executives$ Output"
+ mod_planet_executives_produces_add: "$mod_planet_executives_produces_mult$"
+ mod_planet_executives_upkeep_mult: "£job_executive£ $planet_executives$ Upkeep"
+ mod_planet_executives_unity_produces_mult: "£unity£ $unity$ from £job_executive£ $job_executive_plural$"
+ mod_planet_executives_unity_produces_add: "$mod_planet_executives_unity_produces_mult$"
+ mod_planet_executives_consumer_goods_upkeep_mult: "£job_executive£ $planet_executives$ £consumer_goods£ $consumer_goods$ Upkeep"
+ mod_planet_executives_consumer_goods_upkeep_add: "$mod_planet_executives_consumer_goods_upkeep_mult$"
+
+# RESEARCHERS #-----------
+
+ mod_planet_researchers_produces_mult:2 "£job_researcher£ $planet_researchers$ Output"
+ mod_planet_researchers_physics_research_produces_mult:1 "£physics£ $physics_research$ from £job_researcher£ $planet_researchers$"
+ mod_planet_researchers_physics_research_produces_add:0 "$mod_planet_researchers_physics_research_produces_mult$"
+ mod_planet_researchers_engineering_research_produces_mult:1 "£engineering£ $engineering_research$ from £job_researcher£ $planet_researchers$"
+ mod_planet_researchers_engineering_research_produces_add:0 "$mod_planet_researchers_engineering_research_produces_mult$"
+ mod_planet_researchers_society_research_produces_mult:1 "£society£ $society_research$ from £job_researcher£ $planet_researchers$"
+ mod_planet_researchers_society_research_produces_add:0 "$mod_planet_researchers_society_research_produces_mult$"
+ mod_planet_researchers_unity_produces_mult:0 "£unity£ $unity$ from £job_researcher£ $planet_researchers$"
+ mod_planet_researchers_consumer_goods_upkeep_mult:0 "£job_researcher£ $planet_researchers$ £consumer_goods£ $consumer_goods$ Upkeep"
+ mod_planet_researchers_consumer_goods_upkeep_add:0 "$mod_planet_researchers_consumer_goods_upkeep_mult$"
+ mod_planet_researchers_energy_upkeep_mult:0 "£job_researcher£ $planet_researchers$ £energy£ $energy$ Upkeep"
+ mod_planet_researchers_energy_upkeep_add:0 "$mod_planet_researchers_energy_upkeep_mult$"
+ mod_planet_researchers_minerals_upkeep_mult:0 "£job_researcher£ $planet_researchers$ £minerals£ $minerals$ Upkeep"
+ mod_planet_researchers_minerals_upkeep_add:0 "$mod_planet_researchers_minerals_upkeep_mult$"
+ mod_planet_researchers_food_upkeep_mult:0 "£job_researcher£ $planet_researchers$ £food£ $food$ Upkeep"
+ mod_planet_researchers_food_upkeep_add:0 "$mod_planet_researchers_food_upkeep_mult$"
+ mod_planet_researchers_alloys_upkeep_mult:0 "£job_researcher£ $planet_researchers$ £alloys£ $alloys$ Upkeep"
+ mod_planet_researchers_alloys_upkeep_add:0 "$mod_planet_researchers_alloys_upkeep_mult$"
+ mod_planet_researchers_exotic_gases_upkeep_mult:0 "£job_researcher£ $planet_researchers$ £exotic_gases£ $exotic_gases$ Upkeep"
+ mod_planet_researchers_exotic_gases_upkeep_add:0 "$mod_planet_researchers_exotic_gases_upkeep_mult$"
+ mod_planet_researchers_rare_crystals_upkeep_mult:0 "£job_researcher£ $planet_researchers$ £rare_crystals£ $rare_crystals$ Upkeep"
+ mod_planet_researchers_rare_crystals_upkeep_add:0 "$mod_planet_researchers_rare_crystals_upkeep_mult$"
+
+# METALLURGISTS #-----------
+
+ mod_planet_metallurgists_produces_mult:0 "£job_foundry£ $planet_metallurgists$ Output"
+ mod_planet_metallurgists_alloys_produces_mult:0 "£alloys£ $alloys$ from £job_foundry£ $planet_metallurgists$"
+ mod_planet_metallurgists_alloys_produces_add:0 "$mod_planet_metallurgists_alloys_produces_mult$"
+ mod_planet_metallurgists_ukn_meta_materials_produces_mult:0 "£ukn_meta_materials£ $ukn_meta_materials$ from £job_foundry£ $planet_metallurgists$"
+ mod_planet_metallurgists_ukn_meta_materials_produces_add:0 "$mod_planet_metallurgists_ukn_meta_materials_produces_mult$"
+ mod_planet_metallurgists_energy_upkeep_mult:0 "£job_foundry£ $planet_metallurgists$ £energy£ $energy$ Upkeep"
+ mod_planet_metallurgists_energy_upkeep_add:0 "$mod_planet_metallurgists_energy_upkeep_mult$"
+ mod_planet_metallurgists_minerals_upkeep_mult:0 "£job_foundry£ $planet_metallurgists$ £minerals£ $minerals$ Upkeep"
+ mod_planet_metallurgists_minerals_upkeep_add:0 "$mod_planet_metallurgists_minerals_upkeep_mult$"
+ mod_planet_metallurgists_food_upkeep_mult:0 "£job_foundry£ $planet_metallurgists$ £food£ $food$ Upkeep"
+ mod_planet_metallurgists_food_upkeep_add:0 "$mod_planet_metallurgists_food_upkeep_mult$"
+
+# CULTURE WORKERS #-----------
+
+ mod_planet_culture_workers_produces_mult:0 "£job_culture_worker£ $planet_culture_workers$ Output"
+
+# EVALUATORS #-----------
+
+ mod_planet_evaluators_produces_mult:0 "£job_evaluator£ $planet_evaluators$ Output"
+ mod_planet_evaluators_unity_produces_mult:0 "£unity£ $unity$ from £job_evaluator£ $planet_evaluators$"
+
+# ADMINISTRATORS #-----------
+
+ mod_planet_administrators_produces_mult: "£job_bureaucrat£ $planet_administrators$ Output"
+ mod_planet_administrators_produces_add: "$mod_planet_administrators_produces_mult$"
+ mod_planet_administrators_upkeep_mult: "£job_bureaucrat£ $planet_administrators$ Upkeep"
+ mod_planet_administrators_unity_produces_mult: "£unity£ $unity$ from £job_bureaucrat£ $job_bureaucrat_plural$"
+ mod_planet_administrators_unity_produces_add: "$mod_planet_administrators_unity_produces_mult$"
+ mod_planet_administrators_consumer_goods_upkeep_mult: "£job_bureaucrat£ $planet_administrators$ £consumer_goods£ $consumer_goods$ Upkeep"
+ mod_planet_administrators_consumer_goods_upkeep_add: "$mod_planet_administrators_consumer_goods_upkeep_mult$"
+ mod_planet_administrators_energy_upkeep_mult: "£job_bureaucrat£ $planet_administrators$ £energy£ $energy$ Upkeep"
+ mod_planet_administrators_energy_upkeep_add: "$mod_planet_administrators_energy_upkeep_mult$"
+
+# MANAGERS #-----------
+
+ mod_planet_managers_produces_mult: "£job_manager£ $planet_managers$ Output"
+ mod_planet_managers_produces_add: "$mod_planet_managers_produces_mult$"
+ mod_planet_managers_upkeep_mult: "£job_manager£ $planet_managers$ Upkeep"
+ mod_planet_managers_unity_produces_mult: "£unity£ $unity$ from £job_manager£ $job_manager_plural$"
+ mod_planet_managers_unity_produces_add: "$mod_planet_managers_unity_produces_mult$"
+ mod_planet_managers_consumer_goods_upkeep_mult: "£job_manager£ $planet_managers$ £consumer_goods£ $consumer_goods$ Upkeep"
+ mod_planet_managers_consumer_goods_upkeep_add: "$mod_planet_managers_consumer_goods_upkeep_mult$"
+ mod_planet_managers_energy_upkeep_mult: "£job_manager£ $planet_managers$ £energy£ $energy$ Upkeep"
+ mod_planet_managers_energy_upkeep_add: "$mod_planet_managers_energy_upkeep_mult$"
+
+# SYNAPSE DRONES #-----------
+
+ mod_planet_synapse_drones_produces_mult: "£job_synapse_drone£ $planet_synapse_drones$ Output"
+ mod_planet_synapse_drones_produces_add: "$mod_planet_synapse_drones_produces_mult$"
+ mod_planet_synapse_drones_upkeep_mult: "£job_synapse_drone£ $planet_synapse_drones$ Upkeep"
+ mod_planet_synapse_drones_unity_produces_mult: "£unity£ $unity$ from £job_synapse_drone£ $job_synapse_drone_plural$"
+ mod_planet_synapse_drones_unity_produces_add: "$mod_planet_synapse_drones_unity_produces_mult$"
+ mod_planet_synapse_drones_consumer_goods_upkeep_mult: "£job_synapse_drone£ $planet_synapse_drones$ £consumer_goods£ $consumer_goods$ Upkeep"
+ mod_planet_synapse_drones_consumer_goods_upkeep_add: "$mod_planet_synapse_drones_consumer_goods_upkeep_mult$"
+ mod_planet_synapse_drones_energy_upkeep_mult: "£job_synapse_drone£ $planet_synapse_drones$ £energy£ $energy$ Upkeep"
+ mod_planet_synapse_drones_energy_upkeep_add: "$mod_planet_synapse_drones_energy_upkeep_mult$"
+
+# PRIESTS #-----------
+
+ mod_planet_priests_produces_mult: "£job_priest£ $planet_priests$ Output"
+ mod_planet_priests_produces_add: "$mod_planet_priests_produces_mult$"
+ mod_planet_priests_upkeep_mult: "£job_priest£ $planet_priests$ Upkeep"
+ mod_planet_priests_unity_produces_mult: "£unity£ $unity$ from £job_priest£ $job_priest_plural$"
+ mod_planet_priests_unity_produces_add: "$mod_planet_priests_unity_produces_mult$"
+ mod_planet_priests_society_research_produces_mult: "£society_research£ $society_research$ from £job_priest£ $job_priest_plural$"
+ mod_planet_priests_society_research_produces_add: "$mod_planet_priests_society_research_produces_mult$"
+ mod_planet_priests_consumer_goods_upkeep_mult: "£job_priest£ $planet_priests$ £consumer_goods£ $consumer_goods$ Upkeep"
+ mod_planet_priests_consumer_goods_upkeep_add: "$mod_planet_priests_consumer_goods_upkeep_mult$"
+ mod_planet_priests_energy_upkeep_mult: "£job_priest£ $planet_priests$ £energy£ $energy$ Upkeep"
+ mod_planet_priests_energy_upkeep_add: "$mod_planet_priests_energy_upkeep_mult$"
+
+# (EXOTIC GASES) REFINERS #-----------
+
+ mod_planet_refiners_produces_mult:0 "£job_gas_refiner£ $planet_refiners$ Output"
+ mod_planet_refiners_upkeep_mult:0 "£job_gas_refiner£ $planet_refiners$ Upkeep"
+ mod_planet_refiners_exotic_gases_produces_mult:0 "£exotic_gases£ $exotic_gases$ from £job_gas_refiner£ $planet_refiners$"
+ mod_planet_refiners_exotic_gases_produces_add:0 "$mod_planet_refiners_exotic_gases_produces_mult$"
+ mod_planet_refiners_minerals_upkeep_mult:0 "£job_gas_refiner£ $planet_refiners$ £minerals£ $minerals$ Upkeep"
+ mod_planet_refiners_minerals_upkeep_add:0 "$mod_planet_refiners_minerals_upkeep_mult$"
+
+# (RARE CRYSTALS) TRANSLUCERS #-----------
+
+ mod_planet_translucers_produces_mult:1 "£job_translucer£ $planet_translucers$ Output"
+ mod_planet_translucers_upkeep_mult:0 "£job_translucer£ $planet_translucers$ Upkeep"
+ mod_planet_translucers_rare_crystals_produces_mult:0 "£rare_crystals£ $rare_crystals$ from £job_translucer£ $planet_translucers$"
+ mod_planet_translucers_rare_crystals_produces_add:0 "$mod_planet_translucers_rare_crystals_produces_mult$"
+ mod_planet_translucers_minerals_upkeep_mult:0 "£job_translucer£ $planet_translucers$ £minerals£ $minerals$ Upkeep"
+ mod_planet_translucers_minerals_upkeep_add:0 "$mod_planet_translucers_minerals_upkeep_mult$"
+ 
+# (EXOTIC PARTICLE) TRANSMUTATORS #-----------
+
+ mod_planet_chemists_produces_mult:0 "£job_chemist£ $planet_chemists$ Output"
+ mod_planet_chemists_upkeep_mult:0 "£job_chemist£ $planet_chemists$ Upkeep"
+ mod_planet_chemists_volatile_motes_produces_mult:0 "£volatile_motes£ $volatile_motes$ from £job_ukn_exotic_particle_producer£ $planet_chemists$"
+ mod_planet_chemists_volatile_motes_produces_add:0 "$mod_planet_chemists_volatile_motes_produces_mult$"
+ mod_planet_chemists_energy_upkeep_mult:0 "£job_ukn_exotic_particle_producer£ $planet_chemists$ £energy£ $energy$ Upkeep"
+ mod_planet_chemists_energy_upkeep_add:0 "$mod_planet_chemists_energy_upkeep_mult$"
+ mod_planet_chemists_minerals_upkeep_mult:0 "£job_ukn_exotic_particle_producer£ $planet_chemists$ £minerals£ $minerals$ Upkeep"
+ mod_planet_chemists_minerals_upkeep_add:0 "$mod_planet_chemists_minerals_upkeep_mult$"
+ 
+# ARTISANS #-----------
+
+ mod_planet_artisans_produces_mult:0 "£job_artisan£ $planet_artisans$ Output"
+ mod_planet_artisans_upkeep_mult:0 "£job_artisan£ $planet_artisans$ Upkeep"
+ mod_planet_artisans_consumer_goods_produces_mult:0 "£consumer_goods£ $consumer_goods$ from £job_artisan£ $planet_artisans$"
+ mod_planet_artisans_consumer_goods_produces_add:0 "$mod_planet_artisans_consumer_goods_produces_mult$"
+ mod_planet_artisans_energy_upkeep_mult:0 "£job_artisan£ $planet_artisans$ £energy£ $energy$ Upkeep"
+ mod_planet_artisans_energy_upkeep_add:0 "$mod_planet_artisans_energy_upkeep_mult$"
+ mod_planet_artisans_minerals_upkeep_mult:0 "£job_artisan£ $planet_artisans$ £minerals£ $minerals$ Upkeep"
+ mod_planet_artisans_minerals_upkeep_add:0 "$mod_planet_artisans_minerals_upkeep_mult$"
+ mod_planet_artisans_food_upkeep_mult:0 "£job_artisan£ $planet_artisans$ £food£ $food$ Upkeep"
+ mod_planet_artisans_food_upkeep_add:0 "$mod_planet_artisans_food_upkeep_mult$"

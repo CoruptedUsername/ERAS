@@ -47,45 +47,7 @@ giga_tech_war_moon_specialization = {
 }
 
 
-giga_tech_matrioshka_brain_2 = {
-	cost = 200000
-	area = physics
-	tier = 5
-	category = { computing }
-	is_rare = yes
-	prerequisites = { giga_tech_tetradimensional_engineering }
-	weight = @tier3weight3
-	prereqfor_desc = {
-		hide_prereq_for_desc = ship
-		hide_prereq_for_desc = component
-		hide_prereq_for_desc = feature
-		hide_prereq_for_desc = resource
-		custom = { title = "header_01_gigac"	desc = "header_01_gigac_desc" }
-		custom = { title = "allow_virtual_reality"	desc = "desc_virtual_reality" }
-	}
-
-	weight_modifier = {
-		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_computing" } }
-		modifier = {
-			factor = 1.5
-			has_ascension_perk = ap_technological_ascendancy
-		}
-		modifier = {
-			factor = 2
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = giga_tech_matrioshka_brain_2 }
-			}
-		}
-		modifier = { factor = 0	is_giga_one_planet_origin = yes	}
-	}
-
-	ai_weight = {
-		factor = @giga_aiweight_multiplier_insane   #Mutli stage
-		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_computing" } }
-	}
-}
+#giga_tech_matrioshka_brain_2 = {
 
 giga_tech_quasi_stellar_4 = { #Big PC (stage 3)
 	cost = 250000
@@ -170,44 +132,7 @@ giga_tech_birch_world_4 = {
 	}
 }
 
-giga_tech_tetradimensional_engineering = {
-	cost = 250000
-	area = physics
-	tier = 5
-	category = { field_manipulation }
-	is_rare = yes
-	weight = @gigatier7weight3
-	modifier = { megastructure_build_speed_mult = 0.10 }
-
-	weight_modifier = {
-		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_field_manipulation" } }
-		modifier = { 
-			factor = 0
-			AND = {
-				NOT = { has_ascension_perk = ap_gigastructural_constructs }
-				NOT = { has_country_flag = blokkat_bureau_unlocked }
-			}
-		}
-		modifier = {
-			factor = 1.5
-			has_ascension_perk = ap_technological_ascendancy
-		}
-		modifier = {
-			factor = 2
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = giga_tech_tetradimensional_engineering }
-			}
-		}
-	}
-
-	ai_weight = {
-		factor = @giga_aiweight_multiplier_insane	#Very Important
-		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_field_manipulation" } }
-		modifier = { factor = 0 NOT = { has_ascension_perk = ap_gigastructural_constructs } }
-	}
-}
+#giga_tech_tetradimensional_engineering = { 					#why were there even 2 at any point, Unknwn this one is important!
 
 giga_tech_quasi_stellar_2 = { #Accretion Compression (stage 1)
 	cost = 150000
@@ -247,7 +172,7 @@ giga_tech_quasi_stellar_2 = { #Accretion Compression (stage 1)
 	}
 }
 
-giga_tech_quasi_stellar_3 = { #Relativistic jet deflection (stage 2)
+#giga_tech_quasi_stellar_3 = { #Relativistic jet deflection (stage 2)
 	cost = 200000
 	area = physics
 	tier = 5
@@ -326,191 +251,31 @@ giga_tech_war_system_4 = {
 ########################
 ### Particles ##########
 ########################
-giga_tech_particle_accelerator = {
+#giga_tech_particle_accelerator = {
 
-giga_tech_fusion_suppressor = {
+#giga_tech_fusion_suppressor = {
 
-giga_tech_ndb_1 = {
-	cost = 70000
-	area = physics
-	tier = 5
-	category = { particles }
-	is_rare = yes
-	weight = @tier3weight3
-	prerequisites = { "giga_tech_tetradimensional_engineering" }
-	prereqfor_desc = {
-		hide_prereq_for_desc = ship
-		hide_prereq_for_desc = component
-		hide_prereq_for_desc = feature
-		hide_prereq_for_desc = resource
-		custom = { title = "header_02_tetra"	desc = "header_02_tetra_desc" }
-		custom = { title = "allow_ndb_p1"	desc = "desc_ndb_p1" }
-	}
+#giga_tech_ndb_1 = {
 
-	weight_modifier = {
-		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
-		modifier = { factor = 0 has_utopia = no }
-		modifier = {
-			factor = 1.5
-			has_ascension_perk = ap_technological_ascendancy
-		}
-		modifier = {
-			factor = 0
-			NOT = { has_ascension_perk = ap_gigastructural_constructs }
-		}
-		modifier = {
-			factor = 2
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = giga_tech_ndb_1 }
-			}
-		}
-	}
+#giga_tech_ndb_2 = {
 
-	ai_weight = {
-		factor = @giga_aiweight_multiplier_weak	#Very high committment + cost
-		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
-		modifier = { factor = 0 has_utopia = no }
-	}
-}
+#giga_tech_ndb_3 = {
 
-giga_tech_ndb_2 = {
-	cost = 90000
-	area = physics
-	tier = 5
-	category = { particles }
-	is_rare = yes
-	prerequisites = { "giga_tech_ndb_1" }
-	weight = @gigatier7weight1
-	prereqfor_desc = {
-		hide_prereq_for_desc = ship
-		hide_prereq_for_desc = component
-		hide_prereq_for_desc = feature
-		hide_prereq_for_desc = resource
-		custom = { title = "header_02_tetra"	desc = "header_02_tetra_desc" }
-		custom = { title = "allow_ndb_p2"	desc = "desc_ndb_p2" }
-	}
+#giga_tech_ndb_4 = {
 
-	weight_modifier = {
-		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
-		modifier = { factor = 0 has_utopia = no }
-		modifier = {
-			factor = 1.5
-			has_ascension_perk = ap_technological_ascendancy
-		}
-		modifier = {
-			factor = 2
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = giga_tech_ndb_2 }
-			}
-		}
-	}
+#giga_tech_kugelblitz = {
 
-	ai_weight = {
-		factor = @giga_aiweight_multiplier_insane	#Multistage
-		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
-		modifier = { factor = 0 has_utopia = no }
-	}
-}
+#giga_tech_substellar_compressor = {
 
-giga_tech_ndb_3 = {
-	cost = 100000
-	area = physics
-	tier = 5
-	category = { particles }
-	is_rare = yes
-	prerequisites = { "giga_tech_ndb_2" }
-	weight = @gigatier7weight1
-	prereqfor_desc = {
-		hide_prereq_for_desc = ship
-		hide_prereq_for_desc = component
-		hide_prereq_for_desc = feature
-		hide_prereq_for_desc = resource
-		custom = { title = "header_02_tetra"	desc = "header_02_tetra_desc" }
-		custom = { title = "allow_ndb_p3"	desc = "desc_ndb_p3" }
-	}
+#giga_tech_penrose_sphere_1 = {
 
-	weight_modifier = {
-		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
-		modifier = { factor = 0 has_utopia = no }
-		modifier = {
-			factor = 1.5
-			has_ascension_perk = ap_technological_ascendancy
-		}
-		modifier = {
-			factor = 2
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = giga_tech_ndb_3 }
-			}
-		}
-	}
+#giga_tech_penrose_sphere_2 = {
 
-	ai_weight = {
-		factor = @giga_aiweight_multiplier_insane	#Multistage
-		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
-		modifier = { factor = 0 has_utopia = no }
-	}
-}
+#giga_tech_ringworld_titanic_1 = {
 
-giga_tech_ndb_4 = {
-	cost = 300000
-	area = physics
-	tier = 5
-	category = { particles }
-	is_rare = yes
-	prerequisites = { "giga_tech_ndb_3" "giga_tech_particle_accelerator" "tech_energy_lance_2" }
-	weight = @gigatier7weight1
-	prereqfor_desc = {
-		hide_prereq_for_desc = ship
-		hide_prereq_for_desc = component
-		hide_prereq_for_desc = feature
-		hide_prereq_for_desc = resource
-		custom = { title = "header_02_tetra"	desc = "header_02_tetra_desc" }
-		custom = { title = "allow_ndb_p4"	desc = "desc_ndb_p4" }
-	}
+#giga_tech_terraform_gas = {
 
-	weight_modifier = {
-		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
-		modifier = { factor = 0 has_utopia = no }
-		modifier = {
-			factor = 1.5
-			has_ascension_perk = ap_technological_ascendancy
-		}
-		modifier = {
-			factor = 2
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = giga_tech_ndb_4 }
-			}
-		}
-	}
-
-	ai_weight = {
-		factor = @giga_aiweight_multiplier_insane	#Multistage
-		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
-		modifier = { factor = 0 has_utopia = no }
-	}
-}
-
-giga_tech_kugelblitz = {
-
-giga_tech_substellar_compressor = {
-
-giga_tech_penrose_sphere_1 = {
-
-giga_tech_penrose_sphere_2 = {
-
-giga_tech_ringworld_titanic_1 = {
-
-giga_tech_terraform_gas = {
-
-giga_tech_disco_moon = {
+#giga_tech_disco_moon = {
 
 giga_tech_quasi_stellar_5 = { #big capacitors
 	cost = 400000

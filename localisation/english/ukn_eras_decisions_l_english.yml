@@ -150,3 +150,17 @@
  decision_ukn_minerals_based_exotic_particle_production:0 "§H§!§B§!£minerals£-£volatile_motes£ Mineral-Based Transmutation"
  decision_ukn_minerals_based_exotic_particle_production_desc:0 "£job_ukn_exotic_particle_producer£ §S$job_ukn_exotic_particle_producer_plural$§! upkeep will be switched back to £minerals£ §Y$minerals$§!"
  tooltip_decision_ukn_minerals_based_exotic_particle_production:0 "Clears all other-£volatile_motes£ §H$volatile_motes$§!-Related Planet Modifiers"
+ 
+ 
+ 
+#[TRADE] Distribute Articles
+ decision_ukn_planet_articles_trade_boost:0 "§L§!§E§!£consumer_goods£ Distribute Commercial Goods"
+ decision_ukn_planet_articles_trade_boost_desc:0 "By injecting various consumer goods in local merchantile industry, we can stimulate the economy of this planet."
+ 
+#[CONSTRUCTION] Distribute Articles
+ decision_ukn_planet_articles_construction_boost:0 "§L§!§G§!£consumer_goods£ Distribute Heavy Machinery"
+ decision_ukn_planet_articles_construction_boost_desc:0 "By installing grants for heavy construction machinery and equipment, we can enable the rapid assembly of local infrastructure."
+ 
+#[PRODUCTION] Distribute Articles
+ decision_ukn_planet_articles_abstract_production_boost:0 "§L§!§H§!£consumer_goods£ Distribute Specialist Apparatus"
+ decision_ukn_planet_articles_abstract_production_boost_desc:0 "By supplying tech- and management groups with specialist equipment, their productivity can be significantly increased."

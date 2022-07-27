@@ -169,6 +169,18 @@
 
 
 
+#[ALL] ARTICLES DISTRIBUTION #--------------
+ mod_ukn_planet_articles_trade_boost:0 "Commercial Goods Distributed"
+ mod_ukn_planet_articles_trade_boost_desc:0 "By injecting various consumer goods into local merchantile industry, we can efficiently stimulate the economy of this planet."
+
+ mod_ukn_planet_articles_construction_boost:0 "Heavy Machinery Distributed"
+ mod_ukn_planet_articles_construction_boost_desc:0 "By installing grants for heavy construction machinery and equipment, we can enable the rapid assembly of local infrastructure."
+
+ mod_ukn_planet_articles_abstract_production_boost:0 "Specialist Apparatus Distributed"
+ mod_ukn_planet_articles_abstract_production_boost_desc:0 "By supplying tech- and management groups with specialist equipment, their productivity can be significantly increased."
+
+
+
 #[ALL] POP JOB MODIFIERS #---------------------------------
  mod_planet_bureaucrats_unity_produces_mult:0 "£unity£ $unity$ from £job_bureaucrat£ $planet_bureaucrats$"
  mod_planet_managers_unity_produces_mult:0 "£unity£ $unity$ from £job_manager£ $planet_managers$"

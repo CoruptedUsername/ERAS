@@ -1,13 +1,27 @@
+          #########################
+#---------## [GIGASTRUCTURES] GE ##---------#
+          #########################
+### Tetradimensional-Engineering ###----------------------
 giga_tech_tetradimensional_engineering = {
-	cost = 250000
+	cost = @tech_ukn_tetradimensional_engineering_cost
 	area = physics
-	tier = 5
+	tier = @tech_ukn_tetradimensional_engineering_tier
 	category = { field_manipulation }
 	is_rare = yes
-	weight = @gigatier7weight3
+	weight = @tech_ukn_tetradimensional_engineering_weight
 	modifier = { megastructure_build_speed_mult = 0.10 }
+	
+#P]	potential = {
+#P]		has_technology = tech_ship_armor_5
+#P]	}
 
 	weight_modifier = {
+#[ALL] (E5) Required Techs
+		modifier = {
+			factor = 0
+			NOT = { has_technology = tech_ship_armor_5 }
+		}
+#[ALL] (Other) Boosting/Debuffing
 		modifier = { factor = 1.25 research_leader = { area = physics has_trait = "leader_trait_expertise_field_manipulation" } }
 		modifier = { 
 			factor = 0
@@ -36,48 +50,16 @@ giga_tech_tetradimensional_engineering = {
 		modifier = { factor = 0 NOT = { has_ascension_perk = ap_gigastructural_constructs } }
 	}
 }
-          #########################
-#---------## [GIGASTRUCTURES] GE ##---------#
-          #########################
 
-#########
-# STARS # (ORBITAL!)
-#########
-
-###[WEIGHTLESS][TECH-1] Matrioska Brain ###----------------------
-giga_tech_matrioshka_brain_1 = {
-	cost = 50000
-	area = physics
-	tier = 5
-	category = { field_manipulation }
-	weight = 0
-	is_rare = yes
-
-	prereqfor_desc = {
-		hide_prereq_for_desc = ship
-		hide_prereq_for_desc = component
-		hide_prereq_for_desc = feature
-		hide_prereq_for_desc = resource
-		custom = {
-			title = "header_01_gigac"
-			desc = "header_01_gigac_desc"
-		}
-		custom = {
-			title = "allow_matrioshka_brain"
-			desc = "desc_matrioshka_brain"
-		}
-	}
-}
-
-###[TECH-2] Matrioska Brain ###----------------------
+### Matrioshka Brain ###----------------------
 giga_tech_matrioshka_brain_2 = {
-	cost = 200000
+	cost = @tech_ukn_matrioshka_brain_2_cost
 	area = physics
-	tier = 5
+	tier = @tech_ukn_matrioshka_brain_2_tier
 	category = { computing }
 	is_rare = yes
 	prerequisites = { giga_tech_tetradimensional_engineering }
-	weight = @tier3weight3
+	weight = @tech_ukn_matrioshka_brain_2_weight
 	prereqfor_desc = {
 		hide_prereq_for_desc = ship
 		hide_prereq_for_desc = component
@@ -88,7 +70,13 @@ giga_tech_matrioshka_brain_2 = {
 	}
 
 	weight_modifier = {
-		modifier = { factor = 1.25 research_leader = { area = physics has_trait = "leader_trait_expertise_computing" } }
+#[ALL] (E5) Required Techs
+		modifier = {
+			factor = 0
+			NOT = { has_technology = tech_ship_armor_5 }
+		}
+#[ALL] (Other) Boosting/Debuffing
+		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_computing" } }
 		modifier = {
 			factor = 1.5
 			has_ascension_perk = ap_technological_ascendancy
@@ -101,110 +89,23 @@ giga_tech_matrioshka_brain_2 = {
 				any_member = { has_technology = giga_tech_matrioshka_brain_2 }
 			}
 		}
+		modifier = { factor = 0	is_giga_one_planet_origin = yes	}
 	}
 
 	ai_weight = {
-		factor = @giga_aiweight_multiplier
-		modifier = { factor = 1.25 research_leader = { area = physics has_trait = "leader_trait_expertise_computing" } }
+		factor = @giga_aiweight_multiplier_insane   #Mutli stage
+		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_computing" } }
 	}
 }
 
-###[TECH-3] Matrioska Brain ###----------------------
-giga_tech_brain_o_star = {
-	cost = 300000
-	area = physics
-	tier = 5
-	category = { field_manipulation }
-	is_rare = yes
-	prerequisites = { giga_tech_matrioshka_brain_1 }
-	weight = 20
-	prereqfor_desc = {
-		custom = { title = "allow_o_class_brain"	desc = "allow_o_class_brain" }
-	}
-
-	weight_modifier = {
-		modifier = { factor = 1.25 research_leader = { area = physics has_trait = "leader_trait_expertise_field_manipulation" } }
-		modifier = {
-			factor = 1.5
-			has_ascension_perk = ap_technological_ascendancy
-		}
-		modifier = {
-			factor = 0
-			has_global_flag = giga_o_stars_disabled
-		}
-		modifier = {
-			factor = 2
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = giga_tech_brain_o_star }
-			}
-		}
-	}
-
-	ai_weight = {
-		factor = @giga_aiweight_multiplier
-		modifier = { factor = 1.25 research_leader = { area = physics has_trait = "leader_trait_expertise_field_manipulation" } }
-	}
-}
-
-
-#########
-# STARS # (HARVESTING!)
-#########
-
-###[TECH-2] Dyson Sphere ###----------------------
-giga_tech_dyson_o_star = {
-	cost = 150000
-	area = physics
-	tier = 5
-	category = { field_manipulation }
-	is_rare = yes
-	prerequisites = { tech_dyson_sphere }
-	weight = 20
-	prereqfor_desc = {
-		custom = { title = "allow_o_class_dyson"	desc = "allow_o_class_dyson_desc" }
-	}
-
-	weight_modifier = {
-		modifier = { factor = 1.25 research_leader = { area = physics has_trait = "leader_trait_expertise_field_manipulation" } }
-		modifier = {
-			factor = 1.5
-			has_ascension_perk = ap_technological_ascendancy
-		}
-		modifier = {
-			factor = 0
-			has_global_flag = giga_o_stars_disabled
-		}
-		modifier = {
-			factor = 2
-			has_federation = yes
-			federation = {
-				has_federation_perk = rare_tech_boost
-				any_member = { has_technology = giga_tech_dyson_o_star }
-			}
-		}
-	}
-
-	ai_weight = {
-		factor = @giga_aiweight_multiplier
-		modifier = { factor = 1.25 research_leader = { area = physics has_trait = "leader_trait_expertise_field_manipulation" } }
-	}
-}
-
-
-#########
-# STARS # (WEAPONIZATION!)
-#########
-
-###[TECH-1] Nicoll-Dyson Beam ###----------------------
+### Nicoll Dyson Beam - Stage 1 ###----------------------
 giga_tech_ndb_1 = {
-	cost = 70000
+	cost = @tech_ukn_ndb_1_cost
 	area = physics
-	tier = 5
+	tier = @tech_ukn_ndb_1_tier
 	category = { particles }
 	is_rare = yes
-	weight = @tier3weight3
+	weight = @tech_ukn_ndb_1_weight
 	prerequisites = { "giga_tech_tetradimensional_engineering" }
 	prereqfor_desc = {
 		hide_prereq_for_desc = ship
@@ -214,9 +115,20 @@ giga_tech_ndb_1 = {
 		custom = { title = "header_02_tetra"	desc = "header_02_tetra_desc" }
 		custom = { title = "allow_ndb_p1"	desc = "desc_ndb_p1" }
 	}
+	
+#P]	potential = {
+#P]		has_technology = giga_tech_tetradimensional_engineering
+#P]		has_technology = tech_ship_armor_5
+#P]	}
 
 	weight_modifier = {
-		modifier = { factor = 1.25 research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
+#[ALL] (E5) Required Techs
+		modifier = {
+			factor = 0
+			NOT = { has_technology = tech_ship_armor_5 }
+		}
+#[ALL] (Other) Boosting/Debuffing
+		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
 		modifier = { factor = 0 has_utopia = no }
 		modifier = {
 			factor = 1.5
@@ -237,21 +149,21 @@ giga_tech_ndb_1 = {
 	}
 
 	ai_weight = {
-		factor = @giga_aiweight_multiplier
-		modifier = { factor = 1.25 research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
+		factor = @giga_aiweight_multiplier_weak	#Very high committment + cost
+		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
 		modifier = { factor = 0 has_utopia = no }
 	}
 }
 
-###[TECH-2] Nicoll-Dyson Beam ###----------------------
+### Nicoll Dyson Beam - Stage 2 ###----------------------
 giga_tech_ndb_2 = {
-	cost = 90000
+	cost = @tech_ukn_ndb_2_cost
 	area = physics
-	tier = 5
+	tier = @tech_ukn_ndb_2_tier
 	category = { particles }
 	is_rare = yes
 	prerequisites = { "giga_tech_ndb_1" }
-	weight = @gigatier7weight1
+	weight = @tech_ukn_ndb_2_weight
 	prereqfor_desc = {
 		hide_prereq_for_desc = ship
 		hide_prereq_for_desc = component
@@ -261,8 +173,13 @@ giga_tech_ndb_2 = {
 		custom = { title = "allow_ndb_p2"	desc = "desc_ndb_p2" }
 	}
 
+#P]	potential = {
+#P]		has_technology = giga_tech_ndb_1
+#P]	}
+
 	weight_modifier = {
-		modifier = { factor = 1.25 research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
+#[ALL] (Other) Boosting/Debuffing
+		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
 		modifier = { factor = 0 has_utopia = no }
 		modifier = {
 			factor = 1.5
@@ -279,21 +196,21 @@ giga_tech_ndb_2 = {
 	}
 
 	ai_weight = {
-		factor = @giga_aiweight_multiplier
-		modifier = { factor = 1.25 research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
+		factor = @giga_aiweight_multiplier_insane	#Multistage
+		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
 		modifier = { factor = 0 has_utopia = no }
 	}
 }
 
-###[TECH-3] Nicoll-Dyson Beam ###----------------------
+### Nicoll Dyson Beam - Stage 3 ###----------------------
 giga_tech_ndb_3 = {
-	cost = 100000
+	cost = @tech_ukn_ndb_3_cost
 	area = physics
-	tier = 5
+	tier = @tech_ukn_ndb_3_tier
 	category = { particles }
 	is_rare = yes
 	prerequisites = { "giga_tech_ndb_2" }
-	weight = @gigatier7weight1
+	weight = @tech_ukn_ndb_3_weight
 	prereqfor_desc = {
 		hide_prereq_for_desc = ship
 		hide_prereq_for_desc = component
@@ -302,9 +219,14 @@ giga_tech_ndb_3 = {
 		custom = { title = "header_02_tetra"	desc = "header_02_tetra_desc" }
 		custom = { title = "allow_ndb_p3"	desc = "desc_ndb_p3" }
 	}
+	
+#P]	potential = {
+#P]		has_technology = giga_tech_ndb_2
+#P]	}
 
 	weight_modifier = {
-		modifier = { factor = 1.25 research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
+#[ALL] (Other) Boosting/Debuffing
+		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
 		modifier = { factor = 0 has_utopia = no }
 		modifier = {
 			factor = 1.5
@@ -321,21 +243,21 @@ giga_tech_ndb_3 = {
 	}
 
 	ai_weight = {
-		factor = @giga_aiweight_multiplier
-		modifier = { factor = 1.25 research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
+		factor = @giga_aiweight_multiplier_insane	#Multistage
+		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
 		modifier = { factor = 0 has_utopia = no }
 	}
 }
 
-###[TECH-4] Nicoll-Dyson Beam ###----------------------
+### Nicoll Dyson Beam - Stage 4 ###----------------------
 giga_tech_ndb_4 = {
-	cost = 300000
+	cost = @tech_ukn_ndb_4_cost
 	area = physics
-	tier = 5
+	tier = @tech_ukn_ndb_4_tier
 	category = { particles }
 	is_rare = yes
 	prerequisites = { "giga_tech_ndb_3" "giga_tech_particle_accelerator" "tech_energy_lance_2" }
-	weight = @gigatier7weight1
+	weight = @tech_ukn_ndb_4_weight
 	prereqfor_desc = {
 		hide_prereq_for_desc = ship
 		hide_prereq_for_desc = component
@@ -345,8 +267,15 @@ giga_tech_ndb_4 = {
 		custom = { title = "allow_ndb_p4"	desc = "desc_ndb_p4" }
 	}
 
+#P]	potential = {
+#P]		has_technology = giga_tech_ndb_3
+#P]		has_technology = giga_tech_particle_accelerator
+#P]		has_technology = tech_energy_lance_2
+#P]	}
+
 	weight_modifier = {
-		modifier = { factor = 1.25 research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
+#[ALL] (Other) Boosting/Debuffing
+		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
 		modifier = { factor = 0 has_utopia = no }
 		modifier = {
 			factor = 1.5
@@ -363,37 +292,8 @@ giga_tech_ndb_4 = {
 	}
 
 	ai_weight = {
-		factor = @giga_aiweight_multiplier
-		modifier = { factor = 1.25 research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
+		factor = @giga_aiweight_multiplier_insane	#Multistage
+		modifier = { factor = value:tech_weight_likelihood research_leader = { area = physics has_trait = "leader_trait_expertise_particles" } }
 		modifier = { factor = 0 has_utopia = no }
-	}
-}
-
-###############
-# BLACK HOLES # (ORBITAL!)
-###############
-
-###[WEIGHTLESS] HRAE-MC ###----------------------
-giga_tech_hrae_mc = {
-	cost = 50000
-	area = physics
-	tier = 5
-	category = { field_manipulation }
-	weight = 0
-	is_rare = yes
-
-	prereqfor_desc = {
-		hide_prereq_for_desc = ship
-		hide_prereq_for_desc = component
-		hide_prereq_for_desc = feature
-		hide_prereq_for_desc = resource
-		custom = {
-			title = "header_01_gigac"
-			desc = "header_01_gigac_desc"
-		}
-		custom = {
-			title = "allow_hraemc"
-			desc = "desc_hraemc"
-		}
 	}
 }
