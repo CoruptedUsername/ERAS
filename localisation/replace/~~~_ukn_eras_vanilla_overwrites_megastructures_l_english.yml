@@ -18,10 +18,11 @@
  giga_list_category_science_production:0 "[§WAbstract Resource Production§!]"
 
  giga_list_category_terraforming:0 "[§GTerraforming§!]"
+ giga_list_category_uninhabitable_colonization:0 "[§LUninhabitable Colonization§!]"
  giga_list_category_habitable_mega:0 "[§EHabitable Structure§!]"
  giga_list_category_transportation:0 "[§BTransportarion§!]"
  giga_list_category_ship_production:0 "[§PShip Construction§!]"
- giga_list_category_celestial_warship:0 "[§RCellestial Warship§!]"
+ giga_list_category_celestial_warship:0 "[§RCelestial Warship§!]"
  giga_list_category_weaponry:0 "[§RHyperweapon§!]"
  giga_list_category_military:0 "[§SMilitary§!]"
  giga_list_category_defensive:0 "[§YDefensive§!]"

@@ -38,12 +38,13 @@ building_bugged_light_temple_1 = {
 	}
 
 	convert_to = {
-		building_temple
+#		building_bugged_light_temple_1
 		building_bureaucratic_1
 		building_sacrificial_temple_1
 		building_hive_node
 		building_uplink_node
 		building_ukn_corporate_bureaucratic_1
+		building_temple
 		building_bugged_war_temple_1
 		building_bugged_gravity_monastery
 		building_bugged_life_monastery
@@ -434,12 +435,13 @@ building_bugged_light_temple_2 = {
 	}
 
 	convert_to = {
-#		building_holotemple
+#		building_bugged_light_temple_2
 		building_bureaucratic_2
 		building_sacrificial_temple_2
 		building_network_junction
 		building_hive_cluster
 		building_ukn_corporate_bureaucratic_2
+		building_holotemple
 		building_bugged_war_temple_2
 		building_bugged_gravity_monastery_two
 		building_bugged_life_monastery_two
@@ -803,12 +805,13 @@ building_bugged_light_temple_3 = {
 	}
 
 	convert_to = {
-#		building_sacred_nexus
+#		building_bugged_light_temple_3
 		building_bureaucratic_3
 		building_sacrificial_temple_3
 		building_hive_confluence
 		building_system_conflux
 		building_ukn_corporate_bureaucratic_3
+		building_sacred_nexus
 		building_bugged_war_temple_3
 		building_ukn_bugged_gravity_monastery_3
 		building_ukn_bugged_life_monastery_3
@@ -1159,7 +1162,7 @@ building_bugged_light_temple_3 = {
 
 
 
-building_ukn_bugged_light_temple_temple_4 = {
+building_ukn_bugged_light_temple_4 = {
 	base_buildtime = @building_ukn_bureaucratic_6_build_time
 	can_build = no
 	position_priority = 106
@@ -1192,12 +1195,13 @@ building_ukn_bugged_light_temple_temple_4 = {
 	}
 
 	convert_to = {
-#		building_ukn_temple_4
+#		building_ukn_bugged_light_temple_temple_4
 		building_ukn_sacrificial_temple_4
 		building_ukn_bureaucratic_4
 		building_ukn_hive_node_4
 		building_ukn_uplink_node_4
 		building_ukn_corporate_bureaucratic_4
+		building_ukn_temple_4
 		building_ukn_bugged_war_temple_4
 		building_ukn_bugged_gravity_monastery_4
 		building_ukn_bugged_life_monastery_4
@@ -1603,12 +1607,13 @@ building_ukn_bugged_light_temple_5 = {
 	}
 
 	convert_to = {
-#		building_ukn_temple_5
+#		building_ukn_bugged_light_temple_5
 		building_ukn_sacrificial_temple_5
 		building_ukn_bureaucratic_5
 		building_ukn_hive_node_5
 		building_ukn_uplink_node_5
 		building_ukn_corporate_bureaucratic_5
+		building_ukn_temple_5
 		building_ukn_bugged_war_temple_5
 		building_ukn_bugged_gravity_monastery_5
 		building_ukn_bugged_life_monastery_5
