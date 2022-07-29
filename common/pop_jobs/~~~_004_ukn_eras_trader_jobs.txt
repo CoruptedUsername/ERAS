@@ -16,111 +16,101 @@ bugged_trader = {
 
     possible_precalc = can_fill_specialist_job
 
-    planet_modifier = {
+
+    triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
 		planet_amenities_add = 2
-        trade_value_add = 8
-		trade_value_mult = 0.01
-    }
-
-    triggered_planet_modifier = {
-        potential = {
-            has_trait = trait_thrifty
-        }
-        modifier = {
-            trade_value_add = 2
-        }
-    }
-
-    triggered_planet_modifier = {
-        potential = {
-            has_trait = trait_nuumismatic_administration
-        }
-        modifier = {
-            trade_value_add = 2
-        }
-    }
-
-	triggered_planet_modifier = {
-		potential = {
-			OR = {
-				has_trait = trait_robot_domestic_protocols
-				has_trait = trait_charismatic
-			}
-		}
-		modifier = {
-			planet_amenities_add = 0.4
-		}
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
 	}
+
 	triggered_planet_modifier = {
 		potential = {
-			has_trait = trait_repugnant
+			always = yes
 		}
-		modifier = {
-			planet_amenities_add = -0.4
+		trade_value_add = 8
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_trade_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
 		}
+		trade_value_add = 1
+		mult = value:bugged_stock_exchange_tv
 	}
 
 	resources = {
 		category = planet_merchants
+		produces = {
+			trigger = {
+				owner = { is_bugged_peaceful_traders = yes }
+			}
+			unity = 1
+		}	
 		upkeep = {
-			consumer_goods = 1.5
+			consumer_goods = 1
 		}
 	}
 
-    weight = {
-        weight = @specialist_job_weight
-        modifier = {
-            factor = 2.0
-            has_trait = trait_thrifty
-        }
-        modifier = {
-            factor = 2.0
-            has_trait = trait_nuumismatic_administration
-        }
-        modifier = {
-            factor = 1.5
-            OR = {
-                has_trait = trait_robot_domestic_protocols
-                has_trait = trait_charismatic
-            }
-        }
-        modifier = {
-            factor = 0.5
-            has_trait = trait_repugnant
-        }
-        modifier = {
-            factor = 1.25
-            owner = { OR = { has_civic = civic_corporate_dominion has_valid_civic = civic_corporate_dominion_corpo    } }
-            has_trait = trait_brainslug
-        }
-        modifier = {
-            factor = 1.125
-            owner = { OR = { has_civic = civic_corporate_dominion has_valid_civic = civic_corporate_dominion_corpo    } }
-            has_trait = trait_presapient_natural_intellectuals
-        }
-        modifier = {
-            factor = 1.125
-            owner = { OR = { has_civic = civic_corporate_dominion has_valid_civic = civic_corporate_dominion_corpo    } }
-            has_trait = trait_robust
-        }
-        # crisis purge
-        modifier = {
-            factor = 0.01
-            exists = planet
-            exists = planet.controller
-            planet.controller = {
-                OR = {
-                    is_country_type = swarm
-                    is_country_type = ai_empire
-                }
-            }
-            OR = { # contingency won't purge itself
-                NOT = { exists = event_target:custodian_bot }
-                AND = {
-                    exists = event_target:custodian_bot
-                    NOT = { species = { is_same_value = event_target:custodian_bot } }
-                }
-            }
-        }
+    planet_modifier = {
+		trade_value_mult = 0.01
     }
+    
+	weight = {
+		weight = @specialist_job_weight
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_trade_mult|
+		modifier = {
+			factor = 0.25
+			is_enslaved = yes
+			can_take_servant_job = no
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				is_non_sapient_robot = yes
+				is_shackled_robot = yes
+			}
+			can_take_servant_job = no
+		}
+		modifier = {
+			factor = 10
+			OR = {
+				is_non_sapient_robot = yes
+				is_shackled_robot = yes
+			}
+			can_take_servant_job = no
+			can_fill_specialist_job = no
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+		modifier = {
+			factor = 0.5
+			exists = owner
+			owner = { is_fallen_empire = yes }
+		}
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+			OR = { # contingency won't purge itself
+				NOT = { exists = event_target:custodian_bot }
+				AND = {
+					exists = event_target:custodian_bot
+					NOT = { species = { is_same_value = event_target:custodian_bot } }
+				}
+			}
+		}
+	}
 }

@@ -664,3 +664,59 @@ pc_ukn_singularity = {
 
 	colonizable = no
 }
+
+pc_ukn_ecu_habitat = {
+	habitat = yes
+	entity = "orbital_habitat"
+	icon = GFX_planet_type_habitat
+	entity_scale = 1.0
+	enable_tilt = no
+	fixed_entity_scale = yes
+	place_entity_on_planet_plane = no
+	entity_face_object = no #disable rotation towards sun or planet we orbit around
+	atmosphere_color		= hsv { 0.0 0.0 1.0 }		#DONE
+	atmosphere_intensity	= 1.0
+	atmosphere_width		= 0.5
+	show_city = no
+	city_color_lut = "gfx/portraits/misc/colorcorrection_continental.dds"
+	extra_orbit_size = 0
+	extra_planet_count = 0
+	chance_of_ring = 0.0
+	planet_size = 6
+	moon_size = 1
+	colonizable = yes
+	district_set = habitat
+	starting_planet = no
+	orbit_lines = no
+	ideal = yes
+	has_colonization_influence_cost = no			# applies when within own borders
+	uses_district_set = ukn_city_world_habitat
+	is_artificial_planet = yes
+
+	modifier = {
+		planet_colony_development_speed_mult = 2.0 # Habitats should be fast to colonize
+#		planet_jobs_produces_mult = 0.20
+#		pop_growth_speed = 0.50
+#		planet_max_buildings_add = 12
+#---
+		planet_technician_energy_produces_add = 12
+#---
+		planet_farmers_food_produces_add = 12
+#---
+#		planet_miners_minerals_produces_add = 8
+#---
+#		planet_metallurgists_alloys_produces_add = 6
+#		planet_metallurgists_minerals_upkeep_add = 12
+#---
+		planet_artisans_consumer_goods_produces_add = 12
+		planet_artisans_minerals_upkeep_add = 12
+#---
+		planet_refiners_exotic_gases_produces_add = 2
+		planet_refiners_minerals_upkeep_add = 10
+#---
+		planet_translucers_rare_crystals_produces_add = 2
+		planet_translucers_minerals_upkeep_add = 10		
+	}
+
+	carry_cap_per_free_district = @carry_cap_low
+}

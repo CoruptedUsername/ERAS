@@ -809,8 +809,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artisan_add = -1
-		job_foundry_add = 1
+		job_artisan_add = -2
+		job_foundry_add = 2
 	}
 }
 
@@ -825,8 +825,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artisan_drone_add = -1
-		job_fabricator_add = 1
+		job_artisan_drone_add = -2
+		job_fabricator_add = 2
 	}
 }
 
@@ -841,8 +841,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artisan_drone_add = -1
-		job_alloy_drone_add = 1
+		job_artisan_drone_add = -2
+		job_alloy_drone_add = 2
 	}
 }
 
@@ -860,8 +860,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artisan_add = -1
-		job_catalytic_technician_add = 1
+		job_artisan_add = -2
+		job_catalytic_technician_add = 2
 	}
 }
 
@@ -876,8 +876,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artisan_drone_add = -1
-		job_catalytic_drone_add = 1
+		job_artisan_drone_add = -2
+		job_catalytic_drone_add = 2
 	}
 }
 
@@ -895,8 +895,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artificer_add = -1
-		job_foundry_add = 1
+		job_artificer_add = -2
+		job_foundry_add = 2
 	}
 }
 
@@ -914,8 +914,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artificer_add = -1
-		job_catalytic_technician_add = 1
+		job_artificer_add = -2
+		job_catalytic_technician_add = 2
 	}
 }
 #----------------------------------------------------

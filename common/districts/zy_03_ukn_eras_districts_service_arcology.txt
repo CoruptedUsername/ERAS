@@ -22,6 +22,7 @@ district_ukn_arcology_commercial = {
 		OR = {
 			UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			UKN_USES_HABITAT_ARCOLOGY_DISTRICTS = yes
 		}
 		OR = {
 			has_building = building_commercial_zone
