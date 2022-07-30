@@ -10,6 +10,8 @@ UKN_USES_NORMAL_DISTRICTS = {
 		uses_district_set = city_world
 		uses_district_set = ukn_city_world_machine
 		uses_district_set = ukn_city_world_hive
+# HABITAT ARCOLOGIES
+		uses_district_set = ukn_city_world_habitat
 # SCIENCE ARCOLOGIES
 		uses_district_set = ukn_city_world_science
 # MILITARY ARCOLOGIES
@@ -51,6 +53,8 @@ UKN_USES_BASIC_DISTRICTS = {
 		uses_district_set = city_world
 		uses_district_set = ukn_city_world_machine
 		uses_district_set = ukn_city_world_hive
+# HABITAT ARCOLOGIES
+		uses_district_set = ukn_city_world_habitat
 # SCIENCE ARCOLOGIES
 		uses_district_set = ukn_city_world_science
 # MILITARY ARCOLOGIES
@@ -115,6 +119,13 @@ UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = {
 		uses_district_set = city_world
 		uses_district_set = ukn_city_world_machine
 		uses_district_set = ukn_city_world_hive
+	}
+}
+
+UKN_USES_HABITAT_ARCOLOGY_DISTRICTS = {
+	OR = {
+# HABITAT ARCOLOGIES
+		uses_district_set = ukn_city_world_habitat
 	}
 }
 
