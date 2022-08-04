@@ -1,7 +1,6 @@
-version="3.4.5"
+version="1.0.0"
 tags={
-	"Technologies"
+	"Overhaul"
 }
-name="ERAS - Prototype (Pre-Alpha) [0.1.1.8]"
+name="ERAS Dev"
 supported_version="3.4.5"
-remote_file_id="2751265095"
