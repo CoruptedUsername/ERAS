@@ -275,3 +275,23 @@ mod_ukn_causalitons_based_exotic_particle_production = {
 	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_causalitons_based_exotic_particle_production.dds"
 	icon_frame = 1
 }
+
+
+
+#[ALL] ARTICLES DISTRIBUTION #--------------
+mod_ukn_planet_articles_trade_boost = {
+	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_planet_articles_trade_boost.dds"
+	icon_frame = 1
+	trade_value_mult  = 0.10
+}
+mod_ukn_planet_articles_construction_boost = {
+	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_planet_articles_construction_boost.dds"
+	icon_frame = 1
+	planet_building_build_speed_mult = 0.25
+}
+mod_ukn_planet_articles_abstract_production_boost = {
+	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_planet_articles_abstract_production_boost.dds"
+	icon_frame = 1
+	planet_researchers_produces_mult = 0.05
+	planet_administrators_produces_mult = 0.05
+}
