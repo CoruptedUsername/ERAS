@@ -2,6 +2,21 @@
 ### Advanced Resources  ###
 ###########################
 
+helium = {
+	tradable = yes
+	market_amount = 1
+	market_price = 32		# 80
+	max = 10000
+
+	prerequisites = { "tech_ship_armor_3" }
+	
+	deficit_situation = situation_energy_deficit
+	
+	ai_weight = {
+		weight = 10
+	}
+}
+
 ukn_meta_materials = {
 	tradable = yes
 	market_amount = 1
