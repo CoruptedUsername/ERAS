@@ -48,7 +48,7 @@
 
  UKN_SET_FORGES_WORLDCRAFT_NORMAL:0 "§B§!Planetary Foundries"
  UKN_SET_FORGES_WORLDCRAFT_NORMAL_DESC:0 "A massive amount of advanced auto-forges built on the surface of this Worldcraft, supplying us with alloys. These mostly automated forges require little oversight to reach optimal production."
- UKN_FORGES_WORLDCRAFT_NORMAL:0 "$UKN_SET_FORGES_WORLDCRAFT_NORMAL$\n§MPlanetary Building§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £minerals£§Y60§! £volatile_motes£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_FORGES_WORLDCRAFT_NORMAL:0 "$UKN_SET_FORGES_WORLDCRAFT_NORMAL$\n§MPlanetary Building§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £minerals£§Y60§! £ukn_exotic_particles£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_FORGES_WORLDCRAFT_NORMAL_DESC:0 "$UKN_SET_FORGES_WORLDCRAFT_NORMAL_DESC$"
 
  UKN_SET_FACTORIES_WORLDCRAFT_NORMAL:0 "§B§!Planetary Factories"
@@ -93,12 +93,12 @@
 
  UKN_SET_ENGINEERING_FACILITY_WORLDCRAFT_NORMAL:0 "§B§!Engineering Testing Facility"
  UKN_SET_ENGINEERING_FACILITY_WORLDCRAFT_NORMAL_DESC:0 "Massive, almost-completely-autonomous hydroponics farms built on the surface of this Worldcraft."
- UKN_ENGINEERING_FACILITY_WORLDCRAFT_NORMAL:0 "$UKN_SET_ENGINEERING_FACILITY_WORLDCRAFT_NORMAL$\n§MPlanetary Building§!\n§WProduces:§! £engineering_research£§Y120§!\n§WUpkeep:§! £energy£§Y15§! £volatile_motes£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_ENGINEERING_FACILITY_WORLDCRAFT_NORMAL:0 "$UKN_SET_ENGINEERING_FACILITY_WORLDCRAFT_NORMAL$\n§MPlanetary Building§!\n§WProduces:§! £engineering_research£§Y120§!\n§WUpkeep:§! £energy£§Y15§! £ukn_exotic_particles£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_ENGINEERING_FACILITY_WORLDCRAFT_NORMAL_DESC:0 "$UKN_SET_ENGINEERING_FACILITY_WORLDCRAFT_NORMAL_DESC$"
 
  UKN_SET_MUNITIONS_SUPERCOMPUTER_WORLDCRAFT_NORMAL:0 "§B§!Munitions Supercomputer"
  UKN_SET_MUNITIONS_SUPERCOMPUTER_WORLDCRAFT_NORMAL_DESC:0 "These large factories manufacture high-quality explosive ammunition that can be flung at nearby unfortunate planets."
- UKN_MUNITIONS_SUPERCOMPUTER_WORLDCRAFT_NORMAL:0 "$UKN_SET_MUNITIONS_SUPERCOMPUTER_WORLDCRAFT_NORMAL$\n§MPlanetary Building§!\n§WUpkeep:§! £alloys£§Y15§! £volatile_motes£§Y1§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_MUNITIONS_SUPERCOMPUTER_WORLDCRAFT_NORMAL:0 "$UKN_SET_MUNITIONS_SUPERCOMPUTER_WORLDCRAFT_NORMAL$\n§MPlanetary Building§!\n§WUpkeep:§! £alloys£§Y15§! £ukn_exotic_particles£§Y1§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_MUNITIONS_SUPERCOMPUTER_WORLDCRAFT_NORMAL_DESC:0 "$UKN_SET_MUNITIONS_SUPERCOMPUTER_WORLDCRAFT_NORMAL_DESC$"
  
  
@@ -106,7 +106,7 @@
 
  UKN_SET_FORGES_WORLDCRAFT_ARCOLOGY:0 "§B§!Planetary Foundries"
  UKN_SET_FORGES_WORLDCRAFT_ARCOLOGY_DESC:0 "A massive amount of advanced auto-forges built on the surface of this Worldcraft, supplying us with alloys. These mostly automated forges require little oversight to reach optimal production."
- UKN_FORGES_WORLDCRAFT_ARCOLOGY:0 "$UKN_SET_FORGES_WORLDCRAFT_ARCOLOGY$\n§MPlanetary Building§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £minerals£§Y60§! £volatile_motes£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.08%§! Due to Pop Usage§!\n"
+ UKN_FORGES_WORLDCRAFT_ARCOLOGY:0 "$UKN_SET_FORGES_WORLDCRAFT_ARCOLOGY$\n§MPlanetary Building§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £minerals£§Y60§! £ukn_exotic_particles£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.08%§! Due to Pop Usage§!\n"
  UKN_FORGES_WORLDCRAFT_ARCOLOGY_DESC:0 "$UKN_SET_FORGES_WORLDCRAFT_ARCOLOGY_DESC$"
 
  UKN_SET_FACTORIES_WORLDCRAFT_ARCOLOGY:0 "§B§!Planetary Factories"
@@ -151,12 +151,12 @@
 
  UKN_SET_ENGINEERING_FACILITY_WORLDCRAFT_ARCOLOGY:0 "§B§!Engineering Testing Facility"
  UKN_SET_ENGINEERING_FACILITY_WORLDCRAFT_ARCOLOGY_DESC:0 "Massive, almost-completely-autonomous hydroponics farms built on the surface of this Worldcraft."
- UKN_ENGINEERING_FACILITY_WORLDCRAFT_ARCOLOGY:0 "$UKN_SET_ENGINEERING_FACILITY_WORLDCRAFT_ARCOLOGY$\n§MPlanetary Building§!\n§WProduces:§! £engineering_research£§Y120§!\n§WUpkeep:§! £energy£§Y15§! £volatile_motes£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.08%§! Due to Pop Usage§!\n"
+ UKN_ENGINEERING_FACILITY_WORLDCRAFT_ARCOLOGY:0 "$UKN_SET_ENGINEERING_FACILITY_WORLDCRAFT_ARCOLOGY$\n§MPlanetary Building§!\n§WProduces:§! £engineering_research£§Y120§!\n§WUpkeep:§! £energy£§Y15§! £ukn_exotic_particles£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.08%§! Due to Pop Usage§!\n"
  UKN_ENGINEERING_FACILITY_WORLDCRAFT_ARCOLOGY_DESC:0 "$UKN_SET_ENGINEERING_FACILITY_WORLDCRAFT_ARCOLOGY_DESC$"
 
  UKN_SET_MUNITIONS_SUPERCOMPUTER_WORLDCRAFT_ARCOLOGY:0 "§B§!Munitions Supercomputer"
  UKN_SET_MUNITIONS_SUPERCOMPUTER_WORLDCRAFT_ARCOLOGY_DESC:0 "These large factories manufacture high-quality explosive ammunition that can be flung at nearby unfortunate planets."
- UKN_MUNITIONS_SUPERCOMPUTER_WORLDCRAFT_ARCOLOGY:0 "$UKN_SET_MUNITIONS_SUPERCOMPUTER_WORLDCRAFT_ARCOLOGY$\n§MPlanetary Building§!\n§WUpkeep:§! £alloys£§Y15§! £volatile_motes£§Y1§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.08%§! Due to Pop Usage§!\n"
+ UKN_MUNITIONS_SUPERCOMPUTER_WORLDCRAFT_ARCOLOGY:0 "$UKN_SET_MUNITIONS_SUPERCOMPUTER_WORLDCRAFT_ARCOLOGY$\n§MPlanetary Building§!\n§WUpkeep:§! £alloys£§Y15§! £ukn_exotic_particles£§Y1§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.08%§! Due to Pop Usage§!\n"
  UKN_MUNITIONS_SUPERCOMPUTER_WORLDCRAFT_ARCOLOGY_DESC:0 "$UKN_SET_MUNITIONS_SUPERCOMPUTER_WORLDCRAFT_ARCOLOGY_DESC$"
  
  
@@ -164,7 +164,7 @@
 
  UKN_SET_AUTO_FORGES_PLANETCRAFT:0 "§B§!Planetary Auto-Forges"
  UKN_SET_AUTO_FORGES_PLANETCRAFT_DESC:0 "A massive amount of advanced auto-forges built on the surface of this Planetcraft, supplying us with alloys. These mostly automated forges require little oversight to reach optimal production."
- UKN_AUTO_FORGES_PLANETCRAFT:0 "$UKN_SET_AUTO_FORGES_PLANETCRAFT$\n§MPlanetary Building§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £minerals£§Y60§! £volatile_motes£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R1%§! Due to Pop Usage§!\n"
+ UKN_AUTO_FORGES_PLANETCRAFT:0 "$UKN_SET_AUTO_FORGES_PLANETCRAFT$\n§MPlanetary Building§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £minerals£§Y60§! £ukn_exotic_particles£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R1%§! Due to Pop Usage§!\n"
  UKN_AUTO_FORGES_PLANETCRAFT_DESC:0 "$UKN_SET_AUTO_FORGES_PLANETCRAFT_DESC$"
 
  UKN_SET_AUTO_FACTORIES_PLANETCRAFT:0 "§B§!Planetary Auto-Factories"
@@ -194,12 +194,12 @@
 
  UKN_SET_ENGINEERING_FACILITY_PLANETCRAFT:0 "§B§!Semi-Autonomous Engineering Testing Facility"
  UKN_SET_ENGINEERING_FACILITY_PLANETCRAFT_DESC:0 "Massive, almost-completely-autonomous hydroponics farms built on the surface of this Worldcraft."
- UKN_ENGINEERING_FACILITY_PLANETCRAFT:0 "$UKN_SET_ENGINEERING_FACILITY_PLANETCRAFT$\n§MPlanetary Building§!\n§WProduces:§! £engineering_research£§Y120§!\n§WUpkeep:§! £energy£§Y15§! £volatile_motes£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_ENGINEERING_FACILITY_PLANETCRAFT:0 "$UKN_SET_ENGINEERING_FACILITY_PLANETCRAFT$\n§MPlanetary Building§!\n§WProduces:§! £engineering_research£§Y120§!\n§WUpkeep:§! £energy£§Y15§! £ukn_exotic_particles£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_ENGINEERING_FACILITY_PLANETCRAFT_DESC:0 "$UKN_SET_ENGINEERING_FACILITY_PLANETCRAFT_DESC$"
 
  UKN_SET_MUNITIONS_SUPERCOMPUTER_PLANETCRAFT:0 "§B§!Munitions Supercomputer"
  UKN_SET_MUNITIONS_SUPERCOMPUTER_PLANETCRAFT_DESC:0 "These large factories manufacture high-quality explosive ammunition that can be flung at nearby unfortunate planets."
- UKN_MUNITIONS_SUPERCOMPUTER_PLANETCRAFT:0 "$UKN_SET_MUNITIONS_SUPERCOMPUTER_PLANETCRAFT$\n§MPlanetary Building§!\n§WUpkeep:§! £alloys£§Y15§! £volatile_motes£§Y1§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R1%§! Due to Pop Usage§!\n"
+ UKN_MUNITIONS_SUPERCOMPUTER_PLANETCRAFT:0 "$UKN_SET_MUNITIONS_SUPERCOMPUTER_PLANETCRAFT$\n§MPlanetary Building§!\n§WUpkeep:§! £alloys£§Y15§! £ukn_exotic_particles£§Y1§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R1%§! Due to Pop Usage§!\n"
  UKN_MUNITIONS_SUPERCOMPUTER_PLANETCRAFT_DESC:0 "$UKN_SET_MUNITIONS_SUPERCOMPUTER_PLANETCRAFT_DESC$"
 
  UKN_SET_AUXILIARY_SHIPYARD_PLANETCRAFT:0 "§B§!Auxillary Shipyard Facility"
@@ -212,7 +212,7 @@
 
  UKN_SET_AUTO_FORGES_SYSTEMCRAFT:0 "§B§!Super-Planetary Auto-Forges"
  UKN_SET_AUTO_FORGES_SYSTEMCRAFT_DESC:0 "A massive amount of advanced auto-forges built on one of the Systemcraft's planets, supplying us with alloys. These mostly automated forges require little oversight to reach optimal production."
- UKN_AUTO_FORGES_SYSTEMCRAFT:0 "$UKN_SET_AUTO_FORGES_SYSTEMCRAFT$\n§MPlanetary Building§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £minerals£§Y60§! £volatile_motes£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.25%§! Due to Pop Usage§!\n"
+ UKN_AUTO_FORGES_SYSTEMCRAFT:0 "$UKN_SET_AUTO_FORGES_SYSTEMCRAFT$\n§MPlanetary Building§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £minerals£§Y60§! £ukn_exotic_particles£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.25%§! Due to Pop Usage§!\n"
  UKN_AUTO_FORGES_SYSTEMCRAFT_DESC:0 "$UKN_SET_AUTO_FORGES_SYSTEMCRAFT_DESC$"
 
  UKN_SET_AUTO_FACTORIES_SYSTEMCRAFT:0 "§B§!Super-Planetary Auto-Factories"
@@ -242,12 +242,12 @@
 
  UKN_SET_ENGINEERING_FACILITY_SYSTEMCRAFT:0 "§B§!Semi-Autonomous Engineering Testing Facility"
  UKN_SET_ENGINEERING_FACILITY_SYSTEMCRAFT_DESC:0 "Massive, almost-completely-autonomous hydroponics farms built on the surface of this Worldcraft."
- UKN_ENGINEERING_FACILITY_SYSTEMCRAFT:0 "$UKN_SET_ENGINEERING_FACILITY_SYSTEMCRAFT$\n§MPlanetary Building§!\n§WProduces:§! £engineering_research£§Y120§!\n§WUpkeep:§! £energy£§Y15§! £volatile_motes£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_ENGINEERING_FACILITY_SYSTEMCRAFT:0 "$UKN_SET_ENGINEERING_FACILITY_SYSTEMCRAFT$\n§MPlanetary Building§!\n§WProduces:§! £engineering_research£§Y120§!\n§WUpkeep:§! £energy£§Y15§! £ukn_exotic_particles£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_ENGINEERING_FACILITY_SYSTEMCRAFT_DESC:0 "$UKN_SET_ENGINEERING_FACILITY_SYSTEMCRAFT_DESC$"
 
  UKN_SET_MUNITIONS_SUPERCOMPUTER_SYSTEMCRAFT:0 "§B§!Munitions Supercomputer"
  UKN_SET_MUNITIONS_SUPERCOMPUTER_SYSTEMCRAFT_DESC:0 "These large factories manufacture high-quality explosive ammunition that can be flung at nearby unfortunate planets."
- UKN_MUNITIONS_SUPERCOMPUTER_SYSTEMCRAFT:0 "$UKN_SET_MUNITIONS_SUPERCOMPUTER_SYSTEMCRAFT$\n§MPlanetary Building§!\n§WUpkeep:§! £alloys£§Y15§! £volatile_motes£§Y1§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.25%§! Due to Pop Usage§!\n"
+ UKN_MUNITIONS_SUPERCOMPUTER_SYSTEMCRAFT:0 "$UKN_SET_MUNITIONS_SUPERCOMPUTER_SYSTEMCRAFT$\n§MPlanetary Building§!\n§WUpkeep:§! £alloys£§Y15§! £ukn_exotic_particles£§Y1§!\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.25%§! Due to Pop Usage§!\n"
  UKN_MUNITIONS_SUPERCOMPUTER_SYSTEMCRAFT_DESC:0 "$UKN_SET_MUNITIONS_SUPERCOMPUTER_SYSTEMCRAFT_DESC$"
 
  UKN_SET_AUXILIARY_SHIPYARD_SYSTEMCRAFT:0 "§B§!Auxillary Shipyard Facility"
@@ -319,11 +319,11 @@
 
  UKN_SET_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY:0 "§B§!Foundry Arcology"
  UKN_SET_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY_DESC:0 "A massive amount of foundries built on one of the Systemcraft's planets, supplying us with alloys."
- UKN_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY_SMALL:0 "$UKN_SET_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £volatile_motes£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
+ UKN_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY_SMALL:0 "$UKN_SET_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £ukn_exotic_particles£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
  UKN_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY_SMALL_DESC:0 "$UKN_SET_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY_DESC$"
- UKN_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY_MEDIUM:0 "$UKN_SET_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £volatile_motes£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
+ UKN_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY_MEDIUM:0 "$UKN_SET_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £ukn_exotic_particles£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
  UKN_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY_MEDIUM_DESC:0 "$UKN_SET_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY_DESC$"
- UKN_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY:0 "$UKN_SET_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £volatile_motes£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
+ UKN_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY:0 "$UKN_SET_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £ukn_exotic_particles£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
  UKN_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY_DESC:0 "$UKN_SET_SHIP_DISTRICT_ECUMENOPOLIS_FOUNDRY_DESC$"
 
  UKN_SET_SHIP_DISTRICT_ECUMENOPOLIS_CIVILIAN:0 "§B§!Civilian Arcology"
@@ -340,11 +340,11 @@
 
  UKN_SET_SHIP_DISTRICT_MACHINE_FOUNDRY:0 "§B§!Foundry Arcology"
  UKN_SET_SHIP_DISTRICT_MACHINE_FOUNDRY_DESC:0 "A massive amount of foundries built on one of the Systemcraft's planets, supplying us with alloys."
- UKN_SHIP_DISTRICT_MACHINE_FOUNDRY_SMALL:0 "$UKN_SET_SHIP_DISTRICT_MACHINE_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £volatile_motes£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
+ UKN_SHIP_DISTRICT_MACHINE_FOUNDRY_SMALL:0 "$UKN_SET_SHIP_DISTRICT_MACHINE_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £ukn_exotic_particles£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
  UKN_SHIP_DISTRICT_MACHINE_FOUNDRY_SMALL_DESC:0 "$UKN_SET_SHIP_DISTRICT_MACHINE_FOUNDRY_DESC$"
- UKN_SHIP_DISTRICT_MACHINE_FOUNDRY_MEDIUM:0 "$UKN_SET_SHIP_DISTRICT_MACHINE_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £volatile_motes£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
+ UKN_SHIP_DISTRICT_MACHINE_FOUNDRY_MEDIUM:0 "$UKN_SET_SHIP_DISTRICT_MACHINE_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £ukn_exotic_particles£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
  UKN_SHIP_DISTRICT_MACHINE_FOUNDRY_MEDIUM_DESC:0 "$UKN_SET_SHIP_DISTRICT_MACHINE_FOUNDRY_DESC$"
- UKN_SHIP_DISTRICT_MACHINE_FOUNDRY:0 "$UKN_SET_SHIP_DISTRICT_MACHINE_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £volatile_motes£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
+ UKN_SHIP_DISTRICT_MACHINE_FOUNDRY:0 "$UKN_SET_SHIP_DISTRICT_MACHINE_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £ukn_exotic_particles£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
  UKN_SHIP_DISTRICT_MACHINE_FOUNDRY_DESC:0 "$UKN_SET_SHIP_DISTRICT_MACHINE_FOUNDRY_DESC$"
 
  UKN_SET_SHIP_DISTRICT_MACHINE_SIMULATION:0 "§B§!Simu-Complex Arcology"
@@ -361,11 +361,11 @@
 
  UKN_SET_SHIP_DISTRICT_HIVE_FOUNDRY:0 "§B§!Foundry Arcology"
  UKN_SET_SHIP_DISTRICT_HIVE_FOUNDRY_DESC:0 "A massive amount of foundries built on one of the Systemcraft's planets, supplying us with alloys."
- UKN_SHIP_DISTRICT_HIVE_FOUNDRY_SMALL:0 "$UKN_SET_SHIP_DISTRICT_HIVE_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £volatile_motes£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
+ UKN_SHIP_DISTRICT_HIVE_FOUNDRY_SMALL:0 "$UKN_SET_SHIP_DISTRICT_HIVE_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £ukn_exotic_particles£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
  UKN_SHIP_DISTRICT_HIVE_FOUNDRY_SMALL_DESC:0 "$UKN_SET_SHIP_DISTRICT_HIVE_FOUNDRY_DESC$"
- UKN_SHIP_DISTRICT_HIVE_FOUNDRY_MEDIUM:0 "$UKN_SET_SHIP_DISTRICT_HIVE_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £volatile_motes£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
+ UKN_SHIP_DISTRICT_HIVE_FOUNDRY_MEDIUM:0 "$UKN_SET_SHIP_DISTRICT_HIVE_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £ukn_exotic_particles£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
  UKN_SHIP_DISTRICT_HIVE_FOUNDRY_MEDIUM_DESC:0 "$UKN_SET_SHIP_DISTRICT_HIVE_FOUNDRY_DESC$"
- UKN_SHIP_DISTRICT_HIVE_FOUNDRY:0 "$UKN_SET_SHIP_DISTRICT_HIVE_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £volatile_motes£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
+ UKN_SHIP_DISTRICT_HIVE_FOUNDRY:0 "$UKN_SET_SHIP_DISTRICT_HIVE_FOUNDRY$\n§MPlanetary District§!\n§WProduces:§! £alloys£§Y45§!\n§WUpkeep:§! £energy£§Y5§! £minerals£§Y60§! £ukn_exotic_particles£§Y2§!\n\n§HComponent§! §WPop Usage:§! §P10§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.4%§! Due to Pop Usage§!\n"
  UKN_SHIP_DISTRICT_HIVE_FOUNDRY_DESC:0 "$UKN_SET_SHIP_DISTRICT_HIVE_FOUNDRY_DESC$"
 
  UKN_SET_SHIP_DISTRICT_HIVE_SYNAPTIC:0 "§B§!Synaptic Arcology"
@@ -384,22 +384,22 @@
 
  UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_1:0 "§B§!Subspace Anchor Array"
  UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_1_DESC:0 "A large amount of subspace anchors are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_WORLDCRAFT_NORMAL_1:0 "$UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t6_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_WORLDCRAFT_NORMAL_1:0 "$UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t6_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_WORLDCRAFT_NORMAL_1_DESC:0 "$UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_1_DESC$"
  
  UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_2:0 "§B§!Spatial Stabilizer Array"
  UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_2_DESC:0 "A large amount of spatial stabilizers are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_WORLDCRAFT_NORMAL_2:0 "$UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_WORLDCRAFT_NORMAL_2:0 "$UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_WORLDCRAFT_NORMAL_2_DESC:0 "$UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_2_DESC$"
  
  UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_3:0 "§B§!Negative-Curve Stabilizer Array"
  UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_3_DESC:0 "A large amount of loop quantum stabilizers are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_WORLDCRAFT_NORMAL_3:0 "$UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_WORLDCRAFT_NORMAL_3:0 "$UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_WORLDCRAFT_NORMAL_3_DESC:0 "$UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_3_DESC$"
  
  UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_PLANCK:0 "§B§!Supra-Dilative Stabilizer Array"
  UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_PLANCK_DESC:0 "A large amount of planck stabilizers are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_WORLDCRAFT_NORMAL_PLANCK:0 "$UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_WORLDCRAFT_NORMAL_PLANCK:0 "$UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_WORLDCRAFT_NORMAL_PLANCK_DESC:0 "$UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_PLANCK_DESC$"
  
  UKN_SET_STABILIZER_WORLDCRAFT_NORMAL_4:0 "§B§!Synchronic Stabilizer Array"
@@ -417,22 +417,22 @@
 
  UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_1:0 "§B§!Subspace Anchor Array"
  UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_1_DESC:0 "A large amount of subspace anchors are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_WORLDCRAFT_ARCOLOGY_1:0 "$UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t6_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_WORLDCRAFT_ARCOLOGY_1:0 "$UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t6_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_WORLDCRAFT_ARCOLOGY_1_DESC:0 "$UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_1_DESC$"
  
  UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_2:0 "§B§!Spatial Stabilizer Array"
  UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_2_DESC:0 "A large amount of spatial stabilizers are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_WORLDCRAFT_ARCOLOGY_2:0 "$UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_WORLDCRAFT_ARCOLOGY_2:0 "$UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_WORLDCRAFT_ARCOLOGY_2_DESC:0 "$UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_2_DESC$"
  
  UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_3:0 "§B§!Negative-Curve Stabilizer Array"
  UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_3_DESC:0 "A large amount of loop quantum stabilizers are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_WORLDCRAFT_ARCOLOGY_3:0 "$UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_WORLDCRAFT_ARCOLOGY_3:0 "$UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_WORLDCRAFT_ARCOLOGY_3_DESC:0 "$UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_3_DESC$"
  
  UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_PLANCK:0 "§B§!Supra-Dilative Stabilizer Array"
  UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_PLANCK_DESC:0 "A large amount of planck stabilizers are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_WORLDCRAFT_ARCOLOGY_PLANCK:0 "$UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_WORLDCRAFT_ARCOLOGY_PLANCK:0 "$UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_WORLDCRAFT_ARCOLOGY_PLANCK_DESC:0 "$UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_PLANCK_DESC$"
  
  UKN_SET_STABILIZER_WORLDCRAFT_ARCOLOGY_4:0 "§B§!Synchronic Stabilizer Array"
@@ -449,22 +449,22 @@
 
  UKN_SET_STABILIZER_ATTACK_MOON_1:0 "§B§!Subspace Anchor Array"
  UKN_SET_STABILIZER_ATTACK_MOON_1_DESC:0 "A large amount of subspace anchors are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_ATTACK_MOON_1:0 "$UKN_SET_STABILIZER_ATTACK_MOON_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t6_aux_upkeep_volatile_motes$$info_text_ukn_moon_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_ATTACK_MOON_1:0 "$UKN_SET_STABILIZER_ATTACK_MOON_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t6_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_ATTACK_MOON_1_DESC:0 "$UKN_SET_STABILIZER_ATTACK_MOON_1_DESC$"
  
  UKN_SET_STABILIZER_ATTACK_MOON_2:0 "§B§!Spatial Stabilizer Array"
  UKN_SET_STABILIZER_ATTACK_MOON_2_DESC:0 "A large amount of spatial stabilizers are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_ATTACK_MOON_2:0 "$UKN_SET_STABILIZER_ATTACK_MOON_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t7_aux_upkeep_volatile_motes$$info_text_ukn_moon_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_ATTACK_MOON_2:0 "$UKN_SET_STABILIZER_ATTACK_MOON_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_ATTACK_MOON_2_DESC:0 "$UKN_SET_STABILIZER_ATTACK_MOON_2_DESC$"
  
  UKN_SET_STABILIZER_ATTACK_MOON_3:0 "§B§!Negative-Curve Stabilizer Array"
  UKN_SET_STABILIZER_ATTACK_MOON_3_DESC:0 "A large amount of loop quantum stabilizers are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_ATTACK_MOON_3:0 "$UKN_SET_STABILIZER_ATTACK_MOON_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t8_aux_upkeep_volatile_motes$$info_text_ukn_moon_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_ATTACK_MOON_3:0 "$UKN_SET_STABILIZER_ATTACK_MOON_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_ATTACK_MOON_3_DESC:0 "$UKN_SET_STABILIZER_ATTACK_MOON_3_DESC$"
  
  UKN_SET_STABILIZER_ATTACK_MOON_PLANCK:0 "§B§!Supra-Dilative Stabilizer Array"
  UKN_SET_STABILIZER_ATTACK_MOON_PLANCK_DESC:0 "A large amount of planck stabilizers are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_ATTACK_MOON_PLANCK:0 "$UKN_SET_STABILIZER_ATTACK_MOON_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t_p_aux_upkeep_volatile_motes$$info_text_ukn_moon_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_ATTACK_MOON_PLANCK:0 "$UKN_SET_STABILIZER_ATTACK_MOON_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_ATTACK_MOON_PLANCK_DESC:0 "$UKN_SET_STABILIZER_ATTACK_MOON_PLANCK_DESC$"
  
  UKN_SET_STABILIZER_ATTACK_MOON_4:0 "§B§!Synchronic Stabilizer Array"
@@ -482,22 +482,22 @@
 
  UKN_SET_STABILIZER_PLANETCRAFT_1:0 "§B§!Subspace Anchor Array"
  UKN_SET_STABILIZER_PLANETCRAFT_1_DESC:0 "A large amount of subspace anchors are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_PLANETCRAFT_1:0 "$UKN_SET_STABILIZER_PLANETCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t6_aux_upkeep_volatile_motes$$info_text_ukn_planet_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_PLANETCRAFT_1:0 "$UKN_SET_STABILIZER_PLANETCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t6_aux_upkeep_ukn_exotic_particles$$info_text_ukn_planet_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_PLANETCRAFT_1_DESC:0 "$UKN_SET_STABILIZER_PLANETCRAFT_1_DESC$"
  
  UKN_SET_STABILIZER_PLANETCRAFT_2:0 "§B§!Spatial Stabilizer Array"
  UKN_SET_STABILIZER_PLANETCRAFT_2_DESC:0 "A large amount of spatial stabilizers are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_PLANETCRAFT_2:0 "$UKN_SET_STABILIZER_PLANETCRAFT_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t7_aux_upkeep_volatile_motes$$info_text_ukn_planet_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_PLANETCRAFT_2:0 "$UKN_SET_STABILIZER_PLANETCRAFT_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_planet_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_PLANETCRAFT_2_DESC:0 "$UKN_SET_STABILIZER_PLANETCRAFT_2_DESC$"
  
  UKN_SET_STABILIZER_PLANETCRAFT_3:0 "§B§!Negative-Curve Stabilizer Array"
  UKN_SET_STABILIZER_PLANETCRAFT_3_DESC:0 "A large amount of loop quantum stabilizers are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_PLANETCRAFT_3:0 "$UKN_SET_STABILIZER_PLANETCRAFT_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t8_aux_upkeep_ukn_meta_materials$$info_text_ukn_planet_t8_aux_upkeep_volatile_motes$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_PLANETCRAFT_3:0 "$UKN_SET_STABILIZER_PLANETCRAFT_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t8_aux_upkeep_ukn_meta_materials$$info_text_ukn_planet_t8_aux_upkeep_ukn_exotic_particles$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_PLANETCRAFT_3_DESC:0 "$UKN_SET_STABILIZER_PLANETCRAFT_3_DESC$"
  
  UKN_SET_STABILIZER_PLANETCRAFT_PLANCK:0 "§B§!Supra-Dilative Stabilizer Array"
  UKN_SET_STABILIZER_PLANETCRAFT_PLANCK_DESC:0 "A large amount of planck stabilizers are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_PLANETCRAFT_PLANCK:0 "$UKN_SET_STABILIZER_PLANETCRAFT_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t_p_aux_upkeep_volatile_motes$$info_text_ukn_planet_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_PLANETCRAFT_PLANCK:0 "$UKN_SET_STABILIZER_PLANETCRAFT_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_planet_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_PLANETCRAFT_PLANCK_DESC:0 "$UKN_SET_STABILIZER_PLANETCRAFT_PLANCK_DESC$"
  
  UKN_SET_STABILIZER_PLANETCRAFT_4:0 "§B§!Synchronic Stabilizer Array"
@@ -515,22 +515,22 @@
 
  UKN_SET_STABILIZER_SYSTEMCRAFT_1:0 "§B§!Subspace Anchor Array"
  UKN_SET_STABILIZER_SYSTEMCRAFT_1_DESC:0 "A large amount of subspace anchors are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_SYSTEMCRAFT_1:0 "$UKN_SET_STABILIZER_SYSTEMCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t6_aux_upkeep_volatile_motes$$info_text_ukn_system_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_SYSTEMCRAFT_1:0 "$UKN_SET_STABILIZER_SYSTEMCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t6_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_SYSTEMCRAFT_1_DESC:0 "$UKN_SET_STABILIZER_SYSTEMCRAFT_1_DESC$"
  
  UKN_SET_STABILIZER_SYSTEMCRAFT_2:0 "§B§!Spatial Stabilizer Array"
  UKN_SET_STABILIZER_SYSTEMCRAFT_2_DESC:0 "A large amount of spatial stabilizers are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_SYSTEMCRAFT_2:0 "$UKN_SET_STABILIZER_SYSTEMCRAFT_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t7_aux_upkeep_volatile_motes$$info_text_ukn_system_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_SYSTEMCRAFT_2:0 "$UKN_SET_STABILIZER_SYSTEMCRAFT_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_SYSTEMCRAFT_2_DESC:0 "$UKN_SET_STABILIZER_SYSTEMCRAFT_2_DESC$"
  
  UKN_SET_STABILIZER_SYSTEMCRAFT_3:0 "§B§!Negative-Curve Stabilizer Array"
  UKN_SET_STABILIZER_SYSTEMCRAFT_3_DESC:0 "A large amount of loop quantum stabilizers are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_SYSTEMCRAFT_3:0 "$UKN_SET_STABILIZER_SYSTEMCRAFT_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t8_aux_upkeep_volatile_motes$$info_text_ukn_system_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_SYSTEMCRAFT_3:0 "$UKN_SET_STABILIZER_SYSTEMCRAFT_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_SYSTEMCRAFT_3_DESC:0 "$UKN_SET_STABILIZER_SYSTEMCRAFT_3_DESC$"
  
  UKN_SET_STABILIZER_SYSTEMCRAFT_PLANCK:0 "§B§!Supra-Dilative Stabilizer Array"
  UKN_SET_STABILIZER_SYSTEMCRAFT_PLANCK_DESC:0 "A large amount of planck stabilizers are placed at strategic locations below the crust of and on the surface of the Worldcraft, improving structural integrity."
- UKN_STABILIZER_SYSTEMCRAFT_PLANCK:0 "$UKN_SET_STABILIZER_SYSTEMCRAFT_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t_p_aux_upkeep_volatile_motes$$info_text_ukn_system_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
+ UKN_STABILIZER_SYSTEMCRAFT_PLANCK:0 "$UKN_SET_STABILIZER_SYSTEMCRAFT_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P2§! £pop£ §WPops§!\n§WBonus §YWeapon Damage§! Reduced By §R0.2%§! Due to Pop Usage§!\n"
  UKN_STABILIZER_SYSTEMCRAFT_PLANCK_DESC:0 "$UKN_SET_STABILIZER_SYSTEMCRAFT_PLANCK_DESC$"
  
  UKN_SET_STABILIZER_SYSTEMCRAFT_4:0 "§B§!Synchronic Stabilizer Array"
@@ -587,17 +587,17 @@
 # Regenning Crust Armor
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_0:0 "§E§!Prototype Sentient Metal Crust Armor"
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_0_DESC:0 "DESC"
- UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_0:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_0$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_0:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_0$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_0_DESC:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_0_DESC$"
  
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_1:0 "§E§!Coherent Sentient Metal Crust Armor"
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_1_DESC:0 "DESC"
- UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_1:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_1:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_1_DESC:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_1_DESC$"
  
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_PLANCK:0 "§E§!Dark Matter-Infused Sentient Metal Crust Armor"
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_PLANCK_DESC:0 "DESC"
- UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_PLANCK:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_PLANCK:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_PLANCK_DESC:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_NORMAL_PLANCK_DESC$"
  
  UKN_SET_CRUST_ARMOR_LIVING_METAL_WORLDCRAFT_NORMAL_1:0 "§E§!Living Metal Crust Armor"
@@ -616,27 +616,27 @@
 # Planetary Shieldings
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_1:0 "§E§!Gluonic Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_1_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t5_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t5_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t5_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t5_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_1_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_1_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_2:0 "§E§!Higgs-Hyperyonic Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_2_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t6_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t6_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_2_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_2_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_3:0 "§E§!Spatial Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_3_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_3:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_3:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_3_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_3_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_4:0 "§E§!Negative-Potential Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_4_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_4:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_4$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_4:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_4$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_4_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_4_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_PLANCK:0 "§E§!Nul Field Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_PLANCK_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_PLANCK_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_PLANCK_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_NORMAL_5:0 "§E§!Synchronic Barrier Generator"
@@ -653,17 +653,17 @@
 # Regenning Planetary Shieldings
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_1:0 "§E§!Hyperadaptive Spatial Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_1_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_1_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_1_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_2:0 "§E§!Hyperadaptive Negative-Potential Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_2_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_2_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_2_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_PLANCK:0 "§E§!Hyperadaptive Nul Field Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_PLANCK_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_PLANCK_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_PLANCK_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_NORMAL_3:0 "§E§!Hyperadaptive Synchronic Barrier Generator"
@@ -680,17 +680,17 @@
 # Psi Planetary Shieldings
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_1:0 "§E§!Phase Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_1_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_1_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_1_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_2:0 "§E§!Multi-Phase Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_2_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_2_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_2_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_UNBIDDEN:0 "§E§!Zronic Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_UNBIDDEN_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_UNBIDDEN:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_UNBIDDEN$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_UNBIDDEN:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_UNBIDDEN$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_UNBIDDEN_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_UNBIDDEN_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_NORMAL_3:0 "§E§!Multi-Dimensional Barrier Generator"
@@ -747,17 +747,17 @@
 # Regenning Crust Armor
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_0:0 "§E§!Prototype Sentient Metal Crust Armor"
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_0_DESC:0 "DESC"
- UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_0:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_0$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_0:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_0$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_0_DESC:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_0_DESC$"
  
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_1:0 "§E§!Coherent Sentient Metal Crust Armor"
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_1_DESC:0 "DESC"
- UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_1:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_1:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_1_DESC:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_1_DESC$"
  
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_PLANCK:0 "§E§!Dark Matter-Infused Sentient Metal Crust Armor"
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_PLANCK_DESC:0 "DESC"
- UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_PLANCK:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_PLANCK:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_PLANCK_DESC:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_WORLDCRAFT_ARCOLOGY_PLANCK_DESC$"
  
  UKN_SET_CRUST_ARMOR_LIVING_METAL_WORLDCRAFT_ARCOLOGY_1:0 "§E§!Living Metal Crust Armor"
@@ -776,27 +776,27 @@
 # Planetary Shieldings
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_1:0 "§E§!Gluonic Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_1_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t5_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t5_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t5_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t5_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_1_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_1_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_2:0 "§E§!Higgs-Hyperyonic Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_2_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t6_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t6_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_2_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_2_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_3:0 "§E§!Spatial Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_3_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_3:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_3:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_3_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_3_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_4:0 "§E§!Negative-Potential Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_4_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_4:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_4$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_4:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_4$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_4_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_4_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_PLANCK:0 "§E§!Nul Field Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_PLANCK_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_PLANCK_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_PLANCK_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_WORLDCRAFT_ARCOLOGY_5:0 "§E§!Synchronic Barrier Generator"
@@ -813,17 +813,17 @@
 # Regenning Planetary Shieldings
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_1:0 "§E§!Hyperadaptive Spatial Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_1_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_1_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_1_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_2:0 "§E§!Hyperadaptive Negative-Potential Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_2_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_2_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_2_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_PLANCK:0 "§E§!Hyperadaptive Nul Field Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_PLANCK_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_PLANCK_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_PLANCK_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_WORLDCRAFT_ARCOLOGY_3:0 "§E§!Hyperadaptive Synchronic Barrier Generator"
@@ -840,17 +840,17 @@
 # Psi Planetary Shieldings
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_1:0 "§E§!Phase Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_1_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_1_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_1_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_2:0 "§E§!Multi-Phase Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_2_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_2_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_2_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_UNBIDDEN:0 "§E§!Zronic Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_UNBIDDEN_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_UNBIDDEN:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_UNBIDDEN$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_volatile_motes$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_UNBIDDEN:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_UNBIDDEN$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_UNBIDDEN_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_UNBIDDEN_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_WORLDCRAFT_ARCOLOGY_3:0 "§E§!Multi-Dimensional Barrier Generator"
@@ -907,17 +907,17 @@
 # Regenning Crust Armor
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_0:0 "§E§!Prototype Sentient Metal Crust Armor"
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_0_DESC:0 "DESC"
- UKN_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_0:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_0$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t7_aux_upkeep_volatile_motes$$info_text_ukn_moon_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_0:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_0$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_0_DESC:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_0_DESC$"
  
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_1:0 "§E§!Coherent Sentient Metal Crust Armor"
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_1_DESC:0 "DESC"
- UKN_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_1:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t8_aux_upkeep_volatile_motes$$info_text_ukn_moon_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_1:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_1_DESC:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_1_DESC$"
  
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_PLANCK:0 "§E§!Dark Matter-Infused Sentient Metal Crust Armor"
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_PLANCK_DESC:0 "DESC"
- UKN_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_PLANCK:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t_p_aux_upkeep_volatile_motes$$info_text_ukn_moon_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_PLANCK:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_PLANCK_DESC:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_ATTACK_MOON_PLANCK_DESC$"
  
  UKN_SET_CRUST_ARMOR_LIVING_METAL_ATTACK_MOON_1:0 "§E§!Living Metal Crust Armor"
@@ -936,27 +936,27 @@
 # Planetary Shieldings
  UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_1:0 "§E§!Gluonic Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_1_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t5_aux_upkeep_volatile_motes$$info_text_ukn_moon_t5_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t5_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t5_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_1_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_1_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_2:0 "§E§!Higgs-Hyperyonic Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_2_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t6_aux_upkeep_volatile_motes$$info_text_ukn_moon_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t6_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_2_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_2_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_3:0 "§E§!Spatial Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_3_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_3:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t7_aux_upkeep_volatile_motes$$info_text_ukn_moon_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_3:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_3_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_3_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_4:0 "§E§!Negative-Potential Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_4_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_4:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_4$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t8_aux_upkeep_volatile_motes$$info_text_ukn_moon_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_4:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_4$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_4_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_4_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_PLANCK:0 "§E§!Nul Field Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_PLANCK_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t_p_aux_upkeep_volatile_motes$$info_text_ukn_moon_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_PLANCK_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_PLANCK_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_ATTACK_MOON_5:0 "§E§!Synchronic Barrier Generator"
@@ -973,17 +973,17 @@
 # Regenning Planetary Shieldings
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_1:0 "§E§!Hyperadaptive Spatial Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_1_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t7_aux_upkeep_volatile_motes$$info_text_ukn_moon_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_1_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_1_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_2:0 "§E§!Hyperadaptive Negative-Potential Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_2_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t8_aux_upkeep_volatile_motes$$info_text_ukn_moon_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_2_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_2_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_PLANCK:0 "§E§!Hyperadaptive Nul Field Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_PLANCK_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t_p_aux_upkeep_volatile_motes$$info_text_ukn_moon_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_PLANCK_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_PLANCK_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_ATTACK_MOON_3:0 "§E§!Hyperadaptive Synchronic Barrier Generator"
@@ -1000,17 +1000,17 @@
 # Psi Planetary Shieldings
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_1:0 "§E§!Phase Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_1_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t7_aux_upkeep_volatile_motes$$info_text_ukn_moon_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_1_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_1_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_2:0 "§E§!Multi-Phase Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_2_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t8_aux_upkeep_volatile_motes$$info_text_ukn_moon_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_2_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_2_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_UNBIDDEN:0 "§E§!Zronic Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_UNBIDDEN_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_UNBIDDEN:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_UNBIDDEN$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t_p_aux_upkeep_volatile_motes$$info_text_ukn_moon_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_UNBIDDEN:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_UNBIDDEN$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_moon_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_moon_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_UNBIDDEN_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_UNBIDDEN_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_ATTACK_MOON_3:0 "§E§!Multi-Dimensional Barrier Generator"
@@ -1067,17 +1067,17 @@
 # Regenning Crust Armor
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_0:0 "§E§!Prototype Sentient Metal Crust Armor"
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_0_DESC:0 "DESC"
- UKN_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_0:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_0$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t7_aux_upkeep_volatile_motes$$info_text_ukn_planet_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_0:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_0$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_planet_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_0_DESC:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_0_DESC$"
  
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_1:0 "§E§!Coherent Sentient Metal Crust Armor"
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_1_DESC:0 "DESC"
- UKN_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_1:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t8_aux_upkeep_volatile_motes$$info_text_ukn_planet_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_1:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_planet_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_1_DESC:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_1_DESC$"
  
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_PLANCK:0 "§E§!Dark Matter-Infused Sentient Metal Crust Armor"
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_PLANCK_DESC:0 "DESC"
- UKN_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_PLANCK:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t_p_aux_upkeep_volatile_motes$$info_text_ukn_planet_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_PLANCK:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_planet_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_PLANCK_DESC:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_PLANETCRAFT_PLANCK_DESC$"
  
  UKN_SET_CRUST_ARMOR_LIVING_METAL_PLANETCRAFT_1:0 "§E§!Living Metal Crust Armor"
@@ -1096,27 +1096,27 @@
 # Planetary Shieldings
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_1:0 "§E§!Gluonic Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_1_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t5_aux_upkeep_volatile_motes$$info_text_ukn_planet_t5_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t5_aux_upkeep_ukn_exotic_particles$$info_text_ukn_planet_t5_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_1_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_1_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_2:0 "§E§!Higgs-Hyperyonic Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_2_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t6_aux_upkeep_volatile_motes$$info_text_ukn_planet_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t6_aux_upkeep_ukn_exotic_particles$$info_text_ukn_planet_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_2_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_2_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_3:0 "§E§!Spatial Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_3_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_3:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t7_aux_upkeep_volatile_motes$$info_text_ukn_planet_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_3:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_planet_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_3_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_3_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_4:0 "§E§!Negative-Potential Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_4_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_4:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_4$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t8_aux_upkeep_volatile_motes$$info_text_ukn_planet_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_4:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_4$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_planet_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_4_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_4_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_PLANCK:0 "§E§!Nul Field Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_PLANCK_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t_p_aux_upkeep_volatile_motes$$info_text_ukn_planet_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_planet_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_PLANCK_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_PLANCK_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PLANETCRAFT_5:0 "§E§!Synchronic Barrier Generator"
@@ -1133,17 +1133,17 @@
 # Regenning Planetary Shieldings
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_1:0 "§E§!Hyperadaptive Spatial Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_1_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t7_aux_upkeep_volatile_motes$$info_text_ukn_planet_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_planet_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_1_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_1_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_2:0 "§E§!Hyperadaptive Negative-Potential Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_2_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t8_aux_upkeep_volatile_motes$$info_text_ukn_planet_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_planet_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_2_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_2_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_PLANCK:0 "§E§!Hyperadaptive Nul Field Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_PLANCK_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t_p_aux_upkeep_volatile_motes$$info_text_ukn_planet_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_planet_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_PLANCK_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_PLANCK_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_PLANETCRAFT_3:0 "§E§!Hyperadaptive Synchronic Barrier Generator"
@@ -1160,17 +1160,17 @@
 # Psi Planetary Shieldings
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_1:0 "§E§!Phase Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_1_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t7_aux_upkeep_volatile_motes$$info_text_ukn_planet_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_planet_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_1_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_1_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_2:0 "§E§!Multi-Phase Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_2_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t8_aux_upkeep_volatile_motes$$info_text_ukn_planet_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_planet_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_2_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_2_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_UNBIDDEN:0 "§E§!Zronic Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_UNBIDDEN_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_UNBIDDEN:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_UNBIDDEN$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t_p_aux_upkeep_volatile_motes$$info_text_ukn_planet_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_UNBIDDEN:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_UNBIDDEN$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_planet_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_planet_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_UNBIDDEN_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_UNBIDDEN_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_PLANETCRAFT_3:0 "§E§!Multi-Dimensional Barrier Generator"
@@ -1227,17 +1227,17 @@
 # Regenning Crust Armor
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_0:0 "§E§!Prototype Sentient Metal Crust Armor"
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_0_DESC:0 "DESC"
- UKN_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_0:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_0$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t7_aux_upkeep_volatile_motes$$info_text_ukn_system_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_0:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_0$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_0_DESC:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_0_DESC$"
  
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_1:0 "§E§!Coherent Sentient Metal Crust Armor"
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_1_DESC:0 "DESC"
- UKN_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_1:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t8_aux_upkeep_volatile_motes$$info_text_ukn_system_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_1:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_1_DESC:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_1_DESC$"
  
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_PLANCK:0 "§E§!Dark Matter-Infused Sentient Metal Crust Armor"
  UKN_SET_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_PLANCK_DESC:0 "DESC"
- UKN_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_PLANCK:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t_p_aux_upkeep_volatile_motes$$info_text_ukn_system_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_PLANCK:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_PLANCK_DESC:0 "$UKN_SET_CRUST_ARMOR_SENTIENT_METAL_SYSTEMCRAFT_PLANCK_DESC$"
  
  UKN_SET_CRUST_ARMOR_LIVING_METAL_SYSTEMCRAFT_1:0 "§E§!Living Metal Crust Armor"
@@ -1256,27 +1256,27 @@
 # Planetary Shieldings
  UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_1:0 "§E§!Gluonic Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_1_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t5_aux_upkeep_volatile_motes$$info_text_ukn_system_t5_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t5_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t5_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_1_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_1_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_2:0 "§E§!Higgs-Hyperyonic Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_2_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t6_aux_upkeep_volatile_motes$$info_text_ukn_system_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t6_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t6_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_2_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_2_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_3:0 "§E§!Spatial Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_3_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_3:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t7_aux_upkeep_volatile_motes$$info_text_ukn_system_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_3:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_3$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_3_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_3_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_4:0 "§E§!Negative-Potential Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_4_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_4:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_4$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t8_aux_upkeep_volatile_motes$$info_text_ukn_system_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_4:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_4$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_4_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_4_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_PLANCK:0 "§E§!Nul Field Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_PLANCK_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t_p_aux_upkeep_volatile_motes$$info_text_ukn_system_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_PLANCK_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_PLANCK_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_SYSTEMCRAFT_5:0 "§E§!Synchronic Barrier Generator"
@@ -1293,17 +1293,17 @@
 # Regenning Planetary Shieldings
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_1:0 "§E§!Hyperadaptive Spatial Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_1_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t7_aux_upkeep_volatile_motes$$info_text_ukn_system_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_1_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_1_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_2:0 "§E§!Hyperadaptive Negative-Potential Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_2_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t8_aux_upkeep_volatile_motes$$info_text_ukn_system_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_2_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_2_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_PLANCK:0 "§E§!Hyperadaptive Nul Field Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_PLANCK_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t_p_aux_upkeep_volatile_motes$$info_text_ukn_system_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_PLANCK:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_PLANCK$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_PLANCK_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_PLANCK_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_REGENNING_SYSTEMCRAFT_3:0 "§E§!Hyperadaptive Synchronic Barrier Generator"
@@ -1320,17 +1320,17 @@
 # Psi Planetary Shieldings
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_1:0 "§E§!Phase Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_1_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t7_aux_upkeep_volatile_motes$$info_text_ukn_system_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_1:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_1$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t7_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t7_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_1_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_1_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_2:0 "§E§!Multi-Phase Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_2_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t8_aux_upkeep_volatile_motes$$info_text_ukn_system_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_2:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_2$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t8_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t8_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_2_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_2_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_UNBIDDEN:0 "§E§!Zronic Shield Generator"
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_UNBIDDEN_DESC:0 "DESC"
- UKN_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_UNBIDDEN:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_UNBIDDEN$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t_p_aux_upkeep_volatile_motes$$info_text_ukn_system_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
+ UKN_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_UNBIDDEN:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_UNBIDDEN$\n§MPlanetary Building§!\n§WUpkeep:§! $info_text_ukn_system_t_p_aux_upkeep_ukn_exotic_particles$$info_text_ukn_system_t_p_aux_upkeep_ukn_meta_materials$\n\n§HComponent§! §WPop Usage:§! §P1§! £pop£ §WPop§!\n§WBonus §YWeapon Damage§! Reduced By §R0.1%§! Due to Pop Usage§!\n"
  UKN_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_UNBIDDEN_DESC:0 "$UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_UNBIDDEN_DESC$"
  
  UKN_SET_PLANETARY_SHIELD_GENERATOR_PSI_SYSTEMCRAFT_3:0 "§E§!Multi-Dimensional Barrier Generator"

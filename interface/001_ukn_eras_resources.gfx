@@ -32,6 +32,20 @@ spriteTypes = {
 
 spriteTypes = {
 	spriteType = {
+		name = "GFX_resource_ukn_exotic_particles"
+		texturefile = "gfx/interface/icons/resources/ukn_exotic_particles.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_resource_ukn_exotic_particles_large"
+		texturefile = "gfx/interface/icons/resources/ukn_exotic_particles_large.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
 		name = "GFX_resource_ukn_femtomatter"
 		texturefile = "gfx/interface/icons/resources/ukn_femtomatter.dds"
 	}

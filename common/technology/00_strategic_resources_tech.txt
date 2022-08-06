@@ -7,7 +7,7 @@
 #######################################
 
 #Exotic Particle Extraction/Production
-tech_mine_volatile_motes = {
+tech_mine_ukn_exotic_particles = {
 	cost = @tech_ukn_exotic_particles_4_cost
 	area = physics
 	tier = @tech_ukn_exotic_particles_4_tier
@@ -15,7 +15,7 @@ tech_mine_volatile_motes = {
 	prerequisites = { "tech_physics_3" }
 	weight = @tech_ukn_exotic_particles_4_weight
 
-	gateway = tech_ukn_exotic_particle_manufacturing_gateway
+	gateway = tech_ukn_exotic_particles_manufacturing_gateway
 
 	prereqfor_desc = {
 		hide_prereq_for_desc = decision
@@ -55,23 +55,23 @@ tech_mine_volatile_motes = {
 }
 
 #Exotic Field Manipulation
-tech_volatile_motes = {
+tech_ukn_exotic_particles = {
 	cost = @tech_ukn_exotic_particles_4_cost
 	area = physics
 	tier = @tech_ukn_exotic_particles_4_tier
 	category = { particles }	
-	prerequisites = { "tech_mine_volatile_motes" }
+	prerequisites = { "tech_mine_ukn_exotic_particles" }
 	weight = @tech_ukn_exotic_particles_4_weight
 
 	gateway = tech_ukn_atypical_field_manipulation_gateway
 	
 	modifier = {
 		weapon_type_energy_weapon_damage_mult = 0.05
-		planet_chemists_volatile_motes_produces_mult = 0.1
+		planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_mult = 0.1
 	}
 	
 #P]	potential = {
-#P]		has_technology = tech_mine_volatile_motes
+#P]		has_technology = tech_mine_ukn_exotic_particles
 #P]	}
 
 	weight_modifier = {

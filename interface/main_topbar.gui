@@ -337,7 +337,7 @@ guiTypes = {
 				}
 			}
 			containerWindowType = {
-				name = "tb_volatile_motes"
+				name = "tb_ukn_exotic_particles_group"
 				size = { width = 100 height = 20 }
 				position = { x = @static_c5 y = @row1 }
 				background = {
@@ -347,7 +347,7 @@ guiTypes = {
 				}
 				iconType = {
 					name = "icon"
-					spriteType = "GFX_resource_volatile_motes_large"
+					spriteType = "GFX_resource_ukn_exotic_particles_large"
 					scale = 0.6
 					position = { x = 1 y = 1 }
 					tooltip_mode_enabled = yes

@@ -2364,192 +2364,192 @@
 ### JOB OUTPUT ADD ###---------------------------
 
 #[NORMAL] Default Empire - Building Base Resource Add
-@building_ukn_particle_factory_grid_6_default_normal_minerals_volatile_motes_add = 2.5
+@building_ukn_particle_factory_grid_6_default_normal_minerals_ukn_exotic_particles_add = 2.5
 @building_ukn_particle_factory_grid_6_default_normal_minerals_exotic_gases_add = 1
 @building_ukn_particle_factory_grid_6_default_normal_minerals_rare_crystals_add = 0.5
 @building_ukn_particle_factory_grid_6_default_normal_minerals_energy_add = 5
 @building_ukn_particle_factory_grid_6_default_normal_minerals_minerals_add = 10
 #---
 
-@building_ukn_particle_factory_grid_6_default_normal_alloys_volatile_motes_add = 2.5
+@building_ukn_particle_factory_grid_6_default_normal_alloys_ukn_exotic_particles_add = 2.5
 @building_ukn_particle_factory_grid_6_default_normal_alloys_exotic_gases_add = 1
 @building_ukn_particle_factory_grid_6_default_normal_alloys_rare_crystals_add = 0.5
 @building_ukn_particle_factory_grid_6_default_normal_alloys_energy_add = 5
 @building_ukn_particle_factory_grid_6_default_normal_alloys_alloys_add = 5
 #---
 
-@building_ukn_particle_factory_grid_6_default_normal_ukn_meta_materials_volatile_motes_add = 2.5
+@building_ukn_particle_factory_grid_6_default_normal_ukn_meta_materials_ukn_exotic_particles_add = 2.5
 @building_ukn_particle_factory_grid_6_default_normal_ukn_meta_materials_exotic_gases_add = 1
 @building_ukn_particle_factory_grid_6_default_normal_ukn_meta_materials_rare_crystals_add = 0.5
 @building_ukn_particle_factory_grid_6_default_normal_ukn_meta_materials_energy_add = 5
 @building_ukn_particle_factory_grid_6_default_normal_ukn_meta_materials_ukn_meta_materials_add = 4.5
 #---
 
-@building_ukn_particle_factory_grid_6_default_normal_ukn_femtomatter_volatile_motes_add = 3.25
+@building_ukn_particle_factory_grid_6_default_normal_ukn_femtomatter_ukn_exotic_particles_add = 3.25
 @building_ukn_particle_factory_grid_6_default_normal_ukn_femtomatter_ukn_femtomatter_add = 0.75
 #---
 
-@building_ukn_particle_factory_grid_6_default_normal_ukn_condensics_volatile_motes_add = 3.75
+@building_ukn_particle_factory_grid_6_default_normal_ukn_condensics_ukn_exotic_particles_add = 3.75
 @building_ukn_particle_factory_grid_6_default_normal_ukn_condensics_energy_add = 16.25
 @building_ukn_particle_factory_grid_6_default_normal_ukn_condensics_ukn_condensics_add = 0.25
 #---
 #----------------
 
 #[NORMAL] Gestalt Empire - Building Base Resource Add
-@building_ukn_particle_factory_grid_6_gestalt_normal_minerals_volatile_motes_add = 2.5
+@building_ukn_particle_factory_grid_6_gestalt_normal_minerals_ukn_exotic_particles_add = 2.5
 @building_ukn_particle_factory_grid_6_gestalt_normal_minerals_exotic_gases_add = 1
 @building_ukn_particle_factory_grid_6_gestalt_normal_minerals_rare_crystals_add = 0.5
 @building_ukn_particle_factory_grid_6_gestalt_normal_minerals_energy_add = 5
 @building_ukn_particle_factory_grid_6_gestalt_normal_minerals_minerals_add = 10
 #---
 
-@building_ukn_particle_factory_grid_6_gestalt_normal_alloys_volatile_motes_add = 2.5
+@building_ukn_particle_factory_grid_6_gestalt_normal_alloys_ukn_exotic_particles_add = 2.5
 @building_ukn_particle_factory_grid_6_gestalt_normal_alloys_exotic_gases_add = 1
 @building_ukn_particle_factory_grid_6_gestalt_normal_alloys_rare_crystals_add = 0.5
 @building_ukn_particle_factory_grid_6_gestalt_normal_alloys_energy_add = 5
 @building_ukn_particle_factory_grid_6_gestalt_normal_alloys_alloys_add = 5
 #---
 
-@building_ukn_particle_factory_grid_6_gestalt_normal_ukn_meta_materials_volatile_motes_add = 2.5
+@building_ukn_particle_factory_grid_6_gestalt_normal_ukn_meta_materials_ukn_exotic_particles_add = 2.5
 @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_meta_materials_exotic_gases_add = 1
 @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_meta_materials_rare_crystals_add = 0.5
 @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_meta_materials_energy_add = 5
 @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_meta_materials_ukn_meta_materials_add = 4.5
 #---
 
-@building_ukn_particle_factory_grid_6_gestalt_normal_ukn_femtomatter_volatile_motes_add = 3.25
+@building_ukn_particle_factory_grid_6_gestalt_normal_ukn_femtomatter_ukn_exotic_particles_add = 3.25
 @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_femtomatter_ukn_femtomatter_add = 0.75
 #---
 
-@building_ukn_particle_factory_grid_6_gestalt_normal_ukn_condensics_volatile_motes_add = 3.75
+@building_ukn_particle_factory_grid_6_gestalt_normal_ukn_condensics_ukn_exotic_particles_add = 3.75
 @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_condensics_energy_add = 16.25
 @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_condensics_ukn_condensics_add = 0.25
 #---
 #----------------
 
 #[ARCOLOGY] Default Empire - Building Base Resource Add
-@building_ukn_particle_factory_grid_6_default_arcology_minerals_volatile_motes_add = 5
+@building_ukn_particle_factory_grid_6_default_arcology_minerals_ukn_exotic_particles_add = 5
 @building_ukn_particle_factory_grid_6_default_arcology_minerals_exotic_gases_add = 2
 @building_ukn_particle_factory_grid_6_default_arcology_minerals_rare_crystals_add = 1
 @building_ukn_particle_factory_grid_6_default_arcology_minerals_energy_add = 10
 @building_ukn_particle_factory_grid_6_default_arcology_minerals_minerals_add = 20
 #---
 
-@building_ukn_particle_factory_grid_6_default_arcology_alloys_volatile_motes_add = 5
+@building_ukn_particle_factory_grid_6_default_arcology_alloys_ukn_exotic_particles_add = 5
 @building_ukn_particle_factory_grid_6_default_arcology_alloys_exotic_gases_add = 2
 @building_ukn_particle_factory_grid_6_default_arcology_alloys_rare_crystals_add = 1
 @building_ukn_particle_factory_grid_6_default_arcology_alloys_energy_add = 10
 @building_ukn_particle_factory_grid_6_default_arcology_alloys_alloys_add = 10
 #---
 
-@building_ukn_particle_factory_grid_6_default_arcology_ukn_meta_materials_volatile_motes_add = 5
+@building_ukn_particle_factory_grid_6_default_arcology_ukn_meta_materials_ukn_exotic_particles_add = 5
 @building_ukn_particle_factory_grid_6_default_arcology_ukn_meta_materials_exotic_gases_add = 2
 @building_ukn_particle_factory_grid_6_default_arcology_ukn_meta_materials_rare_crystals_add = 1
 @building_ukn_particle_factory_grid_6_default_arcology_ukn_meta_materials_energy_add = 10
 @building_ukn_particle_factory_grid_6_default_arcology_ukn_meta_materials_ukn_meta_materials_add = 9
 #---
 
-@building_ukn_particle_factory_grid_6_default_arcology_ukn_femtomatter_volatile_motes_add = 6.5
+@building_ukn_particle_factory_grid_6_default_arcology_ukn_femtomatter_ukn_exotic_particles_add = 6.5
 @building_ukn_particle_factory_grid_6_default_arcology_ukn_femtomatter_ukn_femtomatter_add = 1.5
 #---
 
-@building_ukn_particle_factory_grid_6_default_arcology_ukn_condensics_volatile_motes_add = 7.5
+@building_ukn_particle_factory_grid_6_default_arcology_ukn_condensics_ukn_exotic_particles_add = 7.5
 @building_ukn_particle_factory_grid_6_default_arcology_ukn_condensics_energy_add = 32.5
 @building_ukn_particle_factory_grid_6_default_arcology_ukn_condensics_ukn_condensics_add = 0.5
 #---
 #----------------
 
 #[ARCOLOGY] Gestalt Empire - Building Base Resource Add
-@building_ukn_particle_factory_grid_6_gestalt_arcology_minerals_volatile_motes_add = 5
+@building_ukn_particle_factory_grid_6_gestalt_arcology_minerals_ukn_exotic_particles_add = 5
 @building_ukn_particle_factory_grid_6_gestalt_arcology_minerals_exotic_gases_add = 2
 @building_ukn_particle_factory_grid_6_gestalt_arcology_minerals_rare_crystals_add = 1
 @building_ukn_particle_factory_grid_6_gestalt_arcology_minerals_energy_add = 10
 @building_ukn_particle_factory_grid_6_gestalt_arcology_minerals_minerals_add = 20
 #---
 
-@building_ukn_particle_factory_grid_6_gestalt_arcology_alloys_volatile_motes_add = 5
+@building_ukn_particle_factory_grid_6_gestalt_arcology_alloys_ukn_exotic_particles_add = 5
 @building_ukn_particle_factory_grid_6_gestalt_arcology_alloys_exotic_gases_add = 2
 @building_ukn_particle_factory_grid_6_gestalt_arcology_alloys_rare_crystals_add = 1
 @building_ukn_particle_factory_grid_6_gestalt_arcology_alloys_energy_add = 10
 @building_ukn_particle_factory_grid_6_gestalt_arcology_alloys_alloys_add = 10
 #---
 
-@building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_meta_materials_volatile_motes_add = 5
+@building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_meta_materials_ukn_exotic_particles_add = 5
 @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_meta_materials_exotic_gases_add = 2
 @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_meta_materials_rare_crystals_add = 1
 @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_meta_materials_energy_add = 10
 @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_meta_materials_ukn_meta_materials_add = 9
 #---
 
-@building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_femtomatter_volatile_motes_add = 6.5
+@building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_femtomatter_ukn_exotic_particles_add = 6.5
 @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_femtomatter_ukn_femtomatter_add = 1.5
 #---
 
-@building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_condensics_volatile_motes_add = 7.5
+@building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_condensics_ukn_exotic_particles_add = 7.5
 @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_condensics_energy_add = 32.5
 @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_condensics_ukn_condensics_add = 0.5
 #---
 #----------------
 
 #[RINGWORLD] Default Empire - Building Base Resource Add
-@building_ukn_particle_factory_grid_6_default_rw_minerals_volatile_motes_add = 15
+@building_ukn_particle_factory_grid_6_default_rw_minerals_ukn_exotic_particles_add = 15
 @building_ukn_particle_factory_grid_6_default_rw_minerals_exotic_gases_add = 6
 @building_ukn_particle_factory_grid_6_default_rw_minerals_rare_crystals_add = 3
 @building_ukn_particle_factory_grid_6_default_rw_minerals_energy_add = 30
 @building_ukn_particle_factory_grid_6_default_rw_minerals_minerals_add = 60
 #---
 
-@building_ukn_particle_factory_grid_6_default_rw_alloys_volatile_motes_add = 15
+@building_ukn_particle_factory_grid_6_default_rw_alloys_ukn_exotic_particles_add = 15
 @building_ukn_particle_factory_grid_6_default_rw_alloys_exotic_gases_add = 6
 @building_ukn_particle_factory_grid_6_default_rw_alloys_rare_crystals_add = 3
 @building_ukn_particle_factory_grid_6_default_rw_alloys_energy_add = 30
 @building_ukn_particle_factory_grid_6_default_rw_alloys_alloys_add = 30
 #---
 
-@building_ukn_particle_factory_grid_6_default_rw_ukn_meta_materials_volatile_motes_add = 15
+@building_ukn_particle_factory_grid_6_default_rw_ukn_meta_materials_ukn_exotic_particles_add = 15
 @building_ukn_particle_factory_grid_6_default_rw_ukn_meta_materials_exotic_gases_add = 6
 @building_ukn_particle_factory_grid_6_default_rw_ukn_meta_materials_rare_crystals_add = 3
 @building_ukn_particle_factory_grid_6_default_rw_ukn_meta_materials_energy_add = 30
 @building_ukn_particle_factory_grid_6_default_rw_ukn_meta_materials_ukn_meta_materials_add = 27
 #---
 
-@building_ukn_particle_factory_grid_6_default_rw_ukn_femtomatter_volatile_motes_add = 19.5
+@building_ukn_particle_factory_grid_6_default_rw_ukn_femtomatter_ukn_exotic_particles_add = 19.5
 @building_ukn_particle_factory_grid_6_default_rw_ukn_femtomatter_ukn_femtomatter_add = 4.5
 #---
 
-@building_ukn_particle_factory_grid_6_default_rw_ukn_condensics_volatile_motes_add = 22.5
+@building_ukn_particle_factory_grid_6_default_rw_ukn_condensics_ukn_exotic_particles_add = 22.5
 @building_ukn_particle_factory_grid_6_default_rw_ukn_condensics_energy_add = 97.5
 @building_ukn_particle_factory_grid_6_default_rw_ukn_condensics_ukn_condensics_add = 1.5
 #---
 #----------------
 
 #[RINGWORLD] Gestalt Empire - Building Base Resource Add
-@building_ukn_particle_factory_grid_6_gestalt_rw_minerals_volatile_motes_add = 15
+@building_ukn_particle_factory_grid_6_gestalt_rw_minerals_ukn_exotic_particles_add = 15
 @building_ukn_particle_factory_grid_6_gestalt_rw_minerals_exotic_gases_add = 6
 @building_ukn_particle_factory_grid_6_gestalt_rw_minerals_rare_crystals_add = 3
 @building_ukn_particle_factory_grid_6_gestalt_rw_minerals_energy_add = 30
 @building_ukn_particle_factory_grid_6_gestalt_rw_minerals_minerals_add = 60
 #---
 
-@building_ukn_particle_factory_grid_6_gestalt_rw_alloys_volatile_motes_add = 15
+@building_ukn_particle_factory_grid_6_gestalt_rw_alloys_ukn_exotic_particles_add = 15
 @building_ukn_particle_factory_grid_6_gestalt_rw_alloys_exotic_gases_add = 6
 @building_ukn_particle_factory_grid_6_gestalt_rw_alloys_rare_crystals_add = 3
 @building_ukn_particle_factory_grid_6_gestalt_rw_alloys_energy_add = 30
 @building_ukn_particle_factory_grid_6_gestalt_rw_alloys_alloys_add = 30
 #---
 
-@building_ukn_particle_factory_grid_6_gestalt_rw_ukn_meta_materials_volatile_motes_add = 15
+@building_ukn_particle_factory_grid_6_gestalt_rw_ukn_meta_materials_ukn_exotic_particles_add = 15
 @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_meta_materials_exotic_gases_add = 6
 @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_meta_materials_rare_crystals_add = 3
 @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_meta_materials_energy_add = 30
 @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_meta_materials_ukn_meta_materials_add = 27
 #---
 
-@building_ukn_particle_factory_grid_6_gestalt_rw_ukn_femtomatter_volatile_motes_add = 19.5
+@building_ukn_particle_factory_grid_6_gestalt_rw_ukn_femtomatter_ukn_exotic_particles_add = 19.5
 @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_femtomatter_ukn_femtomatter_add = 4.5
 #---
 
-@building_ukn_particle_factory_grid_6_gestalt_rw_ukn_condensics_volatile_motes_add = 22.5
+@building_ukn_particle_factory_grid_6_gestalt_rw_ukn_condensics_ukn_exotic_particles_add = 22.5
 @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_condensics_energy_add = 97.5
 @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_condensics_ukn_condensics_add = 1.5
 #---
@@ -2557,42 +2557,42 @@
 
 
 #[NORMAL] Default Empire - Building Base Resource Add
-@building_ukn_particle_factory_grid_7_default_normal_minerals_volatile_motes_add = 5
+@building_ukn_particle_factory_grid_7_default_normal_minerals_ukn_exotic_particles_add = 5
 @building_ukn_particle_factory_grid_7_default_normal_minerals_exotic_gases_add = 2
 @building_ukn_particle_factory_grid_7_default_normal_minerals_rare_crystals_add = 1
 @building_ukn_particle_factory_grid_7_default_normal_minerals_energy_add = 10
 @building_ukn_particle_factory_grid_7_default_normal_minerals_minerals_add = 20
 #---
 
-@building_ukn_particle_factory_grid_7_default_normal_alloys_volatile_motes_add = 5
+@building_ukn_particle_factory_grid_7_default_normal_alloys_ukn_exotic_particles_add = 5
 @building_ukn_particle_factory_grid_7_default_normal_alloys_exotic_gases_add = 2
 @building_ukn_particle_factory_grid_7_default_normal_alloys_rare_crystals_add = 1
 @building_ukn_particle_factory_grid_7_default_normal_alloys_energy_add = 10
 @building_ukn_particle_factory_grid_7_default_normal_alloys_alloys_add = 10
 #---
 
-@building_ukn_particle_factory_grid_7_default_normal_ukn_meta_materials_volatile_motes_add = 5
+@building_ukn_particle_factory_grid_7_default_normal_ukn_meta_materials_ukn_exotic_particles_add = 5
 @building_ukn_particle_factory_grid_7_default_normal_ukn_meta_materials_exotic_gases_add = 2
 @building_ukn_particle_factory_grid_7_default_normal_ukn_meta_materials_rare_crystals_add = 1
 @building_ukn_particle_factory_grid_7_default_normal_ukn_meta_materials_energy_add = 10
 @building_ukn_particle_factory_grid_7_default_normal_ukn_meta_materials_ukn_meta_materials_add = 9
 #---
 
-@building_ukn_particle_factory_grid_7_default_normal_ukn_femtomatter_volatile_motes_add = 6.5
+@building_ukn_particle_factory_grid_7_default_normal_ukn_femtomatter_ukn_exotic_particles_add = 6.5
 @building_ukn_particle_factory_grid_7_default_normal_ukn_femtomatter_ukn_femtomatter_add = 1.5
 #---
 
-@building_ukn_particle_factory_grid_7_default_normal_ukn_condensics_volatile_motes_add = 7.5
+@building_ukn_particle_factory_grid_7_default_normal_ukn_condensics_ukn_exotic_particles_add = 7.5
 @building_ukn_particle_factory_grid_7_default_normal_ukn_condensics_energy_add = 32.5
 @building_ukn_particle_factory_grid_7_default_normal_ukn_condensics_ukn_condensics_add = 0.5
 #---
 
-@building_ukn_particle_factory_grid_7_default_normal_ukn_quasi_matter_volatile_motes_add = 11.5
+@building_ukn_particle_factory_grid_7_default_normal_ukn_quasi_matter_ukn_exotic_particles_add = 11.5
 @building_ukn_particle_factory_grid_7_default_normal_ukn_quasi_matter_energy_add = 41.5
 @building_ukn_particle_factory_grid_7_default_normal_ukn_quasi_matter_ukn_quasi_matter_add = 0.3
 #---
 
-@building_ukn_particle_factory_grid_7_default_normal_ukn_causalitons_volatile_motes_add = 22.5
+@building_ukn_particle_factory_grid_7_default_normal_ukn_causalitons_ukn_exotic_particles_add = 22.5
 @building_ukn_particle_factory_grid_7_default_normal_ukn_causalitons_energy_add = 82.5
 @building_ukn_particle_factory_grid_7_default_normal_ukn_causalitons_ehof_sr_negative_mass_add = 0.5
 @building_ukn_particle_factory_grid_7_default_normal_ukn_causalitons_ukn_causalitons_add = 0.2
@@ -2600,42 +2600,42 @@
 #----------------
 
 #[NORMAL] Gestalt Empire - Building Base Resource Add
-@building_ukn_particle_factory_grid_7_gestalt_normal_minerals_volatile_motes_add = 5
+@building_ukn_particle_factory_grid_7_gestalt_normal_minerals_ukn_exotic_particles_add = 5
 @building_ukn_particle_factory_grid_7_gestalt_normal_minerals_exotic_gases_add = 2
 @building_ukn_particle_factory_grid_7_gestalt_normal_minerals_rare_crystals_add = 1
 @building_ukn_particle_factory_grid_7_gestalt_normal_minerals_energy_add = 10
 @building_ukn_particle_factory_grid_7_gestalt_normal_minerals_minerals_add = 20
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_normal_alloys_volatile_motes_add = 5
+@building_ukn_particle_factory_grid_7_gestalt_normal_alloys_ukn_exotic_particles_add = 5
 @building_ukn_particle_factory_grid_7_gestalt_normal_alloys_exotic_gases_add = 2
 @building_ukn_particle_factory_grid_7_gestalt_normal_alloys_rare_crystals_add = 1
 @building_ukn_particle_factory_grid_7_gestalt_normal_alloys_energy_add = 10
 @building_ukn_particle_factory_grid_7_gestalt_normal_alloys_alloys_add = 10
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_normal_ukn_meta_materials_volatile_motes_add = 5
+@building_ukn_particle_factory_grid_7_gestalt_normal_ukn_meta_materials_ukn_exotic_particles_add = 5
 @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_meta_materials_exotic_gases_add = 2
 @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_meta_materials_rare_crystals_add = 1
 @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_meta_materials_energy_add = 10
 @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_meta_materials_ukn_meta_materials_add = 9
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_normal_ukn_femtomatter_volatile_motes_add = 6.5
+@building_ukn_particle_factory_grid_7_gestalt_normal_ukn_femtomatter_ukn_exotic_particles_add = 6.5
 @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_femtomatter_ukn_femtomatter_add = 1.5
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_normal_ukn_condensics_volatile_motes_add = 7.5
+@building_ukn_particle_factory_grid_7_gestalt_normal_ukn_condensics_ukn_exotic_particles_add = 7.5
 @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_condensics_energy_add = 32.5
 @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_condensics_ukn_condensics_add = 0.5
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_normal_ukn_quasi_matter_volatile_motes_add = 11.5
+@building_ukn_particle_factory_grid_7_gestalt_normal_ukn_quasi_matter_ukn_exotic_particles_add = 11.5
 @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_quasi_matter_energy_add = 41.5
 @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_quasi_matter_ukn_quasi_matter_add = 0.3
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_normal_ukn_causalitons_volatile_motes_add = 22.5
+@building_ukn_particle_factory_grid_7_gestalt_normal_ukn_causalitons_ukn_exotic_particles_add = 22.5
 @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_causalitons_energy_add = 82.5
 @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_causalitons_ehof_sr_negative_mass_add = 0.5
 @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_causalitons_ukn_causalitons_add = 0.2
@@ -2643,42 +2643,42 @@
 #----------------
 
 #[ARCOLOGY] Default Empire - Building Base Resource Add
-@building_ukn_particle_factory_grid_7_default_arcology_minerals_volatile_motes_add = 10
+@building_ukn_particle_factory_grid_7_default_arcology_minerals_ukn_exotic_particles_add = 10
 @building_ukn_particle_factory_grid_7_default_arcology_minerals_exotic_gases_add = 4
 @building_ukn_particle_factory_grid_7_default_arcology_minerals_rare_crystals_add = 2
 @building_ukn_particle_factory_grid_7_default_arcology_minerals_energy_add = 20
 @building_ukn_particle_factory_grid_7_default_arcology_minerals_minerals_add = 40
 #---
 
-@building_ukn_particle_factory_grid_7_default_arcology_alloys_volatile_motes_add = 10
+@building_ukn_particle_factory_grid_7_default_arcology_alloys_ukn_exotic_particles_add = 10
 @building_ukn_particle_factory_grid_7_default_arcology_alloys_exotic_gases_add = 4
 @building_ukn_particle_factory_grid_7_default_arcology_alloys_rare_crystals_add = 2
 @building_ukn_particle_factory_grid_7_default_arcology_alloys_energy_add = 20
 @building_ukn_particle_factory_grid_7_default_arcology_alloys_alloys_add = 20
 #---
 
-@building_ukn_particle_factory_grid_7_default_arcology_ukn_meta_materials_volatile_motes_add = 10
+@building_ukn_particle_factory_grid_7_default_arcology_ukn_meta_materials_ukn_exotic_particles_add = 10
 @building_ukn_particle_factory_grid_7_default_arcology_ukn_meta_materials_exotic_gases_add = 4
 @building_ukn_particle_factory_grid_7_default_arcology_ukn_meta_materials_rare_crystals_add = 2
 @building_ukn_particle_factory_grid_7_default_arcology_ukn_meta_materials_energy_add = 20
 @building_ukn_particle_factory_grid_7_default_arcology_ukn_meta_materials_ukn_meta_materials_add = 18
 #---
 
-@building_ukn_particle_factory_grid_7_default_arcology_ukn_femtomatter_volatile_motes_add = 13
+@building_ukn_particle_factory_grid_7_default_arcology_ukn_femtomatter_ukn_exotic_particles_add = 13
 @building_ukn_particle_factory_grid_7_default_arcology_ukn_femtomatter_ukn_femtomatter_add = 3
 #---
 
-@building_ukn_particle_factory_grid_7_default_arcology_ukn_condensics_volatile_motes_add = 15
+@building_ukn_particle_factory_grid_7_default_arcology_ukn_condensics_ukn_exotic_particles_add = 15
 @building_ukn_particle_factory_grid_7_default_arcology_ukn_condensics_energy_add = 65
 @building_ukn_particle_factory_grid_7_default_arcology_ukn_condensics_ukn_condensics_add = 1
 #---
 
-@building_ukn_particle_factory_grid_7_default_arcology_ukn_quasi_matter_volatile_motes_add = 23
+@building_ukn_particle_factory_grid_7_default_arcology_ukn_quasi_matter_ukn_exotic_particles_add = 23
 @building_ukn_particle_factory_grid_7_default_arcology_ukn_quasi_matter_energy_add = 83
 @building_ukn_particle_factory_grid_7_default_arcology_ukn_quasi_matter_ukn_quasi_matter_add = 0.6
 #---
 
-@building_ukn_particle_factory_grid_7_default_arcology_ukn_causalitons_volatile_motes_add = 45
+@building_ukn_particle_factory_grid_7_default_arcology_ukn_causalitons_ukn_exotic_particles_add = 45
 @building_ukn_particle_factory_grid_7_default_arcology_ukn_causalitons_energy_add = 165
 @building_ukn_particle_factory_grid_7_default_arcology_ukn_causalitons_ehof_sr_negative_mass_add = 1
 @building_ukn_particle_factory_grid_7_default_arcology_ukn_causalitons_ukn_causalitons_add = 0.4
@@ -2686,42 +2686,42 @@
 #----------------
 
 #[ARCOLOGY] Gestalt Empire - Building Base Resource Add
-@building_ukn_particle_factory_grid_7_gestalt_arcology_minerals_volatile_motes_add = 10
+@building_ukn_particle_factory_grid_7_gestalt_arcology_minerals_ukn_exotic_particles_add = 10
 @building_ukn_particle_factory_grid_7_gestalt_arcology_minerals_exotic_gases_add = 4
 @building_ukn_particle_factory_grid_7_gestalt_arcology_minerals_rare_crystals_add = 2
 @building_ukn_particle_factory_grid_7_gestalt_arcology_minerals_energy_add = 20
 @building_ukn_particle_factory_grid_7_gestalt_arcology_minerals_minerals_add = 40
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_arcology_alloys_volatile_motes_add = 10
+@building_ukn_particle_factory_grid_7_gestalt_arcology_alloys_ukn_exotic_particles_add = 10
 @building_ukn_particle_factory_grid_7_gestalt_arcology_alloys_exotic_gases_add = 4
 @building_ukn_particle_factory_grid_7_gestalt_arcology_alloys_rare_crystals_add = 2
 @building_ukn_particle_factory_grid_7_gestalt_arcology_alloys_energy_add = 20
 @building_ukn_particle_factory_grid_7_gestalt_arcology_alloys_alloys_add = 20
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_meta_materials_volatile_motes_add = 10
+@building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_meta_materials_ukn_exotic_particles_add = 10
 @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_meta_materials_exotic_gases_add = 4
 @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_meta_materials_rare_crystals_add = 2
 @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_meta_materials_energy_add = 20
 @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_meta_materials_ukn_meta_materials_add = 18
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_femtomatter_volatile_motes_add = 13
+@building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_femtomatter_ukn_exotic_particles_add = 13
 @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_femtomatter_ukn_femtomatter_add = 3
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_condensics_volatile_motes_add = 15
+@building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_condensics_ukn_exotic_particles_add = 15
 @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_condensics_energy_add = 65
 @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_condensics_ukn_condensics_add = 1
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_quasi_matter_volatile_motes_add = 23
+@building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_quasi_matter_ukn_exotic_particles_add = 23
 @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_quasi_matter_energy_add = 83
 @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_quasi_matter_ukn_quasi_matter_add = 0.6
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_causalitons_volatile_motes_add = 45
+@building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_causalitons_ukn_exotic_particles_add = 45
 @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_causalitons_energy_add = 165
 @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_causalitons_ehof_sr_negative_mass_add = 1
 @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_causalitons_ukn_causalitons_add = 0.4
@@ -2729,42 +2729,42 @@
 #----------------
 
 #[RINGWORLD] Default Empire - Building Base Resource Add
-@building_ukn_particle_factory_grid_7_default_rw_minerals_volatile_motes_add = 30
+@building_ukn_particle_factory_grid_7_default_rw_minerals_ukn_exotic_particles_add = 30
 @building_ukn_particle_factory_grid_7_default_rw_minerals_exotic_gases_add = 12
 @building_ukn_particle_factory_grid_7_default_rw_minerals_rare_crystals_add = 6
 @building_ukn_particle_factory_grid_7_default_rw_minerals_energy_add = 60
 @building_ukn_particle_factory_grid_7_default_rw_minerals_minerals_add = 120
 #---
 
-@building_ukn_particle_factory_grid_7_default_rw_alloys_volatile_motes_add = 30
+@building_ukn_particle_factory_grid_7_default_rw_alloys_ukn_exotic_particles_add = 30
 @building_ukn_particle_factory_grid_7_default_rw_alloys_exotic_gases_add = 12
 @building_ukn_particle_factory_grid_7_default_rw_alloys_rare_crystals_add = 6
 @building_ukn_particle_factory_grid_7_default_rw_alloys_energy_add = 60
 @building_ukn_particle_factory_grid_7_default_rw_alloys_alloys_add = 60
 #---
 
-@building_ukn_particle_factory_grid_7_default_rw_ukn_meta_materials_volatile_motes_add = 30
+@building_ukn_particle_factory_grid_7_default_rw_ukn_meta_materials_ukn_exotic_particles_add = 30
 @building_ukn_particle_factory_grid_7_default_rw_ukn_meta_materials_exotic_gases_add = 12
 @building_ukn_particle_factory_grid_7_default_rw_ukn_meta_materials_rare_crystals_add = 6
 @building_ukn_particle_factory_grid_7_default_rw_ukn_meta_materials_energy_add = 60
 @building_ukn_particle_factory_grid_7_default_rw_ukn_meta_materials_ukn_meta_materials_add = 54
 #---
 
-@building_ukn_particle_factory_grid_7_default_rw_ukn_femtomatter_volatile_motes_add = 39
+@building_ukn_particle_factory_grid_7_default_rw_ukn_femtomatter_ukn_exotic_particles_add = 39
 @building_ukn_particle_factory_grid_7_default_rw_ukn_femtomatter_ukn_femtomatter_add = 9
 #---
 
-@building_ukn_particle_factory_grid_7_default_rw_ukn_condensics_volatile_motes_add = 45
+@building_ukn_particle_factory_grid_7_default_rw_ukn_condensics_ukn_exotic_particles_add = 45
 @building_ukn_particle_factory_grid_7_default_rw_ukn_condensics_energy_add = 195
 @building_ukn_particle_factory_grid_7_default_rw_ukn_condensics_ukn_condensics_add = 3
 #---
 
-@building_ukn_particle_factory_grid_7_default_rw_ukn_quasi_matter_volatile_motes_add = 69
+@building_ukn_particle_factory_grid_7_default_rw_ukn_quasi_matter_ukn_exotic_particles_add = 69
 @building_ukn_particle_factory_grid_7_default_rw_ukn_quasi_matter_energy_add = 249
 @building_ukn_particle_factory_grid_7_default_rw_ukn_quasi_matter_ukn_quasi_matter_add = 1.8
 #---
 
-@building_ukn_particle_factory_grid_7_default_rw_ukn_causalitons_volatile_motes_add = 135
+@building_ukn_particle_factory_grid_7_default_rw_ukn_causalitons_ukn_exotic_particles_add = 135
 @building_ukn_particle_factory_grid_7_default_rw_ukn_causalitons_energy_add = 495
 @building_ukn_particle_factory_grid_7_default_rw_ukn_causalitons_ehof_sr_negative_mass_add = 3
 @building_ukn_particle_factory_grid_7_default_rw_ukn_causalitons_ukn_causalitons_add = 1.2
@@ -2772,42 +2772,42 @@
 #----------------
 
 #[RINGWORLD] Gestalt Empire - Building Base Resource Add
-@building_ukn_particle_factory_grid_7_gestalt_rw_minerals_volatile_motes_add = 30
+@building_ukn_particle_factory_grid_7_gestalt_rw_minerals_ukn_exotic_particles_add = 30
 @building_ukn_particle_factory_grid_7_gestalt_rw_minerals_exotic_gases_add = 12
 @building_ukn_particle_factory_grid_7_gestalt_rw_minerals_rare_crystals_add = 6
 @building_ukn_particle_factory_grid_7_gestalt_rw_minerals_energy_add = 60
 @building_ukn_particle_factory_grid_7_gestalt_rw_minerals_minerals_add = 120
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_rw_alloys_volatile_motes_add = 30
+@building_ukn_particle_factory_grid_7_gestalt_rw_alloys_ukn_exotic_particles_add = 30
 @building_ukn_particle_factory_grid_7_gestalt_rw_alloys_exotic_gases_add = 12
 @building_ukn_particle_factory_grid_7_gestalt_rw_alloys_rare_crystals_add = 6
 @building_ukn_particle_factory_grid_7_gestalt_rw_alloys_energy_add = 60
 @building_ukn_particle_factory_grid_7_gestalt_rw_alloys_alloys_add = 60
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_rw_ukn_meta_materials_volatile_motes_add = 30
+@building_ukn_particle_factory_grid_7_gestalt_rw_ukn_meta_materials_ukn_exotic_particles_add = 30
 @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_meta_materials_exotic_gases_add = 12
 @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_meta_materials_rare_crystals_add = 6
 @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_meta_materials_energy_add = 60
 @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_meta_materials_ukn_meta_materials_add = 54
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_rw_ukn_femtomatter_volatile_motes_add = 39
+@building_ukn_particle_factory_grid_7_gestalt_rw_ukn_femtomatter_ukn_exotic_particles_add = 39
 @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_femtomatter_ukn_femtomatter_add = 9
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_rw_ukn_condensics_volatile_motes_add = 45
+@building_ukn_particle_factory_grid_7_gestalt_rw_ukn_condensics_ukn_exotic_particles_add = 45
 @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_condensics_energy_add = 195
 @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_condensics_ukn_condensics_add = 3
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_rw_ukn_quasi_matter_volatile_motes_add = 69
+@building_ukn_particle_factory_grid_7_gestalt_rw_ukn_quasi_matter_ukn_exotic_particles_add = 69
 @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_quasi_matter_energy_add = 249
 @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_quasi_matter_ukn_quasi_matter_add = 1.8
 #---
 
-@building_ukn_particle_factory_grid_7_gestalt_rw_ukn_causalitons_volatile_motes_add = 135
+@building_ukn_particle_factory_grid_7_gestalt_rw_ukn_causalitons_ukn_exotic_particles_add = 135
 @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_causalitons_energy_add = 495
 @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_causalitons_ehof_sr_negative_mass_add = 3
 @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_causalitons_ukn_causalitons_add = 1.2
@@ -3020,13 +3020,13 @@
 #[ARCOLOGY] Default Empire - Building Base Resource Add
 @building_ukn_femtomatter_replication_grid_6_default_arcology_energy_add = 2.5
 @building_ukn_femtomatter_replication_grid_6_default_arcology_ukn_femtomatter_add = 0.5
-@building_ukn_femtomatter_replication_grid_6_default_arcology_volatile_motes_add = 5
+@building_ukn_femtomatter_replication_grid_6_default_arcology_ukn_exotic_particles_add = 5
 @building_ukn_femtomatter_replication_grid_6_default_arcology_minerals_add = 5
 #---
 #[ARCOLOGY] Gestalt Empire - Building Base Resource Add
 @building_ukn_femtomatter_replication_grid_6_gestalt_arcology_energy_add = 2.5
 @building_ukn_femtomatter_replication_grid_6_gestalt_arcology_ukn_femtomatter_add = 0.5
-@building_ukn_femtomatter_replication_grid_6_gestalt_arcology_volatile_motes_add = 5
+@building_ukn_femtomatter_replication_grid_6_gestalt_arcology_ukn_exotic_particles_add = 5
 @building_ukn_femtomatter_replication_grid_6_gestalt_arcology_minerals_add = 5
 #---
 #----------------
@@ -3034,13 +3034,13 @@
 #[RINGWORLD] Default Empire - Building Base Resource Add
 @building_ukn_femtomatter_replication_grid_6_default_rw_energy_add = 15
 @building_ukn_femtomatter_replication_grid_6_default_rw_ukn_femtomatter_add = 3
-@building_ukn_femtomatter_replication_grid_6_default_rw_volatile_motes_add = 30
+@building_ukn_femtomatter_replication_grid_6_default_rw_ukn_exotic_particles_add = 30
 @building_ukn_femtomatter_replication_grid_6_default_rw_minerals_add = 30
 #---
 #[RINGWORLD] Gestalt Empire - Building Base Resource Add
 @building_ukn_femtomatter_replication_grid_6_gestalt_rw_energy_add = 15
 @building_ukn_femtomatter_replication_grid_6_gestalt_rw_ukn_femtomatter_add = 3
-@building_ukn_femtomatter_replication_grid_6_gestalt_rw_volatile_motes_add = 30
+@building_ukn_femtomatter_replication_grid_6_gestalt_rw_ukn_exotic_particles_add = 30
 @building_ukn_femtomatter_replication_grid_6_gestalt_rw_minerals_add = 30
 #---
 #----------------
@@ -3049,13 +3049,13 @@
 #[ARCOLOGY] Default Empire - Building Base Resource Add
 @building_ukn_femtomatter_replication_grid_7_default_arcology_energy_add = 5
 @building_ukn_femtomatter_replication_grid_7_default_arcology_ukn_femtomatter_add = 1
-@building_ukn_femtomatter_replication_grid_7_default_arcology_volatile_motes_add = 10
+@building_ukn_femtomatter_replication_grid_7_default_arcology_ukn_exotic_particles_add = 10
 @building_ukn_femtomatter_replication_grid_7_default_arcology_minerals_add = 10
 #---
 #[ARCOLOGY] Gestalt Empire - Building Base Resource Add
 @building_ukn_femtomatter_replication_grid_7_gestalt_arcology_energy_add = 5
 @building_ukn_femtomatter_replication_grid_7_gestalt_arcology_ukn_femtomatter_add = 1
-@building_ukn_femtomatter_replication_grid_7_gestalt_arcology_volatile_motes_add = 10
+@building_ukn_femtomatter_replication_grid_7_gestalt_arcology_ukn_exotic_particles_add = 10
 @building_ukn_femtomatter_replication_grid_7_gestalt_arcology_minerals_add = 10
 #---
 #----------------
@@ -3063,13 +3063,13 @@
 #[RINGWORLD] Default Empire - Building Base Resource Add
 @building_ukn_femtomatter_replication_grid_7_default_rw_energy_add = 30
 @building_ukn_femtomatter_replication_grid_7_default_rw_ukn_femtomatter_add = 6
-@building_ukn_femtomatter_replication_grid_7_default_rw_volatile_motes_add = 60
+@building_ukn_femtomatter_replication_grid_7_default_rw_ukn_exotic_particles_add = 60
 @building_ukn_femtomatter_replication_grid_7_default_rw_minerals_add = 60
 #---
 #[RINGWORLD] Gestalt Empire - Building Base Resource Add
 @building_ukn_femtomatter_replication_grid_7_gestalt_rw_energy_add = 30
 @building_ukn_femtomatter_replication_grid_7_gestalt_rw_ukn_femtomatter_add = 6
-@building_ukn_femtomatter_replication_grid_7_gestalt_rw_volatile_motes_add = 60
+@building_ukn_femtomatter_replication_grid_7_gestalt_rw_ukn_exotic_particles_add = 60
 @building_ukn_femtomatter_replication_grid_7_gestalt_rw_minerals_add = 60
 #---
 #----------------
@@ -3083,24 +3083,24 @@
 	
 #[ARCOLOGY] Default Empire - Building Base Resource Add
 @building_ukn_condensics_compositation_grid_7_default_arcology_ukn_condensics_add = 0.5
-@building_ukn_condensics_compositation_grid_7_default_arcology_volatile_motes_add = 15
+@building_ukn_condensics_compositation_grid_7_default_arcology_ukn_exotic_particles_add = 15
 @building_ukn_condensics_compositation_grid_7_default_arcology_energy_add = 65
 #---
 #[ARCOLOGY] Gestalt Empire - Building Base Resource Add
 @building_ukn_condensics_compositation_grid_7_gestalt_arcology_ukn_condensics_add = 0.5
-@building_ukn_condensics_compositation_grid_7_gestalt_arcology_volatile_motes_add = 15
+@building_ukn_condensics_compositation_grid_7_gestalt_arcology_ukn_exotic_particles_add = 15
 @building_ukn_condensics_compositation_grid_7_gestalt_arcology_energy_add = 65
 #---
 #----------------
 	
 #[RINGWORLD] Default Empire - Building Base Resource Add
 @building_ukn_condensics_compositation_grid_7_default_rw_ukn_condensics_add = 3
-@building_ukn_condensics_compositation_grid_7_default_rw_volatile_motes_add = 90
+@building_ukn_condensics_compositation_grid_7_default_rw_ukn_exotic_particles_add = 90
 @building_ukn_condensics_compositation_grid_7_default_rw_energy_add = 390
 #---
 #[RINGWORLD] Gestalt Empire - Building Base Resource Add
 @building_ukn_condensics_compositation_grid_7_gestalt_rw_ukn_condensics_add = 3
-@building_ukn_condensics_compositation_grid_7_gestalt_rw_volatile_motes_add = 90
+@building_ukn_condensics_compositation_grid_7_gestalt_rw_ukn_exotic_particles_add = 90
 @building_ukn_condensics_compositation_grid_7_gestalt_rw_energy_add = 390
 #---
 #----------------

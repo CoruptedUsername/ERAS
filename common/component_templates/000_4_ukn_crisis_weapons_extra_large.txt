@@ -53,7 +53,7 @@ weapon_component_template = {
 			food = @ukn_xl_t8_cost
 			ukn_quasi_matter = @ukn_xl_t8_secondary
 			ehof_sr_negative_mass = @ukn_xl_t8_tertiary
-			volatile_motes = @ukn_xl_t8_rare
+			ukn_exotic_particles = @ukn_xl_t8_rare
 		}		
 		upkeep = {
 			energy = @ukn_xl_t8_upkeep_energy
@@ -68,7 +68,7 @@ weapon_component_template = {
 			OR = {
 				has_monthly_income = { resource = ukn_quasi_matter value <= 0 }
 				has_monthly_income = { resource = ehof_sr_negative_mass value <= 0 }
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 			}
 		}
 	}

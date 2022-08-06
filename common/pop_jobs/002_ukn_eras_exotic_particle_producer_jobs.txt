@@ -1,5 +1,5 @@
 ##########[RINGWORLD] EXOTIC PARTICLES/VOLATILE MOTES ##########
-ukn_exotic_particle_producer = {
+ukn_exotic_particles_producer = {
 	category = specialist
 	condition_string = SPECIALIST_JOB_TRIGGER
 	building_icon = building_chemical_plant
@@ -18,7 +18,7 @@ ukn_exotic_particle_producer = {
 	}
 
 	resources = {
-		category = planet_chemists
+		category = planet_ukn_exotic_particles_producers
 ##########
 # NORMAL #
 ##########
@@ -27,46 +27,46 @@ ukn_exotic_particle_producer = {
 			trigger = {
 				planet = {
 					NOR = { 
-						has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-						has_modifier = mod_ukn_condensics_based_exotic_particle_production
-						has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-						has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+						has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+						has_modifier = mod_ukn_condensics_based_exotic_particles_production
+						has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+						has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					}
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 5
+			ukn_exotic_particles = 5
 		}
 #[PRODUCTION] Femtomatter-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+					has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 6.5
+			ukn_exotic_particles = 6.5
 		}
 #[PRODUCTION] Condensics-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_condensics_based_exotic_particle_production
+					has_modifier = mod_ukn_condensics_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 7.5
+			ukn_exotic_particles = 7.5
 			energy = 32.5
 		}
 #[PRODUCTION] Quasi-Matter-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+					has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 8.5
+			ukn_exotic_particles = 8.5
 			energy = 34.5
 			sr_dark_matter = 0.75
 		}
@@ -74,11 +74,11 @@ ukn_exotic_particle_producer = {
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+					has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 16.5
+			ukn_exotic_particles = 16.5
 			energy = 69
 			sr_dark_matter = 1.5
 			ehof_sr_negative_mass = 0.5
@@ -88,12 +88,12 @@ ukn_exotic_particle_producer = {
 			trigger = {
 				planet = {
 					NOR = { 
-						has_modifier = mod_ukn_alloys_based_exotic_particle_production
-						has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-						has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-						has_modifier = mod_ukn_condensics_based_exotic_particle_production
-						has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-						has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+						has_modifier = mod_ukn_alloys_based_exotic_particles_production
+						has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+						has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+						has_modifier = mod_ukn_condensics_based_exotic_particles_production
+						has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+						has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					}
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
@@ -107,7 +107,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_alloys_based_exotic_particle_production
+					has_modifier = mod_ukn_alloys_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
@@ -120,7 +120,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+					has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
@@ -133,7 +133,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+					has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
@@ -143,7 +143,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_condensics_based_exotic_particle_production
+					has_modifier = mod_ukn_condensics_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
@@ -153,7 +153,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+					has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
@@ -163,7 +163,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+					has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
@@ -177,46 +177,46 @@ ukn_exotic_particle_producer = {
 			trigger = {
 				planet = {
 					NOR = { 
-						has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-						has_modifier = mod_ukn_condensics_based_exotic_particle_production
-						has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-						has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+						has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+						has_modifier = mod_ukn_condensics_based_exotic_particles_production
+						has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+						has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					}
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 10
+			ukn_exotic_particles = 10
 		}
 #[PRODUCTION] Femtomatter-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+					has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 13
+			ukn_exotic_particles = 13
 		}
 #[PRODUCTION] Condensics-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_condensics_based_exotic_particle_production
+					has_modifier = mod_ukn_condensics_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 15
+			ukn_exotic_particles = 15
 			energy = 65
 		}
 #[PRODUCTION] Quasi-Matter-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+					has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 17
+			ukn_exotic_particles = 17
 			energy = 69
 			sr_dark_matter = 1.5
 		}
@@ -224,11 +224,11 @@ ukn_exotic_particle_producer = {
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+					has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 33
+			ukn_exotic_particles = 33
 			energy = 138
 			sr_dark_matter = 3
 			ehof_sr_negative_mass = 1
@@ -238,12 +238,12 @@ ukn_exotic_particle_producer = {
 			trigger = {
 				planet = {
 					NOR = { 
-						has_modifier = mod_ukn_alloys_based_exotic_particle_production
-						has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-						has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-						has_modifier = mod_ukn_condensics_based_exotic_particle_production
-						has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-						has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+						has_modifier = mod_ukn_alloys_based_exotic_particles_production
+						has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+						has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+						has_modifier = mod_ukn_condensics_based_exotic_particles_production
+						has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+						has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					}
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
@@ -257,7 +257,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_alloys_based_exotic_particle_production
+					has_modifier = mod_ukn_alloys_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -270,7 +270,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+					has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -283,7 +283,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+					has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -293,7 +293,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_condensics_based_exotic_particle_production
+					has_modifier = mod_ukn_condensics_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -303,7 +303,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+					has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -313,7 +313,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+					has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -327,46 +327,46 @@ ukn_exotic_particle_producer = {
 			trigger = {
 				planet = {
 					NOR = { 
-						has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-						has_modifier = mod_ukn_condensics_based_exotic_particle_production
-						has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-						has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+						has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+						has_modifier = mod_ukn_condensics_based_exotic_particles_production
+						has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+						has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					}
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 30
+			ukn_exotic_particles = 30
 		}
 #[PRODUCTION] Femtomatter-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+					has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 39
+			ukn_exotic_particles = 39
 		}
 #[PRODUCTION] Condensics-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_condensics_based_exotic_particle_production
+					has_modifier = mod_ukn_condensics_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 45
+			ukn_exotic_particles = 45
 			energy = 195
 		}
 #[PRODUCTION] Quasi-Matter-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+					has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 51
+			ukn_exotic_particles = 51
 			energy = 207
 			sr_dark_matter = 4.5
 		}
@@ -374,11 +374,11 @@ ukn_exotic_particle_producer = {
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+					has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 99
+			ukn_exotic_particles = 99
 			energy = 414
 			sr_dark_matter = 9
 			ehof_sr_negative_mass = 3
@@ -388,12 +388,12 @@ ukn_exotic_particle_producer = {
 			trigger = {
 				planet = {
 					NOR = { 
-						has_modifier = mod_ukn_alloys_based_exotic_particle_production
-						has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-						has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-						has_modifier = mod_ukn_condensics_based_exotic_particle_production
-						has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-						has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+						has_modifier = mod_ukn_alloys_based_exotic_particles_production
+						has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+						has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+						has_modifier = mod_ukn_condensics_based_exotic_particles_production
+						has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+						has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					}
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
@@ -407,7 +407,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_alloys_based_exotic_particle_production
+					has_modifier = mod_ukn_alloys_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -420,7 +420,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+					has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -433,7 +433,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+					has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -443,7 +443,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_condensics_based_exotic_particle_production
+					has_modifier = mod_ukn_condensics_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -453,7 +453,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+					has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -463,7 +463,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+					has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -477,46 +477,46 @@ ukn_exotic_particle_producer = {
 			trigger = {
 				planet = {
 					NOR = { 
-						has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-						has_modifier = mod_ukn_condensics_based_exotic_particle_production
-						has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-						has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+						has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+						has_modifier = mod_ukn_condensics_based_exotic_particles_production
+						has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+						has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					}
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 300
+			ukn_exotic_particles = 300
 		}
 #[PRODUCTION] Femtomatter-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+					has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 390
+			ukn_exotic_particles = 390
 		}
 #[PRODUCTION] Condensics-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_condensics_based_exotic_particle_production
+					has_modifier = mod_ukn_condensics_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 450
+			ukn_exotic_particles = 450
 			energy = 1950
 		}
 #[PRODUCTION] Quasi-Matter-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+					has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 510
+			ukn_exotic_particles = 510
 			energy = 2070
 			sr_dark_matter = 45
 		}
@@ -524,11 +524,11 @@ ukn_exotic_particle_producer = {
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+					has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 990
+			ukn_exotic_particles = 990
 			energy = 4140
 			sr_dark_matter = 90
 			ehof_sr_negative_mass = 30
@@ -538,12 +538,12 @@ ukn_exotic_particle_producer = {
 			trigger = {
 				planet = {
 					NOR = { 
-						has_modifier = mod_ukn_alloys_based_exotic_particle_production
-						has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-						has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-						has_modifier = mod_ukn_condensics_based_exotic_particle_production
-						has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-						has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+						has_modifier = mod_ukn_alloys_based_exotic_particles_production
+						has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+						has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+						has_modifier = mod_ukn_condensics_based_exotic_particles_production
+						has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+						has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					}
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
@@ -557,7 +557,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_alloys_based_exotic_particle_production
+					has_modifier = mod_ukn_alloys_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -570,7 +570,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+					has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -583,7 +583,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+					has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -593,7 +593,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_condensics_based_exotic_particle_production
+					has_modifier = mod_ukn_condensics_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -603,7 +603,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+					has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -613,7 +613,7 @@ ukn_exotic_particle_producer = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+					has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -623,11 +623,11 @@ ukn_exotic_particle_producer = {
 
 	weight = {
 		weight = @specialist_job_weight
-		mult = value:job_weights_modifier|JOB|ukn_exotic_particle_producer|RESOURCE|volatile_motes|
+		mult = value:job_weights_modifier|JOB|ukn_exotic_particles_producer|RESOURCE|ukn_exotic_particles|
 	}
 }
 
-ukn_exotic_particle_production_drone = {
+ukn_exotic_particles_production_drone = {
 	category = complex_drone
 	condition_string = DRONE_JOB_TRIGGER
 	building_icon = building_chemical_plant
@@ -646,7 +646,7 @@ ukn_exotic_particle_production_drone = {
 	}
 
 	resources = {
-		category = planet_chemists
+		category = planet_ukn_exotic_particles_producers
 ##########
 # NORMAL #
 ##########
@@ -655,46 +655,46 @@ ukn_exotic_particle_production_drone = {
 			trigger = {
 				planet = {
 					NOR = { 
-						has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-						has_modifier = mod_ukn_condensics_based_exotic_particle_production
-						has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-						has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+						has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+						has_modifier = mod_ukn_condensics_based_exotic_particles_production
+						has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+						has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					}
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 5
+			ukn_exotic_particles = 5
 		}
 #[PRODUCTION] Femtomatter-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+					has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 6.5
+			ukn_exotic_particles = 6.5
 		}
 #[PRODUCTION] Condensics-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_condensics_based_exotic_particle_production
+					has_modifier = mod_ukn_condensics_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 7.5
+			ukn_exotic_particles = 7.5
 			energy = 32.5
 		}
 #[PRODUCTION] Quasi-Matter-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+					has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 8.5
+			ukn_exotic_particles = 8.5
 			energy = 34.5
 			sr_dark_matter = 0.75
 		}
@@ -702,11 +702,11 @@ ukn_exotic_particle_production_drone = {
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+					has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 16.5
+			ukn_exotic_particles = 16.5
 			energy = 69
 			sr_dark_matter = 1.5
 			ehof_sr_negative_mass = 0.5
@@ -716,12 +716,12 @@ ukn_exotic_particle_production_drone = {
 			trigger = {
 				planet = {
 					NOR = { 
-						has_modifier = mod_ukn_alloys_based_exotic_particle_production
-						has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-						has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-						has_modifier = mod_ukn_condensics_based_exotic_particle_production
-						has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-						has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+						has_modifier = mod_ukn_alloys_based_exotic_particles_production
+						has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+						has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+						has_modifier = mod_ukn_condensics_based_exotic_particles_production
+						has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+						has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					}
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
@@ -735,7 +735,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_alloys_based_exotic_particle_production
+					has_modifier = mod_ukn_alloys_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
@@ -748,7 +748,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+					has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
@@ -761,7 +761,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+					has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
@@ -771,7 +771,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_condensics_based_exotic_particle_production
+					has_modifier = mod_ukn_condensics_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
@@ -781,7 +781,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+					has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
@@ -791,7 +791,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+					has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
@@ -805,46 +805,46 @@ ukn_exotic_particle_production_drone = {
 			trigger = {
 				planet = {
 					NOR = { 
-						has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-						has_modifier = mod_ukn_condensics_based_exotic_particle_production
-						has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-						has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+						has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+						has_modifier = mod_ukn_condensics_based_exotic_particles_production
+						has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+						has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					}
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 10
+			ukn_exotic_particles = 10
 		}
 #[PRODUCTION] Femtomatter-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+					has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 13
+			ukn_exotic_particles = 13
 		}
 #[PRODUCTION] Condensics-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_condensics_based_exotic_particle_production
+					has_modifier = mod_ukn_condensics_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 15
+			ukn_exotic_particles = 15
 			energy = 65
 		}
 #[PRODUCTION] Quasi-Matter-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+					has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 17
+			ukn_exotic_particles = 17
 			energy = 69
 			sr_dark_matter = 1.5
 		}
@@ -852,11 +852,11 @@ ukn_exotic_particle_production_drone = {
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+					has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 33
+			ukn_exotic_particles = 33
 			energy = 138
 			sr_dark_matter = 3
 			ehof_sr_negative_mass = 1
@@ -866,12 +866,12 @@ ukn_exotic_particle_production_drone = {
 			trigger = {
 				planet = {
 					NOR = { 
-						has_modifier = mod_ukn_alloys_based_exotic_particle_production
-						has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-						has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-						has_modifier = mod_ukn_condensics_based_exotic_particle_production
-						has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-						has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+						has_modifier = mod_ukn_alloys_based_exotic_particles_production
+						has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+						has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+						has_modifier = mod_ukn_condensics_based_exotic_particles_production
+						has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+						has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					}
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
@@ -885,7 +885,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_alloys_based_exotic_particle_production
+					has_modifier = mod_ukn_alloys_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -898,7 +898,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+					has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -911,7 +911,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+					has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -921,7 +921,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_condensics_based_exotic_particle_production
+					has_modifier = mod_ukn_condensics_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -931,7 +931,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+					has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -941,7 +941,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+					has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -955,46 +955,46 @@ ukn_exotic_particle_production_drone = {
 			trigger = {
 				planet = {
 					NOR = { 
-						has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-						has_modifier = mod_ukn_condensics_based_exotic_particle_production
-						has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-						has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+						has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+						has_modifier = mod_ukn_condensics_based_exotic_particles_production
+						has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+						has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					}
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 30
+			ukn_exotic_particles = 30
 		}
 #[PRODUCTION] Femtomatter-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+					has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 39
+			ukn_exotic_particles = 39
 		}
 #[PRODUCTION] Condensics-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_condensics_based_exotic_particle_production
+					has_modifier = mod_ukn_condensics_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 45
+			ukn_exotic_particles = 45
 			energy = 195
 		}
 #[PRODUCTION] Quasi-Matter-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+					has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 51
+			ukn_exotic_particles = 51
 			energy = 207
 			sr_dark_matter = 4.5
 		}
@@ -1002,11 +1002,11 @@ ukn_exotic_particle_production_drone = {
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+					has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 99
+			ukn_exotic_particles = 99
 			energy = 414
 			sr_dark_matter = 9
 			ehof_sr_negative_mass = 3
@@ -1016,12 +1016,12 @@ ukn_exotic_particle_production_drone = {
 			trigger = {
 				planet = {
 					NOR = { 
-						has_modifier = mod_ukn_alloys_based_exotic_particle_production
-						has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-						has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-						has_modifier = mod_ukn_condensics_based_exotic_particle_production
-						has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-						has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+						has_modifier = mod_ukn_alloys_based_exotic_particles_production
+						has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+						has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+						has_modifier = mod_ukn_condensics_based_exotic_particles_production
+						has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+						has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					}
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
@@ -1035,7 +1035,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_alloys_based_exotic_particle_production
+					has_modifier = mod_ukn_alloys_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -1048,7 +1048,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+					has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -1061,7 +1061,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+					has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -1071,7 +1071,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_condensics_based_exotic_particle_production
+					has_modifier = mod_ukn_condensics_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -1081,7 +1081,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+					has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -1091,7 +1091,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+					has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -1105,46 +1105,46 @@ ukn_exotic_particle_production_drone = {
 			trigger = {
 				planet = {
 					NOR = { 
-						has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-						has_modifier = mod_ukn_condensics_based_exotic_particle_production
-						has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-						has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+						has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+						has_modifier = mod_ukn_condensics_based_exotic_particles_production
+						has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+						has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					}
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 300
+			ukn_exotic_particles = 300
 		}
 #[PRODUCTION] Femtomatter-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+					has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 390
+			ukn_exotic_particles = 390
 		}
 #[PRODUCTION] Condensics-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_condensics_based_exotic_particle_production
+					has_modifier = mod_ukn_condensics_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 450
+			ukn_exotic_particles = 450
 			energy = 1950
 		}
 #[PRODUCTION] Quasi-Matter-Based Production
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+					has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 510
+			ukn_exotic_particles = 510
 			energy = 2070
 			sr_dark_matter = 45
 		}
@@ -1152,11 +1152,11 @@ ukn_exotic_particle_production_drone = {
 		produces = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+					has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 990
+			ukn_exotic_particles = 990
 			energy = 4140
 			sr_dark_matter = 90
 			ehof_sr_negative_mass = 30
@@ -1166,12 +1166,12 @@ ukn_exotic_particle_production_drone = {
 			trigger = {
 				planet = {
 					NOR = { 
-						has_modifier = mod_ukn_alloys_based_exotic_particle_production
-						has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-						has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-						has_modifier = mod_ukn_condensics_based_exotic_particle_production
-						has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-						has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+						has_modifier = mod_ukn_alloys_based_exotic_particles_production
+						has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+						has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+						has_modifier = mod_ukn_condensics_based_exotic_particles_production
+						has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+						has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					}
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
@@ -1185,7 +1185,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_alloys_based_exotic_particle_production
+					has_modifier = mod_ukn_alloys_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -1198,7 +1198,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+					has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -1211,7 +1211,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+					has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -1221,7 +1221,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_condensics_based_exotic_particle_production
+					has_modifier = mod_ukn_condensics_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -1231,7 +1231,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+					has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -1241,7 +1241,7 @@ ukn_exotic_particle_production_drone = {
 		upkeep = {
 			trigger = {
 				planet = {
-					has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+					has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
@@ -1251,7 +1251,7 @@ ukn_exotic_particle_production_drone = {
 
 	weight = {
 		weight = @complex_drone_job_weight
-		mult = value:job_weights_modifier|JOB|ukn_exotic_particle_production_drone|RESOURCE|volatile_motes|
+		mult = value:job_weights_modifier|JOB|ukn_exotic_particles_production_drone|RESOURCE|ukn_exotic_particles|
 	}
 }
 

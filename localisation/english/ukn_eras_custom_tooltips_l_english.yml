@@ -105,29 +105,29 @@
  TECH_UNLOCK_UKN_META_MATERIALS_TITLE:0 "§HExploit Resource:§! £ukn_meta_materials£"
  TECH_UNLOCK_UKN_META_MATERIALS_DESC:0 "$ukn_meta_materials_desc$\n\n\n§YAllows Use of the Following Decisions§!:\n\n§EMeta-Material Fabrication Control§!\n§EAllows us to control whether £job_foundry£ §S$job_foundry_plural$§! produce £ukn_meta_materials£, £alloys£ or £alloys£ and £ukn_meta_materials£§!\n\n§E$decision_ukn_meta_materials_based_automachine_production$§!\n$decision_ukn_meta_materials_based_automachine_production_desc$\n\n§E$decision_ukn_alloys_based_automachine_production$§!\n$decision_ukn_alloys_based_automachine_production_desc$ "
  
- TECH_UNLOCK_UKN_EXOTIC_PARTICLES_TITLE:0 "§HExploit Resource:§! £volatile_motes£"
- TECH_UNLOCK_UKN_EXOTIC_PARTICLES_DESC:0 "$volatile_motes_desc$\n\n\n§YAllows Use of the Following Decisions§!:\n\n§E$decision_ukn_alloys_based_exotic_particle_production$§!\n$decision_ukn_alloys_based_exotic_particle_production_desc$\n\n§E$decision_ukn_meta_materials_based_exotic_particle_production$§!\n$decision_ukn_meta_materials_based_exotic_particle_production_desc$\n\n§E$decision_ukn_minerals_based_exotic_particle_production$§!\n$decision_ukn_minerals_based_exotic_particle_production_desc$ "
+ TECH_UNLOCK_UKN_EXOTIC_PARTICLES_TITLE:0 "§HExploit Resource:§! £ukn_exotic_particles£"
+ TECH_UNLOCK_UKN_EXOTIC_PARTICLES_DESC:0 "$ukn_exotic_particles_desc$\n\n\n§YAllows Use of the Following Decisions§!:\n\n§E$decision_ukn_alloys_based_exotic_particles_production$§!\n$decision_ukn_alloys_based_exotic_particles_production_desc$\n\n§E$decision_ukn_meta_materials_based_exotic_particles_production$§!\n$decision_ukn_meta_materials_based_exotic_particles_production_desc$\n\n§E$decision_ukn_minerals_based_exotic_particles_production$§!\n$decision_ukn_minerals_based_exotic_particles_production_desc$ "
  
  TECH_UNLOCK_UKN_FEMTOMATTER_TITLE:0 "§HExploit Resource:§! £ukn_femtomatter£"
- TECH_UNLOCK_UKN_FEMTOMATTER_DESC:0 "$ukn_femtomatter_desc$\n\n\n§YAllows Use of the Following Decisions§!:\n\n§E$decision_ukn_femtomatter_based_automachine_production$§!\n$decision_ukn_femtomatter_based_automachine_production_desc$\n§E$decision_ukn_femtomatter_based_exotic_particle_production$§!\n$decision_ukn_femtomatter_based_exotic_particle_production_desc$ "
+ TECH_UNLOCK_UKN_FEMTOMATTER_DESC:0 "$ukn_femtomatter_desc$\n\n\n§YAllows Use of the Following Decisions§!:\n\n§E$decision_ukn_femtomatter_based_automachine_production$§!\n$decision_ukn_femtomatter_based_automachine_production_desc$\n§E$decision_ukn_femtomatter_based_exotic_particles_production$§!\n$decision_ukn_femtomatter_based_exotic_particles_production_desc$ "
  
  TECH_UNLOCK_UKN_AUTOMACHINE_EXOTIC_PARTICLES_UPKEEP_TITLE:0 "§PWarning:§! Alters £job£ §Y$name_ukn_automachine_assembler_plural$§! Output And Upkeep"
- TECH_UNLOCK_UKN_AUTOMACHINE_EXOTIC_PARTICLES_UPKEEP_DESC:0 "£building£ §HAutomachine Assembly $name_ukn_building$§! Now Provide:\n  §G+15%§! $mod_planet_ukn_automachine_assemblers_produces_mult$\n\n£job_ukn_automachine_assembler£ §H$name_ukn_automachine_assembler_plural$§! Now Require Additional Upkeep:\n  §R+0.30§! £volatile_motes£ $volatile_motes$ on £ukn_icon_planet_blue£§EDefault Worlds§!\n  §R+0.75§! £volatile_motes£ $volatile_motes$ on £ukn_icon_planet_blue£§EArcology Worlds§!\n  §R+6.00§! £volatile_motes£ $volatile_motes$ on £ukn_icon_planet_blue£§ERingworlds§!\n  §R+30.00§! £volatile_motes£ $volatile_motes$ on £ukn_icon_planet_blue£§EAlderson Disks§!\n\n\n§YAdditionally, We Will Gain Access to the Following Decision§!:\n\n§E$decision_ukn_femtomatter_based_automachine_production$§!\n$decision_ukn_femtomatter_based_automachine_production_desc$ "
+ TECH_UNLOCK_UKN_AUTOMACHINE_EXOTIC_PARTICLES_UPKEEP_DESC:0 "£building£ §HAutomachine Assembly $name_ukn_building$§! Now Provide:\n  §G+15%§! $mod_planet_ukn_automachine_assemblers_produces_mult$\n\n£job_ukn_automachine_assembler£ §H$name_ukn_automachine_assembler_plural$§! Now Require Additional Upkeep:\n  §R+0.30§! £ukn_exotic_particles£ $ukn_exotic_particles$ on £ukn_icon_planet_blue£§EDefault Worlds§!\n  §R+0.75§! £ukn_exotic_particles£ $ukn_exotic_particles$ on £ukn_icon_planet_blue£§EArcology Worlds§!\n  §R+6.00§! £ukn_exotic_particles£ $ukn_exotic_particles$ on £ukn_icon_planet_blue£§ERingworlds§!\n  §R+30.00§! £ukn_exotic_particles£ $ukn_exotic_particles$ on £ukn_icon_planet_blue£§EAlderson Disks§!\n\n\n§YAdditionally, We Will Gain Access to the Following Decision§!:\n\n§E$decision_ukn_femtomatter_based_automachine_production$§!\n$decision_ukn_femtomatter_based_automachine_production_desc$ "
  
  TECH_UNLOCK_UKN_CONDENSICS_TITLE:0 "§HExploit Resource:§! £ukn_condensics£"
- TECH_UNLOCK_UKN_CONDENSICS_DESC:0 "$ukn_condensics_desc$\n\n§YAllows Use of the Following Decisions§!:\n\n§E$decision_ukn_condensics_based_automachine_production$§!\n$decision_ukn_condensics_based_automachine_production_desc$\n\n§E$decision_ukn_condensics_based_exotic_particle_production$§!\n$decision_ukn_condensics_based_exotic_particle_production_desc$ "
+ TECH_UNLOCK_UKN_CONDENSICS_DESC:0 "$ukn_condensics_desc$\n\n§YAllows Use of the Following Decisions§!:\n\n§E$decision_ukn_condensics_based_automachine_production$§!\n$decision_ukn_condensics_based_automachine_production_desc$\n\n§E$decision_ukn_condensics_based_exotic_particles_production$§!\n$decision_ukn_condensics_based_exotic_particles_production_desc$ "
  
  TECH_UNLOCK_UKN_QUASI_MATTER_TITLE:0 "§HExploit Resource:§! £ukn_quasi_matter£"
- TECH_UNLOCK_UKN_QUASI_MATTER_DESC:0 "$ukn_quasi_matter_desc$\n\n\n§YAllows Use of the Following Decision§!:\n\n§E$decision_ukn_quasi_matter_based_exotic_particle_production$§!\n$decision_ukn_quasi_matter_based_exotic_particle_production_desc$ "
+ TECH_UNLOCK_UKN_QUASI_MATTER_DESC:0 "$ukn_quasi_matter_desc$\n\n\n§YAllows Use of the Following Decision§!:\n\n§E$decision_ukn_quasi_matter_based_exotic_particles_production$§!\n$decision_ukn_quasi_matter_based_exotic_particles_production_desc$ "
  
  TECH_UNLOCK_UKN_NEGATIVE_ENERGY_TITLE:0 "§HExploit Resource:§! £ehof_sr_negative_mass£"
  TECH_UNLOCK_UKN_NEGATIVE_ENERGY_DESC:0 "$ehof_sr_negative_mass_desc$"
  
  TECH_UNLOCK_UKN_OSCILLYONS_TITLE:0 "§HExploit Resource:§! £ukn_causalitons£"
- TECH_UNLOCK_UKN_OSCILLYONS_DESC:0 "$ukn_causalitons_desc$\n\n\n§YAllows Use of the Following Decision§!:\n\n§E$decision_ukn_causalitons_based_exotic_particle_production$§!\n$decision_ukn_causalitons_based_exotic_particle_production_desc$ "
+ TECH_UNLOCK_UKN_OSCILLYONS_DESC:0 "$ukn_causalitons_desc$\n\n\n§YAllows Use of the Following Decision§!:\n\n§E$decision_ukn_causalitons_based_exotic_particles_production$§!\n$decision_ukn_causalitons_based_exotic_particles_production_desc$ "
  
  TECH_UNLOCK_UKN_TEMPORAL_THREADS_TITLE:0 "§HExploit Resource:§! £ukn_temporal_threads£"
- TECH_UNLOCK_UKN_TEMPORAL_THREADS_DESC:0 "$ukn_temporal_threads_desc$\n\n\n§YAllows Use of the Following Decision§!:\n\n§E$decision_ukn_causalitons_based_exotic_particle_production$§!\n$decision_ukn_causalitons_based_exotic_particle_production_desc$ "
+ TECH_UNLOCK_UKN_TEMPORAL_THREADS_DESC:0 "$ukn_temporal_threads_desc$\n\n\n§YAllows Use of the Following Decision§!:\n\n§E$decision_ukn_causalitons_based_exotic_particles_production$§!\n$decision_ukn_causalitons_based_exotic_particles_production_desc$ "
  
  
 # MACRO-CONSTRUCTIONS [ERAS] #---------------------------------------------------------

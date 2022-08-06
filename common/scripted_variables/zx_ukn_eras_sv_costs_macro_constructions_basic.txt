@@ -87,7 +87,7 @@
 @ukn_femtomatter_replicator_p1_upkeep_minerals = 0
 
 # Exotic Particles
-@ukn_femtomatter_replicator_p1_upkeep_volatile_motes = 0
+@ukn_femtomatter_replicator_p1_upkeep_ukn_exotic_particles = 0
 
 ### UPKEEP ###---------------------------
 
@@ -146,7 +146,7 @@
 @ukn_femtomatter_replicator_p2_upkeep_minerals = 150
 
 # Exotic Particles
-@ukn_femtomatter_replicator_p2_upkeep_volatile_motes = 150
+@ukn_femtomatter_replicator_p2_upkeep_ukn_exotic_particles = 150
 
 ### UPKEEP ###---------------------------
 
@@ -1897,7 +1897,7 @@
 @ukn_condensics_macro_compositor_p1_upkeep_minerals = 0
 
 # Exotic Particles
-@ukn_condensics_macro_compositor_p1_upkeep_volatile_motes = 0
+@ukn_condensics_macro_compositor_p1_upkeep_ukn_exotic_particles = 0
 
 ### UPKEEP ###---------------------------
 
@@ -1947,7 +1947,7 @@
 @ukn_condensics_macro_compositor_p2_upkeep_minerals = 0
 
 # Exotic Particles
-@ukn_condensics_macro_compositor_p2_upkeep_volatile_motes = 0
+@ukn_condensics_macro_compositor_p2_upkeep_ukn_exotic_particles = 0
 
 ### UPKEEP ###---------------------------
 
@@ -2000,7 +2000,7 @@
 @ukn_condensics_macro_compositor_p3_upkeep_minerals = 3500
 
 # Exotic Particles
-@ukn_condensics_macro_compositor_p3_upkeep_volatile_motes = 1500
+@ukn_condensics_macro_compositor_p3_upkeep_ukn_exotic_particles = 1500
 
 ### UPKEEP ###---------------------------
 
@@ -2191,7 +2191,7 @@
 @ukn_science_nexus_p3_cost_nanites = 500
 
 # Exotic Particles
-@ukn_science_nexus_p3_cost_volatile_motes = 300
+@ukn_science_nexus_p3_cost_ukn_exotic_particles = 300
 
 # Femtomatter
 @ukn_science_nexus_p3_cost_ukn_femtomatter = 500
@@ -2283,7 +2283,7 @@
 @ukn_science_nexus_r_cost_nanites = 500
 
 # Exotic Particles
-@ukn_science_nexus_r_cost_volatile_motes = 300
+@ukn_science_nexus_r_cost_ukn_exotic_particles = 300
 
 # Femtomatter
 @ukn_science_nexus_r_cost_ukn_femtomatter = 500

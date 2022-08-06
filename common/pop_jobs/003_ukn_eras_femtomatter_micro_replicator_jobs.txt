@@ -37,7 +37,7 @@ ukn_femtomatter_micro_replicator = {
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 10
+			ukn_exotic_particles = 10
 			minerals = 10
 		}
 #############
@@ -58,7 +58,7 @@ ukn_femtomatter_micro_replicator = {
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 60
+			ukn_exotic_particles = 60
 			minerals = 60
 		}
 ############
@@ -79,7 +79,7 @@ ukn_femtomatter_micro_replicator = {
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 400
+			ukn_exotic_particles = 400
 			minerals = 400
 		}
 	}
@@ -128,7 +128,7 @@ ukn_femtomatter_micro_replication_drone = {
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 10
+			ukn_exotic_particles = 10
 			minerals = 10
 		}
 #############
@@ -149,7 +149,7 @@ ukn_femtomatter_micro_replication_drone = {
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 60
+			ukn_exotic_particles = 60
 			minerals = 60
 		}
 ############
@@ -170,7 +170,7 @@ ukn_femtomatter_micro_replication_drone = {
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 400
+			ukn_exotic_particles = 400
 			minerals = 400
 		}
 	}

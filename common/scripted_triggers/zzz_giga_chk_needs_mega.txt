@@ -366,41 +366,41 @@
 @end_sr_dark_matter_02 = 30
 @end_sr_dark_matter_15 = 31
 
-@ear_volatile_motes_10 = 1
-@ear_volatile_motes_09 = 2
-@ear_volatile_motes_08 = 3
-@ear_volatile_motes_07 = 4
-@ear_volatile_motes_06 = 5
-@ear_volatile_motes_05 = 6
-@ear_volatile_motes_04 = 7
-@ear_volatile_motes_03 = 8
-@ear_volatile_motes_25 = 9
-@ear_volatile_motes_02 = 10
-@ear_volatile_motes_15 = 11
+@ear_ukn_exotic_particles_10 = 1
+@ear_ukn_exotic_particles_09 = 2
+@ear_ukn_exotic_particles_08 = 3
+@ear_ukn_exotic_particles_07 = 4
+@ear_ukn_exotic_particles_06 = 5
+@ear_ukn_exotic_particles_05 = 6
+@ear_ukn_exotic_particles_04 = 7
+@ear_ukn_exotic_particles_03 = 8
+@ear_ukn_exotic_particles_25 = 9
+@ear_ukn_exotic_particles_02 = 10
+@ear_ukn_exotic_particles_15 = 11
 
-@mid_volatile_motes_10 = 11
-@mid_volatile_motes_09 = 12
-@mid_volatile_motes_08 = 13
-@mid_volatile_motes_07 = 14
-@mid_volatile_motes_06 = 15
-@mid_volatile_motes_05 = 16
-@mid_volatile_motes_04 = 17
-@mid_volatile_motes_03 = 18
-@mid_volatile_motes_25 = 19
-@mid_volatile_motes_02 = 20
-@mid_volatile_motes_15 = 21
+@mid_ukn_exotic_particles_10 = 11
+@mid_ukn_exotic_particles_09 = 12
+@mid_ukn_exotic_particles_08 = 13
+@mid_ukn_exotic_particles_07 = 14
+@mid_ukn_exotic_particles_06 = 15
+@mid_ukn_exotic_particles_05 = 16
+@mid_ukn_exotic_particles_04 = 17
+@mid_ukn_exotic_particles_03 = 18
+@mid_ukn_exotic_particles_25 = 19
+@mid_ukn_exotic_particles_02 = 20
+@mid_ukn_exotic_particles_15 = 21
 
-@end_volatile_motes_10 = 21
-@end_volatile_motes_09 = 22
-@end_volatile_motes_08 = 23
-@end_volatile_motes_07 = 24
-@end_volatile_motes_06 = 25
-@end_volatile_motes_05 = 26
-@end_volatile_motes_04 = 27
-@end_volatile_motes_03 = 28
-@end_volatile_motes_25 = 29
-@end_volatile_motes_02 = 30
-@end_volatile_motes_15 = 31
+@end_ukn_exotic_particles_10 = 21
+@end_ukn_exotic_particles_09 = 22
+@end_ukn_exotic_particles_08 = 23
+@end_ukn_exotic_particles_07 = 24
+@end_ukn_exotic_particles_06 = 25
+@end_ukn_exotic_particles_05 = 26
+@end_ukn_exotic_particles_04 = 27
+@end_ukn_exotic_particles_03 = 28
+@end_ukn_exotic_particles_25 = 29
+@end_ukn_exotic_particles_02 = 30
+@end_ukn_exotic_particles_15 = 31
 
 @ear_exotic_gases_10 = 1
 @ear_exotic_gases_09 = 2
@@ -1569,90 +1569,90 @@ chk_needs_exotic_gases_15 = {
 ######################################
 ### Volatile Motes ###################
 ######################################
-chk_needs_volatile_motes_10 = {
+chk_needs_ukn_exotic_particles_10 = {
 	OR = {
-		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value <  @ear_volatile_motes_10 } } }
-		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value <  @mid_volatile_motes_10 } } }
-		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = volatile_motes value <  @end_volatile_motes_10 } } }
+		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value <  @ear_ukn_exotic_particles_10 } } }
+		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value <  @mid_ukn_exotic_particles_10 } } }
+		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = ukn_exotic_particles value <  @end_ukn_exotic_particles_10 } } }
 	}
 }
 
-chk_needs_volatile_motes_09 =  {
+chk_needs_ukn_exotic_particles_09 =  {
 	OR = {
-		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @ear_volatile_motes_10 } has_monthly_income = { resource = volatile_motes value < @ear_volatile_motes_09 } } }
-		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @mid_volatile_motes_10 } has_monthly_income = { resource = volatile_motes value < @mid_volatile_motes_09 } } }
-		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = volatile_motes value >= @end_volatile_motes_10 } has_monthly_income = { resource = volatile_motes value < @end_volatile_motes_09 } } }
+		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @ear_ukn_exotic_particles_10 } has_monthly_income = { resource = ukn_exotic_particles value < @ear_ukn_exotic_particles_09 } } }
+		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @mid_ukn_exotic_particles_10 } has_monthly_income = { resource = ukn_exotic_particles value < @mid_ukn_exotic_particles_09 } } }
+		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @end_ukn_exotic_particles_10 } has_monthly_income = { resource = ukn_exotic_particles value < @end_ukn_exotic_particles_09 } } }
 	}
 }
 
-chk_needs_volatile_motes_08 = {
+chk_needs_ukn_exotic_particles_08 = {
 	OR = {
-		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @ear_volatile_motes_09 } has_monthly_income = { resource = volatile_motes value < @ear_volatile_motes_08 } } }
-		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @mid_volatile_motes_09 } has_monthly_income = { resource = volatile_motes value < @mid_volatile_motes_08 } } }
-		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = volatile_motes value >= @end_volatile_motes_09 } has_monthly_income = { resource = volatile_motes value < @end_volatile_motes_08 } } }
+		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @ear_ukn_exotic_particles_09 } has_monthly_income = { resource = ukn_exotic_particles value < @ear_ukn_exotic_particles_08 } } }
+		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @mid_ukn_exotic_particles_09 } has_monthly_income = { resource = ukn_exotic_particles value < @mid_ukn_exotic_particles_08 } } }
+		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @end_ukn_exotic_particles_09 } has_monthly_income = { resource = ukn_exotic_particles value < @end_ukn_exotic_particles_08 } } }
 	}
 }
 
-chk_needs_volatile_motes_07 = {
+chk_needs_ukn_exotic_particles_07 = {
 	OR = {
-		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @ear_volatile_motes_08 } has_monthly_income = { resource = volatile_motes value < @ear_volatile_motes_07 } } }
-		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @mid_volatile_motes_08 } has_monthly_income = { resource = volatile_motes value < @mid_volatile_motes_07 } } }
-		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = volatile_motes value >= @end_volatile_motes_08 } has_monthly_income = { resource = volatile_motes value < @end_volatile_motes_07 } } }
+		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @ear_ukn_exotic_particles_08 } has_monthly_income = { resource = ukn_exotic_particles value < @ear_ukn_exotic_particles_07 } } }
+		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @mid_ukn_exotic_particles_08 } has_monthly_income = { resource = ukn_exotic_particles value < @mid_ukn_exotic_particles_07 } } }
+		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @end_ukn_exotic_particles_08 } has_monthly_income = { resource = ukn_exotic_particles value < @end_ukn_exotic_particles_07 } } }
 	}
 }
 
-chk_needs_volatile_motes_06 = {
+chk_needs_ukn_exotic_particles_06 = {
 	OR = {
-		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @ear_volatile_motes_07 } has_monthly_income = { resource = volatile_motes value < @ear_volatile_motes_06 } } }
-		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @mid_volatile_motes_07 } has_monthly_income = { resource = volatile_motes value < @mid_volatile_motes_06 } } }
-		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = volatile_motes value >= @end_volatile_motes_07 } has_monthly_income = { resource = volatile_motes value < @end_volatile_motes_06 } } }
+		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @ear_ukn_exotic_particles_07 } has_monthly_income = { resource = ukn_exotic_particles value < @ear_ukn_exotic_particles_06 } } }
+		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @mid_ukn_exotic_particles_07 } has_monthly_income = { resource = ukn_exotic_particles value < @mid_ukn_exotic_particles_06 } } }
+		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @end_ukn_exotic_particles_07 } has_monthly_income = { resource = ukn_exotic_particles value < @end_ukn_exotic_particles_06 } } }
 	}
 }
 
-chk_needs_volatile_motes_05 = {
+chk_needs_ukn_exotic_particles_05 = {
 	OR = {
-		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @ear_volatile_motes_06 } has_monthly_income = { resource = volatile_motes value < @ear_volatile_motes_05 } } }
-		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @mid_volatile_motes_06 } has_monthly_income = { resource = volatile_motes value < @mid_volatile_motes_05 } } }
-		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = volatile_motes value >= @end_volatile_motes_06 } has_monthly_income = { resource = volatile_motes value < @end_volatile_motes_05 } } }
+		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @ear_ukn_exotic_particles_06 } has_monthly_income = { resource = ukn_exotic_particles value < @ear_ukn_exotic_particles_05 } } }
+		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @mid_ukn_exotic_particles_06 } has_monthly_income = { resource = ukn_exotic_particles value < @mid_ukn_exotic_particles_05 } } }
+		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @end_ukn_exotic_particles_06 } has_monthly_income = { resource = ukn_exotic_particles value < @end_ukn_exotic_particles_05 } } }
 	}
 }
 
-chk_needs_volatile_motes_04 = {
+chk_needs_ukn_exotic_particles_04 = {
 	OR = {
-		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @ear_volatile_motes_05 } has_monthly_income = { resource = volatile_motes value < @ear_volatile_motes_04 } } }
-		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @mid_volatile_motes_05 } has_monthly_income = { resource = volatile_motes value < @mid_volatile_motes_04 } } }
-		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = volatile_motes value >= @end_volatile_motes_05 } has_monthly_income = { resource = volatile_motes value < @end_volatile_motes_04 } } }
+		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @ear_ukn_exotic_particles_05 } has_monthly_income = { resource = ukn_exotic_particles value < @ear_ukn_exotic_particles_04 } } }
+		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @mid_ukn_exotic_particles_05 } has_monthly_income = { resource = ukn_exotic_particles value < @mid_ukn_exotic_particles_04 } } }
+		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @end_ukn_exotic_particles_05 } has_monthly_income = { resource = ukn_exotic_particles value < @end_ukn_exotic_particles_04 } } }
 	}
 }
 
-chk_needs_volatile_motes_03 = {
+chk_needs_ukn_exotic_particles_03 = {
 	OR = {
-		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @ear_volatile_motes_04 } has_monthly_income = { resource = volatile_motes value < @ear_volatile_motes_03 } } }
-		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @mid_volatile_motes_04 } has_monthly_income = { resource = volatile_motes value < @mid_volatile_motes_03 } } }
-		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = volatile_motes value >= @end_volatile_motes_04 } has_monthly_income = { resource = volatile_motes value < @end_volatile_motes_03 } } }
+		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @ear_ukn_exotic_particles_04 } has_monthly_income = { resource = ukn_exotic_particles value < @ear_ukn_exotic_particles_03 } } }
+		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @mid_ukn_exotic_particles_04 } has_monthly_income = { resource = ukn_exotic_particles value < @mid_ukn_exotic_particles_03 } } }
+		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @end_ukn_exotic_particles_04 } has_monthly_income = { resource = ukn_exotic_particles value < @end_ukn_exotic_particles_03 } } }
 	}
 }
 
-chk_needs_volatile_motes_25 = {
+chk_needs_ukn_exotic_particles_25 = {
 	OR = {
-		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @ear_volatile_motes_03 } has_monthly_income = { resource = volatile_motes value < @ear_volatile_motes_25 } } }
-		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @mid_volatile_motes_03 } has_monthly_income = { resource = volatile_motes value < @mid_volatile_motes_25 } } }
-		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = volatile_motes value >= @end_volatile_motes_03 } has_monthly_income = { resource = volatile_motes value < @end_volatile_motes_25 } } }
+		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @ear_ukn_exotic_particles_03 } has_monthly_income = { resource = ukn_exotic_particles value < @ear_ukn_exotic_particles_25 } } }
+		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @mid_ukn_exotic_particles_03 } has_monthly_income = { resource = ukn_exotic_particles value < @mid_ukn_exotic_particles_25 } } }
+		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @end_ukn_exotic_particles_03 } has_monthly_income = { resource = ukn_exotic_particles value < @end_ukn_exotic_particles_25 } } }
 	}
 }
 
-chk_needs_volatile_motes_02 = {
+chk_needs_ukn_exotic_particles_02 = {
 	OR = {
-		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @ear_volatile_motes_25 } has_monthly_income = { resource = volatile_motes value < @ear_volatile_motes_02 } } }
-		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @mid_volatile_motes_25 } has_monthly_income = { resource = volatile_motes value < @mid_volatile_motes_02 } } }
-		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = volatile_motes value >= @end_volatile_motes_25 } has_monthly_income = { resource = volatile_motes value < @end_volatile_motes_02 } } }
+		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @ear_ukn_exotic_particles_25 } has_monthly_income = { resource = ukn_exotic_particles value < @ear_ukn_exotic_particles_02 } } }
+		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @mid_ukn_exotic_particles_25 } has_monthly_income = { resource = ukn_exotic_particles value < @mid_ukn_exotic_particles_02 } } }
+		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @end_ukn_exotic_particles_25 } has_monthly_income = { resource = ukn_exotic_particles value < @end_ukn_exotic_particles_02 } } }
 	}
 }
 
-chk_needs_volatile_motes_15 = {
+chk_needs_ukn_exotic_particles_15 = {
 	OR = {
-		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @ear_volatile_motes_02 } has_monthly_income = { resource = volatile_motes value < @ear_volatile_motes_15 } } }
-		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = volatile_motes value >= @mid_volatile_motes_02 } has_monthly_income = { resource = volatile_motes value < @mid_volatile_motes_15 } } }
-		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = volatile_motes value >= @end_volatile_motes_02 } has_monthly_income = { resource = volatile_motes value < @end_volatile_motes_15 } } }
+		AND = {	mid_game_years_passed = 0	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @ear_ukn_exotic_particles_02 } has_monthly_income = { resource = ukn_exotic_particles value < @ear_ukn_exotic_particles_15 } } }
+		AND = {	mid_game_years_passed = 1	end_game_years_passed = 0 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @mid_ukn_exotic_particles_02 } has_monthly_income = { resource = ukn_exotic_particles value < @mid_ukn_exotic_particles_15 } } }
+		AND = {								end_game_years_passed = 1 from = { has_monthly_income = { resource = ukn_exotic_particles value >= @end_ukn_exotic_particles_02 } has_monthly_income = { resource = ukn_exotic_particles value < @end_ukn_exotic_particles_15 } } }
 	}
 }

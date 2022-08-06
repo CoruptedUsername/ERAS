@@ -6,6 +6,9 @@
  ukn_meta_materials_lower_case:0 "meta-materials"
  ukn_meta_materials_desc:0 "§E§H$ukn_meta_materials$§! (£ukn_meta_materials£) represent a class of geometrically optimized atomic structures possessing super-stable atomic bonds within a tenth of a percentile of the theoretically-determined maximum intra-molecular bond strength, while also making use of subtle quantum properties to marginally increase their binding energy further.\n\nBeing generally immune to all but the most extreme chemical reactions, resistent to high energy UV radiation and very low energy X-rays, as well as possessing hence-before unmatched tensile strength, $ukn_meta_materials_lower_case$ represent the pinnacle of modern baryonic materials science.§! "
  
+ ukn_exotic_particles:0 "Exotic Particles"
+ ukn_exotic_particles_desc:0 "§E§H$ukn_exotic_particles$§! (£ukn_exotic_particles£) represent any and potentially all of the following subatomic particles, usually produced in particle factories:\n\n§WFermionics:§! non-baryonic, non-force carrier particles which cannot - in normal conditions - occupy the same position in spacetime as their peers. Examples include: top-, bottom-, strange- and charm quarks, neutrinos and tauons.\n\n§WBosonics:§! force carrier particles (excluding the photon) which can occupy the same position in spacetime as their peers in nearly all conditions. For example: W-, Z-, and higgs bosons and gluons.\n\n§WAntimatter:§! fermionic particles which annihilate when brought into contact with - and having an opposite charge compared to - their regular counterparts, such as positrons, antiquarks and antineutrinos.\n\n§WS-Particles:§! supersymmetric partners of standard model particles, such as selectrons, s-quarks, photinos and gluinos, as well as composite s-particles such as the "higgsino".§!"
+ 
  ukn_femtomatter:0 "Femtomatter"
  ukn_femtomatter_lower_case:0 "femtomatter"
  ukn_femtomatter_desc:0 "§E§H$ukn_femtomatter$§! (£ukn_femtomatter£) is a compound possessing a density roughly equal to that of atomic nuclei and a total binding energy per unit rivalling that of quarks within stable nucleons. As a result, it not only possesses incredible superconductive properties, but is also capable of reflecting gamma rays and resisting forces millions of times larger than traditional baryonic materials.\n\nThis substance owes incredible attributes to its unique composition: higgsino particles (a product of the higgsino field, the supersymmetric partner of the higgs field) bound together with heavy, positively charged particles - often protons - in a repeating lattice.\n\nConsequently, there exists between these above-mentioned particles electrostatic forces of strengths exceeding that of even strong force bonds.§! "
@@ -38,8 +41,8 @@
  mod_planet_ukn_automachine_assemblers_nanites_produces_mult:0 "£nanites£ $nanites$ from £job_ukn_automachine_assembler£ $job_ukn_automachine_assembler_plural$"
  mod_planet_ukn_automachine_assemblers_nanites_produces_add:0 "$planet_ukn_automachine_assemblers_nanites_produces_mult$"
  
- mod_planet_chemists_volatile_motes_produces_mult:0 "£volatile_motes£ $volatile_motes$ from £job_ukn_exotic_particle_producer£ $job_ukn_exotic_particle_producer_plural$"
- mod_planet_chemists_volatile_motes_produces_add:0 "$mod_planet_chemists_volatile_motes_produces_mult$"
+ mod_planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_mult:0 "£ukn_exotic_particles£ $ukn_exotic_particles$ from £job_ukn_exotic_particles_producer£ $job_ukn_exotic_particles_producer_plural$"
+ mod_planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add:0 "$mod_planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_mult$"
  
  mod_planet_ukn_femtomatter_micro_replicators_ukn_femtomatter_produces_mult:0 "£ukn_femtomatter£ $ukn_femtomatter$ from £job_ukn_femtomatter_micro_replicator£ $job_ukn_femtomatter_micro_replicator_plural$"
  mod_planet_ukn_femtomatter_micro_replicators_ukn_femtomatter_produces_add:0 "$mod_planet_ukn_femtomatter_micro_replicators_ukn_femtomatter_produces_mult$"

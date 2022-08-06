@@ -6770,7 +6770,7 @@ building_ukn_automachine_assembly_grid_1 = {
 				has_modifier = mod_ukn_condensics_based_automachine_production
 			}
 		}
-		text = job_ukn_automachine_assembler_alloys_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_alloys_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -6785,7 +6785,7 @@ building_ukn_automachine_assembly_grid_1 = {
 				has_modifier = mod_ukn_condensics_based_automachine_production
 			}
 		}
-		text = job_ukn_automachine_assembly_drone_alloys_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_alloys_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-META-MATERIALS] Jobs
@@ -6798,7 +6798,7 @@ building_ukn_automachine_assembly_grid_1 = {
 			}
 			has_modifier = mod_ukn_meta_materials_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_meta_materials_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_meta_materials_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -6809,7 +6809,7 @@ building_ukn_automachine_assembly_grid_1 = {
 			}
 			has_modifier = mod_ukn_meta_materials_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_meta_materials_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_meta_materials_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-FEMTOMATTER] Jobs
@@ -6822,7 +6822,7 @@ building_ukn_automachine_assembly_grid_1 = {
 			}
 			has_modifier = mod_ukn_femtomatter_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_femtomatter_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_femtomatter_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -6833,7 +6833,7 @@ building_ukn_automachine_assembly_grid_1 = {
 			}
 			has_modifier = mod_ukn_femtomatter_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_femtomatter_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_femtomatter_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-CONDENSICS] Jobs
@@ -6846,7 +6846,7 @@ building_ukn_automachine_assembly_grid_1 = {
 			}
 			has_modifier = mod_ukn_condensics_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_condensics_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_condensics_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -6857,7 +6857,7 @@ building_ukn_automachine_assembly_grid_1 = {
 			}
 			has_modifier = mod_ukn_condensics_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_condensics_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_condensics_ukn_exotic_particles_effect_desc
 	}
 #----------------------------------------------------
 
@@ -7244,7 +7244,7 @@ building_ukn_automachine_assembly_grid_2 = {
 				has_modifier = mod_ukn_condensics_based_automachine_production
 			}
 		}
-		text = job_ukn_automachine_assembler_alloys_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_alloys_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -7259,7 +7259,7 @@ building_ukn_automachine_assembly_grid_2 = {
 				has_modifier = mod_ukn_condensics_based_automachine_production
 			}
 		}
-		text = job_ukn_automachine_assembly_drone_alloys_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_alloys_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-META-MATERIALS] Jobs
@@ -7272,7 +7272,7 @@ building_ukn_automachine_assembly_grid_2 = {
 			}
 			has_modifier = mod_ukn_meta_materials_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_meta_materials_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_meta_materials_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -7283,7 +7283,7 @@ building_ukn_automachine_assembly_grid_2 = {
 			}
 			has_modifier = mod_ukn_meta_materials_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_meta_materials_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_meta_materials_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-FEMTOMATTER] Jobs
@@ -7296,7 +7296,7 @@ building_ukn_automachine_assembly_grid_2 = {
 			}
 			has_modifier = mod_ukn_femtomatter_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_femtomatter_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_femtomatter_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -7307,7 +7307,7 @@ building_ukn_automachine_assembly_grid_2 = {
 			}
 			has_modifier = mod_ukn_femtomatter_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_femtomatter_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_femtomatter_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-CONDENSICS] Jobs
@@ -7320,7 +7320,7 @@ building_ukn_automachine_assembly_grid_2 = {
 			}
 			has_modifier = mod_ukn_condensics_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_condensics_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_condensics_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -7331,7 +7331,7 @@ building_ukn_automachine_assembly_grid_2 = {
 			}
 			has_modifier = mod_ukn_condensics_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_condensics_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_condensics_ukn_exotic_particles_effect_desc
 	}
 #----------------------------------------------------
 
@@ -7838,7 +7838,7 @@ building_ukn_automachine_assembly_grid_3 = {
 				has_modifier = mod_ukn_condensics_based_automachine_production
 			}
 		}
-		text = job_ukn_automachine_assembler_alloys_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_alloys_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -7853,7 +7853,7 @@ building_ukn_automachine_assembly_grid_3 = {
 				has_modifier = mod_ukn_condensics_based_automachine_production
 			}
 		}
-		text = job_ukn_automachine_assembly_drone_alloys_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_alloys_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-META-MATERIALS] Jobs
@@ -7866,7 +7866,7 @@ building_ukn_automachine_assembly_grid_3 = {
 			}
 			has_modifier = mod_ukn_meta_materials_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_meta_materials_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_meta_materials_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -7877,7 +7877,7 @@ building_ukn_automachine_assembly_grid_3 = {
 			}
 			has_modifier = mod_ukn_meta_materials_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_meta_materials_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_meta_materials_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-FEMTOMATTER] Jobs
@@ -7890,7 +7890,7 @@ building_ukn_automachine_assembly_grid_3 = {
 			}
 			has_modifier = mod_ukn_femtomatter_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_femtomatter_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_femtomatter_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -7901,7 +7901,7 @@ building_ukn_automachine_assembly_grid_3 = {
 			}
 			has_modifier = mod_ukn_femtomatter_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_femtomatter_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_femtomatter_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-CONDENSICS] Jobs
@@ -7914,7 +7914,7 @@ building_ukn_automachine_assembly_grid_3 = {
 			}
 			has_modifier = mod_ukn_condensics_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_condensics_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_condensics_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -7925,7 +7925,7 @@ building_ukn_automachine_assembly_grid_3 = {
 			}
 			has_modifier = mod_ukn_condensics_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_condensics_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_condensics_ukn_exotic_particles_effect_desc
 	}
 #----------------------------------------------------
 
@@ -8516,7 +8516,7 @@ building_ukn_automachine_assembly_grid_4 = {
 				has_modifier = mod_ukn_condensics_based_automachine_production
 			}
 		}
-		text = job_ukn_automachine_assembler_alloys_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_alloys_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -8531,7 +8531,7 @@ building_ukn_automachine_assembly_grid_4 = {
 				has_modifier = mod_ukn_condensics_based_automachine_production
 			}
 		}
-		text = job_ukn_automachine_assembly_drone_alloys_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_alloys_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-META-MATERIALS] Jobs
@@ -8544,7 +8544,7 @@ building_ukn_automachine_assembly_grid_4 = {
 			}
 			has_modifier = mod_ukn_meta_materials_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_meta_materials_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_meta_materials_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -8555,7 +8555,7 @@ building_ukn_automachine_assembly_grid_4 = {
 			}
 			has_modifier = mod_ukn_meta_materials_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_meta_materials_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_meta_materials_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-FEMTOMATTER] Jobs
@@ -8568,7 +8568,7 @@ building_ukn_automachine_assembly_grid_4 = {
 			}
 			has_modifier = mod_ukn_femtomatter_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_femtomatter_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_femtomatter_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -8579,7 +8579,7 @@ building_ukn_automachine_assembly_grid_4 = {
 			}
 			has_modifier = mod_ukn_femtomatter_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_femtomatter_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_femtomatter_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-CONDENSICS] Jobs
@@ -8592,7 +8592,7 @@ building_ukn_automachine_assembly_grid_4 = {
 			}
 			has_modifier = mod_ukn_condensics_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_condensics_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_condensics_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -8603,7 +8603,7 @@ building_ukn_automachine_assembly_grid_4 = {
 			}
 			has_modifier = mod_ukn_condensics_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_condensics_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_condensics_ukn_exotic_particles_effect_desc
 	}
 #----------------------------------------------------
 
@@ -9377,7 +9377,7 @@ building_ukn_automachine_assembly_grid_5 = {
 				has_modifier = mod_ukn_condensics_based_automachine_production
 			}
 		}
-		text = job_ukn_automachine_assembler_alloys_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_alloys_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -9392,7 +9392,7 @@ building_ukn_automachine_assembly_grid_5 = {
 				has_modifier = mod_ukn_condensics_based_automachine_production
 			}
 		}
-		text = job_ukn_automachine_assembly_drone_alloys_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_alloys_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-META-MATERIALS] Jobs
@@ -9405,7 +9405,7 @@ building_ukn_automachine_assembly_grid_5 = {
 			}
 			has_modifier = mod_ukn_meta_materials_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_meta_materials_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_meta_materials_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -9416,7 +9416,7 @@ building_ukn_automachine_assembly_grid_5 = {
 			}
 			has_modifier = mod_ukn_meta_materials_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_meta_materials_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_meta_materials_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-FEMTOMATTER] Jobs
@@ -9429,7 +9429,7 @@ building_ukn_automachine_assembly_grid_5 = {
 			}
 			has_modifier = mod_ukn_femtomatter_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_femtomatter_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_femtomatter_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -9440,7 +9440,7 @@ building_ukn_automachine_assembly_grid_5 = {
 			}
 			has_modifier = mod_ukn_femtomatter_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_femtomatter_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_femtomatter_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-CONDENSICS] Jobs
@@ -9453,7 +9453,7 @@ building_ukn_automachine_assembly_grid_5 = {
 			}
 			has_modifier = mod_ukn_condensics_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_condensics_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_condensics_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -9464,7 +9464,7 @@ building_ukn_automachine_assembly_grid_5 = {
 			}
 			has_modifier = mod_ukn_condensics_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_condensics_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_condensics_ukn_exotic_particles_effect_desc
 	}
 #----------------------------------------------------
 
@@ -9588,7 +9588,7 @@ building_ukn_particle_factory_grid_2 = {
 			NOT = { has_building = building_ukn_particle_factory_grid_2 }
 		}
 		modifier = {
-			job_ukn_exotic_particle_producer_add = 1000
+			job_ukn_exotic_particles_producer_add = 1000
 		}
 	}
 #[AI-GESTALT] ==Force Build
@@ -9602,7 +9602,7 @@ building_ukn_particle_factory_grid_2 = {
 			NOT = { has_building = building_ukn_particle_factory_grid_2 }
 		}
 		modifier = {
-			job_ukn_exotic_particle_production_drone_add = 1000
+			job_ukn_exotic_particles_production_drone_add = 1000
 		}
 	}
 #----------------------------------------------------
@@ -9760,7 +9760,7 @@ building_ukn_particle_factory_grid_2 = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
 		}
-		text = upgrade_district_ukn_exotic_particle_factory
+		text = upgrade_district_ukn_exotic_particles_factory
 	}
 
 	triggered_desc = {
@@ -9768,7 +9768,7 @@ building_ukn_particle_factory_grid_2 = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
 		}
-		text = upgrade_district_ukn_hab_exotic_particle_factory
+		text = upgrade_district_ukn_hab_exotic_particles_factory
 	}
 
 	triggered_desc = {
@@ -9776,7 +9776,7 @@ building_ukn_particle_factory_grid_2 = {
 			exists = owner
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 		}
-		text = upgrade_district_ukn_arcology_exotic_particle_factory
+		text = upgrade_district_ukn_arcology_exotic_particles_factory
 	}
 
 	triggered_desc = {
@@ -9784,7 +9784,7 @@ building_ukn_particle_factory_grid_2 = {
 			exists = owner
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 		}
-		text = upgrade_district_ukn_rw_exotic_particle_factory
+		text = upgrade_district_ukn_rw_exotic_particles_factory
 	}
 
 	triggered_desc = {
@@ -9792,7 +9792,7 @@ building_ukn_particle_factory_grid_2 = {
 			exists = owner
 			UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 		}
-		text = upgrade_district_ukn_alderson_exotic_particle_factory
+		text = upgrade_district_ukn_alderson_exotic_particles_factory
 	}
 #----------------------------------------------------
 	
@@ -9803,21 +9803,21 @@ building_ukn_particle_factory_grid_2 = {
 			exists = owner
 			owner = { is_regular_empire = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_default_normal_minerals_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_default_normal_minerals_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_minerals_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_minerals_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_minerals_energy_add
-			planet_chemists_minerals_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_minerals_minerals_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_default_normal_minerals_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_minerals_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_minerals_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_minerals_energy_add
+			planet_ukn_exotic_particles_producers_minerals_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_minerals_minerals_add
 		}
 	}
 	
@@ -9826,15 +9826,15 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_default_normal_alloys_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_default_normal_alloys_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_alloys_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_alloys_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_alloys_energy_add
-			planet_chemists_alloys_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_alloys_alloys_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_default_normal_alloys_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_alloys_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_alloys_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_alloys_energy_add
+			planet_ukn_exotic_particles_producers_alloys_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_alloys_alloys_add
 		}
 	}
 	
@@ -9843,15 +9843,15 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_default_normal_ukn_meta_materials_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_meta_materials_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_meta_materials_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_meta_materials_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_meta_materials_energy_add
-			planet_chemists_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_meta_materials_ukn_meta_materials_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_meta_materials_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_meta_materials_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_meta_materials_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_meta_materials_energy_add
+			planet_ukn_exotic_particles_producers_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_meta_materials_ukn_meta_materials_add
 		}
 	}
 	
@@ -9860,12 +9860,12 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_default_normal_ukn_femtomatter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_femtomatter_volatile_motes_add
-			planet_chemists_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_femtomatter_ukn_femtomatter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_femtomatter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_femtomatter_ukn_femtomatter_add
 		}
 	}
 	
@@ -9874,13 +9874,13 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_default_normal_ukn_condensics_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_condensics_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_condensics_energy_add
-			planet_chemists_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_condensics_ukn_condensics_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_condensics_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_condensics_energy_add
+			planet_ukn_exotic_particles_producers_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_6_default_normal_ukn_condensics_ukn_condensics_add
 		}
 	}
 	
@@ -9891,21 +9891,21 @@ building_ukn_particle_factory_grid_2 = {
 			exists = owner
 			owner = { is_gestalt = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_gestalt_normal_minerals_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_gestalt_normal_minerals_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_minerals_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_minerals_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_minerals_energy_add
-			planet_chemists_minerals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_minerals_minerals_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_gestalt_normal_minerals_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_minerals_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_minerals_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_minerals_energy_add
+			planet_ukn_exotic_particles_producers_minerals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_minerals_minerals_add
 		}
 	}
 	
@@ -9914,15 +9914,15 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_gestalt_normal_alloys_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_gestalt_normal_alloys_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_alloys_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_alloys_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_alloys_energy_add
-			planet_chemists_alloys_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_alloys_alloys_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_gestalt_normal_alloys_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_alloys_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_alloys_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_alloys_energy_add
+			planet_ukn_exotic_particles_producers_alloys_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_alloys_alloys_add
 		}
 	}
 	
@@ -9931,15 +9931,15 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_gestalt_normal_ukn_meta_materials_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_meta_materials_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_meta_materials_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_meta_materials_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_meta_materials_energy_add
-			planet_chemists_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_meta_materials_ukn_meta_materials_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_meta_materials_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_meta_materials_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_meta_materials_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_meta_materials_energy_add
+			planet_ukn_exotic_particles_producers_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_meta_materials_ukn_meta_materials_add
 		}
 	}
 	
@@ -9948,12 +9948,12 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_gestalt_normal_ukn_femtomatter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_femtomatter_volatile_motes_add
-			planet_chemists_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_femtomatter_ukn_femtomatter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_femtomatter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_femtomatter_ukn_femtomatter_add
 		}
 	}
 	
@@ -9962,13 +9962,13 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_gestalt_normal_ukn_condensics_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_condensics_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_condensics_energy_add
-			planet_chemists_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_condensics_ukn_condensics_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_condensics_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_condensics_energy_add
+			planet_ukn_exotic_particles_producers_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_normal_ukn_condensics_ukn_condensics_add
 		}
 	}
 	
@@ -9981,21 +9981,21 @@ building_ukn_particle_factory_grid_2 = {
 			exists = owner
 			owner = { is_regular_empire = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_default_arcology_minerals_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_default_arcology_minerals_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_minerals_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_minerals_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_minerals_energy_add
-			planet_chemists_minerals_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_minerals_minerals_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_default_arcology_minerals_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_minerals_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_minerals_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_minerals_energy_add
+			planet_ukn_exotic_particles_producers_minerals_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_minerals_minerals_add
 		}
 	}
 	
@@ -10004,15 +10004,15 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_default_arcology_alloys_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_default_arcology_alloys_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_alloys_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_alloys_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_alloys_energy_add
-			planet_chemists_alloys_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_alloys_alloys_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_default_arcology_alloys_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_alloys_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_alloys_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_alloys_energy_add
+			planet_ukn_exotic_particles_producers_alloys_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_alloys_alloys_add
 		}
 	}
 	
@@ -10021,15 +10021,15 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_default_arcology_ukn_meta_materials_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_meta_materials_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_meta_materials_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_meta_materials_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_meta_materials_energy_add
-			planet_chemists_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_meta_materials_ukn_meta_materials_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_meta_materials_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_meta_materials_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_meta_materials_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_meta_materials_energy_add
+			planet_ukn_exotic_particles_producers_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_meta_materials_ukn_meta_materials_add
 		}
 	}
 	
@@ -10038,12 +10038,12 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_default_arcology_ukn_femtomatter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_femtomatter_volatile_motes_add
-			planet_chemists_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_femtomatter_ukn_femtomatter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_femtomatter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_femtomatter_ukn_femtomatter_add
 		}
 	}
 	
@@ -10052,13 +10052,13 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_default_arcology_ukn_condensics_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_condensics_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_condensics_energy_add
-			planet_chemists_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_condensics_ukn_condensics_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_condensics_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_condensics_energy_add
+			planet_ukn_exotic_particles_producers_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_6_default_arcology_ukn_condensics_ukn_condensics_add
 		}
 	}
 	
@@ -10069,21 +10069,21 @@ building_ukn_particle_factory_grid_2 = {
 			exists = owner
 			owner = { is_gestalt = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_gestalt_arcology_minerals_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_minerals_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_minerals_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_minerals_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_minerals_energy_add
-			planet_chemists_minerals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_minerals_minerals_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_minerals_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_minerals_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_minerals_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_minerals_energy_add
+			planet_ukn_exotic_particles_producers_minerals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_minerals_minerals_add
 		}
 	}
 	
@@ -10092,15 +10092,15 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_gestalt_arcology_alloys_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_alloys_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_alloys_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_alloys_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_alloys_energy_add
-			planet_chemists_alloys_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_alloys_alloys_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_alloys_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_alloys_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_alloys_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_alloys_energy_add
+			planet_ukn_exotic_particles_producers_alloys_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_alloys_alloys_add
 		}
 	}
 	
@@ -10109,15 +10109,15 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_meta_materials_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_meta_materials_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_meta_materials_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_meta_materials_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_meta_materials_energy_add
-			planet_chemists_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_meta_materials_ukn_meta_materials_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_meta_materials_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_meta_materials_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_meta_materials_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_meta_materials_energy_add
+			planet_ukn_exotic_particles_producers_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_meta_materials_ukn_meta_materials_add
 		}
 	}
 	
@@ -10126,12 +10126,12 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_femtomatter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_femtomatter_volatile_motes_add
-			planet_chemists_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_femtomatter_ukn_femtomatter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_femtomatter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_femtomatter_ukn_femtomatter_add
 		}
 	}
 	
@@ -10140,13 +10140,13 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_condensics_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_condensics_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_condensics_energy_add
-			planet_chemists_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_condensics_ukn_condensics_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_condensics_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_condensics_energy_add
+			planet_ukn_exotic_particles_producers_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_arcology_ukn_condensics_ukn_condensics_add
 		}
 	}
 	
@@ -10159,21 +10159,21 @@ building_ukn_particle_factory_grid_2 = {
 			exists = owner
 			owner = { is_regular_empire = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_default_rw_minerals_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_default_rw_minerals_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_minerals_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_minerals_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_minerals_energy_add
-			planet_chemists_minerals_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_minerals_minerals_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_default_rw_minerals_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_minerals_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_minerals_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_minerals_energy_add
+			planet_ukn_exotic_particles_producers_minerals_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_minerals_minerals_add
 		}
 	}
 	
@@ -10182,15 +10182,15 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_default_rw_alloys_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_default_rw_alloys_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_alloys_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_alloys_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_alloys_energy_add
-			planet_chemists_alloys_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_alloys_alloys_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_default_rw_alloys_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_alloys_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_alloys_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_alloys_energy_add
+			planet_ukn_exotic_particles_producers_alloys_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_alloys_alloys_add
 		}
 	}
 	
@@ -10199,15 +10199,15 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_default_rw_ukn_meta_materials_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_meta_materials_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_meta_materials_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_meta_materials_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_meta_materials_energy_add
-			planet_chemists_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_meta_materials_ukn_meta_materials_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_meta_materials_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_meta_materials_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_meta_materials_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_meta_materials_energy_add
+			planet_ukn_exotic_particles_producers_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_meta_materials_ukn_meta_materials_add
 		}
 	}
 	
@@ -10216,12 +10216,12 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_default_rw_ukn_femtomatter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_femtomatter_volatile_motes_add
-			planet_chemists_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_femtomatter_ukn_femtomatter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_femtomatter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_femtomatter_ukn_femtomatter_add
 		}
 	}
 	
@@ -10230,13 +10230,13 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_default_rw_ukn_condensics_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_condensics_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_condensics_energy_add
-			planet_chemists_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_condensics_ukn_condensics_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_condensics_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_condensics_energy_add
+			planet_ukn_exotic_particles_producers_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_6_default_rw_ukn_condensics_ukn_condensics_add
 		}
 	}
 	
@@ -10247,21 +10247,21 @@ building_ukn_particle_factory_grid_2 = {
 			exists = owner
 			owner = { is_gestalt = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_gestalt_rw_minerals_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_gestalt_rw_minerals_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_minerals_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_minerals_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_minerals_energy_add
-			planet_chemists_minerals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_minerals_minerals_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_gestalt_rw_minerals_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_minerals_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_minerals_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_minerals_energy_add
+			planet_ukn_exotic_particles_producers_minerals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_minerals_minerals_add
 		}
 	}
 	
@@ -10270,15 +10270,15 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_gestalt_rw_alloys_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_gestalt_rw_alloys_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_alloys_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_alloys_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_alloys_energy_add
-			planet_chemists_alloys_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_alloys_alloys_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_gestalt_rw_alloys_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_alloys_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_alloys_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_alloys_energy_add
+			planet_ukn_exotic_particles_producers_alloys_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_alloys_alloys_add
 		}
 	}
 	
@@ -10287,15 +10287,15 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_gestalt_rw_ukn_meta_materials_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_meta_materials_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_meta_materials_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_meta_materials_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_meta_materials_energy_add
-			planet_chemists_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_meta_materials_ukn_meta_materials_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_meta_materials_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_meta_materials_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_meta_materials_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_meta_materials_energy_add
+			planet_ukn_exotic_particles_producers_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_meta_materials_ukn_meta_materials_add
 		}
 	}
 	
@@ -10304,12 +10304,12 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_gestalt_rw_ukn_femtomatter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_femtomatter_volatile_motes_add
-			planet_chemists_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_femtomatter_ukn_femtomatter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_femtomatter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_femtomatter_ukn_femtomatter_add
 		}
 	}
 	
@@ -10318,13 +10318,13 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_6_gestalt_rw_ukn_condensics_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_condensics_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_condensics_energy_add
-			planet_chemists_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_condensics_ukn_condensics_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_condensics_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_condensics_energy_add
+			planet_ukn_exotic_particles_producers_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_6_gestalt_rw_ukn_condensics_ukn_condensics_add
 		}
 	}
 	
@@ -10336,15 +10336,15 @@ building_ukn_particle_factory_grid_2 = {
 			exists = owner
 			owner = { is_regular_empire = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
-		text = job_ukn_exotic_particle_producer_minerals_effect_desc
+		text = job_ukn_exotic_particles_producer_minerals_effect_desc
 	}
 
 	triggered_desc = {
@@ -10352,15 +10352,15 @@ building_ukn_particle_factory_grid_2 = {
 			exists = owner
 			owner = { is_gestalt = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
-		text = job_ukn_exotic_particle_production_drone_minerals_effect_desc
+		text = job_ukn_exotic_particles_production_drone_minerals_effect_desc
 	}
 
 #[POLYMERICS] Jobs
@@ -10368,18 +10368,18 @@ building_ukn_particle_factory_grid_2 = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_alloys_effect_desc
+		text = job_ukn_exotic_particles_producer_alloys_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_alloys_effect_desc
+		text = job_ukn_exotic_particles_production_drone_alloys_effect_desc
 	}
 
 #[META-MATERIALS] Jobs
@@ -10387,18 +10387,18 @@ building_ukn_particle_factory_grid_2 = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_meta_materials_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_meta_materials_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_ukn_meta_materials_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_meta_materials_effect_desc
 	}
 
 #[FEMTOMATTER] Jobs
@@ -10406,18 +10406,18 @@ building_ukn_particle_factory_grid_2 = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_femtomatter_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_femtomatter_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_ukn_femtomatter_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_femtomatter_effect_desc
 	}
 
 #[CONDENSICS] Jobs
@@ -10425,18 +10425,18 @@ building_ukn_particle_factory_grid_2 = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_condensics_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_condensics_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 			}
-		text = job_ukn_exotic_particle_production_drone_ukn_condensics_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_condensics_effect_desc
 	}
 
 #[QUASI-MATTER] Jobs
@@ -10444,18 +10444,18 @@ building_ukn_particle_factory_grid_2 = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+			has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_quasi_matter_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_quasi_matter_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+			has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_ukn_quasi_matter_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_quasi_matter_effect_desc
 	}
 
 #[OSCILLYONS] Jobs
@@ -10463,18 +10463,18 @@ building_ukn_particle_factory_grid_2 = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+			has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_causalitons_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_causalitons_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+			has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_ukn_causalitons_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_causalitons_effect_desc
 	}
 #----------------------------------------------------
 
@@ -10484,7 +10484,7 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_BASIC_DISTRICTS = yes
 		}
 		modifier = {
-			planet_districts_ukn_exotic_particle_factory_cost_mult = 0.50
+			planet_districts_ukn_exotic_particles_factory_cost_mult = 0.50
 		}
 	}
 
@@ -10494,7 +10494,7 @@ building_ukn_particle_factory_grid_2 = {
 			UKN_USES_HABITAT_DISTRICTS = yes
 		}
 		modifier = {
-			planet_districts_ukn_hab_exotic_particle_factory_cost_mult = 0.50
+			planet_districts_ukn_hab_exotic_particles_factory_cost_mult = 0.50
 		}
 	}
 
@@ -10507,7 +10507,7 @@ building_ukn_particle_factory_grid_2 = {
 			}
 		}
 		modifier = {
-			planet_districts_ukn_arcology_exotic_particle_factory_cost_mult = 0.50
+			planet_districts_ukn_arcology_exotic_particles_factory_cost_mult = 0.50
 		}
 	}
 
@@ -10520,13 +10520,13 @@ building_ukn_particle_factory_grid_2 = {
 			}
 		}
 		modifier = {
-			planet_districts_ukn_rw_exotic_particle_factory_cost_mult = 0.50
+			planet_districts_ukn_rw_exotic_particles_factory_cost_mult = 0.50
 		}
 	}
 #----------------------------------------------------
 
 	ai_resource_production = {
-		volatile_motes = 3
+		ukn_exotic_particles = 3
 		trigger = {
 			always = yes
 		}
@@ -10600,7 +10600,7 @@ building_ukn_particle_factory_grid_3 = {
 			NOT = { has_building = building_ukn_particle_factory_grid_3 }
 		}
 		modifier = {
-			job_ukn_exotic_particle_producer_add = 1000
+			job_ukn_exotic_particles_producer_add = 1000
 		}
 	}
 #[AI-GESTALT] ==Force Build
@@ -10614,7 +10614,7 @@ building_ukn_particle_factory_grid_3 = {
 			NOT = { has_building = building_ukn_particle_factory_grid_3 }
 		}
 		modifier = {
-			job_ukn_exotic_particle_production_drone_add = 1000
+			job_ukn_exotic_particles_production_drone_add = 1000
 		}
 	}
 #----------------------------------------------------
@@ -10772,7 +10772,7 @@ building_ukn_particle_factory_grid_3 = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
 		}
-		text = upgrade_district_ukn_exotic_particle_factory
+		text = upgrade_district_ukn_exotic_particles_factory
 	}
 
 	triggered_desc = {
@@ -10780,7 +10780,7 @@ building_ukn_particle_factory_grid_3 = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
 		}
-		text = upgrade_district_ukn_hab_exotic_particle_factory
+		text = upgrade_district_ukn_hab_exotic_particles_factory
 	}
 
 	triggered_desc = {
@@ -10788,7 +10788,7 @@ building_ukn_particle_factory_grid_3 = {
 			exists = owner
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 		}
-		text = upgrade_district_ukn_arcology_exotic_particle_factory
+		text = upgrade_district_ukn_arcology_exotic_particles_factory
 	}
 
 	triggered_desc = {
@@ -10796,7 +10796,7 @@ building_ukn_particle_factory_grid_3 = {
 			exists = owner
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 		}
-		text = upgrade_district_ukn_rw_exotic_particle_factory
+		text = upgrade_district_ukn_rw_exotic_particles_factory
 	}
 
 	triggered_desc = {
@@ -10804,7 +10804,7 @@ building_ukn_particle_factory_grid_3 = {
 			exists = owner
 			UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 		}
-		text = upgrade_district_ukn_alderson_exotic_particle_factory
+		text = upgrade_district_ukn_alderson_exotic_particles_factory
 	}
 #----------------------------------------------------
 	
@@ -10815,21 +10815,21 @@ building_ukn_particle_factory_grid_3 = {
 			exists = owner
 			owner = { is_regular_empire = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_normal_minerals_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_normal_minerals_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_minerals_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_minerals_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_minerals_energy_add
-			planet_chemists_minerals_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_minerals_minerals_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_normal_minerals_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_minerals_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_minerals_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_minerals_energy_add
+			planet_ukn_exotic_particles_producers_minerals_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_minerals_minerals_add
 		}
 	}
 	
@@ -10838,15 +10838,15 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_normal_alloys_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_normal_alloys_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_alloys_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_alloys_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_alloys_energy_add
-			planet_chemists_alloys_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_alloys_alloys_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_normal_alloys_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_alloys_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_alloys_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_alloys_energy_add
+			planet_ukn_exotic_particles_producers_alloys_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_alloys_alloys_add
 		}
 	}
 	
@@ -10855,15 +10855,15 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_normal_ukn_meta_materials_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_meta_materials_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_meta_materials_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_meta_materials_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_meta_materials_energy_add
-			planet_chemists_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_meta_materials_ukn_meta_materials_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_meta_materials_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_meta_materials_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_meta_materials_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_meta_materials_energy_add
+			planet_ukn_exotic_particles_producers_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_meta_materials_ukn_meta_materials_add
 		}
 	}
 	
@@ -10872,12 +10872,12 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_normal_ukn_femtomatter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_femtomatter_volatile_motes_add
-			planet_chemists_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_femtomatter_ukn_femtomatter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_femtomatter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_femtomatter_ukn_femtomatter_add
 		}
 	}
 	
@@ -10886,13 +10886,13 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_normal_ukn_condensics_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_condensics_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_condensics_energy_add
-			planet_chemists_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_condensics_ukn_condensics_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_condensics_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_condensics_energy_add
+			planet_ukn_exotic_particles_producers_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_condensics_ukn_condensics_add
 		}
 	}
 	
@@ -10901,13 +10901,13 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+			has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_normal_ukn_quasi_matter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_quasi_matter_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_quasi_matter_energy_add
-			planet_chemists_ukn_quasi_matter_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_quasi_matter_ukn_quasi_matter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_quasi_matter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_quasi_matter_energy_add
+			planet_ukn_exotic_particles_producers_ukn_quasi_matter_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_quasi_matter_ukn_quasi_matter_add
 		}
 	}
 	
@@ -10916,14 +10916,14 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+			has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_normal_ukn_causalitons_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_causalitons_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_causalitons_energy_add
-			planet_chemists_ehof_sr_negative_mass_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_causalitons_ehof_sr_negative_mass_add
-			planet_chemists_ukn_causalitons_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_causalitons_ukn_causalitons_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_causalitons_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_causalitons_energy_add
+			planet_ukn_exotic_particles_producers_ehof_sr_negative_mass_produces_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_causalitons_ehof_sr_negative_mass_add
+			planet_ukn_exotic_particles_producers_ukn_causalitons_upkeep_add = @building_ukn_particle_factory_grid_7_default_normal_ukn_causalitons_ukn_causalitons_add
 		}
 	}
 	
@@ -10934,21 +10934,21 @@ building_ukn_particle_factory_grid_3 = {
 			exists = owner
 			owner = { is_gestalt = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_normal_minerals_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_minerals_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_minerals_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_minerals_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_minerals_energy_add
-			planet_chemists_minerals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_minerals_minerals_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_minerals_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_minerals_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_minerals_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_minerals_energy_add
+			planet_ukn_exotic_particles_producers_minerals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_minerals_minerals_add
 		}
 	}
 	
@@ -10957,15 +10957,15 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_normal_alloys_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_alloys_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_alloys_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_alloys_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_alloys_energy_add
-			planet_chemists_alloys_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_alloys_alloys_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_alloys_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_alloys_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_alloys_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_alloys_energy_add
+			planet_ukn_exotic_particles_producers_alloys_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_alloys_alloys_add
 		}
 	}
 	
@@ -10974,15 +10974,15 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_normal_ukn_meta_materials_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_meta_materials_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_meta_materials_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_meta_materials_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_meta_materials_energy_add
-			planet_chemists_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_meta_materials_ukn_meta_materials_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_meta_materials_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_meta_materials_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_meta_materials_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_meta_materials_energy_add
+			planet_ukn_exotic_particles_producers_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_meta_materials_ukn_meta_materials_add
 		}
 	}
 	
@@ -10991,12 +10991,12 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_normal_ukn_femtomatter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_femtomatter_volatile_motes_add
-			planet_chemists_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_femtomatter_ukn_femtomatter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_femtomatter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_femtomatter_ukn_femtomatter_add
 		}
 	}
 	
@@ -11005,13 +11005,13 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_normal_ukn_condensics_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_condensics_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_condensics_energy_add
-			planet_chemists_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_condensics_ukn_condensics_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_condensics_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_condensics_energy_add
+			planet_ukn_exotic_particles_producers_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_condensics_ukn_condensics_add
 		}
 	}
 	
@@ -11020,13 +11020,13 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+			has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_normal_ukn_quasi_matter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_quasi_matter_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_quasi_matter_energy_add
-			planet_chemists_ukn_quasi_matter_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_quasi_matter_ukn_quasi_matter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_quasi_matter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_quasi_matter_energy_add
+			planet_ukn_exotic_particles_producers_ukn_quasi_matter_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_quasi_matter_ukn_quasi_matter_add
 		}
 	}
 	
@@ -11035,14 +11035,14 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+			has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_normal_ukn_causalitons_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_causalitons_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_causalitons_energy_add
-			planet_chemists_ehof_sr_negative_mass_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_causalitons_ehof_sr_negative_mass_add
-			planet_chemists_ukn_causalitons_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_causalitons_ukn_causalitons_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_causalitons_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_causalitons_energy_add
+			planet_ukn_exotic_particles_producers_ehof_sr_negative_mass_produces_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_causalitons_ehof_sr_negative_mass_add
+			planet_ukn_exotic_particles_producers_ukn_causalitons_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_normal_ukn_causalitons_ukn_causalitons_add
 		}
 	}
 	
@@ -11055,21 +11055,21 @@ building_ukn_particle_factory_grid_3 = {
 			exists = owner
 			owner = { is_regular_empire = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_arcology_minerals_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_minerals_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_minerals_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_minerals_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_minerals_energy_add
-			planet_chemists_minerals_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_minerals_minerals_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_minerals_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_minerals_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_minerals_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_minerals_energy_add
+			planet_ukn_exotic_particles_producers_minerals_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_minerals_minerals_add
 		}
 	}
 	
@@ -11078,15 +11078,15 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_arcology_alloys_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_alloys_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_alloys_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_alloys_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_alloys_energy_add
-			planet_chemists_alloys_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_alloys_alloys_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_alloys_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_alloys_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_alloys_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_alloys_energy_add
+			planet_ukn_exotic_particles_producers_alloys_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_alloys_alloys_add
 		}
 	}
 	
@@ -11095,15 +11095,15 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_arcology_ukn_meta_materials_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_meta_materials_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_meta_materials_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_meta_materials_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_meta_materials_energy_add
-			planet_chemists_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_meta_materials_ukn_meta_materials_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_meta_materials_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_meta_materials_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_meta_materials_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_meta_materials_energy_add
+			planet_ukn_exotic_particles_producers_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_meta_materials_ukn_meta_materials_add
 		}
 	}
 	
@@ -11112,12 +11112,12 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_arcology_ukn_femtomatter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_femtomatter_volatile_motes_add
-			planet_chemists_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_femtomatter_ukn_femtomatter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_femtomatter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_femtomatter_ukn_femtomatter_add
 		}
 	}
 	
@@ -11126,13 +11126,13 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_arcology_ukn_condensics_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_condensics_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_condensics_energy_add
-			planet_chemists_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_condensics_ukn_condensics_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_condensics_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_condensics_energy_add
+			planet_ukn_exotic_particles_producers_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_condensics_ukn_condensics_add
 		}
 	}
 	
@@ -11141,13 +11141,13 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+			has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_arcology_ukn_quasi_matter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_quasi_matter_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_quasi_matter_energy_add
-			planet_chemists_ukn_quasi_matter_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_quasi_matter_ukn_quasi_matter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_quasi_matter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_quasi_matter_energy_add
+			planet_ukn_exotic_particles_producers_ukn_quasi_matter_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_quasi_matter_ukn_quasi_matter_add
 		}
 	}
 	
@@ -11156,14 +11156,14 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+			has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_arcology_ukn_causalitons_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_causalitons_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_causalitons_energy_add
-			planet_chemists_ehof_sr_negative_mass_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_causalitons_ehof_sr_negative_mass_add
-			planet_chemists_ukn_causalitons_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_causalitons_ukn_causalitons_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_causalitons_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_causalitons_energy_add
+			planet_ukn_exotic_particles_producers_ehof_sr_negative_mass_produces_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_causalitons_ehof_sr_negative_mass_add
+			planet_ukn_exotic_particles_producers_ukn_causalitons_upkeep_add = @building_ukn_particle_factory_grid_7_default_arcology_ukn_causalitons_ukn_causalitons_add
 		}
 	}
 	
@@ -11174,21 +11174,21 @@ building_ukn_particle_factory_grid_3 = {
 			exists = owner
 			owner = { is_gestalt = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_arcology_minerals_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_minerals_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_minerals_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_minerals_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_minerals_energy_add
-			planet_chemists_minerals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_minerals_minerals_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_minerals_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_minerals_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_minerals_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_minerals_energy_add
+			planet_ukn_exotic_particles_producers_minerals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_minerals_minerals_add
 		}
 	}
 	
@@ -11197,15 +11197,15 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_arcology_alloys_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_alloys_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_alloys_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_alloys_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_alloys_energy_add
-			planet_chemists_alloys_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_alloys_alloys_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_alloys_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_alloys_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_alloys_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_alloys_energy_add
+			planet_ukn_exotic_particles_producers_alloys_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_alloys_alloys_add
 		}
 	}
 	
@@ -11214,15 +11214,15 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_meta_materials_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_meta_materials_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_meta_materials_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_meta_materials_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_meta_materials_energy_add
-			planet_chemists_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_meta_materials_ukn_meta_materials_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_meta_materials_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_meta_materials_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_meta_materials_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_meta_materials_energy_add
+			planet_ukn_exotic_particles_producers_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_meta_materials_ukn_meta_materials_add
 		}
 	}
 	
@@ -11231,12 +11231,12 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_femtomatter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_femtomatter_volatile_motes_add
-			planet_chemists_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_femtomatter_ukn_femtomatter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_femtomatter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_femtomatter_ukn_femtomatter_add
 		}
 	}
 	
@@ -11245,13 +11245,13 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_condensics_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_condensics_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_condensics_energy_add
-			planet_chemists_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_condensics_ukn_condensics_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_condensics_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_condensics_energy_add
+			planet_ukn_exotic_particles_producers_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_condensics_ukn_condensics_add
 		}
 	}
 	
@@ -11260,13 +11260,13 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+			has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_quasi_matter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_quasi_matter_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_quasi_matter_energy_add
-			planet_chemists_ukn_quasi_matter_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_quasi_matter_ukn_quasi_matter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_quasi_matter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_quasi_matter_energy_add
+			planet_ukn_exotic_particles_producers_ukn_quasi_matter_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_quasi_matter_ukn_quasi_matter_add
 		}
 	}
 	
@@ -11275,14 +11275,14 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+			has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_causalitons_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_causalitons_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_causalitons_energy_add
-			planet_chemists_ehof_sr_negative_mass_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_causalitons_ehof_sr_negative_mass_add
-			planet_chemists_ukn_causalitons_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_causalitons_ukn_causalitons_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_causalitons_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_causalitons_energy_add
+			planet_ukn_exotic_particles_producers_ehof_sr_negative_mass_produces_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_causalitons_ehof_sr_negative_mass_add
+			planet_ukn_exotic_particles_producers_ukn_causalitons_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_arcology_ukn_causalitons_ukn_causalitons_add
 		}
 	}
 	
@@ -11295,21 +11295,21 @@ building_ukn_particle_factory_grid_3 = {
 			exists = owner
 			owner = { is_regular_empire = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_rw_minerals_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_rw_minerals_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_minerals_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_minerals_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_minerals_energy_add
-			planet_chemists_minerals_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_minerals_minerals_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_rw_minerals_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_minerals_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_minerals_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_minerals_energy_add
+			planet_ukn_exotic_particles_producers_minerals_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_minerals_minerals_add
 		}
 	}
 	
@@ -11318,15 +11318,15 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_rw_alloys_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_rw_alloys_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_alloys_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_alloys_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_alloys_energy_add
-			planet_chemists_alloys_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_alloys_alloys_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_rw_alloys_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_alloys_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_alloys_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_alloys_energy_add
+			planet_ukn_exotic_particles_producers_alloys_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_alloys_alloys_add
 		}
 	}
 	
@@ -11335,15 +11335,15 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_rw_ukn_meta_materials_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_meta_materials_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_meta_materials_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_meta_materials_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_meta_materials_energy_add
-			planet_chemists_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_meta_materials_ukn_meta_materials_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_meta_materials_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_meta_materials_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_meta_materials_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_meta_materials_energy_add
+			planet_ukn_exotic_particles_producers_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_meta_materials_ukn_meta_materials_add
 		}
 	}
 	
@@ -11352,12 +11352,12 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_rw_ukn_femtomatter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_femtomatter_volatile_motes_add
-			planet_chemists_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_femtomatter_ukn_femtomatter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_femtomatter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_femtomatter_ukn_femtomatter_add
 		}
 	}
 	
@@ -11366,13 +11366,13 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_rw_ukn_condensics_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_condensics_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_condensics_energy_add
-			planet_chemists_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_condensics_ukn_condensics_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_condensics_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_condensics_energy_add
+			planet_ukn_exotic_particles_producers_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_condensics_ukn_condensics_add
 		}
 	}
 	
@@ -11381,13 +11381,13 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+			has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_rw_ukn_quasi_matter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_quasi_matter_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_quasi_matter_energy_add
-			planet_chemists_ukn_quasi_matter_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_quasi_matter_ukn_quasi_matter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_quasi_matter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_quasi_matter_energy_add
+			planet_ukn_exotic_particles_producers_ukn_quasi_matter_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_quasi_matter_ukn_quasi_matter_add
 		}
 	}
 	
@@ -11396,14 +11396,14 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+			has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_default_rw_ukn_causalitons_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_causalitons_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_causalitons_energy_add
-			planet_chemists_ehof_sr_negative_mass_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_causalitons_ehof_sr_negative_mass_add
-			planet_chemists_ukn_causalitons_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_causalitons_ukn_causalitons_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_causalitons_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_causalitons_energy_add
+			planet_ukn_exotic_particles_producers_ehof_sr_negative_mass_produces_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_causalitons_ehof_sr_negative_mass_add
+			planet_ukn_exotic_particles_producers_ukn_causalitons_upkeep_add = @building_ukn_particle_factory_grid_7_default_rw_ukn_causalitons_ukn_causalitons_add
 		}
 	}
 	
@@ -11414,21 +11414,21 @@ building_ukn_particle_factory_grid_3 = {
 			exists = owner
 			owner = { is_gestalt = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_rw_minerals_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_minerals_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_minerals_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_minerals_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_minerals_energy_add
-			planet_chemists_minerals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_minerals_minerals_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_minerals_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_minerals_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_minerals_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_minerals_energy_add
+			planet_ukn_exotic_particles_producers_minerals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_minerals_minerals_add
 		}
 	}
 	
@@ -11437,15 +11437,15 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_rw_alloys_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_alloys_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_alloys_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_alloys_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_alloys_energy_add
-			planet_chemists_alloys_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_alloys_alloys_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_alloys_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_alloys_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_alloys_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_alloys_energy_add
+			planet_ukn_exotic_particles_producers_alloys_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_alloys_alloys_add
 		}
 	}
 	
@@ -11454,15 +11454,15 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_rw_ukn_meta_materials_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_meta_materials_volatile_motes_add
-			planet_chemists_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_meta_materials_exotic_gases_add
-			planet_chemists_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_meta_materials_rare_crystals_add
-			planet_chemists_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_meta_materials_energy_add
-			planet_chemists_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_meta_materials_ukn_meta_materials_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_meta_materials_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_exotic_gases_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_meta_materials_exotic_gases_add
+			planet_ukn_exotic_particles_producers_rare_crystals_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_meta_materials_rare_crystals_add
+			planet_ukn_exotic_particles_producers_energy_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_meta_materials_energy_add
+			planet_ukn_exotic_particles_producers_ukn_meta_materials_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_meta_materials_ukn_meta_materials_add
 		}
 	}
 	
@@ -11471,12 +11471,12 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_rw_ukn_femtomatter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_femtomatter_volatile_motes_add
-			planet_chemists_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_femtomatter_ukn_femtomatter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_femtomatter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_ukn_femtomatter_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_femtomatter_ukn_femtomatter_add
 		}
 	}
 	
@@ -11485,13 +11485,13 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_rw_ukn_condensics_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_condensics_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_condensics_energy_add
-			planet_chemists_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_condensics_ukn_condensics_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_condensics_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_condensics_energy_add
+			planet_ukn_exotic_particles_producers_ukn_condensics_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_condensics_ukn_condensics_add
 		}
 	}
 	
@@ -11500,13 +11500,13 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+			has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_rw_ukn_quasi_matter_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_quasi_matter_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_quasi_matter_energy_add
-			planet_chemists_ukn_quasi_matter_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_quasi_matter_ukn_quasi_matter_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_quasi_matter_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_quasi_matter_energy_add
+			planet_ukn_exotic_particles_producers_ukn_quasi_matter_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_quasi_matter_ukn_quasi_matter_add
 		}
 	}
 	
@@ -11515,14 +11515,14 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+			has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_particle_factory_grid_7_gestalt_rw_ukn_causalitons_effect_desc
-			planet_chemists_volatile_motes_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_causalitons_volatile_motes_add
-			planet_chemists_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_causalitons_energy_add
-			planet_chemists_ehof_sr_negative_mass_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_causalitons_ehof_sr_negative_mass_add
-			planet_chemists_ukn_causalitons_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_causalitons_ukn_causalitons_add
+			planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_causalitons_ukn_exotic_particles_add
+			planet_ukn_exotic_particles_producers_energy_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_causalitons_energy_add
+			planet_ukn_exotic_particles_producers_ehof_sr_negative_mass_produces_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_causalitons_ehof_sr_negative_mass_add
+			planet_ukn_exotic_particles_producers_ukn_causalitons_upkeep_add = @building_ukn_particle_factory_grid_7_gestalt_rw_ukn_causalitons_ukn_causalitons_add
 		}
 	}
 	
@@ -11534,15 +11534,15 @@ building_ukn_particle_factory_grid_3 = {
 			exists = owner
 			owner = { is_regular_empire = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
-		text = job_ukn_exotic_particle_producer_minerals_effect_desc
+		text = job_ukn_exotic_particles_producer_minerals_effect_desc
 	}
 
 	triggered_desc = {
@@ -11550,15 +11550,15 @@ building_ukn_particle_factory_grid_3 = {
 			exists = owner
 			owner = { is_gestalt = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
-		text = job_ukn_exotic_particle_production_drone_minerals_effect_desc
+		text = job_ukn_exotic_particles_production_drone_minerals_effect_desc
 	}
 
 #[POLYMERICS] Jobs
@@ -11566,18 +11566,18 @@ building_ukn_particle_factory_grid_3 = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_alloys_effect_desc
+		text = job_ukn_exotic_particles_producer_alloys_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_alloys_effect_desc
+		text = job_ukn_exotic_particles_production_drone_alloys_effect_desc
 	}
 
 #[META-MATERIALS] Jobs
@@ -11585,18 +11585,18 @@ building_ukn_particle_factory_grid_3 = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_meta_materials_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_meta_materials_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_ukn_meta_materials_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_meta_materials_effect_desc
 	}
 
 #[FEMTOMATTER] Jobs
@@ -11604,18 +11604,18 @@ building_ukn_particle_factory_grid_3 = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_femtomatter_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_femtomatter_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_ukn_femtomatter_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_femtomatter_effect_desc
 	}
 
 #[CONDENSICS] Jobs
@@ -11623,18 +11623,18 @@ building_ukn_particle_factory_grid_3 = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_condensics_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_condensics_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 			}
-		text = job_ukn_exotic_particle_production_drone_ukn_condensics_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_condensics_effect_desc
 	}
 
 #[QUASI-MATTER] Jobs
@@ -11642,18 +11642,18 @@ building_ukn_particle_factory_grid_3 = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+			has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_quasi_matter_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_quasi_matter_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+			has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_ukn_quasi_matter_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_quasi_matter_effect_desc
 	}
 
 #[OSCILLYONS] Jobs
@@ -11661,18 +11661,18 @@ building_ukn_particle_factory_grid_3 = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+			has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_causalitons_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_causalitons_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+			has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_ukn_causalitons_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_causalitons_effect_desc
 	}
 #----------------------------------------------------
 
@@ -11682,7 +11682,7 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_BASIC_DISTRICTS = yes
 		}
 		modifier = {
-			planet_districts_ukn_exotic_particle_factory_cost_mult = 1.00
+			planet_districts_ukn_exotic_particles_factory_cost_mult = 1.00
 		}
 	}
 
@@ -11692,7 +11692,7 @@ building_ukn_particle_factory_grid_3 = {
 			UKN_USES_HABITAT_DISTRICTS = yes
 		}
 		modifier = {
-			planet_districts_ukn_hab_exotic_particle_factory_cost_mult = 1.00
+			planet_districts_ukn_hab_exotic_particles_factory_cost_mult = 1.00
 		}
 	}
 
@@ -11705,7 +11705,7 @@ building_ukn_particle_factory_grid_3 = {
 			}
 		}
 		modifier = {
-			planet_districts_ukn_arcology_exotic_particle_factory_cost_mult = 1.00
+			planet_districts_ukn_arcology_exotic_particles_factory_cost_mult = 1.00
 		}
 	}
 
@@ -11718,13 +11718,13 @@ building_ukn_particle_factory_grid_3 = {
 			}
 		}
 		modifier = {
-			planet_districts_ukn_rw_exotic_particle_factory_cost_mult = 1.00
+			planet_districts_ukn_rw_exotic_particles_factory_cost_mult = 1.00
 		}
 	}
 #-------------------------------------
 
 	ai_resource_production = {
-		volatile_motes = 3
+		ukn_exotic_particles = 3
 		trigger = {
 			always = yes
 		}
@@ -12420,7 +12420,7 @@ building_ukn_femtomatter_replication_grid_2 = {
 #			custom_tooltip = building_ukn_femtomatter_replication_grid_6_default_effect_desc
 			planet_ukn_femtomatter_micro_replicators_energy_produces_add = @building_ukn_femtomatter_replication_grid_6_default_arcology_energy_add
 			planet_ukn_femtomatter_micro_replicators_ukn_femtomatter_produces_add = @building_ukn_femtomatter_replication_grid_6_default_arcology_ukn_femtomatter_add
-			planet_ukn_femtomatter_micro_replicators_volatile_motes_upkeep_add = @building_ukn_femtomatter_replication_grid_6_default_arcology_volatile_motes_add
+			planet_ukn_femtomatter_micro_replicators_ukn_exotic_particles_upkeep_add = @building_ukn_femtomatter_replication_grid_6_default_arcology_ukn_exotic_particles_add
 			planet_ukn_femtomatter_micro_replicators_minerals_upkeep_add = @building_ukn_femtomatter_replication_grid_6_default_arcology_minerals_add
 		}
 	}
@@ -12436,7 +12436,7 @@ building_ukn_femtomatter_replication_grid_2 = {
 #			custom_tooltip = building_ukn_femtomatter_replication_grid_6_gestalt_effect_desc
 			planet_ukn_femtomatter_micro_replicators_energy_produces_add = @building_ukn_femtomatter_replication_grid_6_gestalt_arcology_energy_add
 			planet_ukn_femtomatter_micro_replicators_ukn_femtomatter_produces_add = @building_ukn_femtomatter_replication_grid_6_gestalt_arcology_ukn_femtomatter_add
-			planet_ukn_femtomatter_micro_replicators_volatile_motes_upkeep_add = @building_ukn_femtomatter_replication_grid_6_gestalt_arcology_volatile_motes_add
+			planet_ukn_femtomatter_micro_replicators_ukn_exotic_particles_upkeep_add = @building_ukn_femtomatter_replication_grid_6_gestalt_arcology_ukn_exotic_particles_add
 			planet_ukn_femtomatter_micro_replicators_minerals_upkeep_add = @building_ukn_femtomatter_replication_grid_6_gestalt_arcology_minerals_add
 		}
 	}
@@ -12454,7 +12454,7 @@ building_ukn_femtomatter_replication_grid_2 = {
 #			custom_tooltip = building_ukn_femtomatter_replication_grid_6_default_effect_desc
 			planet_ukn_femtomatter_micro_replicators_energy_produces_add = @building_ukn_femtomatter_replication_grid_6_default_rw_energy_add
 			planet_ukn_femtomatter_micro_replicators_ukn_femtomatter_produces_add = @building_ukn_femtomatter_replication_grid_6_default_rw_ukn_femtomatter_add
-			planet_ukn_femtomatter_micro_replicators_volatile_motes_upkeep_add = @building_ukn_femtomatter_replication_grid_6_default_rw_volatile_motes_add
+			planet_ukn_femtomatter_micro_replicators_ukn_exotic_particles_upkeep_add = @building_ukn_femtomatter_replication_grid_6_default_rw_ukn_exotic_particles_add
 			planet_ukn_femtomatter_micro_replicators_minerals_upkeep_add = @building_ukn_femtomatter_replication_grid_6_default_rw_minerals_add
 		}
 	}
@@ -12470,7 +12470,7 @@ building_ukn_femtomatter_replication_grid_2 = {
 #			custom_tooltip = building_ukn_femtomatter_replication_grid_6_gestalt_effect_desc
 			planet_ukn_femtomatter_micro_replicators_energy_produces_add = @building_ukn_femtomatter_replication_grid_6_gestalt_rw_energy_add
 			planet_ukn_femtomatter_micro_replicators_ukn_femtomatter_produces_add = @building_ukn_femtomatter_replication_grid_6_gestalt_rw_ukn_femtomatter_add
-			planet_ukn_femtomatter_micro_replicators_volatile_motes_upkeep_add = @building_ukn_femtomatter_replication_grid_6_gestalt_rw_volatile_motes_add
+			planet_ukn_femtomatter_micro_replicators_ukn_exotic_particles_upkeep_add = @building_ukn_femtomatter_replication_grid_6_gestalt_rw_ukn_exotic_particles_add
 			planet_ukn_femtomatter_micro_replicators_minerals_upkeep_add = @building_ukn_femtomatter_replication_grid_6_gestalt_rw_minerals_add
 		}
 	}
@@ -12933,7 +12933,7 @@ building_ukn_femtomatter_replication_grid_3 = {
 #			custom_tooltip = building_ukn_femtomatter_replication_grid_7_default_effect_desc
 			planet_ukn_femtomatter_micro_replicators_energy_produces_add = @building_ukn_femtomatter_replication_grid_7_default_arcology_energy_add
 			planet_ukn_femtomatter_micro_replicators_ukn_femtomatter_produces_add = @building_ukn_femtomatter_replication_grid_7_default_arcology_ukn_femtomatter_add
-			planet_ukn_femtomatter_micro_replicators_volatile_motes_upkeep_add = @building_ukn_femtomatter_replication_grid_7_default_arcology_volatile_motes_add
+			planet_ukn_femtomatter_micro_replicators_ukn_exotic_particles_upkeep_add = @building_ukn_femtomatter_replication_grid_7_default_arcology_ukn_exotic_particles_add
 			planet_ukn_femtomatter_micro_replicators_minerals_upkeep_add = @building_ukn_femtomatter_replication_grid_7_default_arcology_minerals_add
 		}
 	}
@@ -12949,7 +12949,7 @@ building_ukn_femtomatter_replication_grid_3 = {
 #			custom_tooltip = building_ukn_femtomatter_replication_grid_7_gestalt_effect_desc
 			planet_ukn_femtomatter_micro_replicators_energy_produces_add = @building_ukn_femtomatter_replication_grid_7_gestalt_arcology_energy_add
 			planet_ukn_femtomatter_micro_replicators_ukn_femtomatter_produces_add = @building_ukn_femtomatter_replication_grid_7_gestalt_arcology_ukn_femtomatter_add
-			planet_ukn_femtomatter_micro_replicators_volatile_motes_upkeep_add = @building_ukn_femtomatter_replication_grid_7_gestalt_arcology_volatile_motes_add
+			planet_ukn_femtomatter_micro_replicators_ukn_exotic_particles_upkeep_add = @building_ukn_femtomatter_replication_grid_7_gestalt_arcology_ukn_exotic_particles_add
 			planet_ukn_femtomatter_micro_replicators_minerals_upkeep_add = @building_ukn_femtomatter_replication_grid_7_gestalt_arcology_minerals_add
 		}
 	}
@@ -12967,7 +12967,7 @@ building_ukn_femtomatter_replication_grid_3 = {
 #			custom_tooltip = building_ukn_femtomatter_replication_grid_7_default_effect_desc
 			planet_ukn_femtomatter_micro_replicators_energy_produces_add = @building_ukn_femtomatter_replication_grid_7_default_rw_energy_add
 			planet_ukn_femtomatter_micro_replicators_ukn_femtomatter_produces_add = @building_ukn_femtomatter_replication_grid_7_default_rw_ukn_femtomatter_add
-			planet_ukn_femtomatter_micro_replicators_volatile_motes_upkeep_add = @building_ukn_femtomatter_replication_grid_7_default_rw_volatile_motes_add
+			planet_ukn_femtomatter_micro_replicators_ukn_exotic_particles_upkeep_add = @building_ukn_femtomatter_replication_grid_7_default_rw_ukn_exotic_particles_add
 			planet_ukn_femtomatter_micro_replicators_minerals_upkeep_add = @building_ukn_femtomatter_replication_grid_7_default_rw_minerals_add
 		}
 	}
@@ -12983,7 +12983,7 @@ building_ukn_femtomatter_replication_grid_3 = {
 #			custom_tooltip = building_ukn_femtomatter_replication_grid_7_gestalt_effect_desc
 			planet_ukn_femtomatter_micro_replicators_energy_produces_add = @building_ukn_femtomatter_replication_grid_7_gestalt_rw_energy_add
 			planet_ukn_femtomatter_micro_replicators_ukn_femtomatter_produces_add = @building_ukn_femtomatter_replication_grid_7_gestalt_rw_ukn_femtomatter_add
-			planet_ukn_femtomatter_micro_replicators_volatile_motes_upkeep_add = @building_ukn_femtomatter_replication_grid_7_gestalt_rw_volatile_motes_add
+			planet_ukn_femtomatter_micro_replicators_ukn_exotic_particles_upkeep_add = @building_ukn_femtomatter_replication_grid_7_gestalt_rw_ukn_exotic_particles_add
 			planet_ukn_femtomatter_micro_replicators_minerals_upkeep_add = @building_ukn_femtomatter_replication_grid_7_gestalt_rw_minerals_add
 		}
 	}
@@ -13620,7 +13620,7 @@ building_ukn_condensics_compositation_grid_2 = {
 		modifier = {
 #			custom_tooltip = building_ukn_condensics_compositation_grid_7_default_effect_desc
 			planet_ukn_condensics_compositors_ukn_condensics_produces_add = @building_ukn_condensics_compositation_grid_7_default_arcology_ukn_condensics_add
-			planet_ukn_condensics_compositors_volatile_motes_upkeep_add = @building_ukn_condensics_compositation_grid_7_default_arcology_volatile_motes_add
+			planet_ukn_condensics_compositors_ukn_exotic_particles_upkeep_add = @building_ukn_condensics_compositation_grid_7_default_arcology_ukn_exotic_particles_add
 			planet_ukn_condensics_compositors_energy_upkeep_add = @building_ukn_condensics_compositation_grid_7_default_arcology_energy_add
 		}
 	}
@@ -13635,7 +13635,7 @@ building_ukn_condensics_compositation_grid_2 = {
 		modifier = {
 #			custom_tooltip = building_ukn_condensics_compositation_grid_7_gestalt_effect_desc
 			planet_ukn_condensics_compositors_ukn_condensics_produces_add = @building_ukn_condensics_compositation_grid_7_gestalt_arcology_ukn_condensics_add
-			planet_ukn_condensics_compositors_volatile_motes_upkeep_add = @building_ukn_condensics_compositation_grid_7_gestalt_arcology_volatile_motes_add
+			planet_ukn_condensics_compositors_ukn_exotic_particles_upkeep_add = @building_ukn_condensics_compositation_grid_7_gestalt_arcology_ukn_exotic_particles_add
 			planet_ukn_condensics_compositors_energy_upkeep_add = @building_ukn_condensics_compositation_grid_7_gestalt_arcology_energy_add
 		}
 	}
@@ -13652,7 +13652,7 @@ building_ukn_condensics_compositation_grid_2 = {
 		modifier = {
 #			custom_tooltip = building_ukn_condensics_compositation_grid_7_default_effect_desc
 			planet_ukn_condensics_compositors_ukn_condensics_produces_add = @building_ukn_condensics_compositation_grid_7_default_rw_ukn_condensics_add
-			planet_ukn_condensics_compositors_volatile_motes_upkeep_add = @building_ukn_condensics_compositation_grid_7_default_rw_volatile_motes_add
+			planet_ukn_condensics_compositors_ukn_exotic_particles_upkeep_add = @building_ukn_condensics_compositation_grid_7_default_rw_ukn_exotic_particles_add
 			planet_ukn_condensics_compositors_energy_upkeep_add = @building_ukn_condensics_compositation_grid_7_default_rw_energy_add
 		}
 	}
@@ -13667,7 +13667,7 @@ building_ukn_condensics_compositation_grid_2 = {
 		modifier = {
 #			custom_tooltip = building_ukn_condensics_compositation_grid_7_gestalt_effect_desc
 			planet_ukn_condensics_compositors_ukn_condensics_produces_add = @building_ukn_condensics_compositation_grid_7_gestalt_rw_ukn_condensics_add
-			planet_ukn_condensics_compositors_volatile_motes_upkeep_add = @building_ukn_condensics_compositation_grid_7_gestalt_rw_volatile_motes_add
+			planet_ukn_condensics_compositors_ukn_exotic_particles_upkeep_add = @building_ukn_condensics_compositation_grid_7_gestalt_rw_ukn_exotic_particles_add
 			planet_ukn_condensics_compositors_energy_upkeep_add = @building_ukn_condensics_compositation_grid_7_gestalt_rw_energy_add
 		}
 	}

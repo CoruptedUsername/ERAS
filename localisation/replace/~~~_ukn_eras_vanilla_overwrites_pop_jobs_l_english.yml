@@ -189,13 +189,13 @@
    
 # EXOTIC PARTICLES [MOTES] #---------------------------------------------------------
   
- job_chemist_effect_desc:0 "$UKN_JOB_AUTOMATION_RESOURCE$£job_ukn_exotic_particle_producer£ $job_ukn_exotic_particle_producer_plural$ turn £energy£ §Y$energy$§!, £minerals£ §Y$minerals$§! (or £alloys£ §Y$alloys$§!), £exotic_gases£ §Y$exotic_gases$§! and £rare_crystals£ §Y$rare_crystals$§! into £volatile_motes£ §Y$volatile_motes$§!"
- job_chemist_drone_effect_desc:0 "£job_ukn_exotic_particle_production_drone£ $job_ukn_exotic_particle_production_drone_plural$ turn £energy£ §Y$energy$§!, £minerals£ §Y$minerals$§! (or £alloys£ §Y$alloys$§!), £exotic_gases£ §Y$exotic_gases$§! and £rare_crystals£ §Y$rare_crystals$§! into £volatile_motes£ §Y$volatile_motes$§!"
+ job_chemist_effect_desc:0 "$UKN_JOB_AUTOMATION_RESOURCE$£job_ukn_exotic_particles_producer£ $job_ukn_exotic_particles_producer_plural$ turn £energy£ §Y$energy$§!, £minerals£ §Y$minerals$§! (or £alloys£ §Y$alloys$§!), £exotic_gases£ §Y$exotic_gases$§! and £rare_crystals£ §Y$rare_crystals$§! into £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!"
+ job_chemist_drone_effect_desc:0 "£job_ukn_exotic_particles_production_drone£ $job_ukn_exotic_particles_production_drone_plural$ turn £energy£ §Y$energy$§!, £minerals£ §Y$minerals$§! (or £alloys£ §Y$alloys$§!), £exotic_gases£ §Y$exotic_gases$§! and £rare_crystals£ §Y$rare_crystals$§! into £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!"
  
  job_mote_harvester:0 "£ukn_icon_automation_job_resource£ $name_ukn_mote_harvester$"
  job_mote_harvester_plural:0 "£ukn_icon_automation_job_resource£ $name_ukn_mote_harvester_plural$"
  job_mote_harvester_desc:1 "$UKN_JOB_AUTOMATION_RESOURCE$One of the most dangerous professions, mote harvesting involves trapping and sealing volatile motes to be used as fuel or explosives."
- job_mote_harvester_effect_desc:1 "£job_mote_harvester£ $job_mote_harvester_plural$ produce £volatile_motes£ §Y$volatile_motes$§!"
+ job_mote_harvester_effect_desc:1 "£job_mote_harvester£ $job_mote_harvester_plural$ produce £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!"
  mod_job_mote_harvester_add:0 "$job_mote_harvester$ Jobs"
  mod_job_mote_harvester_per_pop:0 "§G+1§! $job_mote_harvester$ Job per $VALUE$ Pops"
  mod_job_mote_harvester_per_pop_short:0 "\n§G+1§! £mod_job_mote_harvester_add£ per $VALUE$ £pop£"
@@ -203,7 +203,7 @@
  job_mote_harvesting_drone:0 "£ukn_icon_automation_job_resource£ $name_ukn_mote_harvesting_drone$"
  job_mote_harvesting_drone_plural:0 "£ukn_icon_automation_job_resource£ $name_ukn_mote_harvesting_drone_plural$"
  job_mote_harvesting_drone_desc:1 "$UKN_JOB_AUTOMATION_RESOURCE$Due to the inherently volatile nature of preternatural motes, the drones who specialize in trapping and harvesting them have a high turnover rate."
- job_mote_harvesting_drone_effect_desc:1 "£job_mote_harvesting_drone£ $job_mote_harvesting_drone_plural$ produce £volatile_motes£ §Y$volatile_motes$§!"
+ job_mote_harvesting_drone_effect_desc:1 "£job_mote_harvesting_drone£ $job_mote_harvesting_drone_plural$ produce £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!"
  mod_job_mote_harvesting_drone_add:0 "$job_mote_harvesting_drone$ Jobs"
  mod_job_mote_harvesting_drone_per_pop:0 "§G+1§! $job_mote_harvesting_drone$ Job per $VALUE$ Pops"
  mod_job_mote_harvesting_drone_per_pop_short:0 "\n§G+1§! £mod_job_mote_harvesting_drone_add£ per $VALUE$ £pop£"

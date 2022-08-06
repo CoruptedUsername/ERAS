@@ -32,6 +32,22 @@ ukn_meta_materials = {
 	}
 }
 
+ukn_exotic_particles = {
+	tradable = yes
+	market_amount = 1
+	market_price = 32		# 80
+	max = 10000
+
+	prerequisites = { "tech_ship_armor_4" }
+	visibility_prerequisite = { always = yes }
+	
+	deficit_situation = situation_energy_deficit
+	
+	ai_weight = {
+		weight = 10
+	}
+}
+
 ukn_femtomatter = {
 	tradable = yes
 	market_amount = 1

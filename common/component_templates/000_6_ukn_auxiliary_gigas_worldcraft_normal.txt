@@ -30,7 +30,7 @@ utility_component_template = {
 #			nanites = @ukn_worldcraft_t6_aux_armor_cost_nanites
 #---
 			ukn_meta_materials = @ukn_worldcraft_t6_aux_shields_cost_ukn_meta_materials
-			volatile_motes = @ukn_worldcraft_t6_aux_shields_cost_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t6_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t6_aux_upkeep_energy
@@ -43,7 +43,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t6_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t6_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t6_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t6_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t6_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t6_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t6_aux_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_worldcraft_t6_aux_upkeep_nanites
@@ -64,7 +64,7 @@ utility_component_template = {
 			factor = 0
 			OR = {
 				has_monthly_income = { resource = ukn_meta_materials value <= 0 }
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ukn_condensics value <= 0 }
 			}
 		}
@@ -100,7 +100,7 @@ utility_component_template = {
 #			ukn_quasi_matter = @ukn_worldcraft_t7_aux_armor_cost_ukn_quasi_matter
 #---
 			ukn_meta_materials = @ukn_worldcraft_t7_aux_shields_cost_ukn_meta_materials
-			volatile_motes = @ukn_worldcraft_t7_aux_shields_cost_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t7_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t7_aux_upkeep_energy
@@ -113,7 +113,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t7_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t7_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t7_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t7_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t7_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t7_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -133,7 +133,7 @@ utility_component_template = {
 			factor = 0
 			OR = {
 				has_monthly_income = { resource = ukn_meta_materials value <= 0 }
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ukn_quasi_matter value <= 0 }
 			}
 		}
@@ -169,7 +169,7 @@ utility_component_template = {
 #			ukn_quasi_matter = @ukn_worldcraft_t8_aux_armor_cost_ukn_quasi_matter
 #---
 			ukn_meta_materials = @ukn_worldcraft_t8_aux_shields_cost_ukn_meta_materials
-			volatile_motes = @ukn_worldcraft_t8_aux_shields_cost_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t8_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t8_aux_upkeep_energy
@@ -182,7 +182,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t8_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t8_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t8_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t8_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t8_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t8_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -202,7 +202,7 @@ utility_component_template = {
 			factor = 0
 			OR = {
 				has_monthly_income = { resource = ukn_meta_materials value <= 0 }
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ukn_quasi_matter value <= 0 }
 				has_monthly_income = { resource = ehof_sr_negative_mass value <= 0 }
 			}
@@ -239,7 +239,7 @@ utility_component_template = {
 #			ukn_quasi_matter = @ukn_worldcraft_t_p_aux_armor_cost_ukn_quasi_matter
 #---
 			ukn_meta_materials = @ukn_worldcraft_t_p_aux_shields_cost_ukn_meta_materials
-			volatile_motes = @ukn_worldcraft_t_p_aux_shields_cost_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t_p_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t_p_aux_upkeep_energy
@@ -252,7 +252,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t_p_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t_p_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t_p_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t_p_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t_p_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t_p_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -272,7 +272,7 @@ utility_component_template = {
 			factor = 0
 			OR = {
 				has_monthly_income = { resource = ukn_meta_materials value <= 0 }
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ukn_quasi_matter value <= 0 }
 				has_monthly_income = { resource = ehof_sr_negative_mass value <= 0 }
 			}
@@ -309,7 +309,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t9_aux_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t9_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t9_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t9_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t9_aux_upkeep_energy
@@ -322,7 +322,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t9_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t9_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t9_aux_upkeep_rare_crystals
-#			volatile_motes = @ukn_worldcraft_t9_aux_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t9_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t9_aux_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_worldcraft_t9_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -377,7 +377,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t10_aux_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t10_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t10_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t10_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t10_aux_upkeep_energy
@@ -390,7 +390,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t10_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t10_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t10_aux_upkeep_rare_crystals
-#			volatile_motes = @ukn_worldcraft_t10_aux_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t10_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t10_aux_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_worldcraft_t10_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -457,7 +457,7 @@ utility_component_template = {
 			nanites = @ukn_worldcraft_t5_aux_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t5_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t5_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t5_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t5_aux_upkeep_energy
@@ -470,7 +470,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t5_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t5_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t5_aux_upkeep_rare_crystals
-#			volatile_motes = @ukn_worldcraft_t5_aux_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t5_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t5_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t5_aux_upkeep_ehof_sr_negative_mass
 			nanites = @ukn_worldcraft_t5_aux_upkeep_nanites
@@ -532,7 +532,7 @@ utility_component_template = {
 			nanites = @ukn_worldcraft_t6_aux_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t6_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t6_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t6_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t6_aux_upkeep_energy
@@ -545,7 +545,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t6_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t6_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t6_aux_upkeep_rare_crystals
-#			volatile_motes = @ukn_worldcraft_t6_aux_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t6_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t6_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t6_aux_upkeep_ehof_sr_negative_mass
 			nanites = @ukn_worldcraft_t6_aux_upkeep_nanites
@@ -608,7 +608,7 @@ utility_component_template = {
 			ukn_quasi_matter = @ukn_worldcraft_t7_aux_armor_cost_ukn_quasi_matter
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t7_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t7_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t7_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t7_aux_upkeep_energy
@@ -621,7 +621,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t7_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t7_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t7_aux_upkeep_rare_crystals
-#			volatile_motes = @ukn_worldcraft_t7_aux_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t7_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t7_aux_upkeep_ehof_sr_negative_mass
 			nanites = @ukn_worldcraft_t7_aux_upkeep_nanites
@@ -684,7 +684,7 @@ utility_component_template = {
 			ukn_quasi_matter = @ukn_worldcraft_t8_aux_armor_cost_ukn_quasi_matter
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t8_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t8_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t8_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t8_aux_upkeep_energy
@@ -697,7 +697,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t8_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t8_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t8_aux_upkeep_rare_crystals
-#			volatile_motes = @ukn_worldcraft_t8_aux_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t8_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t8_aux_upkeep_ehof_sr_negative_mass
 			nanites = @ukn_worldcraft_t8_aux_upkeep_nanites
@@ -761,7 +761,7 @@ utility_component_template = {
 			ukn_quasi_matter = @ukn_worldcraft_t_p_aux_armor_cost_ukn_quasi_matter
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t_p_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t_p_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t_p_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t_p_aux_upkeep_energy
@@ -774,7 +774,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t_p_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t_p_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t_p_aux_upkeep_rare_crystals
-#			volatile_motes = @ukn_worldcraft_t_p_aux_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t_p_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t_p_aux_upkeep_ehof_sr_negative_mass
 			nanites = @ukn_worldcraft_t_p_aux_upkeep_nanites
@@ -838,7 +838,7 @@ utility_component_template = {
 			ukn_causalitons = @ukn_worldcraft_t9_aux_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t9_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t9_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t9_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t9_aux_upkeep_energy
@@ -851,7 +851,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t9_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t9_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t9_aux_upkeep_rare_crystals
-#			volatile_motes = @ukn_worldcraft_t9_aux_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t9_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t9_aux_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_worldcraft_t9_aux_upkeep_ehof_sr_negative_mass
 			ukn_causalitons = @ukn_worldcraft_t9_aux_upkeep_nanites
@@ -913,7 +913,7 @@ utility_component_template = {
 			ukn_causalitons = @ukn_worldcraft_t10_aux_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t10_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t10_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t10_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t10_aux_upkeep_energy
@@ -926,7 +926,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t10_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t10_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t10_aux_upkeep_rare_crystals
-#			volatile_motes = @ukn_worldcraft_t10_aux_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t10_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t10_aux_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_worldcraft_t10_aux_upkeep_ehof_sr_negative_mass
 			ukn_causalitons = @ukn_worldcraft_t10_aux_upkeep_nanites
@@ -995,7 +995,7 @@ utility_component_template = {
 			ehof_sr_sentient_metal = @ukn_worldcraft_t7_aux_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t7_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t7_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t7_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t7_aux_upkeep_energy
@@ -1008,7 +1008,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t7_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t7_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t7_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t7_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t7_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t7_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -1022,7 +1022,7 @@ utility_component_template = {
 		modifier = {
 			factor = 0
 			OR = {
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ehof_sr_sentient_metal value <= 0 }
 			}
 		}
@@ -1067,7 +1067,7 @@ utility_component_template = {
 			ehof_sr_sentient_metal = @ukn_worldcraft_t8_aux_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t8_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t8_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t8_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t8_aux_upkeep_energy
@@ -1080,7 +1080,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t8_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t8_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t8_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t8_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t8_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t8_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -1094,7 +1094,7 @@ utility_component_template = {
 		modifier = {
 			factor = 0
 			OR = {
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ehof_sr_sentient_metal value <= 0 }
 			}
 		}
@@ -1139,7 +1139,7 @@ utility_component_template = {
 			ehof_sr_sentient_metal = @ukn_worldcraft_t_p_aux_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t_p_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t_p_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t_p_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t_p_aux_upkeep_energy
@@ -1152,7 +1152,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t_p_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t_p_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t_p_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t_p_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t_p_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t_p_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -1166,7 +1166,7 @@ utility_component_template = {
 		modifier = {
 			factor = 0
 			OR = {
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ehof_sr_sentient_metal value <= 0 }
 			}
 		}
@@ -1211,7 +1211,7 @@ utility_component_template = {
 			sr_living_metal = @ukn_worldcraft_t9_aux_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t9_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t9_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t9_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t9_aux_upkeep_energy
@@ -1224,7 +1224,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t9_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t9_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t9_aux_upkeep_rare_crystals
-#			volatile_motes = @ukn_worldcraft_t9_aux_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t9_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t9_aux_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_worldcraft_t9_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -1283,7 +1283,7 @@ utility_component_template = {
 			sr_living_metal = @ukn_worldcraft_t10_aux_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t10_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t10_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t10_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t10_aux_upkeep_energy
@@ -1296,7 +1296,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t10_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t10_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t10_aux_upkeep_rare_crystals
-#			volatile_motes = @ukn_worldcraft_t10_aux_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t10_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t10_aux_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_worldcraft_t10_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -1355,7 +1355,7 @@ utility_component_template = {
 #			nanites = @ukn_worldcraft_t5_aux_armor_cost_nanites
 #---
 			ukn_meta_materials = @ukn_worldcraft_t5_aux_shields_cost_ukn_meta_materials
-			volatile_motes = @ukn_worldcraft_t5_aux_shields_cost_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t5_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t5_aux_upkeep_energy
@@ -1368,7 +1368,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t5_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t5_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t5_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t5_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t5_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t5_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t5_aux_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_worldcraft_t5_aux_upkeep_nanites
@@ -1391,7 +1391,7 @@ utility_component_template = {
 			OR = {
 				has_monthly_income = { resource = minerals value <= 0 }
 				has_monthly_income = { resource = ukn_meta_materials value <= 0 }
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ukn_femtomatter value <= 0 }
 			}
 		}
@@ -1432,7 +1432,7 @@ utility_component_template = {
 #			nanites = @ukn_worldcraft_t6_aux_armor_cost_nanites
 #---
 			ukn_meta_materials = @ukn_worldcraft_t6_aux_shields_cost_ukn_meta_materials
-			volatile_motes = @ukn_worldcraft_t6_aux_shields_cost_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t6_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t6_aux_upkeep_energy
@@ -1445,7 +1445,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t6_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t6_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t6_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t6_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t6_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t6_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t6_aux_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_worldcraft_t6_aux_upkeep_nanites
@@ -1467,7 +1467,7 @@ utility_component_template = {
 			factor = 0
 			OR = {
 				has_monthly_income = { resource = ukn_meta_materials value <= 0 }
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ukn_condensics value <= 0 }
 			}
 		}
@@ -1516,7 +1516,7 @@ utility_component_template = {
 #			ukn_quasi_matter = @ukn_worldcraft_t7_aux_armor_cost_ukn_quasi_matter
 #---
 			ukn_meta_materials = @ukn_worldcraft_t7_aux_shields_cost_ukn_meta_materials
-			volatile_motes = @ukn_worldcraft_t7_aux_shields_cost_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t7_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t7_aux_upkeep_energy
@@ -1529,7 +1529,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t7_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t7_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t7_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t7_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t7_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t7_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -1544,7 +1544,7 @@ utility_component_template = {
 			factor = 0
 			OR = {
 				has_monthly_income = { resource = ukn_meta_materials value <= 0 }
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ukn_quasi_matter value <= 0 }
 			}
 		}
@@ -1591,7 +1591,7 @@ utility_component_template = {
 #			ukn_quasi_matter = @ukn_worldcraft_t8_aux_armor_cost_ukn_quasi_matter
 #---
 			ukn_meta_materials = @ukn_worldcraft_t8_aux_shields_cost_ukn_meta_materials
-			volatile_motes = @ukn_worldcraft_t8_aux_shields_cost_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t8_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t8_aux_upkeep_energy
@@ -1604,7 +1604,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t8_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t8_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t8_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t8_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t8_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t8_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -1619,7 +1619,7 @@ utility_component_template = {
 			factor = 0
 			OR = {
 				has_monthly_income = { resource = ukn_meta_materials value <= 0 }
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ukn_quasi_matter value <= 0 }
 				has_monthly_income = { resource = ehof_sr_negative_mass value <= 0 }
 			}
@@ -1667,7 +1667,7 @@ utility_component_template = {
 #			ukn_quasi_matter = @ukn_worldcraft_t_p_aux_armor_cost_ukn_quasi_matter
 #---
 			ukn_meta_materials = @ukn_worldcraft_t_p_aux_shields_cost_ukn_meta_materials
-			volatile_motes = @ukn_worldcraft_t_p_aux_shields_cost_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t_p_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t_p_aux_upkeep_energy
@@ -1680,7 +1680,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t_p_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t_p_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t_p_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t_p_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t_p_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t_p_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -1695,7 +1695,7 @@ utility_component_template = {
 			factor = 0
 			OR = {
 				has_monthly_income = { resource = ukn_meta_materials value <= 0 }
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ukn_quasi_matter value <= 0 }
 				has_monthly_income = { resource = ehof_sr_negative_mass value <= 0 }
 			}
@@ -1743,7 +1743,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t9_aux_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t9_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t9_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t9_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t9_aux_upkeep_energy
@@ -1756,7 +1756,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t9_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t9_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t9_aux_upkeep_rare_crystals
-#			volatile_motes = @ukn_worldcraft_t9_aux_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t9_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t9_aux_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_worldcraft_t9_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -1817,7 +1817,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t10_aux_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t10_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t10_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t10_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t10_aux_upkeep_energy
@@ -1830,7 +1830,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t10_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t10_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t10_aux_upkeep_rare_crystals
-#			volatile_motes = @ukn_worldcraft_t10_aux_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t10_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t10_aux_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_worldcraft_t10_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -1895,7 +1895,7 @@ utility_component_template = {
 #			ukn_quasi_matter = @ukn_worldcraft_t7_aux_armor_cost_ukn_quasi_matter
 #---
 			ukn_meta_materials = @ukn_worldcraft_t7_aux_shields_cost_ukn_meta_materials
-			volatile_motes = @ukn_worldcraft_t7_aux_shields_cost_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t7_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t7_aux_upkeep_energy
@@ -1908,7 +1908,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t7_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t7_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t7_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t7_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t7_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t7_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -1923,7 +1923,7 @@ utility_component_template = {
 			factor = 0
 			OR = {
 				has_monthly_income = { resource = ukn_meta_materials value <= 0 }
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ukn_quasi_matter value <= 0 }
 			}
 		}
@@ -1970,7 +1970,7 @@ utility_component_template = {
 #			ukn_quasi_matter = @ukn_worldcraft_t8_aux_armor_cost_ukn_quasi_matter
 #---
 			ukn_meta_materials = @ukn_worldcraft_t8_aux_shields_cost_ukn_meta_materials
-			volatile_motes = @ukn_worldcraft_t8_aux_shields_cost_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t8_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t8_aux_upkeep_energy
@@ -1983,7 +1983,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t8_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t8_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t8_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t8_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t8_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t8_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -1998,7 +1998,7 @@ utility_component_template = {
 			factor = 0
 			OR = {
 				has_monthly_income = { resource = ukn_meta_materials value <= 0 }
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ukn_quasi_matter value <= 0 }
 				has_monthly_income = { resource = ehof_sr_negative_mass value <= 0 }
 			}
@@ -2046,7 +2046,7 @@ utility_component_template = {
 #			ukn_quasi_matter = @ukn_worldcraft_t_p_aux_armor_cost_ukn_quasi_matter
 #---
 			ukn_meta_materials = @ukn_worldcraft_t_p_aux_shields_cost_ukn_meta_materials
-			volatile_motes = @ukn_worldcraft_t_p_aux_shields_cost_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t_p_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t_p_aux_upkeep_energy
@@ -2059,7 +2059,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t_p_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t_p_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t_p_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t_p_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t_p_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t_p_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -2074,7 +2074,7 @@ utility_component_template = {
 			factor = 0
 			OR = {
 				has_monthly_income = { resource = ukn_meta_materials value <= 0 }
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ukn_quasi_matter value <= 0 }
 				has_monthly_income = { resource = ehof_sr_negative_mass value <= 0 }
 			}
@@ -2122,7 +2122,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t9_aux_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t9_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t9_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t9_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t9_aux_upkeep_energy
@@ -2135,7 +2135,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t9_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t9_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t9_aux_upkeep_rare_crystals
-#			volatile_motes = @ukn_worldcraft_t9_aux_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t9_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t9_aux_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_worldcraft_t9_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -2196,7 +2196,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t10_aux_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t10_aux_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_worldcraft_t10_aux_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t10_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t10_aux_upkeep_energy
@@ -2209,7 +2209,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t10_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t10_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t10_aux_upkeep_rare_crystals
-#			volatile_motes = @ukn_worldcraft_t10_aux_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t10_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t10_aux_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_worldcraft_t10_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -2274,7 +2274,7 @@ utility_component_template = {
 #			ukn_quasi_matter = @ukn_worldcraft_t7_aux_armor_cost_ukn_quasi_matter
 #---
 			ukn_meta_materials = @ukn_worldcraft_t7_aux_shields_cost_ukn_meta_materials
-			sr_zro = @ukn_worldcraft_t7_aux_shields_cost_volatile_motes
+			sr_zro = @ukn_worldcraft_t7_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t7_aux_upkeep_energy
@@ -2287,7 +2287,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t7_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t7_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t7_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t7_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t7_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t7_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -2302,7 +2302,7 @@ utility_component_template = {
 			factor = 0
 			OR = {
 				has_monthly_income = { resource = ukn_meta_materials value <= 0 }
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ukn_quasi_matter value <= 0 }
 				has_monthly_income = { resource = sr_zro value <= 0 }
 			}
@@ -2350,7 +2350,7 @@ utility_component_template = {
 #			ukn_quasi_matter = @ukn_worldcraft_t8_aux_armor_cost_ukn_quasi_matter
 #---
 			ukn_meta_materials = @ukn_worldcraft_t8_aux_shields_cost_ukn_meta_materials
-			sr_zro = @ukn_worldcraft_t8_aux_shields_cost_volatile_motes
+			sr_zro = @ukn_worldcraft_t8_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t8_aux_upkeep_energy
@@ -2363,7 +2363,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t8_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t8_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t8_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t8_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t8_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t8_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -2378,7 +2378,7 @@ utility_component_template = {
 			factor = 0
 			OR = {
 				has_monthly_income = { resource = ukn_meta_materials value <= 0 }
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ukn_quasi_matter value <= 0 }
 				has_monthly_income = { resource = sr_zro value <= 0 }
 			}
@@ -2426,7 +2426,7 @@ utility_component_template = {
 #			ukn_quasi_matter = @ukn_worldcraft_t_p_aux_armor_cost_ukn_quasi_matter
 #---
 			ukn_meta_materials = @ukn_worldcraft_t_p_aux_shields_cost_ukn_meta_materials
-			sr_zro = @ukn_worldcraft_t_p_aux_shields_cost_volatile_motes
+			sr_zro = @ukn_worldcraft_t_p_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t_p_aux_upkeep_energy
@@ -2439,7 +2439,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t_p_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t_p_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t_p_aux_upkeep_rare_crystals
-			volatile_motes = @ukn_worldcraft_t_p_aux_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t_p_aux_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_worldcraft_t_p_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -2454,7 +2454,7 @@ utility_component_template = {
 			factor = 0
 			OR = {
 				has_monthly_income = { resource = ukn_meta_materials value <= 0 }
-				has_monthly_income = { resource = volatile_motes value <= 0 }
+				has_monthly_income = { resource = ukn_exotic_particles value <= 0 }
 				has_monthly_income = { resource = ukn_quasi_matter value <= 0 }
 				has_monthly_income = { resource = sr_zro value <= 0 }
 			}
@@ -2502,7 +2502,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t9_aux_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t9_aux_shields_cost_ukn_meta_materials
-			sr_zro = @ukn_worldcraft_t9_aux_shields_cost_volatile_motes
+			sr_zro = @ukn_worldcraft_t9_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t9_aux_upkeep_energy
@@ -2515,7 +2515,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t9_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t9_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t9_aux_upkeep_rare_crystals
-#			volatile_motes = @ukn_worldcraft_t9_aux_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t9_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t9_aux_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_worldcraft_t9_aux_upkeep_ehof_sr_negative_mass
 #---
@@ -2577,7 +2577,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t10_aux_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_worldcraft_t10_aux_shields_cost_ukn_meta_materials
-			sr_zro = @ukn_worldcraft_t10_aux_shields_cost_volatile_motes
+			sr_zro = @ukn_worldcraft_t10_aux_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_worldcraft_t10_aux_upkeep_energy
@@ -2590,7 +2590,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_worldcraft_t10_aux_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_worldcraft_t10_aux_upkeep_exotic_gases
 #			rare_crystals = @ukn_worldcraft_t10_aux_upkeep_rare_crystals
-#			volatile_motes = @ukn_worldcraft_t10_aux_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_worldcraft_t10_aux_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_worldcraft_t10_aux_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_worldcraft_t10_aux_upkeep_ehof_sr_negative_mass
 #---

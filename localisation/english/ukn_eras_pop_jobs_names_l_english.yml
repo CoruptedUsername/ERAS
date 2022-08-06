@@ -135,8 +135,8 @@
    
 # EXOTIC PARTICLES [MOTES] #---------------------------------------------------------
   
- job_chemist_effect_desc:0 "$UKN_JOB_AUTOMATION_RESOURCE$£job_ukn_exotic_particle_producer£ $job_ukn_exotic_particle_producer_plural$ turn £energy£ §Y$energy$§!, £minerals£ §Y$minerals$§! (or £alloys£ §Y$alloys$§!), £exotic_gases£ §Y$exotic_gases$§! and £rare_crystals£ §Y$rare_crystals$§! into £volatile_motes£ §Y$volatile_motes$§!"
- job_chemist_drone_effect_desc:0 "£job_ukn_exotic_particle_production_drone£ $job_ukn_exotic_particle_production_drone_plural$ turn £energy£ §Y$energy$§!, £minerals£ §Y$minerals$§! (or £alloys£ §Y$alloys$§!), £exotic_gases£ §Y$exotic_gases$§! and £rare_crystals£ §Y$rare_crystals$§! into £volatile_motes£ §Y$volatile_motes$§!"
+ job_chemist_effect_desc:0 "$UKN_JOB_AUTOMATION_RESOURCE$£job_ukn_exotic_particles_producer£ $job_ukn_exotic_particles_producer_plural$ turn £energy£ §Y$energy$§!, £minerals£ §Y$minerals$§! (or £alloys£ §Y$alloys$§!), £exotic_gases£ §Y$exotic_gases$§! and £rare_crystals£ §Y$rare_crystals$§! into £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!"
+ job_chemist_drone_effect_desc:0 "£job_ukn_exotic_particles_production_drone£ $job_ukn_exotic_particles_production_drone_plural$ turn £energy£ §Y$energy$§!, £minerals£ §Y$minerals$§! (or £alloys£ §Y$alloys$§!), £exotic_gases£ §Y$exotic_gases$§! and £rare_crystals£ §Y$rare_crystals$§! into £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!"
  
  name_ukn_mote_harvester:0 "Particle Harvester"
  name_ukn_mote_harvester_plural:0 "Particle Harvesters"

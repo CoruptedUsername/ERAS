@@ -117,39 +117,39 @@
  
  
 #[ALLOYS] Exotic Particles
- decision_ukn_alloys_based_exotic_particle_production:0 "§H§!§B§!£alloys£-£volatile_motes£ Alloy-Based Transmutation"
- decision_ukn_alloys_based_exotic_particle_production_desc:0 "£job_ukn_exotic_particle_producer£ §S$job_ukn_exotic_particle_producer_plural$§! £minerals£ §Y$minerals$§! upkeep will be switched to £alloys£ §Y$alloys$§!"
- tooltip_decision_ukn_alloys_based_exotic_particle_production:0 "Clears all other-£volatile_motes£ §H$volatile_motes$§!-Related Planet Modifiers"
+ decision_ukn_alloys_based_exotic_particles_production:0 "§H§!§B§!£alloys£-£ukn_exotic_particles£ Alloy-Based Transmutation"
+ decision_ukn_alloys_based_exotic_particles_production_desc:0 "£job_ukn_exotic_particles_producer£ §S$job_ukn_exotic_particles_producer_plural$§! £minerals£ §Y$minerals$§! upkeep will be switched to £alloys£ §Y$alloys$§!"
+ tooltip_decision_ukn_alloys_based_exotic_particles_production:0 "Clears all other-£ukn_exotic_particles£ §H$ukn_exotic_particles$§!-Related Planet Modifiers"
 
 #[META-MATERIALS] Exotic Particles
- decision_ukn_meta_materials_based_exotic_particle_production:0 "§H§!§B§!£ukn_meta_materials£-£volatile_motes£ Meta-Material-Based Transmutation"
- decision_ukn_meta_materials_based_exotic_particle_production_desc:0 "£job_ukn_exotic_particle_producer£ §S$job_ukn_exotic_particle_producer_plural$§! £minerals£ §Y$minerals$§! upkeep will be switched to £ukn_meta_materials£ §Y$ukn_meta_materials$§!"
- tooltip_decision_ukn_meta_materials_based_exotic_particle_production:0 "Clears all other-£volatile_motes£ §H$volatile_motes$§!-Related Planet Modifiers"
+ decision_ukn_meta_materials_based_exotic_particles_production:0 "§H§!§B§!£ukn_meta_materials£-£ukn_exotic_particles£ Meta-Material-Based Transmutation"
+ decision_ukn_meta_materials_based_exotic_particles_production_desc:0 "£job_ukn_exotic_particles_producer£ §S$job_ukn_exotic_particles_producer_plural$§! £minerals£ §Y$minerals$§! upkeep will be switched to £ukn_meta_materials£ §Y$ukn_meta_materials$§!"
+ tooltip_decision_ukn_meta_materials_based_exotic_particles_production:0 "Clears all other-£ukn_exotic_particles£ §H$ukn_exotic_particles$§!-Related Planet Modifiers"
 
 #[FEMTOMATTER] Exotic Particles
- decision_ukn_femtomatter_based_exotic_particle_production:0 "§H§!§B§!£ukn_femtomatter£-£volatile_motes£ Femtomatter-Based Transmutation"
- decision_ukn_femtomatter_based_exotic_particle_production_desc:0 "£job_ukn_exotic_particle_producer£ §S$job_ukn_exotic_particle_producer_plural$§! £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £minerals£ §Y$minerals$§!, £alloys£ §Y$alloys$§! or £ukn_meta_materials£ §Y$ukn_meta_materials$§! upkeep will be switched to £ukn_femtomatter£ §Y$ukn_femtomatter$§!"
- tooltip_decision_ukn_femtomatter_based_exotic_particle_production:0 "Clears all other-£volatile_motes£ §H$volatile_motes$§!-Related Planet Modifiers"
+ decision_ukn_femtomatter_based_exotic_particles_production:0 "§H§!§B§!£ukn_femtomatter£-£ukn_exotic_particles£ Femtomatter-Based Transmutation"
+ decision_ukn_femtomatter_based_exotic_particles_production_desc:0 "£job_ukn_exotic_particles_producer£ §S$job_ukn_exotic_particles_producer_plural$§! £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £minerals£ §Y$minerals$§!, £alloys£ §Y$alloys$§! or £ukn_meta_materials£ §Y$ukn_meta_materials$§! upkeep will be switched to £ukn_femtomatter£ §Y$ukn_femtomatter$§!"
+ tooltip_decision_ukn_femtomatter_based_exotic_particles_production:0 "Clears all other-£ukn_exotic_particles£ §H$ukn_exotic_particles$§!-Related Planet Modifiers"
 
 #[CONDENSICS] Exotic Particles
- decision_ukn_condensics_based_exotic_particle_production:0 "§H§!§B§!£ukn_condensics£-£volatile_motes£ Condensics-Based Transmutation"
- decision_ukn_condensics_based_exotic_particle_production_desc:0 "£job_ukn_exotic_particle_producer£ §S$job_ukn_exotic_particle_producer_plural$§! £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £minerals£ §Y$minerals$§!, £alloys£ §Y$alloys$§! or £ukn_meta_materials£ §Y$ukn_meta_materials$§! upkeep will be switched to £ukn_condensics£ §Y$ukn_condensics$§!"
- tooltip_decision_ukn_condensics_based_exotic_particle_production:0 "Clears all other-£volatile_motes£ §H$volatile_motes$§!-Related Planet Modifiers"
+ decision_ukn_condensics_based_exotic_particles_production:0 "§H§!§B§!£ukn_condensics£-£ukn_exotic_particles£ Condensics-Based Transmutation"
+ decision_ukn_condensics_based_exotic_particles_production_desc:0 "£job_ukn_exotic_particles_producer£ §S$job_ukn_exotic_particles_producer_plural$§! £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £minerals£ §Y$minerals$§!, £alloys£ §Y$alloys$§! or £ukn_meta_materials£ §Y$ukn_meta_materials$§! upkeep will be switched to £ukn_condensics£ §Y$ukn_condensics$§!"
+ tooltip_decision_ukn_condensics_based_exotic_particles_production:0 "Clears all other-£ukn_exotic_particles£ §H$ukn_exotic_particles$§!-Related Planet Modifiers"
 
 #[QUASI-MATTER] Exotic Particles
- decision_ukn_quasi_matter_based_exotic_particle_production:0 "§H§!§B§!£ukn_quasi_matter£-£volatile_motes£ Quasi-Matter-Based Transmutation"
- decision_ukn_quasi_matter_based_exotic_particle_production_desc:0 "£job_ukn_exotic_particle_producer£ §S$job_ukn_exotic_particle_producer_plural$§! £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £minerals£ §Y$minerals$§!, £alloys£ §Y$alloys$§! or £ukn_meta_materials£ §Y$ukn_meta_materials$§! upkeep will be switched to £ukn_quasi_matter£ §Y$ukn_quasi_matter$§!"
- tooltip_decision_ukn_quasi_matter_based_exotic_particle_production:0 "Clears all other-£volatile_motes£ §H$volatile_motes$§!-Related Planet Modifiers"
+ decision_ukn_quasi_matter_based_exotic_particles_production:0 "§H§!§B§!£ukn_quasi_matter£-£ukn_exotic_particles£ Quasi-Matter-Based Transmutation"
+ decision_ukn_quasi_matter_based_exotic_particles_production_desc:0 "£job_ukn_exotic_particles_producer£ §S$job_ukn_exotic_particles_producer_plural$§! £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £minerals£ §Y$minerals$§!, £alloys£ §Y$alloys$§! or £ukn_meta_materials£ §Y$ukn_meta_materials$§! upkeep will be switched to £ukn_quasi_matter£ §Y$ukn_quasi_matter$§!"
+ tooltip_decision_ukn_quasi_matter_based_exotic_particles_production:0 "Clears all other-£ukn_exotic_particles£ §H$ukn_exotic_particles$§!-Related Planet Modifiers"
 
 #[OSCILLYONS] Exotic Particles
- decision_ukn_causalitons_based_exotic_particle_production:0 "§H§!§B§!£ukn_causalitons£-£volatile_motes£ Causaliton-Based Transmutation"
- decision_ukn_causalitons_based_exotic_particle_production_desc:0 "£job_ukn_exotic_particle_producer£ §S$job_ukn_exotic_particle_producer_plural$§! £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £minerals£ §Y$minerals$§!, £alloys£ §Y$alloys$§! or £ukn_meta_materials£ §Y$ukn_meta_materials$§! upkeep will be switched to £ukn_causalitons£ §Y$ukn_causalitons$§!"
- tooltip_decision_ukn_causalitons_based_exotic_particle_production:0 "Clears all other-£volatile_motes£ §H$volatile_motes$§!-Related Planet Modifiers"
+ decision_ukn_causalitons_based_exotic_particles_production:0 "§H§!§B§!£ukn_causalitons£-£ukn_exotic_particles£ Causaliton-Based Transmutation"
+ decision_ukn_causalitons_based_exotic_particles_production_desc:0 "£job_ukn_exotic_particles_producer£ §S$job_ukn_exotic_particles_producer_plural$§! £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £minerals£ §Y$minerals$§!, £alloys£ §Y$alloys$§! or £ukn_meta_materials£ §Y$ukn_meta_materials$§! upkeep will be switched to £ukn_causalitons£ §Y$ukn_causalitons$§!"
+ tooltip_decision_ukn_causalitons_based_exotic_particles_production:0 "Clears all other-£ukn_exotic_particles£ §H$ukn_exotic_particles$§!-Related Planet Modifiers"
 
 #[MINERALS] Exotic Particles
- decision_ukn_minerals_based_exotic_particle_production:0 "§H§!§B§!£minerals£-£volatile_motes£ Mineral-Based Transmutation"
- decision_ukn_minerals_based_exotic_particle_production_desc:0 "£job_ukn_exotic_particle_producer£ §S$job_ukn_exotic_particle_producer_plural$§! upkeep will be switched back to £minerals£ §Y$minerals$§!"
- tooltip_decision_ukn_minerals_based_exotic_particle_production:0 "Clears all other-£volatile_motes£ §H$volatile_motes$§!-Related Planet Modifiers"
+ decision_ukn_minerals_based_exotic_particles_production:0 "§H§!§B§!£minerals£-£ukn_exotic_particles£ Mineral-Based Transmutation"
+ decision_ukn_minerals_based_exotic_particles_production_desc:0 "£job_ukn_exotic_particles_producer£ §S$job_ukn_exotic_particles_producer_plural$§! upkeep will be switched back to £minerals£ §Y$minerals$§!"
+ tooltip_decision_ukn_minerals_based_exotic_particles_production:0 "Clears all other-£ukn_exotic_particles£ §H$ukn_exotic_particles$§!-Related Planet Modifiers"
  
  
  
