@@ -99,8 +99,8 @@
  TECH_UNLOCK_UKN_SUPERCONDUCTIVE_CRYSTALS_TITLE:0 "§HExploit Resource:§! £rare_crystals£"
  TECH_UNLOCK_UKN_SUPERCONDUCTIVE_CRYSTALS_DESC:0 "$rare_crystals_desc$ "
  
- TECH_UNLOCK_UKN_EXOTIC_FUILDS_TITLE:0 "§HExploit Resource:§! £exotic_gases£"
- TECH_UNLOCK_UKN_EXOTIC_FUILDS_DESC:0 "$exotic_gases_desc$ "
+ TECH_UNLOCK_UKN_EXOTIC_FLUIDS_TITLE:0 "§HExploit Resource:§! £exotic_gases£"
+ TECH_UNLOCK_UKN_EXOTIC_FLUIDS_DESC:0 "$exotic_gases_desc$ "
  
  TECH_UNLOCK_UKN_META_MATERIALS_TITLE:0 "§HExploit Resource:§! £ukn_meta_materials£"
  TECH_UNLOCK_UKN_META_MATERIALS_DESC:0 "$ukn_meta_materials_desc$\n\n\n§YAllows Use of the Following Decisions§!:\n\n§EMeta-Material Fabrication Control§!\n§EAllows us to control whether £job_foundry£ §S$job_foundry_plural$§! produce £ukn_meta_materials£, £alloys£ or £alloys£ and £ukn_meta_materials£§!\n\n§E$decision_ukn_meta_materials_based_automachine_production$§!\n$decision_ukn_meta_materials_based_automachine_production_desc$\n\n§E$decision_ukn_alloys_based_automachine_production$§!\n$decision_ukn_alloys_based_automachine_production_desc$ "

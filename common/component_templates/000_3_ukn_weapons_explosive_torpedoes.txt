@@ -35,6 +35,7 @@ weapon_component_template = {
     missile_speed = @ukn_torpedo_3_missile_speed # 18 = 400 -- apparently, the game doesn't auto-convert speed for non-vanilla components
     missile_evasion = @ukn_torpedo_3_missile_evasion
     missile_health = @ukn_torpedo_3_missile_health
+    missile_armor = @ukn_torpedo_3_missile_armor
     missile_retarget_range = @ukn_torpedo_3_missile_retarget_range
 	
     hull_damage = @ukn_torpedo_3_hull_damage_mult
@@ -122,6 +123,7 @@ weapon_component_template = {
     missile_speed = @ukn_torpedo_4_missile_speed # 18 = 400 -- apparently, the game doesn't auto-convert speed for non-vanilla components
     missile_evasion = @ukn_torpedo_4_missile_evasion
     missile_health = @ukn_torpedo_4_missile_health
+    missile_armor = @ukn_torpedo_4_missile_armor
     missile_retarget_range = @ukn_torpedo_4_missile_retarget_range
 	
     hull_damage = @ukn_torpedo_4_hull_damage_mult
@@ -211,6 +213,7 @@ weapon_component_template = {
     missile_speed = @ukn_torpedo_5_missile_speed # 18 = 400 -- apparently, the game doesn't auto-convert speed for non-vanilla components
     missile_evasion = @ukn_torpedo_5_missile_evasion
     missile_health = @ukn_torpedo_5_missile_health
+    missile_armor = @ukn_torpedo_5_missile_armor
     missile_retarget_range = @ukn_torpedo_5_missile_retarget_range
 	
     hull_damage = @ukn_torpedo_5_hull_damage_mult
@@ -302,6 +305,7 @@ weapon_component_template = {
     missile_speed = @ukn_torpedo_6_missile_speed # 18 = 400 -- apparently, the game doesn't auto-convert speed for non-vanilla components
     missile_evasion = @ukn_torpedo_6_missile_evasion
     missile_health = @ukn_torpedo_6_missile_health
+    missile_armor = @ukn_torpedo_6_missile_armor
     missile_retarget_range = @ukn_torpedo_6_missile_retarget_range
 	
     hull_damage = @ukn_torpedo_6_hull_damage_mult
@@ -393,6 +397,7 @@ weapon_component_template = {
     missile_speed = @ukn_torpedo_7_missile_speed # 18 = 400 -- apparently, the game doesn't auto-convert speed for non-vanilla components
     missile_evasion = @ukn_torpedo_7_missile_evasion
     missile_health = @ukn_torpedo_7_missile_health
+    missile_armor = @ukn_torpedo_7_missile_armor
     missile_retarget_range = @ukn_torpedo_7_missile_retarget_range
 	
     hull_damage = @ukn_torpedo_7_hull_damage_mult
@@ -485,6 +490,7 @@ weapon_component_template = {
     missile_speed = @ukn_torpedo_8_missile_speed # 18 = 400 -- apparently, the game doesn't auto-convert speed for non-vanilla components
     missile_evasion = @ukn_torpedo_8_missile_evasion
     missile_health = @ukn_torpedo_8_missile_health
+    missile_armor = @ukn_torpedo_8_missile_armor
     missile_retarget_range = @ukn_torpedo_8_missile_retarget_range
 	
     hull_damage = @ukn_torpedo_8_hull_damage_mult
@@ -577,6 +583,7 @@ weapon_component_template = {
     missile_speed = @ukn_torpedo_planck_missile_speed # 18 = 400 -- apparently, the game doesn't auto-convert speed for non-vanilla components
     missile_evasion = @ukn_torpedo_planck_missile_evasion
     missile_health = @ukn_torpedo_planck_missile_health
+    missile_armor = @ukn_torpedo_planck_missile_armor
     missile_retarget_range = @ukn_torpedo_planck_missile_retarget_range
 	
     hull_damage = @ukn_torpedo_planck_hull_damage_mult
@@ -669,6 +676,7 @@ weapon_component_template = {
     missile_speed = @ukn_torpedo_9_missile_speed # 19 = 400 -- apparently, the game doesn't auto-convert speed for non-vanilla components
     missile_evasion = @ukn_torpedo_9_missile_evasion
     missile_health = @ukn_torpedo_9_missile_health
+    missile_armor = @ukn_torpedo_9_missile_armor
     missile_retarget_range = @ukn_torpedo_9_missile_retarget_range
 	
     hull_damage = @ukn_torpedo_9_hull_damage_mult
@@ -760,6 +768,7 @@ weapon_component_template = {
     missile_speed = @ukn_torpedo_10_missile_speed # 110 = 400 -- apparently, the game doesn't auto-convert speed for non-vanilla components
     missile_evasion = @ukn_torpedo_10_missile_evasion
     missile_health = @ukn_torpedo_10_missile_health
+    missile_armor = @ukn_torpedo_10_missile_armor
     missile_retarget_range = @ukn_torpedo_10_missile_retarget_range
 	
     hull_damage = @ukn_torpedo_10_hull_damage_mult

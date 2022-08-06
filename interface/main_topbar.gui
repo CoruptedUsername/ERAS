@@ -680,7 +680,7 @@ guiTypes = {
 						position = { x = -23 y = -100 }
 						hide_position = { x = -23 y = -100 }
 						show_position = { x = -23 y = 22 }
-						size = { width = 510 height = 300 }
+						size = { width = 110 height = 110 }
 						show_animation_type = decelerated
 						hide_animation_type = accelerated
 						animation_time = 200
@@ -817,7 +817,7 @@ guiTypes = {
 						position = { x = -23 y = -100 }
 						hide_position = { x = -23 y = -100 }
 						show_position = { x = -23 y = 22 }
-						size = { width = 510 height = 300 }
+						size = { width = 110 height = 110 }
 						show_animation_type = decelerated
 						hide_animation_type = accelerated
 						animation_time = 200
@@ -873,7 +873,7 @@ guiTypes = {
 						name = "expanded_window"
 						hide_position = { x = -9 y = -190 }
 						show_position = { x = -9 y = 44 }
-						size = { width = 510 height = 300 }
+						size = { width = 110 height = 110 }
 						show_animation_type = decelerated
 						hide_animation_type = accelerated
 						animation_time = 200
