@@ -36,7 +36,7 @@ ukn_quasi_matter_supramutator = {
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 165
+			ukn_exotic_particles = 165
 			energy = 690
 			sr_dark_matter = 15
 		}
@@ -57,7 +57,7 @@ ukn_quasi_matter_supramutator = {
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 550
+			ukn_exotic_particles = 550
 			energy = 2300
 			sr_dark_matter = 50
 		}
@@ -106,7 +106,7 @@ ukn_quasi_matter_supramutation_drone = {
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 165
+			ukn_exotic_particles = 165
 			energy = 690
 			sr_dark_matter = 15
 		}
@@ -127,7 +127,7 @@ ukn_quasi_matter_supramutation_drone = {
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 550
+			ukn_exotic_particles = 550
 			energy = 2300
 			sr_dark_matter = 50
 		}

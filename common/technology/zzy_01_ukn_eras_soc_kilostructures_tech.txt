@@ -8,13 +8,13 @@
 
 # [b.007] ORBITAL ARTIFICIAL ECOSYSTEM #------------------#
 giga_tech_orbital_artificial_eco = {
-	cost = 15000
+	cost = @tech_ukn_orbital_artificial_eco_cost
 	area = society
-	tier = 3
+	tier = @tech_ukn_orbital_artificial_eco_tier
 	category = { biology }
 	is_rare = yes
 	prerequisites = { "tech_starbase_5" }
-	weight = @tier3weight2
+	weight = @tech_ukn_orbital_artificial_eco_weight
 	prereqfor_desc = {
 		custom = { title = "allow_orbital_artificial_eco"	desc = "desc_orbital_artificial_eco" }
 	}
@@ -75,13 +75,13 @@ giga_tech_orbital_artificial_eco = {
 
 # [b.X] BARREN TERRAFORMING #------------------#
 giga_tech_terraform_barren = {
-	cost = 25000
+	cost = @tech_ukn_terraform_barren_cost
 	area = society
-	tier = 4
+	tier = @tech_ukn_terraform_barren_tier
 	category = { new_worlds }
 	is_rare = yes
 	prerequisites = { "tech_climate_restoration" "tech_battleships" "giga_tech_particle_accelerator" }
-	weight = @tier4weight3
+	weight = @tech_ukn_terraform_barren_weight
 	prereqfor_desc = {
 		custom = { title = "allow_terraform_barren"	desc = "desc_terraform_barren" }
 	}
@@ -134,13 +134,13 @@ giga_tech_terraform_barren = {
 
 # [b.X] TOXIC TERRAFORMING #------------------#
 giga_tech_terraform_toxic = {
-	cost = 30000
+	cost = @tech_ukn_terraform_toxic_cost
 	area = society
-	tier = 4
+	tier = @tech_ukn_terraform_toxic_tier
 	category = { new_worlds }
 	is_rare = yes
 	prerequisites = { "giga_tech_terraform_barren" }
-	weight = @tier4weight3
+	weight = @tech_ukn_terraform_toxic_weight
 	prereqfor_desc = {
 		custom = { title = "allow_terraform_toxic"	desc = "desc_terraform_toxic" }
 	}
@@ -193,13 +193,13 @@ giga_tech_terraform_toxic = {
 
 # [b.X] MOLTEN TERRAFORMING #------------------#
 giga_tech_terraform_molten = {
-	cost = 50000
+	cost = @tech_ukn_terraform_molten_cost
 	area = society
-	tier = 5
+	tier = @tech_ukn_terraform_molten_tier
 	category = { new_worlds }
 	is_rare = yes
 	prerequisites = { "giga_tech_terraform_toxic" }
-	weight = @tier4weight3
+	weight = @tech_ukn_terraform_molten_weight
 	prereqfor_desc = {
 		custom = { title = "allow_terraform_molten"	desc = "desc_terraform_molten" }
 	}

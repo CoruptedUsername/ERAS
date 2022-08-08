@@ -38,12 +38,13 @@ building_bugged_war_temple_1 = {
 	}
 
 	convert_to = {
-		building_temple
+#		building_bugged_war_temple_1
 		building_bureaucratic_1
 		building_sacrificial_temple_1
 		building_hive_node
 		building_uplink_node
 		building_ukn_corporate_bureaucratic_1
+		building_temple
 		building_bugged_light_temple_1
 		building_bugged_gravity_monastery
 		building_bugged_life_monastery
@@ -206,7 +207,7 @@ building_bugged_war_temple_1 = {
 	show_tech_unlock_if = {
 		AND = {
 			is_spiritualist = yes
-			is_bugged_luminosity_cult = yes
+			is_bugged_war_cult = yes
 		}
 	}
 #----------------------------------------------------
@@ -218,7 +219,7 @@ building_bugged_war_temple_1 = {
 			owner = {
 				AND = {
 			is_spiritualist = yes
-			is_bugged_luminosity_cult = yes
+			is_bugged_war_cult = yes
 		}
 			}
 			UKN_USES_NORMAL_DISTRICTS = yes
@@ -236,7 +237,7 @@ building_bugged_war_temple_1 = {
 			owner = {
 				AND = {
 				 	is_spiritualist = yes
-					is_bugged_luminosity_cult = yes
+					is_bugged_war_cult = yes
 				}
 			}
 			OR = {
@@ -359,13 +360,34 @@ building_bugged_war_temple_1 = {
 			owner = {
 				AND = {
 				 	is_spiritualist = yes
-					is_bugged_luminosity_cult = yes
+					is_bugged_war_cult = yes
 				}
 			}
 		}
 		text = job_bugged_warrior_priest_effect_desc
 	}
 	
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_temple_cost_mult = 0.00
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_temple_cost_mult = 0.00
+		}
+	}
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -411,7 +433,7 @@ building_bugged_war_temple_2 = {
 	category = unity
 
 	potential = {
-		UKN_CAN_BUILD_WAR_TEMPLE_GRID = yes
+		UKN_CAN_BUILD_WARTEMPLE_GRID = yes
 		UKN_USES_NORMAL_DISTRICTS = yes
 	}
 
@@ -434,13 +456,14 @@ building_bugged_war_temple_2 = {
 	}
 
 	convert_to = {
-#		building_holotemple
+#		building_bugged_war_temple_2
 		building_bureaucratic_2
 		building_sacrificial_temple_2
 		building_network_junction
 		building_hive_cluster
 		building_ukn_corporate_bureaucratic_2
-		building_bugged_war_temple_2
+		building_holotemple
+		building_bugged_light_temple_2
 		building_bugged_gravity_monastery_two
 		building_bugged_life_monastery_two
 		building_bugged_mecha_monastery_two
@@ -601,7 +624,7 @@ building_bugged_war_temple_2 = {
 	show_tech_unlock_if = {
 		AND = {
 			is_spiritualist = yes
-			is_bugged_luminosity_cult = yes
+			is_bugged_war_cult = yes
 		}
 	}
 #----------------------------------------------------
@@ -613,7 +636,7 @@ building_bugged_war_temple_2 = {
 			owner = {
 				AND = {
 				 	is_spiritualist = yes
-					is_bugged_luminosity_cult = yes
+					is_bugged_war_cult = yes
 				}
 			}
 			UKN_USES_NORMAL_DISTRICTS = yes
@@ -631,7 +654,7 @@ building_bugged_war_temple_2 = {
 			owner = {
 				AND = {
 				 	is_spiritualist = yes
-					is_bugged_luminosity_cult = yes
+					is_bugged_war_cult = yes
 				}
 			}
 			OR = {
@@ -725,13 +748,34 @@ building_bugged_war_temple_2 = {
 			owner = {
 				AND = {
 				 	is_spiritualist = yes
-					is_bugged_luminosity_cult = yes
+					is_bugged_war_cult = yes
 				}
 			}
 		}
 		text = job_bugged_warrior_priest_effect_desc
 	}
 	
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_temple_cost_mult = 0.40
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_temple_cost_mult = 0.40
+		}
+	}
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -803,13 +847,14 @@ building_bugged_war_temple_3 = {
 	}
 
 	convert_to = {
-#		building_sacred_nexus
+#		building_bugged_war_temple_3
 		building_bureaucratic_3
 		building_sacrificial_temple_3
 		building_hive_confluence
 		building_system_conflux
 		building_ukn_corporate_bureaucratic_3
-		building_bugged_war_temple_3
+		building_sacred_nexus
+		building_bugged_light_temple_3
 		building_ukn_bugged_gravity_monastery_3
 		building_ukn_bugged_life_monastery_3
 		building_ukn_bugged_mecha_monastery_3
@@ -969,7 +1014,7 @@ building_bugged_war_temple_3 = {
 	show_tech_unlock_if = {
 		AND = {
 			is_spiritualist = yes
-			is_bugged_luminosity_cult = yes
+			is_bugged_war_cult = yes
 		}
 	}
 #----------------------------------------------------
@@ -981,7 +1026,7 @@ building_bugged_war_temple_3 = {
 			owner = {
 				AND = {
 				 	is_spiritualist = yes
-					is_bugged_luminosity_cult = yes
+					is_bugged_war_cult = yes
 				}
 			}
 			UKN_USES_NORMAL_DISTRICTS = yes
@@ -999,7 +1044,7 @@ building_bugged_war_temple_3 = {
 			owner = {
 				AND = {
 				 	is_spiritualist = yes
-					is_bugged_luminosity_cult = yes
+					is_bugged_war_cult = yes
 				}
 			}
 			OR = {
@@ -1114,13 +1159,47 @@ building_bugged_war_temple_3 = {
 			owner = {
 				AND = {
 				 	is_spiritualist = yes
-					is_bugged_luminosity_cult = yes
+					is_bugged_war_cult = yes
 				}
 			}
 		}
 		text = job_bugged_warrior_priest_effect_desc
 	}
 	
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_temple_cost_mult = 0.60
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_temple_cost_mult = 0.60
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			OR = {
+				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			}
+		}
+		modifier = {
+			planet_districts_arcology_religious_cost_mult = 0.30
+		}
+	}
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -1159,7 +1238,7 @@ building_bugged_war_temple_3 = {
 
 
 
-building_ukn_bugged_war_temple_temple_4 = {
+building_ukn_bugged_war_temple_4 = {
 	base_buildtime = @building_ukn_bureaucratic_6_build_time
 	can_build = no
 	position_priority = 106
@@ -1192,13 +1271,14 @@ building_ukn_bugged_war_temple_temple_4 = {
 	}
 
 	convert_to = {
-#		building_ukn_temple_4
+#		building_ukn_bugged_war_temple_4
 		building_ukn_sacrificial_temple_4
 		building_ukn_bureaucratic_4
 		building_ukn_hive_node_4
 		building_ukn_uplink_node_4
 		building_ukn_corporate_bureaucratic_4
-		building_ukn_bugged_war_temple_4
+		building_ukn_temple_4
+		building_ukn_bugged_light_temple_4
 		building_ukn_bugged_gravity_monastery_4
 		building_ukn_bugged_life_monastery_4
 		building_ukn_bugged_mecha_monastery_4
@@ -1356,7 +1436,7 @@ building_ukn_bugged_war_temple_temple_4 = {
 	show_tech_unlock_if = {
 		AND = {
 			is_spiritualist = yes
-			is_bugged_luminosity_cult = yes
+			is_bugged_war_cult = yes
 		}
 	}
 #----------------------------------------------------
@@ -1368,7 +1448,7 @@ building_ukn_bugged_war_temple_temple_4 = {
 			owner = {
 				AND = {
 				 	is_spiritualist = yes
-					is_bugged_luminosity_cult = yes
+					is_bugged_war_cult = yes
 				}
 			}
 			UKN_USES_NORMAL_DISTRICTS = yes
@@ -1386,7 +1466,7 @@ building_ukn_bugged_war_temple_temple_4 = {
 			owner = {
 				AND = {
 				 	is_spiritualist = yes
-					is_bugged_luminosity_cult = yes
+					is_bugged_war_cult = yes
 				}
 			}
 			OR = {
@@ -1522,13 +1602,60 @@ building_ukn_bugged_war_temple_temple_4 = {
 			owner = {
 				AND = {
 				 	is_spiritualist = yes
-					is_bugged_luminosity_cult = yes
+					is_bugged_war_cult = yes
 				}
 			}
 		}
 		text = job_bugged_warrior_priest_effect_desc
 	}
 	
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_temple_cost_mult = 0.80
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_temple_cost_mult = 0.80
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			OR = {
+				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			}
+		}
+		modifier = {
+			planet_districts_arcology_religious_cost_mult = 0.65
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			OR = {
+				UKN_USES_RW_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			}
+		}
+		modifier = {
+			planet_districts_rw_temple_cost_mult = 0.30
+		}
+	}
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -1603,13 +1730,14 @@ building_ukn_bugged_war_temple_5 = {
 	}
 
 	convert_to = {
-#		building_ukn_temple_5
+#		building_ukn_bugged_war_temple_5
 		building_ukn_sacrificial_temple_5
 		building_ukn_bureaucratic_5
 		building_ukn_hive_node_5
 		building_ukn_uplink_node_5
 		building_ukn_corporate_bureaucratic_5
-		building_ukn_bugged_war_temple_5
+		building_ukn_temple_5
+		building_ukn_bugged_light_temple_5
 		building_ukn_bugged_gravity_monastery_5
 		building_ukn_bugged_life_monastery_5
 		building_ukn_bugged_mecha_monastery_5
@@ -1767,7 +1895,7 @@ building_ukn_bugged_war_temple_5 = {
 	show_tech_unlock_if = {
 		AND = {
 			is_spiritualist = yes
-			is_bugged_luminosity_cult = yes
+			is_bugged_war_cult = yes
 		}
 	}
 #----------------------------------------------------
@@ -1779,7 +1907,7 @@ building_ukn_bugged_war_temple_5 = {
 			owner = {
 				AND = {
 				 	is_spiritualist = yes
-					is_bugged_luminosity_cult = yes
+					is_bugged_war_cult = yes
 				}
 			}
 			UKN_USES_NORMAL_DISTRICTS = yes
@@ -1797,7 +1925,7 @@ building_ukn_bugged_war_temple_5 = {
 			owner = {
 				AND = {
 				 	is_spiritualist = yes
-					is_bugged_luminosity_cult = yes
+					is_bugged_war_cult = yes
 				}
 			}
 			OR = {
@@ -1933,13 +2061,60 @@ building_ukn_bugged_war_temple_5 = {
 			owner = {
 				AND = {
 				 	is_spiritualist = yes
-					is_bugged_luminosity_cult = yes
+					is_bugged_war_cult = yes
 				}
 			}
 		}
 		text = job_bugged_warrior_priest_effect_desc
 	}
 	
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_temple_cost_mult = 1.00
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_temple_cost_mult = 1.00
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			OR = {
+				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			}
+		}
+		modifier = {
+			planet_districts_arcology_religious_cost_mult = 1.00
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			OR = {
+				UKN_USES_RW_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			}
+		}
+		modifier = {
+			planet_districts_rw_temple_cost_mult = 0.65
+		}
+	}
 #----------------------------------------------------
 
 	triggered_desc = {

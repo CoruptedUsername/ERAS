@@ -97,11 +97,11 @@
  info_text_ukn_pointdefense_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£1"
 #---
 # Exotic Particles
- info_text_ukn_pointdefense_t5_shields_cost_volatile_motes:0 "£volatile_motes£0.38"
- info_text_ukn_pointdefense_t6_shields_cost_volatile_motes:0 "£volatile_motes£0.38"
- info_text_ukn_pointdefense_t7_shields_cost_volatile_motes:0 "£volatile_motes£0.50"
- info_text_ukn_pointdefense_t8_shields_cost_volatile_motes:0 "£volatile_motes£0.50"
- info_text_ukn_pointdefense_t_p_shields_cost_volatile_motes:0 "£volatile_motes£0.50"
+ info_text_ukn_pointdefense_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.38"
+ info_text_ukn_pointdefense_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.38"
+ info_text_ukn_pointdefense_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.50"
+ info_text_ukn_pointdefense_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.50"
+ info_text_ukn_pointdefense_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.50"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -133,12 +133,12 @@
  info_text_ukn_pointdefense_t4_component_upkeep_rare_crystals:0 "£rare_crystals£0.009"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_pointdefense_t4_component_upkeep_volatile_motes:0 "£volatile_motes£0.009"
- info_text_ukn_pointdefense_t5_component_upkeep_volatile_motes:0 "£volatile_motes£0.012"
- info_text_ukn_pointdefense_t6_component_upkeep_volatile_motes:0 "£volatile_motes£0.015"
- info_text_ukn_pointdefense_t7_component_upkeep_volatile_motes:0 "£volatile_motes£0.020"
- info_text_ukn_pointdefense_t8_component_upkeep_volatile_motes:0 "£volatile_motes£0.027"
- info_text_ukn_pointdefense_t_p_component_upkeep_volatile_motes:0 "£volatile_motes£0.037"
+ info_text_ukn_pointdefense_t4_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.009"
+ info_text_ukn_pointdefense_t5_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.012"
+ info_text_ukn_pointdefense_t6_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.015"
+ info_text_ukn_pointdefense_t7_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.020"
+ info_text_ukn_pointdefense_t8_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.027"
+ info_text_ukn_pointdefense_t_p_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.037"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_pointdefense_t9_component_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.011"
@@ -254,11 +254,11 @@
  info_text_ukn_small_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£2"
 #---
 # Exotic Particles
- info_text_ukn_small_t5_shields_cost_volatile_motes:0 "£volatile_motes£0.75"
- info_text_ukn_small_t6_shields_cost_volatile_motes:0 "£volatile_motes£0.75"
- info_text_ukn_small_t7_shields_cost_volatile_motes:0 "£volatile_motes£100"
- info_text_ukn_small_t8_shields_cost_volatile_motes:0 "£volatile_motes£100"
- info_text_ukn_small_t_p_shields_cost_volatile_motes:0 "£volatile_motes£100"
+ info_text_ukn_small_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.75"
+ info_text_ukn_small_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.75"
+ info_text_ukn_small_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£100"
+ info_text_ukn_small_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£100"
+ info_text_ukn_small_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£100"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -290,12 +290,12 @@
  info_text_ukn_small_t4_component_upkeep_rare_crystals:0 "£rare_crystals£0.018"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_small_t4_component_upkeep_volatile_motes:0 "£volatile_motes£0.018"
- info_text_ukn_small_t5_component_upkeep_volatile_motes:0 "£volatile_motes£0.025"
- info_text_ukn_small_t6_component_upkeep_volatile_motes:0 "£volatile_motes£0.030"
- info_text_ukn_small_t7_component_upkeep_volatile_motes:0 "£volatile_motes£0.040"
- info_text_ukn_small_t8_component_upkeep_volatile_motes:0 "£volatile_motes£0.055"
- info_text_ukn_small_t_p_component_upkeep_volatile_motes:0 "£volatile_motes£0.075"
+ info_text_ukn_small_t4_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.018"
+ info_text_ukn_small_t5_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.025"
+ info_text_ukn_small_t6_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.030"
+ info_text_ukn_small_t7_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.040"
+ info_text_ukn_small_t8_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.055"
+ info_text_ukn_small_t_p_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.075"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_small_t9_component_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.021"
@@ -411,11 +411,11 @@
  info_text_ukn_medium_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£4"
 #---
 # Exotic Particles
- info_text_ukn_medium_t5_shields_cost_volatile_motes:0 "£volatile_motes£150"
- info_text_ukn_medium_t6_shields_cost_volatile_motes:0 "£volatile_motes£150"
- info_text_ukn_medium_t7_shields_cost_volatile_motes:0 "£volatile_motes£200"
- info_text_ukn_medium_t8_shields_cost_volatile_motes:0 "£volatile_motes£200"
- info_text_ukn_medium_t_p_shields_cost_volatile_motes:0 "£volatile_motes£200"
+ info_text_ukn_medium_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£150"
+ info_text_ukn_medium_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£150"
+ info_text_ukn_medium_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£200"
+ info_text_ukn_medium_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£200"
+ info_text_ukn_medium_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£200"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -447,12 +447,12 @@
  info_text_ukn_medium_t4_component_upkeep_rare_crystals:0 "£rare_crystals£0.036"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_medium_t4_component_upkeep_volatile_motes:0 "£volatile_motes£0.036"
- info_text_ukn_medium_t5_component_upkeep_volatile_motes:0 "£volatile_motes£0.050"
- info_text_ukn_medium_t6_component_upkeep_volatile_motes:0 "£volatile_motes£0.060"
- info_text_ukn_medium_t7_component_upkeep_volatile_motes:0 "£volatile_motes£0.080"
- info_text_ukn_medium_t8_component_upkeep_volatile_motes:0 "£volatile_motes£0.110"
- info_text_ukn_medium_t_p_component_upkeep_volatile_motes:0 "£volatile_motes£0.150"
+ info_text_ukn_medium_t4_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.036"
+ info_text_ukn_medium_t5_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.050"
+ info_text_ukn_medium_t6_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.060"
+ info_text_ukn_medium_t7_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.080"
+ info_text_ukn_medium_t8_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.110"
+ info_text_ukn_medium_t_p_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.150"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_medium_t9_component_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.042"
@@ -568,11 +568,11 @@
  info_text_ukn_large_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£8"
 #---
 # Exotic Particles
- info_text_ukn_large_t5_shields_cost_volatile_motes:0 "£volatile_motes£300"
- info_text_ukn_large_t6_shields_cost_volatile_motes:0 "£volatile_motes£300"
- info_text_ukn_large_t7_shields_cost_volatile_motes:0 "£volatile_motes£400"
- info_text_ukn_large_t8_shields_cost_volatile_motes:0 "£volatile_motes£400"
- info_text_ukn_large_t_p_shields_cost_volatile_motes:0 "£volatile_motes£400"
+ info_text_ukn_large_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£300"
+ info_text_ukn_large_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£300"
+ info_text_ukn_large_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£400"
+ info_text_ukn_large_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£400"
+ info_text_ukn_large_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£400"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -604,12 +604,12 @@
  info_text_ukn_large_t4_component_upkeep_rare_crystals:0 "£rare_crystals£0.072"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_large_t4_component_upkeep_volatile_motes:0 "£volatile_motes£0.072"
- info_text_ukn_large_t5_component_upkeep_volatile_motes:0 "£volatile_motes£0.100"
- info_text_ukn_large_t6_component_upkeep_volatile_motes:0 "£volatile_motes£0.120"
- info_text_ukn_large_t7_component_upkeep_volatile_motes:0 "£volatile_motes£0.160"
- info_text_ukn_large_t8_component_upkeep_volatile_motes:0 "£volatile_motes£0.220"
- info_text_ukn_large_t_p_component_upkeep_volatile_motes:0 "£volatile_motes£0.300"
+ info_text_ukn_large_t4_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.072"
+ info_text_ukn_large_t5_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.100"
+ info_text_ukn_large_t6_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.120"
+ info_text_ukn_large_t7_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.160"
+ info_text_ukn_large_t8_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.220"
+ info_text_ukn_large_t_p_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.300"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_large_t9_component_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.084"
@@ -725,11 +725,11 @@
  info_text_ukn_big_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£10"
 #---
 # Exotic Particles
- info_text_ukn_big_t5_shields_cost_volatile_motes:0 "£volatile_motes£375"
- info_text_ukn_big_t6_shields_cost_volatile_motes:0 "£volatile_motes£375"
- info_text_ukn_big_t7_shields_cost_volatile_motes:0 "£volatile_motes£500"
- info_text_ukn_big_t8_shields_cost_volatile_motes:0 "£volatile_motes£500"
- info_text_ukn_big_t_p_shields_cost_volatile_motes:0 "£volatile_motes£500"
+ info_text_ukn_big_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£375"
+ info_text_ukn_big_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£375"
+ info_text_ukn_big_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£500"
+ info_text_ukn_big_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£500"
+ info_text_ukn_big_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£500"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -761,12 +761,12 @@
  info_text_ukn_big_t4_component_upkeep_rare_crystals:0 "£rare_crystals£0.090"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_big_t4_component_upkeep_volatile_motes:0 "£volatile_motes£0.090"
- info_text_ukn_big_t5_component_upkeep_volatile_motes:0 "£volatile_motes£0.125"
- info_text_ukn_big_t6_component_upkeep_volatile_motes:0 "£volatile_motes£0.150"
- info_text_ukn_big_t7_component_upkeep_volatile_motes:0 "£volatile_motes£0.200"
- info_text_ukn_big_t8_component_upkeep_volatile_motes:0 "£volatile_motes£0.275"
- info_text_ukn_big_t_p_component_upkeep_volatile_motes:0 "£volatile_motes£0.375"
+ info_text_ukn_big_t4_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.090"
+ info_text_ukn_big_t5_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.125"
+ info_text_ukn_big_t6_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.150"
+ info_text_ukn_big_t7_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.200"
+ info_text_ukn_big_t8_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.275"
+ info_text_ukn_big_t_p_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.375"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_big_t9_component_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.105"
@@ -882,11 +882,11 @@
  info_text_ukn_extralarge_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£16"
 #---
 # Exotic Particles
- info_text_ukn_extralarge_t5_shields_cost_volatile_motes:0 "£volatile_motes£6.00"
- info_text_ukn_extralarge_t6_shields_cost_volatile_motes:0 "£volatile_motes£6.00"
- info_text_ukn_extralarge_t7_shields_cost_volatile_motes:0 "£volatile_motes£8.00"
- info_text_ukn_extralarge_t8_shields_cost_volatile_motes:0 "£volatile_motes£8.00"
- info_text_ukn_extralarge_t_p_shields_cost_volatile_motes:0 "£volatile_motes£8.00"
+ info_text_ukn_extralarge_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£6.00"
+ info_text_ukn_extralarge_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£6.00"
+ info_text_ukn_extralarge_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£8.00"
+ info_text_ukn_extralarge_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£8.00"
+ info_text_ukn_extralarge_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£8.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -918,12 +918,12 @@
  info_text_ukn_extralarge_t4_component_upkeep_rare_crystals:0 "£rare_crystals£0.144"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_extralarge_t4_component_upkeep_volatile_motes:0 "£volatile_motes£0.144"
- info_text_ukn_extralarge_t5_component_upkeep_volatile_motes:0 "£volatile_motes£0.200"
- info_text_ukn_extralarge_t6_component_upkeep_volatile_motes:0 "£volatile_motes£0.240"
- info_text_ukn_extralarge_t7_component_upkeep_volatile_motes:0 "£volatile_motes£0.320"
- info_text_ukn_extralarge_t8_component_upkeep_volatile_motes:0 "£volatile_motes£0.440"
- info_text_ukn_extralarge_t_p_component_upkeep_volatile_motes:0 "£volatile_motes£0.600"
+ info_text_ukn_extralarge_t4_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.144"
+ info_text_ukn_extralarge_t5_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.200"
+ info_text_ukn_extralarge_t6_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.240"
+ info_text_ukn_extralarge_t7_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.320"
+ info_text_ukn_extralarge_t8_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.440"
+ info_text_ukn_extralarge_t_p_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.600"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_extralarge_t9_component_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.168"
@@ -1039,11 +1039,11 @@
  info_text_ukn_titanic_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£32"
 #---
 # Exotic Particles
- info_text_ukn_titanic_t5_shields_cost_volatile_motes:0 "£volatile_motes£12.00"
- info_text_ukn_titanic_t6_shields_cost_volatile_motes:0 "£volatile_motes£12.00"
- info_text_ukn_titanic_t7_shields_cost_volatile_motes:0 "£volatile_motes£16.00"
- info_text_ukn_titanic_t8_shields_cost_volatile_motes:0 "£volatile_motes£16.00"
- info_text_ukn_titanic_t_p_shields_cost_volatile_motes:0 "£volatile_motes£16.00"
+ info_text_ukn_titanic_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£12.00"
+ info_text_ukn_titanic_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£12.00"
+ info_text_ukn_titanic_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£16.00"
+ info_text_ukn_titanic_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£16.00"
+ info_text_ukn_titanic_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£16.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -1075,12 +1075,12 @@
  info_text_ukn_titanic_t4_component_upkeep_rare_crystals:0 "£rare_crystals£0.288"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_titanic_t4_component_upkeep_volatile_motes:0 "£volatile_motes£0.288"
- info_text_ukn_titanic_t5_component_upkeep_volatile_motes:0 "£volatile_motes£0.400"
- info_text_ukn_titanic_t6_component_upkeep_volatile_motes:0 "£volatile_motes£0.480"
- info_text_ukn_titanic_t7_component_upkeep_volatile_motes:0 "£volatile_motes£0.640"
- info_text_ukn_titanic_t8_component_upkeep_volatile_motes:0 "£volatile_motes£0.880"
- info_text_ukn_titanic_t_p_component_upkeep_volatile_motes:0 "£volatile_motes£1.200"
+ info_text_ukn_titanic_t4_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.288"
+ info_text_ukn_titanic_t5_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.400"
+ info_text_ukn_titanic_t6_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.480"
+ info_text_ukn_titanic_t7_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.640"
+ info_text_ukn_titanic_t8_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.880"
+ info_text_ukn_titanic_t_p_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£1.200"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_titanic_t9_component_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.336"
@@ -1196,12 +1196,12 @@
  info_text_ukn_esoteric_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£64"
 #---
 # Exotic Particles
- info_text_ukn_esoteric_t4_shields_cost_volatile_motes:0 "£volatile_motes£16.00"
- info_text_ukn_esoteric_t5_shields_cost_volatile_motes:0 "£volatile_motes£24.00"
- info_text_ukn_esoteric_t6_shields_cost_volatile_motes:0 "£volatile_motes£24.00"
- info_text_ukn_esoteric_t7_shields_cost_volatile_motes:0 "£volatile_motes£32.00"
- info_text_ukn_esoteric_t8_shields_cost_volatile_motes:0 "£volatile_motes£32.00"
- info_text_ukn_esoteric_t_p_shields_cost_volatile_motes:0 "£volatile_motes£32.00"
+ info_text_ukn_esoteric_t4_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£16.00"
+ info_text_ukn_esoteric_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£24.00"
+ info_text_ukn_esoteric_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£24.00"
+ info_text_ukn_esoteric_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£32.00"
+ info_text_ukn_esoteric_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£32.00"
+ info_text_ukn_esoteric_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£32.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -1233,11 +1233,11 @@
  info_text_ukn_esoteric_t4_component_upkeep_rare_crystals:0 "£rare_crystals£0.576"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_esoteric_t5_component_upkeep_volatile_motes:0 "£volatile_motes£0.800"
- info_text_ukn_esoteric_t6_component_upkeep_volatile_motes:0 "£volatile_motes£0.960"
- info_text_ukn_esoteric_t7_component_upkeep_volatile_motes:0 "£volatile_motes£1.280"
- info_text_ukn_esoteric_t8_component_upkeep_volatile_motes:0 "£volatile_motes£1.760"
- info_text_ukn_esoteric_t_p_component_upkeep_volatile_motes:0 "£volatile_motes£2.400"
+ info_text_ukn_esoteric_t5_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.800"
+ info_text_ukn_esoteric_t6_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.960"
+ info_text_ukn_esoteric_t7_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£1.280"
+ info_text_ukn_esoteric_t8_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£1.760"
+ info_text_ukn_esoteric_t_p_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£2.400"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_esoteric_t9_component_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.672"
@@ -1354,11 +1354,11 @@
  info_text_ukn_colossal_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£128"
 #---
 # Exotic Particles
- info_text_ukn_colossal_t5_shields_cost_volatile_motes:0 "£volatile_motes£48.00"
- info_text_ukn_colossal_t6_shields_cost_volatile_motes:0 "£volatile_motes£48.00"
- info_text_ukn_colossal_t7_shields_cost_volatile_motes:0 "£volatile_motes£64.00"
- info_text_ukn_colossal_t8_shields_cost_volatile_motes:0 "£volatile_motes£64.00"
- info_text_ukn_colossal_t_p_shields_cost_volatile_motes:0 "£volatile_motes£64.00"
+ info_text_ukn_colossal_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£48.00"
+ info_text_ukn_colossal_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£48.00"
+ info_text_ukn_colossal_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£64.00"
+ info_text_ukn_colossal_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£64.00"
+ info_text_ukn_colossal_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£64.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -1390,12 +1390,12 @@
  info_text_ukn_colossal_t4_component_upkeep_rare_crystals:0 "£rare_crystals£1.152"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_colossal_t4_component_upkeep_volatile_motes:0 "£volatile_motes£1.152"
- info_text_ukn_colossal_t5_component_upkeep_volatile_motes:0 "£volatile_motes£1.600"
- info_text_ukn_colossal_t6_component_upkeep_volatile_motes:0 "£volatile_motes£1.920"
- info_text_ukn_colossal_t7_component_upkeep_volatile_motes:0 "£volatile_motes£2.560"
- info_text_ukn_colossal_t8_component_upkeep_volatile_motes:0 "£volatile_motes£3.520"
- info_text_ukn_colossal_t_p_component_upkeep_volatile_motes:0 "£volatile_motes£4.800"
+ info_text_ukn_colossal_t4_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£1.152"
+ info_text_ukn_colossal_t5_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£1.600"
+ info_text_ukn_colossal_t6_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£1.920"
+ info_text_ukn_colossal_t7_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£2.560"
+ info_text_ukn_colossal_t8_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£3.520"
+ info_text_ukn_colossal_t_p_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£4.800"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_colossal_t9_component_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£1.344"
@@ -1514,11 +1514,11 @@
  info_text_ukn_regularship_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£1"
 #---
 # Exotic Particles
- info_text_ukn_regularship_t5_shields_cost_volatile_motes:0 "£volatile_motes£0.38"
- info_text_ukn_regularship_t6_shields_cost_volatile_motes:0 "£volatile_motes£0.38"
- info_text_ukn_regularship_t7_shields_cost_volatile_motes:0 "£volatile_motes£0.50"
- info_text_ukn_regularship_t8_shields_cost_volatile_motes:0 "£volatile_motes£0.50"
- info_text_ukn_regularship_t_p_shields_cost_volatile_motes:0 "£volatile_motes£0.50"
+ info_text_ukn_regularship_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.38"
+ info_text_ukn_regularship_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.38"
+ info_text_ukn_regularship_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.50"
+ info_text_ukn_regularship_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.50"
+ info_text_ukn_regularship_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.50"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -1550,12 +1550,12 @@
  info_text_ukn_regularship_t4_sensors_upkeep_rare_crystals:0 "£rare_crystals£0.009"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_regularship_t4_sensors_upkeep_volatile_motes:0 "£volatile_motes£0.009"
- info_text_ukn_regularship_t5_sensors_upkeep_volatile_motes:0 "£volatile_motes£0.012"
- info_text_ukn_regularship_t6_sensors_upkeep_volatile_motes:0 "£volatile_motes£0.015"
- info_text_ukn_regularship_t7_sensors_upkeep_volatile_motes:0 "£volatile_motes£0.020"
- info_text_ukn_regularship_t8_sensors_upkeep_volatile_motes:0 "£volatile_motes£0.027"
- info_text_ukn_regularship_t_p_sensors_upkeep_volatile_motes:0 "£volatile_motes£0.037"
+ info_text_ukn_regularship_t4_sensors_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.009"
+ info_text_ukn_regularship_t5_sensors_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.012"
+ info_text_ukn_regularship_t6_sensors_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.015"
+ info_text_ukn_regularship_t7_sensors_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.020"
+ info_text_ukn_regularship_t8_sensors_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.027"
+ info_text_ukn_regularship_t_p_sensors_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.037"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_regularship_t9_sensors_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.011"
@@ -1674,11 +1674,11 @@
  info_text_ukn_regularship_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£1"
 #---
 # Exotic Particles
- info_text_ukn_regularship_t5_shields_cost_volatile_motes:0 "£volatile_motes£0.38"
- info_text_ukn_regularship_t6_shields_cost_volatile_motes:0 "£volatile_motes£0.38"
- info_text_ukn_regularship_t7_shields_cost_volatile_motes:0 "£volatile_motes£0.50"
- info_text_ukn_regularship_t8_shields_cost_volatile_motes:0 "£volatile_motes£0.50"
- info_text_ukn_regularship_t_p_shields_cost_volatile_motes:0 "£volatile_motes£0.50"
+ info_text_ukn_regularship_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.38"
+ info_text_ukn_regularship_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.38"
+ info_text_ukn_regularship_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.50"
+ info_text_ukn_regularship_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.50"
+ info_text_ukn_regularship_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.50"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -1710,12 +1710,12 @@
  info_text_ukn_regularship_t4_drives_upkeep_rare_crystals:0 "£rare_crystals£0.009"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_regularship_t4_drives_upkeep_volatile_motes:0 "£volatile_motes£0.009"
- info_text_ukn_regularship_t5_drives_upkeep_volatile_motes:0 "£volatile_motes£0.012"
- info_text_ukn_regularship_t6_drives_upkeep_volatile_motes:0 "£volatile_motes£0.015"
- info_text_ukn_regularship_t7_drives_upkeep_volatile_motes:0 "£volatile_motes£0.020"
- info_text_ukn_regularship_t8_drives_upkeep_volatile_motes:0 "£volatile_motes£0.027"
- info_text_ukn_regularship_t_p_drives_upkeep_volatile_motes:0 "£volatile_motes£0.037"
+ info_text_ukn_regularship_t4_drives_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.009"
+ info_text_ukn_regularship_t5_drives_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.012"
+ info_text_ukn_regularship_t6_drives_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.015"
+ info_text_ukn_regularship_t7_drives_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.020"
+ info_text_ukn_regularship_t8_drives_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.027"
+ info_text_ukn_regularship_t_p_drives_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.037"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_regularship_t9_drives_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.011"
@@ -1834,12 +1834,12 @@
  info_text_ukn_corvette_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£2"
 #---
 # Exotic Particles
- info_text_ukn_corvette_t4_shields_cost_volatile_motes:0 "£volatile_motes£0.50"
- info_text_ukn_corvette_t5_shields_cost_volatile_motes:0 "£volatile_motes£0.75"
- info_text_ukn_corvette_t6_shields_cost_volatile_motes:0 "£volatile_motes£0.75"
- info_text_ukn_corvette_t7_shields_cost_volatile_motes:0 "£volatile_motes£1.00"
- info_text_ukn_corvette_t8_shields_cost_volatile_motes:0 "£volatile_motes£1.00"
- info_text_ukn_corvette_t_p_shields_cost_volatile_motes:0 "£volatile_motes£1.00"
+ info_text_ukn_corvette_t4_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.50"
+ info_text_ukn_corvette_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.75"
+ info_text_ukn_corvette_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.75"
+ info_text_ukn_corvette_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£1.00"
+ info_text_ukn_corvette_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£1.00"
+ info_text_ukn_corvette_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£1.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -1871,12 +1871,12 @@
  info_text_ukn_corvette_t4_reactor_upkeep_rare_crystals:0 "£rare_crystals£0.018"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_corvette_t4_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.018"
- info_text_ukn_corvette_t5_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.025"
- info_text_ukn_corvette_t6_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.030"
- info_text_ukn_corvette_t7_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.040"
- info_text_ukn_corvette_t8_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.055"
- info_text_ukn_corvette_t_p_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.075"
+ info_text_ukn_corvette_t4_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.018"
+ info_text_ukn_corvette_t5_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.025"
+ info_text_ukn_corvette_t6_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.030"
+ info_text_ukn_corvette_t7_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.040"
+ info_text_ukn_corvette_t8_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.055"
+ info_text_ukn_corvette_t_p_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.075"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_corvette_t9_reactor_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.021"
@@ -1992,12 +1992,12 @@
  info_text_ukn_destroyer_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£4"
 #---
 # Exotic Particles
- info_text_ukn_destroyer_t4_shields_cost_volatile_motes:0 "£volatile_motes£1.00"
- info_text_ukn_destroyer_t5_shields_cost_volatile_motes:0 "£volatile_motes£1.50"
- info_text_ukn_destroyer_t6_shields_cost_volatile_motes:0 "£volatile_motes£1.50"
- info_text_ukn_destroyer_t7_shields_cost_volatile_motes:0 "£volatile_motes£2.00"
- info_text_ukn_destroyer_t8_shields_cost_volatile_motes:0 "£volatile_motes£2.00"
- info_text_ukn_destroyer_t_p_shields_cost_volatile_motes:0 "£volatile_motes£2.00"
+ info_text_ukn_destroyer_t4_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£1.00"
+ info_text_ukn_destroyer_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£1.50"
+ info_text_ukn_destroyer_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£1.50"
+ info_text_ukn_destroyer_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£2.00"
+ info_text_ukn_destroyer_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£2.00"
+ info_text_ukn_destroyer_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£2.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -2029,12 +2029,12 @@
  info_text_ukn_destroyer_t4_reactor_upkeep_rare_crystals:0 "£rare_crystals£0.036"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_destroyer_t4_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.036"
- info_text_ukn_destroyer_t5_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.050"
- info_text_ukn_destroyer_t6_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.060"
- info_text_ukn_destroyer_t7_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.080"
- info_text_ukn_destroyer_t8_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.110"
- info_text_ukn_destroyer_t_p_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.150"
+ info_text_ukn_destroyer_t4_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.036"
+ info_text_ukn_destroyer_t5_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.050"
+ info_text_ukn_destroyer_t6_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.060"
+ info_text_ukn_destroyer_t7_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.080"
+ info_text_ukn_destroyer_t8_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.110"
+ info_text_ukn_destroyer_t_p_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.150"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_destroyer_t9_reactor_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.042"
@@ -2150,12 +2150,12 @@
  info_text_ukn_cruiser_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£8"
 #---
 # Exotic Particles
- info_text_ukn_cruiser_t4_shields_cost_volatile_motes:0 "£volatile_motes£2.00"
- info_text_ukn_cruiser_t5_shields_cost_volatile_motes:0 "£volatile_motes£3.00"
- info_text_ukn_cruiser_t6_shields_cost_volatile_motes:0 "£volatile_motes£3.00"
- info_text_ukn_cruiser_t7_shields_cost_volatile_motes:0 "£volatile_motes£4.00"
- info_text_ukn_cruiser_t8_shields_cost_volatile_motes:0 "£volatile_motes£4.00"
- info_text_ukn_cruiser_t_p_shields_cost_volatile_motes:0 "£volatile_motes£4.00"
+ info_text_ukn_cruiser_t4_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£2.00"
+ info_text_ukn_cruiser_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£3.00"
+ info_text_ukn_cruiser_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£3.00"
+ info_text_ukn_cruiser_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£4.00"
+ info_text_ukn_cruiser_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£4.00"
+ info_text_ukn_cruiser_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£4.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -2187,12 +2187,12 @@
  info_text_ukn_cruiser_t4_reactor_upkeep_rare_crystals:0 "£rare_crystals£0.072"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_cruiser_t4_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.072"
- info_text_ukn_cruiser_t5_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.100"
- info_text_ukn_cruiser_t6_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.120"
- info_text_ukn_cruiser_t7_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.160"
- info_text_ukn_cruiser_t8_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.220"
- info_text_ukn_cruiser_t_p_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.300"
+ info_text_ukn_cruiser_t4_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.072"
+ info_text_ukn_cruiser_t5_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.100"
+ info_text_ukn_cruiser_t6_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.120"
+ info_text_ukn_cruiser_t7_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.160"
+ info_text_ukn_cruiser_t8_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.220"
+ info_text_ukn_cruiser_t_p_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.300"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_cruiser_t9_reactor_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.084"
@@ -2308,12 +2308,12 @@
  info_text_ukn_battleship_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£16"
 #---
 # Exotic Particles
- info_text_ukn_battleship_t4_shields_cost_volatile_motes:0 "£volatile_motes£4.00"
- info_text_ukn_battleship_t5_shields_cost_volatile_motes:0 "£volatile_motes£6.00"
- info_text_ukn_battleship_t6_shields_cost_volatile_motes:0 "£volatile_motes£6.00"
- info_text_ukn_battleship_t7_shields_cost_volatile_motes:0 "£volatile_motes£8.00"
- info_text_ukn_battleship_t8_shields_cost_volatile_motes:0 "£volatile_motes£8.00"
- info_text_ukn_battleship_t_p_shields_cost_volatile_motes:0 "£volatile_motes£8.00"
+ info_text_ukn_battleship_t4_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£4.00"
+ info_text_ukn_battleship_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£6.00"
+ info_text_ukn_battleship_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£6.00"
+ info_text_ukn_battleship_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£8.00"
+ info_text_ukn_battleship_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£8.00"
+ info_text_ukn_battleship_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£8.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -2345,12 +2345,12 @@
  info_text_ukn_battleship_t4_reactor_upkeep_rare_crystals:0 "£rare_crystals£0.144"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_battleship_t4_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.144"
- info_text_ukn_battleship_t5_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.200"
- info_text_ukn_battleship_t6_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.240"
- info_text_ukn_battleship_t7_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.320"
- info_text_ukn_battleship_t8_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.440"
- info_text_ukn_battleship_t_p_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.600"
+ info_text_ukn_battleship_t4_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.144"
+ info_text_ukn_battleship_t5_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.200"
+ info_text_ukn_battleship_t6_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.240"
+ info_text_ukn_battleship_t7_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.320"
+ info_text_ukn_battleship_t8_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.440"
+ info_text_ukn_battleship_t_p_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.600"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_battleship_t9_reactor_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.168"
@@ -2466,12 +2466,12 @@
  info_text_ukn_titan_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£32"
 #---
 # Exotic Particles
- info_text_ukn_titan_t4_shields_cost_volatile_motes:0 "£volatile_motes£8.00"
- info_text_ukn_titan_t5_shields_cost_volatile_motes:0 "£volatile_motes£12.00"
- info_text_ukn_titan_t6_shields_cost_volatile_motes:0 "£volatile_motes£12.00"
- info_text_ukn_titan_t7_shields_cost_volatile_motes:0 "£volatile_motes£16.00"
- info_text_ukn_titan_t8_shields_cost_volatile_motes:0 "£volatile_motes£16.00"
- info_text_ukn_titan_t_p_shields_cost_volatile_motes:0 "£volatile_motes£16.00"
+ info_text_ukn_titan_t4_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£8.00"
+ info_text_ukn_titan_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£12.00"
+ info_text_ukn_titan_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£12.00"
+ info_text_ukn_titan_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£16.00"
+ info_text_ukn_titan_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£16.00"
+ info_text_ukn_titan_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£16.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -2503,12 +2503,12 @@
  info_text_ukn_titan_t4_reactor_upkeep_rare_crystals:0 "£rare_crystals£0.288"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_titan_t4_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.288"
- info_text_ukn_titan_t5_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.400"
- info_text_ukn_titan_t6_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.480"
- info_text_ukn_titan_t7_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.640"
- info_text_ukn_titan_t8_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.880"
- info_text_ukn_titan_t_p_reactor_upkeep_volatile_motes:0 "£volatile_motes£1.200"
+ info_text_ukn_titan_t4_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.288"
+ info_text_ukn_titan_t5_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.400"
+ info_text_ukn_titan_t6_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.480"
+ info_text_ukn_titan_t7_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.640"
+ info_text_ukn_titan_t8_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.880"
+ info_text_ukn_titan_t_p_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£1.200"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_titan_t9_reactor_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.336"
@@ -2624,12 +2624,12 @@
  info_text_ukn_platform_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£4"
 #---
 # Exotic Particles
- info_text_ukn_platform_t4_shields_cost_volatile_motes:0 "£volatile_motes£1.00"
- info_text_ukn_platform_t5_shields_cost_volatile_motes:0 "£volatile_motes£1.50"
- info_text_ukn_platform_t6_shields_cost_volatile_motes:0 "£volatile_motes£1.50"
- info_text_ukn_platform_t7_shields_cost_volatile_motes:0 "£volatile_motes£2.00"
- info_text_ukn_platform_t8_shields_cost_volatile_motes:0 "£volatile_motes£2.00"
- info_text_ukn_platform_t_p_shields_cost_volatile_motes:0 "£volatile_motes£2.00"
+ info_text_ukn_platform_t4_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£1.00"
+ info_text_ukn_platform_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£1.50"
+ info_text_ukn_platform_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£1.50"
+ info_text_ukn_platform_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£2.00"
+ info_text_ukn_platform_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£2.00"
+ info_text_ukn_platform_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£2.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -2661,12 +2661,12 @@
  info_text_ukn_platform_t4_reactor_upkeep_rare_crystals:0 "£rare_crystals£0.036"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_platform_t4_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.036"
- info_text_ukn_platform_t5_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.050"
- info_text_ukn_platform_t6_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.060"
- info_text_ukn_platform_t7_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.080"
- info_text_ukn_platform_t8_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.110"
- info_text_ukn_platform_t_p_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.150"
+ info_text_ukn_platform_t4_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.036"
+ info_text_ukn_platform_t5_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.050"
+ info_text_ukn_platform_t6_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.060"
+ info_text_ukn_platform_t7_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.080"
+ info_text_ukn_platform_t8_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.110"
+ info_text_ukn_platform_t_p_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.150"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_platform_t9_reactor_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.042"
@@ -2782,12 +2782,12 @@
  info_text_ukn_juggernaut_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£64"
 #---
 # Exotic Particles
- info_text_ukn_juggernaut_t4_shields_cost_volatile_motes:0 "£volatile_motes£16.00"
- info_text_ukn_juggernaut_t5_shields_cost_volatile_motes:0 "£volatile_motes£24.00"
- info_text_ukn_juggernaut_t6_shields_cost_volatile_motes:0 "£volatile_motes£24.00"
- info_text_ukn_juggernaut_t7_shields_cost_volatile_motes:0 "£volatile_motes£32.00"
- info_text_ukn_juggernaut_t8_shields_cost_volatile_motes:0 "£volatile_motes£32.00"
- info_text_ukn_juggernaut_t_p_shields_cost_volatile_motes:0 "£volatile_motes£32.00"
+ info_text_ukn_juggernaut_t4_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£16.00"
+ info_text_ukn_juggernaut_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£24.00"
+ info_text_ukn_juggernaut_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£24.00"
+ info_text_ukn_juggernaut_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£32.00"
+ info_text_ukn_juggernaut_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£32.00"
+ info_text_ukn_juggernaut_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£32.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -2819,12 +2819,12 @@
  info_text_ukn_juggernaut_t4_reactor_upkeep_rare_crystals:0 "£rare_crystals£0.576"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_juggernaut_t4_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.576"
- info_text_ukn_juggernaut_t5_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.800"
- info_text_ukn_juggernaut_t6_reactor_upkeep_volatile_motes:0 "£volatile_motes£0.960"
- info_text_ukn_juggernaut_t7_reactor_upkeep_volatile_motes:0 "£volatile_motes£1.280"
- info_text_ukn_juggernaut_t8_reactor_upkeep_volatile_motes:0 "£volatile_motes£1.760"
- info_text_ukn_juggernaut_t_p_reactor_upkeep_volatile_motes:0 "£volatile_motes£2.400"
+ info_text_ukn_juggernaut_t4_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.576"
+ info_text_ukn_juggernaut_t5_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.800"
+ info_text_ukn_juggernaut_t6_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.960"
+ info_text_ukn_juggernaut_t7_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£1.280"
+ info_text_ukn_juggernaut_t8_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£1.760"
+ info_text_ukn_juggernaut_t_p_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£2.400"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_juggernaut_t9_reactor_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.672"
@@ -2941,12 +2941,12 @@
  info_text_ukn_starbase_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£128"
 #---
 # Exotic Particles
- info_text_ukn_starbase_t4_shields_cost_volatile_motes:0 "£volatile_motes£32.00"
- info_text_ukn_starbase_t5_shields_cost_volatile_motes:0 "£volatile_motes£48.00"
- info_text_ukn_starbase_t6_shields_cost_volatile_motes:0 "£volatile_motes£48.00"
- info_text_ukn_starbase_t7_shields_cost_volatile_motes:0 "£volatile_motes£64.00"
- info_text_ukn_starbase_t8_shields_cost_volatile_motes:0 "£volatile_motes£64.00"
- info_text_ukn_starbase_t_p_shields_cost_volatile_motes:0 "£volatile_motes£64.00"
+ info_text_ukn_starbase_t4_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£32.00"
+ info_text_ukn_starbase_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£48.00"
+ info_text_ukn_starbase_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£48.00"
+ info_text_ukn_starbase_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£64.00"
+ info_text_ukn_starbase_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£64.00"
+ info_text_ukn_starbase_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£64.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -2978,12 +2978,12 @@
  info_text_ukn_starbase_t4_reactor_upkeep_rare_crystals:0 "£rare_crystals£1.152"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_starbase_t4_reactor_upkeep_volatile_motes:0 "£volatile_motes£1.152"
- info_text_ukn_starbase_t5_reactor_upkeep_volatile_motes:0 "£volatile_motes£1.600"
- info_text_ukn_starbase_t6_reactor_upkeep_volatile_motes:0 "£volatile_motes£1.920"
- info_text_ukn_starbase_t7_reactor_upkeep_volatile_motes:0 "£volatile_motes£2.560"
- info_text_ukn_starbase_t8_reactor_upkeep_volatile_motes:0 "£volatile_motes£3.520"
- info_text_ukn_starbase_t_p_reactor_upkeep_volatile_motes:0 "£volatile_motes£4.800"
+ info_text_ukn_starbase_t4_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£1.152"
+ info_text_ukn_starbase_t5_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£1.600"
+ info_text_ukn_starbase_t6_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£1.920"
+ info_text_ukn_starbase_t7_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£2.560"
+ info_text_ukn_starbase_t8_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£3.520"
+ info_text_ukn_starbase_t_p_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£4.800"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_starbase_t9_reactor_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£1.344"
@@ -3099,12 +3099,12 @@
  info_text_ukn_moon_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£256"
 #---
 # Exotic Particles
- info_text_ukn_moon_t4_shields_cost_volatile_motes:0 "£volatile_motes£64.00"
- info_text_ukn_moon_t5_shields_cost_volatile_motes:0 "£volatile_motes£96.00"
- info_text_ukn_moon_t6_shields_cost_volatile_motes:0 "£volatile_motes£96.00"
- info_text_ukn_moon_t7_shields_cost_volatile_motes:0 "£volatile_motes£128.00"
- info_text_ukn_moon_t8_shields_cost_volatile_motes:0 "£volatile_motes£128.00"
- info_text_ukn_moon_t_p_shields_cost_volatile_motes:0 "£volatile_motes£128.00"
+ info_text_ukn_moon_t4_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£64.00"
+ info_text_ukn_moon_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£96.00"
+ info_text_ukn_moon_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£96.00"
+ info_text_ukn_moon_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£128.00"
+ info_text_ukn_moon_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£128.00"
+ info_text_ukn_moon_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£128.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -3136,12 +3136,12 @@
  info_text_ukn_moon_t4_reactor_upkeep_rare_crystals:0 "£rare_crystals£2.304"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_moon_t4_reactor_upkeep_volatile_motes:0 "£volatile_motes£2.304"
- info_text_ukn_moon_t5_reactor_upkeep_volatile_motes:0 "£volatile_motes£3.200"
- info_text_ukn_moon_t6_reactor_upkeep_volatile_motes:0 "£volatile_motes£3.840"
- info_text_ukn_moon_t7_reactor_upkeep_volatile_motes:0 "£volatile_motes£5.120"
- info_text_ukn_moon_t8_reactor_upkeep_volatile_motes:0 "£volatile_motes£7.040"
- info_text_ukn_moon_t_p_reactor_upkeep_volatile_motes:0 "£volatile_motes£9.600"
+ info_text_ukn_moon_t4_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£2.304"
+ info_text_ukn_moon_t5_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£3.200"
+ info_text_ukn_moon_t6_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£3.840"
+ info_text_ukn_moon_t7_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£5.120"
+ info_text_ukn_moon_t8_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£7.040"
+ info_text_ukn_moon_t_p_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£9.600"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_moon_t9_reactor_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£2.688"
@@ -3257,12 +3257,12 @@
  info_text_ukn_planet_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£512"
 #---
 # Exotic Particles
- info_text_ukn_planet_t4_shields_cost_volatile_motes:0 "£volatile_motes£128.00"
- info_text_ukn_planet_t5_shields_cost_volatile_motes:0 "£volatile_motes£192.00"
- info_text_ukn_planet_t6_shields_cost_volatile_motes:0 "£volatile_motes£192.00"
- info_text_ukn_planet_t7_shields_cost_volatile_motes:0 "£volatile_motes£256.00"
- info_text_ukn_planet_t8_shields_cost_volatile_motes:0 "£volatile_motes£256.00"
- info_text_ukn_planet_t_p_shields_cost_volatile_motes:0 "£volatile_motes£256.00"
+ info_text_ukn_planet_t4_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£128.00"
+ info_text_ukn_planet_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£192.00"
+ info_text_ukn_planet_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£192.00"
+ info_text_ukn_planet_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£256.00"
+ info_text_ukn_planet_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£256.00"
+ info_text_ukn_planet_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£256.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -3294,12 +3294,12 @@
  info_text_ukn_planet_t4_reactor_upkeep_rare_crystals:0 "£rare_crystals£4.608"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_planet_t4_reactor_upkeep_volatile_motes:0 "£volatile_motes£4.608"
- info_text_ukn_planet_t5_reactor_upkeep_volatile_motes:0 "£volatile_motes£6.400"
- info_text_ukn_planet_t6_reactor_upkeep_volatile_motes:0 "£volatile_motes£7.680"
- info_text_ukn_planet_t7_reactor_upkeep_volatile_motes:0 "£volatile_motes£10.240"
- info_text_ukn_planet_t8_reactor_upkeep_volatile_motes:0 "£volatile_motes£14.080"
- info_text_ukn_planet_t_p_reactor_upkeep_volatile_motes:0 "£volatile_motes£19.200"
+ info_text_ukn_planet_t4_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£4.608"
+ info_text_ukn_planet_t5_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£6.400"
+ info_text_ukn_planet_t6_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£7.680"
+ info_text_ukn_planet_t7_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£10.240"
+ info_text_ukn_planet_t8_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£14.080"
+ info_text_ukn_planet_t_p_reactor_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£19.200"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_planet_t9_reactor_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£5.376"
@@ -3418,11 +3418,11 @@
  info_text_ukn_corvette_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£1"
 #---
 # Exotic Particles
- info_text_ukn_corvette_t5_shields_cost_volatile_motes:0 "£volatile_motes£0.38"
- info_text_ukn_corvette_t6_shields_cost_volatile_motes:0 "£volatile_motes£0.38"
- info_text_ukn_corvette_t7_shields_cost_volatile_motes:0 "£volatile_motes£0.50"
- info_text_ukn_corvette_t8_shields_cost_volatile_motes:0 "£volatile_motes£0.50"
- info_text_ukn_corvette_t_p_shields_cost_volatile_motes:0 "£volatile_motes£0.50"
+ info_text_ukn_corvette_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.38"
+ info_text_ukn_corvette_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.38"
+ info_text_ukn_corvette_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.50"
+ info_text_ukn_corvette_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.50"
+ info_text_ukn_corvette_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.50"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -3454,12 +3454,12 @@
  info_text_ukn_corvette_t4_thruster_upkeep_rare_crystals:0 "£rare_crystals£0.009"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_corvette_t4_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.009"
- info_text_ukn_corvette_t5_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.012"
- info_text_ukn_corvette_t6_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.015"
- info_text_ukn_corvette_t7_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.020"
- info_text_ukn_corvette_t8_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.027"
- info_text_ukn_corvette_t_p_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.037"
+ info_text_ukn_corvette_t4_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.009"
+ info_text_ukn_corvette_t5_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.012"
+ info_text_ukn_corvette_t6_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.015"
+ info_text_ukn_corvette_t7_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.020"
+ info_text_ukn_corvette_t8_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.027"
+ info_text_ukn_corvette_t_p_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.037"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_corvette_t9_thruster_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.011"
@@ -3575,11 +3575,11 @@
  info_text_ukn_destroyer_t_p_thruster_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£2"
 #---
 # Exotic Particles
- info_text_ukn_destroyer_t5_thruster_shields_cost_volatile_motes:0 "£volatile_motes£0.75"
- info_text_ukn_destroyer_t6_thruster_shields_cost_volatile_motes:0 "£volatile_motes£0.75"
- info_text_ukn_destroyer_t7_thruster_shields_cost_volatile_motes:0 "£volatile_motes£100"
- info_text_ukn_destroyer_t8_thruster_shields_cost_volatile_motes:0 "£volatile_motes£100"
- info_text_ukn_destroyer_t_p_thruster_shields_cost_volatile_motes:0 "£volatile_motes£100"
+ info_text_ukn_destroyer_t5_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.75"
+ info_text_ukn_destroyer_t6_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0.75"
+ info_text_ukn_destroyer_t7_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£100"
+ info_text_ukn_destroyer_t8_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£100"
+ info_text_ukn_destroyer_t_p_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£100"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -3611,12 +3611,12 @@
  info_text_ukn_destroyer_t4_thruster_upkeep_rare_crystals:0 "£rare_crystals£0.018"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_destroyer_t4_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.018"
- info_text_ukn_destroyer_t5_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.025"
- info_text_ukn_destroyer_t6_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.030"
- info_text_ukn_destroyer_t7_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.040"
- info_text_ukn_destroyer_t8_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.055"
- info_text_ukn_destroyer_t_p_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.075"
+ info_text_ukn_destroyer_t4_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.018"
+ info_text_ukn_destroyer_t5_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.025"
+ info_text_ukn_destroyer_t6_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.030"
+ info_text_ukn_destroyer_t7_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.040"
+ info_text_ukn_destroyer_t8_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.055"
+ info_text_ukn_destroyer_t_p_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.075"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_destroyer_t9_thruster_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.021"
@@ -3732,11 +3732,11 @@
  info_text_ukn_cruiser_t_p_thruster_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£4"
 #---
 # Exotic Particles
- info_text_ukn_cruiser_t5_thruster_shields_cost_volatile_motes:0 "£volatile_motes£150"
- info_text_ukn_cruiser_t6_thruster_shields_cost_volatile_motes:0 "£volatile_motes£150"
- info_text_ukn_cruiser_t7_thruster_shields_cost_volatile_motes:0 "£volatile_motes£200"
- info_text_ukn_cruiser_t8_thruster_shields_cost_volatile_motes:0 "£volatile_motes£200"
- info_text_ukn_cruiser_t_p_thruster_shields_cost_volatile_motes:0 "£volatile_motes£200"
+ info_text_ukn_cruiser_t5_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£150"
+ info_text_ukn_cruiser_t6_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£150"
+ info_text_ukn_cruiser_t7_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£200"
+ info_text_ukn_cruiser_t8_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£200"
+ info_text_ukn_cruiser_t_p_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£200"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -3768,12 +3768,12 @@
  info_text_ukn_cruiser_t4_thruster_upkeep_rare_crystals:0 "£rare_crystals£0.036"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_cruiser_t4_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.036"
- info_text_ukn_cruiser_t5_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.050"
- info_text_ukn_cruiser_t6_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.060"
- info_text_ukn_cruiser_t7_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.080"
- info_text_ukn_cruiser_t8_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.110"
- info_text_ukn_cruiser_t_p_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.150"
+ info_text_ukn_cruiser_t4_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.036"
+ info_text_ukn_cruiser_t5_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.050"
+ info_text_ukn_cruiser_t6_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.060"
+ info_text_ukn_cruiser_t7_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.080"
+ info_text_ukn_cruiser_t8_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.110"
+ info_text_ukn_cruiser_t_p_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.150"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_cruiser_t9_thruster_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.042"
@@ -3889,11 +3889,11 @@
  info_text_ukn_battleship_t_p_thruster_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£8"
 #---
 # Exotic Particles
- info_text_ukn_battleship_t5_thruster_shields_cost_volatile_motes:0 "£volatile_motes£300"
- info_text_ukn_battleship_t6_thruster_shields_cost_volatile_motes:0 "£volatile_motes£300"
- info_text_ukn_battleship_t7_thruster_shields_cost_volatile_motes:0 "£volatile_motes£400"
- info_text_ukn_battleship_t8_thruster_shields_cost_volatile_motes:0 "£volatile_motes£400"
- info_text_ukn_battleship_t_p_thruster_shields_cost_volatile_motes:0 "£volatile_motes£400"
+ info_text_ukn_battleship_t5_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£300"
+ info_text_ukn_battleship_t6_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£300"
+ info_text_ukn_battleship_t7_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£400"
+ info_text_ukn_battleship_t8_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£400"
+ info_text_ukn_battleship_t_p_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£400"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -3925,12 +3925,12 @@
  info_text_ukn_battleship_t4_thruster_upkeep_rare_crystals:0 "£rare_crystals£0.072"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_battleship_t4_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.072"
- info_text_ukn_battleship_t5_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.100"
- info_text_ukn_battleship_t6_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.120"
- info_text_ukn_battleship_t7_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.160"
- info_text_ukn_battleship_t8_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.220"
- info_text_ukn_battleship_t_p_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.300"
+ info_text_ukn_battleship_t4_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.072"
+ info_text_ukn_battleship_t5_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.100"
+ info_text_ukn_battleship_t6_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.120"
+ info_text_ukn_battleship_t7_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.160"
+ info_text_ukn_battleship_t8_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.220"
+ info_text_ukn_battleship_t_p_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.300"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_battleship_t9_thruster_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.084"
@@ -4046,11 +4046,11 @@
  info_text_ukn_titan_t_p_thruster_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£16"
 #---
 # Exotic Particles
- info_text_ukn_titan_t5_thruster_shields_cost_volatile_motes:0 "£volatile_motes£6.00"
- info_text_ukn_titan_t6_thruster_shields_cost_volatile_motes:0 "£volatile_motes£6.00"
- info_text_ukn_titan_t7_thruster_shields_cost_volatile_motes:0 "£volatile_motes£8.00"
- info_text_ukn_titan_t8_thruster_shields_cost_volatile_motes:0 "£volatile_motes£8.00"
- info_text_ukn_titan_t_p_thruster_shields_cost_volatile_motes:0 "£volatile_motes£8.00"
+ info_text_ukn_titan_t5_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£6.00"
+ info_text_ukn_titan_t6_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£6.00"
+ info_text_ukn_titan_t7_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£8.00"
+ info_text_ukn_titan_t8_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£8.00"
+ info_text_ukn_titan_t_p_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£8.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -4082,12 +4082,12 @@
  info_text_ukn_titan_t4_thruster_upkeep_rare_crystals:0 "£rare_crystals£0.144"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_titan_t4_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.144"
- info_text_ukn_titan_t5_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.200"
- info_text_ukn_titan_t6_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.240"
- info_text_ukn_titan_t7_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.320"
- info_text_ukn_titan_t8_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.440"
- info_text_ukn_titan_t_p_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.600"
+ info_text_ukn_titan_t4_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.144"
+ info_text_ukn_titan_t5_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.200"
+ info_text_ukn_titan_t6_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.240"
+ info_text_ukn_titan_t7_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.320"
+ info_text_ukn_titan_t8_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.440"
+ info_text_ukn_titan_t_p_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.600"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_titan_t9_thruster_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.168"
@@ -4203,11 +4203,11 @@
  info_text_ukn_juggernaut_t_p_thruster_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£32"
 #---
 # Exotic Particles
- info_text_ukn_juggernaut_t5_thruster_shields_cost_volatile_motes:0 "£volatile_motes£12.00"
- info_text_ukn_juggernaut_t6_thruster_shields_cost_volatile_motes:0 "£volatile_motes£12.00"
- info_text_ukn_juggernaut_t7_thruster_shields_cost_volatile_motes:0 "£volatile_motes£16.00"
- info_text_ukn_juggernaut_t8_thruster_shields_cost_volatile_motes:0 "£volatile_motes£16.00"
- info_text_ukn_juggernaut_t_p_thruster_shields_cost_volatile_motes:0 "£volatile_motes£16.00"
+ info_text_ukn_juggernaut_t5_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£12.00"
+ info_text_ukn_juggernaut_t6_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£12.00"
+ info_text_ukn_juggernaut_t7_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£16.00"
+ info_text_ukn_juggernaut_t8_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£16.00"
+ info_text_ukn_juggernaut_t_p_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£16.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -4239,12 +4239,12 @@
  info_text_ukn_juggernaut_t4_thruster_upkeep_rare_crystals:0 "£rare_crystals£0.288"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_juggernaut_t4_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.288"
- info_text_ukn_juggernaut_t5_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.400"
- info_text_ukn_juggernaut_t6_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.480"
- info_text_ukn_juggernaut_t7_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.640"
- info_text_ukn_juggernaut_t8_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.880"
- info_text_ukn_juggernaut_t_p_thruster_upkeep_volatile_motes:0 "£volatile_motes£1.200"
+ info_text_ukn_juggernaut_t4_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.288"
+ info_text_ukn_juggernaut_t5_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.400"
+ info_text_ukn_juggernaut_t6_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.480"
+ info_text_ukn_juggernaut_t7_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.640"
+ info_text_ukn_juggernaut_t8_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.880"
+ info_text_ukn_juggernaut_t_p_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£1.200"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_juggernaut_t9_thruster_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.336"
@@ -4360,12 +4360,12 @@
  info_text_ukn_starbase_t_p_thruster_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£64"
 #---
 # Exotic Particles
- info_text_ukn_starbase_t4_thruster_shields_cost_volatile_motes:0 "£volatile_motes£16.00"
- info_text_ukn_starbase_t5_thruster_shields_cost_volatile_motes:0 "£volatile_motes£24.00"
- info_text_ukn_starbase_t6_thruster_shields_cost_volatile_motes:0 "£volatile_motes£24.00"
- info_text_ukn_starbase_t7_thruster_shields_cost_volatile_motes:0 "£volatile_motes£32.00"
- info_text_ukn_starbase_t8_thruster_shields_cost_volatile_motes:0 "£volatile_motes£32.00"
- info_text_ukn_starbase_t_p_thruster_shields_cost_volatile_motes:0 "£volatile_motes£32.00"
+ info_text_ukn_starbase_t4_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£16.00"
+ info_text_ukn_starbase_t5_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£24.00"
+ info_text_ukn_starbase_t6_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£24.00"
+ info_text_ukn_starbase_t7_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£32.00"
+ info_text_ukn_starbase_t8_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£32.00"
+ info_text_ukn_starbase_t_p_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£32.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -4397,12 +4397,12 @@
  info_text_ukn_starbase_t4_thruster_upkeep_rare_crystals:0 "£rare_crystals£0.576"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_starbase_t4_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.576"
- info_text_ukn_starbase_t5_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.800"
- info_text_ukn_starbase_t6_thruster_upkeep_volatile_motes:0 "£volatile_motes£0.960"
- info_text_ukn_starbase_t7_thruster_upkeep_volatile_motes:0 "£volatile_motes£1.280"
- info_text_ukn_starbase_t8_thruster_upkeep_volatile_motes:0 "£volatile_motes£1.760"
- info_text_ukn_starbase_t_p_thruster_upkeep_volatile_motes:0 "£volatile_motes£2.400"
+ info_text_ukn_starbase_t4_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.576"
+ info_text_ukn_starbase_t5_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.800"
+ info_text_ukn_starbase_t6_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0.960"
+ info_text_ukn_starbase_t7_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£1.280"
+ info_text_ukn_starbase_t8_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£1.760"
+ info_text_ukn_starbase_t_p_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£2.400"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_starbase_t9_thruster_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0.672"
@@ -4519,11 +4519,11 @@
  info_text_ukn_moon_t_p_thruster_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£128"
 #---
 # Exotic Particles
- info_text_ukn_moon_t5_thruster_shields_cost_volatile_motes:0 "£volatile_motes£48.00"
- info_text_ukn_moon_t6_thruster_shields_cost_volatile_motes:0 "£volatile_motes£48.00"
- info_text_ukn_moon_t7_thruster_shields_cost_volatile_motes:0 "£volatile_motes£64.00"
- info_text_ukn_moon_t8_thruster_shields_cost_volatile_motes:0 "£volatile_motes£64.00"
- info_text_ukn_moon_t_p_thruster_shields_cost_volatile_motes:0 "£volatile_motes£64.00"
+ info_text_ukn_moon_t5_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£48.00"
+ info_text_ukn_moon_t6_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£48.00"
+ info_text_ukn_moon_t7_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£64.00"
+ info_text_ukn_moon_t8_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£64.00"
+ info_text_ukn_moon_t_p_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£64.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -4555,11 +4555,11 @@
  info_text_ukn_moon_t4_component_upkeep_rare_crystals:0 "£rare_crystals£1.152"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_moon_t5_component_upkeep_volatile_motes:0 "£volatile_motes£1.600"
- info_text_ukn_moon_t6_component_upkeep_volatile_motes:0 "£volatile_motes£1.920"
- info_text_ukn_moon_t7_component_upkeep_volatile_motes:0 "£volatile_motes£2.560"
- info_text_ukn_moon_t8_component_upkeep_volatile_motes:0 "£volatile_motes£3.520"
- info_text_ukn_moon_t_p_component_upkeep_volatile_motes:0 "£volatile_motes£4.800"
+ info_text_ukn_moon_t5_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£1.600"
+ info_text_ukn_moon_t6_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£1.920"
+ info_text_ukn_moon_t7_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£2.560"
+ info_text_ukn_moon_t8_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£3.520"
+ info_text_ukn_moon_t_p_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£4.800"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_moon_t9_component_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£1.344"
@@ -4675,11 +4675,11 @@
  info_text_ukn_planet_t_p_thruster_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£256"
 #---
 # Exotic Particles
- info_text_ukn_planet_t5_thruster_shields_cost_volatile_motes:0 "£volatile_motes£96.00"
- info_text_ukn_planet_t6_thruster_shields_cost_volatile_motes:0 "£volatile_motes£96.00"
- info_text_ukn_planet_t7_thruster_shields_cost_volatile_motes:0 "£volatile_motes£128.00"
- info_text_ukn_planet_t8_thruster_shields_cost_volatile_motes:0 "£volatile_motes£128.00"
- info_text_ukn_planet_t_p_thruster_shields_cost_volatile_motes:0 "£volatile_motes£128.00"
+ info_text_ukn_planet_t5_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£96.00"
+ info_text_ukn_planet_t6_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£96.00"
+ info_text_ukn_planet_t7_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£128.00"
+ info_text_ukn_planet_t8_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£128.00"
+ info_text_ukn_planet_t_p_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£128.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -4711,12 +4711,12 @@
  info_text_ukn_planet_t4_thruster_upkeep_rare_crystals:0 "£rare_crystals£2.304"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_planet_t4_thruster_upkeep_volatile_motes:0 "£volatile_motes£2.304"
- info_text_ukn_planet_t5_thruster_upkeep_volatile_motes:0 "£volatile_motes£3.200"
- info_text_ukn_planet_t6_thruster_upkeep_volatile_motes:0 "£volatile_motes£3.840"
- info_text_ukn_planet_t7_thruster_upkeep_volatile_motes:0 "£volatile_motes£5.120"
- info_text_ukn_planet_t8_thruster_upkeep_volatile_motes:0 "£volatile_motes£7.040"
- info_text_ukn_planet_t_p_thruster_upkeep_volatile_motes:0 "£volatile_motes£9.600"
+ info_text_ukn_planet_t4_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£2.304"
+ info_text_ukn_planet_t5_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£3.200"
+ info_text_ukn_planet_t6_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£3.840"
+ info_text_ukn_planet_t7_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£5.120"
+ info_text_ukn_planet_t8_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£7.040"
+ info_text_ukn_planet_t_p_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£9.600"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_planet_t9_thruster_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£2.688"
@@ -4832,11 +4832,11 @@
  info_text_ukn_system_t_p_thruster_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£512"
 #---
 # Exotic Particles
- info_text_ukn_system_t5_thruster_shields_cost_volatile_motes:0 "£volatile_motes£192.00"
- info_text_ukn_system_t6_thruster_shields_cost_volatile_motes:0 "£volatile_motes£192.00"
- info_text_ukn_system_t7_thruster_shields_cost_volatile_motes:0 "£volatile_motes£256.00"
- info_text_ukn_system_t8_thruster_shields_cost_volatile_motes:0 "£volatile_motes£256.00"
- info_text_ukn_system_t_p_thruster_shields_cost_volatile_motes:0 "£volatile_motes£256.00"
+ info_text_ukn_system_t5_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£192.00"
+ info_text_ukn_system_t6_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£192.00"
+ info_text_ukn_system_t7_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£256.00"
+ info_text_ukn_system_t8_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£256.00"
+ info_text_ukn_system_t_p_thruster_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£256.00"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -4868,12 +4868,12 @@
  info_text_ukn_system_t4_thruster_upkeep_rare_crystals:0 "£rare_crystals£4.608"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_system_t4_thruster_upkeep_volatile_motes:0 "£volatile_motes£4.608"
- info_text_ukn_system_t5_thruster_upkeep_volatile_motes:0 "£volatile_motes£6.400"
- info_text_ukn_system_t6_thruster_upkeep_volatile_motes:0 "£volatile_motes£7.680"
- info_text_ukn_system_t7_thruster_upkeep_volatile_motes:0 "£volatile_motes£10.240"
- info_text_ukn_system_t8_thruster_upkeep_volatile_motes:0 "£volatile_motes£14.080"
- info_text_ukn_system_t_p_thruster_upkeep_volatile_motes:0 "£volatile_motes£19.200"
+ info_text_ukn_system_t4_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£4.608"
+ info_text_ukn_system_t5_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£6.400"
+ info_text_ukn_system_t6_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£7.680"
+ info_text_ukn_system_t7_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£10.240"
+ info_text_ukn_system_t8_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£14.080"
+ info_text_ukn_system_t_p_thruster_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£19.200"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_system_t9_thruster_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£5.376"
@@ -4989,11 +4989,11 @@
  info_text_ukn_empty_t_p_shields_cost_ukn_meta_materials:0 "£ukn_meta_materials£0"
 #---
 # Exotic Particles
- info_text_ukn_empty_t5_shields_cost_volatile_motes:0 "£volatile_motes£0"
- info_text_ukn_empty_t6_shields_cost_volatile_motes:0 "£volatile_motes£0"
- info_text_ukn_empty_t7_shields_cost_volatile_motes:0 "£volatile_motes£0"
- info_text_ukn_empty_t8_shields_cost_volatile_motes:0 "£volatile_motes£0"
- info_text_ukn_empty_t_p_shields_cost_volatile_motes:0 "£volatile_motes£0"
+ info_text_ukn_empty_t5_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0"
+ info_text_ukn_empty_t6_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0"
+ info_text_ukn_empty_t7_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0"
+ info_text_ukn_empty_t8_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0"
+ info_text_ukn_empty_t_p_shields_cost_ukn_exotic_particles:0 "£ukn_exotic_particles£0"
 #---
 ### UPKEEP ###---------------------------
 # Minerals ('BIG' Upkeep)
@@ -5025,11 +5025,11 @@
  info_text_ukn_empty_t4_component_upkeep_rare_crystals:0 "£rare_crystals£0"
 #---
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_empty_t5_component_upkeep_volatile_motes:0 "£volatile_motes£0"
- info_text_ukn_empty_t6_component_upkeep_volatile_motes:0 "£volatile_motes£0"
- info_text_ukn_empty_t7_component_upkeep_volatile_motes:0 "£volatile_motes£0"
- info_text_ukn_empty_t8_component_upkeep_volatile_motes:0 "£volatile_motes£0"
- info_text_ukn_empty_t_p_component_upkeep_volatile_motes:0 "£volatile_motes£0"
+ info_text_ukn_empty_t5_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0"
+ info_text_ukn_empty_t6_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0"
+ info_text_ukn_empty_t7_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0"
+ info_text_ukn_empty_t8_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0"
+ info_text_ukn_empty_t_p_component_upkeep_ukn_exotic_particles:0 "£ukn_exotic_particles£0"
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_empty_t9_component_upkeep_ehof_sr_negative_mass:0 "£ehof_sr_negative_mass£0"

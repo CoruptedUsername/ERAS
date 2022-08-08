@@ -1567,7 +1567,7 @@ building_ukn_research_lab_5 = {
 			planet_districts_rw_science_cost_mult = 0.65
 		}
 	}
-#-------------------------------------
+#----------------------------------------------------
 
 	ai_resource_production = {
 		trigger = { always = yes }

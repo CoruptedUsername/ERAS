@@ -257,7 +257,7 @@ think_tank_3 = {
 			ukn_meta_materials = @ukn_science_nexus_p3_cost_ukn_meta_materials
 ####
 			nanites = @ukn_science_nexus_p3_cost_nanites
-			volatile_motes = @ukn_science_nexus_p3_cost_volatile_motes
+			ukn_exotic_particles = @ukn_science_nexus_p3_cost_ukn_exotic_particles
 			ukn_femtomatter = @ukn_science_nexus_p3_cost_ukn_femtomatter
 #			ukn_condensics = @ukn_science_nexus_p3_cost_ukn_condensics
 #			ukn_quasi_matter = @ukn_science_nexus_p3_cost_ukn_quasi_matter
@@ -354,7 +354,7 @@ think_tank_restored = {
 			ukn_meta_materials = @ukn_science_nexus_r_cost_ukn_meta_materials
 ####
 			nanites = @ukn_science_nexus_r_cost_nanites
-			volatile_motes = @ukn_science_nexus_r_cost_volatile_motes
+			ukn_exotic_particles = @ukn_science_nexus_r_cost_ukn_exotic_particles
 			ukn_femtomatter = @ukn_science_nexus_r_cost_ukn_femtomatter
 #			ukn_condensics = @ukn_science_nexus_r_cost_ukn_condensics
 #			ukn_quasi_matter = @ukn_science_nexus_r_cost_ukn_quasi_matter
@@ -440,7 +440,7 @@ think_tank_3_dummy_text = {
 			ukn_meta_materials = @ukn_science_nexus_p3_cost_ukn_meta_materials
 ####
 			nanites = @ukn_science_nexus_p3_cost_nanites
-			volatile_motes = @ukn_science_nexus_p3_cost_volatile_motes
+			ukn_exotic_particles = @ukn_science_nexus_p3_cost_ukn_exotic_particles
 			ukn_femtomatter = @ukn_science_nexus_p3_cost_ukn_femtomatter
 #			ukn_condensics = @ukn_science_nexus_p3_cost_ukn_condensics
 #			ukn_quasi_matter = @ukn_science_nexus_p3_cost_ukn_quasi_matter

@@ -94,11 +94,11 @@
 ##############################
 
 # EXOTIC PARTICLE PRODUCTION / BUFFING TECHS #-----------------
- tech_mine_volatile_motes:0 "£ukn_icon_tech_milestone£ Exotic Particle Manufacturing"
- tech_mine_volatile_motes_desc:0 "$UKN_TECH_ERA_3$DESC$UKN_TECH_MILESTONE_TOOLTIP_ERA_4$"
+ tech_mine_ukn_exotic_particles:0 "£ukn_icon_tech_milestone£ Exotic Particle Manufacturing"
+ tech_mine_ukn_exotic_particles_desc:0 "$UKN_TECH_ERA_3$DESC$UKN_TECH_MILESTONE_TOOLTIP_ERA_4$"
  
- tech_volatile_motes:0 "Atypical Field Manipulation"
- tech_volatile_motes_desc:0 "$UKN_TECH_ERA_3$DESC"
+ tech_ukn_exotic_particles:0 "Atypical Field Manipulation"
+ tech_ukn_exotic_particles_desc:0 "$UKN_TECH_ERA_3$DESC"
  
 
 

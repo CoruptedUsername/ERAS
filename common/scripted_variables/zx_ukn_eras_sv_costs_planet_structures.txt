@@ -80,6 +80,89 @@
 
 ### BUILD TIME ###---------------------------
 
+@building_ukn_holo_theatres_1_build_time = 360
+@building_ukn_holo_theatres_3_build_time = 360
+@building_ukn_holo_theatres_4_build_time = 360
+
+### COST ###---------------------------
+
+# Articles
+@building_ukn_holo_theatres_1_cost_basic_consumer_goods = 50
+@building_ukn_holo_theatres_3_cost_basic_consumer_goods = 100
+@building_ukn_holo_theatres_4_cost_basic_consumer_goods = 150
+
+# Minerals
+@building_ukn_holo_theatres_1_cost_basic_minerals = 500
+@building_ukn_holo_theatres_3_cost_basic_minerals = 500
+@building_ukn_holo_theatres_4_cost_basic_minerals = 500
+
+# Exotic Gases
+@building_ukn_holo_theatres_1_cost_advanced_exotic_gases = 0
+@building_ukn_holo_theatres_3_cost_advanced_exotic_gases = 30
+@building_ukn_holo_theatres_4_cost_advanced_exotic_gases = 30
+
+# Rare Crystals
+@building_ukn_holo_theatres_1_cost_advanced_rare_crystals = 0
+@building_ukn_holo_theatres_3_cost_advanced_rare_crystals = 30
+@building_ukn_holo_theatres_4_cost_advanced_rare_crystals = 30
+
+# Polymerics
+@building_ukn_holo_theatres_1_cost_basic_alloys = 100
+@building_ukn_holo_theatres_3_cost_basic_alloys = 200
+
+# Meta-Materials
+@building_ukn_holo_theatres_4_cost_basic_ukn_meta_materials = 200
+#--- [Basic Replace]
+@building_ukn_holo_theatres_1_r_cost_basic_ukn_meta_materials = 320
+@building_ukn_holo_theatres_3_r_cost_basic_ukn_meta_materials = 250
+@building_ukn_holo_theatres_4_r_cost_basic_ukn_meta_materials = 250
+
+# Femtomatter
+#--- [Advanced Replace]
+@building_ukn_holo_theatres_1_r_cost_advanced_ukn_femtomatter = 0
+@building_ukn_holo_theatres_3_r_cost_advanced_ukn_femtomatter = 1.5
+@building_ukn_holo_theatres_4_r_cost_advanced_ukn_femtomatter = 1.5
+
+# Condensics
+#--- [Advanced Replace]
+@building_ukn_holo_theatres_1_r_cost_advanced_ukn_condensics = 0
+@building_ukn_holo_theatres_3_r_cost_advanced_ukn_condensics = 0.375
+@building_ukn_holo_theatres_4_r_cost_advanced_ukn_condensics = 0.375
+
+# Quasi-Matter
+#--- [Basic Replace]
+@building_ukn_holo_theatres_1_r_cost_basic_ukn_quasi_matter = 0.7858
+@building_ukn_holo_theatres_3_r_cost_basic_ukn_quasi_matter = 0.6139
+@building_ukn_holo_theatres_4_r_cost_basic_ukn_quasi_matter = 0.6139
+#--- [Advanced Replace]
+@building_ukn_holo_theatres_1_r_cost_advanced_ukn_quasi_matter = 0
+@building_ukn_holo_theatres_3_r_cost_advanced_ukn_quasi_matter = 0.1578
+@building_ukn_holo_theatres_4_r_cost_advanced_ukn_quasi_matter = 0.1578
+
+# Causalitons
+#--- [Basic Replace]
+@building_ukn_holo_theatres_1_r_cost_basic_ukn_causalitons = 0.2447
+@building_ukn_holo_theatres_3_r_cost_basic_ukn_causalitons = 0.1912
+@building_ukn_holo_theatres_4_r_cost_basic_ukn_causalitons = 0.1912
+#--- [Advanced Replace]
+@building_ukn_holo_theatres_1_r_cost_advanced_ukn_causalitons = 0
+@building_ukn_holo_theatres_3_r_cost_advanced_ukn_causalitons = 0.0491
+@building_ukn_holo_theatres_4_r_cost_advanced_ukn_causalitons = 0.0491
+
+### UPKEEP ###---------------------------
+
+# Energy
+@building_ukn_holo_theatres_1_upkeep_energy = 5
+@building_ukn_holo_theatres_3_upkeep_energy = 10
+@building_ukn_holo_theatres_4_upkeep_energy = 15
+
+
+####################
+# COMMERCIAL GRIDS #
+####################
+
+### BUILD TIME ###---------------------------
+
 @building_ukn_environmental_grid_1_build_time = 360
 @building_ukn_environmental_grid_3_build_time = 360
 @building_ukn_environmental_grid_4_build_time = 360
@@ -3597,93 +3680,93 @@
 
 ### BUILD TIME ###---------------------------
 
-@district_ukn_exotic_particle_factory_4_build_time = 1080
-@district_ukn_hab_exotic_particle_factory_4_build_time = 1080
-@district_ukn_arcology_exotic_particle_factory_4_build_time = 1920
-@district_ukn_rw_exotic_particle_factory_5_build_time = 6240
+@district_ukn_exotic_particles_factory_4_build_time = 1080
+@district_ukn_hab_exotic_particles_factory_4_build_time = 1080
+@district_ukn_arcology_exotic_particles_factory_4_build_time = 1920
+@district_ukn_rw_exotic_particles_factory_5_build_time = 6240
 
 ### COST ###---------------------------
 
 # Articles
-@district_ukn_exotic_particle_factory_4_cost_basic_consumer_goods = 50
-@district_ukn_hab_exotic_particle_factory_4_cost_basic_consumer_goods = 50
-@district_ukn_arcology_exotic_particle_factory_4_cost_basic_consumer_goods = 150
-@district_ukn_rw_exotic_particle_factory_5_cost_basic_consumer_goods = 500
+@district_ukn_exotic_particles_factory_4_cost_basic_consumer_goods = 50
+@district_ukn_hab_exotic_particles_factory_4_cost_basic_consumer_goods = 50
+@district_ukn_arcology_exotic_particles_factory_4_cost_basic_consumer_goods = 150
+@district_ukn_rw_exotic_particles_factory_5_cost_basic_consumer_goods = 500
 
 # Minerals
-@district_ukn_exotic_particle_factory_4_cost_basic_minerals = 800
-@district_ukn_hab_exotic_particle_factory_4_cost_basic_minerals = 800
-@district_ukn_arcology_exotic_particle_factory_4_cost_basic_minerals = 2000
-@district_ukn_rw_exotic_particle_factory_5_cost_basic_minerals = 9500
+@district_ukn_exotic_particles_factory_4_cost_basic_minerals = 800
+@district_ukn_hab_exotic_particles_factory_4_cost_basic_minerals = 800
+@district_ukn_arcology_exotic_particles_factory_4_cost_basic_minerals = 2000
+@district_ukn_rw_exotic_particles_factory_5_cost_basic_minerals = 9500
 
 # Rare Crystals
-@district_ukn_exotic_particle_factory_4_cost_advanced_rare_crystals = 50
-@district_ukn_hab_exotic_particle_factory_4_cost_advanced_rare_crystals = 50
-@district_ukn_arcology_exotic_particle_factory_4_cost_advanced_rare_crystals = 150
-@district_ukn_rw_exotic_particle_factory_5_cost_advanced_rare_crystals = 700
+@district_ukn_exotic_particles_factory_4_cost_advanced_rare_crystals = 50
+@district_ukn_hab_exotic_particles_factory_4_cost_advanced_rare_crystals = 50
+@district_ukn_arcology_exotic_particles_factory_4_cost_advanced_rare_crystals = 150
+@district_ukn_rw_exotic_particles_factory_5_cost_advanced_rare_crystals = 700
 
 # Exotic Gases
-@district_ukn_exotic_particle_factory_4_cost_advanced_exotic_gases = 30
-@district_ukn_hab_exotic_particle_factory_4_cost_advanced_exotic_gases = 30
-@district_ukn_arcology_exotic_particle_factory_4_cost_advanced_exotic_gases = 90
-@district_ukn_rw_exotic_particle_factory_5_cost_advanced_exotic_gases = 400
+@district_ukn_exotic_particles_factory_4_cost_advanced_exotic_gases = 30
+@district_ukn_hab_exotic_particles_factory_4_cost_advanced_exotic_gases = 30
+@district_ukn_arcology_exotic_particles_factory_4_cost_advanced_exotic_gases = 90
+@district_ukn_rw_exotic_particles_factory_5_cost_advanced_exotic_gases = 400
 
 # Meta-Materials
-@district_ukn_exotic_particle_factory_4_cost_basic_ukn_meta_materials = 750
-@district_ukn_hab_exotic_particle_factory_4_cost_basic_ukn_meta_materials = 750
-@district_ukn_arcology_exotic_particle_factory_4_cost_basic_ukn_meta_materials = 1700
-@district_ukn_rw_exotic_particle_factory_5_cost_basic_ukn_meta_materials = 8000
+@district_ukn_exotic_particles_factory_4_cost_basic_ukn_meta_materials = 750
+@district_ukn_hab_exotic_particles_factory_4_cost_basic_ukn_meta_materials = 750
+@district_ukn_arcology_exotic_particles_factory_4_cost_basic_ukn_meta_materials = 1700
+@district_ukn_rw_exotic_particles_factory_5_cost_basic_ukn_meta_materials = 8000
 #--- [Basic Replace]
-@district_ukn_exotic_particle_factory_4_r_cost_basic_ukn_meta_materials = 1090
-@district_ukn_hab_exotic_particle_factory_4_r_cost_basic_ukn_meta_materials = 1090
-@district_ukn_arcology_exotic_particle_factory_4_r_cost_basic_ukn_meta_materials = 2550
-@district_ukn_rw_exotic_particle_factory_5_r_cost_basic_ukn_meta_materials = 12070
+@district_ukn_exotic_particles_factory_4_r_cost_basic_ukn_meta_materials = 1090
+@district_ukn_hab_exotic_particles_factory_4_r_cost_basic_ukn_meta_materials = 1090
+@district_ukn_arcology_exotic_particles_factory_4_r_cost_basic_ukn_meta_materials = 2550
+@district_ukn_rw_exotic_particles_factory_5_r_cost_basic_ukn_meta_materials = 12070
 
 # Femtomatter
 #--- [Advanced Replace]
-@district_ukn_exotic_particle_factory_4_r_cost_advanced_ukn_femtomatter = 4
-@district_ukn_hab_exotic_particle_factory_4_r_cost_advanced_ukn_femtomatter = 4
-@district_ukn_arcology_exotic_particle_factory_4_r_cost_advanced_ukn_femtomatter = 12
-@district_ukn_rw_exotic_particle_factory_5_r_cost_advanced_ukn_femtomatter = 55
+@district_ukn_exotic_particles_factory_4_r_cost_advanced_ukn_femtomatter = 4
+@district_ukn_hab_exotic_particles_factory_4_r_cost_advanced_ukn_femtomatter = 4
+@district_ukn_arcology_exotic_particles_factory_4_r_cost_advanced_ukn_femtomatter = 12
+@district_ukn_rw_exotic_particles_factory_5_r_cost_advanced_ukn_femtomatter = 55
 
 # Condensics
 #--- [Advanced Replace]
-@district_ukn_exotic_particle_factory_4_r_cost_advanced_ukn_condensics = 1
-@district_ukn_hab_exotic_particle_factory_4_r_cost_advanced_ukn_condensics = 1
-@district_ukn_arcology_exotic_particle_factory_4_r_cost_advanced_ukn_condensics = 3
-@district_ukn_rw_exotic_particle_factory_5_r_cost_advanced_ukn_condensics = 13.75
+@district_ukn_exotic_particles_factory_4_r_cost_advanced_ukn_condensics = 1
+@district_ukn_hab_exotic_particles_factory_4_r_cost_advanced_ukn_condensics = 1
+@district_ukn_arcology_exotic_particles_factory_4_r_cost_advanced_ukn_condensics = 3
+@district_ukn_rw_exotic_particles_factory_5_r_cost_advanced_ukn_condensics = 13.75
 
 # Quasi-Matter
 #--- [Basic Replace]
-@district_ukn_exotic_particle_factory_4_r_cost_basic_ukn_quasi_matter = 2.67
-@district_ukn_hab_exotic_particle_factory_4_r_cost_basic_ukn_quasi_matter = 2.67
-@district_ukn_arcology_exotic_particle_factory_4_r_cost_basic_ukn_quasi_matter = 6.26
-@district_ukn_rw_exotic_particle_factory_5_r_cost_basic_ukn_quasi_matter = 29.60
+@district_ukn_exotic_particles_factory_4_r_cost_basic_ukn_quasi_matter = 2.67
+@district_ukn_hab_exotic_particles_factory_4_r_cost_basic_ukn_quasi_matter = 2.67
+@district_ukn_arcology_exotic_particles_factory_4_r_cost_basic_ukn_quasi_matter = 6.26
+@district_ukn_rw_exotic_particles_factory_5_r_cost_basic_ukn_quasi_matter = 29.60
 #--- [Advanced Replace]
-@district_ukn_exotic_particle_factory_4_r_cost_advanced_ukn_quasi_matter = 0.42
-@district_ukn_hab_exotic_particle_factory_4_r_cost_advanced_ukn_quasi_matter = 0.42
-@district_ukn_arcology_exotic_particle_factory_4_r_cost_advanced_ukn_quasi_matter = 1.26
-@district_ukn_rw_exotic_particle_factory_5_r_cost_advanced_ukn_quasi_matter = 5.78
+@district_ukn_exotic_particles_factory_4_r_cost_advanced_ukn_quasi_matter = 0.42
+@district_ukn_hab_exotic_particles_factory_4_r_cost_advanced_ukn_quasi_matter = 0.42
+@district_ukn_arcology_exotic_particles_factory_4_r_cost_advanced_ukn_quasi_matter = 1.26
+@district_ukn_rw_exotic_particles_factory_5_r_cost_advanced_ukn_quasi_matter = 5.78
 
 # Causalitons
 #--- [Basic Replace]
-@district_ukn_exotic_particle_factory_4_r_cost_basic_ukn_causalitons = 0.83
-@district_ukn_hab_exotic_particle_factory_4_r_cost_basic_ukn_causalitons = 0.83
-@district_ukn_arcology_exotic_particle_factory_4_r_cost_basic_ukn_causalitons = 1.94
-@district_ukn_rw_exotic_particle_factory_5_r_cost_basic_ukn_causalitons = 9.20
+@district_ukn_exotic_particles_factory_4_r_cost_basic_ukn_causalitons = 0.83
+@district_ukn_hab_exotic_particles_factory_4_r_cost_basic_ukn_causalitons = 0.83
+@district_ukn_arcology_exotic_particles_factory_4_r_cost_basic_ukn_causalitons = 1.94
+@district_ukn_rw_exotic_particles_factory_5_r_cost_basic_ukn_causalitons = 9.20
 #--- [Advanced Replace]
-@district_ukn_exotic_particle_factory_4_r_cost_advanced_ukn_causalitons = 0.13
-@district_ukn_hab_exotic_particle_factory_4_r_cost_advanced_ukn_causalitons = 0.13
-@district_ukn_arcology_exotic_particle_factory_4_r_cost_advanced_ukn_causalitons = 0.39
-@district_ukn_rw_exotic_particle_factory_5_r_cost_advanced_ukn_causalitons = 1.80
+@district_ukn_exotic_particles_factory_4_r_cost_advanced_ukn_causalitons = 0.13
+@district_ukn_hab_exotic_particles_factory_4_r_cost_advanced_ukn_causalitons = 0.13
+@district_ukn_arcology_exotic_particles_factory_4_r_cost_advanced_ukn_causalitons = 0.39
+@district_ukn_rw_exotic_particles_factory_5_r_cost_advanced_ukn_causalitons = 1.80
 
 ### UPKEEP ###---------------------------
 
 # Energy
-@district_ukn_exotic_particle_factory_4_upkeep_energy = 5
-#	@district_ukn_hab_exotic_particle_factory_4_upkeep_energy = 5
-@district_ukn_arcology_exotic_particle_factory_4_upkeep_energy = 5
-@district_ukn_rw_exotic_particle_factory_5_upkeep_energy = 5
+@district_ukn_exotic_particles_factory_4_upkeep_energy = 5
+#	@district_ukn_hab_exotic_particles_factory_4_upkeep_energy = 5
+@district_ukn_arcology_exotic_particles_factory_4_upkeep_energy = 5
+@district_ukn_rw_exotic_particles_factory_5_upkeep_energy = 5
 
 
 #####################################

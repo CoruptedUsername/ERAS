@@ -354,6 +354,27 @@ building_bureaucratic_1 = {
 	
 #----------------------------------------------------
 
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_bureaucratic_cost_mult = 0.00
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_hab_cultural_cost_mult = 0.00
+		}
+	}
+#----------------------------------------------------
+
 	triggered_desc = {
 		trigger = {
 			exists = owner
@@ -703,6 +724,27 @@ building_bureaucratic_2 = {
 		text = job_bureaucrat_effect_desc
 	}
 	
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_bureaucratic_cost_mult = 0.40
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_hab_cultural_cost_mult = 0.40
+		}
+	}
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -1078,6 +1120,40 @@ building_bureaucratic_3 = {
 		text = job_bureaucrat_effect_desc
 	}
 	
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_bureaucratic_cost_mult = 0.60
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_hab_cultural_cost_mult = 0.60
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			OR = {
+				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			}
+		}
+		modifier = {
+			planet_districts_arcology_administrative_cost_mult = 0.30
+		}
+	}
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -1474,6 +1550,27 @@ building_ukn_corporate_bureaucratic_1 = {
 	
 #----------------------------------------------------
 
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_corporate_bureaucratic_cost_mult = 0.00
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_corporate_bureaucratic_cost_mult = 0.00
+		}
+	}
+#----------------------------------------------------
+
 	triggered_desc = {
 		trigger = {
 			exists = owner
@@ -1825,6 +1922,27 @@ building_ukn_corporate_bureaucratic_2 = {
 		text = job_manager_effect_desc
 	}
 	
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_corporate_bureaucratic_cost_mult = 0.40
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_corporate_bureaucratic_cost_mult = 0.40
+		}
+	}
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -2202,6 +2320,40 @@ building_ukn_corporate_bureaucratic_3 = {
 		text = job_manager_effect_desc
 	}
 	
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_corporate_bureaucratic_cost_mult = 0.60
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_corporate_bureaucratic_cost_mult = 0.60
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			OR = {
+				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			}
+		}
+		modifier = {
+			planet_districts_arcology_leisure_cost_mult = 0.30
+		}
+	}
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -2610,6 +2762,27 @@ building_temple = {
 	
 #----------------------------------------------------
 
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_temple_cost_mult = 0.00
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_temple_cost_mult = 0.00
+		}
+	}
+#----------------------------------------------------
+
 	triggered_desc = {
 		trigger = {
 			exists = owner
@@ -2974,6 +3147,27 @@ building_holotemple = {
 		text = job_priest_effect_desc
 	}
 	
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_temple_cost_mult = 0.40
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_temple_cost_mult = 0.40
+		}
+	}
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -3363,6 +3557,40 @@ building_sacred_nexus = {
 		text = job_priest_effect_desc
 	}
 	
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_temple_cost_mult = 0.60
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_temple_cost_mult = 0.60
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			OR = {
+				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			}
+		}
+		modifier = {
+			planet_districts_arcology_religious_cost_mult = 0.30
+		}
+	}
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -3787,6 +4015,27 @@ building_sacrificial_temple_1 = {
 	
 #----------------------------------------------------
 
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_temple_cost_mult = 0.00
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_temple_cost_mult = 0.00
+		}
+	}
+#----------------------------------------------------
+
 	triggered_desc = {
 		trigger = {
 			exists = owner
@@ -4167,6 +4416,27 @@ building_sacrificial_temple_2 = {
 		text = job_mortal_initiate_effect_desc
 	}
 	
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_temple_cost_mult = 0.40
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_temple_cost_mult = 0.40
+		}
+	}
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -4574,6 +4844,40 @@ building_sacrificial_temple_3 = {
 	
 #----------------------------------------------------
 
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_temple_cost_mult = 0.60
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_temple_cost_mult = 0.60
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			OR = {
+				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			}
+		}
+		modifier = {
+			planet_districts_arcology_religious_cost_mult = 0.30
+		}
+	}
+#----------------------------------------------------
+
 	triggered_desc = {
 		trigger = {
 			exists = owner
@@ -4961,6 +5265,27 @@ building_hive_node = {
 	}
 #----------------------------------------------------
 
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hive_node_cost_mult = 0.00
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_hive_node_cost_mult = 0.00
+		}
+	}
+#----------------------------------------------------
+
 	triggered_desc = {
 		trigger = {
 			exists = owner
@@ -5307,6 +5632,27 @@ building_hive_cluster = {
 			}
 		}
 		text = job_synapse_drone_effect_desc
+	}
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hive_node_cost_mult = 0.40
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_hive_node_cost_mult = 0.40
+		}
 	}
 #----------------------------------------------------
 
@@ -5679,6 +6025,40 @@ building_hive_confluence = {
 			}
 		}
 		text = job_synapse_drone_effect_desc
+	}
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hive_node_cost_mult = 0.60
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_hive_node_cost_mult = 0.60
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			OR = {
+				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			}
+		}
+		modifier = {
+			planet_districts_ukn_arcology_hive_node_cost_mult = 0.30
+		}
 	}
 #----------------------------------------------------
 
@@ -6070,6 +6450,27 @@ building_uplink_node = {
 	}
 #----------------------------------------------------
 
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_uplink_cost_mult = 0.00
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_uplink_cost_mult = 0.00
+		}
+	}
+#----------------------------------------------------
+
 	triggered_desc = {
 		trigger = {
 			exists = owner
@@ -6416,6 +6817,27 @@ building_network_junction = {
 			}
 		}
 		text = job_coordinator_effect_desc
+	}
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_uplink_cost_mult = 0.40
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_uplink_cost_mult = 0.40
+		}
 	}
 #----------------------------------------------------
 
@@ -6788,6 +7210,40 @@ building_system_conflux = {
 			}
 		}
 		text = job_coordinator_effect_desc
+	}
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_uplink_cost_mult = 0.60
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_uplink_cost_mult = 0.60
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			OR = {
+				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			}
+		}
+		modifier = {
+			planet_districts_ukn_arcology_uplink_cost_mult = 0.30
+		}
 	}
 #----------------------------------------------------
 

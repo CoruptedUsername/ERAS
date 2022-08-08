@@ -3037,8 +3037,8 @@ tech_food_processing_2 = {
 		modifier = {
 			factor = 0
 			NOR = {
-				has_technology = tech_mine_volatile_motes
-				has_technology = tech_volatile_motes
+				has_technology = tech_mine_ukn_exotic_particles
+				has_technology = tech_ukn_exotic_particles
 				has_country_flag = has_market_access
 			}
 		}

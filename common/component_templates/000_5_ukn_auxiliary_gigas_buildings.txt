@@ -20,7 +20,7 @@ utility_component_template = {
 		produces = { alloys = 45 }
 		upkeep = { 
 			minerals = 60
-			volatile_motes = 2
+			ukn_exotic_particles = 2
 		}
 	}
 
@@ -284,7 +284,7 @@ utility_component_template = {
 		}
 		upkeep = {
 			energy = 15
-			volatile_motes = 2
+			ukn_exotic_particles = 2
 		}
 	}
 
@@ -312,7 +312,7 @@ utility_component_template = {
 		}	
 		upkeep = {
 			alloys = 15
-			volatile_motes = 1
+			ukn_exotic_particles = 1
 		}
 	}
 
@@ -346,7 +346,7 @@ utility_component_template = {
 		produces = { alloys = 45 }
 		upkeep = { 
 			minerals = 60
-			volatile_motes = 2
+			ukn_exotic_particles = 2
 		}
 	}
 
@@ -610,7 +610,7 @@ utility_component_template = {
 		}
 		upkeep = {
 			energy = 15
-			volatile_motes = 2
+			ukn_exotic_particles = 2
 		}
 	}
 
@@ -638,7 +638,7 @@ utility_component_template = {
 		}	
 		upkeep = {
 			alloys = 15
-			volatile_motes = 1
+			ukn_exotic_particles = 1
 		}
 	}
 
@@ -672,7 +672,7 @@ utility_component_template = {
 		produces = { alloys = 45 }
 		upkeep = { 
 			minerals = 60
-			volatile_motes = 2
+			ukn_exotic_particles = 2
 		}
 	}
 
@@ -772,7 +772,7 @@ utility_component_template = {
 		}	
 		upkeep = {
 			alloys = 15
-			volatile_motes = 1
+			ukn_exotic_particles = 1
 		}
 	}
 
@@ -800,7 +800,7 @@ utility_component_template = {
 		}	
 		upkeep = {
 			alloys = 15
-			volatile_motes = 1
+			ukn_exotic_particles = 1
 		}
 	}
 
@@ -828,7 +828,7 @@ utility_component_template = {
 		}	
 		upkeep = {
 			alloys = 15
-			volatile_motes = 1
+			ukn_exotic_particles = 1
 		}
 	}
 
@@ -856,7 +856,7 @@ utility_component_template = {
 		}	
 		upkeep = {
 			alloys = 15
-			volatile_motes = 1
+			ukn_exotic_particles = 1
 		}
 	}
 
@@ -884,7 +884,7 @@ utility_component_template = {
 		}	
 		upkeep = {
 			alloys = 15
-			volatile_motes = 1
+			ukn_exotic_particles = 1
 		}
 	}
 
@@ -917,7 +917,7 @@ utility_component_template = {
 		produces = { alloys = 45 }
 		upkeep = { 
 			minerals = 60
-			volatile_motes = 2
+			ukn_exotic_particles = 2
 		}
 	}
 
@@ -1017,7 +1017,7 @@ utility_component_template = {
 		}	
 		upkeep = {
 			alloys = 15
-			volatile_motes = 1
+			ukn_exotic_particles = 1
 		}
 	}
 
@@ -1045,7 +1045,7 @@ utility_component_template = {
 		}	
 		upkeep = {
 			alloys = 15
-			volatile_motes = 1
+			ukn_exotic_particles = 1
 		}
 	}
 
@@ -1073,7 +1073,7 @@ utility_component_template = {
 		}	
 		upkeep = {
 			alloys = 15
-			volatile_motes = 1
+			ukn_exotic_particles = 1
 		}
 	}
 
@@ -1101,7 +1101,7 @@ utility_component_template = {
 		}	
 		upkeep = {
 			alloys = 15
-			volatile_motes = 1
+			ukn_exotic_particles = 1
 		}
 	}
 
@@ -1129,7 +1129,7 @@ utility_component_template = {
 		}	
 		upkeep = {
 			alloys = 15
-			volatile_motes = 1
+			ukn_exotic_particles = 1
 		}
 	}
 

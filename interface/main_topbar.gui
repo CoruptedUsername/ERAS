@@ -337,7 +337,7 @@ guiTypes = {
 				}
 			}
 			containerWindowType = {
-				name = "tb_volatile_motes"
+				name = "tb_ukn_exotic_particles_group"
 				size = { width = 100 height = 20 }
 				position = { x = @static_c5 y = @row1 }
 				background = {
@@ -347,7 +347,7 @@ guiTypes = {
 				}
 				iconType = {
 					name = "icon"
-					spriteType = "GFX_resource_volatile_motes_large"
+					spriteType = "GFX_resource_ukn_exotic_particles_large"
 					scale = 0.6
 					position = { x = 1 y = 1 }
 					tooltip_mode_enabled = yes
@@ -561,7 +561,7 @@ guiTypes = {
 					expandedWindow = {
 						name = "expanded_window"
 						hide_position = { x = -4 y = -190 }
-						show_position = { x = -4 y = 44 }
+						show_position = { x = -4 y = 22 }
 						size = { width = 510 height = 300 }
 						if_resolution = {
 							min_width = 2560
@@ -679,8 +679,8 @@ guiTypes = {
 						name = "expanded_window"
 						position = { x = -23 y = -100 }
 						hide_position = { x = -23 y = -100 }
-						show_position = { x = -23 y = 44 }
-						size = { width = 110 height = 105 }
+						show_position = { x = -23 y = 22 }
+						size = { width = 110 height = 110 }
 						show_animation_type = decelerated
 						hide_animation_type = accelerated
 						animation_time = 200
@@ -816,8 +816,8 @@ guiTypes = {
 						name = "expanded_window"
 						position = { x = -23 y = -100 }
 						hide_position = { x = -23 y = -100 }
-						show_position = { x = -23 y = 44 }
-						size = { width = 110 height = 85 }
+						show_position = { x = -23 y = 22 }
+						size = { width = 110 height = 110 }
 						show_animation_type = decelerated
 						hide_animation_type = accelerated
 						animation_time = 200
@@ -843,8 +843,8 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_width = 1601
-				containerWindowType = {
-					name = "tb_exotic_gases"
+				dropDownBoxType = {
+					name = "tb_ukn_atypical_baryonics_group"
 					size = { width = 90 height = 20 }
 					position = { x = @static_c11 y = @row1 }
 					background = {
@@ -854,7 +854,7 @@ guiTypes = {
 					}
 					iconType = {
 						name = "icon"
-						spriteType = "GFX_resource_exotic_gases"
+						spriteType = "GFX_resource_ukn_atypical_baryonics_top_bar"
 						position = { x = 1 y = 1 }
 						tooltip_mode_enabled = yes
 						alwaysTransparent = yes
@@ -869,9 +869,31 @@ guiTypes = {
 						format = left
 						alwaysTransparent = yes
 					}
+					expandedWindow = {
+						name = "expanded_window"
+						hide_position = { x = -9 y = -190 }
+						show_position = { x = -9 y = 44 }
+						size = { width = 110 height = 110 }
+						show_animation_type = decelerated
+						hide_animation_type = accelerated
+						animation_time = 200
+						#verticalScrollbar = "right_vertical_slider_thick"
+						background = {
+							name = "bg"
+							spriteType = "GFX_invisible"
+						}
+						gridBoxType = {
+							name = "resources"
+							format = "UPPER_LEFT"
+							position = { x = 5 y = 5 }
+							size = { width = 200 height = -20 }
+							slotSize = { width = 100 height = 30 }
+							max_slots_horizontal = 1
+						}
+					}
 				}
-				containerWindowType = {
-					name = "tb_rare_crystals"
+				dropDownBoxType = {
+					name = "tb_others_group"
 					size = { width = 90 height = 20 }
 					position = { x = @static_c11 y = @row2 }
 					background = {
@@ -881,7 +903,7 @@ guiTypes = {
 					}
 					iconType = {
 						name = "icon"
-						spriteType = "GFX_resource_rare_crystals"
+						spriteType = "GFX_resource_strategic_top_bar"
 						position = { x = 1 y = 1 }
 						tooltip_mode_enabled = yes
 						alwaysTransparent = yes
@@ -896,7 +918,93 @@ guiTypes = {
 						format = left
 						alwaysTransparent = yes
 					}
+					expandedWindow = {
+						name = "expanded_window"
+						hide_position = { x = -9 y = -190 }
+						show_position = { x = -9 y = 22 }
+						size = { width = 510 height = 300 }
+						if_resolution = {
+							min_width = 2560
+							size = { width = 710 height = 300 }
+						}
+						show_animation_type = decelerated
+						hide_animation_type = accelerated
+						animation_time = 200
+						#verticalScrollbar = "right_vertical_slider_thick"
+						background = {
+							name = "bg"
+							spriteType = "GFX_invisible"
+						}
+						gridBoxType = {
+							name = "resources"
+							format = "UPPER_LEFT"
+							position = { x = 5 y = 5 }
+							size = { width = 200 height = -20 }
+							slotSize = { width = 100 height = 30 }
+							max_slots_horizontal = 5
+							if_resolution = {
+								min_width = 2560
+								max_slots_horizontal = 7
+							}
+						}
+					}
 				}
+######################################
+#				containerWindowType = {
+#					name = "tb_exotic_gases"
+#					size = { width = 90 height = 20 }
+#					position = { x = @static_c11 y = @row1 }
+#					background = {
+#						name = "background"
+#						spriteType = "GFX_dark_area_cut"
+#						clicksound = interface
+#					}
+#					iconType = {
+#						name = "icon"
+#						spriteType = "GFX_resource_exotic_gases"
+#						position = { x = 1 y = 1 }
+#						tooltip_mode_enabled = yes
+#						alwaysTransparent = yes
+#					}
+#					instantTextBoxType = {
+#						name = "amount"
+#						font = "cg_16b"
+#						position = { x = 22 y = 2 }
+#						maxWidth = 76
+#						maxHeight = 16
+#						text = "0 / 0"
+#						format = left
+#						alwaysTransparent = yes
+#					}
+#				}
+#				containerWindowType = {
+#					name = "tb_rare_crystals"
+#					size = { width = 90 height = 20 }
+#					position = { x = @static_c11 y = @row2 }
+#					background = {
+#						name = "background"
+#						spriteType = "GFX_dark_area_cut"
+#						clicksound = interface
+#					}
+#					iconType = {
+#						name = "icon"
+#						spriteType = "GFX_resource_rare_crystals"
+#						position = { x = 1 y = 1 }
+#						tooltip_mode_enabled = yes
+#						alwaysTransparent = yes
+#					}
+#					instantTextBoxType = {
+#						name = "amount"
+#						font = "cg_16b"
+#						position = { x = 22 y = 2 }
+#						maxWidth = 76
+#						maxHeight = 16
+#						text = "0 / 0"
+#						format = left
+#						alwaysTransparent = yes
+#					}
+#				}
+######################################
 				containerWindowType = {
 					name = "tb_minor_artifacts"
 					size = { width = 64 height = 40 }
@@ -958,7 +1066,7 @@ guiTypes = {
 					expandedWindow = {
 						name = "expanded_window"
 						hide_position = { x = 0 y = -190 }
-						show_position = { x = 0 y = 44 }
+						show_position = { x = 0 y = 22 }
 						size = { width = 510 height = 300 }
 						if_resolution = {
 							min_width = 2560
@@ -1019,7 +1127,7 @@ guiTypes = {
 					expandedWindow = {
 						name = "expanded_window"
 						hide_position = { x = 0 y = -190 }
-						show_position = { x = 0 y = 44 }
+						show_position = { x = 0 y = 22 }
 						size = { width = 510 height = 300 }
 						if_resolution = {
 							min_width = 2560

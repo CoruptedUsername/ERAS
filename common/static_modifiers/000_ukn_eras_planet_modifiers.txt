@@ -35,7 +35,7 @@ mod_ukn_dynamic_districts_automachine_malus = {
 mod_ukn_dynamic_districts_exotic_particles_malus = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_planet_from_space.dds"
 	icon_frame = 3
-	planet_chemists_volatile_motes_produces_mult = -0.75
+	planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_mult = -0.75
 }
 mod_ukn_dynamic_districts_ukn_femtomatter_malus = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_planet_from_space.dds"
@@ -251,28 +251,28 @@ mod_ukn_meta_materials_0_100_machine_organic_alderson = {
 
 
 #[ALL] EXOTIC PARTICLES PRODUCTION #--------------
-mod_ukn_alloys_based_exotic_particle_production = {
-	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_alloys_based_exotic_particle_production.dds"
+mod_ukn_alloys_based_exotic_particles_production = {
+	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_alloys_based_exotic_particles_production.dds"
 	icon_frame = 1
 }
-mod_ukn_meta_materials_based_exotic_particle_production = {
-	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_meta_materials_based_exotic_particle_production.dds"
+mod_ukn_meta_materials_based_exotic_particles_production = {
+	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_meta_materials_based_exotic_particles_production.dds"
 	icon_frame = 1
 }
-mod_ukn_femtomatter_based_exotic_particle_production = {
-	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_femtomatter_based_exotic_particle_production.dds"
+mod_ukn_femtomatter_based_exotic_particles_production = {
+	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_femtomatter_based_exotic_particles_production.dds"
 	icon_frame = 1
 }
-mod_ukn_condensics_based_exotic_particle_production = {
-	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_condensics_based_exotic_particle_production.dds"
+mod_ukn_condensics_based_exotic_particles_production = {
+	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_condensics_based_exotic_particles_production.dds"
 	icon_frame = 1
 }
-mod_ukn_quasi_matter_based_exotic_particle_production = {
-	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_quasi_matter_based_exotic_particle_production.dds"
+mod_ukn_quasi_matter_based_exotic_particles_production = {
+	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_quasi_matter_based_exotic_particles_production.dds"
 	icon_frame = 1
 }
-mod_ukn_causalitons_based_exotic_particle_production = {
-	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_causalitons_based_exotic_particle_production.dds"
+mod_ukn_causalitons_based_exotic_particles_production = {
+	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_causalitons_based_exotic_particles_production.dds"
 	icon_frame = 1
 }
 
@@ -294,4 +294,13 @@ mod_ukn_planet_articles_abstract_production_boost = {
 	icon_frame = 1
 	planet_researchers_produces_mult = 0.05
 	planet_administrators_produces_mult = 0.05
+}
+
+
+
+#[ALL] RARE ISOTOPES #--------------
+mod_ukn_planet_rare_isotopes_exotic_particles_factory_boost = {
+	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_planet_rare_isotopes_exotic_particles_factory_boost.dds"
+	icon_frame = 1
+	planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_mult = 0.10
 }

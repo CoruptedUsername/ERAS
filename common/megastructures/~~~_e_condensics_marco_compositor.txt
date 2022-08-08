@@ -113,7 +113,7 @@ condensics_macro_compositor_1 = {
 			energy = @ukn_condensics_macro_compositor_p1_upkeep_energy
 			ukn_meta_materials = @ukn_condensics_macro_compositor_p1_upkeep_ukn_meta_materials
 			minerals = @ukn_condensics_macro_compositor_p1_upkeep_minerals
-			volatile_motes = @ukn_condensics_macro_compositor_p1_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_condensics_macro_compositor_p1_upkeep_ukn_exotic_particles
 		}
 		produces = {
 			energy = @ukn_condensics_macro_compositor_p1_output_energy
@@ -157,7 +157,7 @@ condensics_macro_compositor_2 = {
 			energy = @ukn_condensics_macro_compositor_p2_upkeep_energy
 			ukn_meta_materials = @ukn_condensics_macro_compositor_p2_upkeep_ukn_meta_materials
 			minerals = @ukn_condensics_macro_compositor_p2_upkeep_minerals
-			volatile_motes = @ukn_condensics_macro_compositor_p2_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_condensics_macro_compositor_p2_upkeep_ukn_exotic_particles
 		}
 		produces = {
 			energy = @ukn_condensics_macro_compositor_p2_output_energy
@@ -198,7 +198,7 @@ condensics_macro_compositor_3 = {
 			energy = @ukn_condensics_macro_compositor_p3_upkeep_energy
 			ukn_meta_materials = @ukn_condensics_macro_compositor_p3_upkeep_ukn_meta_materials
 			minerals = @ukn_condensics_macro_compositor_p3_upkeep_minerals
-			volatile_motes = @ukn_condensics_macro_compositor_p3_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_condensics_macro_compositor_p3_upkeep_ukn_exotic_particles
 		}
 		produces = {
 			energy = @ukn_condensics_macro_compositor_p3_output_energy

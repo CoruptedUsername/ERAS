@@ -111,11 +111,11 @@
 #---
 
 # Exotic Particles
-@ukn_moon_t5_aux_shields_cost_volatile_motes = 48.00
-@ukn_moon_t6_aux_shields_cost_volatile_motes = 48.00
-@ukn_moon_t7_aux_shields_cost_volatile_motes = 64.00
-@ukn_moon_t8_aux_shields_cost_volatile_motes = 64.00
-@ukn_moon_t_p_aux_shields_cost_volatile_motes = 64.00
+@ukn_moon_t5_aux_shields_cost_ukn_exotic_particles = 48.00
+@ukn_moon_t6_aux_shields_cost_ukn_exotic_particles = 48.00
+@ukn_moon_t7_aux_shields_cost_ukn_exotic_particles = 64.00
+@ukn_moon_t8_aux_shields_cost_ukn_exotic_particles = 64.00
+@ukn_moon_t_p_aux_shields_cost_ukn_exotic_particles = 64.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -154,12 +154,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_moon_t4_aux_upkeep_volatile_motes = 1.152
-@ukn_moon_t5_aux_upkeep_volatile_motes = 1.600
-@ukn_moon_t6_aux_upkeep_volatile_motes = 1.920
-@ukn_moon_t7_aux_upkeep_volatile_motes = 2.560
-@ukn_moon_t8_aux_upkeep_volatile_motes = 3.520
-@ukn_moon_t_p_aux_upkeep_volatile_motes = 4.800
+@ukn_moon_t4_aux_upkeep_ukn_exotic_particles = 1.152
+@ukn_moon_t5_aux_upkeep_ukn_exotic_particles = 1.600
+@ukn_moon_t6_aux_upkeep_ukn_exotic_particles = 1.920
+@ukn_moon_t7_aux_upkeep_ukn_exotic_particles = 2.560
+@ukn_moon_t8_aux_upkeep_ukn_exotic_particles = 3.520
+@ukn_moon_t_p_aux_upkeep_ukn_exotic_particles = 4.800
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -303,11 +303,11 @@
 #---
 
 # Exotic Particles
-@ukn_worldcraft_t5_aux_shields_cost_volatile_motes = 64.50
-@ukn_worldcraft_t6_aux_shields_cost_volatile_motes = 64.50
-@ukn_worldcraft_t7_aux_shields_cost_volatile_motes = 86.00
-@ukn_worldcraft_t8_aux_shields_cost_volatile_motes = 86.00
-@ukn_worldcraft_t_p_aux_shields_cost_volatile_motes = 86.00
+@ukn_worldcraft_t5_aux_shields_cost_ukn_exotic_particles = 64.50
+@ukn_worldcraft_t6_aux_shields_cost_ukn_exotic_particles = 64.50
+@ukn_worldcraft_t7_aux_shields_cost_ukn_exotic_particles = 86.00
+@ukn_worldcraft_t8_aux_shields_cost_ukn_exotic_particles = 86.00
+@ukn_worldcraft_t_p_aux_shields_cost_ukn_exotic_particles = 86.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -346,11 +346,11 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_worldcraft_t5_aux_upkeep_volatile_motes = 2.150
-@ukn_worldcraft_t6_aux_upkeep_volatile_motes = 2.580
-@ukn_worldcraft_t7_aux_upkeep_volatile_motes = 3.440
-@ukn_worldcraft_t8_aux_upkeep_volatile_motes = 4.730
-@ukn_worldcraft_t_p_aux_upkeep_volatile_motes = 6.450
+@ukn_worldcraft_t5_aux_upkeep_ukn_exotic_particles = 2.150
+@ukn_worldcraft_t6_aux_upkeep_ukn_exotic_particles = 2.580
+@ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles = 3.440
+@ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles = 4.730
+@ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles = 6.450
 #---
 # Negative Mass ('BIG' Upkeep)
 @ukn_worldcraft_t9_aux_upkeep_ehof_sr_negative_mass = 1.806
@@ -493,12 +493,12 @@
 #---
 
 # Exotic Particles
-@ukn_planet_t4_aux_shields_cost_volatile_motes = 64.00
-@ukn_planet_t5_aux_shields_cost_volatile_motes = 96.00
-@ukn_planet_t6_aux_shields_cost_volatile_motes = 96.00
-@ukn_planet_t7_aux_shields_cost_volatile_motes = 128.00
-@ukn_planet_t8_aux_shields_cost_volatile_motes = 128.00
-@ukn_planet_t_p_aux_shields_cost_volatile_motes = 128.00
+@ukn_planet_t4_aux_shields_cost_ukn_exotic_particles = 64.00
+@ukn_planet_t5_aux_shields_cost_ukn_exotic_particles = 96.00
+@ukn_planet_t6_aux_shields_cost_ukn_exotic_particles = 96.00
+@ukn_planet_t7_aux_shields_cost_ukn_exotic_particles = 128.00
+@ukn_planet_t8_aux_shields_cost_ukn_exotic_particles = 128.00
+@ukn_planet_t_p_aux_shields_cost_ukn_exotic_particles = 128.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -537,12 +537,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_planet_t4_aux_upkeep_volatile_motes = 2.304
-@ukn_planet_t5_aux_upkeep_volatile_motes = 3.200
-@ukn_planet_t6_aux_upkeep_volatile_motes = 3.840
-@ukn_planet_t7_aux_upkeep_volatile_motes = 5.120
-@ukn_planet_t8_aux_upkeep_volatile_motes = 7.040
-@ukn_planet_t_p_aux_upkeep_volatile_motes = 9.600
+@ukn_planet_t4_aux_upkeep_ukn_exotic_particles = 2.304
+@ukn_planet_t5_aux_upkeep_ukn_exotic_particles = 3.200
+@ukn_planet_t6_aux_upkeep_ukn_exotic_particles = 3.840
+@ukn_planet_t7_aux_upkeep_ukn_exotic_particles = 5.120
+@ukn_planet_t8_aux_upkeep_ukn_exotic_particles = 7.040
+@ukn_planet_t_p_aux_upkeep_ukn_exotic_particles = 9.600
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -686,11 +686,11 @@
 #---
 
 # Exotic Particles
-@ukn_system_t5_aux_shields_cost_volatile_motes = 160.50
-@ukn_system_t6_aux_shields_cost_volatile_motes = 160.50
-@ukn_system_t7_aux_shields_cost_volatile_motes = 214.00
-@ukn_system_t8_aux_shields_cost_volatile_motes = 214.00
-@ukn_system_t_p_aux_shields_cost_volatile_motes = 214.00
+@ukn_system_t5_aux_shields_cost_ukn_exotic_particles = 160.50
+@ukn_system_t6_aux_shields_cost_ukn_exotic_particles = 160.50
+@ukn_system_t7_aux_shields_cost_ukn_exotic_particles = 214.00
+@ukn_system_t8_aux_shields_cost_ukn_exotic_particles = 214.00
+@ukn_system_t_p_aux_shields_cost_ukn_exotic_particles = 214.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -729,11 +729,11 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_system_t5_aux_upkeep_volatile_motes = 5.350
-@ukn_system_t6_aux_upkeep_volatile_motes = 6.420
-@ukn_system_t7_aux_upkeep_volatile_motes = 8.560
-@ukn_system_t8_aux_upkeep_volatile_motes = 11.770
-@ukn_system_t_p_aux_upkeep_volatile_motes = 16.050
+@ukn_system_t5_aux_upkeep_ukn_exotic_particles = 5.350
+@ukn_system_t6_aux_upkeep_ukn_exotic_particles = 6.420
+@ukn_system_t7_aux_upkeep_ukn_exotic_particles = 8.560
+@ukn_system_t8_aux_upkeep_ukn_exotic_particles = 11.770
+@ukn_system_t_p_aux_upkeep_ukn_exotic_particles = 16.050
 #---
 
 # Negative Mass ('BIG' Upkeep)

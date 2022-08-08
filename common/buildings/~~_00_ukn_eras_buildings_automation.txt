@@ -1620,7 +1620,7 @@ building_ukn_automation_grid_2 = {
 			job_artisan_add = 1000
 			job_gas_refiner_add = 1000
 			job_translucer_add = 1000
-			job_ukn_exotic_particle_producer_add = 1000
+			job_ukn_exotic_particles_producer_add = 1000
 		}
 	}
 #[AI-MACHINE] ==Force Build
@@ -1642,7 +1642,7 @@ building_ukn_automation_grid_2 = {
 			job_artisan_drone_add = 1000
 			job_gas_refiner_drone_add = 1000
 			job_translucer_drone_add = 1000
-			job_ukn_exotic_particle_production_drone_add = 1000
+			job_ukn_exotic_particles_production_drone_add = 1000
 		}
 	}
 #[AI-HIVE] ==Force Build
@@ -1664,7 +1664,7 @@ building_ukn_automation_grid_2 = {
 			job_artisan_drone_add = 1000
 			job_gas_refiner_drone_add = 1000
 			job_translucer_drone_add = 1000
-			job_ukn_exotic_particle_production_drone_add = 1000
+			job_ukn_exotic_particles_production_drone_add = 1000
 		}
 	}
 #----------------------------------------------------

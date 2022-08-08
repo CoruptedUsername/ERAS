@@ -652,6 +652,19 @@
 @ukn_torpedo_planck_missile_health = 43 
 @ukn_torpedo_contingency_missile_health = 43 
 
+@ukn_torpedo_1_missile_armor = 3
+@ukn_torpedo_2_missile_armor = 3
+@ukn_torpedo_3_missile_armor = 4
+@ukn_torpedo_4_missile_armor = 6
+@ukn_torpedo_5_missile_armor = 7
+@ukn_torpedo_6_missile_armor = 10
+@ukn_torpedo_7_missile_armor = 14
+@ukn_torpedo_8_missile_armor = 20
+@ukn_torpedo_9_missile_armor = 43
+@ukn_torpedo_10_missile_armor = 67
+@ukn_torpedo_planck_missile_armor = 29
+@ukn_torpedo_contingency_missile_armor = 29
+
 @ukn_torpedo_1_missile_retarget_range = 100
 @ukn_torpedo_2_missile_retarget_range = 100
 @ukn_torpedo_3_missile_retarget_range = 100

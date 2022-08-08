@@ -233,11 +233,7 @@ district_ukn_bureaucratic = {
 	abort_trigger = {
 		NOR = {
 #[BASIC] UNITY BUILDINGS
-			has_building = building_bureaucratic_1
-			has_building = building_bureaucratic_2
-			has_building = building_bureaucratic_2
-			has_building = building_ukn_bureaucratic_4
-			has_building = building_ukn_bureaucratic_5
+			UKN_HAS_BUREAUCRATIC_GRID = yes
 		}
 	}
 
@@ -246,11 +242,7 @@ district_ukn_bureaucratic = {
 		UKN_USES_BASIC_DISTRICTS = yes
 		OR = {
 #[BASIC] UNITY BUILDINGS
-			has_building = building_bureaucratic_1
-			has_building = building_bureaucratic_2
-			has_building = building_bureaucratic_2
-			has_building = building_ukn_bureaucratic_4
-			has_building = building_ukn_bureaucratic_5
+			UKN_HAS_BUREAUCRATIC_GRID = yes
 			has_district = district_ukn_bureaucratic
 		}
 	}
@@ -260,55 +252,25 @@ district_ukn_bureaucratic = {
 		UKN_USES_BASIC_DISTRICTS = yes
 		OR = {
 #[BASIC] UNITY BUILDINGS
-			has_building = building_bureaucratic_1
-			has_building = building_bureaucratic_2
-			has_building = building_bureaucratic_2
-			has_building = building_ukn_bureaucratic_4
-			has_building = building_ukn_bureaucratic_5
+			UKN_HAS_BUREAUCRATIC_GRID = yes
 			has_district = district_ukn_bureaucratic
 		}
 		NOR = {
 #[MEGACORP] UNITY BUILDINGS
-			has_building = building_ukn_corporate_bureaucratic_1
-			has_building = building_ukn_corporate_bureaucratic_2
-			has_building = building_ukn_corporate_bureaucratic_3
-			has_building = building_ukn_corporate_monument_4
-			has_building = building_ukn_corporate_monument_5
+			UKN_HAS_CORPORATE_BUREAUCRATIC_GRID = yes
 #[SPIRITUALISTS] UNITY BUILDINGS
-			has_building = building_temple
-			has_building = building_holotemple
-			has_building = building_sacred_nexus
-			has_building = building_ukn_temple_4
-			has_building = building_ukn_temple_5
-#[DEATH-CULT] UNITY BUILDINGS
-			has_building = building_sacrificial_temple_1
-			has_building = building_sacrificial_temple_2
-			has_building = building_sacrificial_temple_3
-			has_building = building_ukn_sacrificial_temple_4
-			has_building = building_ukn_sacrificial_temple_5
+			UKN_HAS_ANY_SPIRITUALIST_UNITY_GRID = yes
 #[HIVE] UNITY BUILDINGS
-			has_building = building_hive_node
-			has_building = building_hive_cluster
-			has_building = building_hive_confluence
-			has_building = building_ukn_hive_node_4
-			has_building = building_ukn_hive_node_5
+			UKN_HAS_SYNAPTIC_GRID = yes
 #[MACHINE] UNITY BUILDINGS
-			has_building = building_uplink_node
-			has_building = building_network_junction
-			has_building = building_system_conflux
-			has_building = building_ukn_uplink_4
-			has_building = building_ukn_uplink_5
+			UKN_HAS_UPLINK_GRID = yes
 		}
 	}
 
 	allow = {
 		OR = {
 #[BASIC] UNITY BUILDINGS
-			has_building = building_bureaucratic_1
-			has_building = building_bureaucratic_2
-			has_building = building_bureaucratic_2
-			has_building = building_ukn_bureaucratic_4
-			has_building = building_ukn_bureaucratic_5
+			UKN_HAS_BUREAUCRATIC_GRID = yes
 		}
 		NOR = {
 			has_modifier = resort_colony
@@ -479,11 +441,7 @@ district_ukn_corporate_bureaucratic = {
 	abort_trigger = {
 		NOR = {
 #[MEGACORP] UNITY BUILDINGS
-			has_building = building_ukn_corporate_bureaucratic_1
-			has_building = building_ukn_corporate_bureaucratic_2
-			has_building = building_ukn_corporate_bureaucratic_3
-			has_building = building_ukn_corporate_monument_4
-			has_building = building_ukn_corporate_monument_5
+			UKN_HAS_CORPORATE_BUREAUCRATIC_GRID = yes
 		}
 	}
 
@@ -492,11 +450,7 @@ district_ukn_corporate_bureaucratic = {
 		UKN_USES_BASIC_DISTRICTS = yes
 		OR = {
 #[MEGACORP] UNITY BUILDINGS
-			has_building = building_ukn_corporate_bureaucratic_1
-			has_building = building_ukn_corporate_bureaucratic_2
-			has_building = building_ukn_corporate_bureaucratic_3
-			has_building = building_ukn_corporate_monument_4
-			has_building = building_ukn_corporate_monument_5
+			UKN_HAS_CORPORATE_BUREAUCRATIC_GRID = yes
 			has_district = district_ukn_corporate_bureaucratic
 		}
 	}
@@ -506,55 +460,25 @@ district_ukn_corporate_bureaucratic = {
 		UKN_USES_BASIC_DISTRICTS = yes
 		OR = {
 #[MEGACORP] UNITY BUILDINGS
-			has_building = building_ukn_corporate_bureaucratic_1
-			has_building = building_ukn_corporate_bureaucratic_2
-			has_building = building_ukn_corporate_bureaucratic_3
-			has_building = building_ukn_corporate_monument_4
-			has_building = building_ukn_corporate_monument_5
+			UKN_HAS_CORPORATE_BUREAUCRATIC_GRID = yes
 			has_district = district_ukn_corporate_bureaucratic
 		}
 		NOR = {
 #[BASIC] UNITY BUILDINGS
-			has_building = building_bureaucratic_1
-			has_building = building_bureaucratic_2
-			has_building = building_bureaucratic_2
-			has_building = building_ukn_bureaucratic_4
-			has_building = building_ukn_bureaucratic_5
+			UKN_HAS_BUREAUCRATIC_GRID = yes
 #[SPIRITUALISTS] UNITY BUILDINGS
-			has_building = building_temple
-			has_building = building_holotemple
-			has_building = building_sacred_nexus
-			has_building = building_ukn_temple_4
-			has_building = building_ukn_temple_5
-#[DEATH-CULT] UNITY BUILDINGS
-			has_building = building_sacrificial_temple_1
-			has_building = building_sacrificial_temple_2
-			has_building = building_sacrificial_temple_3
-			has_building = building_ukn_sacrificial_temple_4
-			has_building = building_ukn_sacrificial_temple_5
+			UKN_HAS_ANY_SPIRITUALIST_UNITY_GRID = yes
 #[HIVE] UNITY BUILDINGS
-			has_building = building_hive_node
-			has_building = building_hive_cluster
-			has_building = building_hive_confluence
-			has_building = building_ukn_hive_node_4
-			has_building = building_ukn_hive_node_5
+			UKN_HAS_SYNAPTIC_GRID = yes
 #[MACHINE] UNITY BUILDINGS
-			has_building = building_uplink_node
-			has_building = building_network_junction
-			has_building = building_system_conflux
-			has_building = building_ukn_uplink_4
-			has_building = building_ukn_uplink_5
+			UKN_HAS_UPLINK_GRID = yes
 		}
 	}
 
 	allow = {
 		OR = {
 #[MEGACORP] UNITY BUILDINGS
-			has_building = building_ukn_corporate_bureaucratic_1
-			has_building = building_ukn_corporate_bureaucratic_2
-			has_building = building_ukn_corporate_bureaucratic_3
-			has_building = building_ukn_corporate_monument_4
-			has_building = building_ukn_corporate_monument_5
+			UKN_HAS_CORPORATE_BUREAUCRATIC_GRID = yes
 		}
 		NOR = {
 			has_modifier = resort_colony
@@ -725,17 +649,7 @@ district_ukn_temple = {
 	abort_trigger = {
 		NOR = {
  #[SPIRITUALISTS] UNITY BUILDINGS
-			has_building = building_temple
-			has_building = building_holotemple
-			has_building = building_sacred_nexus
-			has_building = building_ukn_temple_4
-			has_building = building_ukn_temple_5
- #[DEATH-CULT] UNITY BUILDINGS
-			has_building = building_sacrificial_temple_1
-			has_building = building_sacrificial_temple_2
-			has_building = building_sacrificial_temple_3
-			has_building = building_ukn_sacrificial_temple_4
-			has_building = building_ukn_sacrificial_temple_5
+			UKN_HAS_ANY_SPIRITUALIST_UNITY_GRID = yes
 		}
 	}
 
@@ -744,17 +658,7 @@ district_ukn_temple = {
 		UKN_USES_BASIC_DISTRICTS = yes
 		OR = {
  #[SPIRITUALISTS] UNITY BUILDINGS
-			has_building = building_temple
-			has_building = building_holotemple
-			has_building = building_sacred_nexus
-			has_building = building_ukn_temple_4
-			has_building = building_ukn_temple_5
- #[DEATH-CULT] UNITY BUILDINGS
-			has_building = building_sacrificial_temple_1
-			has_building = building_sacrificial_temple_2
-			has_building = building_sacrificial_temple_3
-			has_building = building_ukn_sacrificial_temple_4
-			has_building = building_ukn_sacrificial_temple_5
+			UKN_HAS_ANY_SPIRITUALIST_UNITY_GRID = yes
 			has_district = district_ukn_temple
 		}
 	}
@@ -764,61 +668,25 @@ district_ukn_temple = {
 		UKN_USES_BASIC_DISTRICTS = yes
 		OR = {
  #[SPIRITUALISTS] UNITY BUILDINGS
-			has_building = building_temple
-			has_building = building_holotemple
-			has_building = building_sacred_nexus
-			has_building = building_ukn_temple_4
-			has_building = building_ukn_temple_5
- #[DEATH-CULT] UNITY BUILDINGS
-			has_building = building_sacrificial_temple_1
-			has_building = building_sacrificial_temple_2
-			has_building = building_sacrificial_temple_3
-			has_building = building_ukn_sacrificial_temple_4
-			has_building = building_ukn_sacrificial_temple_5
+			UKN_HAS_ANY_SPIRITUALIST_UNITY_GRID = yes
 			has_district = district_ukn_temple
 		}
 		NOR = {
  #[BASIC] UNITY BUILDINGS
-			has_building = building_bureaucratic_1
-			has_building = building_bureaucratic_2
-			has_building = building_bureaucratic_2
-			has_building = building_ukn_bureaucratic_4
-			has_building = building_ukn_bureaucratic_5
+			UKN_HAS_BUREAUCRATIC_GRID = yes
  #[MEGACORP] UNITY BUILDINGS
-			has_building = building_ukn_corporate_bureaucratic_1
-			has_building = building_ukn_corporate_bureaucratic_2
-			has_building = building_ukn_corporate_bureaucratic_3
-			has_building = building_ukn_corporate_monument_4
-			has_building = building_ukn_corporate_monument_5
+			UKN_HAS_CORPORATE_BUREAUCRATIC_GRID = yes
  #[HIVE] UNITY BUILDINGS
-			has_building = building_hive_node
-			has_building = building_hive_cluster
-			has_building = building_hive_confluence
-			has_building = building_ukn_hive_node_4
-			has_building = building_ukn_hive_node_5
+			UKN_HAS_SYNAPTIC_GRID = yes
  #[MACHINE] UNITY BUILDINGS
-			has_building = building_uplink_node
-			has_building = building_network_junction
-			has_building = building_system_conflux
-			has_building = building_ukn_uplink_4
-			has_building = building_ukn_uplink_5
+			UKN_HAS_UPLINK_GRID = yes
 		}
 	}
 
 	allow = {
 		OR = {
  #[SPIRITUALISTS] UNITY BUILDINGS
-			has_building = building_temple
-			has_building = building_holotemple
-			has_building = building_sacred_nexus
-			has_building = building_ukn_temple_4
-			has_building = building_ukn_temple_5
- #[DEATH-CULT] UNITY BUILDINGS
-			has_building = building_sacrificial_temple_1
-			has_building = building_sacrificial_temple_2
-			has_building = building_sacrificial_temple_3
-			has_building = building_ukn_sacrificial_temple_4
-			has_building = building_ukn_sacrificial_temple_5
+			UKN_HAS_ANY_SPIRITUALIST_UNITY_GRID = yes
 		}
 		NOR = {
 			has_modifier = resort_colony
@@ -1184,11 +1052,7 @@ district_ukn_hive_node = {
 	abort_trigger = {
 		NOR = {
 #[HIVE] UNITY BUILDINGS
-			has_building = building_hive_node
-			has_building = building_hive_cluster
-			has_building = building_hive_confluence
-			has_building = building_ukn_hive_node_4
-			has_building = building_ukn_hive_node_5
+			UKN_HAS_SYNAPTIC_GRID = yes
 		}
 	}
 
@@ -1197,11 +1061,7 @@ district_ukn_hive_node = {
 		UKN_USES_BASIC_DISTRICTS = yes
 		OR = {
 #[HIVE] UNITY BUILDINGS
-			has_building = building_hive_node
-			has_building = building_hive_cluster
-			has_building = building_hive_confluence
-			has_building = building_ukn_hive_node_4
-			has_building = building_ukn_hive_node_5
+			UKN_HAS_SYNAPTIC_GRID = yes
 			has_district = district_ukn_hive_node
 		}
 	}
@@ -1211,55 +1071,25 @@ district_ukn_hive_node = {
 		UKN_USES_BASIC_DISTRICTS = yes
 		OR = {
 #[HIVE] UNITY BUILDINGS
-			has_building = building_hive_node
-			has_building = building_hive_cluster
-			has_building = building_hive_confluence
-			has_building = building_ukn_hive_node_4
-			has_building = building_ukn_hive_node_5
+			UKN_HAS_SYNAPTIC_GRID = yes
 			has_district = district_ukn_hive_node
 		}
 		NOR = {
 #[BASIC] UNITY BUILDINGS
-			has_building = building_bureaucratic_1
-			has_building = building_bureaucratic_2
-			has_building = building_bureaucratic_2
-			has_building = building_ukn_bureaucratic_4
-			has_building = building_ukn_bureaucratic_5
+			UKN_HAS_BUREAUCRATIC_GRID = yes
 #[MEGACORP] UNITY BUILDINGS
-			has_building = building_ukn_corporate_bureaucratic_1
-			has_building = building_ukn_corporate_bureaucratic_2
-			has_building = building_ukn_corporate_bureaucratic_3
-			has_building = building_ukn_corporate_monument_4
-			has_building = building_ukn_corporate_monument_5
+			UKN_HAS_CORPORATE_BUREAUCRATIC_GRID = yes
 #[SPIRITUALISTS] UNITY BUILDINGS
-			has_building = building_temple
-			has_building = building_holotemple
-			has_building = building_sacred_nexus
-			has_building = building_ukn_temple_4
-			has_building = building_ukn_temple_5
-#[DEATH-CULT] UNITY BUILDINGS
-			has_building = building_sacrificial_temple_1
-			has_building = building_sacrificial_temple_2
-			has_building = building_sacrificial_temple_3
-			has_building = building_ukn_sacrificial_temple_4
-			has_building = building_ukn_sacrificial_temple_5
+			UKN_HAS_ANY_SPIRITUALIST_UNITY_GRID = yes
 #[MACHINE] UNITY BUILDINGS
-			has_building = building_uplink_node
-			has_building = building_network_junction
-			has_building = building_system_conflux
-			has_building = building_ukn_uplink_4
-			has_building = building_ukn_uplink_5
+			UKN_HAS_UPLINK_GRID = yes
 		}
 	}
 
 	allow = {
 		OR = {
 #[HIVE] UNITY BUILDINGS
-			has_building = building_hive_node
-			has_building = building_hive_cluster
-			has_building = building_hive_confluence
-			has_building = building_ukn_hive_node_4
-			has_building = building_ukn_hive_node_5
+			UKN_HAS_SYNAPTIC_GRID = yes
 		}
 		NOR = {
 			has_modifier = resort_colony
@@ -1430,11 +1260,7 @@ district_ukn_uplink = {
 	abort_trigger = {
 		NOR = {
 #[MACHINE] UNITY BUILDINGS
-			has_building = building_uplink_node
-			has_building = building_network_junction
-			has_building = building_system_conflux
-			has_building = building_ukn_uplink_4
-			has_building = building_ukn_uplink_5
+			UKN_HAS_UPLINK_GRID = yes
 		}
 	}
 
@@ -1443,11 +1269,7 @@ district_ukn_uplink = {
 		UKN_USES_BASIC_DISTRICTS = yes
 		OR = {
 #[MACHINE] UNITY BUILDINGS
-			has_building = building_uplink_node
-			has_building = building_network_junction
-			has_building = building_system_conflux
-			has_building = building_ukn_uplink_4
-			has_building = building_ukn_uplink_5
+			UKN_HAS_UPLINK_GRID = yes
 			has_district = district_ukn_uplink
 		}
 	}
@@ -1457,55 +1279,25 @@ district_ukn_uplink = {
 		UKN_USES_BASIC_DISTRICTS = yes
 		OR = {
 #[MACHINE] UNITY BUILDINGS
-			has_building = building_uplink_node
-			has_building = building_network_junction
-			has_building = building_system_conflux
-			has_building = building_ukn_uplink_4
-			has_building = building_ukn_uplink_5
+			UKN_HAS_UPLINK_GRID = yes
 			has_district = district_ukn_uplink
 		}
 		NOR = {
 #[BASIC] UNITY BUILDINGS
-			has_building = building_bureaucratic_1
-			has_building = building_bureaucratic_2
-			has_building = building_bureaucratic_2
-			has_building = building_ukn_bureaucratic_4
-			has_building = building_ukn_bureaucratic_5
+			UKN_HAS_BUREAUCRATIC_GRID = yes
 #[MEGACORP] UNITY BUILDINGS
-			has_building = building_ukn_corporate_bureaucratic_1
-			has_building = building_ukn_corporate_bureaucratic_2
-			has_building = building_ukn_corporate_bureaucratic_3
-			has_building = building_ukn_corporate_monument_4
-			has_building = building_ukn_corporate_monument_5
+			UKN_HAS_CORPORATE_BUREAUCRATIC_GRID = yes
 #[SPIRITUALISTS] UNITY BUILDINGS
-			has_building = building_temple
-			has_building = building_holotemple
-			has_building = building_sacred_nexus
-			has_building = building_ukn_temple_4
-			has_building = building_ukn_temple_5
-#[DEATH-CULT] UNITY BUILDINGS
-			has_building = building_sacrificial_temple_1
-			has_building = building_sacrificial_temple_2
-			has_building = building_sacrificial_temple_3
-			has_building = building_ukn_sacrificial_temple_4
-			has_building = building_ukn_sacrificial_temple_5
+			UKN_HAS_ANY_SPIRITUALIST_UNITY_GRID = yes
 #[HIVE] UNITY BUILDINGS
-			has_building = building_hive_node
-			has_building = building_hive_cluster
-			has_building = building_hive_confluence
-			has_building = building_ukn_hive_node_4
-			has_building = building_ukn_hive_node_5
+			UKN_HAS_SYNAPTIC_GRID = yes
 		}
 	}
 
 	allow = {
 		OR = {
 #[MACHINE] UNITY BUILDINGS
-			has_building = building_uplink_node
-			has_building = building_network_junction
-			has_building = building_system_conflux
-			has_building = building_ukn_uplink_4
-			has_building = building_ukn_uplink_5
+			UKN_HAS_UPLINK_GRID = yes
 		}
 		NOR = {
 			has_modifier = resort_colony

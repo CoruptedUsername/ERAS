@@ -36,7 +36,7 @@ ukn_condensics_compositor = {
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 15
+			ukn_exotic_particles = 15
 			energy = 65
 		}
 #############
@@ -56,7 +56,7 @@ ukn_condensics_compositor = {
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 90
+			ukn_exotic_particles = 90
 			energy = 390
 		}
 ############
@@ -76,7 +76,7 @@ ukn_condensics_compositor = {
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 600
+			ukn_exotic_particles = 600
 			energy = 2600
 		}
 	}
@@ -124,7 +124,7 @@ ukn_condensics_compositation_drone = {
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 15
+			ukn_exotic_particles = 15
 			energy = 65
 		}
 #############
@@ -144,7 +144,7 @@ ukn_condensics_compositation_drone = {
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 90
+			ukn_exotic_particles = 90
 			energy = 390
 		}
 ############
@@ -164,7 +164,7 @@ ukn_condensics_compositation_drone = {
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 600
+			ukn_exotic_particles = 600
 			energy = 2600
 		}
 	}

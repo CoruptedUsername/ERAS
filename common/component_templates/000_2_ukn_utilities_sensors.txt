@@ -39,7 +39,7 @@ utility_component_template = {
 #			nanites = @ukn_regularship_t1_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_regularship_t1_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_regularship_t1_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t1_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_regularship_t1_sensors_upkeep_energy
@@ -52,7 +52,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_regularship_t1_sensors_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_regularship_t1_sensors_upkeep_exotic_gases
 #			rare_crystals = @ukn_regularship_t1_sensors_upkeep_rare_crystals
-#			volatile_motes = @ukn_regularship_t1_sensors_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t1_sensors_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_regularship_t1_sensors_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_regularship_t1_sensors_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_regularship_t1_sensors_upkeep_nanites
@@ -106,7 +106,7 @@ utility_component_template = {
 #			nanites = @ukn_regularship_t2_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_regularship_t2_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_regularship_t2_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t2_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_regularship_t2_sensors_upkeep_energy
@@ -119,7 +119,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_regularship_t2_sensors_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_regularship_t2_sensors_upkeep_exotic_gases
 #			rare_crystals = @ukn_regularship_t2_sensors_upkeep_rare_crystals
-#			volatile_motes = @ukn_regularship_t2_sensors_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t2_sensors_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_regularship_t2_sensors_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_regularship_t2_sensors_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_regularship_t2_sensors_upkeep_nanites
@@ -172,7 +172,7 @@ utility_component_template = {
 #			nanites = @ukn_regularship_t3_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_regularship_t3_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_regularship_t3_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t3_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_regularship_t3_sensors_upkeep_energy
@@ -185,7 +185,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_regularship_t3_sensors_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_regularship_t3_sensors_upkeep_exotic_gases
 #			rare_crystals = @ukn_regularship_t3_sensors_upkeep_rare_crystals
-#			volatile_motes = @ukn_regularship_t3_sensors_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t3_sensors_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_regularship_t3_sensors_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_regularship_t3_sensors_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_regularship_t3_sensors_upkeep_nanites
@@ -243,7 +243,7 @@ utility_component_template = {
 #			nanites = @ukn_regularship_t4_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_regularship_t4_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_regularship_t4_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t4_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_regularship_t4_sensors_upkeep_energy
@@ -256,7 +256,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_regularship_t4_sensors_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_regularship_t4_sensors_upkeep_exotic_gases
 #			rare_crystals = @ukn_regularship_t4_sensors_upkeep_rare_crystals
-#			volatile_motes = @ukn_regularship_t4_sensors_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t4_sensors_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_regularship_t4_sensors_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_regularship_t4_sensors_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_regularship_t4_sensors_upkeep_nanites
@@ -317,7 +317,7 @@ utility_component_template = {
 #			nanites = @ukn_regularship_t5_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_regularship_t5_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_regularship_t5_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t5_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_regularship_t5_sensors_upkeep_energy
@@ -330,7 +330,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_regularship_t5_sensors_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_regularship_t5_sensors_upkeep_exotic_gases
 #			rare_crystals = @ukn_regularship_t5_sensors_upkeep_rare_crystals
-#			volatile_motes = @ukn_regularship_t5_sensors_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t5_sensors_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_regularship_t5_sensors_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_regularship_t5_sensors_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_regularship_t5_sensors_upkeep_nanites
@@ -391,7 +391,7 @@ utility_component_template = {
 #			nanites = @ukn_regularship_t6_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_regularship_t6_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_regularship_t6_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t6_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_regularship_t6_sensors_upkeep_energy
@@ -404,7 +404,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_regularship_t6_sensors_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_regularship_t6_sensors_upkeep_exotic_gases
 #			rare_crystals = @ukn_regularship_t6_sensors_upkeep_rare_crystals
-#			volatile_motes = @ukn_regularship_t6_sensors_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t6_sensors_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_regularship_t6_sensors_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_regularship_t6_sensors_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_regularship_t6_sensors_upkeep_nanites
@@ -465,7 +465,7 @@ utility_component_template = {
 #			ukn_quasi_matter = @ukn_regularship_t7_armor_cost_ukn_quasi_matter
 #---
 #			ukn_meta_materials = @ukn_regularship_t7_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_regularship_t7_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t7_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_regularship_t7_sensors_upkeep_energy
@@ -478,7 +478,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_regularship_t7_sensors_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_regularship_t7_sensors_upkeep_exotic_gases
 #			rare_crystals = @ukn_regularship_t7_sensors_upkeep_rare_crystals
-#			volatile_motes = @ukn_regularship_t7_sensors_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t7_sensors_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_regularship_t7_sensors_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_regularship_t7_sensors_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_regularship_t7_sensors_upkeep_nanites
@@ -539,7 +539,7 @@ utility_component_template = {
 #			ukn_quasi_matter = @ukn_regularship_t8_armor_cost_ukn_quasi_matter
 #---
 #			ukn_meta_materials = @ukn_regularship_t8_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_regularship_t8_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t8_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_regularship_t8_sensors_upkeep_energy
@@ -552,7 +552,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_regularship_t8_sensors_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_regularship_t8_sensors_upkeep_exotic_gases
 #			rare_crystals = @ukn_regularship_t8_sensors_upkeep_rare_crystals
-#			volatile_motes = @ukn_regularship_t8_sensors_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t8_sensors_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_regularship_t8_sensors_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_regularship_t8_sensors_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_regularship_t8_sensors_upkeep_nanites
@@ -614,7 +614,7 @@ utility_component_template = {
 #			ukn_quasi_matter = @ukn_regularship_t_p_armor_cost_ukn_quasi_matter
 #---
 #			ukn_meta_materials = @ukn_regularship_t_p_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_regularship_t_p_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t_p_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_regularship_t_p_sensors_upkeep_energy
@@ -627,7 +627,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_regularship_t_p_sensors_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_regularship_t_p_sensors_upkeep_exotic_gases
 #			rare_crystals = @ukn_regularship_t_p_sensors_upkeep_rare_crystals
-#			volatile_motes = @ukn_regularship_t_p_sensors_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t_p_sensors_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_regularship_t_p_sensors_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_regularship_t_p_sensors_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_regularship_t_p_sensors_upkeep_nanites
@@ -688,7 +688,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_regularship_t9_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_regularship_t9_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_regularship_t9_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t9_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_regularship_t9_sensors_upkeep_energy
@@ -701,7 +701,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_regularship_t9_sensors_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_regularship_t9_sensors_upkeep_exotic_gases
 #			rare_crystals = @ukn_regularship_t9_sensors_upkeep_rare_crystals
-#			volatile_motes = @ukn_regularship_t9_sensors_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t9_sensors_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_regularship_t9_sensors_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_regularship_t9_sensors_upkeep_ehof_sr_negative_mass
 #			ukn_causalitons = @ukn_regularship_t9_sensors_upkeep_nanites
@@ -761,7 +761,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_regularship_t10_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_regularship_t10_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_regularship_t10_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t10_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_regularship_t10_sensors_upkeep_energy
@@ -774,7 +774,7 @@ utility_component_template = {
 #			ukn_causalitons = @ukn_regularship_t10_sensors_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_regularship_t10_sensors_upkeep_exotic_gases
 #			rare_crystals = @ukn_regularship_t10_sensors_upkeep_rare_crystals
-#			volatile_motes = @ukn_regularship_t10_sensors_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_regularship_t10_sensors_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_regularship_t10_sensors_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_regularship_t10_sensors_upkeep_ehof_sr_negative_mass
 #			ukn_causalitons = @ukn_regularship_t10_sensors_upkeep_nanites

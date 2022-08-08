@@ -114,11 +114,11 @@ country_event = {
 						}
 						NOT = { has_modifier = mod_ukn_dynamic_districts_exotic_particles_malus }
 						OR ={
-							has_district = district_ukn_exotic_particle_factory
-							has_district = district_ukn_arcology_exotic_particle_factory
-							has_district = district_ukn_rw_exotic_particle_factory
-#							has_district = district_ukn_alderson_exotic_particle_factory
-#							has_district = district_ukn_birch_exotic_particle_factory
+							has_district = district_ukn_exotic_particles_factory
+							has_district = district_ukn_arcology_exotic_particles_factory
+							has_district = district_ukn_rw_exotic_particles_factory
+#							has_district = district_ukn_alderson_exotic_particles_factory
+#							has_district = district_ukn_birch_exotic_particles_factory
 						}
 					}
 					add_modifier = { modifier = mod_ukn_dynamic_districts_exotic_particles_malus }
@@ -133,11 +133,11 @@ country_event = {
 							has_building = building_ukn_particle_factory_grid_3
 						}
 						NOR ={
-							has_district = district_ukn_exotic_particle_factory
-							has_district = district_ukn_arcology_exotic_particle_factory
-							has_district = district_ukn_rw_exotic_particle_factory
-#							has_district = district_ukn_alderson_exotic_particle_factory
-#							has_district = district_ukn_birch_exotic_particle_factory
+							has_district = district_ukn_exotic_particles_factory
+							has_district = district_ukn_arcology_exotic_particles_factory
+							has_district = district_ukn_rw_exotic_particles_factory
+#							has_district = district_ukn_alderson_exotic_particles_factory
+#							has_district = district_ukn_birch_exotic_particles_factory
 						}
 					}
 					remove_modifier = mod_ukn_dynamic_districts_exotic_particles_malus
@@ -152,11 +152,11 @@ country_event = {
 							has_building = building_ukn_particle_factory_grid_3
 						}
 						OR ={
-							has_district = district_ukn_exotic_particle_factory
-							has_district = district_ukn_arcology_exotic_particle_factory
-							has_district = district_ukn_rw_exotic_particle_factory
-#							has_district = district_ukn_alderson_exotic_particle_factory
-#							has_district = district_ukn_birch_exotic_particle_factory
+							has_district = district_ukn_exotic_particles_factory
+							has_district = district_ukn_arcology_exotic_particles_factory
+							has_district = district_ukn_rw_exotic_particles_factory
+#							has_district = district_ukn_alderson_exotic_particles_factory
+#							has_district = district_ukn_birch_exotic_particles_factory
 						}
 					}
 					remove_modifier = mod_ukn_dynamic_districts_exotic_particles_malus
