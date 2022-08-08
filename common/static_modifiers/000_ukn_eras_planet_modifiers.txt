@@ -295,3 +295,12 @@ mod_ukn_planet_articles_abstract_production_boost = {
 	planet_researchers_produces_mult = 0.05
 	planet_administrators_produces_mult = 0.05
 }
+
+
+
+#[ALL] RARE ISOTOPES #--------------
+mod_ukn_planet_rare_isotopes_exotic_particles_factory_boost = {
+	icon = "gfx/interface/icons/planet_modifiers/mod_ukn_planet_rare_isotopes_exotic_particles_factory_boost.dds"
+	icon_frame = 1
+	planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_mult = 0.10
+}

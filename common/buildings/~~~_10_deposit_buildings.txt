@@ -45,7 +45,7 @@ building_mote_harvesters = {
 	}
 
 	prerequisites = {
-		"tech_mine_ukn_exotic_particles"
+		"tech_mine_volatile_motes"
 	}
 }
 

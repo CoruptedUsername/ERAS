@@ -96,6 +96,9 @@
  TECH_UNLOCK_UKN_AUTOMACHINES_TITLE:0 "§HExploit Resource:§! £nanites£"
  TECH_UNLOCK_UKN_AUTOMACHINES_DESC:0 "$nanites_desc$ "
  
+ TECH_UNLOCK_UKN_VOLATILE_MOTES_TITLE:0 "§HExploit Resource:§! £volatile_motes£"
+ TECH_UNLOCK_UKN_VOLATILE_MOTES_DESC:0 "$volatile_motes_desc$ "
+ 
  TECH_UNLOCK_UKN_SUPERCONDUCTIVE_CRYSTALS_TITLE:0 "§HExploit Resource:§! £rare_crystals£"
  TECH_UNLOCK_UKN_SUPERCONDUCTIVE_CRYSTALS_DESC:0 "$rare_crystals_desc$ "
  

@@ -181,6 +181,12 @@
 
 
 
+#[ALL] RARE ISOTOPES #--------------
+ mod_ukn_planet_rare_isotopes_exotic_particles_factory_boost:0 "Exotic-Decay Radioisotopes Injected"
+ mod_ukn_planet_rare_isotopes_exotic_particles_factory_boost_desc:0 "Supplementing our local particle factory infrastructure with radioisotopes producing a large amount of free fermions allows us to bypass some initial steps in the transmutation process, increasing effective exotic particle output by a non-negligible amount."
+
+
+
 #[ALL] POP JOB MODIFIERS #---------------------------------
  mod_planet_bureaucrats_unity_produces_mult:0 "£unity£ $unity$ from £job_bureaucrat£ $planet_bureaucrats$"
  mod_planet_managers_unity_produces_mult:0 "£unity£ $unity$ from £job_manager£ $planet_managers$"

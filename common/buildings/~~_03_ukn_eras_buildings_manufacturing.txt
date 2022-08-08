@@ -2904,7 +2904,7 @@ building_ukn_foundry_5 = {
 			planet_districts_rw_industrial_cost_mult = 0.65
 		}
 	}
-#-------------------------------------
+#----------------------------------------------------
 
 	ai_resource_production = {
 		alloys = 16
@@ -3962,7 +3962,7 @@ building_ukn_factory_5 = {
 			planet_districts_rw_industrial_cost_mult = 0.65
 		}
 	}
-#-------------------------------------
+#----------------------------------------------------
 
 	ai_resource_production = {
 		consumer_goods = 24
@@ -5194,7 +5194,7 @@ building_ukn_refinery_4 = {
 			planet_districts_ukn_rw_refinery_cost_mult = 0.55
 		}
 	}
-#-------------------------------------
+#----------------------------------------------------
 
 	ai_resource_production = {
 		exotic_gases = 1
@@ -6415,7 +6415,7 @@ building_ukn_crystal_plant_4 = {
 			planet_districts_ukn_rw_refinery_cost_mult = 0.55
 		}
 	}
-#-------------------------------------
+#----------------------------------------------------
 
 	ai_resource_production = {
 		rare_crystals = 1
@@ -9513,7 +9513,7 @@ building_ukn_automachine_assembly_grid_5 = {
 			planet_districts_ukn_rw_automachine_assembly_cost_mult = 0.50
 		}
 	}
-#-------------------------------------
+#----------------------------------------------------
 
 	ai_resource_production = {
 		nanites = 2
@@ -11721,7 +11721,7 @@ building_ukn_particle_factory_grid_3 = {
 			planet_districts_ukn_rw_exotic_particles_factory_cost_mult = 1.00
 		}
 	}
-#-------------------------------------
+#----------------------------------------------------
 
 	ai_resource_production = {
 		ukn_exotic_particles = 3
@@ -13033,7 +13033,7 @@ building_ukn_femtomatter_replication_grid_3 = {
 			planet_districts_ukn_rw_femtomatter_replication_cost_mult = 1.00
 		}
 	}
-#-------------------------------------
+#----------------------------------------------------
 
 	ai_resource_production = {
 		ukn_femtomatter = 1
@@ -13719,7 +13719,7 @@ building_ukn_condensics_compositation_grid_2 = {
 			planet_districts_ukn_rw_condensics_compositation_cost_mult = 1.00
 		}
 	}
-#-------------------------------------
+#----------------------------------------------------
 
 	ai_resource_production = {
 		ukn_condensics = 1

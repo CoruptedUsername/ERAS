@@ -3,8 +3,8 @@
  
 # AMENITIES / TRADE VALUE #---------------------------------------------------------"
   
- name_ukn_clerk:0 "Clerk"
- name_ukn_clerk_plural:0 "Clerks"
+ name_ukn_clerk:0 "Public Worker"
+ name_ukn_clerk_plural:0 "Public Workers"
   
  name_ukn_duelist:0 "Duelist"
  name_ukn_duelist_plural:0 "Duelists"

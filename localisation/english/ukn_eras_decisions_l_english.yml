@@ -164,3 +164,9 @@
 #[PRODUCTION] Distribute Articles
  decision_ukn_planet_articles_abstract_production_boost:0 "§L§!§H§!£consumer_goods£ Distribute Specialist Apparatus"
  decision_ukn_planet_articles_abstract_production_boost_desc:0 "By supplying tech- and management groups with specialist equipment, their productivity can be significantly increased."
+ 
+ 
+ 
+#[TRADE] Distribute Articles
+ decision_ukn_planet_rare_isotopes_exotic_particles_factory_boost:0 "§M§!§E§!£volatile_motes£ Radioisotope Injection"
+ decision_ukn_planet_rare_isotopes_exotic_particles_factory_boost_desc:0 "Supplementing our local particle factory infrastructure with radioisotopes producing a large amount of free fermions allows us to bypass some initial steps in the transmutation process, increasing effective exotic particle output by a non-negligible amount."

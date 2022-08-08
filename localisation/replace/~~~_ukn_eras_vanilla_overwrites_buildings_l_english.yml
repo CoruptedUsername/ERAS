@@ -1,6 +1,14 @@
 ﻿l_english:
 
 # MISCELLAEOUS CITY-BUFFING BUILDINGS #-------------
+
+ building_holo_theatres:0 "$building_ukn_holo_theatres_1$"
+ building_holo_theatres_desc:0 "$building_ukn_holo_theatres_1_desc$"
+ mod_planet_building_holo_theatres_build_speed_mult:0 "$mod_planet_building_ukn_holo_theatres_1_build_speed_mult$"
+ 
+ building_hyper_entertainment_forum:1 "$building_ukn_holo_theatres_2$"
+ building_hyper_entertainment_forum_desc:1 "$building_ukn_holo_theatres_2_desc$"
+ mod_planet_building_holo_theatres_build_speed_mult:0 "$mod_planet_building_ukn_holo_theatres_2_build_speed_mult$"
  
  building_luxury_residence:0 "$building_ukn_environmental_grid_1$"
  building_luxury_residence_desc:0 "$building_ukn_environmental_grid_1_desc$"

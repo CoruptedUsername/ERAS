@@ -2,6 +2,116 @@
 #---------## [INDUSTRY] OVERWRITES ##---------#
           ###########################
 
+####################################
+# RARE ISOTOPE PRODUCTION / OUTPUT #
+####################################
+
+#Volatile Mote Mining
+tech_mine_volatile_motes = {
+	cost = 0
+	area = physics
+	start_tech = yes
+	tier = 0
+	category = { particles }
+
+	gateway = tech_ukn_volatile_motes_manufacturing_gateway
+
+	prereqfor_desc = {
+		hide_prereq_for_desc = decision
+		hide_prereq_for_desc = resource
+		custom = {
+			title = "TECH_UNLOCK_UKN_VOLATILE_MOTES_TITLE"
+			desc = "TECH_UNLOCK_UKN_VOLATILE_MOTES_DESC"
+		}
+	}
+
+	weight_modifier = {
+		factor = 2
+#[ALL] (Other) Boosting/Debuffing
+		modifier = {
+			factor = value:tech_weight_likelihood
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = @strategic_resource_ai_tech_factor #important resource
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
+
+tech_volatile_motes = {
+	cost = @tech_ukn_volatile_motes_4_cost
+	area = physics
+	tier = @tech_ukn_volatile_motes_4_tier
+	category = { particles }	
+	prerequisites = { "tech_mine_volatile_motes" }
+	weight = 0
+
+	gateway = tech_ukn_atypical_field_manipulation_gateway
+	
+	modifier = {
+		weapon_type_energy_weapon_damage_mult = 0.05
+		planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_mult = 0.1
+	}
+	
+#P]	potential = {
+#P]		has_technology = tech_mine_volatile_motes
+#P]	}
+
+	weight_modifier = {
+#[ALL] (Other) Boosting/Debuffing
+		modifier = {
+			factor = value:tech_weight_likelihood
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				any_owned_planet = {
+					OR = {
+						has_deposit = d_dust_caverns
+						has_deposit = d_dust_desert
+						has_deposit = d_industrial_sector
+					}
+				}
+				any_planet_within_border = {
+					OR = {
+						has_deposit = d_volatile_motes_1
+						has_deposit = d_volatile_motes_2
+						has_deposit = d_volatile_motes_3
+						has_deposit = d_volatile_motes_4
+						has_deposit = d_volatile_motes_5
+					}
+				}
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = @strategic_resource_ai_tech_factor #important resource
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
+
 #######################################
 # EXOTIC PARTICLE PRODUCTION / OUTPUT #
 #######################################
@@ -67,7 +177,7 @@ tech_ukn_exotic_particles = {
 	
 	modifier = {
 		weapon_type_energy_weapon_damage_mult = 0.05
-		planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_mult = 0.1
+		planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_mult = 0.05
 	}
 	
 #P]	potential = {
@@ -96,6 +206,10 @@ tech_ukn_exotic_particles = {
 		}
 	}
 }
+
+#####################################
+# EXOTIC FLUIDS PRODUCTION / OUTPUT #
+#####################################
 
 #Exotic Gas Extraction
 tech_mine_exotic_gases = {
@@ -216,6 +330,10 @@ tech_exotic_gases = {
 		}
 	}
 }
+
+################################################
+# SUPERCONDUCTIVE CRYSTALS PRODUCTION / OUTPUT #
+################################################
 
 #Rare Crystal Mining
 tech_mine_rare_crystals = {
