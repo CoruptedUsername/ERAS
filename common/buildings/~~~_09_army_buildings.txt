@@ -295,11 +295,11 @@ building_fortress = {
         }
         cost = {
             minerals = @b2_minerals
-            volatile_motes = @b2_rare_cost
+            ukn_exotic_particles = @b2_rare_cost
         }
         upkeep = {
             energy = 1
-            volatile_motes = @b2_rare_upkeep
+            ukn_exotic_particles = @b2_rare_upkeep
         }
     }
     prerequisites = {

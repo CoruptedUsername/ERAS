@@ -52,7 +52,7 @@ building_colony_shelter = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -66,7 +66,7 @@ building_colony_shelter = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
@@ -87,6 +87,10 @@ building_colony_shelter = {
 	}
 #----------------------------------------------------
 
+	upgrades = {
+		building_capital
+	}
+	
 	planet_modifier = {
 		planet_housing_add = 3
 		planet_amenities_add = 7
@@ -108,10 +112,6 @@ building_colony_shelter = {
 		}
 		job_roboticist_add = 1
 		job_colonist_add = 1
-	}
-
-	upgrades = {
-		building_capital
 	}
 
 	triggered_desc = {
@@ -184,7 +184,7 @@ building_capital = {
 					is_ai = no
 				}
 			}
-			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+			consumer_goods = @district_ukn_city_1_cost_basic_consumer_goods
 		}
 		
 #[BASIC] MINERALS
@@ -215,7 +215,7 @@ building_capital = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -229,7 +229,7 @@ building_capital = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
@@ -679,7 +679,7 @@ building_major_capital = {
 					is_ai = no
 				}
 			}
-			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+			consumer_goods = @district_ukn_city_1_cost_basic_consumer_goods
 		}
 		
 #[BASIC] MINERALS
@@ -710,7 +710,7 @@ building_major_capital = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -724,7 +724,7 @@ building_major_capital = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
@@ -1169,7 +1169,7 @@ building_system_capital = {
 					is_ai = no
 				}
 			}
-			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+			consumer_goods = @district_ukn_city_1_cost_basic_consumer_goods
 		}
 		
 #[BASIC] MINERALS
@@ -1200,7 +1200,7 @@ building_system_capital = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -1214,7 +1214,7 @@ building_system_capital = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
@@ -1662,7 +1662,7 @@ building_deployment_post = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -1676,7 +1676,7 @@ building_deployment_post = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
@@ -1792,7 +1792,7 @@ building_machine_capital = {
 					is_ai = no
 				}
 			}
-			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+			consumer_goods = @district_ukn_city_1_cost_basic_consumer_goods
 		}
 		
 #[BASIC] MINERALS
@@ -1823,7 +1823,7 @@ building_machine_capital = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -1837,7 +1837,7 @@ building_machine_capital = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
@@ -1971,7 +1971,7 @@ building_machine_major_capital = {
 					is_ai = no
 				}
 			}
-			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+			consumer_goods = @district_ukn_city_1_cost_basic_consumer_goods
 		}
 		
 #[BASIC] MINERALS
@@ -1998,7 +1998,7 @@ building_machine_major_capital = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -2012,7 +2012,7 @@ building_machine_major_capital = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
@@ -2142,7 +2142,7 @@ building_machine_system_capital = {
 					is_ai = no
 				}
 			}
-			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+			consumer_goods = @district_ukn_city_1_cost_basic_consumer_goods
 		}
 		
 #[BASIC] MINERALS
@@ -2299,7 +2299,7 @@ building_hive_capital = {
 					is_ai = no
 				}
 			}
-			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+			consumer_goods = @district_ukn_city_1_cost_basic_consumer_goods
 		}
 		
 #[BASIC] MINERALS
@@ -2330,7 +2330,7 @@ building_hive_capital = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -2344,7 +2344,7 @@ building_hive_capital = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
@@ -2452,7 +2452,7 @@ building_hive_major_capital = {
 					is_ai = no
 				}
 			}
-			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+			consumer_goods = @district_ukn_city_1_cost_basic_consumer_goods
 		}
 		
 #[BASIC] MINERALS
@@ -2483,7 +2483,7 @@ building_hive_major_capital = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -2497,7 +2497,7 @@ building_hive_major_capital = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
@@ -2605,7 +2605,7 @@ building_hab_capital = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -2619,7 +2619,7 @@ building_hab_capital = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
@@ -2958,7 +2958,7 @@ building_hab_major_capital = {
 					is_ai = no
 				}
 			}
-			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+			consumer_goods = @district_ukn_city_1_cost_basic_consumer_goods
 		}
 		
 #[BASIC] MINERALS
@@ -2982,7 +2982,7 @@ building_hab_major_capital = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -2996,7 +2996,7 @@ building_hab_major_capital = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
@@ -3514,7 +3514,7 @@ building_resort_capital = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -3528,7 +3528,7 @@ building_resort_capital = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
@@ -3681,7 +3681,7 @@ building_resort_major_capital = {
 					is_ai = no
 				}
 			}
-			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+			consumer_goods = @district_ukn_city_1_cost_basic_consumer_goods
 		}
 		
 #[BASIC] MINERALS
@@ -3700,7 +3700,7 @@ building_resort_major_capital = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -3714,7 +3714,7 @@ building_resort_major_capital = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
@@ -3861,7 +3861,7 @@ building_slave_capital = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -3875,7 +3875,7 @@ building_slave_capital = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
@@ -4004,7 +4004,7 @@ building_slave_major_capital = {
 					is_ai = no
 				}
 			}
-			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+			consumer_goods = @district_ukn_city_1_cost_basic_consumer_goods
 		}
 		
 #[BASIC] MINERALS
@@ -4023,7 +4023,7 @@ building_slave_major_capital = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -4037,7 +4037,7 @@ building_slave_major_capital = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
@@ -4177,7 +4177,7 @@ building_imperial_capital = {
 					is_ai = no
 				}
 			}
-			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+			consumer_goods = @district_ukn_city_1_cost_basic_consumer_goods
 		}
 		
 #[BASIC] MINERALS
@@ -4199,7 +4199,7 @@ building_imperial_capital = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -4213,7 +4213,7 @@ building_imperial_capital = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
@@ -4460,7 +4460,7 @@ building_imperial_machine_capital = {
 					is_ai = no
 				}
 			}
-			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+			consumer_goods = @district_ukn_city_1_cost_basic_consumer_goods
 		}
 		
 #[BASIC] MINERALS
@@ -4482,7 +4482,7 @@ building_imperial_machine_capital = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -4496,7 +4496,7 @@ building_imperial_machine_capital = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
@@ -4626,7 +4626,7 @@ building_imperial_hive_capital = {
 					is_ai = no
 				}
 			}
-			consumer_goods = @building_ukn_food_processing_facility_2_cost_basic_consumer_goods
+			consumer_goods = @district_ukn_city_1_cost_basic_consumer_goods
 		}
 		
 #[BASIC] MINERALS
@@ -4648,7 +4648,7 @@ building_imperial_hive_capital = {
 #[ALL] (Pre-Event Adding Automation Framework) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			NOR = {
 				has_building = building_ukn_automation_grid_1
 				has_building = building_ukn_automation_grid_2
@@ -4662,7 +4662,7 @@ building_imperial_hive_capital = {
 #[NORMAL-ARCOLOGY-CAPITAL] (Pre-Event Adding Automation Maintenance District) Infrastructure Slot Fix
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
+#O]			exists = owner
 			OR = {
 				UKN_USES_NORMAL_DISTRICTS = yes
 				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes

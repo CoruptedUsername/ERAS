@@ -127,7 +127,7 @@ particle_factory_1 = {
 			ukn_meta_materials = @ukn_stellar_particle_factory_p1_upkeep_ukn_meta_materials_g_star
 		}
 		produces = {
-			volatile_motes = @ukn_stellar_particle_factory_p1_output_volatile_motes_g_star
+			ukn_exotic_particles = @ukn_stellar_particle_factory_p1_output_ukn_exotic_particles_g_star
 		}
 	}
 #######################
@@ -200,7 +200,7 @@ particle_factory_restored = {
 			ukn_meta_materials = @ukn_stellar_particle_factory_r_upkeep_ukn_meta_materials_g_star
 		}
 		produces = {
-			volatile_motes = @ukn_stellar_particle_factory_r_output_volatile_motes_g_star
+			ukn_exotic_particles = @ukn_stellar_particle_factory_r_output_ukn_exotic_particles_g_star
 		}
 	}
 
@@ -261,7 +261,7 @@ particle_factory_1_dummy_text = {
 			ukn_meta_materials = @ukn_stellar_particle_factory_p1_upkeep_ukn_meta_materials_g_star
 		}
 		produces = {
-			volatile_motes = @ukn_stellar_particle_factory_p1_output_volatile_motes_g_star
+			ukn_exotic_particles = @ukn_stellar_particle_factory_p1_output_ukn_exotic_particles_g_star
 		}
 	}
 #######################

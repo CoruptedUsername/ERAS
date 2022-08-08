@@ -143,11 +143,11 @@ habitat_0 = {
 				if = { limit = { fromfrom.planet = { has_deposit = d_rare_crystals_3 } }		add_deposit = d_hab_crystal_3 }
 				if = { limit = { fromfrom.planet = { has_deposit = d_rare_crystals_4 } }		add_deposit = d_hab_crystal_4 }
 				if = { limit = { fromfrom.planet = { has_deposit = d_rare_crystals_5 } }		add_deposit = d_hab_crystal_5 }
-				if = { limit = { fromfrom.planet = { has_deposit = d_volatile_motes_1 } }		add_deposit = d_hab_mote_1 }
-				if = { limit = { fromfrom.planet = { has_deposit = d_volatile_motes_2 } }		add_deposit = d_hab_mote_2 }
-				if = { limit = { fromfrom.planet = { has_deposit = d_volatile_motes_3 } }		add_deposit = d_hab_mote_3 }
-				if = { limit = { fromfrom.planet = { has_deposit = d_volatile_motes_4 } }		add_deposit = d_hab_mote_4 }
-				if = { limit = { fromfrom.planet = { has_deposit = d_volatile_motes_5 } }		add_deposit = d_hab_mote_5 }
+				if = { limit = { fromfrom.planet = { has_deposit = d_ukn_exotic_particles_1 } }		add_deposit = d_hab_mote_1 }
+				if = { limit = { fromfrom.planet = { has_deposit = d_ukn_exotic_particles_2 } }		add_deposit = d_hab_mote_2 }
+				if = { limit = { fromfrom.planet = { has_deposit = d_ukn_exotic_particles_3 } }		add_deposit = d_hab_mote_3 }
+				if = { limit = { fromfrom.planet = { has_deposit = d_ukn_exotic_particles_4 } }		add_deposit = d_hab_mote_4 }
+				if = { limit = { fromfrom.planet = { has_deposit = d_ukn_exotic_particles_5 } }		add_deposit = d_hab_mote_5 }
 			}
 		}
 		fromfrom.planet = {

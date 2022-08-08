@@ -60,7 +60,7 @@ weapon_component_template = {
 #			nanites = @ukn_small_t3_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_small_t3_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_small_t3_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_small_t3_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_small_t3_component_upkeep_energy
@@ -73,7 +73,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_small_t3_component_upkeep_ukn_causalitons
 			exotic_gases = @ukn_small_t3_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_small_t3_component_upkeep_rare_crystals
-#			volatile_motes = @ukn_small_t3_component_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_small_t3_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_small_t3_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_small_t3_component_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_small_t3_component_upkeep_nanites
@@ -142,7 +142,7 @@ weapon_component_template = {
 #			nanites = @ukn_medium_t3_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_medium_t3_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_medium_t3_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_medium_t3_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_medium_t3_component_upkeep_energy
@@ -155,7 +155,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_medium_t3_component_upkeep_ukn_causalitons
 			exotic_gases = @ukn_medium_t3_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_medium_t3_component_upkeep_rare_crystals
-#			volatile_motes = @ukn_medium_t3_component_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_medium_t3_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_medium_t3_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_medium_t3_component_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_medium_t3_component_upkeep_nanites
@@ -224,7 +224,7 @@ weapon_component_template = {
 #			nanites = @ukn_large_t3_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_large_t3_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_large_t3_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_large_t3_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_large_t3_component_upkeep_energy
@@ -237,7 +237,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_large_t3_component_upkeep_ukn_causalitons
 			exotic_gases = @ukn_large_t3_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_large_t3_component_upkeep_rare_crystals
-#			volatile_motes = @ukn_large_t3_component_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_large_t3_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_large_t3_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_large_t3_component_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_large_t3_component_upkeep_nanites
@@ -309,7 +309,7 @@ weapon_component_template = {
 #			nanites = @ukn_small_t4_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_small_t4_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_small_t4_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_small_t4_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_small_t4_component_upkeep_energy
@@ -322,7 +322,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_small_t4_component_upkeep_ukn_causalitons
 			exotic_gases = @ukn_small_t4_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_small_t4_component_upkeep_rare_crystals
-#			volatile_motes = @ukn_small_t4_component_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_small_t4_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_small_t4_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_small_t4_component_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_small_t4_component_upkeep_nanites
@@ -390,7 +390,7 @@ weapon_component_template = {
 #			nanites = @ukn_medium_t4_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_medium_t4_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_medium_t4_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_medium_t4_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_medium_t4_component_upkeep_energy
@@ -403,7 +403,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_medium_t4_component_upkeep_ukn_causalitons
 			exotic_gases = @ukn_medium_t4_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_medium_t4_component_upkeep_rare_crystals
-#			volatile_motes = @ukn_medium_t4_component_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_medium_t4_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_medium_t4_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_medium_t4_component_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_medium_t4_component_upkeep_nanites
@@ -472,7 +472,7 @@ weapon_component_template = {
 #			nanites = @ukn_large_t4_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_large_t4_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_large_t4_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_large_t4_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_large_t4_component_upkeep_energy
@@ -485,7 +485,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_large_t4_component_upkeep_ukn_causalitons
 			exotic_gases = @ukn_large_t4_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_large_t4_component_upkeep_rare_crystals
-#			volatile_motes = @ukn_large_t4_component_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_large_t4_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_large_t4_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_large_t4_component_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_large_t4_component_upkeep_nanites
@@ -557,7 +557,7 @@ weapon_component_template = {
 #			nanites = @ukn_small_t5_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_small_t5_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_small_t5_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_small_t5_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_small_t5_component_upkeep_energy
@@ -570,7 +570,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_small_t5_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_small_t5_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_small_t5_component_upkeep_rare_crystals
-			volatile_motes = @ukn_small_t5_component_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_small_t5_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_small_t5_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_small_t5_component_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_small_t5_component_upkeep_nanites
@@ -641,7 +641,7 @@ weapon_component_template = {
 #			nanites = @ukn_medium_t5_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_medium_t5_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_medium_t5_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_medium_t5_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_medium_t5_component_upkeep_energy
@@ -654,7 +654,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_medium_t5_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_medium_t5_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_medium_t5_component_upkeep_rare_crystals
-			volatile_motes = @ukn_medium_t5_component_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_medium_t5_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_medium_t5_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_medium_t5_component_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_medium_t5_component_upkeep_nanites
@@ -725,7 +725,7 @@ weapon_component_template = {
 #			nanites = @ukn_large_t5_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_large_t5_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_large_t5_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_large_t5_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_large_t5_component_upkeep_energy
@@ -738,7 +738,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_large_t5_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_large_t5_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_large_t5_component_upkeep_rare_crystals
-			volatile_motes = @ukn_large_t5_component_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_large_t5_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_large_t5_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_large_t5_component_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_large_t5_component_upkeep_nanites
@@ -812,7 +812,7 @@ weapon_component_template = {
 #			nanites = @ukn_small_t6_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_small_t6_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_small_t6_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_small_t6_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_small_t6_component_upkeep_energy
@@ -825,7 +825,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_small_t6_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_small_t6_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_small_t6_component_upkeep_rare_crystals
-			volatile_motes = @ukn_small_t6_component_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_small_t6_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_small_t6_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_small_t6_component_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_small_t6_component_upkeep_nanites
@@ -896,7 +896,7 @@ weapon_component_template = {
 #			nanites = @ukn_medium_t6_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_medium_t6_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_medium_t6_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_medium_t6_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_medium_t6_component_upkeep_energy
@@ -909,7 +909,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_medium_t6_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_medium_t6_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_medium_t6_component_upkeep_rare_crystals
-			volatile_motes = @ukn_medium_t6_component_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_medium_t6_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_medium_t6_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_medium_t6_component_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_medium_t6_component_upkeep_nanites
@@ -980,7 +980,7 @@ weapon_component_template = {
 #			nanites = @ukn_large_t6_armor_cost_nanites
 #---
 #			ukn_meta_materials = @ukn_large_t6_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_large_t6_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_large_t6_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_large_t6_component_upkeep_energy
@@ -993,7 +993,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_large_t6_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_large_t6_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_large_t6_component_upkeep_rare_crystals
-			volatile_motes = @ukn_large_t6_component_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_large_t6_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_large_t6_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_large_t6_component_upkeep_ehof_sr_negative_mass
 #			nanites = @ukn_large_t6_component_upkeep_nanites
@@ -1067,7 +1067,7 @@ weapon_component_template = {
 #			ukn_quasi_matter = @ukn_small_t7_armor_cost_ukn_quasi_matter
 #---
 #			ukn_meta_materials = @ukn_small_t7_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_small_t7_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_small_t7_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_small_t7_component_upkeep_energy
@@ -1080,7 +1080,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_small_t7_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_small_t7_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_small_t7_component_upkeep_rare_crystals
-			volatile_motes = @ukn_small_t7_component_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_small_t7_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_small_t7_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_small_t7_component_upkeep_ehof_sr_negative_mass
 #---
@@ -1149,7 +1149,7 @@ weapon_component_template = {
 #			ukn_quasi_matter = @ukn_medium_t7_armor_cost_ukn_quasi_matter
 #---
 #			ukn_meta_materials = @ukn_medium_t7_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_medium_t7_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_medium_t7_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_medium_t7_component_upkeep_energy
@@ -1162,7 +1162,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_medium_t7_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_medium_t7_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_medium_t7_component_upkeep_rare_crystals
-			volatile_motes = @ukn_medium_t7_component_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_medium_t7_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_medium_t7_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_medium_t7_component_upkeep_ehof_sr_negative_mass
 #---
@@ -1231,7 +1231,7 @@ weapon_component_template = {
 #			ukn_quasi_matter = @ukn_large_t7_armor_cost_ukn_quasi_matter
 #---
 #			ukn_meta_materials = @ukn_large_t7_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_large_t7_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_large_t7_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_large_t7_component_upkeep_energy
@@ -1244,7 +1244,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_large_t7_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_large_t7_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_large_t7_component_upkeep_rare_crystals
-			volatile_motes = @ukn_large_t7_component_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_large_t7_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_large_t7_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_large_t7_component_upkeep_ehof_sr_negative_mass
 #---
@@ -1316,7 +1316,7 @@ weapon_component_template = {
 #			ukn_quasi_matter = @ukn_small_t8_armor_cost_ukn_quasi_matter
 #---
 #			ukn_meta_materials = @ukn_small_t8_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_small_t8_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_small_t8_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_small_t8_component_upkeep_energy
@@ -1329,7 +1329,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_small_t8_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_small_t8_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_small_t8_component_upkeep_rare_crystals
-			volatile_motes = @ukn_small_t8_component_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_small_t8_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_small_t8_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_small_t8_component_upkeep_ehof_sr_negative_mass
 #---
@@ -1398,7 +1398,7 @@ weapon_component_template = {
 #			ukn_quasi_matter = @ukn_medium_t8_armor_cost_ukn_quasi_matter
 #---
 #			ukn_meta_materials = @ukn_medium_t8_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_medium_t8_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_medium_t8_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_medium_t8_component_upkeep_energy
@@ -1411,7 +1411,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_medium_t8_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_medium_t8_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_medium_t8_component_upkeep_rare_crystals
-			volatile_motes = @ukn_medium_t8_component_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_medium_t8_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_medium_t8_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_medium_t8_component_upkeep_ehof_sr_negative_mass
 #---
@@ -1480,7 +1480,7 @@ weapon_component_template = {
 #			ukn_quasi_matter = @ukn_large_t8_armor_cost_ukn_quasi_matter
 #---
 #			ukn_meta_materials = @ukn_large_t8_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_large_t8_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_large_t8_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_large_t8_component_upkeep_energy
@@ -1493,7 +1493,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_large_t8_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_large_t8_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_large_t8_component_upkeep_rare_crystals
-			volatile_motes = @ukn_large_t8_component_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_large_t8_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_large_t8_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_large_t8_component_upkeep_ehof_sr_negative_mass
 #---
@@ -1565,7 +1565,7 @@ weapon_component_template = {
 #			ukn_quasi_matter = @ukn_small_t_p_armor_cost_ukn_quasi_matter
 #---
 #			ukn_meta_materials = @ukn_small_t_p_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_small_t_p_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_small_t_p_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_small_t_p_component_upkeep_energy
@@ -1578,7 +1578,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_small_t_p_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_small_t_p_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_small_t_p_component_upkeep_rare_crystals
-			volatile_motes = @ukn_small_t_p_component_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_small_t_p_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_small_t_p_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_small_t_p_component_upkeep_ehof_sr_negative_mass
 #---
@@ -1647,7 +1647,7 @@ weapon_component_template = {
 #			ukn_quasi_matter = @ukn_medium_t_p_armor_cost_ukn_quasi_matter
 #---
 #			ukn_meta_materials = @ukn_medium_t_p_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_medium_t_p_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_medium_t_p_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_medium_t_p_component_upkeep_energy
@@ -1660,7 +1660,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_medium_t_p_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_medium_t_p_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_medium_t_p_component_upkeep_rare_crystals
-			volatile_motes = @ukn_medium_t_p_component_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_medium_t_p_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_medium_t_p_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_medium_t_p_component_upkeep_ehof_sr_negative_mass
 #---
@@ -1729,7 +1729,7 @@ weapon_component_template = {
 #			ukn_quasi_matter = @ukn_large_t_p_armor_cost_ukn_quasi_matter
 #---
 #			ukn_meta_materials = @ukn_large_t_p_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_large_t_p_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_large_t_p_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_large_t_p_component_upkeep_energy
@@ -1742,7 +1742,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_large_t_p_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_large_t_p_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_large_t_p_component_upkeep_rare_crystals
-			volatile_motes = @ukn_large_t_p_component_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_large_t_p_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_large_t_p_component_upkeep_sr_dark_matter
 #			ehof_sr_negative_mass = @ukn_large_t_p_component_upkeep_ehof_sr_negative_mass
 #---
@@ -1814,7 +1814,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_small_t9_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_small_t9_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_small_t9_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_small_t9_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_small_t9_component_upkeep_energy
@@ -1827,7 +1827,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_small_t9_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_small_t9_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_small_t9_component_upkeep_rare_crystals
-#			volatile_motes = @ukn_small_t9_component_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_small_t9_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_small_t9_component_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_small_t9_component_upkeep_ehof_sr_negative_mass
 #---
@@ -1895,7 +1895,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_medium_t9_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_medium_t9_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_medium_t9_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_medium_t9_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_medium_t9_component_upkeep_energy
@@ -1908,7 +1908,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_medium_t9_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_medium_t9_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_medium_t9_component_upkeep_rare_crystals
-#			volatile_motes = @ukn_medium_t9_component_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_medium_t9_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_medium_t9_component_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_medium_t9_component_upkeep_ehof_sr_negative_mass
 #---
@@ -1976,7 +1976,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_large_t9_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_large_t9_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_large_t9_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_large_t9_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_large_t9_component_upkeep_energy
@@ -1989,7 +1989,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_large_t9_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_large_t9_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_large_t9_component_upkeep_rare_crystals
-#			volatile_motes = @ukn_large_t9_component_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_large_t9_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_large_t9_component_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_large_t9_component_upkeep_ehof_sr_negative_mass
 #---
@@ -2060,7 +2060,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_small_t10_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_small_t10_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_small_t10_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_small_t10_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_small_t10_component_upkeep_energy
@@ -2073,7 +2073,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_small_t10_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_small_t10_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_small_t10_component_upkeep_rare_crystals
-#			volatile_motes = @ukn_small_t10_component_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_small_t10_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_small_t10_component_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_small_t10_component_upkeep_ehof_sr_negative_mass
 #---
@@ -2141,7 +2141,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_medium_t10_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_medium_t10_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_medium_t10_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_medium_t10_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_medium_t10_component_upkeep_energy
@@ -2154,7 +2154,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_medium_t10_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_medium_t10_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_medium_t10_component_upkeep_rare_crystals
-#			volatile_motes = @ukn_medium_t10_component_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_medium_t10_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_medium_t10_component_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_medium_t10_component_upkeep_ehof_sr_negative_mass
 #---
@@ -2222,7 +2222,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_large_t10_armor_cost_ukn_causalitons
 #---
 #			ukn_meta_materials = @ukn_large_t10_shields_cost_ukn_meta_materials
-#			volatile_motes = @ukn_large_t10_shields_cost_volatile_motes
+#			ukn_exotic_particles = @ukn_large_t10_shields_cost_ukn_exotic_particles
 		}
 		upkeep = {
 #			energy = @ukn_large_t10_component_upkeep_energy
@@ -2235,7 +2235,7 @@ weapon_component_template = {
 #			ukn_causalitons = @ukn_large_t10_component_upkeep_ukn_causalitons
 #			exotic_gases = @ukn_large_t10_component_upkeep_exotic_gases
 #			rare_crystals = @ukn_large_t10_component_upkeep_rare_crystals
-#			volatile_motes = @ukn_large_t10_component_upkeep_volatile_motes
+#			ukn_exotic_particles = @ukn_large_t10_component_upkeep_ukn_exotic_particles
 #			sr_dark_matter = @ukn_large_t10_component_upkeep_sr_dark_matter
 			ehof_sr_negative_mass = @ukn_large_t10_component_upkeep_ehof_sr_negative_mass
 #---

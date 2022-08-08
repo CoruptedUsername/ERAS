@@ -37,7 +37,7 @@ ukn_automachine_assembler = {
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 0.30
+			ukn_exotic_particles = 0.30
 		}
 		upkeep = {
 			trigger = {
@@ -97,7 +97,7 @@ ukn_automachine_assembler = {
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 0.75
+			ukn_exotic_particles = 0.75
 		}
 		upkeep = {
 			trigger = {
@@ -157,7 +157,7 @@ ukn_automachine_assembler = {
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 6
+			ukn_exotic_particles = 6
 		}
 		upkeep = {
 			trigger = {
@@ -218,7 +218,7 @@ ukn_automachine_assembler = {
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 30
+			ukn_exotic_particles = 30
 		}
 		upkeep = {
 			trigger = {
@@ -306,7 +306,7 @@ ukn_automachine_assembly_drone = {
 					UKN_USES_NORMAL_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 0.30
+			ukn_exotic_particles = 0.30
 		}
 		upkeep = {
 			trigger = {
@@ -366,7 +366,7 @@ ukn_automachine_assembly_drone = {
 					UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 0.75
+			ukn_exotic_particles = 0.75
 		}
 		upkeep = {
 			trigger = {
@@ -426,7 +426,7 @@ ukn_automachine_assembly_drone = {
 					UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 6
+			ukn_exotic_particles = 6
 		}
 		upkeep = {
 			trigger = {
@@ -487,7 +487,7 @@ ukn_automachine_assembly_drone = {
 					UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 				}
 			}
-			volatile_motes = 30
+			ukn_exotic_particles = 30
 		}
 		upkeep = {
 			trigger = {

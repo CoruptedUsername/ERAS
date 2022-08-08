@@ -25,6 +25,8 @@ district_city = {
 	conversion_ratio = 0.5
 	convert_to = {
 		district_arcology_housing
+		district_ukn_arcology_hive
+		district_ukn_arcology_nexus
 		district_nexus
 		district_hive
 	}
@@ -46,6 +48,19 @@ district_city = {
 			trigger = {
 				owner = {
 					is_ai = no
+				}
+			}
+			consumer_goods = @district_ukn_city_1_cost_basic_consumer_goods
+		}
+#[ENTERTAINMENT-GRIDS] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+				OR = {
+					has_building = building_holo_theatres
+					has_building = building_hyper_entertainment_forum
 				}
 			}
 			consumer_goods = @district_ukn_city_1_cost_basic_consumer_goods
@@ -121,60 +136,6 @@ district_city = {
 		potential = {
 			exists = owner
 			owner = {
-				is_regular_empire = yes
-			}
-			UKN_HAS_ANY_TWO_ENVIRONMENTAL_GRIDS_BUILT = yes
-		}
-		modifier = {
-			planet_amenities_add = 0.5
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-			has_building = building_luxury_residence
-			NOR = {
-				has_building = building_paradise_dome
-				has_building = building_ukn_environmental_grid_3
-			}
-		}
-		modifier = {
-			planet_amenities_add = 0.5
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-			has_building = building_paradise_dome
-			NOT = { has_building = building_ukn_environmental_grid_3 }
-		}
-		modifier = {
-			planet_amenities_add = 2.5
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-			has_building = building_ukn_environmental_grid_3
-		}
-		modifier = {
-			planet_amenities_add = 4.5
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
 				is_bugged_agrarian_idyll = yes
 			}
 		}
@@ -192,6 +153,50 @@ district_city = {
 		}
 		modifier = {
 			job_clerk_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_active_tradition = tr_prosperity_interstellar_franchising }
+		}
+		modifier = {
+			job_clerk_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				NOT = { has_valid_civic = civic_warrior_culture }
+			}
+			OR = {
+				has_building = building_holo_theatres
+				has_building = building_hyper_entertainment_forum
+			}
+		}
+		modifier = {
+			job_entertainer_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				has_valid_civic = civic_warrior_culture
+			}
+			OR = {
+				has_building = building_holo_theatres
+				has_building = building_hyper_entertainment_forum
+			}
+		}
+		modifier = {
+			job_duelist_add = 1
 		}
 	}
 
@@ -230,16 +235,6 @@ district_city = {
 		}
 	}
 
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { has_active_tradition = tr_prosperity_interstellar_franchising }
-		}
-		modifier = {
-			job_clerk_add = 1
-		}
-	}
-
 	#Bug Branch
 	triggered_planet_modifier = {
 		potential = {
@@ -273,6 +268,36 @@ district_city = {
 		text = job_clerk_effect_desc
 	}
 
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				NOT = { has_valid_civic = civic_warrior_culture }
+			}
+			OR = {
+				has_building = building_holo_theatres
+				has_building = building_hyper_entertainment_forum
+			}
+		}
+		text = job_entertainer_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				has_valid_civic = civic_warrior_culture
+			}
+			OR = {
+				has_building = building_holo_theatres
+				has_building = building_hyper_entertainment_forum
+			}
+		}
+		text = job_duelist_effect_desc
+	}
+
 	#Bug Branch
 	triggered_desc = {
 		trigger = {
@@ -283,6 +308,13 @@ district_city = {
 	}
 	#Bug Branch
 }
+
+
+
+
+
+
+
 
 district_hive = {
 	base_buildtime = @district_ukn_hive_1_build_time
@@ -307,6 +339,8 @@ district_hive = {
 	conversion_ratio = 0.5
 	convert_to = {
 		district_arcology_housing
+		district_ukn_arcology_hive
+		district_ukn_arcology_nexus
 		district_nexus
 		district_city
 	}
@@ -432,6 +466,13 @@ district_hive = {
 	}
 }
 
+
+
+
+
+
+
+
 district_nexus = {
 	base_buildtime = @district_ukn_nexus_1_build_time
 	is_capped_by_modifier = no
@@ -455,6 +496,8 @@ district_nexus = {
 	conversion_ratio = 0.5
 	convert_to = {
 		district_arcology_housing
+		district_ukn_arcology_hive
+		district_ukn_arcology_nexus
 		district_city
 		district_hive
 	}
@@ -814,12 +857,12 @@ district_industrial = {
 
 	show_on_uncolonized = {
 		exists = from
-		uses_district_industrial = yes
+		UKN_USES_STANDARD_DISTRICTS = yes
 	}
 
 	potential = {
 		exists = owner
-		uses_district_industrial = yes
+		UKN_USES_STANDARD_DISTRICTS = yes
 	}
 
 	allow = {

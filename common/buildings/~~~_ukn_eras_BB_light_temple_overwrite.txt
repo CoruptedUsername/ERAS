@@ -369,6 +369,27 @@ building_bugged_light_temple_1 = {
 	
 #----------------------------------------------------
 
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_temple_cost_mult = 0.00
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_temple_cost_mult = 0.00
+		}
+	}
+#----------------------------------------------------
+
 	triggered_desc = {
 		trigger = {
 			exists = owner
@@ -734,6 +755,27 @@ building_bugged_light_temple_2 = {
 		text = job_bugged_luminosity_priest_effect_desc
 	}
 	
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_temple_cost_mult = 0.40
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_temple_cost_mult = 0.40
+		}
+	}
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -1124,6 +1166,40 @@ building_bugged_light_temple_3 = {
 		text = job_bugged_luminosity_priest_effect_desc
 	}
 	
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_temple_cost_mult = 0.60
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_temple_cost_mult = 0.60
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			OR = {
+				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			}
+		}
+		modifier = {
+			planet_districts_arcology_religious_cost_mult = 0.30
+		}
+	}
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -1533,6 +1609,53 @@ building_ukn_bugged_light_temple_4 = {
 		text = job_bugged_luminosity_priest_effect_desc
 	}
 	
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_temple_cost_mult = 0.80
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_temple_cost_mult = 0.80
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			OR = {
+				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			}
+		}
+		modifier = {
+			planet_districts_arcology_religious_cost_mult = 0.65
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			OR = {
+				UKN_USES_RW_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			}
+		}
+		modifier = {
+			planet_districts_rw_temple_cost_mult = 0.30
+		}
+	}
 #----------------------------------------------------
 
 	triggered_desc = {
@@ -1945,6 +2068,53 @@ building_ukn_bugged_light_temple_5 = {
 		text = job_bugged_luminosity_priest_effect_desc
 	}
 	
+#----------------------------------------------------
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_temple_cost_mult = 1.00
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+		}
+		modifier = {
+			planet_districts_ukn_hab_temple_cost_mult = 1.00
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			OR = {
+				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			}
+		}
+		modifier = {
+			planet_districts_arcology_religious_cost_mult = 1.00
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			OR = {
+				UKN_USES_RW_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			}
+		}
+		modifier = {
+			planet_districts_rw_temple_cost_mult = 0.65
+		}
+	}
 #----------------------------------------------------
 
 	triggered_desc = {

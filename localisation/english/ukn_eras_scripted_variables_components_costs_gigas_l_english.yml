@@ -113,11 +113,11 @@
 #---
 
 # Exotic Particles
- info_text_ukn_moon_t5_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£48.00§! " 
- info_text_ukn_moon_t6_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£48.00§! " 
- info_text_ukn_moon_t7_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£64.00§! " 
- info_text_ukn_moon_t8_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£64.00§! " 
- info_text_ukn_moon_t_p_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£64.00§! " 
+ info_text_ukn_moon_t5_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£48.00§! " 
+ info_text_ukn_moon_t6_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£48.00§! " 
+ info_text_ukn_moon_t7_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£64.00§! " 
+ info_text_ukn_moon_t8_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£64.00§! " 
+ info_text_ukn_moon_t_p_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£64.00§! " 
 #---
 
 ### UPKEEP ###---------------------------
@@ -156,12 +156,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_moon_t4_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£1.152§! " 
- info_text_ukn_moon_t5_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£1.600§! " 
- info_text_ukn_moon_t6_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£1.920§! " 
- info_text_ukn_moon_t7_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£2.560§! " 
- info_text_ukn_moon_t8_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£3.520§! " 
- info_text_ukn_moon_t_p_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£4.800§! " 
+ info_text_ukn_moon_t4_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£1.152§! " 
+ info_text_ukn_moon_t5_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£1.600§! " 
+ info_text_ukn_moon_t6_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£1.920§! " 
+ info_text_ukn_moon_t7_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£2.560§! " 
+ info_text_ukn_moon_t8_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£3.520§! " 
+ info_text_ukn_moon_t_p_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£4.800§! " 
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -305,11 +305,11 @@
 #---
 
 # Exotic Particles
- info_text_ukn_worldcraft_t5_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£64.50§! " 
- info_text_ukn_worldcraft_t6_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£64.50§! " 
- info_text_ukn_worldcraft_t7_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£86.00§! " 
- info_text_ukn_worldcraft_t8_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£86.00§! " 
- info_text_ukn_worldcraft_t_p_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£86.00§! " 
+ info_text_ukn_worldcraft_t5_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£64.50§! " 
+ info_text_ukn_worldcraft_t6_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£64.50§! " 
+ info_text_ukn_worldcraft_t7_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£86.00§! " 
+ info_text_ukn_worldcraft_t8_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£86.00§! " 
+ info_text_ukn_worldcraft_t_p_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£86.00§! " 
 #---
 
 ### UPKEEP ###---------------------------
@@ -348,11 +348,11 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_worldcraft_t5_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£2.150§! " 
- info_text_ukn_worldcraft_t6_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£2.580§! " 
- info_text_ukn_worldcraft_t7_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£3.440§! " 
- info_text_ukn_worldcraft_t8_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£4.730§! " 
- info_text_ukn_worldcraft_t_p_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£6.450§! " 
+ info_text_ukn_worldcraft_t5_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£2.150§! " 
+ info_text_ukn_worldcraft_t6_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£2.580§! " 
+ info_text_ukn_worldcraft_t7_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£3.440§! " 
+ info_text_ukn_worldcraft_t8_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£4.730§! " 
+ info_text_ukn_worldcraft_t_p_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£6.450§! " 
 #---
 # Negative Mass ('BIG' Upkeep)
  info_text_ukn_worldcraft_t9_aux_upkeep_ehof_sr_negative_mass:0 "§Y£ehof_sr_negative_mass£1.806§! " 
@@ -495,12 +495,12 @@
 #---
 
 # Exotic Particles
- info_text_ukn_planet_t4_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£64.00§! " 
- info_text_ukn_planet_t5_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£96.00§! " 
- info_text_ukn_planet_t6_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£96.00§! " 
- info_text_ukn_planet_t7_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£128.00§! " 
- info_text_ukn_planet_t8_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£128.00§! " 
- info_text_ukn_planet_t_p_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£128.00§! " 
+ info_text_ukn_planet_t4_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£64.00§! " 
+ info_text_ukn_planet_t5_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£96.00§! " 
+ info_text_ukn_planet_t6_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£96.00§! " 
+ info_text_ukn_planet_t7_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£128.00§! " 
+ info_text_ukn_planet_t8_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£128.00§! " 
+ info_text_ukn_planet_t_p_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£128.00§! " 
 #---
 
 ### UPKEEP ###---------------------------
@@ -539,12 +539,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_planet_t4_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£2.304§! " 
- info_text_ukn_planet_t5_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£3.200§! " 
- info_text_ukn_planet_t6_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£3.840§! " 
- info_text_ukn_planet_t7_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£5.120§! " 
- info_text_ukn_planet_t8_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£7.040§! " 
- info_text_ukn_planet_t_p_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£9.600§! " 
+ info_text_ukn_planet_t4_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£2.304§! " 
+ info_text_ukn_planet_t5_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£3.200§! " 
+ info_text_ukn_planet_t6_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£3.840§! " 
+ info_text_ukn_planet_t7_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£5.120§! " 
+ info_text_ukn_planet_t8_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£7.040§! " 
+ info_text_ukn_planet_t_p_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£9.600§! " 
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -688,11 +688,11 @@
 #---
 
 # Exotic Particles
- info_text_ukn_system_t5_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£160.50§! " 
- info_text_ukn_system_t6_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£160.50§! " 
- info_text_ukn_system_t7_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£214.00§! " 
- info_text_ukn_system_t8_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£214.00§! " 
- info_text_ukn_system_t_p_aux_shields_cost_volatile_motes:0 "§Y£volatile_motes£214.00§! " 
+ info_text_ukn_system_t5_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£160.50§! " 
+ info_text_ukn_system_t6_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£160.50§! " 
+ info_text_ukn_system_t7_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£214.00§! " 
+ info_text_ukn_system_t8_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£214.00§! " 
+ info_text_ukn_system_t_p_aux_shields_cost_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£214.00§! " 
 #---
 
 ### UPKEEP ###---------------------------
@@ -731,11 +731,11 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
- info_text_ukn_system_t5_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£5.350§! " 
- info_text_ukn_system_t6_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£6.420§! " 
- info_text_ukn_system_t7_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£8.560§! " 
- info_text_ukn_system_t8_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£11.770§! " 
- info_text_ukn_system_t_p_aux_upkeep_volatile_motes:0 "§Y£volatile_motes£16.050§! " 
+ info_text_ukn_system_t5_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£5.350§! " 
+ info_text_ukn_system_t6_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£6.420§! " 
+ info_text_ukn_system_t7_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£8.560§! " 
+ info_text_ukn_system_t8_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£11.770§! " 
+ info_text_ukn_system_t_p_aux_upkeep_ukn_exotic_particles:0 "§Y£ukn_exotic_particles£16.050§! " 
 #---
 
 # Negative Mass ('BIG' Upkeep)

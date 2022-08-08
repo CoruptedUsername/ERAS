@@ -4236,7 +4236,7 @@ building_chemical_plant = {
 			NOT = { has_building = building_chemical_plant }
 		}
 		modifier = {
-			job_ukn_exotic_particle_producer_add = 1000
+			job_ukn_exotic_particles_producer_add = 1000
 		}
 	}
 #[AI-GESTALT] ==Force Build
@@ -4250,7 +4250,7 @@ building_chemical_plant = {
 			NOT = { has_building = building_chemical_plant }
 		}
 		modifier = {
-			job_ukn_exotic_particle_production_drone_add = 1000
+			job_ukn_exotic_particles_production_drone_add = 1000
 		}
 	}
 #----------------------------------------------------
@@ -4395,7 +4395,7 @@ building_chemical_plant = {
 	}
 
 	prerequisites = {
-		"tech_mine_volatile_motes"
+		"tech_mine_ukn_exotic_particles"
 	}
 	
 	upgrades = {
@@ -4409,7 +4409,7 @@ building_chemical_plant = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
 		}
-		text = unlock_district_ukn_exotic_particle_factory
+		text = unlock_district_ukn_exotic_particles_factory
 	}
 
 	triggered_desc = {
@@ -4417,7 +4417,7 @@ building_chemical_plant = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
 		}
-		text = unlock_district_ukn_hab_exotic_particle_factory
+		text = unlock_district_ukn_hab_exotic_particles_factory
 	}
 
 	triggered_desc = {
@@ -4425,7 +4425,7 @@ building_chemical_plant = {
 			exists = owner
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 		}
-		text = unlock_district_ukn_arcology_exotic_particle_factory
+		text = unlock_district_ukn_arcology_exotic_particles_factory
 	}
 
 	triggered_desc = {
@@ -4433,7 +4433,7 @@ building_chemical_plant = {
 			exists = owner
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 		}
-		text = unlock_district_ukn_rw_exotic_particle_factory
+		text = unlock_district_ukn_rw_exotic_particles_factory
 	}
 
 	triggered_desc = {
@@ -4441,7 +4441,7 @@ building_chemical_plant = {
 			exists = owner
 			UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 		}
-		text = unlock_district_ukn_alderson_exotic_particle_factory
+		text = unlock_district_ukn_alderson_exotic_particles_factory
 	}
 #----------------------------------------------------
 
@@ -4451,15 +4451,15 @@ building_chemical_plant = {
 			exists = owner
 			owner = { is_regular_empire = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
-		text = job_ukn_exotic_particle_producer_minerals_effect_desc
+		text = job_ukn_exotic_particles_producer_minerals_effect_desc
 	}
 
 	triggered_desc = {
@@ -4467,15 +4467,15 @@ building_chemical_plant = {
 			exists = owner
 			owner = { is_gestalt = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
-		text = job_ukn_exotic_particle_production_drone_minerals_effect_desc
+		text = job_ukn_exotic_particles_production_drone_minerals_effect_desc
 	}
 
 #[POLYMERICS] Jobs
@@ -4483,18 +4483,18 @@ building_chemical_plant = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_alloys_effect_desc
+		text = job_ukn_exotic_particles_producer_alloys_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_alloys_effect_desc
+		text = job_ukn_exotic_particles_production_drone_alloys_effect_desc
 	}
 
 #[META-MATERIALS] Jobs
@@ -4502,18 +4502,18 @@ building_chemical_plant = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_meta_materials_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_meta_materials_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_ukn_meta_materials_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_meta_materials_effect_desc
 	}
 
 #[FEMTOMATTER] Jobs
@@ -4521,18 +4521,18 @@ building_chemical_plant = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_femtomatter_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_femtomatter_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_ukn_femtomatter_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_femtomatter_effect_desc
 	}
 
 #[CONDENSICS] Jobs
@@ -4540,18 +4540,18 @@ building_chemical_plant = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_condensics_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_condensics_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 			}
-		text = job_ukn_exotic_particle_production_drone_ukn_condensics_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_condensics_effect_desc
 	}
 
 #[QUASI-MATTER] Jobs
@@ -4559,18 +4559,18 @@ building_chemical_plant = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+			has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_quasi_matter_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_quasi_matter_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+			has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_ukn_quasi_matter_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_quasi_matter_effect_desc
 	}
 
 #[OSCILLYONS] Jobs
@@ -4578,23 +4578,23 @@ building_chemical_plant = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+			has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_causalitons_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_causalitons_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+			has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_ukn_causalitons_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_causalitons_effect_desc
 	}
 #----------------------------------------------------
 
 	ai_resource_production = {
-		volatile_motes = 3
+		ukn_exotic_particles = 3
 		trigger = {
 			always = yes
 		}
@@ -4898,7 +4898,7 @@ building_nanite_transmuter = {
 				}
 			}
 			rare_crystals = 2
-			volatile_motes = 2
+			ukn_exotic_particles = 2
 			exotic_gases = 2
 		}
 		upkeep = {
@@ -4913,7 +4913,7 @@ building_nanite_transmuter = {
 
 	ai_resource_production = {
 		rare_crystals = @b3_rare_upkeep
-		volatile_motes = @b3_rare_upkeep
+		ukn_exotic_particles = @b3_rare_upkeep
 		exotic_gases = @b3_rare_upkeep
 		trigger = {
 			always = yes

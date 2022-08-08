@@ -1040,7 +1040,7 @@ district_ukn_automachine_assembly = {
 				has_modifier = mod_ukn_condensics_based_automachine_production
 			}
 		}
-		text = job_ukn_automachine_assembler_alloys_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_alloys_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -1055,7 +1055,7 @@ district_ukn_automachine_assembly = {
 				has_modifier = mod_ukn_condensics_based_automachine_production
 			}
 		}
-		text = job_ukn_automachine_assembly_drone_alloys_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_alloys_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-META-MATERIALS] Jobs
@@ -1068,7 +1068,7 @@ district_ukn_automachine_assembly = {
 			}
 			has_modifier = mod_ukn_meta_materials_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_meta_materials_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_meta_materials_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -1079,7 +1079,7 @@ district_ukn_automachine_assembly = {
 			}
 			has_modifier = mod_ukn_meta_materials_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_meta_materials_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_meta_materials_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-FEMTOMATTER] Jobs
@@ -1092,7 +1092,7 @@ district_ukn_automachine_assembly = {
 			}
 			has_modifier = mod_ukn_femtomatter_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_femtomatter_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_femtomatter_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -1103,7 +1103,7 @@ district_ukn_automachine_assembly = {
 			}
 			has_modifier = mod_ukn_femtomatter_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_femtomatter_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_femtomatter_ukn_exotic_particles_effect_desc
 	}
 
 #[EXOTIC PARTICLES-CONDENSICS] Jobs
@@ -1116,7 +1116,7 @@ district_ukn_automachine_assembly = {
 			}
 			has_modifier = mod_ukn_condensics_based_automachine_production
 		}
-		text = job_ukn_automachine_assembler_ukn_condensics_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembler_ukn_condensics_ukn_exotic_particles_effect_desc
 	}
 	triggered_desc = {
 		trigger = {
@@ -1127,7 +1127,7 @@ district_ukn_automachine_assembly = {
 			}
 			has_modifier = mod_ukn_condensics_based_automachine_production
 		}
-		text = job_ukn_automachine_assembly_drone_ukn_condensics_volatile_motes_effect_desc
+		text = job_ukn_automachine_assembly_drone_ukn_condensics_ukn_exotic_particles_effect_desc
 	}
 #----------------------------------------------------
 
@@ -1147,8 +1147,8 @@ district_ukn_automachine_assembly = {
 
 
 
-district_ukn_exotic_particle_factory = {
-	base_buildtime = @district_ukn_exotic_particle_factory_4_build_time
+district_ukn_exotic_particles_factory = {
+	base_buildtime = @district_ukn_exotic_particles_factory_4_build_time
 	is_capped_by_modifier = no
 	exempt_from_ai_planet_specialization = yes
 
@@ -1171,7 +1171,7 @@ district_ukn_exotic_particle_factory = {
 			has_building = building_chemical_plant
 			has_building = building_ukn_particle_factory_grid_2
 			has_building = building_ukn_particle_factory_grid_3
-			has_district = district_ukn_exotic_particle_factory
+			has_district = district_ukn_exotic_particles_factory
 		}
 	}
 
@@ -1182,7 +1182,7 @@ district_ukn_exotic_particle_factory = {
 			has_building = building_chemical_plant
 			has_building = building_ukn_particle_factory_grid_2
 			has_building = building_ukn_particle_factory_grid_3
-			has_district = district_ukn_exotic_particle_factory
+			has_district = district_ukn_exotic_particles_factory
 		}
 	}
 
@@ -1200,7 +1200,7 @@ district_ukn_exotic_particle_factory = {
 
 	conversion_ratio = 0.5
 	convert_to = {
-		district_ukn_arcology_exotic_particle_factory
+		district_ukn_arcology_exotic_particles_factory
 	}
 
 	triggered_desc = {
@@ -1211,7 +1211,7 @@ district_ukn_exotic_particle_factory = {
 	}
 
 	resources = {
-		category = planet_districts_ukn_exotic_particle_factory
+		category = planet_districts_ukn_exotic_particles_factory
 #########
 # COSTS #
 #########
@@ -1222,7 +1222,7 @@ district_ukn_exotic_particle_factory = {
 					is_ai = no
 				}
 			}
-			consumer_goods = @district_ukn_exotic_particle_factory_4_cost_basic_consumer_goods
+			consumer_goods = @district_ukn_exotic_particles_factory_4_cost_basic_consumer_goods
 		}
 
 #[BASIC] MINERALS
@@ -1237,7 +1237,7 @@ district_ukn_exotic_particle_factory = {
 					}
 				}
 			}
-			minerals = @district_ukn_exotic_particle_factory_4_cost_basic_minerals
+			minerals = @district_ukn_exotic_particles_factory_4_cost_basic_minerals
 		}
 #[BASIC] META-MATERIALS
 		cost = {
@@ -1251,7 +1251,7 @@ district_ukn_exotic_particle_factory = {
 					}
 				}
 			}
-			ukn_meta_materials = @district_ukn_exotic_particle_factory_4_cost_basic_ukn_meta_materials
+			ukn_meta_materials = @district_ukn_exotic_particles_factory_4_cost_basic_ukn_meta_materials
 		}
 #[BASIC] META-MATERIALS
 		cost = {
@@ -1261,7 +1261,7 @@ district_ukn_exotic_particle_factory = {
 					has_policy_flag = policy_ukn_meta_materials_replace_planet_structure_basic_cost
 				}
 			}
-			ukn_meta_materials = @district_ukn_exotic_particle_factory_4_r_cost_basic_ukn_meta_materials
+			ukn_meta_materials = @district_ukn_exotic_particles_factory_4_r_cost_basic_ukn_meta_materials
 		}
 #[BASIC] QUASI-MATTER
 		cost = {
@@ -1271,7 +1271,7 @@ district_ukn_exotic_particle_factory = {
 					has_policy_flag = policy_ukn_quasi_matter_replace_planet_structure_basic_cost
 				}
 			}
-			ukn_quasi_matter = @district_ukn_exotic_particle_factory_4_r_cost_basic_ukn_quasi_matter
+			ukn_quasi_matter = @district_ukn_exotic_particles_factory_4_r_cost_basic_ukn_quasi_matter
 		}
 #[BASIC] OSCILLYONS
 		cost = {
@@ -1281,7 +1281,7 @@ district_ukn_exotic_particle_factory = {
 					has_policy_flag = policy_ukn_causalitons_replace_planet_structure_basic_cost
 				}
 			}
-			ukn_causalitons = @district_ukn_exotic_particle_factory_4_r_cost_basic_ukn_causalitons
+			ukn_causalitons = @district_ukn_exotic_particles_factory_4_r_cost_basic_ukn_causalitons
 		}
 		
 		
@@ -1298,8 +1298,8 @@ district_ukn_exotic_particle_factory = {
 					}
 				}
 			}
-			rare_crystals = @district_ukn_exotic_particle_factory_4_cost_advanced_rare_crystals
-			exotic_gases = @district_ukn_exotic_particle_factory_4_cost_advanced_exotic_gases
+			rare_crystals = @district_ukn_exotic_particles_factory_4_cost_advanced_rare_crystals
+			exotic_gases = @district_ukn_exotic_particles_factory_4_cost_advanced_exotic_gases
 		}
 #[ADVANCED] FEMTOMATTER
 		cost = {
@@ -1309,7 +1309,7 @@ district_ukn_exotic_particle_factory = {
 					has_policy_flag = policy_ukn_femtomatter_replace_planet_structure_advanced_cost
 				}
 			}
-			ukn_femtomatter = @district_ukn_exotic_particle_factory_4_r_cost_advanced_ukn_femtomatter
+			ukn_femtomatter = @district_ukn_exotic_particles_factory_4_r_cost_advanced_ukn_femtomatter
 		}
 #[ADVANCED] CONDENSICS
 		cost = {
@@ -1319,7 +1319,7 @@ district_ukn_exotic_particle_factory = {
 					has_policy_flag = policy_ukn_condensics_replace_planet_structure_advanced_cost
 				}
 			}
-			ukn_condensics = @district_ukn_exotic_particle_factory_4_r_cost_advanced_ukn_condensics
+			ukn_condensics = @district_ukn_exotic_particles_factory_4_r_cost_advanced_ukn_condensics
 		}
 #[ADVANCED] QUASI-MATTER
 		cost = {
@@ -1329,7 +1329,7 @@ district_ukn_exotic_particle_factory = {
 					has_policy_flag = policy_ukn_quasi_matter_replace_planet_structure_advanced_cost
 				}
 			}
-			ukn_quasi_matter = @district_ukn_exotic_particle_factory_4_r_cost_advanced_ukn_quasi_matter
+			ukn_quasi_matter = @district_ukn_exotic_particles_factory_4_r_cost_advanced_ukn_quasi_matter
 		}
 #[ADVANCED] OSCILLYONS
 		cost = {
@@ -1339,13 +1339,13 @@ district_ukn_exotic_particle_factory = {
 					has_policy_flag = policy_ukn_causalitons_replace_planet_structure_advanced_cost
 				}
 			}
-			ukn_causalitons = @district_ukn_exotic_particle_factory_4_r_cost_advanced_ukn_causalitons
+			ukn_causalitons = @district_ukn_exotic_particles_factory_4_r_cost_advanced_ukn_causalitons
 		}
 ##########
 # UPKEEP #
 ##########
 		upkeep = {
-			energy = @district_ukn_exotic_particle_factory_4_upkeep_energy
+			energy = @district_ukn_exotic_particles_factory_4_upkeep_energy
 		}
 	}
 
@@ -1359,7 +1359,7 @@ district_ukn_exotic_particle_factory = {
 			owner = { is_regular_empire = yes }
 		}
 		modifier = {
-			job_ukn_exotic_particle_producer_add = 1
+			job_ukn_exotic_particles_producer_add = 1
 		}
 	}
 
@@ -1369,7 +1369,7 @@ district_ukn_exotic_particle_factory = {
 			owner = { is_gestalt = yes }
 		}
 		modifier = {
-			job_ukn_exotic_particle_production_drone_add = 1
+			job_ukn_exotic_particles_production_drone_add = 1
 		}
 	}
 #----------------------------------------------------
@@ -1380,15 +1380,15 @@ district_ukn_exotic_particle_factory = {
 			exists = owner
 			owner = { is_regular_empire = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
-		text = job_ukn_exotic_particle_producer_minerals_effect_desc
+		text = job_ukn_exotic_particles_producer_minerals_effect_desc
 	}
 
 	triggered_desc = {
@@ -1396,15 +1396,15 @@ district_ukn_exotic_particle_factory = {
 			exists = owner
 			owner = { is_gestalt = yes }
 			NOR = {
-				has_modifier = mod_ukn_alloys_based_exotic_particle_production
-				has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
-				has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
-				has_modifier = mod_ukn_condensics_based_exotic_particle_production
-				has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
-				has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+				has_modifier = mod_ukn_alloys_based_exotic_particles_production
+				has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
+				has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
+				has_modifier = mod_ukn_condensics_based_exotic_particles_production
+				has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
+				has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 			}
 		}
-		text = job_ukn_exotic_particle_production_drone_minerals_effect_desc
+		text = job_ukn_exotic_particles_production_drone_minerals_effect_desc
 	}
 
 #[POLYMERICS] Jobs
@@ -1412,18 +1412,18 @@ district_ukn_exotic_particle_factory = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_alloys_effect_desc
+		text = job_ukn_exotic_particles_producer_alloys_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_alloys_based_exotic_particle_production
+			has_modifier = mod_ukn_alloys_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_alloys_effect_desc
+		text = job_ukn_exotic_particles_production_drone_alloys_effect_desc
 	}
 
 #[META-MATERIALS] Jobs
@@ -1431,18 +1431,18 @@ district_ukn_exotic_particle_factory = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_meta_materials_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_meta_materials_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_meta_materials_based_exotic_particle_production
+			has_modifier = mod_ukn_meta_materials_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_ukn_meta_materials_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_meta_materials_effect_desc
 	}
 
 #[FEMTOMATTER] Jobs
@@ -1450,18 +1450,18 @@ district_ukn_exotic_particle_factory = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_femtomatter_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_femtomatter_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_femtomatter_based_exotic_particle_production
+			has_modifier = mod_ukn_femtomatter_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_ukn_femtomatter_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_femtomatter_effect_desc
 	}
 
 #[CONDENSICS] Jobs
@@ -1469,18 +1469,18 @@ district_ukn_exotic_particle_factory = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_condensics_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_condensics_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_condensics_based_exotic_particle_production
+			has_modifier = mod_ukn_condensics_based_exotic_particles_production
 			}
-		text = job_ukn_exotic_particle_production_drone_ukn_condensics_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_condensics_effect_desc
 	}
 
 #[QUASI-MATTER] Jobs
@@ -1488,18 +1488,18 @@ district_ukn_exotic_particle_factory = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+			has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_quasi_matter_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_quasi_matter_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_quasi_matter_based_exotic_particle_production
+			has_modifier = mod_ukn_quasi_matter_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_ukn_quasi_matter_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_quasi_matter_effect_desc
 	}
 
 #[OSCILLYONS] Jobs
@@ -1507,23 +1507,23 @@ district_ukn_exotic_particle_factory = {
 		trigger = {
 			exists = owner
 			owner = { is_regular_empire = yes }
-			has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+			has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_producer_ukn_causalitons_effect_desc
+		text = job_ukn_exotic_particles_producer_ukn_causalitons_effect_desc
 	}
 
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = { is_gestalt = yes }
-			has_modifier = mod_ukn_causalitons_based_exotic_particle_production
+			has_modifier = mod_ukn_causalitons_based_exotic_particles_production
 		}
-		text = job_ukn_exotic_particle_production_drone_ukn_causalitons_effect_desc
+		text = job_ukn_exotic_particles_production_drone_ukn_causalitons_effect_desc
 	}
 #----------------------------------------------------
 
 	ai_resource_production = {
-		volatile_motes = 5
+		ukn_exotic_particles = 5
 		trigger = {
 			always = yes
 		}

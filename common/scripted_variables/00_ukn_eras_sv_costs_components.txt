@@ -118,11 +118,11 @@
 #---
 
 # Exotic Particles
-@ukn_pointdefense_t5_shields_cost_volatile_motes = 0.38
-@ukn_pointdefense_t6_shields_cost_volatile_motes = 0.38
-@ukn_pointdefense_t7_shields_cost_volatile_motes = 0.50
-@ukn_pointdefense_t8_shields_cost_volatile_motes = 0.50
-@ukn_pointdefense_t_p_shields_cost_volatile_motes = 0.50
+@ukn_pointdefense_t5_shields_cost_ukn_exotic_particles = 0.38
+@ukn_pointdefense_t6_shields_cost_ukn_exotic_particles = 0.38
+@ukn_pointdefense_t7_shields_cost_ukn_exotic_particles = 0.50
+@ukn_pointdefense_t8_shields_cost_ukn_exotic_particles = 0.50
+@ukn_pointdefense_t_p_shields_cost_ukn_exotic_particles = 0.50
 #---
 
 ### UPKEEP ###---------------------------
@@ -161,12 +161,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_pointdefense_t4_component_upkeep_volatile_motes = 0.009
-@ukn_pointdefense_t5_component_upkeep_volatile_motes = 0.012
-@ukn_pointdefense_t6_component_upkeep_volatile_motes = 0.015
-@ukn_pointdefense_t7_component_upkeep_volatile_motes = 0.020
-@ukn_pointdefense_t8_component_upkeep_volatile_motes = 0.027
-@ukn_pointdefense_t_p_component_upkeep_volatile_motes = 0.037
+@ukn_pointdefense_t4_component_upkeep_ukn_exotic_particles = 0.009
+@ukn_pointdefense_t5_component_upkeep_ukn_exotic_particles = 0.012
+@ukn_pointdefense_t6_component_upkeep_ukn_exotic_particles = 0.015
+@ukn_pointdefense_t7_component_upkeep_ukn_exotic_particles = 0.020
+@ukn_pointdefense_t8_component_upkeep_ukn_exotic_particles = 0.027
+@ukn_pointdefense_t_p_component_upkeep_ukn_exotic_particles = 0.037
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -317,11 +317,11 @@
 #---
 
 # Exotic Particles
-@ukn_small_t5_shields_cost_volatile_motes = 0.75
-@ukn_small_t6_shields_cost_volatile_motes = 0.75
-@ukn_small_t7_shields_cost_volatile_motes = 1.00
-@ukn_small_t8_shields_cost_volatile_motes = 1.00
-@ukn_small_t_p_shields_cost_volatile_motes = 1.00
+@ukn_small_t5_shields_cost_ukn_exotic_particles = 0.75
+@ukn_small_t6_shields_cost_ukn_exotic_particles = 0.75
+@ukn_small_t7_shields_cost_ukn_exotic_particles = 1.00
+@ukn_small_t8_shields_cost_ukn_exotic_particles = 1.00
+@ukn_small_t_p_shields_cost_ukn_exotic_particles = 1.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -360,12 +360,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_small_t4_component_upkeep_volatile_motes = 0.018
-@ukn_small_t5_component_upkeep_volatile_motes = 0.025
-@ukn_small_t6_component_upkeep_volatile_motes = 0.030
-@ukn_small_t7_component_upkeep_volatile_motes = 0.040
-@ukn_small_t8_component_upkeep_volatile_motes = 0.055
-@ukn_small_t_p_component_upkeep_volatile_motes = 0.075
+@ukn_small_t4_component_upkeep_ukn_exotic_particles = 0.018
+@ukn_small_t5_component_upkeep_ukn_exotic_particles = 0.025
+@ukn_small_t6_component_upkeep_ukn_exotic_particles = 0.030
+@ukn_small_t7_component_upkeep_ukn_exotic_particles = 0.040
+@ukn_small_t8_component_upkeep_ukn_exotic_particles = 0.055
+@ukn_small_t_p_component_upkeep_ukn_exotic_particles = 0.075
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -516,11 +516,11 @@
 #---
 
 # Exotic Particles
-@ukn_medium_t5_shields_cost_volatile_motes = 1.50
-@ukn_medium_t6_shields_cost_volatile_motes = 1.50
-@ukn_medium_t7_shields_cost_volatile_motes = 2.00
-@ukn_medium_t8_shields_cost_volatile_motes = 2.00
-@ukn_medium_t_p_shields_cost_volatile_motes = 2.00
+@ukn_medium_t5_shields_cost_ukn_exotic_particles = 1.50
+@ukn_medium_t6_shields_cost_ukn_exotic_particles = 1.50
+@ukn_medium_t7_shields_cost_ukn_exotic_particles = 2.00
+@ukn_medium_t8_shields_cost_ukn_exotic_particles = 2.00
+@ukn_medium_t_p_shields_cost_ukn_exotic_particles = 2.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -559,12 +559,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_medium_t4_component_upkeep_volatile_motes = 0.036
-@ukn_medium_t5_component_upkeep_volatile_motes = 0.050
-@ukn_medium_t6_component_upkeep_volatile_motes = 0.060
-@ukn_medium_t7_component_upkeep_volatile_motes = 0.080
-@ukn_medium_t8_component_upkeep_volatile_motes = 0.110
-@ukn_medium_t_p_component_upkeep_volatile_motes = 0.150
+@ukn_medium_t4_component_upkeep_ukn_exotic_particles = 0.036
+@ukn_medium_t5_component_upkeep_ukn_exotic_particles = 0.050
+@ukn_medium_t6_component_upkeep_ukn_exotic_particles = 0.060
+@ukn_medium_t7_component_upkeep_ukn_exotic_particles = 0.080
+@ukn_medium_t8_component_upkeep_ukn_exotic_particles = 0.110
+@ukn_medium_t_p_component_upkeep_ukn_exotic_particles = 0.150
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -715,11 +715,11 @@
 #---
 
 # Exotic Particles
-@ukn_large_t5_shields_cost_volatile_motes = 3.00
-@ukn_large_t6_shields_cost_volatile_motes = 3.00
-@ukn_large_t7_shields_cost_volatile_motes = 4.00
-@ukn_large_t8_shields_cost_volatile_motes = 4.00
-@ukn_large_t_p_shields_cost_volatile_motes = 4.00
+@ukn_large_t5_shields_cost_ukn_exotic_particles = 3.00
+@ukn_large_t6_shields_cost_ukn_exotic_particles = 3.00
+@ukn_large_t7_shields_cost_ukn_exotic_particles = 4.00
+@ukn_large_t8_shields_cost_ukn_exotic_particles = 4.00
+@ukn_large_t_p_shields_cost_ukn_exotic_particles = 4.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -758,12 +758,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_large_t4_component_upkeep_volatile_motes = 0.072
-@ukn_large_t5_component_upkeep_volatile_motes = 0.100
-@ukn_large_t6_component_upkeep_volatile_motes = 0.120
-@ukn_large_t7_component_upkeep_volatile_motes = 0.160
-@ukn_large_t8_component_upkeep_volatile_motes = 0.220
-@ukn_large_t_p_component_upkeep_volatile_motes = 0.300
+@ukn_large_t4_component_upkeep_ukn_exotic_particles = 0.072
+@ukn_large_t5_component_upkeep_ukn_exotic_particles = 0.100
+@ukn_large_t6_component_upkeep_ukn_exotic_particles = 0.120
+@ukn_large_t7_component_upkeep_ukn_exotic_particles = 0.160
+@ukn_large_t8_component_upkeep_ukn_exotic_particles = 0.220
+@ukn_large_t_p_component_upkeep_ukn_exotic_particles = 0.300
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -914,11 +914,11 @@
 #---
 
 # Exotic Particles
-@ukn_big_t5_shields_cost_volatile_motes = 3.75
-@ukn_big_t6_shields_cost_volatile_motes = 3.75
-@ukn_big_t7_shields_cost_volatile_motes = 5.00
-@ukn_big_t8_shields_cost_volatile_motes = 5.00
-@ukn_big_t_p_shields_cost_volatile_motes = 5.00
+@ukn_big_t5_shields_cost_ukn_exotic_particles = 3.75
+@ukn_big_t6_shields_cost_ukn_exotic_particles = 3.75
+@ukn_big_t7_shields_cost_ukn_exotic_particles = 5.00
+@ukn_big_t8_shields_cost_ukn_exotic_particles = 5.00
+@ukn_big_t_p_shields_cost_ukn_exotic_particles = 5.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -957,12 +957,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_big_t4_component_upkeep_volatile_motes = 0.090
-@ukn_big_t5_component_upkeep_volatile_motes = 0.125
-@ukn_big_t6_component_upkeep_volatile_motes = 0.150
-@ukn_big_t7_component_upkeep_volatile_motes = 0.200
-@ukn_big_t8_component_upkeep_volatile_motes = 0.275
-@ukn_big_t_p_component_upkeep_volatile_motes = 0.375
+@ukn_big_t4_component_upkeep_ukn_exotic_particles = 0.090
+@ukn_big_t5_component_upkeep_ukn_exotic_particles = 0.125
+@ukn_big_t6_component_upkeep_ukn_exotic_particles = 0.150
+@ukn_big_t7_component_upkeep_ukn_exotic_particles = 0.200
+@ukn_big_t8_component_upkeep_ukn_exotic_particles = 0.275
+@ukn_big_t_p_component_upkeep_ukn_exotic_particles = 0.375
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -1113,11 +1113,11 @@
 #---
 
 # Exotic Particles
-@ukn_extralarge_t5_shields_cost_volatile_motes = 6.00
-@ukn_extralarge_t6_shields_cost_volatile_motes = 6.00
-@ukn_extralarge_t7_shields_cost_volatile_motes = 8.00
-@ukn_extralarge_t8_shields_cost_volatile_motes = 8.00
-@ukn_extralarge_t_p_shields_cost_volatile_motes = 8.00
+@ukn_extralarge_t5_shields_cost_ukn_exotic_particles = 6.00
+@ukn_extralarge_t6_shields_cost_ukn_exotic_particles = 6.00
+@ukn_extralarge_t7_shields_cost_ukn_exotic_particles = 8.00
+@ukn_extralarge_t8_shields_cost_ukn_exotic_particles = 8.00
+@ukn_extralarge_t_p_shields_cost_ukn_exotic_particles = 8.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -1156,12 +1156,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_extralarge_t4_component_upkeep_volatile_motes = 0.144
-@ukn_extralarge_t5_component_upkeep_volatile_motes = 0.200
-@ukn_extralarge_t6_component_upkeep_volatile_motes = 0.240
-@ukn_extralarge_t7_component_upkeep_volatile_motes = 0.320
-@ukn_extralarge_t8_component_upkeep_volatile_motes = 0.440
-@ukn_extralarge_t_p_component_upkeep_volatile_motes = 0.600
+@ukn_extralarge_t4_component_upkeep_ukn_exotic_particles = 0.144
+@ukn_extralarge_t5_component_upkeep_ukn_exotic_particles = 0.200
+@ukn_extralarge_t6_component_upkeep_ukn_exotic_particles = 0.240
+@ukn_extralarge_t7_component_upkeep_ukn_exotic_particles = 0.320
+@ukn_extralarge_t8_component_upkeep_ukn_exotic_particles = 0.440
+@ukn_extralarge_t_p_component_upkeep_ukn_exotic_particles = 0.600
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -1312,11 +1312,11 @@
 #---
 
 # Exotic Particles
-@ukn_titanic_t5_shields_cost_volatile_motes = 12.00
-@ukn_titanic_t6_shields_cost_volatile_motes = 12.00
-@ukn_titanic_t7_shields_cost_volatile_motes = 16.00
-@ukn_titanic_t8_shields_cost_volatile_motes = 16.00
-@ukn_titanic_t_p_shields_cost_volatile_motes = 16.00
+@ukn_titanic_t5_shields_cost_ukn_exotic_particles = 12.00
+@ukn_titanic_t6_shields_cost_ukn_exotic_particles = 12.00
+@ukn_titanic_t7_shields_cost_ukn_exotic_particles = 16.00
+@ukn_titanic_t8_shields_cost_ukn_exotic_particles = 16.00
+@ukn_titanic_t_p_shields_cost_ukn_exotic_particles = 16.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -1355,12 +1355,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_titanic_t4_component_upkeep_volatile_motes = 0.288
-@ukn_titanic_t5_component_upkeep_volatile_motes = 0.400
-@ukn_titanic_t6_component_upkeep_volatile_motes = 0.480
-@ukn_titanic_t7_component_upkeep_volatile_motes = 0.640
-@ukn_titanic_t8_component_upkeep_volatile_motes = 0.880
-@ukn_titanic_t_p_component_upkeep_volatile_motes = 1.200
+@ukn_titanic_t4_component_upkeep_ukn_exotic_particles = 0.288
+@ukn_titanic_t5_component_upkeep_ukn_exotic_particles = 0.400
+@ukn_titanic_t6_component_upkeep_ukn_exotic_particles = 0.480
+@ukn_titanic_t7_component_upkeep_ukn_exotic_particles = 0.640
+@ukn_titanic_t8_component_upkeep_ukn_exotic_particles = 0.880
+@ukn_titanic_t_p_component_upkeep_ukn_exotic_particles = 1.200
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -1511,12 +1511,12 @@
 #---
 
 # Exotic Particles
-@ukn_esoteric_t4_shields_cost_volatile_motes = 16.00
-@ukn_esoteric_t5_shields_cost_volatile_motes = 24.00
-@ukn_esoteric_t6_shields_cost_volatile_motes = 24.00
-@ukn_esoteric_t7_shields_cost_volatile_motes = 32.00
-@ukn_esoteric_t8_shields_cost_volatile_motes = 32.00
-@ukn_esoteric_t_p_shields_cost_volatile_motes = 32.00
+@ukn_esoteric_t4_shields_cost_ukn_exotic_particles = 16.00
+@ukn_esoteric_t5_shields_cost_ukn_exotic_particles = 24.00
+@ukn_esoteric_t6_shields_cost_ukn_exotic_particles = 24.00
+@ukn_esoteric_t7_shields_cost_ukn_exotic_particles = 32.00
+@ukn_esoteric_t8_shields_cost_ukn_exotic_particles = 32.00
+@ukn_esoteric_t_p_shields_cost_ukn_exotic_particles = 32.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -1555,11 +1555,11 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_esoteric_t5_component_upkeep_volatile_motes = 0.800
-@ukn_esoteric_t6_component_upkeep_volatile_motes = 0.960
-@ukn_esoteric_t7_component_upkeep_volatile_motes = 1.280
-@ukn_esoteric_t8_component_upkeep_volatile_motes = 1.760
-@ukn_esoteric_t_p_component_upkeep_volatile_motes = 2.400
+@ukn_esoteric_t5_component_upkeep_ukn_exotic_particles = 0.800
+@ukn_esoteric_t6_component_upkeep_ukn_exotic_particles = 0.960
+@ukn_esoteric_t7_component_upkeep_ukn_exotic_particles = 1.280
+@ukn_esoteric_t8_component_upkeep_ukn_exotic_particles = 1.760
+@ukn_esoteric_t_p_component_upkeep_ukn_exotic_particles = 2.400
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -1711,11 +1711,11 @@
 #---
 
 # Exotic Particles
-@ukn_colossal_t5_shields_cost_volatile_motes = 48.00
-@ukn_colossal_t6_shields_cost_volatile_motes = 48.00
-@ukn_colossal_t7_shields_cost_volatile_motes = 64.00
-@ukn_colossal_t8_shields_cost_volatile_motes = 64.00
-@ukn_colossal_t_p_shields_cost_volatile_motes = 64.00
+@ukn_colossal_t5_shields_cost_ukn_exotic_particles = 48.00
+@ukn_colossal_t6_shields_cost_ukn_exotic_particles = 48.00
+@ukn_colossal_t7_shields_cost_ukn_exotic_particles = 64.00
+@ukn_colossal_t8_shields_cost_ukn_exotic_particles = 64.00
+@ukn_colossal_t_p_shields_cost_ukn_exotic_particles = 64.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -1754,12 +1754,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_colossal_t4_component_upkeep_volatile_motes = 1.152
-@ukn_colossal_t5_component_upkeep_volatile_motes = 1.600
-@ukn_colossal_t6_component_upkeep_volatile_motes = 1.920
-@ukn_colossal_t7_component_upkeep_volatile_motes = 2.560
-@ukn_colossal_t8_component_upkeep_volatile_motes = 3.520
-@ukn_colossal_t_p_component_upkeep_volatile_motes = 4.800
+@ukn_colossal_t4_component_upkeep_ukn_exotic_particles = 1.152
+@ukn_colossal_t5_component_upkeep_ukn_exotic_particles = 1.600
+@ukn_colossal_t6_component_upkeep_ukn_exotic_particles = 1.920
+@ukn_colossal_t7_component_upkeep_ukn_exotic_particles = 2.560
+@ukn_colossal_t8_component_upkeep_ukn_exotic_particles = 3.520
+@ukn_colossal_t_p_component_upkeep_ukn_exotic_particles = 4.800
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -1914,11 +1914,11 @@
 #---
 
 # Exotic Particles
-@ukn_regularship_t5_shields_cost_volatile_motes = 0.38
-@ukn_regularship_t6_shields_cost_volatile_motes = 0.38
-@ukn_regularship_t7_shields_cost_volatile_motes = 0.50
-@ukn_regularship_t8_shields_cost_volatile_motes = 0.50
-@ukn_regularship_t_p_shields_cost_volatile_motes = 0.50
+@ukn_regularship_t5_shields_cost_ukn_exotic_particles = 0.38
+@ukn_regularship_t6_shields_cost_ukn_exotic_particles = 0.38
+@ukn_regularship_t7_shields_cost_ukn_exotic_particles = 0.50
+@ukn_regularship_t8_shields_cost_ukn_exotic_particles = 0.50
+@ukn_regularship_t_p_shields_cost_ukn_exotic_particles = 0.50
 #---
 
 ### UPKEEP ###---------------------------
@@ -1957,12 +1957,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_regularship_t4_sensors_upkeep_volatile_motes = 0.009
-@ukn_regularship_t5_sensors_upkeep_volatile_motes = 0.012
-@ukn_regularship_t6_sensors_upkeep_volatile_motes = 0.015
-@ukn_regularship_t7_sensors_upkeep_volatile_motes = 0.020
-@ukn_regularship_t8_sensors_upkeep_volatile_motes = 0.027
-@ukn_regularship_t_p_sensors_upkeep_volatile_motes = 0.037
+@ukn_regularship_t4_sensors_upkeep_ukn_exotic_particles = 0.009
+@ukn_regularship_t5_sensors_upkeep_ukn_exotic_particles = 0.012
+@ukn_regularship_t6_sensors_upkeep_ukn_exotic_particles = 0.015
+@ukn_regularship_t7_sensors_upkeep_ukn_exotic_particles = 0.020
+@ukn_regularship_t8_sensors_upkeep_ukn_exotic_particles = 0.027
+@ukn_regularship_t_p_sensors_upkeep_ukn_exotic_particles = 0.037
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -2117,11 +2117,11 @@
 #---
 
 # Exotic Particles
-@ukn_regularship_t5_shields_cost_volatile_motes = 0.38
-@ukn_regularship_t6_shields_cost_volatile_motes = 0.38
-@ukn_regularship_t7_shields_cost_volatile_motes = 0.50
-@ukn_regularship_t8_shields_cost_volatile_motes = 0.50
-@ukn_regularship_t_p_shields_cost_volatile_motes = 0.50
+@ukn_regularship_t5_shields_cost_ukn_exotic_particles = 0.38
+@ukn_regularship_t6_shields_cost_ukn_exotic_particles = 0.38
+@ukn_regularship_t7_shields_cost_ukn_exotic_particles = 0.50
+@ukn_regularship_t8_shields_cost_ukn_exotic_particles = 0.50
+@ukn_regularship_t_p_shields_cost_ukn_exotic_particles = 0.50
 #---
 
 ### UPKEEP ###---------------------------
@@ -2160,12 +2160,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_regularship_t4_drives_upkeep_volatile_motes = 0.009
-@ukn_regularship_t5_drives_upkeep_volatile_motes = 0.012
-@ukn_regularship_t6_drives_upkeep_volatile_motes = 0.015
-@ukn_regularship_t7_drives_upkeep_volatile_motes = 0.020
-@ukn_regularship_t8_drives_upkeep_volatile_motes = 0.027
-@ukn_regularship_t_p_drives_upkeep_volatile_motes = 0.037
+@ukn_regularship_t4_drives_upkeep_ukn_exotic_particles = 0.009
+@ukn_regularship_t5_drives_upkeep_ukn_exotic_particles = 0.012
+@ukn_regularship_t6_drives_upkeep_ukn_exotic_particles = 0.015
+@ukn_regularship_t7_drives_upkeep_ukn_exotic_particles = 0.020
+@ukn_regularship_t8_drives_upkeep_ukn_exotic_particles = 0.027
+@ukn_regularship_t_p_drives_upkeep_ukn_exotic_particles = 0.037
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -2314,12 +2314,12 @@
 #---
 
 # Exotic Particles
-@ukn_corvette_t4_shields_cost_volatile_motes = 0.50
-@ukn_corvette_t5_shields_cost_volatile_motes = 0.75
-@ukn_corvette_t6_shields_cost_volatile_motes = 0.75
-@ukn_corvette_t7_shields_cost_volatile_motes = 1.00
-@ukn_corvette_t8_shields_cost_volatile_motes = 1.00
-@ukn_corvette_t_p_shields_cost_volatile_motes = 1.00
+@ukn_corvette_t4_shields_cost_ukn_exotic_particles = 0.50
+@ukn_corvette_t5_shields_cost_ukn_exotic_particles = 0.75
+@ukn_corvette_t6_shields_cost_ukn_exotic_particles = 0.75
+@ukn_corvette_t7_shields_cost_ukn_exotic_particles = 1.00
+@ukn_corvette_t8_shields_cost_ukn_exotic_particles = 1.00
+@ukn_corvette_t_p_shields_cost_ukn_exotic_particles = 1.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -2358,12 +2358,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_corvette_t4_reactor_upkeep_volatile_motes = 0.018
-@ukn_corvette_t5_reactor_upkeep_volatile_motes = 0.025
-@ukn_corvette_t6_reactor_upkeep_volatile_motes = 0.030
-@ukn_corvette_t7_reactor_upkeep_volatile_motes = 0.040
-@ukn_corvette_t8_reactor_upkeep_volatile_motes = 0.055
-@ukn_corvette_t_p_reactor_upkeep_volatile_motes = 0.075
+@ukn_corvette_t4_reactor_upkeep_ukn_exotic_particles = 0.018
+@ukn_corvette_t5_reactor_upkeep_ukn_exotic_particles = 0.025
+@ukn_corvette_t6_reactor_upkeep_ukn_exotic_particles = 0.030
+@ukn_corvette_t7_reactor_upkeep_ukn_exotic_particles = 0.040
+@ukn_corvette_t8_reactor_upkeep_ukn_exotic_particles = 0.055
+@ukn_corvette_t_p_reactor_upkeep_ukn_exotic_particles = 0.075
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -2508,12 +2508,12 @@
 #---
 
 # Exotic Particles
-@ukn_destroyer_t4_shields_cost_volatile_motes = 1.00
-@ukn_destroyer_t5_shields_cost_volatile_motes = 1.50
-@ukn_destroyer_t6_shields_cost_volatile_motes = 1.50
-@ukn_destroyer_t7_shields_cost_volatile_motes = 2.00
-@ukn_destroyer_t8_shields_cost_volatile_motes = 2.00
-@ukn_destroyer_t_p_shields_cost_volatile_motes = 2.00
+@ukn_destroyer_t4_shields_cost_ukn_exotic_particles = 1.00
+@ukn_destroyer_t5_shields_cost_ukn_exotic_particles = 1.50
+@ukn_destroyer_t6_shields_cost_ukn_exotic_particles = 1.50
+@ukn_destroyer_t7_shields_cost_ukn_exotic_particles = 2.00
+@ukn_destroyer_t8_shields_cost_ukn_exotic_particles = 2.00
+@ukn_destroyer_t_p_shields_cost_ukn_exotic_particles = 2.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -2552,12 +2552,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_destroyer_t4_reactor_upkeep_volatile_motes = 0.036
-@ukn_destroyer_t5_reactor_upkeep_volatile_motes = 0.050
-@ukn_destroyer_t6_reactor_upkeep_volatile_motes = 0.060
-@ukn_destroyer_t7_reactor_upkeep_volatile_motes = 0.080
-@ukn_destroyer_t8_reactor_upkeep_volatile_motes = 0.110
-@ukn_destroyer_t_p_reactor_upkeep_volatile_motes = 0.150
+@ukn_destroyer_t4_reactor_upkeep_ukn_exotic_particles = 0.036
+@ukn_destroyer_t5_reactor_upkeep_ukn_exotic_particles = 0.050
+@ukn_destroyer_t6_reactor_upkeep_ukn_exotic_particles = 0.060
+@ukn_destroyer_t7_reactor_upkeep_ukn_exotic_particles = 0.080
+@ukn_destroyer_t8_reactor_upkeep_ukn_exotic_particles = 0.110
+@ukn_destroyer_t_p_reactor_upkeep_ukn_exotic_particles = 0.150
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -2702,12 +2702,12 @@
 #---
 
 # Exotic Particles
-@ukn_cruiser_t4_shields_cost_volatile_motes = 2.00
-@ukn_cruiser_t5_shields_cost_volatile_motes = 3.00
-@ukn_cruiser_t6_shields_cost_volatile_motes = 3.00
-@ukn_cruiser_t7_shields_cost_volatile_motes = 4.00
-@ukn_cruiser_t8_shields_cost_volatile_motes = 4.00
-@ukn_cruiser_t_p_shields_cost_volatile_motes = 4.00
+@ukn_cruiser_t4_shields_cost_ukn_exotic_particles = 2.00
+@ukn_cruiser_t5_shields_cost_ukn_exotic_particles = 3.00
+@ukn_cruiser_t6_shields_cost_ukn_exotic_particles = 3.00
+@ukn_cruiser_t7_shields_cost_ukn_exotic_particles = 4.00
+@ukn_cruiser_t8_shields_cost_ukn_exotic_particles = 4.00
+@ukn_cruiser_t_p_shields_cost_ukn_exotic_particles = 4.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -2746,12 +2746,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_cruiser_t4_reactor_upkeep_volatile_motes = 0.072
-@ukn_cruiser_t5_reactor_upkeep_volatile_motes = 0.100
-@ukn_cruiser_t6_reactor_upkeep_volatile_motes = 0.120
-@ukn_cruiser_t7_reactor_upkeep_volatile_motes = 0.160
-@ukn_cruiser_t8_reactor_upkeep_volatile_motes = 0.220
-@ukn_cruiser_t_p_reactor_upkeep_volatile_motes = 0.300
+@ukn_cruiser_t4_reactor_upkeep_ukn_exotic_particles = 0.072
+@ukn_cruiser_t5_reactor_upkeep_ukn_exotic_particles = 0.100
+@ukn_cruiser_t6_reactor_upkeep_ukn_exotic_particles = 0.120
+@ukn_cruiser_t7_reactor_upkeep_ukn_exotic_particles = 0.160
+@ukn_cruiser_t8_reactor_upkeep_ukn_exotic_particles = 0.220
+@ukn_cruiser_t_p_reactor_upkeep_ukn_exotic_particles = 0.300
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -2896,12 +2896,12 @@
 #---
 
 # Exotic Particles
-@ukn_battleship_t4_shields_cost_volatile_motes = 4.00
-@ukn_battleship_t5_shields_cost_volatile_motes = 6.00
-@ukn_battleship_t6_shields_cost_volatile_motes = 6.00
-@ukn_battleship_t7_shields_cost_volatile_motes = 8.00
-@ukn_battleship_t8_shields_cost_volatile_motes = 8.00
-@ukn_battleship_t_p_shields_cost_volatile_motes = 8.00
+@ukn_battleship_t4_shields_cost_ukn_exotic_particles = 4.00
+@ukn_battleship_t5_shields_cost_ukn_exotic_particles = 6.00
+@ukn_battleship_t6_shields_cost_ukn_exotic_particles = 6.00
+@ukn_battleship_t7_shields_cost_ukn_exotic_particles = 8.00
+@ukn_battleship_t8_shields_cost_ukn_exotic_particles = 8.00
+@ukn_battleship_t_p_shields_cost_ukn_exotic_particles = 8.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -2940,12 +2940,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_battleship_t4_reactor_upkeep_volatile_motes = 0.144
-@ukn_battleship_t5_reactor_upkeep_volatile_motes = 0.200
-@ukn_battleship_t6_reactor_upkeep_volatile_motes = 0.240
-@ukn_battleship_t7_reactor_upkeep_volatile_motes = 0.320
-@ukn_battleship_t8_reactor_upkeep_volatile_motes = 0.440
-@ukn_battleship_t_p_reactor_upkeep_volatile_motes = 0.600
+@ukn_battleship_t4_reactor_upkeep_ukn_exotic_particles = 0.144
+@ukn_battleship_t5_reactor_upkeep_ukn_exotic_particles = 0.200
+@ukn_battleship_t6_reactor_upkeep_ukn_exotic_particles = 0.240
+@ukn_battleship_t7_reactor_upkeep_ukn_exotic_particles = 0.320
+@ukn_battleship_t8_reactor_upkeep_ukn_exotic_particles = 0.440
+@ukn_battleship_t_p_reactor_upkeep_ukn_exotic_particles = 0.600
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -3090,12 +3090,12 @@
 #---
 
 # Exotic Particles
-@ukn_titan_t4_shields_cost_volatile_motes = 8.00
-@ukn_titan_t5_shields_cost_volatile_motes = 12.00
-@ukn_titan_t6_shields_cost_volatile_motes = 12.00
-@ukn_titan_t7_shields_cost_volatile_motes = 16.00
-@ukn_titan_t8_shields_cost_volatile_motes = 16.00
-@ukn_titan_t_p_shields_cost_volatile_motes = 16.00
+@ukn_titan_t4_shields_cost_ukn_exotic_particles = 8.00
+@ukn_titan_t5_shields_cost_ukn_exotic_particles = 12.00
+@ukn_titan_t6_shields_cost_ukn_exotic_particles = 12.00
+@ukn_titan_t7_shields_cost_ukn_exotic_particles = 16.00
+@ukn_titan_t8_shields_cost_ukn_exotic_particles = 16.00
+@ukn_titan_t_p_shields_cost_ukn_exotic_particles = 16.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -3134,12 +3134,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_titan_t4_reactor_upkeep_volatile_motes = 0.288
-@ukn_titan_t5_reactor_upkeep_volatile_motes = 0.400
-@ukn_titan_t6_reactor_upkeep_volatile_motes = 0.480
-@ukn_titan_t7_reactor_upkeep_volatile_motes = 0.640
-@ukn_titan_t8_reactor_upkeep_volatile_motes = 0.880
-@ukn_titan_t_p_reactor_upkeep_volatile_motes = 1.200
+@ukn_titan_t4_reactor_upkeep_ukn_exotic_particles = 0.288
+@ukn_titan_t5_reactor_upkeep_ukn_exotic_particles = 0.400
+@ukn_titan_t6_reactor_upkeep_ukn_exotic_particles = 0.480
+@ukn_titan_t7_reactor_upkeep_ukn_exotic_particles = 0.640
+@ukn_titan_t8_reactor_upkeep_ukn_exotic_particles = 0.880
+@ukn_titan_t_p_reactor_upkeep_ukn_exotic_particles = 1.200
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -3284,12 +3284,12 @@
 #---
 
 # Exotic Particles
-@ukn_platform_t4_shields_cost_volatile_motes = 1.00
-@ukn_platform_t5_shields_cost_volatile_motes = 1.50
-@ukn_platform_t6_shields_cost_volatile_motes = 1.50
-@ukn_platform_t7_shields_cost_volatile_motes = 2.00
-@ukn_platform_t8_shields_cost_volatile_motes = 2.00
-@ukn_platform_t_p_shields_cost_volatile_motes = 2.00
+@ukn_platform_t4_shields_cost_ukn_exotic_particles = 1.00
+@ukn_platform_t5_shields_cost_ukn_exotic_particles = 1.50
+@ukn_platform_t6_shields_cost_ukn_exotic_particles = 1.50
+@ukn_platform_t7_shields_cost_ukn_exotic_particles = 2.00
+@ukn_platform_t8_shields_cost_ukn_exotic_particles = 2.00
+@ukn_platform_t_p_shields_cost_ukn_exotic_particles = 2.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -3328,12 +3328,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_platform_t4_reactor_upkeep_volatile_motes = 0.036
-@ukn_platform_t5_reactor_upkeep_volatile_motes = 0.050
-@ukn_platform_t6_reactor_upkeep_volatile_motes = 0.060
-@ukn_platform_t7_reactor_upkeep_volatile_motes = 0.080
-@ukn_platform_t8_reactor_upkeep_volatile_motes = 0.110
-@ukn_platform_t_p_reactor_upkeep_volatile_motes = 0.150
+@ukn_platform_t4_reactor_upkeep_ukn_exotic_particles = 0.036
+@ukn_platform_t5_reactor_upkeep_ukn_exotic_particles = 0.050
+@ukn_platform_t6_reactor_upkeep_ukn_exotic_particles = 0.060
+@ukn_platform_t7_reactor_upkeep_ukn_exotic_particles = 0.080
+@ukn_platform_t8_reactor_upkeep_ukn_exotic_particles = 0.110
+@ukn_platform_t_p_reactor_upkeep_ukn_exotic_particles = 0.150
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -3478,12 +3478,12 @@
 #---
 
 # Exotic Particles
-@ukn_juggernaut_t4_shields_cost_volatile_motes = 16.00
-@ukn_juggernaut_t5_shields_cost_volatile_motes = 24.00
-@ukn_juggernaut_t6_shields_cost_volatile_motes = 24.00
-@ukn_juggernaut_t7_shields_cost_volatile_motes = 32.00
-@ukn_juggernaut_t8_shields_cost_volatile_motes = 32.00
-@ukn_juggernaut_t_p_shields_cost_volatile_motes = 32.00
+@ukn_juggernaut_t4_shields_cost_ukn_exotic_particles = 16.00
+@ukn_juggernaut_t5_shields_cost_ukn_exotic_particles = 24.00
+@ukn_juggernaut_t6_shields_cost_ukn_exotic_particles = 24.00
+@ukn_juggernaut_t7_shields_cost_ukn_exotic_particles = 32.00
+@ukn_juggernaut_t8_shields_cost_ukn_exotic_particles = 32.00
+@ukn_juggernaut_t_p_shields_cost_ukn_exotic_particles = 32.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -3522,12 +3522,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_juggernaut_t4_reactor_upkeep_volatile_motes = 0.576
-@ukn_juggernaut_t5_reactor_upkeep_volatile_motes = 0.800
-@ukn_juggernaut_t6_reactor_upkeep_volatile_motes = 0.960
-@ukn_juggernaut_t7_reactor_upkeep_volatile_motes = 1.280
-@ukn_juggernaut_t8_reactor_upkeep_volatile_motes = 1.760
-@ukn_juggernaut_t_p_reactor_upkeep_volatile_motes = 2.400
+@ukn_juggernaut_t4_reactor_upkeep_ukn_exotic_particles = 0.576
+@ukn_juggernaut_t5_reactor_upkeep_ukn_exotic_particles = 0.800
+@ukn_juggernaut_t6_reactor_upkeep_ukn_exotic_particles = 0.960
+@ukn_juggernaut_t7_reactor_upkeep_ukn_exotic_particles = 1.280
+@ukn_juggernaut_t8_reactor_upkeep_ukn_exotic_particles = 1.760
+@ukn_juggernaut_t_p_reactor_upkeep_ukn_exotic_particles = 2.400
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -3673,12 +3673,12 @@
 #---
 
 # Exotic Particles
-@ukn_starbase_t4_shields_cost_volatile_motes = 32.00
-@ukn_starbase_t5_shields_cost_volatile_motes = 48.00
-@ukn_starbase_t6_shields_cost_volatile_motes = 48.00
-@ukn_starbase_t7_shields_cost_volatile_motes = 64.00
-@ukn_starbase_t8_shields_cost_volatile_motes = 64.00
-@ukn_starbase_t_p_shields_cost_volatile_motes = 64.00
+@ukn_starbase_t4_shields_cost_ukn_exotic_particles = 32.00
+@ukn_starbase_t5_shields_cost_ukn_exotic_particles = 48.00
+@ukn_starbase_t6_shields_cost_ukn_exotic_particles = 48.00
+@ukn_starbase_t7_shields_cost_ukn_exotic_particles = 64.00
+@ukn_starbase_t8_shields_cost_ukn_exotic_particles = 64.00
+@ukn_starbase_t_p_shields_cost_ukn_exotic_particles = 64.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -3717,12 +3717,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_starbase_t4_reactor_upkeep_volatile_motes = 1.152
-@ukn_starbase_t5_reactor_upkeep_volatile_motes = 1.600
-@ukn_starbase_t6_reactor_upkeep_volatile_motes = 1.920
-@ukn_starbase_t7_reactor_upkeep_volatile_motes = 2.560
-@ukn_starbase_t8_reactor_upkeep_volatile_motes = 3.520
-@ukn_starbase_t_p_reactor_upkeep_volatile_motes = 4.800
+@ukn_starbase_t4_reactor_upkeep_ukn_exotic_particles = 1.152
+@ukn_starbase_t5_reactor_upkeep_ukn_exotic_particles = 1.600
+@ukn_starbase_t6_reactor_upkeep_ukn_exotic_particles = 1.920
+@ukn_starbase_t7_reactor_upkeep_ukn_exotic_particles = 2.560
+@ukn_starbase_t8_reactor_upkeep_ukn_exotic_particles = 3.520
+@ukn_starbase_t_p_reactor_upkeep_ukn_exotic_particles = 4.800
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -3867,12 +3867,12 @@
 #---
 
 # Exotic Particles
-@ukn_moon_t4_shields_cost_volatile_motes = 64.00
-@ukn_moon_t5_shields_cost_volatile_motes = 96.00
-@ukn_moon_t6_shields_cost_volatile_motes = 96.00
-@ukn_moon_t7_shields_cost_volatile_motes = 128.00
-@ukn_moon_t8_shields_cost_volatile_motes = 128.00
-@ukn_moon_t_p_shields_cost_volatile_motes = 128.00
+@ukn_moon_t4_shields_cost_ukn_exotic_particles = 64.00
+@ukn_moon_t5_shields_cost_ukn_exotic_particles = 96.00
+@ukn_moon_t6_shields_cost_ukn_exotic_particles = 96.00
+@ukn_moon_t7_shields_cost_ukn_exotic_particles = 128.00
+@ukn_moon_t8_shields_cost_ukn_exotic_particles = 128.00
+@ukn_moon_t_p_shields_cost_ukn_exotic_particles = 128.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -3911,12 +3911,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_moon_t4_reactor_upkeep_volatile_motes = 2.304
-@ukn_moon_t5_reactor_upkeep_volatile_motes = 3.200
-@ukn_moon_t6_reactor_upkeep_volatile_motes = 3.840
-@ukn_moon_t7_reactor_upkeep_volatile_motes = 5.120
-@ukn_moon_t8_reactor_upkeep_volatile_motes = 7.040
-@ukn_moon_t_p_reactor_upkeep_volatile_motes = 9.600
+@ukn_moon_t4_reactor_upkeep_ukn_exotic_particles = 2.304
+@ukn_moon_t5_reactor_upkeep_ukn_exotic_particles = 3.200
+@ukn_moon_t6_reactor_upkeep_ukn_exotic_particles = 3.840
+@ukn_moon_t7_reactor_upkeep_ukn_exotic_particles = 5.120
+@ukn_moon_t8_reactor_upkeep_ukn_exotic_particles = 7.040
+@ukn_moon_t_p_reactor_upkeep_ukn_exotic_particles = 9.600
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -4061,12 +4061,12 @@
 #---
 
 # Exotic Particles
-@ukn_planet_t4_shields_cost_volatile_motes = 128.00
-@ukn_planet_t5_shields_cost_volatile_motes = 192.00
-@ukn_planet_t6_shields_cost_volatile_motes = 192.00
-@ukn_planet_t7_shields_cost_volatile_motes = 256.00
-@ukn_planet_t8_shields_cost_volatile_motes = 256.00
-@ukn_planet_t_p_shields_cost_volatile_motes = 256.00
+@ukn_planet_t4_shields_cost_ukn_exotic_particles = 128.00
+@ukn_planet_t5_shields_cost_ukn_exotic_particles = 192.00
+@ukn_planet_t6_shields_cost_ukn_exotic_particles = 192.00
+@ukn_planet_t7_shields_cost_ukn_exotic_particles = 256.00
+@ukn_planet_t8_shields_cost_ukn_exotic_particles = 256.00
+@ukn_planet_t_p_shields_cost_ukn_exotic_particles = 256.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -4105,12 +4105,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_planet_t4_reactor_upkeep_volatile_motes = 4.608
-@ukn_planet_t5_reactor_upkeep_volatile_motes = 6.400
-@ukn_planet_t6_reactor_upkeep_volatile_motes = 7.680
-@ukn_planet_t7_reactor_upkeep_volatile_motes = 10.240
-@ukn_planet_t8_reactor_upkeep_volatile_motes = 14.080
-@ukn_planet_t_p_reactor_upkeep_volatile_motes = 19.200
+@ukn_planet_t4_reactor_upkeep_ukn_exotic_particles = 4.608
+@ukn_planet_t5_reactor_upkeep_ukn_exotic_particles = 6.400
+@ukn_planet_t6_reactor_upkeep_ukn_exotic_particles = 7.680
+@ukn_planet_t7_reactor_upkeep_ukn_exotic_particles = 10.240
+@ukn_planet_t8_reactor_upkeep_ukn_exotic_particles = 14.080
+@ukn_planet_t_p_reactor_upkeep_ukn_exotic_particles = 19.200
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -4259,11 +4259,11 @@
 #---
 
 # Exotic Particles
-@ukn_corvette_t5_shields_cost_volatile_motes = 0.38
-@ukn_corvette_t6_shields_cost_volatile_motes = 0.38
-@ukn_corvette_t7_shields_cost_volatile_motes = 0.50
-@ukn_corvette_t8_shields_cost_volatile_motes = 0.50
-@ukn_corvette_t_p_shields_cost_volatile_motes = 0.50
+@ukn_corvette_t5_shields_cost_ukn_exotic_particles = 0.38
+@ukn_corvette_t6_shields_cost_ukn_exotic_particles = 0.38
+@ukn_corvette_t7_shields_cost_ukn_exotic_particles = 0.50
+@ukn_corvette_t8_shields_cost_ukn_exotic_particles = 0.50
+@ukn_corvette_t_p_shields_cost_ukn_exotic_particles = 0.50
 #---
 
 ### UPKEEP ###---------------------------
@@ -4302,12 +4302,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_corvette_t4_thruster_upkeep_volatile_motes = 0.009
-@ukn_corvette_t5_thruster_upkeep_volatile_motes = 0.012
-@ukn_corvette_t6_thruster_upkeep_volatile_motes = 0.015
-@ukn_corvette_t7_thruster_upkeep_volatile_motes = 0.020
-@ukn_corvette_t8_thruster_upkeep_volatile_motes = 0.027
-@ukn_corvette_t_p_thruster_upkeep_volatile_motes = 0.037
+@ukn_corvette_t4_thruster_upkeep_ukn_exotic_particles = 0.009
+@ukn_corvette_t5_thruster_upkeep_ukn_exotic_particles = 0.012
+@ukn_corvette_t6_thruster_upkeep_ukn_exotic_particles = 0.015
+@ukn_corvette_t7_thruster_upkeep_ukn_exotic_particles = 0.020
+@ukn_corvette_t8_thruster_upkeep_ukn_exotic_particles = 0.027
+@ukn_corvette_t_p_thruster_upkeep_ukn_exotic_particles = 0.037
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -4451,11 +4451,11 @@
 #---
 
 # Exotic Particles
-@ukn_destroyer_t5_thruster_shields_cost_volatile_motes = 0.75
-@ukn_destroyer_t6_thruster_shields_cost_volatile_motes = 0.75
-@ukn_destroyer_t7_thruster_shields_cost_volatile_motes = 100
-@ukn_destroyer_t8_thruster_shields_cost_volatile_motes = 100
-@ukn_destroyer_t_p_thruster_shields_cost_volatile_motes = 100
+@ukn_destroyer_t5_thruster_shields_cost_ukn_exotic_particles = 0.75
+@ukn_destroyer_t6_thruster_shields_cost_ukn_exotic_particles = 0.75
+@ukn_destroyer_t7_thruster_shields_cost_ukn_exotic_particles = 100
+@ukn_destroyer_t8_thruster_shields_cost_ukn_exotic_particles = 100
+@ukn_destroyer_t_p_thruster_shields_cost_ukn_exotic_particles = 100
 #---
 
 ### UPKEEP ###---------------------------
@@ -4494,12 +4494,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_destroyer_t4_thruster_upkeep_volatile_motes = 0.018
-@ukn_destroyer_t5_thruster_upkeep_volatile_motes = 0.025
-@ukn_destroyer_t6_thruster_upkeep_volatile_motes = 0.030
-@ukn_destroyer_t7_thruster_upkeep_volatile_motes = 0.040
-@ukn_destroyer_t8_thruster_upkeep_volatile_motes = 0.055
-@ukn_destroyer_t_p_thruster_upkeep_volatile_motes = 0.075
+@ukn_destroyer_t4_thruster_upkeep_ukn_exotic_particles = 0.018
+@ukn_destroyer_t5_thruster_upkeep_ukn_exotic_particles = 0.025
+@ukn_destroyer_t6_thruster_upkeep_ukn_exotic_particles = 0.030
+@ukn_destroyer_t7_thruster_upkeep_ukn_exotic_particles = 0.040
+@ukn_destroyer_t8_thruster_upkeep_ukn_exotic_particles = 0.055
+@ukn_destroyer_t_p_thruster_upkeep_ukn_exotic_particles = 0.075
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -4643,11 +4643,11 @@
 #---
 
 # Exotic Particles
-@ukn_cruiser_t5_thruster_shields_cost_volatile_motes = 150
-@ukn_cruiser_t6_thruster_shields_cost_volatile_motes = 150
-@ukn_cruiser_t7_thruster_shields_cost_volatile_motes = 200
-@ukn_cruiser_t8_thruster_shields_cost_volatile_motes = 200
-@ukn_cruiser_t_p_thruster_shields_cost_volatile_motes = 200
+@ukn_cruiser_t5_thruster_shields_cost_ukn_exotic_particles = 150
+@ukn_cruiser_t6_thruster_shields_cost_ukn_exotic_particles = 150
+@ukn_cruiser_t7_thruster_shields_cost_ukn_exotic_particles = 200
+@ukn_cruiser_t8_thruster_shields_cost_ukn_exotic_particles = 200
+@ukn_cruiser_t_p_thruster_shields_cost_ukn_exotic_particles = 200
 #---
 
 ### UPKEEP ###---------------------------
@@ -4686,12 +4686,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_cruiser_t4_thruster_upkeep_volatile_motes = 0.036
-@ukn_cruiser_t5_thruster_upkeep_volatile_motes = 0.050
-@ukn_cruiser_t6_thruster_upkeep_volatile_motes = 0.060
-@ukn_cruiser_t7_thruster_upkeep_volatile_motes = 0.080
-@ukn_cruiser_t8_thruster_upkeep_volatile_motes = 0.110
-@ukn_cruiser_t_p_thruster_upkeep_volatile_motes = 0.150
+@ukn_cruiser_t4_thruster_upkeep_ukn_exotic_particles = 0.036
+@ukn_cruiser_t5_thruster_upkeep_ukn_exotic_particles = 0.050
+@ukn_cruiser_t6_thruster_upkeep_ukn_exotic_particles = 0.060
+@ukn_cruiser_t7_thruster_upkeep_ukn_exotic_particles = 0.080
+@ukn_cruiser_t8_thruster_upkeep_ukn_exotic_particles = 0.110
+@ukn_cruiser_t_p_thruster_upkeep_ukn_exotic_particles = 0.150
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -4835,11 +4835,11 @@
 #---
 
 # Exotic Particles
-@ukn_battleship_t5_thruster_shields_cost_volatile_motes = 300
-@ukn_battleship_t6_thruster_shields_cost_volatile_motes = 300
-@ukn_battleship_t7_thruster_shields_cost_volatile_motes = 400
-@ukn_battleship_t8_thruster_shields_cost_volatile_motes = 400
-@ukn_battleship_t_p_thruster_shields_cost_volatile_motes = 400
+@ukn_battleship_t5_thruster_shields_cost_ukn_exotic_particles = 300
+@ukn_battleship_t6_thruster_shields_cost_ukn_exotic_particles = 300
+@ukn_battleship_t7_thruster_shields_cost_ukn_exotic_particles = 400
+@ukn_battleship_t8_thruster_shields_cost_ukn_exotic_particles = 400
+@ukn_battleship_t_p_thruster_shields_cost_ukn_exotic_particles = 400
 #---
 
 ### UPKEEP ###---------------------------
@@ -4878,12 +4878,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_battleship_t4_thruster_upkeep_volatile_motes = 0.072
-@ukn_battleship_t5_thruster_upkeep_volatile_motes = 0.100
-@ukn_battleship_t6_thruster_upkeep_volatile_motes = 0.120
-@ukn_battleship_t7_thruster_upkeep_volatile_motes = 0.160
-@ukn_battleship_t8_thruster_upkeep_volatile_motes = 0.220
-@ukn_battleship_t_p_thruster_upkeep_volatile_motes = 0.300
+@ukn_battleship_t4_thruster_upkeep_ukn_exotic_particles = 0.072
+@ukn_battleship_t5_thruster_upkeep_ukn_exotic_particles = 0.100
+@ukn_battleship_t6_thruster_upkeep_ukn_exotic_particles = 0.120
+@ukn_battleship_t7_thruster_upkeep_ukn_exotic_particles = 0.160
+@ukn_battleship_t8_thruster_upkeep_ukn_exotic_particles = 0.220
+@ukn_battleship_t_p_thruster_upkeep_ukn_exotic_particles = 0.300
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -5027,11 +5027,11 @@
 #---
 
 # Exotic Particles
-@ukn_titan_t5_thruster_shields_cost_volatile_motes = 6.00
-@ukn_titan_t6_thruster_shields_cost_volatile_motes = 6.00
-@ukn_titan_t7_thruster_shields_cost_volatile_motes = 8.00
-@ukn_titan_t8_thruster_shields_cost_volatile_motes = 8.00
-@ukn_titan_t_p_thruster_shields_cost_volatile_motes = 8.00
+@ukn_titan_t5_thruster_shields_cost_ukn_exotic_particles = 6.00
+@ukn_titan_t6_thruster_shields_cost_ukn_exotic_particles = 6.00
+@ukn_titan_t7_thruster_shields_cost_ukn_exotic_particles = 8.00
+@ukn_titan_t8_thruster_shields_cost_ukn_exotic_particles = 8.00
+@ukn_titan_t_p_thruster_shields_cost_ukn_exotic_particles = 8.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -5070,12 +5070,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_titan_t4_thruster_upkeep_volatile_motes = 0.144
-@ukn_titan_t5_thruster_upkeep_volatile_motes = 0.200
-@ukn_titan_t6_thruster_upkeep_volatile_motes = 0.240
-@ukn_titan_t7_thruster_upkeep_volatile_motes = 0.320
-@ukn_titan_t8_thruster_upkeep_volatile_motes = 0.440
-@ukn_titan_t_p_thruster_upkeep_volatile_motes = 0.600
+@ukn_titan_t4_thruster_upkeep_ukn_exotic_particles = 0.144
+@ukn_titan_t5_thruster_upkeep_ukn_exotic_particles = 0.200
+@ukn_titan_t6_thruster_upkeep_ukn_exotic_particles = 0.240
+@ukn_titan_t7_thruster_upkeep_ukn_exotic_particles = 0.320
+@ukn_titan_t8_thruster_upkeep_ukn_exotic_particles = 0.440
+@ukn_titan_t_p_thruster_upkeep_ukn_exotic_particles = 0.600
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -5219,11 +5219,11 @@
 #---
 
 # Exotic Particles
-@ukn_juggernaut_t5_thruster_shields_cost_volatile_motes = 12.00
-@ukn_juggernaut_t6_thruster_shields_cost_volatile_motes = 12.00
-@ukn_juggernaut_t7_thruster_shields_cost_volatile_motes = 16.00
-@ukn_juggernaut_t8_thruster_shields_cost_volatile_motes = 16.00
-@ukn_juggernaut_t_p_thruster_shields_cost_volatile_motes = 16.00
+@ukn_juggernaut_t5_thruster_shields_cost_ukn_exotic_particles = 12.00
+@ukn_juggernaut_t6_thruster_shields_cost_ukn_exotic_particles = 12.00
+@ukn_juggernaut_t7_thruster_shields_cost_ukn_exotic_particles = 16.00
+@ukn_juggernaut_t8_thruster_shields_cost_ukn_exotic_particles = 16.00
+@ukn_juggernaut_t_p_thruster_shields_cost_ukn_exotic_particles = 16.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -5262,12 +5262,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_juggernaut_t4_thruster_upkeep_volatile_motes = 0.288
-@ukn_juggernaut_t5_thruster_upkeep_volatile_motes = 0.400
-@ukn_juggernaut_t6_thruster_upkeep_volatile_motes = 0.480
-@ukn_juggernaut_t7_thruster_upkeep_volatile_motes = 0.640
-@ukn_juggernaut_t8_thruster_upkeep_volatile_motes = 0.880
-@ukn_juggernaut_t_p_thruster_upkeep_volatile_motes = 1.200
+@ukn_juggernaut_t4_thruster_upkeep_ukn_exotic_particles = 0.288
+@ukn_juggernaut_t5_thruster_upkeep_ukn_exotic_particles = 0.400
+@ukn_juggernaut_t6_thruster_upkeep_ukn_exotic_particles = 0.480
+@ukn_juggernaut_t7_thruster_upkeep_ukn_exotic_particles = 0.640
+@ukn_juggernaut_t8_thruster_upkeep_ukn_exotic_particles = 0.880
+@ukn_juggernaut_t_p_thruster_upkeep_ukn_exotic_particles = 1.200
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -5411,12 +5411,12 @@
 #---
 
 # Exotic Particles
-@ukn_starbase_t4_thruster_shields_cost_volatile_motes = 16.00
-@ukn_starbase_t5_thruster_shields_cost_volatile_motes = 24.00
-@ukn_starbase_t6_thruster_shields_cost_volatile_motes = 24.00
-@ukn_starbase_t7_thruster_shields_cost_volatile_motes = 32.00
-@ukn_starbase_t8_thruster_shields_cost_volatile_motes = 32.00
-@ukn_starbase_t_p_thruster_shields_cost_volatile_motes = 32.00
+@ukn_starbase_t4_thruster_shields_cost_ukn_exotic_particles = 16.00
+@ukn_starbase_t5_thruster_shields_cost_ukn_exotic_particles = 24.00
+@ukn_starbase_t6_thruster_shields_cost_ukn_exotic_particles = 24.00
+@ukn_starbase_t7_thruster_shields_cost_ukn_exotic_particles = 32.00
+@ukn_starbase_t8_thruster_shields_cost_ukn_exotic_particles = 32.00
+@ukn_starbase_t_p_thruster_shields_cost_ukn_exotic_particles = 32.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -5455,12 +5455,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_starbase_t4_thruster_upkeep_volatile_motes = 0.576
-@ukn_starbase_t5_thruster_upkeep_volatile_motes = 0.800
-@ukn_starbase_t6_thruster_upkeep_volatile_motes = 0.960
-@ukn_starbase_t7_thruster_upkeep_volatile_motes = 1.280
-@ukn_starbase_t8_thruster_upkeep_volatile_motes = 1.760
-@ukn_starbase_t_p_thruster_upkeep_volatile_motes = 2.400
+@ukn_starbase_t4_thruster_upkeep_ukn_exotic_particles = 0.576
+@ukn_starbase_t5_thruster_upkeep_ukn_exotic_particles = 0.800
+@ukn_starbase_t6_thruster_upkeep_ukn_exotic_particles = 0.960
+@ukn_starbase_t7_thruster_upkeep_ukn_exotic_particles = 1.280
+@ukn_starbase_t8_thruster_upkeep_ukn_exotic_particles = 1.760
+@ukn_starbase_t_p_thruster_upkeep_ukn_exotic_particles = 2.400
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -5605,11 +5605,11 @@
 #---
 
 # Exotic Particles
-@ukn_moon_t5_thruster_shields_cost_volatile_motes = 48.00
-@ukn_moon_t6_thruster_shields_cost_volatile_motes = 48.00
-@ukn_moon_t7_thruster_shields_cost_volatile_motes = 64.00
-@ukn_moon_t8_thruster_shields_cost_volatile_motes = 64.00
-@ukn_moon_t_p_thruster_shields_cost_volatile_motes = 64.00
+@ukn_moon_t5_thruster_shields_cost_ukn_exotic_particles = 48.00
+@ukn_moon_t6_thruster_shields_cost_ukn_exotic_particles = 48.00
+@ukn_moon_t7_thruster_shields_cost_ukn_exotic_particles = 64.00
+@ukn_moon_t8_thruster_shields_cost_ukn_exotic_particles = 64.00
+@ukn_moon_t_p_thruster_shields_cost_ukn_exotic_particles = 64.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -5648,11 +5648,11 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_moon_t5_thruster_upkeep_volatile_motes = 1.600
-@ukn_moon_t6_thruster_upkeep_volatile_motes = 1.920
-@ukn_moon_t7_thruster_upkeep_volatile_motes = 2.560
-@ukn_moon_t8_thruster_upkeep_volatile_motes = 3.520
-@ukn_moon_t_p_thruster_upkeep_volatile_motes = 4.800
+@ukn_moon_t5_thruster_upkeep_ukn_exotic_particles = 1.600
+@ukn_moon_t6_thruster_upkeep_ukn_exotic_particles = 1.920
+@ukn_moon_t7_thruster_upkeep_ukn_exotic_particles = 2.560
+@ukn_moon_t8_thruster_upkeep_ukn_exotic_particles = 3.520
+@ukn_moon_t_p_thruster_upkeep_ukn_exotic_particles = 4.800
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -5796,11 +5796,11 @@
 #---
 
 # Exotic Particles
-@ukn_planet_t5_thruster_shields_cost_volatile_motes = 96.00
-@ukn_planet_t6_thruster_shields_cost_volatile_motes = 96.00
-@ukn_planet_t7_thruster_shields_cost_volatile_motes = 128.00
-@ukn_planet_t8_thruster_shields_cost_volatile_motes = 128.00
-@ukn_planet_t_p_thruster_shields_cost_volatile_motes = 128.00
+@ukn_planet_t5_thruster_shields_cost_ukn_exotic_particles = 96.00
+@ukn_planet_t6_thruster_shields_cost_ukn_exotic_particles = 96.00
+@ukn_planet_t7_thruster_shields_cost_ukn_exotic_particles = 128.00
+@ukn_planet_t8_thruster_shields_cost_ukn_exotic_particles = 128.00
+@ukn_planet_t_p_thruster_shields_cost_ukn_exotic_particles = 128.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -5839,12 +5839,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_planet_t4_thruster_upkeep_volatile_motes = 2.304
-@ukn_planet_t5_thruster_upkeep_volatile_motes = 3.200
-@ukn_planet_t6_thruster_upkeep_volatile_motes = 3.840
-@ukn_planet_t7_thruster_upkeep_volatile_motes = 5.120
-@ukn_planet_t8_thruster_upkeep_volatile_motes = 7.040
-@ukn_planet_t_p_thruster_upkeep_volatile_motes = 9.600
+@ukn_planet_t4_thruster_upkeep_ukn_exotic_particles = 2.304
+@ukn_planet_t5_thruster_upkeep_ukn_exotic_particles = 3.200
+@ukn_planet_t6_thruster_upkeep_ukn_exotic_particles = 3.840
+@ukn_planet_t7_thruster_upkeep_ukn_exotic_particles = 5.120
+@ukn_planet_t8_thruster_upkeep_ukn_exotic_particles = 7.040
+@ukn_planet_t_p_thruster_upkeep_ukn_exotic_particles = 9.600
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -5994,11 +5994,11 @@
 #---
 
 # Exotic Particles
-@ukn_system_t5_thruster_shields_cost_volatile_motes = 192.00
-@ukn_system_t6_thruster_shields_cost_volatile_motes = 192.00
-@ukn_system_t7_thruster_shields_cost_volatile_motes = 256.00
-@ukn_system_t8_thruster_shields_cost_volatile_motes = 256.00
-@ukn_system_t_p_thruster_shields_cost_volatile_motes = 256.00
+@ukn_system_t5_thruster_shields_cost_ukn_exotic_particles = 192.00
+@ukn_system_t6_thruster_shields_cost_ukn_exotic_particles = 192.00
+@ukn_system_t7_thruster_shields_cost_ukn_exotic_particles = 256.00
+@ukn_system_t8_thruster_shields_cost_ukn_exotic_particles = 256.00
+@ukn_system_t_p_thruster_shields_cost_ukn_exotic_particles = 256.00
 #---
 
 ### UPKEEP ###---------------------------
@@ -6037,12 +6037,12 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_system_t4_thruster_upkeep_volatile_motes = 4.608
-@ukn_system_t5_thruster_upkeep_volatile_motes = 6.400
-@ukn_system_t6_thruster_upkeep_volatile_motes = 7.680
-@ukn_system_t7_thruster_upkeep_volatile_motes = 10.240
-@ukn_system_t8_thruster_upkeep_volatile_motes = 14.080
-@ukn_system_t_p_thruster_upkeep_volatile_motes = 19.200
+@ukn_system_t4_thruster_upkeep_ukn_exotic_particles = 4.608
+@ukn_system_t5_thruster_upkeep_ukn_exotic_particles = 6.400
+@ukn_system_t6_thruster_upkeep_ukn_exotic_particles = 7.680
+@ukn_system_t7_thruster_upkeep_ukn_exotic_particles = 10.240
+@ukn_system_t8_thruster_upkeep_ukn_exotic_particles = 14.080
+@ukn_system_t_p_thruster_upkeep_ukn_exotic_particles = 19.200
 #---
 
 # Negative Mass ('BIG' Upkeep)
@@ -6187,11 +6187,11 @@
 #---
 
 # Exotic Particles
-@ukn_empty_t5_shields_cost_volatile_motes = 0
-@ukn_empty_t6_shields_cost_volatile_motes = 0
-@ukn_empty_t7_shields_cost_volatile_motes = 0
-@ukn_empty_t8_shields_cost_volatile_motes = 0
-@ukn_empty_t_p_shields_cost_volatile_motes = 0
+@ukn_empty_t5_shields_cost_ukn_exotic_particles = 0
+@ukn_empty_t6_shields_cost_ukn_exotic_particles = 0
+@ukn_empty_t7_shields_cost_ukn_exotic_particles = 0
+@ukn_empty_t8_shields_cost_ukn_exotic_particles = 0
+@ukn_empty_t_p_shields_cost_ukn_exotic_particles = 0
 #---
 
 ### UPKEEP ###---------------------------
@@ -6230,11 +6230,11 @@
 #---
 
 # Exotic Particles ('BIG' Upkeep)
-@ukn_empty_t5_component_upkeep_volatile_motes = 0
-@ukn_empty_t6_component_upkeep_volatile_motes = 0
-@ukn_empty_t7_component_upkeep_volatile_motes = 0
-@ukn_empty_t8_component_upkeep_volatile_motes = 0
-@ukn_empty_t_p_component_upkeep_volatile_motes = 0
+@ukn_empty_t5_component_upkeep_ukn_exotic_particles = 0
+@ukn_empty_t6_component_upkeep_ukn_exotic_particles = 0
+@ukn_empty_t7_component_upkeep_ukn_exotic_particles = 0
+@ukn_empty_t8_component_upkeep_ukn_exotic_particles = 0
+@ukn_empty_t_p_component_upkeep_ukn_exotic_particles = 0
 #---
 
 # Negative Mass ('BIG' Upkeep)

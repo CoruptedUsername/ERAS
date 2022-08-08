@@ -100,7 +100,7 @@ femtomatter_replicator_1 = {
 			energy = @ukn_femtomatter_replicator_p1_upkeep_energy
 			ukn_meta_materials = @ukn_femtomatter_replicator_p1_upkeep_ukn_meta_materials
 			minerals = @ukn_femtomatter_replicator_p1_upkeep_minerals
-			volatile_motes = @ukn_femtomatter_replicator_p1_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_femtomatter_replicator_p1_upkeep_ukn_exotic_particles
 		}
 		produces = {
 			energy = @ukn_femtomatter_replicator_p1_output_energy
@@ -152,7 +152,7 @@ femtomatter_replicator_2 = {
 			energy = @ukn_femtomatter_replicator_p2_upkeep_energy
 			ukn_meta_materials = @ukn_femtomatter_replicator_p2_upkeep_ukn_meta_materials
 			minerals = @ukn_femtomatter_replicator_p2_upkeep_minerals
-			volatile_motes = @ukn_femtomatter_replicator_p2_upkeep_volatile_motes
+			ukn_exotic_particles = @ukn_femtomatter_replicator_p2_upkeep_ukn_exotic_particles
 		}
 		produces = {
 			energy = @ukn_femtomatter_replicator_p2_output_energy
