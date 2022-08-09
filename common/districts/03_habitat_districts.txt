@@ -1976,3 +1976,224 @@ district_hab_mining = {
 		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+district_ukn_hab_farming = {
+	base_buildtime = @district_ukn_hab_farming_2_build_time
+	is_capped_by_modifier = no
+	exempt_from_ai_planet_specialization = yes
+
+	show_on_uncolonized = {
+		UKN_USES_HABITAT_DISTRICTS = yes
+	}
+
+	potential = {
+		UKN_USES_HABITAT_DISTRICTS = yes
+	}
+
+	planet_modifier = {
+		planet_housing_add = 4
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+		}
+		text = UKN_DISTRICT_AUTOMATION_DEFICIENCY
+	}
+
+	resources = {
+		category = planet_districts_ukn_hab_farming
+#########
+# COSTS #
+#########
+#[BASIC] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+			}
+			consumer_goods = @district_ukn_hab_farming_2_cost_basic_consumer_goods
+		}
+
+#[BASIC] MINERALS
+		cost = {
+			trigger = {
+				exists = owner
+				owner = {
+					NOR = {
+						has_policy_flag = policy_ukn_meta_materials_replace_planet_structure_basic_cost
+						has_policy_flag = policy_ukn_quasi_matter_replace_planet_structure_basic_cost
+						has_policy_flag = policy_ukn_causalitons_replace_planet_structure_basic_cost
+					}
+				}
+			}
+			minerals = @district_ukn_hab_farming_2_cost_basic_minerals
+		}
+#[BASIC] POLYMERICS
+		cost = {
+			trigger = {
+				exists = owner
+				owner = {
+					NOR = {
+						has_policy_flag = policy_ukn_meta_materials_replace_planet_structure_basic_cost
+						has_policy_flag = policy_ukn_quasi_matter_replace_planet_structure_basic_cost
+						has_policy_flag = policy_ukn_causalitons_replace_planet_structure_basic_cost
+					}
+				}
+			}
+			alloys = @district_ukn_hab_farming_2_cost_basic_alloys
+		}
+#[BASIC] META-MATERIALS
+		cost = {
+			trigger = {
+				exists = owner
+				owner = {
+					has_policy_flag = policy_ukn_meta_materials_replace_planet_structure_basic_cost
+				}
+			}
+			ukn_meta_materials = @district_ukn_hab_farming_2_r_cost_basic_ukn_meta_materials
+		}
+#[BASIC] QUASI-MATTER
+		cost = {
+			trigger = {
+				exists = owner
+				owner = {
+					has_policy_flag = policy_ukn_quasi_matter_replace_planet_structure_basic_cost
+				}
+			}
+			ukn_quasi_matter = @district_ukn_hab_farming_2_r_cost_basic_ukn_quasi_matter
+		}
+#[BASIC] OSCILLYONS
+		cost = {
+			trigger = {
+				exists = owner
+				owner = {
+					has_policy_flag = policy_ukn_causalitons_replace_planet_structure_basic_cost
+				}
+			}
+			ukn_causalitons = @district_ukn_hab_farming_2_r_cost_basic_ukn_causalitons
+		}
+##########
+# UPKEEP #
+##########
+		upkeep = {
+			energy = @district_ukn_hab_farming_2_upkeep_energy
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_agri_drone_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {
+			job_agri_drone_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+				is_fallen_empire_spiritualist = no
+			}
+		}
+		modifier = {
+			job_farmer_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_fallen_empire_spiritualist = yes }
+		}
+		modifier = {
+			job_fe_acolyte_farm_add = 3
+		}
+	}
+#----------------------------------------------------
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_agri_drone_effect_desc
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+				is_fallen_empire_spiritualist = no
+			}
+		}
+		text = job_farmer_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_fallen_empire_spiritualist = yes }
+		}
+		text = job_fe_acolyte_farm_effect_desc
+	}
+#----------------------------------------------------
+
+	ai_resource_production = {
+		minerals = 8
+		trigger = {
+			owner = {
+				is_gestalt = no
+				is_fallen_empire_spiritualist = no
+			}
+		}
+	}
+	ai_resource_production = {
+		minerals = 8
+		trigger = {
+			owner = {
+				is_machine_empire = yes
+			}
+		}
+	}
+	ai_resource_production = {
+		minerals = 8
+		trigger = {
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+	}
+	
+	ai_resource_production = {
+		minerals = 8
+		trigger = {
+			owner = {
+				is_fallen_empire_spiritualist = yes
+			}
+		}
+	}
+}

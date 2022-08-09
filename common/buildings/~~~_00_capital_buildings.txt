@@ -2685,10 +2685,13 @@ building_hab_capital = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_regular_empire = yes }
+			owner = {
+				NOT = { has_origin = origin_void_dwellers }
+				is_regular_empire = yes
+			}
 		}
 		modifier = {
-			job_clerk_add = 2
+			job_clerk_add = 1
 		}
 	}
 
@@ -2736,7 +2739,10 @@ building_hab_capital = {
 		potential = {
 			exists = owner
 			owner = {
-				is_megacorp = no
+				NOR = {
+					is_megacorp = yes
+					has_origin = origin_void_dwellers
+				}
 				is_regular_empire = yes
 			}
 		}
@@ -2746,10 +2752,26 @@ building_hab_capital = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_megacorp = yes }
+			owner = {
+				is_megacorp = yes
+				NOT = { has_origin = origin_void_dwellers }
+			}
 		}
 		modifier = {
 			job_executive_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_origin = origin_void_dwellers
+				is_regular_empire = yes
+			}
+		}
+		modifier = {
+			job_colonist_add = 2
 		}
 	}
 
@@ -2877,17 +2899,32 @@ building_hab_capital = {
 		trigger = {
 			exists = owner
 			owner = {
+				NOT = { has_origin = origin_void_dwellers }
 				is_regular_empire = yes
 			}
 		}
 		text = job_clerk_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				has_origin = origin_void_dwellers
+				is_regular_empire = yes
+			}
+		}
+		text = job_colonist_effect_desc
 	}
 	
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			owner = {
-				NOT = { has_authority = auth_corporate }
+				NOR = {
+					is_megacorp = yes
+					has_origin = origin_void_dwellers
+				}
 				is_regular_empire = yes
 			}
 		}
@@ -2906,7 +2943,8 @@ building_hab_capital = {
 		trigger = {
 			exists = owner
 			owner = {
-				has_authority = auth_corporate
+				is_megacorp = yes
+				NOT = { has_origin = origin_void_dwellers }
 			}
 		}
 		text = job_executive_effect_desc
@@ -3082,7 +3120,7 @@ building_hab_major_capital = {
 			owner = { is_regular_empire = yes }
 		}
 		modifier = {
-			job_clerk_add = 2
+			job_clerk_add = 1
 		}
 	}
 
@@ -3223,8 +3261,8 @@ building_hab_major_capital = {
 			}
 		}
 		modifier = {
+			job_politician_add = -1
 			job_head_researcher_add = 1
-			job_politician_add = 1
 		}
 	}
 
@@ -3237,7 +3275,7 @@ building_hab_major_capital = {
 			}
 		}
 		modifier = {
-			job_politician_add = 1
+			job_politician_add = -1
 			job_noble_add = 1
 		}
 	}
@@ -3254,7 +3292,7 @@ building_hab_major_capital = {
 			}
 		}
 		modifier = {
-			job_politician_add = 1
+			job_politician_add = -1
 			job_bugged_mogul_add = 1
 		}
 	}
@@ -3265,7 +3303,7 @@ building_hab_major_capital = {
 			owner = { has_civic = civic_bugged_machine_researcher }
 		}
 		modifier = {
-			job_bugged_examinatron_add = 2
+			job_bugged_examinatron_add = 1
 		}
 	}
 

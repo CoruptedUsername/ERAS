@@ -2069,7 +2069,7 @@
 
 # Articles
 @district_ukn_city_1_cost_basic_consumer_goods = 50
-@district_ukn_hab_housing_2_cost_basic_consumer_goods = 50
+@district_ukn_hab_housing_2_cost_basic_consumer_goods = 100
 @district_ukn_arcology_housing_4_cost_basic_consumer_goods = 150
 @district_ukn_rw_city_5_cost_basic_consumer_goods = 500
 
@@ -2140,7 +2140,7 @@
 
 # Articles
 @district_ukn_nexus_1_cost_basic_consumer_goods = 50
-@district_ukn_hab_nexus_2_cost_basic_consumer_goods = 50
+@district_ukn_hab_nexus_2_cost_basic_consumer_goods = 100
 @district_ukn_arcology_nexus_4_cost_basic_consumer_goods = 150
 @district_ukn_rw_nexus_5_cost_basic_consumer_goods = 500
 
@@ -2211,7 +2211,7 @@
 
 # Articles
 @district_ukn_hive_1_cost_basic_consumer_goods = 50
-@district_ukn_hab_hive_2_cost_basic_consumer_goods = 50
+@district_ukn_hab_hive_2_cost_basic_consumer_goods = 100
 @district_ukn_arcology_hive_housing_4_cost_basic_consumer_goods = 150
 @district_ukn_rw_hive_5_cost_basic_consumer_goods = 500
 
@@ -2286,7 +2286,7 @@
 
 # Minerals
 @district_ukn_automation_1_cost_basic_minerals = 500
-@district_ukn_hab_automation_maintenance_2_cost_basic_minerals = 400
+@district_ukn_hab_automation_maintenance_2_cost_basic_minerals = 650
 @district_ukn_arcology_automation_4_cost_basic_minerals = 1500
 
 # Rare Crystals
@@ -2306,19 +2306,19 @@
 # Meta-Materials
 #--- [Basic Replace]
 @district_ukn_automation_1_r_cost_basic_ukn_meta_materials = 210
-@district_ukn_hab_automation_maintenance_2_r_cost_basic_ukn_meta_materials = 210
+@district_ukn_hab_automation_maintenance_2_r_cost_basic_ukn_meta_materials = 320
 @district_ukn_arcology_automation_4_r_cost_basic_ukn_meta_materials = 810
 
 # Quasi-Matter
 #--- [Basic Replace]
 @district_ukn_automation_1_r_cost_basic_ukn_quasi_matter = 0.51
-@district_ukn_hab_automation_maintenance_2_r_cost_basic_ukn_quasi_matter = 0.51
+@district_ukn_hab_automation_maintenance_2_r_cost_basic_ukn_quasi_matter = 0.78
 @district_ukn_arcology_automation_4_r_cost_basic_ukn_quasi_matter = 2.00
 
 # Causalitons
 #--- [Basic Replace]
 @district_ukn_automation_1_r_cost_basic_ukn_causalitons = 0.15
-@district_ukn_hab_automation_maintenance_2_r_cost_basic_ukn_causalitons = 0.15
+@district_ukn_hab_automation_maintenance_2_r_cost_basic_ukn_causalitons = 0.24
 @district_ukn_arcology_automation_4_r_cost_basic_ukn_causalitons = 0.62
 
 ### UPKEEP ###---------------------------
@@ -2349,7 +2349,7 @@
 
 # Minerals
 @district_ukn_industrial_1_cost_basic_minerals = 750
-@district_ukn_hab_industrial_2_cost_basic_minerals = 650
+@district_ukn_hab_industrial_2_cost_basic_minerals = 1000
 @district_ukn_arcology_arms_industry_4_cost_basic_minerals = 1500
 @district_ukn_rw_industrial_5_cost_basic_minerals = 4000
 
@@ -2373,7 +2373,7 @@
 @district_ukn_rw_industrial_5_cost_basic_ukn_meta_materials = 1000
 #--- [Basic Replacement]
 @district_ukn_industrial_1_r_cost_basic_ukn_meta_materials = 320
-@district_ukn_hab_industrial_2_r_cost_basic_ukn_meta_materials = 320
+@district_ukn_hab_industrial_2_r_cost_basic_ukn_meta_materials = 470
 @district_ukn_arcology_arms_industry_4_r_cost_basic_ukn_meta_materials = 810
 @district_ukn_rw_industrial_5_r_cost_basic_ukn_meta_materials = 2700
 
@@ -2394,7 +2394,7 @@
 # Quasi-Matter
 #--- [Basic Replacement]
 @district_ukn_industrial_1_r_cost_basic_ukn_quasi_matter = 0.78
-@district_ukn_hab_industrial_2_r_cost_basic_ukn_quasi_matter = 0.78
+@district_ukn_hab_industrial_2_r_cost_basic_ukn_quasi_matter = 1.15
 @district_ukn_arcology_arms_industry_4_r_cost_basic_ukn_quasi_matter = 2.00
 @district_ukn_rw_industrial_5_r_cost_basic_ukn_quasi_matter = 6.62
 #--- [Advanced Replacement]
@@ -2406,7 +2406,7 @@
 # Causalitons
 #--- [Basic Replacement]
 @district_ukn_industrial_1_r_cost_basic_ukn_causalitons = 0.24
-@district_ukn_hab_industrial_2_r_cost_basic_ukn_causalitons = 0.24
+@district_ukn_hab_industrial_2_r_cost_basic_ukn_causalitons = 0.35
 @district_ukn_arcology_arms_industry_4_r_cost_basic_ukn_causalitons = 0.62
 @district_ukn_rw_industrial_5_r_cost_basic_ukn_causalitons = 2.05
 #--- [Advanced Replacement]
@@ -2446,7 +2446,7 @@
 
 # Minerals
 @district_ukn_science_1_cost_basic_minerals = 750
-@district_ukn_hab_science_2_cost_basic_minerals = 650
+@district_ukn_hab_science_2_cost_basic_minerals = 1000
 @district_ukn_arcology_civilian_industry_4_cost_basic_minerals = 1500
 @district_ukn_rw_science_5_cost_basic_minerals = 4000
 
@@ -2476,7 +2476,7 @@
 @district_ukn_rw_science_5_cost_basic_ukn_meta_materials = 1000
 #--- [Basic Replacement]
 @district_ukn_science_1_r_cost_basic_ukn_meta_materials = 320
-@district_ukn_hab_science_2_r_cost_basic_ukn_meta_materials = 320
+@district_ukn_hab_science_2_r_cost_basic_ukn_meta_materials = 470
 @district_ukn_arcology_civilian_industry_4_r_cost_basic_ukn_meta_materials = 810
 @district_ukn_rw_science_5_r_cost_basic_ukn_meta_materials = 2700
 
@@ -2497,7 +2497,7 @@
 # Quasi-Matter
 #--- [Basic Replacement]
 @district_ukn_science_1_r_cost_basic_ukn_quasi_matter = 0.78
-@district_ukn_hab_science_2_r_cost_basic_ukn_quasi_matter = 0.78
+@district_ukn_hab_science_2_r_cost_basic_ukn_quasi_matter = 1.15
 @district_ukn_arcology_civilian_industry_4_r_cost_basic_ukn_quasi_matter = 2.00
 @district_ukn_rw_science_5_r_cost_basic_ukn_quasi_matter = 6.62
 #--- [Advanced Replacement]
@@ -2509,7 +2509,7 @@
 # Causalitons
 #--- [Basic Replacement]
 @district_ukn_science_1_r_cost_basic_ukn_causalitons = 0.24
-@district_ukn_hab_science_2_r_cost_basic_ukn_causalitons = 0.24
+@district_ukn_hab_science_2_r_cost_basic_ukn_causalitons = 0.35
 @district_ukn_arcology_civilian_industry_4_r_cost_basic_ukn_causalitons = 0.62
 @district_ukn_rw_science_5_r_cost_basic_ukn_causalitons = 2.05
 #--- [Advanced Replacement]
@@ -2549,7 +2549,7 @@
 
 # Minerals
 @district_ukn_commercial_1_cost_basic_minerals = 500
-@district_ukn_hab_commercial_2_cost_basic_minerals = 400
+@district_ukn_hab_commercial_2_cost_basic_minerals = 650
 @district_ukn_arcology_commercial_4_cost_basic_minerals = 1500
 @district_ukn_rw_commercial_5_cost_basic_minerals = 4000
 
@@ -2573,7 +2573,7 @@
 @district_ukn_rw_commercial_5_cost_basic_ukn_meta_materials = 1000
 #--- [Basic Replacement]
 @district_ukn_commercial_1_r_cost_basic_ukn_meta_materials = 210
-@district_ukn_hab_commercial_2_r_cost_basic_ukn_meta_materials = 210
+@district_ukn_hab_commercial_2_r_cost_basic_ukn_meta_materials = 320
 @district_ukn_arcology_commercial_4_r_cost_basic_ukn_meta_materials = 810
 @district_ukn_rw_commercial_5_r_cost_basic_ukn_meta_materials = 2700
 
@@ -2606,7 +2606,7 @@
 # Causalitons
 #--- [Basic Replacement]
 @district_ukn_commercial_1_r_cost_basic_ukn_causalitons = 0.15
-@district_ukn_hab_commercial_2_r_cost_basic_ukn_causalitons = 0.15
+@district_ukn_hab_commercial_2_r_cost_basic_ukn_causalitons = 0.24
 @district_ukn_arcology_commercial_4_r_cost_basic_ukn_causalitons = 0.62
 @district_ukn_rw_commercial_5_r_cost_basic_ukn_causalitons = 2.05
 #--- [Advanced Replacement]
@@ -2644,7 +2644,7 @@
 
 # Minerals
 @district_ukn_bureaucratic_1_cost_basic_minerals = 500
-@district_ukn_hab_cultural_2_cost_basic_minerals = 400
+@district_ukn_hab_cultural_2_cost_basic_minerals = 650
 @district_ukn_arcology_administrative_4_cost_basic_minerals = 1500
 @district_ukn_rw_bureaucratic_5_cost_basic_minerals = 4000
 
@@ -2668,7 +2668,7 @@
 @district_ukn_rw_bureaucratic_5_cost_basic_ukn_meta_materials = 1000
 #--- [Basic Replacement]
 @district_ukn_bureaucratic_1_r_cost_basic_ukn_meta_materials = 210
-@district_ukn_hab_cultural_2_r_cost_basic_ukn_meta_materials = 210
+@district_ukn_hab_cultural_2_r_cost_basic_ukn_meta_materials = 320
 @district_ukn_arcology_administrative_4_r_cost_basic_ukn_meta_materials = 810
 @district_ukn_rw_bureaucratic_5_r_cost_basic_ukn_meta_materials = 2700
 
@@ -2701,7 +2701,7 @@
 # Causalitons
 #--- [Basic Replacement]
 @district_ukn_bureaucratic_1_r_cost_basic_ukn_causalitons = 0.15
-@district_ukn_hab_cultural_2_r_cost_basic_ukn_causalitons = 0.15
+@district_ukn_hab_cultural_2_r_cost_basic_ukn_causalitons = 0.24
 @district_ukn_arcology_administrative_4_r_cost_basic_ukn_causalitons = 0.62
 @district_ukn_rw_bureaucratic_5_r_cost_basic_ukn_causalitons = 2.05
 #--- [Advanced Replacement]
@@ -2739,7 +2739,7 @@
 
 # Minerals
 @district_ukn_corporate_bureaucratic_1_cost_basic_minerals = 500
-@district_ukn_hab_corporate_bureaucratic_2_cost_basic_minerals = 400
+@district_ukn_hab_corporate_bureaucratic_2_cost_basic_minerals = 650
 @district_ukn_arcology_leisure_4_cost_basic_minerals = 1500
 @district_ukn_rw_corporate_bureaucratic_5_cost_basic_minerals = 4000
 
@@ -2763,7 +2763,7 @@
 @district_ukn_rw_corporate_bureaucratic_5_cost_basic_ukn_meta_materials = 1000
 #--- [Basic Replacement]
 @district_ukn_corporate_bureaucratic_1_r_cost_basic_ukn_meta_materials = 210
-@district_ukn_hab_corporate_bureaucratic_2_r_cost_basic_ukn_meta_materials = 210
+@district_ukn_hab_corporate_bureaucratic_2_r_cost_basic_ukn_meta_materials = 320
 @district_ukn_arcology_leisure_4_r_cost_basic_ukn_meta_materials = 810
 @district_ukn_rw_corporate_bureaucratic_5_r_cost_basic_ukn_meta_materials = 2700
 
@@ -2796,7 +2796,7 @@
 # Causalitons
 #--- [Basic Replacement]
 @district_ukn_corporate_bureaucratic_1_r_cost_basic_ukn_causalitons = 0.15
-@district_ukn_hab_corporate_bureaucratic_2_r_cost_basic_ukn_causalitons = 0.15
+@district_ukn_hab_corporate_bureaucratic_2_r_cost_basic_ukn_causalitons = 0.24
 @district_ukn_arcology_leisure_4_r_cost_basic_ukn_causalitons = 0.62
 @district_ukn_rw_corporate_bureaucratic_5_r_cost_basic_ukn_causalitons = 2.05
 #--- [Advanced Replacement]
@@ -2834,7 +2834,7 @@
 
 # Minerals
 @district_ukn_temple_1_cost_basic_minerals = 500
-@district_ukn_hab_temple_2_cost_basic_minerals = 400
+@district_ukn_hab_temple_2_cost_basic_minerals = 650
 @district_ukn_arcology_religious_4_cost_basic_minerals = 1500
 @district_ukn_rw_temple_5_cost_basic_minerals = 4000
 
@@ -2858,7 +2858,7 @@
 @district_ukn_rw_temple_5_cost_basic_ukn_meta_materials = 1000
 #--- [Basic Replacement]
 @district_ukn_temple_1_r_cost_basic_ukn_meta_materials = 210
-@district_ukn_hab_temple_2_r_cost_basic_ukn_meta_materials = 210
+@district_ukn_hab_temple_2_r_cost_basic_ukn_meta_materials = 320
 @district_ukn_arcology_religious_4_r_cost_basic_ukn_meta_materials = 810
 @district_ukn_rw_temple_5_r_cost_basic_ukn_meta_materials = 2700
 
@@ -2891,7 +2891,7 @@
 # Causalitons
 #--- [Basic Replacement]
 @district_ukn_temple_1_r_cost_basic_ukn_causalitons = 0.15
-@district_ukn_hab_temple_2_r_cost_basic_ukn_causalitons = 0.15
+@district_ukn_hab_temple_2_r_cost_basic_ukn_causalitons = 0.24
 @district_ukn_arcology_religious_4_r_cost_basic_ukn_causalitons = 0.62
 @district_ukn_rw_temple_5_r_cost_basic_ukn_causalitons = 2.05
 #--- [Advanced Replacement]
@@ -2929,7 +2929,7 @@
 
 # Minerals
 @district_ukn_memorial_1_cost_basic_minerals = 500
-@district_ukn_hab_memorial_2_cost_basic_minerals = 400
+@district_ukn_hab_memorial_2_cost_basic_minerals = 650
 @district_ukn_arcology_memorial_4_cost_basic_minerals = 1500
 @district_ukn_rw_memorial_5_cost_basic_minerals = 4000
 
@@ -2953,7 +2953,7 @@
 @district_ukn_rw_memorial_5_cost_basic_ukn_meta_materials = 1000
 #--- [Basic Replacement]
 @district_ukn_memorial_1_r_cost_basic_ukn_meta_materials = 210
-@district_ukn_hab_memorial_2_r_cost_basic_ukn_meta_materials = 210
+@district_ukn_hab_memorial_2_r_cost_basic_ukn_meta_materials = 320
 @district_ukn_arcology_memorial_4_r_cost_basic_ukn_meta_materials = 810
 @district_ukn_rw_memorial_5_r_cost_basic_ukn_meta_materials = 2700
 
@@ -2986,7 +2986,7 @@
 # Causalitons
 #--- [Basic Replacement]
 @district_ukn_memorial_1_r_cost_basic_ukn_causalitons = 0.15
-@district_ukn_hab_memorial_2_r_cost_basic_ukn_causalitons = 0.15
+@district_ukn_hab_memorial_2_r_cost_basic_ukn_causalitons = 0.24
 @district_ukn_arcology_memorial_4_r_cost_basic_ukn_causalitons = 0.62
 @district_ukn_rw_memorial_5_r_cost_basic_ukn_causalitons = 2.05
 #--- [Advanced Replacement]
@@ -3024,7 +3024,7 @@
 
 # Minerals
 @district_ukn_hive_node_1_cost_basic_minerals = 500
-@district_ukn_hab_hive_node_2_cost_basic_minerals = 400
+@district_ukn_hab_hive_node_2_cost_basic_minerals = 650
 @district_ukn_arcology_hive_node_4_cost_basic_minerals = 1500
 @district_ukn_rw_hive_node_5_cost_basic_minerals = 4000
 
@@ -3048,7 +3048,7 @@
 @district_ukn_rw_hive_node_5_cost_basic_ukn_meta_materials = 1000
 #--- [Basic Replacement]
 @district_ukn_hive_node_1_r_cost_basic_ukn_meta_materials = 210
-@district_ukn_hab_hive_node_2_r_cost_basic_ukn_meta_materials = 210
+@district_ukn_hab_hive_node_2_r_cost_basic_ukn_meta_materials = 320
 @district_ukn_arcology_hive_node_4_r_cost_basic_ukn_meta_materials = 810
 @district_ukn_rw_hive_node_5_r_cost_basic_ukn_meta_materials = 2700
 
@@ -3081,7 +3081,7 @@
 # Causalitons
 #--- [Basic Replacement]
 @district_ukn_hive_node_1_r_cost_basic_ukn_causalitons = 0.15
-@district_ukn_hab_hive_node_2_r_cost_basic_ukn_causalitons = 0.15
+@district_ukn_hab_hive_node_2_r_cost_basic_ukn_causalitons = 0.24
 @district_ukn_arcology_hive_node_4_r_cost_basic_ukn_causalitons = 0.62
 @district_ukn_rw_hive_node_5_r_cost_basic_ukn_causalitons = 2.05
 #--- [Advanced Replacement]
@@ -3119,7 +3119,7 @@
 
 # Minerals
 @district_ukn_uplink_1_cost_basic_minerals = 500
-@district_ukn_hab_uplink_2_cost_basic_minerals = 400
+@district_ukn_hab_uplink_2_cost_basic_minerals = 650
 @district_ukn_arcology_uplink_4_cost_basic_minerals = 1500
 @district_ukn_rw_uplink_5_cost_basic_minerals = 4000
 
@@ -3143,7 +3143,7 @@
 @district_ukn_rw_uplink_5_cost_basic_ukn_meta_materials = 1000
 #--- [Basic Replacement]
 @district_ukn_uplink_1_r_cost_basic_ukn_meta_materials = 210
-@district_ukn_hab_uplink_2_r_cost_basic_ukn_meta_materials = 210
+@district_ukn_hab_uplink_2_r_cost_basic_ukn_meta_materials = 320
 @district_ukn_arcology_uplink_4_r_cost_basic_ukn_meta_materials = 810
 @district_ukn_rw_uplink_5_r_cost_basic_ukn_meta_materials = 2700
 
@@ -3176,7 +3176,7 @@
 # Causalitons
 #--- [Basic Replacement]
 @district_ukn_uplink_1_r_cost_basic_ukn_causalitons = 0.15
-@district_ukn_hab_uplink_2_r_cost_basic_ukn_causalitons = 0.15
+@district_ukn_hab_uplink_2_r_cost_basic_ukn_causalitons = 0.24
 @district_ukn_arcology_uplink_4_r_cost_basic_ukn_causalitons = 0.62
 @district_ukn_rw_uplink_5_r_cost_basic_ukn_causalitons = 2.05
 #--- [Advanced Replacement]
@@ -3214,7 +3214,7 @@
 
 # Minerals
 @district_ukn_generator_1_cost_basic_minerals = 500
-@district_ukn_hab_energy_2_cost_basic_minerals = 400
+@district_ukn_hab_energy_2_cost_basic_minerals = 650
 @district_ukn_arcology_generator_4_cost_basic_minerals = 1500
 @district_ukn_rw_generator_5_cost_basic_minerals = 4000
 
@@ -3239,7 +3239,7 @@
 @district_ukn_rw_generator_5_cost_basic_ukn_meta_materials = 1000
 #--- [Basic Replacement]
 @district_ukn_generator_1_r_cost_basic_ukn_meta_materials = 250
-@district_ukn_hab_energy_2_r_cost_basic_ukn_meta_materials = 250
+@district_ukn_hab_energy_2_r_cost_basic_ukn_meta_materials = 360
 @district_ukn_arcology_generator_4_r_cost_basic_ukn_meta_materials = 810
 @district_ukn_rw_generator_5_r_cost_basic_ukn_meta_materials = 2700
 
@@ -3260,7 +3260,7 @@
 # Quasi-Matter
 #--- [Basic Replacement]
 @district_ukn_generator_1_r_cost_basic_ukn_quasi_matter = 0.61
-@district_ukn_hab_energy_2_r_cost_basic_ukn_quasi_matter = 0.61
+@district_ukn_hab_energy_2_r_cost_basic_ukn_quasi_matter = 0.88
 @district_ukn_arcology_generator_4_r_cost_basic_ukn_quasi_matter = 2.00
 @district_ukn_rw_generator_5_r_cost_basic_ukn_quasi_matter = 6.62
 #--- [Advanced Replacement]
@@ -3272,7 +3272,7 @@
 # Causalitons
 #--- [Basic Replacement]
 @district_ukn_generator_1_r_cost_basic_ukn_causalitons = 0.19
-@district_ukn_hab_energy_2_r_cost_basic_ukn_causalitons = 0.19
+@district_ukn_hab_energy_2_r_cost_basic_ukn_causalitons = 0.27
 @district_ukn_arcology_generator_4_r_cost_basic_ukn_causalitons = 0.62
 @district_ukn_rw_generator_5_r_cost_basic_ukn_causalitons = 2.05
 #--- [Advanced Replacement]
@@ -3310,7 +3310,7 @@
 
 # Minerals
 @district_ukn_mining_1_cost_basic_minerals = 500
-@district_ukn_hab_mining_2_cost_basic_minerals = 400
+@district_ukn_hab_mining_2_cost_basic_minerals = 650
 @district_ukn_arcology_mining_4_cost_basic_minerals = 1500
 @district_ukn_rw_mining_5_cost_basic_minerals = 4000
 
@@ -3334,7 +3334,7 @@
 @district_ukn_rw_mining_5_cost_basic_ukn_meta_materials = 1000
 #--- [Basic Replacement]
 @district_ukn_mining_1_r_cost_basic_ukn_meta_materials = 210
-@district_ukn_hab_mining_2_r_cost_basic_ukn_meta_materials = 210
+@district_ukn_hab_mining_2_r_cost_basic_ukn_meta_materials = 320
 @district_ukn_arcology_mining_4_r_cost_basic_ukn_meta_materials = 810
 @district_ukn_rw_mining_5_r_cost_basic_ukn_meta_materials = 2700
 
@@ -3367,7 +3367,7 @@
 # Causalitons
 #--- [Basic Replacement]
 @district_ukn_mining_1_r_cost_basic_ukn_causalitons = 0.15
-@district_ukn_hab_mining_2_r_cost_basic_ukn_causalitons = 0.15
+@district_ukn_hab_mining_2_r_cost_basic_ukn_causalitons = 0.24
 @district_ukn_arcology_mining_4_r_cost_basic_ukn_causalitons = 0.62
 @district_ukn_rw_mining_5_r_cost_basic_ukn_causalitons = 2.05
 #--- [Advanced Replacement]
@@ -3405,7 +3405,7 @@
 
 # Minerals
 @district_ukn_farming_1_cost_basic_minerals = 500
-@district_ukn_hab_farming_2_cost_basic_minerals = 400
+@district_ukn_hab_farming_2_cost_basic_minerals = 650
 @district_ukn_arcology_farming_4_cost_basic_minerals = 1500
 @district_ukn_rw_farming_5_cost_basic_minerals = 4000
 
@@ -3429,7 +3429,7 @@
 @district_ukn_rw_farming_5_cost_basic_ukn_meta_materials = 1000
 #--- [Basic Replacement]
 @district_ukn_farming_1_r_cost_basic_ukn_meta_materials = 210
-@district_ukn_hab_farming_2_r_cost_basic_ukn_meta_materials = 210
+@district_ukn_hab_farming_2_r_cost_basic_ukn_meta_materials = 320
 @district_ukn_arcology_farming_4_r_cost_basic_ukn_meta_materials = 810
 @district_ukn_rw_farming_5_r_cost_basic_ukn_meta_materials = 2700
 
@@ -3462,7 +3462,7 @@
 # Causalitons
 #--- [Basic Replacement]
 @district_ukn_farming_1_r_cost_basic_ukn_causalitons = 0.15
-@district_ukn_hab_farming_2_r_cost_basic_ukn_causalitons = 0.15
+@district_ukn_hab_farming_2_r_cost_basic_ukn_causalitons = 0.24
 @district_ukn_arcology_farming_4_r_cost_basic_ukn_causalitons = 0.62
 @district_ukn_rw_farming_5_r_cost_basic_ukn_causalitons = 2.05
 #--- [Advanced Replacement]

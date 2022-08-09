@@ -83,18 +83,6 @@ researcher = {
 			minerals = -1
 			food = 1.5
 		}
-		upkeep = {
-			trigger = {
-				exists = owner
-				owner = {
-					has_edict = research_subsidies
-				}
-				planet = {
-					UKN_USES_NORMAL_DISTRICTS = yes	
-				}
-			}
-			energy = 0.5
-		}
 ############
 # ARCOLOGY #
 ############
@@ -138,21 +126,6 @@ researcher = {
 			}
 			minerals = -3
 			food = 4.5
-		}
-		upkeep = {
-			trigger = {
-				exists = owner
-				owner = {
-					has_edict = research_subsidies
-				}
-				planet = {
-					OR = {
-						UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-						UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-					}	
-				}
-			}
-			energy = 1
 		}
 #############
 # RINGWORLD #
@@ -198,21 +171,6 @@ researcher = {
 			minerals = -15
 			food = 22.5
 		}
-		upkeep = {
-			trigger = {
-				exists = owner
-				owner = {
-					has_edict = research_subsidies
-				}
-				planet = {
-					OR = {
-						UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-						UKN_USES_RW_SCIENCE_ARCOLOGY_DISTRICTS = yes
-					}	
-				}
-			}
-			energy = 5
-		}
 ############
 # ALDERSON #
 ############
@@ -256,21 +214,6 @@ researcher = {
 			}
 			minerals = -125
 			food = 187.5
-		}
-		upkeep = {
-			trigger = {
-				exists = owner
-				owner = {
-					has_edict = research_subsidies
-				}
-				planet = {
-					OR = {
-						UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-						UKN_USES_ALDERSON_SCIENCE_ARCOLOGY_DISTRICTS = yes
-					}	
-				}
-			}
-			energy = 50
 		}
 ############
 # OVERLORD #
@@ -383,18 +326,6 @@ calculator = {
 			minerals = -1
 			food = 1.5
 		}
-		upkeep = {
-			trigger = {
-				exists = owner
-				owner = {
-					has_edict = research_subsidies
-				}
-				planet = {
-					UKN_USES_NORMAL_DISTRICTS = yes	
-				}
-			}
-			energy = 0.5
-		}
 ############
 # ARCOLOGY #
 ############
@@ -438,21 +369,6 @@ calculator = {
 			}
 			minerals = -2
 			food = 3
-		}
-		upkeep = {
-			trigger = {
-				exists = owner
-				owner = {
-					has_edict = research_subsidies
-				}
-				planet = {
-					OR = {
-						UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-						UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-					}	
-				}
-			}
-			energy = 1
 		}
 #############
 # RINGWORLD #
@@ -498,21 +414,6 @@ calculator = {
 			minerals = -15
 			food = 22.5
 		}
-		upkeep = {
-			trigger = {
-				exists = owner
-				owner = {
-					has_edict = research_subsidies
-				}
-				planet = {
-					OR = {
-						UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-						UKN_USES_RW_SCIENCE_ARCOLOGY_DISTRICTS = yes
-					}	
-				}
-			}
-			energy = 5
-		}
 ############
 # ALDERSON #
 ############
@@ -556,21 +457,6 @@ calculator = {
 			}
 			minerals = -125
 			food = 187.5
-		}
-		upkeep = {
-			trigger = {
-				exists = owner
-				owner = {
-					has_edict = research_subsidies
-				}
-				planet = {
-					OR = {
-						UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-						UKN_USES_ALDERSON_SCIENCE_ARCOLOGY_DISTRICTS = yes
-					}	
-				}
-			}
-			energy = 50
 		}
 ############
 # OVERLORD #
@@ -668,18 +554,6 @@ brain_drone = {
 			minerals = -3
 			food = 4.5
 		}
-		upkeep = {
-			trigger = {
-				exists = owner
-				owner = {
-					has_edict = research_subsidies
-				}
-				planet = {
-					UKN_USES_NORMAL_DISTRICTS = yes	
-				}
-			}
-			energy = 0.5
-		}
 ############
 # ARCOLOGY #
 ############
@@ -723,21 +597,6 @@ brain_drone = {
 			}
 			minerals = -6
 			food = 9
-		}
-		upkeep = {
-			trigger = {
-				exists = owner
-				owner = {
-					has_edict = research_subsidies
-				}
-				planet = {
-					OR = {
-						UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-						UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-					}	
-				}
-			}
-			energy = 1
 		}
 #############
 # RINGWORLD #
@@ -783,21 +642,6 @@ brain_drone = {
 			minerals = -22.5
 			food = 33.75
 		}
-		upkeep = {
-			trigger = {
-				exists = owner
-				owner = {
-					has_edict = research_subsidies
-				}
-				planet = {
-					OR = {
-						UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-						UKN_USES_RW_SCIENCE_ARCOLOGY_DISTRICTS = yes
-					}	
-				}
-			}
-			energy = 5
-		}
 ############
 # ALDERSON #
 ############
@@ -841,21 +685,6 @@ brain_drone = {
 			}
 			minerals = -187.5
 			food = 281.25
-		}
-		upkeep = {
-			trigger = {
-				exists = owner
-				owner = {
-					has_edict = research_subsidies
-				}
-				planet = {
-					OR = {
-						UKN_USES_ALDERSON_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-						UKN_USES_ALDERSON_SCIENCE_ARCOLOGY_DISTRICTS = yes
-					}	
-				}
-			}
-			energy = 50
 		}
 ############
 # OVERLORD #

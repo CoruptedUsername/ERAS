@@ -14,7 +14,6 @@ nutritional_plenitude = {
 		pop_growth_speed = 0.10
 		biological_pop_happiness = 0.05
 		lithoid_pop_happiness = 0.05
-		empire_size_pops_mult = 0.10
 		planet_pops_organics_food_upkeep_mult = 0.25
 		planet_pops_organics_minerals_upkeep_mult = 0.25
 	}
@@ -50,7 +49,6 @@ nutritional_plenitude_hive = {
 
 	modifier = {
 		pop_growth_speed = 0.10
-		empire_size_pops_mult = 0.10
 		planet_pops_organics_food_upkeep_mult = 0.25
 		planet_pops_organics_minerals_upkeep_mult = 0.25
 	}
@@ -88,7 +86,6 @@ expanded_breeding_program_servitor = {
 		pop_growth_speed = 0.20
 		biological_pop_happiness = 0.05
 		lithoid_pop_happiness = 0.05
-		empire_size_pops_mult = 0.10
 		planet_pops_organics_food_upkeep_mult = 0.25
 		planet_pops_organics_minerals_upkeep_mult = 0.25
 	}
@@ -123,7 +120,7 @@ capacity_subsidies = {
 	}
 
 	modifier = {
-		planet_technician_produces_mult = 0.50
+		planet_technician_produces_mult = 0.25
 		planet_technician_energy_upkeep_add = 0.5
 	}
 
@@ -149,7 +146,7 @@ mining_subsidies = {
 	}
 
 	modifier = {
-		planet_miners_produces_mult = 0.50 # Note: Also affects organic special resource miners!
+		planet_miners_produces_mult = 0.25 # Note: Also affects organic special resource miners!
 		planet_miners_energy_upkeep_add = 0.5
 		planet_sr_miners_energy_upkeep_add = 0.5 #Note: _add modifiers don't apply to children, but _mult ones do, so this is necessary here
 	}
@@ -176,7 +173,7 @@ farming_subsidies = {
 	}
 
 	modifier = {
-		planet_farmers_produces_mult = 0.50
+		planet_farmers_produces_mult = 0.25
 		planet_farmers_energy_upkeep_add = 0.5
 	}
 
@@ -203,7 +200,7 @@ industrial_subsidies = {
 
 	modifier = {
 		planet_artisans_produces_mult = 0.10
-		planet_artisans_energy_upkeep_add = 1
+		planet_artisans_energy_upkeep_add = 0.5
 	}
 
 	potential = {
@@ -237,7 +234,7 @@ forge_subsidies = {
 
 	modifier = {
 		planet_metallurgists_produces_mult = 0.10
-		planet_metallurgists_energy_upkeep_add = 1
+		planet_metallurgists_energy_upkeep_add = 0.5
 	}
 
 	prerequisites = {
@@ -263,11 +260,7 @@ research_subsidies = {
 
 	modifier = {
 		planet_researchers_produces_mult = 0.10
-		planet_researchers_energy_upkeep_add = 1
-	}
-
-	potential = {
-		has_tradition = tr_discovery_databank_uplinks
+		planet_researchers_energy_upkeep_add = 0.5
 	}
 
 	prerequisites = {

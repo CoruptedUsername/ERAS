@@ -173,8 +173,8 @@
  
  name_district_ukn_hab_mining_cost_mult:0 "£district£ §H$district_hab_mining$§! Cost"
  
- district_ukn_hab_farming:0 "Agriculture District"
- district_ukn_hab_farming_plural:0 "Agriculture Districts"
+ district_ukn_hab_farming:0 "Hydroponics District"
+ district_ukn_hab_farming_plural:0 "Hydroponics Districts"
  district_ukn_hab_farming_desc:0 "$UKN_DISTRICT_AUTOMATION_TYPE_1$Land set aside for cultivation, either through the growing of crops or animal husbandry."
  district_ukn_hab_farming_build_speed_mult:0 "$district_ukn_hab_farming$ Build Speed"
  mod_planet_district_ukn_hab_farming_build_speed_mult:0 "$district_ukn_hab_farming$ Build Speed"
