@@ -6,12 +6,12 @@
  job_bureaucrat:0 "£ukn_icon_automation_job_resource£ $name_ukn_bureaucrat$"
  job_bureaucrat_plural:0 "£ukn_icon_automation_job_resource£ $name_ukn_bureaucrat_plural$"
  job_bureaucrat_desc:0 "$UKN_JOB_AUTOMATION_RESOURCE$The bureaucratic demands of an empire is a daunting task that requires dedicated and highly trained individuals."
- job_bureaucrat_effect_desc:1 "£job_bureaucrat£ $job_bureaucrat_plural$ reduce Planetary £mod_species_empire_size_mult£ §YEmpire Sprawl from Pops§! by §G0.5%§! and turn £consumer_goods£ §Y$consumer_goods$§! into £unity£ §Y$unity$§!"
+ job_bureaucrat_effect_desc:1 "£job_bureaucrat£ $job_bureaucrat_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £unity£ §Y$unity$§! and reduce Planet £mod_species_empire_size_mult£ §YEmpire Sprawl from Pops§! by §G0.5%§!"
     
  job_coordinator:0 "£ukn_icon_automation_job_resource£ $name_ukn_coordinator$"
  job_coordinator_plural:0 "£ukn_icon_automation_job_resource£ $name_ukn_coordinator_plural$"
  job_coordinator_desc:1 "$UKN_JOB_AUTOMATION_RESOURCE$Signals to and from the Core must be amplified, boosted, and cleaned of static and data corruption."
- job_coordinator_effect_desc:2 "£job_coordinator£ $job_coordinator_plural$ reduce Planetary £mod_species_empire_size_mult£ §YEmpire Sprawl from Pops§! by §G0.5%§! and turn £energy£ §Y$energy$§! into £unity£ §YUnity§!"
+ job_coordinator_effect_desc:2 "£job_coordinator£ $job_coordinator_plural$ turn £energy£ §Y$energy$§! into £unity£ §YUnity§! and reduce Planet £mod_species_empire_size_mult£ §YEmpire Sprawl from Pops§! by §G0.5%§!"
  
  job_manager:0 "£ukn_icon_automation_job_resource£ $name_ukn_manager$"
  job_manager_plural:0 "£ukn_icon_automation_job_resource£ $name_ukn_manager_plural$"
@@ -21,17 +21,17 @@
  job_synapse_drone:0 "£ukn_icon_automation_job_resource£ $name_ukn_synapse_drone$"
  job_synapse_drone_plural:0 "£ukn_icon_automation_job_resource£ $name_ukn_synapse_drone_plural$"
  job_synapse_drone_desc:0 "$UKN_JOB_AUTOMATION_RESOURCE$Signals to and from the Core must be amplified, boosted, and cleaned of static and data corruption."
- job_synapse_drone_effect_desc:4 "£job_synapse_drone£ $job_synapse_drone_plural$ reduce Planetary £mod_species_empire_size_mult£ §YEmpire Sprawl from Pops§! by §G0.5%§! and turn £energy£ §Y$energy$§! and £food£ §Y$food$§! (or £minerals£ §Y$minerals$§!) into £unity£ §Y$unity$§!"
+ job_synapse_drone_effect_desc:4 "£job_synapse_drone£ $job_synapse_drone_plural$ turn £energy£ §Y$energy$§! and £food£ §Y$food$§! (or £minerals£ §Y$minerals$§!) into £unity£ §Y$unity$§! and reduce Planet £mod_species_empire_size_mult£ §YEmpire Sprawl from Pops§! by §G0.5%§!"
   
  job_priest:0 "£ukn_icon_automation_job_resource£ $name_ukn_priest$"
  job_priest_plural:0 "£ukn_icon_automation_job_resource£ $name_ukn_priest_plural$"
  job_priest_desc:1 "$UKN_JOB_AUTOMATION_RESOURCE$The spiritual guidance of the masses is performed by the most pious and devout."
- job_priest_effect_desc:1 "£job_priest£ $job_priest_plural$ increase Planet £mod_pop_ethic_spiritualist_attraction_mult£ §Y$mod_pop_ethic_spiritualist_attraction_mult$§! by §G+5%§! and turn £consumer_goods£ §Y$consumer_goods$§! into £unity£ §Y$unity$§!"
+ job_priest_effect_desc:1 "£job_priest£ $job_priest_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £unity£ §Y$unity$§! and increase Planet £mod_pop_ethic_spiritualist_attraction_mult£ §Y$mod_pop_ethic_spiritualist_attraction_mult$§! by §G+5%§!"
  
  job_death_priest:0 "£ukn_icon_automation_job_resource£ Death Priest"
  job_death_priest_plural:0 "£ukn_icon_automation_job_resource£ Death Priests"
  job_death_priest_desc:0 "$UKN_JOB_AUTOMATION_RESOURCE$The spiritual guidance of the masses is ensured by those who will - when called upon - make sacrifices of their most devout pupils."
- job_death_priest_effect_desc:0 "£job_death_priest£ $job_death_priest_plural$ increase Planet £mod_pop_ethic_spiritualist_attraction_mult£ §Y$mod_pop_ethic_spiritualist_attraction_mult$§! by §G+5%§! and turn £consumer_goods£ §Y$consumer_goods$§! into £unity£ §Y$unity$§! and £society£ §Y$society_research$§!"
+ job_death_priest_effect_desc:0 "£job_death_priest£ $job_death_priest_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £unity£ §Y$unity$§! and £society£ §Y$society_research$§! while increasing Planet £mod_pop_ethic_spiritualist_attraction_mult£ §Y$mod_pop_ethic_spiritualist_attraction_mult$§! by §G+5%§!"
 
  
 # AMENITIES / TRADE VALUE #---------------------------------------------------------
@@ -39,27 +39,27 @@
  job_clerk:0 "£ukn_icon_automation_job_service£ $name_ukn_clerk$"
  job_clerk_plural:0 "£ukn_icon_automation_job_service£ $name_ukn_clerk_plural$"
  job_clerk_desc:0 "$UKN_JOB_AUTOMATION_SERVICE$White-collar workers perform the various administrative office tasks that are crucial to any sufficiently complex working environment."
- job_clerk_effect_desc:0 "£job_clerk£ $job_clerk_plural$ reduce Planetary £mod_empire_size_districts_mult£ §YEmpire Sprawl from Districts§! by §G2.5%§! and produce £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ job_clerk_effect_desc:0 "£job_clerk£ $job_clerk_plural$ produce £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§! and increase the Output and Upkeep of £job£ §YJobs§! by, respectively, §G0.25%§! and §R0.25%§!"
  
  job_duelist:0 "£ukn_icon_automation_job_service£ $name_ukn_duelist$"
  job_duelist_plural:0 "£ukn_icon_automation_job_service£ $name_ukn_duelist_plural$"
  job_duelist_desc:0 "$UKN_JOB_AUTOMATION_SERVICE$Martial experts who display their deadly art for the entertainment of the masses."
- job_duelist_effect_desc:0 "£job_duelist£ $job_duelist_plural$ increase £happiness£ §YHappiness§! by §G1%§! and turn £alloys£ §Y$alloys$§! into £unity£ §Y$unity$§!, £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§! and £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!"
+ job_duelist_effect_desc:0 "£job_duelist£ $job_duelist_plural$ turn £alloys£ §Y$alloys$§! into £unity£ §Y$unity$§!, £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§! and £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§! while increasing Planet £happiness£ §YHappiness§! by §G1%§!"
  
  job_entertainer:0 "£ukn_icon_automation_job_service£ $name_ukn_entertainer$"
  job_entertainer_plural:0 "£ukn_icon_automation_job_service£ $name_ukn_entertainer_plural$"
  job_entertainer_desc:1 "$UKN_JOB_AUTOMATION_SERVICE$It is said there are only two types of lifeforms in the galaxy: the entertainers, and the entertained."
- job_entertainer_effect_desc:0 "£job_entertainer£ $job_entertainer_plural$ increase £happiness£ §YHappiness§! by §G1%§! and turn £consumer_goods£ §Y$consumer_goods$§! into £unity£ §Y$unity$§! and £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ job_entertainer_effect_desc:0 "£job_entertainer£ $job_entertainer_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £unity£ §Y$unity$§! and £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§! while increasing Planet £happiness£ §YHappiness§! by §G1%§!"
  
  job_maintenance_drone:0 "£ukn_icon_automation_job_service£ $name_ukn_maintenance_drone$"
  job_maintenance_drone_plural:0 "£ukn_icon_automation_job_service£ $name_ukn_maintenance_drone_plural$"
  job_maintenance_drone_desc:2 "$UKN_JOB_AUTOMATION_SERVICE$The machinery, systems and infrastructure that serve our needs must be constantly maintained. As must other drones."
- job_maintenance_drone_effect_desc:0 "£job_maintenance_drone£ $job_maintenance_drone_plural$ reduce Planetary £mod_pop_amenities_usage_no_happiness_mult£ §Y$MOD_POP_AMENITIES_USAGE_NO_HAPPINESS_MULT$§! by §G1%§! and increase £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ job_maintenance_drone_effect_desc:0 "£job_maintenance_drone£ $job_maintenance_drone_plural$ increase £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§! and reduce Planet £mod_pop_amenities_usage_no_happiness_mult£ §Y$MOD_POP_AMENITIES_USAGE_NO_HAPPINESS_MULT$§! by §G1%§!"
  
  job_bugged_trader:0 "£ukn_icon_automation_job_service£ $name_ukn_bugged_trader$"
  job_bugged_trader_plural:0 "£ukn_icon_automation_job_service£ $name_ukn_bugged_trader_plural$"
  job_bugged_trader_desc:0 "White-collar workers perform the various administrative office tasks that are crucial to any sufficiently complex working environment."
- job_bugged_trader_effect_desc:0 "£job_bugged_trader£ $job_bugged_trader_plural$ increase Planet £trade_value£ §Y$TRADE_VALUE$§! by §G+1%§! and produce £mod_trade_value_add£ §Y$TRADE_VALUE$§! and £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ job_bugged_trader_effect_desc:0 "£job_bugged_trader£ $job_bugged_trader_plural$ produce £mod_trade_value_add£ §Y$TRADE_VALUE$§! and £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§! while increasing Planet £trade_value£ §Y$TRADE_VALUE$§! by §G+1%§! and "
  mod_job_bugged_trader_add:0 "$job_bugged_trader$ Jobs"
  mod_job_bugged_trader_per_pop:0 "§G+1§! $job_bugged_trader$ Job per $VALUE$ Pops"
  mod_job_bugged_trader_per_pop_short:0 "\n§G+1§! £mod_job_bugged_trader_add£ per $VALUE$ £pop£"

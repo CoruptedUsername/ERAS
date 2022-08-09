@@ -595,8 +595,8 @@
  district_ukn_alderson_commercial_4_job_per_pop_effect_desc: "\nGain §G+1§! $job_bugged_trader$ Job every §Y10§!, §Y5§!, §Y4§!, §Y3§! or §Y2§! Pops if, respectively, §E1§!, §E2§!, §E3§!, §E4§! or §E5§!+ £district£ §H$district_ukn_alderson_commercial$§! are Built\n "
  district_ukn_alderson_commercial_5_job_per_pop_effect_desc: "\nGain §G+1§! $job_bugged_trader$ Job every §Y10§!, §Y5§!, §Y4§!, §Y3§! or §Y2§! Pops if, respectively, §E1§!, §E2§!, §E3§!, §E4§! or §E5§!+ £district£ §H$district_ukn_alderson_commercial$§! are Built\n "
  
- job_ukn_clerk_bugged_trader_capital_normal_provide: "\n§HEmpire Capital Planets§! are provided with §G2§! £job_clerk£ §H$job_clerk_plural$§! and §G1§! £job_bugged_trader£ §H$job_bugged_trader$§! "
- job_ukn_clerk_bugged_trader_capital_advanced_provide: "\n§HEmpire Capital Planets§! are provided with §G2§! £job_clerk£ §H$job_clerk_plural$§! and §G1§! £job_bugged_trader£ §H$job_bugged_trader$§! "
+ job_ukn_clerk_bugged_trader_capital_normal_provide: "\n§HEmpire Capital Planets§! are provided with §G2§! £job_bugged_trader£ §H$job_bugged_trader_plural$§! "
+ job_ukn_clerk_bugged_trader_capital_advanced_provide: "\n§HEmpire Capital Planets§! are provided with §G2§! £job_bugged_trader£ §H$job_bugged_trader_plural$§! "
  
 # Bureaucratic Grid
  building_ukn_bureaucratic_1:0 "§B§!§E§!§B§!Bureaucratic Grid"
