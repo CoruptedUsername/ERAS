@@ -74,9 +74,9 @@
 @building_ukn_automation_grid_7_upkeep_energy = 25
 
 
-####################
-# COMMERCIAL GRIDS #
-####################
+#######################
+# ENTERTAINMENT GRIDS #
+#######################
 
 ### BUILD TIME ###---------------------------
 
@@ -87,7 +87,7 @@
 ### COST ###---------------------------
 
 # Articles
-@building_ukn_holo_theatres_1_cost_basic_consumer_goods = 50
+@building_ukn_holo_theatres_1_cost_basic_consumer_goods = 100
 @building_ukn_holo_theatres_3_cost_basic_consumer_goods = 100
 @building_ukn_holo_theatres_4_cost_basic_consumer_goods = 150
 
@@ -107,15 +107,15 @@
 @building_ukn_holo_theatres_4_cost_advanced_rare_crystals = 30
 
 # Polymerics
-@building_ukn_holo_theatres_1_cost_basic_alloys = 100
-@building_ukn_holo_theatres_3_cost_basic_alloys = 200
+@building_ukn_holo_theatres_1_cost_basic_alloys = 0
+@building_ukn_holo_theatres_3_cost_basic_alloys = 0
 
 # Meta-Materials
 @building_ukn_holo_theatres_4_cost_basic_ukn_meta_materials = 200
 #--- [Basic Replace]
-@building_ukn_holo_theatres_1_r_cost_basic_ukn_meta_materials = 320
-@building_ukn_holo_theatres_3_r_cost_basic_ukn_meta_materials = 250
-@building_ukn_holo_theatres_4_r_cost_basic_ukn_meta_materials = 250
+@building_ukn_holo_theatres_1_r_cost_basic_ukn_meta_materials = 210
+@building_ukn_holo_theatres_3_r_cost_basic_ukn_meta_materials = 210
+@building_ukn_holo_theatres_4_r_cost_basic_ukn_meta_materials = 210
 
 # Femtomatter
 #--- [Advanced Replace]
@@ -131,9 +131,9 @@
 
 # Quasi-Matter
 #--- [Basic Replace]
-@building_ukn_holo_theatres_1_r_cost_basic_ukn_quasi_matter = 0.7858
-@building_ukn_holo_theatres_3_r_cost_basic_ukn_quasi_matter = 0.6139
-@building_ukn_holo_theatres_4_r_cost_basic_ukn_quasi_matter = 0.6139
+@building_ukn_holo_theatres_1_r_cost_basic_ukn_quasi_matter = 0.5157
+@building_ukn_holo_theatres_3_r_cost_basic_ukn_quasi_matter = 0.5157
+@building_ukn_holo_theatres_4_r_cost_basic_ukn_quasi_matter = 1.0068
 #--- [Advanced Replace]
 @building_ukn_holo_theatres_1_r_cost_advanced_ukn_quasi_matter = 0
 @building_ukn_holo_theatres_3_r_cost_advanced_ukn_quasi_matter = 0.1578
@@ -141,9 +141,9 @@
 
 # Causalitons
 #--- [Basic Replace]
-@building_ukn_holo_theatres_1_r_cost_basic_ukn_causalitons = 0.2447
-@building_ukn_holo_theatres_3_r_cost_basic_ukn_causalitons = 0.1912
-@building_ukn_holo_theatres_4_r_cost_basic_ukn_causalitons = 0.1912
+@building_ukn_holo_theatres_1_r_cost_basic_ukn_causalitons = 0.1606
+@building_ukn_holo_theatres_3_r_cost_basic_ukn_causalitons = 0.1606
+@building_ukn_holo_theatres_4_r_cost_basic_ukn_causalitons = 0.3135
 #--- [Advanced Replace]
 @building_ukn_holo_theatres_1_r_cost_advanced_ukn_causalitons = 0
 @building_ukn_holo_theatres_3_r_cost_advanced_ukn_causalitons = 0.0491
@@ -157,9 +157,147 @@
 @building_ukn_holo_theatres_4_upkeep_energy = 15
 
 
-####################
-# COMMERCIAL GRIDS #
-####################
+#####################
+# ENFORCEMENT GRIDS #
+#####################
+
+### BUILD TIME ###---------------------------
+
+@building_ukn_precinct_house_1_build_time = 360
+@building_ukn_precinct_house_2_build_time = 360
+
+### COST ###---------------------------
+
+# Articles
+@building_ukn_precinct_house_1_cost_basic_consumer_goods = 100
+@building_ukn_precinct_house_2_cost_basic_consumer_goods = 100
+
+# Minerals
+@building_ukn_precinct_house_1_cost_basic_minerals = 500
+@building_ukn_precinct_house_2_cost_basic_minerals = 500
+
+# Exotic Gases
+@building_ukn_precinct_house_1_cost_advanced_exotic_gases = 0
+@building_ukn_precinct_house_2_cost_advanced_exotic_gases = 0
+
+# Rare Crystals
+@building_ukn_precinct_house_1_cost_advanced_rare_crystals = 0
+@building_ukn_precinct_house_2_cost_advanced_rare_crystals = 0
+
+# Polymerics
+@building_ukn_precinct_house_1_cost_basic_alloys = 0
+@building_ukn_precinct_house_2_cost_basic_alloys = 0
+
+# Meta-Materials
+#--- [Basic Replace]
+@building_ukn_precinct_house_1_r_cost_basic_ukn_meta_materials = 210
+@building_ukn_precinct_house_2_r_cost_basic_ukn_meta_materials = 210
+
+# Femtomatter
+#--- [Advanced Replace]
+@building_ukn_precinct_house_1_r_cost_advanced_ukn_femtomatter = 0
+@building_ukn_precinct_house_2_r_cost_advanced_ukn_femtomatter = 0
+
+# Condensics
+#--- [Advanced Replace]
+@building_ukn_precinct_house_1_r_cost_advanced_ukn_condensics = 0
+@building_ukn_precinct_house_2_r_cost_advanced_ukn_condensics = 0
+
+# Quasi-Matter
+#--- [Basic Replace]
+@building_ukn_precinct_house_1_r_cost_basic_ukn_quasi_matter = 0.5157
+@building_ukn_precinct_house_2_r_cost_basic_ukn_quasi_matter = 0.5157
+#--- [Advanced Replace]
+@building_ukn_precinct_house_1_r_cost_advanced_ukn_quasi_matter = 0
+@building_ukn_precinct_house_2_r_cost_advanced_ukn_quasi_matter = 0
+
+# Causalitons
+#--- [Basic Replace]
+@building_ukn_precinct_house_1_r_cost_basic_ukn_causalitons = 0.1606
+@building_ukn_precinct_house_2_r_cost_basic_ukn_causalitons = 0.1606
+#--- [Advanced Replace]
+@building_ukn_precinct_house_1_r_cost_advanced_ukn_causalitons = 0
+@building_ukn_precinct_house_2_r_cost_advanced_ukn_causalitons = 0
+
+### UPKEEP ###---------------------------
+
+# Energy
+@building_ukn_precinct_house_1_upkeep_energy = 5
+@building_ukn_precinct_house_2_upkeep_energy = 10
+
+
+##################
+# SENTINEL GRIDS #
+##################
+
+### BUILD TIME ###---------------------------
+
+@building_ukn_sentinel_posts_1_build_time = 360
+@building_ukn_sentinel_posts_2_build_time = 360
+
+### COST ###---------------------------
+
+# Articles
+@building_ukn_sentinel_posts_1_cost_basic_consumer_goods = 100
+@building_ukn_sentinel_posts_2_cost_basic_consumer_goods = 100
+
+# Minerals
+@building_ukn_sentinel_posts_1_cost_basic_minerals = 500
+@building_ukn_sentinel_posts_2_cost_basic_minerals = 500
+
+# Exotic Gases
+@building_ukn_sentinel_posts_1_cost_advanced_exotic_gases = 0
+@building_ukn_sentinel_posts_2_cost_advanced_exotic_gases = 0
+
+# Rare Crystals
+@building_ukn_sentinel_posts_1_cost_advanced_rare_crystals = 0
+@building_ukn_sentinel_posts_2_cost_advanced_rare_crystals = 0
+
+# Polymerics
+@building_ukn_sentinel_posts_1_cost_basic_alloys = 0
+@building_ukn_sentinel_posts_2_cost_basic_alloys = 0
+
+# Meta-Materials
+#--- [Basic Replace]
+@building_ukn_sentinel_posts_1_r_cost_basic_ukn_meta_materials = 210
+@building_ukn_sentinel_posts_2_r_cost_basic_ukn_meta_materials = 210
+
+# Femtomatter
+#--- [Advanced Replace]
+@building_ukn_sentinel_posts_1_r_cost_advanced_ukn_femtomatter = 0
+@building_ukn_sentinel_posts_2_r_cost_advanced_ukn_femtomatter = 0
+
+# Condensics
+#--- [Advanced Replace]
+@building_ukn_sentinel_posts_1_r_cost_advanced_ukn_condensics = 0
+@building_ukn_sentinel_posts_2_r_cost_advanced_ukn_condensics = 0
+
+# Quasi-Matter
+#--- [Basic Replace]
+@building_ukn_sentinel_posts_1_r_cost_basic_ukn_quasi_matter = 0.5157
+@building_ukn_sentinel_posts_2_r_cost_basic_ukn_quasi_matter = 0.5157
+#--- [Advanced Replace]
+@building_ukn_sentinel_posts_1_r_cost_advanced_ukn_quasi_matter = 0
+@building_ukn_sentinel_posts_2_r_cost_advanced_ukn_quasi_matter = 0
+
+# Causalitons
+#--- [Basic Replace]
+@building_ukn_sentinel_posts_1_r_cost_basic_ukn_causalitons = 0.1606
+@building_ukn_sentinel_posts_2_r_cost_basic_ukn_causalitons = 0.1606
+#--- [Advanced Replace]
+@building_ukn_sentinel_posts_1_r_cost_advanced_ukn_causalitons = 0
+@building_ukn_sentinel_posts_2_r_cost_advanced_ukn_causalitons = 0
+
+### UPKEEP ###---------------------------
+
+# Energy
+@building_ukn_sentinel_posts_1_upkeep_energy = 5
+@building_ukn_sentinel_posts_2_upkeep_energy = 10
+
+
+#######################
+# ENVIRONMENTAL GRIDS #
+#######################
 
 ### BUILD TIME ###---------------------------
 
