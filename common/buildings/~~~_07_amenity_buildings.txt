@@ -220,8 +220,8 @@ building_holo_theatres = {
 		trigger = {
 			exists = owner
 			OR = {
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS_DISTRICTS = yes
+				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			}
 			owner = {
 				NOT = { has_valid_civic = civic_warrior_culture }
@@ -285,8 +285,8 @@ building_holo_theatres = {
 		trigger = {
 			exists = owner
 			OR = {
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS_DISTRICTS = yes
+				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			}
 			owner = {
 				has_valid_civic = civic_warrior_culture
@@ -344,6 +344,7 @@ building_holo_theatres = {
 		text = job_duelist_effect_desc
 	}
 }
+
 
 
 
@@ -548,8 +549,8 @@ building_hyper_entertainment_forum = {
 		trigger = {
 			exists = owner
 			OR = {
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS_DISTRICTS = yes
+				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			}
 			owner = {
 				NOT = { has_valid_civic = civic_warrior_culture }
@@ -613,8 +614,8 @@ building_hyper_entertainment_forum = {
 		trigger = {
 			exists = owner
 			OR = {
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS_DISTRICTS = yes
+				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
 			}
 			owner = {
 				has_valid_civic = civic_warrior_culture
