@@ -32,8 +32,8 @@
  ukn_megastructure_tech_acquisition_events.22.a.tooltip:0 " "
  
 # Quasi-Matter Array
- ukn_megastructure_tech_acquisition_events.31.name:0 "Quasi-Matter Actualization"
- ukn_megastructure_tech_acquisition_events.31.desc:0 "PLACEHOLDER"
+ ukn_megastructure_tech_acquisition_events.31.name:0 "Localised Quasi-Matter Production & Superscaling"
+ ukn_megastructure_tech_acquisition_events.31.desc:0 "Our scientists advise that due to the massive amount of infrastructural support required, we will not be able to construct £ukn_quasi_matter£ §H$ukn_quasi_matter$§! production facilities on regular- or arcology planets. Rather, more industrially developed planets will be needed, such as most types of §ERingworlds§!, §EAlderson Disks§!, or the §EBirch World§!."
  ukn_megastructure_tech_acquisition_events.31.a:0 "Acknowledged"
  ukn_megastructure_tech_acquisition_events.31.a.tooltip:0 "Once we have acquired the §Y$ap_gigastructural_constructs$§! acension perk, we will gain the £physics_research£§Y$tech_ukn_quasi_matter_array$§! technology as a §YResearch Option§!"
  ukn_megastructure_tech_acquisition_events.31.b:0 "Excellent"

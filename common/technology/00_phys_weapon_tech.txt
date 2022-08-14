@@ -262,7 +262,7 @@ tech_energy_torpedoes_1 = {
 	gateway = tech_ukn_energy_torpedo_1_gateway
 
 	modifier = {
-		weapon_type_strike_craft_weapon_damage_mult = 0.05 = 0.05
+		weapon_type_strike_craft_weapon_damage_mult = 0.05
 	}
 	
 #P]	potential = {
@@ -319,7 +319,7 @@ tech_energy_torpedoes_2 = {
 	gateway = tech_ukn_energy_torpedo_2_gateway
 
 	modifier = {
-		weapon_type_strike_craft_weapon_damage_mult = 0.05 = 0.05
+		weapon_type_strike_craft_weapon_damage_mult = 0.05
 	}
 	
 #P]	potential = {

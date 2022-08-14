@@ -2342,7 +2342,7 @@
 
 @district_ukn_hive_1_build_time = 360
 @district_ukn_hab_hive_2_build_time = 360
-@district_ukn_arcology_hive_housing_4_build_time = 720
+@district_ukn_arcology_hive_4_build_time = 720
 @district_ukn_rw_hive_5_build_time = 2040
 
 ### COST ###---------------------------
@@ -2350,30 +2350,30 @@
 # Articles
 @district_ukn_hive_1_cost_basic_consumer_goods = 50
 @district_ukn_hab_hive_2_cost_basic_consumer_goods = 100
-@district_ukn_arcology_hive_housing_4_cost_basic_consumer_goods = 150
+@district_ukn_arcology_hive_4_cost_basic_consumer_goods = 150
 @district_ukn_rw_hive_5_cost_basic_consumer_goods = 500
 
 # Minerals
 @district_ukn_hive_1_cost_basic_minerals = 500
 @district_ukn_hab_hive_2_cost_basic_minerals = 400
-@district_ukn_arcology_hive_housing_4_cost_basic_minerals = 1500
+@district_ukn_arcology_hive_4_cost_basic_minerals = 1500
 @district_ukn_rw_hive_5_cost_basic_minerals = 4000
 
 # Rare Crystals
 @district_ukn_hive_1_cost_advanced_rare_crystals = 0
 @district_ukn_hab_hive_2_cost_advanced_rare_crystals = 0
-@district_ukn_arcology_hive_housing_4_cost_advanced_rare_crystals = 0
+@district_ukn_arcology_hive_4_cost_advanced_rare_crystals = 0
 @district_ukn_rw_hive_5_cost_advanced_rare_crystals = 0
 
 # Automachines
 @district_ukn_hive_1_cost_basic_nanites = 0
 @district_ukn_hab_hive_2_cost_basic_nanites = 0
-@district_ukn_arcology_hive_housing_4_cost_basic_nanites = 0
+@district_ukn_arcology_hive_4_cost_basic_nanites = 0
 @district_ukn_rw_hive_5_cost_basic_nanites = 0
 
 # Polymerics
 @district_ukn_hab_hive_2_cost_basic_alloys = 50
-@district_ukn_arcology_hive_housing_4_cost_basic_alloys = 200
+@district_ukn_arcology_hive_4_cost_basic_alloys = 200
 
 # Meta-Materials
 @district_ukn_rw_hive_5_cost_basic_ukn_meta_materials = 1000
@@ -2402,7 +2402,7 @@
 # Energy
 @district_ukn_hive_1_upkeep_energy = 2
 @district_ukn_hab_hive_2_upkeep_energy = 2
-@district_ukn_arcology_hive_housing_4_upkeep_energy = 5
+@district_ukn_arcology_hive_4_upkeep_energy = 5
 @district_ukn_rw_hive_5_upkeep_energy = 5
 
 ####################################
@@ -3902,7 +3902,7 @@
 
 # Energy
 @district_ukn_exotic_particles_factory_4_upkeep_energy = 5
-#	@district_ukn_hab_exotic_particles_factory_4_upkeep_energy = 5
+@district_ukn_hab_exotic_particles_factory_4_upkeep_energy = 5
 @district_ukn_arcology_exotic_particles_factory_4_upkeep_energy = 5
 @district_ukn_rw_exotic_particles_factory_5_upkeep_energy = 5
 

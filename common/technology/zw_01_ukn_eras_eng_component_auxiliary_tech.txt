@@ -884,7 +884,7 @@ tech_ukn_repair_system_sentient_metal_0 = {
 	tier = @tech_ukn_repair_system_sentient_metal_7_tier
 	category = { materials }
 	ai_update_type = all
-	prerequisites = { "tech_ukn_engineering_output__6" }
+	prerequisites = { "tech_ukn_engineering_output_6" }
 	weight = @tech_ukn_repair_system_sentient_metal_7_weight
 
 #	gateway = power_generation

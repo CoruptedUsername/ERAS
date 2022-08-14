@@ -1375,7 +1375,7 @@ district_arcology_religious = {
 			exists = owner
 			owner = {
 				is_spiritualist = yes
-				is_cult = no
+				is_bugged_cult = no
 			}
 		}
 		text = job_priest_effect_desc

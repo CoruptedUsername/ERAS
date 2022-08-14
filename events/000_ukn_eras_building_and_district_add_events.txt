@@ -31,181 +31,25 @@ country_event = {
 					limit = {
 						is_colony = yes
 						UKN_USES_STANDARD_DISTRICTS = yes
-						num_districts = { type = district_generator value = 1 }
+						num_districts = {
+							type = district_generator value > 0
+						}
 					}
-					remove_district = district_generator
-					add_district = district_generator_uncapped
-				}
-				else_if = {
-					limit = {
-						is_colony = yes
-						UKN_USES_STANDARD_DISTRICTS = yes
-						num_districts = { type = district_generator value = 2 }
+					export_trigger_value_to_variable = {
+						trigger = num_districts
+						parameters = {
+							type = district_generator
+						}
+						variable = ukn_temp_counter_variable
 					}
-					remove_district = district_generator
-					remove_district = district_generator
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-				}
-				else_if = {
-					limit = {
-						is_colony = yes
-						UKN_USES_STANDARD_DISTRICTS = yes
-						num_districts = { type = district_generator value = 3 }
+					while = {
+						count = ukn_temp_counter_variable
+						remove_district = district_generator
 					}
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-				}
-				else_if = {
-					limit = {
-						is_colony = yes
-						UKN_USES_STANDARD_DISTRICTS = yes
-						num_districts = { type = district_generator value = 4 }
+					while = {
+						count = ukn_temp_counter_variable
+						add_district = district_generator_uncapped
 					}
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-				}
-				else_if = {
-					limit = {
-						is_colony = yes
-						UKN_USES_STANDARD_DISTRICTS = yes
-						num_districts = { type = district_generator value = 5 }
-					}
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-				}
-				else_if = {
-					limit = {
-						is_colony = yes
-						UKN_USES_STANDARD_DISTRICTS = yes
-						num_districts = { type = district_generator value = 6 }
-					}
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-				}
-				else_if = {
-					limit = {
-						is_colony = yes
-						UKN_USES_STANDARD_DISTRICTS = yes
-						num_districts = { type = district_generator value = 7 }
-					}
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-				}
-				else_if = {
-					limit = {
-						is_colony = yes
-						UKN_USES_STANDARD_DISTRICTS = yes
-						num_districts = { type = district_generator value = 8 }
-					}
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-				}
-				else_if = {
-					limit = {
-						is_colony = yes
-						UKN_USES_STANDARD_DISTRICTS = yes
-						num_districts = { type = district_generator value = 9 }
-					}
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-				}
-				else_if = {
-					limit = {
-						is_colony = yes
-						UKN_USES_STANDARD_DISTRICTS = yes
-						num_districts = { type = district_generator value = 10 }
-					}
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					remove_district = district_generator
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
-					add_district = district_generator_uncapped
 				}
 			}
 		}
