@@ -8,13 +8,13 @@
 
 # [b.001] GATEWAY ACTIVATION #------------------#
 tech_gateway_activation = {
-	cost = @tier4cost3
+	cost = @tech_ukn_gateway_activation_cost
 	area = physics
-	tier = 4
+	tier = @tech_ukn_gateway_activation_tier
 	category = { particles }
 	is_rare = yes
 	is_reverse_engineerable = no
-	weight = @tier4weight3
+	weight = @tech_ukn_gateway_activation_weight
 	prerequisites = { "tech_hyper_drive_3" }
 
 	feature_flags = { gateway_activation }
@@ -111,13 +111,13 @@ tech_gateway_activation = {
 
 # [b.001] GATEWAY CONSTRUCTION #------------------#
 tech_gateway_construction = {
-	cost = @tier5cost3
+	cost = @tech_ukn_gateway_construction_cost
 	area = physics
-	tier = 5
+	tier = @tech_ukn_gateway_construction_tier
 	category = { particles }
 	is_rare = yes
 	is_reverse_engineerable = no
-	weight = @tier5weight3
+	weight = @tech_ukn_gateway_construction_weight
 	prerequisites = { "tech_starbase_5" }
 
 	feature_flags = { gateway_construction }
@@ -212,13 +212,13 @@ tech_gateway_construction = {
 
 # [b.009] STELLAR PARTICLE ACCELERATOR #------------------#
 giga_tech_particle_accelerator = {
-	cost = 15000
+	cost = @tech_ukn_particle_accelerator_cost
 	area = physics
-	tier = 3
+	tier = @tech_ukn_particle_accelerator_tier
 	category = { particles }
 	is_rare = yes
 	prerequisites = { "tech_starbase_5" }
-	weight = @tier3weight2
+	weight = @tech_ukn_particle_accelerator_weight
 	
 	modifier = {
 		country_resource_max_add = 2500
@@ -284,13 +284,13 @@ giga_tech_particle_accelerator = {
 
 # [b.X] CONTAINED KUGELBLITZ #------------------#
 giga_tech_kugelblitz = {
-	cost = 25000
+	cost = @tech_ukn_akugelblitz_cost
 	area = physics
-	tier = 4
+	tier = @tech_ukn_akugelblitz_tier
 	category = { particles }
 	is_rare = yes
 	prerequisites = { "tech_starbase_5" "tech_ukn_power_6" }
-	weight = @tier3weight2
+	weight = @tech_ukn_akugelblitz_weight
 	
 	modifier = { country_resource_max_add = 5000 }
 	
@@ -359,13 +359,13 @@ giga_tech_kugelblitz = {
 
 # [b.X] MACRO-ATMOSPHERIC STABILIZER #------------------#
 giga_tech_terraform_gas = {
-	cost = 30000
+	cost = @tech_ukn_terraform_gas_cost
 	area = physics
-	tier = 4
+	tier = @tech_ukn_terraform_gas_tier
 	category = { particles }
 	is_rare = yes
 	prerequisites = { "tech_starbase_5" }
-	weight = @tier5weight1
+	weight = @tech_ukn_terraform_gas_weight
 	
 	modifier = { terraform_speed_mult = 0.05 }			# Incase this tech's megastructure is disabled
 
@@ -434,13 +434,13 @@ giga_tech_terraform_gas = {
 
 # [b.X] LUNAR SPECULAFRACTOR #------------------#
 giga_tech_disco_moon = {
-	cost = 50000
+	cost = @tech_ukn_disco_moon_cost
 	area = physics
-	tier = 4
+	tier = @tech_ukn_disco_moon_tier
 	category = { particles }
 	is_rare = yes
 	prerequisites = { "tech_starbase_5" }
-	weight = @tier4weight1
+	weight = @tech_ukn_disco_moon_weight
 	prereqfor_desc = {
 		custom = { title = "allow_disco_moon"	desc = "desc_disco_moon" }
 	}
@@ -508,13 +508,13 @@ giga_tech_disco_moon = {
 
 # [b.X] PENROSE SPHERE #------------------#
 giga_tech_penrose_sphere_1 = {
-	cost = 20000
+	cost = @tech_ukn_penrose_sphere_1_cost
 	area = physics
-	tier = 3
+	tier = @tech_ukn_penrose_sphere_1_tier
 	category = { particles }
 	is_rare = yes
 	prerequisites = { "tech_starbase_5" }
-	weight = @tier3weight2
+	weight = @tech_ukn_penrose_sphere_1_weight
 	prereqfor_desc = {
 		custom = { title = "allow_penrose"	desc = "desc_penrose_sphere" }
 	}

@@ -27,6 +27,6 @@
  planet_doctors:0 "Healthcares"
  planet_refiners:0 "Processors"
  planet_translucers:0 "Translucers"
- planet_chemists:0 "Transmutators"
+ planet_ukn_exotic_particles_producers:0 "Transmutators"
  planet_necromancers:0 "Necromancers"
  planet_necro_apprentices:0 "Necrophytes"

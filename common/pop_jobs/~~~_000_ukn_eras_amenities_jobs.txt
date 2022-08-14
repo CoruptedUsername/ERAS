@@ -15,7 +15,8 @@ clerk = {
 	possible_precalc = can_fill_worker_job
 
     planet_modifier = {
-		empire_size_districts_mult = -0.025
+		planet_jobs_produces_mult = 0.0025
+		planet_jobs_upkeep_mult = 0.0025
     }
 
 	triggered_planet_modifier = {

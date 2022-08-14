@@ -27,7 +27,7 @@ tech_ukn_disruptor_1 = {
 	
 #P]	potential = {
 #P]		has_technology = tech_lasers_5
-#P]		has_technology = tech_volatile_motes
+#P]		has_technology = tech_ukn_exotic_particles
 #P]		has_technology = tech_ukn_physics_output_4
 #P]	}
 
@@ -36,7 +36,7 @@ tech_ukn_disruptor_1 = {
 #[ALL] (E4) Required Techs
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_volatile_motes }
+			NOT = { has_technology = tech_ukn_exotic_particles }
 		}
 		modifier = {
 			factor = 0

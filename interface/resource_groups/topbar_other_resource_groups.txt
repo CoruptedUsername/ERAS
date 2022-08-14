@@ -1,11 +1,12 @@
 tb_others_group = {
 	resources = {
+		giga_sr_amb_megaconstruction
 		sr_living_metal
 		ehof_sr_sentient_metal
-		sr_zro
-		minor_artifacts
 		exotic_gases
 		rare_crystals
+		sr_zro
+		minor_artifacts
         acot_sr_dark_energy
         acot_sr_stellarite
         acot_sr_light_matter

@@ -164,7 +164,7 @@ matter_decompressor_1 = {
 		}
 		produces = {
 			minerals = @ukn_matter_decompressor_p1_output_minerals_neutron_star
-			volatile_motes = @ukn_matter_decompressor_p1_output_volatile_motes_neutron_star
+			ukn_exotic_particles = @ukn_matter_decompressor_p1_output_ukn_exotic_particles_neutron_star
 		}
 	}
 #######################
@@ -204,7 +204,7 @@ matter_decompressor_2 = {
 		}
 		produces = {
 			minerals = @ukn_matter_decompressor_p2_output_minerals_neutron_star
-			volatile_motes = @ukn_matter_decompressor_p2_output_volatile_motes_neutron_star
+			ukn_exotic_particles = @ukn_matter_decompressor_p2_output_ukn_exotic_particles_neutron_star
 		}
 	}
 #######################
@@ -245,7 +245,7 @@ matter_decompressor_3 = {
 		}
 		produces = {
 			minerals = @ukn_matter_decompressor_p3_output_minerals_neutron_star
-			volatile_motes = @ukn_matter_decompressor_p3_output_volatile_motes_neutron_star
+			ukn_exotic_particles = @ukn_matter_decompressor_p3_output_ukn_exotic_particles_neutron_star
 		}
 	}
 #######################
@@ -286,7 +286,7 @@ matter_decompressor_4 = {
 		}
 		produces = {
 			minerals = @ukn_matter_decompressor_p4_output_minerals_neutron_star
-			volatile_motes = @ukn_matter_decompressor_p4_output_volatile_motes_neutron_star
+			ukn_exotic_particles = @ukn_matter_decompressor_p4_output_ukn_exotic_particles_neutron_star
 		}
 	}
 #######################
@@ -350,7 +350,7 @@ matter_decompressor_restored = {
 		}
 		produces = {
 			minerals = @ukn_matter_decompressor_r_output_minerals_neutron_star
-			volatile_motes = @ukn_matter_decompressor_r_output_volatile_motes_neutron_star
+			ukn_exotic_particles = @ukn_matter_decompressor_r_output_ukn_exotic_particles_neutron_star
 		}
 	}
 #######################

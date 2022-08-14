@@ -8,13 +8,13 @@
 
 # [e.X] SUBSTELLAR COMPRESSOR #------------------#
 giga_tech_substellar_compressor = {
-	cost = 40000
+	cost = @giga_tech_substellar_compressor_cost
 	area = physics
-	tier = 4
+	tier = @giga_tech_substellar_compressor_tier
 	category = { particles }
 	is_rare = yes
 	prerequisites = { "giga_tech_particle_accelerator" }
-	weight = @tier3weight3
+	weight = @giga_tech_substellar_compressor_weight
 	prereqfor_desc = {
 		custom = { title = "allow_sub_compressor"	desc = "desc_sub_compressor" }
 	}
@@ -78,13 +78,13 @@ giga_tech_substellar_compressor = {
 
 # [e.X] FUSION SUPPRESSOR #------------------#
 giga_tech_fusion_suppressor = {
-	cost = 40000
+	cost = @giga_tech_fusion_suppressor_cost
 	area = physics
-	tier = 5
+	tier = @giga_tech_fusion_suppressor_tier
 	category = { particles }
 	is_rare = yes
 	prerequisites = { "giga_tech_substellar_compressor" }
-	weight = @tier4weight3
+	weight = @giga_tech_fusion_suppressor_weight
 	prereqfor_desc = {
 		custom = { title = "allow_fusion_suppressor"	desc = "desc_fusion_suppressor" }
 	}
@@ -142,13 +142,13 @@ giga_tech_fusion_suppressor = {
 
 # [e.X] X #------------------#
 giga_tech_ringworld_titanic_1 = {
-	cost = 50000
+	cost = @giga_tech_ringworld_titanic_1_cost
 	area = physics
-	tier = 4
+	tier = @giga_tech_ringworld_titanic_1_tier
 	category = { particles }
 	is_rare = yes
 	prerequisites = { "tech_ring_world" }
-	weight = @tier5weight1
+	weight = @giga_tech_ringworld_titanic_1_weight
 	modifier = { megastructure_build_speed_mult = 0.05 }			# Incase this tech's megastructure is disabled
 
 #P]	potential = {
@@ -203,13 +203,13 @@ giga_tech_ringworld_titanic_1 = {
 
 # [e.X] PENROSE SPHERE #------------------#
 giga_tech_penrose_sphere_2 = {
-	cost = 35000
+	cost = @giga_tech_penrose_sphere_2_cost
 	area = physics
-	tier = 4
+	tier = @giga_tech_penrose_sphere_2_tier
 	category = { particles }
 	is_rare = yes
 	prerequisites = { "giga_tech_penrose_sphere_1" }
-	weight = @tier4weight1
+	weight = @giga_tech_penrose_sphere_2_weight
 	prereqfor_desc = {
 		custom = { title = "allow_penrose_stabilize"	desc = "desc_penrose_stabilize" }
 	}

@@ -3460,7 +3460,7 @@ planet_districts_ukn_automachine_assembly = {
 	}
 }
 # Exotic Particle Factory (M)
-planet_districts_ukn_exotic_particle_factory = {
+planet_districts_ukn_exotic_particles_factory = {
 	parent = planet_districts
 
     generate_mult_modifiers = {
@@ -3704,7 +3704,7 @@ planet_districts_ukn_hab_automachine_assembly = {
 	}
 }
 # Exotic Particle Factory (M)
-planet_districts_ukn_hab_exotic_particle_factory = {
+planet_districts_ukn_hab_exotic_particles_factory = {
 	parent = planet_districts
 
     generate_mult_modifiers = {
@@ -3948,7 +3948,7 @@ planet_districts_ukn_arcology_automachine_assembly = {
 	}
 }
 # Exotic Particle Factory (M)
-planet_districts_ukn_arcology_exotic_particle_factory = {
+planet_districts_ukn_arcology_exotic_particles_factory = {
 	parent = planet_districts
 
     generate_mult_modifiers = {
@@ -4192,7 +4192,7 @@ planet_districts_ukn_rw_automachine_assembly = {
 	}
 }
 # Exotic Particle Factory (M)
-planet_districts_ukn_rw_exotic_particle_factory = {
+planet_districts_ukn_rw_exotic_particles_factory = {
 	parent = planet_districts
 
     generate_mult_modifiers = {
@@ -4977,6 +4977,19 @@ planet_ukn_automachine_assemblers = {
 		upkeep
 	}
 	generate_add_modifiers = {
+		produces
+		upkeep
+	}
+}
+
+planet_ukn_exotic_particles_producers = {
+	parent = planet_jobs_productive
+
+    generate_mult_modifiers = {
+		produces
+		upkeep
+	}
+    generate_add_modifiers = {
 		produces
 		upkeep
 	}

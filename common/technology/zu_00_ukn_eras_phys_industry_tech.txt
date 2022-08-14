@@ -136,13 +136,13 @@ tech_ukn_stellar_particle_factory = {
 	tier = @tech_ukn_materials_5_tier
 	category = { particles }
 	ai_update_type = all
-	prerequisites = { "tech_mine_volatile_motes" }
+	prerequisites = { "tech_mine_ukn_exotic_particles" }
 	weight = 0
 
 #	gateway = tech_ukn_materials_condensics_macro_compositor_gateway
 	
 #P]	potential = {
-#P]		has_technology = tech_mine_volatile_motes
+#P]		has_technology = tech_mine_ukn_exotic_particles
 #P]		OR = {
 #P]			has_ascension_perk = ap_galactic_wonders_utopia
 #P]			has_ascension_perk = ap_galactic_wonders_megacorp
@@ -419,7 +419,7 @@ tech_ukn_milestone_theory_5 = {
 #P]	potential = {
 #P]		has_technology = tech_sensors_4
 #P]		has_technology = tech_antimatter_power
-#P]		has_technology = tech_mine_volatile_motes
+#P]		has_technology = tech_mine_ukn_exotic_particles
 #P]		has_technology = tech_physics_3
 #P]		has_technology = tech_ship_armor_3
 #P]		has_technology = tech_engineering_3
@@ -433,7 +433,7 @@ tech_ukn_milestone_theory_5 = {
 		}
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_mine_volatile_motes }
+			NOT = { has_technology = tech_mine_ukn_exotic_particles }
 		}
 		modifier = {
 			factor = 0
@@ -458,7 +458,7 @@ tech_ukn_milestone_theory_5 = {
 		modifier = {
 			factor = 0.5
 			NOR = {
-				has_technology = tech_volatile_motes
+				has_technology = tech_ukn_exotic_particles
 			}
 		}
 		modifier = {

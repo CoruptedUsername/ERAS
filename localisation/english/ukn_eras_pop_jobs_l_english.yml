@@ -98,23 +98,23 @@
 ##### EXOTIC PARTICLE PRODUCERS #####
 #####################################
 
- name_ukn_exotic_particle_producer:0 "Transmutator"
- name_ukn_exotic_particle_producer_plural:0 "Transmutators"
+ name_ukn_exotic_particles_producer:0 "Transmutator"
+ name_ukn_exotic_particles_producer_plural:0 "Transmutators"
 
 #[NORMAL] Transmutators
- job_ukn_exotic_particle_producer:0 "£ukn_icon_automation_job_resource£ Transmutator"
- job_ukn_exotic_particle_producer_plural:0 "£ukn_icon_automation_job_resource£ Transmutators"
- job_ukn_exotic_particle_producer_desc:0 "$UKN_JOB_AUTOMATION_RESOURCE$These highly trained specialists convert a combination of minerals, rare crystals and exotic gases into collections of easily transmutable subatomic particles, mainly through filtered meta-gaseous acceleration."
- mod_job_ukn_exotic_particle_producer_add:0 "$job_ukn_exotic_particle_producer$ Jobs"
- mod_job_ukn_exotic_particle_producer_per_pop:0 "§G+1§! $job_ukn_exotic_particle_producer$ Job per $VALUE$ Pops"
- mod_job_ukn_exotic_particle_producer_per_pop_short:0 "\n§G+1§! £mod_job_ukn_exotic_particle_producer_add£ per $VALUE$ £pop£"
+ job_ukn_exotic_particles_producer:0 "£ukn_icon_automation_job_resource£ Transmutator"
+ job_ukn_exotic_particles_producer_plural:0 "£ukn_icon_automation_job_resource£ Transmutators"
+ job_ukn_exotic_particles_producer_desc:0 "$UKN_JOB_AUTOMATION_RESOURCE$These highly trained specialists convert a combination of minerals, rare crystals and exotic gases into collections of easily transmutable subatomic particles, mainly through filtered meta-gaseous acceleration."
+ mod_job_ukn_exotic_particles_producer_add:0 "$job_ukn_exotic_particles_producer$ Jobs"
+ mod_job_ukn_exotic_particles_producer_per_pop:0 "§G+1§! $job_ukn_exotic_particles_producer$ Job per $VALUE$ Pops"
+ mod_job_ukn_exotic_particles_producer_per_pop_short:0 "\n§G+1§! £mod_job_ukn_exotic_particles_producer_add£ per $VALUE$ £pop£"
  
- job_ukn_exotic_particle_production_drone:0 "£ukn_icon_automation_job_resource£ Transmutator"
- job_ukn_exotic_particle_production_drone_plural:0 "£ukn_icon_automation_job_resource£ Transmutators"
- job_ukn_exotic_particle_production_drone_desc:0 "$UKN_JOB_AUTOMATION_RESOURCE$Specialized complex units convert carefully selected materials into an array of easily-transmutable subatomic particles."
- mod_job_ukn_exotic_particle_production_drone_add:0 "$job_ukn_exotic_particle_production_drone$ Jobs"
- mod_job_ukn_exotic_particle_production_drone_pop:0 "§G+1§! $job_ukn_exotic_particle_production_drone$ Job per $VALUE$ Pops"
- mod_job_ukn_exotic_particle_production_drone_pop_short:0 "\n§G+1§! £mod_job_ukn_exotic_particle_production_drone_add£ per $VALUE$ £pop£"
+ job_ukn_exotic_particles_production_drone:0 "£ukn_icon_automation_job_resource£ Transmutator"
+ job_ukn_exotic_particles_production_drone_plural:0 "£ukn_icon_automation_job_resource£ Transmutators"
+ job_ukn_exotic_particles_production_drone_desc:0 "$UKN_JOB_AUTOMATION_RESOURCE$Specialized complex units convert carefully selected materials into an array of easily-transmutable subatomic particles."
+ mod_job_ukn_exotic_particles_production_drone_add:0 "$job_ukn_exotic_particles_production_drone$ Jobs"
+ mod_job_ukn_exotic_particles_production_drone_pop:0 "§G+1§! $job_ukn_exotic_particles_production_drone$ Job per $VALUE$ Pops"
+ mod_job_ukn_exotic_particles_production_drone_pop_short:0 "\n§G+1§! £mod_job_ukn_exotic_particles_production_drone_add£ per $VALUE$ £pop£"
 
 
 ##############################
@@ -236,59 +236,59 @@
  job_ukn_automachine_assembler_ukn_meta_materials_effect_desc:0 "£job_ukn_automachine_assembler£ $job_ukn_automachine_assembler_plural$ turn £ukn_meta_materials£ §Y$ukn_meta_materials$§! into £nanites£ §Y$nanites$§!"
  job_ukn_automachine_assembly_drone_ukn_meta_materials_effect_desc:0 "£job_ukn_automachine_assembly_drone£ $job_ukn_automachine_assembly_drone_plural$ turn £ukn_meta_materials£ §Y$ukn_meta_materials$§! into £nanites£ §Y$nanites$§!"
 
- job_ukn_automachine_assembler_alloys_volatile_motes_effect_desc:0 "£job_ukn_automachine_assembler£ $job_ukn_automachine_assembler_plural$ turn £alloys£ §Y$alloys$§! and £volatile_motes£ §Y$volatile_motes$§! into £nanites£ §Y$nanites$§!"
- job_ukn_automachine_assembly_drone_alloys_volatile_motes_effect_desc:0 "£job_ukn_automachine_assembly_drone£ $job_ukn_automachine_assembly_drone_plural$ turn £alloys£ §Y$alloys$§! and £volatile_motes£ §Y$volatile_motes$§! into £nanites£ §Y$nanites$§!"
+ job_ukn_automachine_assembler_alloys_ukn_exotic_particles_effect_desc:0 "£job_ukn_automachine_assembler£ $job_ukn_automachine_assembler_plural$ turn £alloys£ §Y$alloys$§! and £ukn_exotic_particles£ §Y$ukn_exotic_particles$§! into £nanites£ §Y$nanites$§!"
+ job_ukn_automachine_assembly_drone_alloys_ukn_exotic_particles_effect_desc:0 "£job_ukn_automachine_assembly_drone£ $job_ukn_automachine_assembly_drone_plural$ turn £alloys£ §Y$alloys$§! and £ukn_exotic_particles£ §Y$ukn_exotic_particles$§! into £nanites£ §Y$nanites$§!"
 
- job_ukn_automachine_assembler_ukn_meta_materials_volatile_motes_effect_desc:0 "£job_ukn_automachine_assembler£ $job_ukn_automachine_assembler_plural$ turn £ukn_meta_materials£ §Y$ukn_meta_materials$§! and £volatile_motes£ §Y$volatile_motes$§! into £nanites£ §Y$nanites$§!"
- job_ukn_automachine_assembly_drone_ukn_meta_materials_volatile_motes_effect_desc:0 "£job_ukn_automachine_assembly_drone£ $job_ukn_automachine_assembly_drone_plural$ turn £ukn_meta_materials£ §Y$ukn_meta_materials$§! and £volatile_motes£ §Y$volatile_motes$§! into £nanites£ §Y$nanites$§!"
+ job_ukn_automachine_assembler_ukn_meta_materials_ukn_exotic_particles_effect_desc:0 "£job_ukn_automachine_assembler£ $job_ukn_automachine_assembler_plural$ turn £ukn_meta_materials£ §Y$ukn_meta_materials$§! and £ukn_exotic_particles£ §Y$ukn_exotic_particles$§! into £nanites£ §Y$nanites$§!"
+ job_ukn_automachine_assembly_drone_ukn_meta_materials_ukn_exotic_particles_effect_desc:0 "£job_ukn_automachine_assembly_drone£ $job_ukn_automachine_assembly_drone_plural$ turn £ukn_meta_materials£ §Y$ukn_meta_materials$§! and £ukn_exotic_particles£ §Y$ukn_exotic_particles$§! into £nanites£ §Y$nanites$§!"
 
- job_ukn_automachine_assembler_ukn_femtomatter_volatile_motes_effect_desc:0 "£job_ukn_automachine_assembler£ $job_ukn_automachine_assembler_plural$ turn £volatile_motes£ §Y$volatile_motes$§! and £ukn_femtomatter£ §Y$ukn_femtomatter$§! into £nanites£ §Y$nanites$§!"
- job_ukn_automachine_assembly_drone_ukn_femtomatter_volatile_motes_effect_desc:0 "£job_ukn_automachine_assembly_drone£ $job_ukn_automachine_assembly_drone_plural$ turn £volatile_motes£ §Y$volatile_motes$§! and £ukn_femtomatter£ §Y$ukn_femtomatter$§! into £nanites£ §Y$nanites$§!"
+ job_ukn_automachine_assembler_ukn_femtomatter_ukn_exotic_particles_effect_desc:0 "£job_ukn_automachine_assembler£ $job_ukn_automachine_assembler_plural$ turn £ukn_exotic_particles£ §Y$ukn_exotic_particles$§! and £ukn_femtomatter£ §Y$ukn_femtomatter$§! into £nanites£ §Y$nanites$§!"
+ job_ukn_automachine_assembly_drone_ukn_femtomatter_ukn_exotic_particles_effect_desc:0 "£job_ukn_automachine_assembly_drone£ $job_ukn_automachine_assembly_drone_plural$ turn £ukn_exotic_particles£ §Y$ukn_exotic_particles$§! and £ukn_femtomatter£ §Y$ukn_femtomatter$§! into £nanites£ §Y$nanites$§!"
 
- job_ukn_automachine_assembler_ukn_condensics_volatile_motes_effect_desc:0 "£job_ukn_automachine_assembler£ $job_ukn_automachine_assembler_plural$ turn £volatile_motes£ §Y$volatile_motes$§! and £ukn_condensics£ §Y$ukn_condensics$§! into £nanites£ §Y$nanites$§!"
- job_ukn_automachine_assembly_drone_ukn_condensics_volatile_motes_effect_desc:0 "£job_ukn_automachine_assembly_drone£ $job_ukn_automachine_assembly_drone_plural$ turn £volatile_motes£ §Y$volatile_motes$§! and £ukn_condensics£ §Y$ukn_condensics$§! into £nanites£ §Y$nanites$§!"
+ job_ukn_automachine_assembler_ukn_condensics_ukn_exotic_particles_effect_desc:0 "£job_ukn_automachine_assembler£ $job_ukn_automachine_assembler_plural$ turn £ukn_exotic_particles£ §Y$ukn_exotic_particles$§! and £ukn_condensics£ §Y$ukn_condensics$§! into £nanites£ §Y$nanites$§!"
+ job_ukn_automachine_assembly_drone_ukn_condensics_ukn_exotic_particles_effect_desc:0 "£job_ukn_automachine_assembly_drone£ $job_ukn_automachine_assembly_drone_plural$ turn £ukn_exotic_particles£ §Y$ukn_exotic_particles$§! and £ukn_condensics£ §Y$ukn_condensics$§! into £nanites£ §Y$nanites$§!"
 #------------
 
  
 #[ALL] Transmutators
- job_ukn_exotic_particle_producer_minerals_effect_desc:0 "£job_ukn_exotic_particle_producer£ $job_ukn_exotic_particle_producer_plural$ turn £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £minerals£ §Y$minerals$§! into £volatile_motes£ §Y$volatile_motes$§!"
- job_ukn_exotic_particle_production_drone_minerals_effect_desc:0 "£job_ukn_exotic_particle_production_drone£ $job_ukn_exotic_particle_production_drone_plural$ turn £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £minerals£ §Y$minerals$§! into £volatile_motes£ §Y$volatile_motes$§!"
+ job_ukn_exotic_particles_producer_minerals_effect_desc:0 "£job_ukn_exotic_particles_producer£ $job_ukn_exotic_particles_producer_plural$ turn £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £minerals£ §Y$minerals$§! into £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!"
+ job_ukn_exotic_particles_production_drone_minerals_effect_desc:0 "£job_ukn_exotic_particles_production_drone£ $job_ukn_exotic_particles_production_drone_plural$ turn £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £minerals£ §Y$minerals$§! into £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!"
 
- job_ukn_exotic_particle_producer_alloys_effect_desc:0 "£job_ukn_exotic_particle_producer£ $job_ukn_exotic_particle_producer_plural$ turn £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £alloys£ §Y$alloys$§! into £volatile_motes£ §Y$volatile_motes$§!"
- job_ukn_exotic_particle_production_drone_alloys_effect_desc:0 "£job_ukn_exotic_particle_production_drone£ $job_ukn_exotic_particle_production_drone_plural$ turn £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £alloys£ §Y$alloys$§! into £volatile_motes£ §Y$volatile_motes$§!"
+ job_ukn_exotic_particles_producer_alloys_effect_desc:0 "£job_ukn_exotic_particles_producer£ $job_ukn_exotic_particles_producer_plural$ turn £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £alloys£ §Y$alloys$§! into £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!"
+ job_ukn_exotic_particles_production_drone_alloys_effect_desc:0 "£job_ukn_exotic_particles_production_drone£ $job_ukn_exotic_particles_production_drone_plural$ turn £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £alloys£ §Y$alloys$§! into £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!"
 
- job_ukn_exotic_particle_producer_ukn_meta_materials_effect_desc:0 "£job_ukn_exotic_particle_producer£ $job_ukn_exotic_particle_producer_plural$ turn £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £ukn_meta_materials£ §Y$ukn_meta_materials$§! into £volatile_motes£ §Y$volatile_motes$§!"
- job_ukn_exotic_particle_production_drone_ukn_meta_materials_effect_desc:0 "£job_ukn_exotic_particle_production_drone£ $job_ukn_exotic_particle_production_drone_plural$ turn £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £ukn_meta_materials£ §Y$ukn_meta_materials$§! into £volatile_motes£ §Y$volatile_motes$§!"
+ job_ukn_exotic_particles_producer_ukn_meta_materials_effect_desc:0 "£job_ukn_exotic_particles_producer£ $job_ukn_exotic_particles_producer_plural$ turn £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £ukn_meta_materials£ §Y$ukn_meta_materials$§! into £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!"
+ job_ukn_exotic_particles_production_drone_ukn_meta_materials_effect_desc:0 "£job_ukn_exotic_particles_production_drone£ $job_ukn_exotic_particles_production_drone_plural$ turn £energy£ §Y$energy$§!, £exotic_gases£ §Y$exotic_gases$§!, £rare_crystals£ §Y$rare_crystals$§! and £ukn_meta_materials£ §Y$ukn_meta_materials$§! into £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!"
 
- job_ukn_exotic_particle_producer_ukn_femtomatter_effect_desc:0 "£job_ukn_exotic_particle_producer£ $job_ukn_exotic_particle_producer_plural$ turn £ukn_femtomatter£ §Y$ukn_femtomatter$§! into £volatile_motes£ §Y$volatile_motes$§!"
- job_ukn_exotic_particle_production_drone_ukn_femtomatter_effect_desc:0 "£job_ukn_exotic_particle_production_drone£ $job_ukn_exotic_particle_production_drone_plural$ turn £ukn_femtomatter£ §Y$ukn_femtomatter$§! into £volatile_motes£ §Y$volatile_motes$§!"
+ job_ukn_exotic_particles_producer_ukn_femtomatter_effect_desc:0 "£job_ukn_exotic_particles_producer£ $job_ukn_exotic_particles_producer_plural$ turn £ukn_femtomatter£ §Y$ukn_femtomatter$§! into £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!"
+ job_ukn_exotic_particles_production_drone_ukn_femtomatter_effect_desc:0 "£job_ukn_exotic_particles_production_drone£ $job_ukn_exotic_particles_production_drone_plural$ turn £ukn_femtomatter£ §Y$ukn_femtomatter$§! into £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!"
 
- job_ukn_exotic_particle_producer_ukn_condensics_effect_desc:0 "£job_ukn_exotic_particle_producer£ $job_ukn_exotic_particle_producer_plural$ turn £ukn_condensics£ §Y$ukn_condensics$§! into £energy£ §Y$energy$§! and £volatile_motes£ §Y$volatile_motes$§!"
- job_ukn_exotic_particle_production_drone_ukn_condensics_effect_desc:0 "£job_ukn_exotic_particle_production_drone£ $job_ukn_exotic_particle_production_drone_plural$ turn £ukn_condensics£ §Y$ukn_condensics$§! into £energy£ §Y$energy$§! and £volatile_motes£ §Y$volatile_motes$§!"
+ job_ukn_exotic_particles_producer_ukn_condensics_effect_desc:0 "£job_ukn_exotic_particles_producer£ $job_ukn_exotic_particles_producer_plural$ turn £ukn_condensics£ §Y$ukn_condensics$§! into £energy£ §Y$energy$§! and £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!"
+ job_ukn_exotic_particles_production_drone_ukn_condensics_effect_desc:0 "£job_ukn_exotic_particles_production_drone£ $job_ukn_exotic_particles_production_drone_plural$ turn £ukn_condensics£ §Y$ukn_condensics$§! into £energy£ §Y$energy$§! and £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!"
 
- job_ukn_exotic_particle_producer_ukn_quasi_matter_effect_desc:0 "£job_ukn_exotic_particle_producer£ $job_ukn_exotic_particle_producer_plural$ turn £ukn_quasi_matter£ §Y$ukn_quasi_matter$§! into £energy£ §Y$energy$§!, £volatile_motes£ §Y$volatile_motes$§! and £sr_dark_matter£ §Y$sr_dark_matter$§!"
- job_ukn_exotic_particle_production_drone_ukn_quasi_matter_effect_desc:0 "£job_ukn_exotic_particle_production_drone£ $job_ukn_exotic_particle_production_drone_plural$ turn £ukn_quasi_matter£ §Y$ukn_quasi_matter$§! into £energy£ §Y$energy$§!, £volatile_motes£ §Y$volatile_motes$§! and £sr_dark_matter£ §Y$sr_dark_matter$§!"
+ job_ukn_exotic_particles_producer_ukn_quasi_matter_effect_desc:0 "£job_ukn_exotic_particles_producer£ $job_ukn_exotic_particles_producer_plural$ turn £ukn_quasi_matter£ §Y$ukn_quasi_matter$§! into £energy£ §Y$energy$§!, £ukn_exotic_particles£ §Y$ukn_exotic_particles$§! and £sr_dark_matter£ §Y$sr_dark_matter$§!"
+ job_ukn_exotic_particles_production_drone_ukn_quasi_matter_effect_desc:0 "£job_ukn_exotic_particles_production_drone£ $job_ukn_exotic_particles_production_drone_plural$ turn £ukn_quasi_matter£ §Y$ukn_quasi_matter$§! into £energy£ §Y$energy$§!, £ukn_exotic_particles£ §Y$ukn_exotic_particles$§! and £sr_dark_matter£ §Y$sr_dark_matter$§!"
 
- job_ukn_exotic_particle_producer_ukn_causalitons_effect_desc:0 "£job_ukn_exotic_particle_producer£ $job_ukn_exotic_particle_producer_plural$ turn £ukn_causalitons£ §Y$ukn_causalitons$§! into £energy£ §Y$energy$§!, £volatile_motes£ §Y$volatile_motes$§!, £sr_dark_matter£ §Y$sr_dark_matter$§! and £ehof_sr_negative_mass£ §Y$ehof_sr_negative_mass$§!"
- job_ukn_exotic_particle_production_drone_ukn_causalitons_effect_desc:0 "£job_ukn_exotic_particle_production_drone£ $job_ukn_exotic_particle_production_drone_plural$ turn £ukn_causalitons£ §Y$ukn_causalitons$§! into £energy£ §Y$energy$§!, £volatile_motes£ §Y$volatile_motes$§!, £sr_dark_matter£ §Y$sr_dark_matter$§! and £ehof_sr_negative_mass£ §Y$ehof_sr_negative_mass$§!"
+ job_ukn_exotic_particles_producer_ukn_causalitons_effect_desc:0 "£job_ukn_exotic_particles_producer£ $job_ukn_exotic_particles_producer_plural$ turn £ukn_causalitons£ §Y$ukn_causalitons$§! into £energy£ §Y$energy$§!, £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!, £sr_dark_matter£ §Y$sr_dark_matter$§! and £ehof_sr_negative_mass£ §Y$ehof_sr_negative_mass$§!"
+ job_ukn_exotic_particles_production_drone_ukn_causalitons_effect_desc:0 "£job_ukn_exotic_particles_production_drone£ $job_ukn_exotic_particles_production_drone_plural$ turn £ukn_causalitons£ §Y$ukn_causalitons$§! into £energy£ §Y$energy$§!, £ukn_exotic_particles£ §Y$ukn_exotic_particles$§!, £sr_dark_matter£ §Y$sr_dark_matter$§! and £ehof_sr_negative_mass£ §Y$ehof_sr_negative_mass$§!"
 #------------
 
  
 #[ALL] Femto-Constructors
- job_ukn_femtomatter_micro_replicator_effect_desc:0 "£job_ukn_femtomatter_micro_replicator£ $job_ukn_femtomatter_micro_replicator_plural$ turn £minerals£ §Y$minerals$§! and £volatile_motes£ §Y$volatile_motes$§! into £ukn_femtomatter£ §Y$ukn_femtomatter$§! and £energy£ §Y$energy$§!"
- job_ukn_femtomatter_micro_replication_drone_effect_desc:0 "£job_ukn_femtomatter_micro_replication_drone£ $job_ukn_femtomatter_micro_replication_drone_plural$ turn £minerals£ §Y$minerals$§! and £volatile_motes£ §Y$volatile_motes$§! into £ukn_femtomatter£ §Y$ukn_femtomatter$§! and £energy£ §Y$energy$§!"
+ job_ukn_femtomatter_micro_replicator_effect_desc:0 "£job_ukn_femtomatter_micro_replicator£ $job_ukn_femtomatter_micro_replicator_plural$ turn £minerals£ §Y$minerals$§! and £ukn_exotic_particles£ §Y$ukn_exotic_particles$§! into £ukn_femtomatter£ §Y$ukn_femtomatter$§! and £energy£ §Y$energy$§!"
+ job_ukn_femtomatter_micro_replication_drone_effect_desc:0 "£job_ukn_femtomatter_micro_replication_drone£ $job_ukn_femtomatter_micro_replication_drone_plural$ turn £minerals£ §Y$minerals$§! and £ukn_exotic_particles£ §Y$ukn_exotic_particles$§! into £ukn_femtomatter£ §Y$ukn_femtomatter$§! and £energy£ §Y$energy$§!"
 #------------
 
  
 #[ALL] Condensics Compositors
- job_ukn_condensics_compositor_effect_desc:0 "£job_ukn_condensics_compositor£ $job_ukn_condensics_compositor_plural$ turn £energy£ §Y$energy$§! and £volatile_motes£ §Y$volatile_motes$§! into £ukn_condensics£ §Y$ukn_condensics$§!"
- job_ukn_condensics_compositation_drone_effect_desc:0 "£job_ukn_condensics_compositation_drone£ $job_ukn_condensics_compositation_drone_plural$ turn £energy£ §Y$energy$§! and £volatile_motes£ §Y$volatile_motes$§! into £ukn_condensics£ §Y$ukn_condensics$§!"
+ job_ukn_condensics_compositor_effect_desc:0 "£job_ukn_condensics_compositor£ $job_ukn_condensics_compositor_plural$ turn £energy£ §Y$energy$§! and £ukn_exotic_particles£ §Y$ukn_exotic_particles$§! into £ukn_condensics£ §Y$ukn_condensics$§!"
+ job_ukn_condensics_compositation_drone_effect_desc:0 "£job_ukn_condensics_compositation_drone£ $job_ukn_condensics_compositation_drone_plural$ turn £energy£ §Y$energy$§! and £ukn_exotic_particles£ §Y$ukn_exotic_particles$§! into £ukn_condensics£ §Y$ukn_condensics$§!"
 #------------
 
  
 #[ALL] Quasi-Matter Supra-Mutators
- job_ukn_quasi_matter_supramutator_effect_desc:0 "£job_ukn_quasi_matter_supramutator£ $job_ukn_quasi_matter_supramutator_plural$ turn £energy£ §Y$energy$§!, £volatile_motes£ §Y$volatile_motes$§! and £sr_dark_matter£ §Y$sr_dark_matter$§! into £ukn_quasi_matter£ §Y$ukn_quasi_matter$§!"
- job_ukn_quasi_matter_supramutation_drone_effect_desc:0 "£job_ukn_quasi_matter_supramutation_drone£ $job_ukn_quasi_matter_supramutation_drone_plural$ turn £energy£ §Y$energy$§!, £volatile_motes£ §Y$volatile_motes$§! and £sr_dark_matter£ §Y$sr_dark_matter$§! into £ukn_quasi_matter£ §Y$ukn_quasi_matter$§!"
+ job_ukn_quasi_matter_supramutator_effect_desc:0 "£job_ukn_quasi_matter_supramutator£ $job_ukn_quasi_matter_supramutator_plural$ turn £energy£ §Y$energy$§!, £ukn_exotic_particles£ §Y$ukn_exotic_particles$§! and £sr_dark_matter£ §Y$sr_dark_matter$§! into £ukn_quasi_matter£ §Y$ukn_quasi_matter$§!"
+ job_ukn_quasi_matter_supramutation_drone_effect_desc:0 "£job_ukn_quasi_matter_supramutation_drone£ $job_ukn_quasi_matter_supramutation_drone_plural$ turn £energy£ §Y$energy$§!, £ukn_exotic_particles£ §Y$ukn_exotic_particles$§! and £sr_dark_matter£ §Y$sr_dark_matter$§! into £ukn_quasi_matter£ §Y$ukn_quasi_matter$§!"
 #------------
 
  

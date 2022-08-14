@@ -8,7 +8,7 @@ namespace = ukn_building_and_district_add_country_events
 # COUNTRY EVENTS #
 ##################
 
-#[ALL] Gamestart District/Building Add Event
+#[ALL] Gamestart District/Building Add Event #1
 country_event = {
 	id = ukn_building_and_district_add_country_events.1
 	hide_window = yes
@@ -207,6 +207,29 @@ country_event = {
 					add_district = district_generator_uncapped
 					add_district = district_generator_uncapped
 				}
+			}
+		}
+	}
+}
+
+#[ALL] Gamestart District/Building Add Event #2
+country_event = {
+	id = ukn_building_and_district_add_country_events.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					is_regular_empire = yes
+					is_gestalt = yes
+				}
+			}
+			every_owned_planet = {
+				limit = {
+					is_colony = yes
+				}
 #[BASIC] District/Building Add
 		#[ALL] AUTOMATION BUILDINGS/DISTRICTS
 				if = {
@@ -214,11 +237,17 @@ country_event = {
 						is_colony = yes
 						UKN_USES_BASIC_DISTRICTS = yes
 						NOT = { has_building = building_ukn_automation_grid_1 }
-						NOT = { has_district = district_ukn_automation }
 					}
 					remove_building = building_ukn_automation_grid_1
-					remove_district = district_ukn_automation
 					add_building = building_ukn_automation_grid_1
+				}
+				if = {
+					limit = {
+						is_colony = yes
+						UKN_USES_BASIC_DISTRICTS = yes
+						NOT = { has_district = district_ukn_automation }
+					}
+					remove_district = district_ukn_automation
 					add_district = district_ukn_automation
 				}
 				if = {
@@ -713,11 +742,23 @@ country_event = {
 							UKN_USES_MILITARY_ARCOLOGY_DISTRICTS = yes
 						}
 						NOT = { has_building = building_ukn_automation_grid_1 }
-						NOT = { has_district = district_ukn_arcology_automation }
 					}
 					remove_building = building_ukn_automation_grid_1
-					remove_district = district_ukn_arcology_automation
 					add_building = building_ukn_automation_grid_1
+				}
+				if = {
+					limit = {
+						is_colony = yes
+						OR = {
+							UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+							UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
+							UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+							UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
+							UKN_USES_MILITARY_ARCOLOGY_DISTRICTS = yes
+						}
+						NOT = { has_district = district_ukn_arcology_automation }
+					}
+					remove_district = district_ukn_arcology_automation
 					add_district = district_ukn_arcology_automation
 				}
 ################
@@ -1002,7 +1043,7 @@ country_event = {
 
 #[ALL] Missing Automation Framework Add Event
 country_event = {
-	id = ukn_building_and_district_add_country_events.2
+	id = ukn_building_and_district_add_country_events.3
 	hide_window = yes
 	is_triggered_only = yes
 

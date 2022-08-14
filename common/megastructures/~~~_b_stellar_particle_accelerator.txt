@@ -245,7 +245,7 @@ particle_accelerator_1 = {
 				}
 			}
 			physics_research = @ukn_stellar_particle_accelerator_p1_output_physics_research_spec_2_intensity_2_g_star
-			volatile_motes = @ukn_stellar_particle_accelerator_p1_output_volatile_motes_spec_2_intensity_2_g_star
+			ukn_exotic_particles = @ukn_stellar_particle_accelerator_p1_output_ukn_exotic_particles_spec_2_intensity_2_g_star
 		}
 		produces = {
 			trigger = {
@@ -255,7 +255,7 @@ particle_accelerator_1 = {
 				}
 			}
 			physics_research = @ukn_stellar_particle_accelerator_p1_output_physics_research_spec_2_intensity_3_g_star
-			volatile_motes = @ukn_stellar_particle_accelerator_p1_output_volatile_motes_spec_2_intensity_3_g_star
+			ukn_exotic_particles = @ukn_stellar_particle_accelerator_p1_output_ukn_exotic_particles_spec_2_intensity_3_g_star
 		}
 		produces = {
 			trigger = {
@@ -265,7 +265,7 @@ particle_accelerator_1 = {
 				}
 			}
 			physics_research = @ukn_stellar_particle_accelerator_p1_output_physics_research_spec_2_intensity_4_g_star
-			volatile_motes = @ukn_stellar_particle_accelerator_p1_output_volatile_motes_spec_2_intensity_4_g_star
+			ukn_exotic_particles = @ukn_stellar_particle_accelerator_p1_output_ukn_exotic_particles_spec_2_intensity_4_g_star
 		}
 		produces = {
 			trigger = {
@@ -275,7 +275,7 @@ particle_accelerator_1 = {
 				}
 			}
 			physics_research = @ukn_stellar_particle_accelerator_p1_output_physics_research_spec_2_intensity_5_g_star
-			volatile_motes = @ukn_stellar_particle_accelerator_p1_output_volatile_motes_spec_2_intensity_5_g_star
+			ukn_exotic_particles = @ukn_stellar_particle_accelerator_p1_output_ukn_exotic_particles_spec_2_intensity_5_g_star
 		}
 		
 		#Condensics
@@ -558,7 +558,7 @@ particle_accelerator_restored = {
 				}
 			}
 			physics_research = @ukn_stellar_particle_accelerator_r_output_physics_research_spec_2_intensity_2_g_star
-			volatile_motes = @ukn_stellar_particle_accelerator_r_output_volatile_motes_spec_2_intensity_2_g_star
+			ukn_exotic_particles = @ukn_stellar_particle_accelerator_r_output_ukn_exotic_particles_spec_2_intensity_2_g_star
 		}
 		produces = {
 			trigger = {
@@ -568,7 +568,7 @@ particle_accelerator_restored = {
 				}
 			}
 			physics_research = @ukn_stellar_particle_accelerator_r_output_physics_research_spec_2_intensity_3_g_star
-			volatile_motes = @ukn_stellar_particle_accelerator_r_output_volatile_motes_spec_2_intensity_3_g_star
+			ukn_exotic_particles = @ukn_stellar_particle_accelerator_r_output_ukn_exotic_particles_spec_2_intensity_3_g_star
 		}
 		produces = {
 			trigger = {
@@ -578,7 +578,7 @@ particle_accelerator_restored = {
 				}
 			}
 			physics_research = @ukn_stellar_particle_accelerator_r_output_physics_research_spec_2_intensity_4_g_star
-			volatile_motes = @ukn_stellar_particle_accelerator_r_output_volatile_motes_spec_2_intensity_4_g_star
+			ukn_exotic_particles = @ukn_stellar_particle_accelerator_r_output_ukn_exotic_particles_spec_2_intensity_4_g_star
 		}
 		produces = {
 			trigger = {
@@ -588,7 +588,7 @@ particle_accelerator_restored = {
 				}
 			}
 			physics_research = @ukn_stellar_particle_accelerator_r_output_physics_research_spec_2_intensity_5_g_star
-			volatile_motes = @ukn_stellar_particle_accelerator_r_output_volatile_motes_spec_2_intensity_5_g_star
+			ukn_exotic_particles = @ukn_stellar_particle_accelerator_r_output_ukn_exotic_particles_spec_2_intensity_5_g_star
 		}
 		
 		#Condensics

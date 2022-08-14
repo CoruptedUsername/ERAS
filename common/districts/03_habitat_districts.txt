@@ -32,6 +32,19 @@ district_hab_housing = {
 			}
 			consumer_goods = @district_ukn_hab_housing_2_cost_basic_consumer_goods
 		}
+#[ENTERTAINMENT-GRIDS] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+				OR = {
+					has_building = building_holo_theatres
+					has_building = building_hyper_entertainment_forum
+				}
+			}
+			consumer_goods = @district_ukn_hab_housing_2_cost_basic_consumer_goods
+		}
 
 #[BASIC] MINERALS
 		cost = {
@@ -101,60 +114,15 @@ district_hab_housing = {
 
 	planet_modifier = {
 		planet_housing_add = 5
-		job_clerk_add = 2
 	}
 
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-			UKN_HAS_ANY_TWO_ENVIRONMENTAL_GRIDS_BUILT = yes
+			owner = { is_gestalt = no }
 		}
 		modifier = {
-			planet_amenities_add = 0.5
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-			has_building = building_luxury_residence
-			NOR = {
-				has_building = building_paradise_dome
-				has_building = building_ukn_environmental_grid_3
-			}
-		}
-		modifier = {
-			planet_amenities_add = 0.5
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-			has_building = building_paradise_dome
-			NOT = { has_building = building_ukn_environmental_grid_3 }
-		}
-		modifier = {
-			planet_amenities_add = 2.5
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-			has_building = building_ukn_environmental_grid_3
-		}
-		modifier = {
-			planet_amenities_add = 4.5
+			job_clerk_add = 2
 		}
 	}
 
@@ -165,7 +133,6 @@ district_hab_housing = {
 		}
 		modifier = {
 			job_maintenance_drone_add = 2
-			job_clerk_add = -2
 		}
 	}
 
@@ -179,6 +146,69 @@ district_hab_housing = {
 		}
 		modifier = {
 			job_maintenance_drone_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				NOT = { has_valid_civic = civic_warrior_culture }
+			}
+			OR = {
+				has_building = building_holo_theatres
+				has_building = building_hyper_entertainment_forum
+			}
+		}
+		modifier = {
+			job_entertainer_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				has_valid_civic = civic_warrior_culture
+			}
+			OR = {
+				has_building = building_holo_theatres
+				has_building = building_hyper_entertainment_forum
+			}
+		}
+		modifier = {
+			job_duelist_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+			}
+			OR = {
+				has_building = building_precinct_house
+				has_building = building_hall_judgment
+			}
+		}
+		modifier = {
+			job_enforcer_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+			has_building = building_sentinel_posts
+		}
+		modifier = {
+			job_patrol_drone_add = 1
 		}
 	}
 
@@ -198,9 +228,72 @@ district_hab_housing = {
 	triggered_desc = {
 		trigger = {
 			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_clerk_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
 			owner = { is_gestalt = yes }
 		}
 		text = job_maintenance_drone_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				NOT = { has_valid_civic = civic_warrior_culture }
+			}
+			OR = {
+				has_building = building_holo_theatres
+				has_building = building_hyper_entertainment_forum
+			}
+		}
+		text = job_entertainer_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				has_valid_civic = civic_warrior_culture
+			}
+			OR = {
+				has_building = building_holo_theatres
+				has_building = building_hyper_entertainment_forum
+			}
+		}
+		text = job_duelist_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+			}
+			OR = {
+				has_building = building_precinct_house
+				has_building = building_hall_judgment
+			}
+		}
+		text = job_enforcer_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+			has_building = building_sentinel_posts
+		}
+		text = job_patrol_drone_desc
 	}
 
 	#Bug Branch
@@ -229,7 +322,7 @@ district_ukn_hab_automation = {
 	exempt_from_ai_planet_specialization = yes
 
 	abort_trigger = {
-		NOR = { 
+		NOR = {
 			has_building = building_ukn_automation_grid_1
 			has_building = building_ukn_automation_grid_2
 		}
@@ -248,72 +341,13 @@ district_ukn_hab_automation = {
 	potential = {
 		exists = owner
 		UKN_USES_HABITAT_DISTRICTS = yes
-		OR = {
-			has_building = building_ukn_automation_grid_1
-			has_building = building_ukn_automation_grid_2
-			has_district = district_ukn_hab_automation
-		}
 	}
 
 	allow = {
+		owner = { is_ai = no }
 		OR = {
-			AND = {
-				owner = { is_ai = no }
-				OR = {
-					has_building = building_ukn_automation_grid_1
-					has_building = building_ukn_automation_grid_2
-				}
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 5 }
-				num_districts = { type = district_ukn_automation value < 1 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 15 }
-				num_districts = { type = district_ukn_automation value < 2 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 25 }
-				num_districts = { type = district_ukn_automation value < 3 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 35 }
-				num_districts = { type = district_ukn_automation value < 4 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 45 }
-				num_districts = { type = district_ukn_automation value < 5 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 55 }
-				num_districts = { type = district_ukn_automation value < 6 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 65 }
-				num_districts = { type = district_ukn_automation value < 7 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 75 }
-				num_districts = { type = district_ukn_automation value < 8 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 85 }
-				num_districts = { type = district_ukn_automation value < 9 }
-			}
-			AND = {
-				owner = { is_ai = yes }
-				num_districts = { type = any value >= 95 }
-				num_districts = { type = district_ukn_automation value < 10 }
-			}
+			has_building = building_ukn_automation_grid_1
+			has_building = building_ukn_automation_grid_2
 		}
 	}
 
@@ -746,8 +780,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artisan_add = 2
-		job_foundry_add = -2
+		job_artisan_add = 1
+		job_foundry_add = -1
 	}
 }
 
@@ -762,8 +796,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artisan_drone_add = 2
-		job_fabricator_add = -2
+		job_artisan_drone_add = 1
+		job_fabricator_add = -1
 	}
 }
 
@@ -778,8 +812,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artisan_drone_add = 2
-		job_alloy_drone_add = -2
+		job_artisan_drone_add = 1
+		job_alloy_drone_add = -1
 	}
 }
 
@@ -796,8 +830,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artisan_add = 2
-		job_catalytic_technician_add = -2
+		job_artisan_add = 1
+		job_catalytic_technician_add = -1
 	}
 }
 
@@ -812,8 +846,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artisan_drone_add = 2
-		job_catalytic_drone_add = -2
+		job_artisan_drone_add = 1
+		job_catalytic_drone_add = -1
 	}
 }
 
@@ -830,8 +864,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artificer_add = 2
-		job_foundry_add = -2
+		job_artificer_add = 1
+		job_foundry_add = -1
 	}
 }
 
@@ -848,8 +882,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artificer_add = 2
-		job_catalytic_technician_add = -2
+		job_artificer_add = 1
+		job_catalytic_technician_add = -1
 	}
 }
 #----------------------------------------------------
@@ -993,8 +1027,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artisan_add = 1
-		job_foundry_add = -1
+		job_artisan_add = 2
+		job_foundry_add = -2
 	}
 }
 
@@ -1009,8 +1043,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artisan_drone_add = 1
-		job_fabricator_add = -1
+		job_artisan_drone_add = 2
+		job_fabricator_add = -2
 	}
 }
 
@@ -1025,8 +1059,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artisan_drone_add = 1
-		job_alloy_drone_add = -1
+		job_artisan_drone_add = 2
+		job_alloy_drone_add = -2
 	}
 }
 
@@ -1044,8 +1078,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artisan_add = 1
-		job_catalytic_technician_add = -1
+		job_artisan_add = 2
+		job_catalytic_technician_add = -2
 	}
 }
 
@@ -1060,8 +1094,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artisan_drone_add = 1
-		job_catalytic_drone_add = -1
+		job_artisan_drone_add = 2
+		job_catalytic_drone_add = -2
 	}
 }
 
@@ -1079,8 +1113,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artificer_add = 1
-		job_foundry_add = -1
+		job_artificer_add = 2
+		job_foundry_add = -2
 	}
 }
 
@@ -1098,8 +1132,8 @@ triggered_planet_modifier = {
 		}
 	}
 	modifier = {
-		job_artificer_add = 1
-		job_catalytic_technician_add = -1
+		job_artificer_add = 2
+		job_catalytic_technician_add = -2
 	}
 }
 #----------------------------------------------------
@@ -1958,6 +1992,227 @@ district_hab_mining = {
 			owner = { is_fallen_empire_spiritualist = yes }
 		}
 		text = job_fe_acolyte_mine_effect_desc
+	}
+#----------------------------------------------------
+
+	ai_resource_production = {
+		minerals = 8
+		trigger = {
+			owner = {
+				is_gestalt = no
+				is_fallen_empire_spiritualist = no
+			}
+		}
+	}
+	ai_resource_production = {
+		minerals = 8
+		trigger = {
+			owner = {
+				is_machine_empire = yes
+			}
+		}
+	}
+	ai_resource_production = {
+		minerals = 8
+		trigger = {
+			owner = {
+				is_hive_empire = yes
+			}
+		}
+	}
+	
+	ai_resource_production = {
+		minerals = 8
+		trigger = {
+			owner = {
+				is_fallen_empire_spiritualist = yes
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+district_ukn_hab_farming = {
+	base_buildtime = @district_ukn_hab_farming_2_build_time
+	is_capped_by_modifier = no
+	exempt_from_ai_planet_specialization = yes
+
+	show_on_uncolonized = {
+		UKN_USES_HABITAT_DISTRICTS = yes
+	}
+
+	potential = {
+		UKN_USES_HABITAT_DISTRICTS = yes
+	}
+
+	planet_modifier = {
+		planet_housing_add = 4
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+		}
+		text = UKN_DISTRICT_AUTOMATION_DEFICIENCY
+	}
+
+	resources = {
+		category = planet_districts_ukn_hab_farming
+#########
+# COSTS #
+#########
+#[BASIC] ARTICLES
+		cost = {
+			trigger = {
+				owner = {
+					is_ai = no
+				}
+			}
+			consumer_goods = @district_ukn_hab_farming_2_cost_basic_consumer_goods
+		}
+
+#[BASIC] MINERALS
+		cost = {
+			trigger = {
+				exists = owner
+				owner = {
+					NOR = {
+						has_policy_flag = policy_ukn_meta_materials_replace_planet_structure_basic_cost
+						has_policy_flag = policy_ukn_quasi_matter_replace_planet_structure_basic_cost
+						has_policy_flag = policy_ukn_causalitons_replace_planet_structure_basic_cost
+					}
+				}
+			}
+			minerals = @district_ukn_hab_farming_2_cost_basic_minerals
+		}
+#[BASIC] POLYMERICS
+		cost = {
+			trigger = {
+				exists = owner
+				owner = {
+					NOR = {
+						has_policy_flag = policy_ukn_meta_materials_replace_planet_structure_basic_cost
+						has_policy_flag = policy_ukn_quasi_matter_replace_planet_structure_basic_cost
+						has_policy_flag = policy_ukn_causalitons_replace_planet_structure_basic_cost
+					}
+				}
+			}
+			alloys = @district_ukn_hab_farming_2_cost_basic_alloys
+		}
+#[BASIC] META-MATERIALS
+		cost = {
+			trigger = {
+				exists = owner
+				owner = {
+					has_policy_flag = policy_ukn_meta_materials_replace_planet_structure_basic_cost
+				}
+			}
+			ukn_meta_materials = @district_ukn_hab_farming_2_r_cost_basic_ukn_meta_materials
+		}
+#[BASIC] QUASI-MATTER
+		cost = {
+			trigger = {
+				exists = owner
+				owner = {
+					has_policy_flag = policy_ukn_quasi_matter_replace_planet_structure_basic_cost
+				}
+			}
+			ukn_quasi_matter = @district_ukn_hab_farming_2_r_cost_basic_ukn_quasi_matter
+		}
+#[BASIC] OSCILLYONS
+		cost = {
+			trigger = {
+				exists = owner
+				owner = {
+					has_policy_flag = policy_ukn_causalitons_replace_planet_structure_basic_cost
+				}
+			}
+			ukn_causalitons = @district_ukn_hab_farming_2_r_cost_basic_ukn_causalitons
+		}
+##########
+# UPKEEP #
+##########
+		upkeep = {
+			energy = @district_ukn_hab_farming_2_upkeep_energy
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_agri_drone_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {
+			job_agri_drone_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+				is_fallen_empire_spiritualist = no
+			}
+		}
+		modifier = {
+			job_farmer_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_fallen_empire_spiritualist = yes }
+		}
+		modifier = {
+			job_fe_acolyte_farm_add = 3
+		}
+	}
+#----------------------------------------------------
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_agri_drone_effect_desc
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+				is_fallen_empire_spiritualist = no
+			}
+		}
+		text = job_farmer_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_fallen_empire_spiritualist = yes }
+		}
+		text = job_fe_acolyte_farm_effect_desc
 	}
 #----------------------------------------------------
 
