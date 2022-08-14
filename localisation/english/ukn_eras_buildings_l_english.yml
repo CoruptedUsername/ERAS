@@ -53,17 +53,54 @@
  building_ukn_holo_theatres_2_desc:0 "These massive entertainment complexes is where dreams come true. Shopping malls, restaurants, amusement parks, virtual arcades, and more. You dream it - we are it!"
  mod_planet_building_ukn_holo_theatres_2_build_speed_mult:0 "$building_ukn_holo_theatres_2$ Build Speed"
  
- district_ukn_city_entertainers_add_effect_desc:0 "£district£ §H$district_city_plural$§! provide §G1§! £job_entertainer£ §Y$job_entertainer$§! but have §PIncreased§! £consumer_goods£ §Y$consumer_goods$§! Cost\n "
- district_ukn_hab_housing_entertainers_add_effect_desc:0 "£district£ §H$district_hab_housing_plural$§! provide §G1§! £job_entertainer£ §Y$job_entertainer$§! but have §PIncreased§! £consumer_goods£ §Y$consumer_goods$§! Cost\n "
- district_ukn_arcology_housing_entertainers_add_effect_desc:0 "£district£ §H$district_arcology_housing_plural$§! provide §G2§! £job_entertainer£ §Y$job_entertainer_plural$§! but have §PIncreased§! £consumer_goods£ §Y$consumer_goods$§! Cost\n "
- district_ukn_rw_city_entertainers_add_effect_desc:0 "£district£ §H$district_rw_city_plural$§! provide §G4§! £job_entertainer£ §Y$job_entertainer_plural$§! but have §PIncreased§! £consumer_goods£ §Y$consumer_goods$§! Cost\n "
- district_ukn_alderson_city_entertainers_add_effect_desc:0 "£district£ §H$district_ukn_alderson_city_plural$§! provide §G1§! £job_entertainer£ §Y$job_entertainer_plural$§! but have §PIncreased§! £consumer_goods£ §Y$consumer_goods$§! Cost\n "
+ district_ukn_city_entertainers_add_effect_desc:0 "£district£ §H$district_city_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G1§! £job_entertainer£ §Y$job_entertainer$§!\n "
+ district_ukn_hab_housing_entertainers_add_effect_desc:0 "£district£ §H$district_hab_housing_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G1§! £job_entertainer£ §Y$job_entertainer$§!\n "
+ district_ukn_arcology_housing_entertainers_add_effect_desc:0 "£district£ §H$district_arcology_housing_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G2§! £job_entertainer£ §Y$job_entertainer_plural$§!\n "
+ district_ukn_rw_city_entertainers_add_effect_desc:0 "£district£ §H$district_rw_city_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G4§! £job_entertainer£ §Y$job_entertainer_plural$§!\n "
+ district_ukn_alderson_city_entertainers_add_effect_desc:0 "£district£ §H$district_ukn_alderson_city_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G10§! £job_entertainer£ §Y$job_entertainer_plural$§!\n "
 
- district_ukn_city_duelists_add_effect_desc:0 "£district£ §H$district_city_plural$§! provide §G1§! £job_duelist£ §Y$job_duelist$§! but have §PIncreased§! £consumer_goods£ §Y$consumer_goods$§! Cost\n "
- district_ukn_hab_housing_duelists_add_effect_desc:0 "£district£ §H$district_hab_housing_plural$§! provide §G1§! £job_duelist£ §Y$job_duelist$§! but have §PIncreased§! £consumer_goods£ §Y$consumer_goods$§! Cost\n "
- district_ukn_arcology_housing_duelists_add_effect_desc:0 "£district£ §H$district_arcology_housing_plural$§! provide §G2§! £job_duelist£ §Y$job_duelist_plural$§! but have §PIncreased§! £consumer_goods£ §Y$consumer_goods$§! Cost\n "
- district_ukn_rw_city_duelists_add_effect_desc:0 "£district£ §H$district_rw_city_plural$§! provide §G4§! £job_duelist£ §Y$job_duelist_plural$§! but have §PIncreased§! £consumer_goods£ §Y$consumer_goods$§! Cost\n "
- district_ukn_alderson_city_duelists_add_effect_desc:0 "£district£ §H$district_ukn_alderson_city_plural$§! provide §G1§! £job_duelist£ §Y$job_duelist_plural$§! but have §PIncreased§! £consumer_goods£ §Y$consumer_goods$§! Cost\n "
+ district_ukn_city_duelists_add_effect_desc:0 "£district£ §H$district_city_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G1§! £job_entertainer£ §Y$job_duelist$§!\n "
+ district_ukn_hab_housing_duelists_add_effect_desc:0 "£district£ §H$district_hab_housing_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G1§! £job_entertainer£ §Y$job_duelist$§!\n "
+ district_ukn_arcology_housing_duelists_add_effect_desc:0 "£district£ §H$district_arcology_housing_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G2§! £job_entertainer£ §Y$job_duelist_plural$§!\n "
+ district_ukn_rw_city_duelists_add_effect_desc:0 "£district£ §H$district_rw_city_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G4§! £job_entertainer£ §Y$job_duelist_plural$§!\n "
+ district_ukn_alderson_city_duelists_add_effect_desc:0 "£district£ §H$district_ukn_alderson_city_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G10§! £job_entertainer£ §Y$job_duelist_plural$§!\n "
+
+
+# Enforcement Grid
+ building_ukn_precinct_house_1:0 "§L§!§B§!§B§!Enforcement Grid"
+ building_ukn_precinct_house_1_plural:0 "§L§!§B§!§B§!Enforcement Grids"
+ building_ukn_precinct_house_1_desc:0 "Monuments to law and order. Enforcers are based here."
+ mod_planet_building_ukn_precinct_house_1_build_speed_mult:0 "$building_ukn_precinct_house_1$ Build Speed"
+ 
+ building_ukn_precinct_house_2:0 "§L§!§B§!§E§!Enforcement Network"
+ building_ukn_precinct_house_2_plural:0 "§L§!§B§!§E§!Enforcement Networks"
+ building_ukn_precinct_house_2_desc:0 "A massive complex dedicated to courts and law enforcement."
+ mod_planet_building_ukn_precinct_house_2_build_speed_mult:0 "$building_ukn_precinct_house_2$ Build Speed"
+ 
+ district_ukn_city_enforcers_add_effect_desc:0 "£district£ §H$district_city_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G1§! £job_enforcer£ §Y$job_enforcer$§!\n "
+ district_ukn_hab_housing_enforcers_add_effect_desc:0 "£district£ §H$district_hab_housing_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G1§! £job_enforcer£ §Y$job_enforcer$§!\n "
+ district_ukn_arcology_housing_enforcers_add_effect_desc:0 "£district£ §H$district_arcology_housing_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G2§! £job_enforcer£ §Y$job_enforcer_plural$§!\n "
+ district_ukn_rw_city_enforcers_add_effect_desc:0 "£district£ §H$district_rw_city_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G4§! £job_enforcer£ §Y$job_enforcer_plural$§!\n "
+ district_ukn_alderson_city_enforcers_add_effect_desc:0 "£district£ §H$district_ukn_alderson_city_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G10§! £job_enforcer£ §Y$job_enforcer_plural$§!\n "
+
+
+# Sentinel Grid
+ building_ukn_sentinel_posts_1:0 "§L§!§B§!§B§!Sentinel Grid"
+ building_ukn_sentinel_posts_1_plural:0 "§L§!§B§!§B§!Sentinel Grids"
+ building_ukn_sentinel_posts_1_desc:0 "These are the outposts from which Patrol Drones scan the Consciousness for signs of deviancy and malfunction."
+ mod_planet_building_ukn_sentinel_posts_1_build_speed_mult:0 "$building_ukn_sentinel_posts_1$ Build Speed"
+ 
+ district_ukn_hive_patrol_drones_add_effect_desc:0 "£district£ §H$district_hive_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G1§! £job_patrol_drone£ §Y$job_patrol_drone$§!\n "
+ district_ukn_hab_housing_patrol_drones_add_effect_desc:0 "£district£ §H$district_hab_housing_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G1§! £job_patrol_drone£ §Y$job_patrol_drone$§!\n "
+ district_ukn_arcology_hive_patrol_drones_add_effect_desc:0 "£district£ §H$district_arcology_housing_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G2§! £job_patrol_drone£ §Y$job_patrol_drone_plural$§!\n "
+ district_ukn_rw_hive_patrol_drones_add_effect_desc:0 "£district£ §H$district_rw_hive_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G4§! £job_patrol_drone£ §Y$job_patrol_drone_plural$§!\n "
+ district_ukn_alderson_hive_patrol_drones_add_effect_desc:0 "£district£ §H$district_ukn_alderson_hive_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G10§! £job_patrol_drone£ §Y$job_patrol_drone_plural$§!\n "
+
+ district_ukn_nexus_patrol_drones_add_effect_desc:0 "£district£ §H$district_nexus_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G1§! £job_patrol_drone£ §Y$job_patrol_drone$§!\n "
+ district_ukn_hab_housing_patrol_drones_add_effect_desc:0 "£district£ §H$district_hab_housing_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G1§! £job_patrol_drone£ §Y$job_patrol_drone$§!\n "
+ district_ukn_arcology_nexus_patrol_drones_add_effect_desc:0 "£district£ §H$district_arcology_housing_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G2§! £job_patrol_drone£ §Y$job_patrol_drone_plural$§!\n "
+ district_ukn_rw_nexus_patrol_drones_add_effect_desc:0 "£district£ §H$district_rw_nexus_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G4§! £job_patrol_drone£ §Y$job_patrol_drone_plural$§!\n "
+ district_ukn_alderson_nexus_patrol_drones_add_effect_desc:0 "£district£ §H$district_ukn_alderson_nexus_plural$§! cost §PExtra§! £consumer_goods£ §Y$consumer_goods$§! but provide §G10§! £job_patrol_drone£ §Y$job_patrol_drone_plural$§!\n "
 
 
 # Environmental Grid
@@ -595,8 +632,8 @@
  district_ukn_alderson_commercial_4_job_per_pop_effect_desc: "\nGain §G+1§! $job_bugged_trader$ Job every §Y10§!, §Y5§!, §Y4§!, §Y3§! or §Y2§! Pops if, respectively, §E1§!, §E2§!, §E3§!, §E4§! or §E5§!+ £district£ §H$district_ukn_alderson_commercial$§! are Built\n "
  district_ukn_alderson_commercial_5_job_per_pop_effect_desc: "\nGain §G+1§! $job_bugged_trader$ Job every §Y10§!, §Y5§!, §Y4§!, §Y3§! or §Y2§! Pops if, respectively, §E1§!, §E2§!, §E3§!, §E4§! or §E5§!+ £district£ §H$district_ukn_alderson_commercial$§! are Built\n "
  
- job_ukn_clerk_bugged_trader_capital_normal_provide: "\n§HEmpire Capital Planets§! are provided with §G2§! £job_clerk£ §H$job_clerk_plural$§! and §G1§! £job_bugged_trader£ §H$job_bugged_trader$§! "
- job_ukn_clerk_bugged_trader_capital_advanced_provide: "\n§HEmpire Capital Planets§! are provided with §G2§! £job_clerk£ §H$job_clerk_plural$§! and §G1§! £job_bugged_trader£ §H$job_bugged_trader$§! "
+ job_ukn_clerk_bugged_trader_capital_normal_provide: "\n§HEmpire Capital Planets§! are provided with §G2§! £job_bugged_trader£ §H$job_bugged_trader_plural$§! "
+ job_ukn_clerk_bugged_trader_capital_advanced_provide: "\n§HEmpire Capital Planets§! are provided with §G2§! £job_bugged_trader£ §H$job_bugged_trader_plural$§! "
  
 # Bureaucratic Grid
  building_ukn_bureaucratic_1:0 "§B§!§E§!§B§!Bureaucratic Grid"

@@ -206,6 +206,22 @@ district_rw_city = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
+			owner = {
+				is_regular_empire = yes
+			}
+			OR = {
+				has_building = building_precinct_house
+				has_building = building_hall_judgment
+			}
+		}
+		modifier = {
+			job_enforcer_add = 4
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
 			owner = { has_active_tradition = tr_prosperity_public_works }
 		}
 		modifier = {
@@ -297,6 +313,20 @@ district_rw_city = {
 			}
 		}
 		text = job_duelist_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+			}
+			OR = {
+				has_building = building_precinct_house
+				has_building = building_hall_judgment
+			}
+		}
+		text = job_enforcer_effect_desc
 	}
 }
 
@@ -426,7 +456,6 @@ district_rw_hive = {
 
 	planet_modifier = {
 		planet_housing_add = 50
-#		planet_jobs_produces_mult = -0.10
 		job_maintenance_drone_add = 5
 	}
 
@@ -434,53 +463,12 @@ district_rw_hive = {
 		potential = {
 			exists = owner
 			owner = {
-				is_regular_empire = yes
+				is_gestalt = yes
 			}
-			UKN_HAS_ANY_TWO_ENVIRONMENTAL_GRIDS_BUILT = yes
+			has_building = building_sentinel_posts
 		}
 		modifier = {
-			planet_amenities_add = 5
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-			has_building = building_luxury_residence
-			NOR = {
-				has_building = building_paradise_dome
-				has_building = building_ukn_environmental_grid_3
-			}
-		}
-		modifier = {
-			planet_amenities_add = 5
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-			has_building = building_paradise_dome
-			NOT = { has_building = building_ukn_environmental_grid_3 }
-		}
-		modifier = {
-			planet_amenities_add = 25
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-			has_building = building_ukn_environmental_grid_3
-		}
-		modifier = {
-			planet_amenities_add = 45
+			job_patrol_drone_add = 4
 		}
 	}
 
@@ -523,6 +511,27 @@ district_rw_hive = {
 			}
 		}
 		text = arcane_generator_upkeep_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		text = job_maintenance_drone_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+			has_building = building_sentinel_posts
+		}
+		text = job_patrol_drone_desc
 	}
 }
 
@@ -652,7 +661,6 @@ district_rw_nexus = {
 
 	planet_modifier = {
 		planet_housing_add = 50
-#		planet_jobs_produces_mult = -0.10
 		job_maintenance_drone_add = 5
 	}
 
@@ -660,53 +668,12 @@ district_rw_nexus = {
 		potential = {
 			exists = owner
 			owner = {
-				is_regular_empire = yes
+				is_gestalt = yes
 			}
-			UKN_HAS_ANY_TWO_ENVIRONMENTAL_GRIDS_BUILT = yes
+			has_building = building_sentinel_posts
 		}
 		modifier = {
-			planet_amenities_add = 5
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-			has_building = building_luxury_residence
-			NOR = {
-				has_building = building_paradise_dome
-				has_building = building_ukn_environmental_grid_3
-			}
-		}
-		modifier = {
-			planet_amenities_add = 5
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-			has_building = building_paradise_dome
-			NOT = { has_building = building_ukn_environmental_grid_3 }
-		}
-		modifier = {
-			planet_amenities_add = 25
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-			}
-			has_building = building_ukn_environmental_grid_3
-		}
-		modifier = {
-			planet_amenities_add = 45
+			job_patrol_drone_add = 4
 		}
 	}
 
@@ -749,6 +716,27 @@ district_rw_nexus = {
 			}
 		}
 		text = arcane_generator_upkeep_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		text = job_maintenance_drone_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+			has_building = building_sentinel_posts
+		}
+		text = job_patrol_drone_desc
 	}
 }
 

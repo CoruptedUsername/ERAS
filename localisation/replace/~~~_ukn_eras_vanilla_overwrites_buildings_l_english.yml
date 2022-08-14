@@ -10,6 +10,18 @@
  building_hyper_entertainment_forum_desc:1 "$building_ukn_holo_theatres_2_desc$"
  mod_planet_building_holo_theatres_build_speed_mult:0 "$mod_planet_building_ukn_holo_theatres_2_build_speed_mult$"
  
+ building_precinct_house:0 "$building_ukn_precinct_house_1$"
+ building_precinct_house_desc:0 "$building_ukn_precinct_house_1_desc$"
+ mod_planet_building_precinct_house_build_speed_mult:0 "$mod_planet_building_ukn_precinct_house_1_build_speed_mult$"
+ 
+ building_hall_judgment:0 "$building_ukn_precinct_house_2$"
+ building_hall_judgment_desc:0 "$building_ukn_precinct_house_2_desc$"
+ mod_planet_building_hall_judgment_build_speed_mult:0 "$mod_planet_building_ukn_precinct_house_2_build_speed_mult$"
+ 
+ building_sentinel_posts:0 "$building_ukn_sentinel_posts_1$"
+ building_sentinel_posts_desc:1 "$building_ukn_sentinel_posts_1_desc$"
+ mod_planet_building_sentinel_posts_build_speed_mult:0 "$mod_planet_building_ukn_sentinel_posts_1_build_speed_mult$"
+ 
  building_luxury_residence:0 "$building_ukn_environmental_grid_1$"
  building_luxury_residence_desc:0 "$building_ukn_environmental_grid_1_desc$"
  mod_planet_building_luxury_residence_build_speed_mult:0 "$mod_planet_building_ukn_environmental_grid_1_build_speed_mult$"

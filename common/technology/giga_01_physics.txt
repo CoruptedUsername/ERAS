@@ -172,7 +172,7 @@ giga_tech_quasi_stellar_2 = { #Accretion Compression (stage 1)
 	}
 }
 
-#giga_tech_quasi_stellar_3 = { #Relativistic jet deflection (stage 2)
+giga_tech_quasi_stellar_3 = { #Relativistic jet deflection (stage 2)
 	cost = 200000
 	area = physics
 	tier = 5

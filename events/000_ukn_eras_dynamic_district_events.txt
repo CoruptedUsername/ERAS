@@ -410,7 +410,6 @@ country_event = {
 							has_building = building_ukn_causaliton_micro_synthesizer_grid_1
 						}
 						NOT = { has_modifier = mod_ukn_dynamic_districts_ukn_causalitons_malus }
-						has_district = district_ukn_causaliton_micro_synthesizer
 						OR ={
 							has_district = district_ukn_rw_causaliton_micro_synthesizer
 #							has_district = district_ukn_alderson_causaliton_micro_synthesizer

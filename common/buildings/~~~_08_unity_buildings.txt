@@ -249,7 +249,7 @@ building_bureaucratic_1 = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
 			owner = {
-				NOT = { has_technology = tech_effective_bureaucracy }
+				NOT = { has_technology = tech_planetary_infrastructure_1 }
 			}
 		}
 		text = unlock_district_ukn_bureaucratic
@@ -260,7 +260,7 @@ building_bureaucratic_1 = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
 			owner = {
-				has_technology = tech_effective_bureaucracy
+				has_technology = tech_planetary_infrastructure_1
 			}
 		}
 		text = upgrade_unlock_district_ukn_bureaucratic
@@ -271,7 +271,7 @@ building_bureaucratic_1 = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
 			owner = {
-				NOT = { has_technology = tech_effective_bureaucracy }
+				NOT = { has_technology = tech_planetary_infrastructure_1 }
 			}
 		}
 		text = unlock_district_ukn_hab_cultural
@@ -282,7 +282,7 @@ building_bureaucratic_1 = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
 			owner = {
-				has_technology = tech_effective_bureaucracy
+				has_technology = tech_planetary_infrastructure_1
 			}
 		}
 		text = upgrade_unlock_district_ukn_hab_cultural
@@ -329,7 +329,7 @@ building_bureaucratic_1 = {
 			exists = owner
 			owner = {
 				UKN_CAN_BUILD_BUREAUCRATIC_GRID = yes
-				has_technology = tech_effective_bureaucracy
+				has_technology = tech_planetary_infrastructure_1
 			}
 		}
 		modifier = {
@@ -591,7 +591,7 @@ building_bureaucratic_2 = {
 	}
 
 	prerequisites = {
-		"tech_galactic_bureaucracy"
+		"tech_capital_productivity_2"
 	}
 
 	upgrades = {
@@ -1444,7 +1444,7 @@ building_ukn_corporate_bureaucratic_1 = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
 			owner = {
-				NOT = { has_technology = tech_effective_bureaucracy }
+				NOT = { has_technology = tech_planetary_infrastructure_1 }
 			}
 		}
 		text = unlock_district_ukn_corporate_bureaucratic
@@ -1455,7 +1455,7 @@ building_ukn_corporate_bureaucratic_1 = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
 			owner = {
-				has_technology = tech_effective_bureaucracy
+				has_technology = tech_planetary_infrastructure_1
 			}
 		}
 		text = upgrade_unlock_district_ukn_corporate_bureaucratic
@@ -1466,7 +1466,7 @@ building_ukn_corporate_bureaucratic_1 = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
 			owner = {
-				NOT = { has_technology = tech_effective_bureaucracy }
+				NOT = { has_technology = tech_planetary_infrastructure_1 }
 			}
 		}
 		text = unlock_district_ukn_hab_corporate_bureaucratic
@@ -1477,7 +1477,7 @@ building_ukn_corporate_bureaucratic_1 = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
 			owner = {
-				has_technology = tech_effective_bureaucracy
+				has_technology = tech_planetary_infrastructure_1
 			}
 		}
 		text = upgrade_unlock_district_ukn_hab_corporate_bureaucratic
@@ -1524,7 +1524,7 @@ building_ukn_corporate_bureaucratic_1 = {
 			exists = owner
 			owner = {
 				UKN_CAN_BUILD_CORPORATE_BUREAUCRATIC_GRID = yes
-				has_technology = tech_effective_bureaucracy
+				has_technology = tech_planetary_infrastructure_1
 			}
 		}
 		modifier = {
@@ -1787,7 +1787,7 @@ building_ukn_corporate_bureaucratic_2 = {
 	}
 
 	prerequisites = {
-		"tech_galactic_bureaucracy"
+		"tech_capital_productivity_2"
 	}
 
 	upgrades = {
@@ -3000,7 +3000,7 @@ building_holotemple = {
 	}
 
 	prerequisites = {
-		"tech_consecration_fields"
+		"tech_capital_productivity_2"
 	}
 
 	upgrades = {
@@ -4253,7 +4253,7 @@ building_sacrificial_temple_2 = {
 	}
 
 	prerequisites = {
-		"tech_consecration_fields"
+		"tech_capital_productivity_2"
 	}
 
 	upgrades = {
@@ -5503,7 +5503,7 @@ building_hive_cluster = {
 	}
 
 	prerequisites = {
-		"tech_hive_confluence"
+		"tech_capital_productivity_2"
 	}
 
 	upgrades = {
@@ -6346,7 +6346,7 @@ building_uplink_node = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
 			owner = {
-				NOT = { has_technology = tech_effective_bureaucracy }
+				NOT = { has_technology = tech_planetary_infrastructure_1 }
 			}
 		}
 		text = unlock_district_ukn_uplink
@@ -6357,7 +6357,7 @@ building_uplink_node = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
 			owner = {
-				has_technology = tech_effective_bureaucracy
+				has_technology = tech_planetary_infrastructure_1
 			}
 		}
 		text = upgrade_unlock_district_ukn_uplink
@@ -6368,7 +6368,7 @@ building_uplink_node = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
 			owner = {
-				NOT = { has_technology = tech_effective_bureaucracy }
+				NOT = { has_technology = tech_planetary_infrastructure_1 }
 			}
 		}
 		text = unlock_district_ukn_hab_uplink
@@ -6379,7 +6379,7 @@ building_uplink_node = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
 			owner = {
-				has_technology = tech_effective_bureaucracy
+				has_technology = tech_planetary_infrastructure_1
 			}
 		}
 		text = upgrade_unlock_district_ukn_hab_uplink
@@ -6426,7 +6426,7 @@ building_uplink_node = {
 			exists = owner
 			owner = {
 				UKN_CAN_BUILD_UPLINK_GRID = yes
-				has_technology = tech_effective_bureaucracy
+				has_technology = tech_planetary_infrastructure_1
 			}
 		}
 		modifier = {
@@ -6688,7 +6688,7 @@ building_network_junction = {
 	}
 
 	prerequisites = {
-		"tech_galactic_bureaucracy"
+		"tech_capital_productivity_2"
 	}
 
 	upgrades = {

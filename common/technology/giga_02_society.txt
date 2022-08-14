@@ -52,18 +52,18 @@ giga_tech_birch_world_2 = {
 ########################
 ### Biology ############
 ########################
-giga_tech_orbital_artificial_eco = {
+#giga_tech_orbital_artificial_eco = {
 
-giga_tech_yggdrasil_orchid = {
+#giga_tech_yggdrasil_orchid = {
 
 ########################
 ### New Worlds #########
 ########################
-giga_tech_terraform_barren = {
+#giga_tech_terraform_barren = {
 
-giga_tech_terraform_toxic = {
+#giga_tech_terraform_toxic = {
 
-giga_tech_terraform_molten = {
+#giga_tech_terraform_molten = {
 
 giga_tech_terraform_shattered = {
 	cost = 100000

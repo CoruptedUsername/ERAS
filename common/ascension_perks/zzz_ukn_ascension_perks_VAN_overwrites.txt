@@ -196,7 +196,7 @@ ap_master_builders = {
 			}
 		}
 		custom_tooltip = {
-			fail_text = "ukn_requires_built_or_repaired_megastructure_or_gigastructure"
+			fail_text = "ukn_requires_built_megastructure_or_repaired_gigastructure"
 			OR = {
 				has_country_flag = ukn_has_built_megastructure
 				has_country_flag = ukn_has_repaired_gigastructure

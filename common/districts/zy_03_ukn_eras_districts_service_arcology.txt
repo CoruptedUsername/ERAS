@@ -1,5 +1,5 @@
 district_ukn_arcology_commercial = {
-	base_buildtime = @district_ukn_arcology_commercial_5_build_time
+	base_buildtime = @district_ukn_arcology_commercial_4_build_time
 	is_capped_by_modifier = no
 	exempt_from_ai_planet_specialization = yes
 
@@ -1375,7 +1375,7 @@ district_arcology_religious = {
 			exists = owner
 			owner = {
 				is_spiritualist = yes
-				is_cult = no
+				is_bugged_cult = no
 			}
 		}
 		text = job_priest_effect_desc
