@@ -1591,6 +1591,22 @@
 #######################################################################################
 
 # SUPERCONDUCTIVE CRYSTALS #-----------------
+@tech_ukn_rare_isotopes_2_tier = 2
+
+@tech_ukn_rare_isotopes_3_tier = 3
+
+#[X]
+@tech_ukn_rare_isotopes_2_cost = 8000
+#[M]
+@tech_ukn_rare_isotopes_3_cost = 10000
+
+#[X]
+@tech_ukn_rare_isotopes_2_weight = 65
+#[M]
+@tech_ukn_rare_isotopes_3_weight = 60
+
+
+# SUPERCONDUCTIVE CRYSTALS #-----------------
 @tech_ukn_superconductive_crystals_2_tier = 2
 
 @tech_ukn_superconductive_crystals_3_tier = 3

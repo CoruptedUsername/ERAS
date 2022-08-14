@@ -211,9 +211,9 @@
  TECH_UNLOCK_UKN_FUTURE_GLIMPSE_KILOSTRUCTURE_CONSTRUCTION_TITLE: "§HFuture Glimpse:§! Kilostructure Construction"
  TECH_UNLOCK_UKN_FUTURE_GLIMPSE_KILOSTRUCTURE_CONSTRUCTION_DESC: "Allows us to research and eventually build £ukn_icon_megastructure£ §YKilostructures§! "
  
- ukn_requires_built_kilostructure_or_repaired_megastructure:0 "$TRIGGER_FAIL$Requires having accomplished any of the following:\n       Fully upgraded at least one of any type of £ukn_icon_megastructure£ §YKilostructure§!\n       Repaired at least one of any type of £ukn_icon_megastructure£ §YMegastructure§! "
+ ukn_requires_built_kilostructure_or_repaired_megastructure:0 "$TRIGGER_FAIL$Requires having accomplished any of the following:\n         Fully upgraded at least one of any type of £ukn_icon_megastructure£ §YKilostructure§!\n         Repaired at least one of any type of £ukn_icon_megastructure£ §YMegastructure§! "
  
- ukn_requires_built_or_repaired_megastructure_or_gigastructure:0 "$TRIGGER_FAIL$Requires having accomplished any of the following:\n       Fully upgraded at least one of any type of £ukn_icon_megastructure£ §YMegastructure§!\n       Repaired at least one of any type of £ukn_icon_megastructure£ §YGigastructure§! "
+ ukn_requires_built_megastructure_or_repaired_gigastructure:0 "$TRIGGER_FAIL$Requires having accomplished any of the following:\n         Fully upgraded at least one of any type of £ukn_icon_megastructure£ §YMegastructure§!\n         Repaired at least one of any type of £ukn_icon_megastructure£ §YGigastructure§! "
  
  ukn_requires_ap_galactic_wonders:1 "$TRIGGER_FAIL$Requires the §Y$ap_galactic_wonders$§! Ascension Perk."
  
@@ -251,8 +251,8 @@
 # AUTOMATION #---------------------------------------------------------
 
 # Automation Tech Descs
- TECH_UNLOCK_UKN_TYPE_2_AUTOMATION_DESC_TITLE:0 "§HUnlocks Feature:§! §EType-2§! £ukn_icon_automation_type_2£ §YAutomation§!"
- TECH_UNLOCK_UKN_TYPE_2_AUTOMATION_DESC_DESC:0 "Recent advancements in §YComputing§! and §YArtificial Intelligence§! has allowed us to develop systems which greatly increase the effectiveness of our §YPlanetary Automation§!\n\n£ukn_icon_planet_blue£§EDefault Worlds§! will benefit from these developments in the form of £building£ §Y$name_ukn_building$ Upgrades§! "
+ TECH_UNLOCK_UKN_TYPE_2_AUTOMATION_DESC_TITLE:0 "§HFuture Glimpse:§! §EType-2§! £ukn_icon_automation_type_2£ §YAutomation§!"
+ TECH_UNLOCK_UKN_TYPE_2_AUTOMATION_DESC_DESC:0 "Recent advancements in §YComputing§! and §YArtificial Intelligence§! will allow us to develop systems which greatly increase the effectiveness of our §YPlanetary Automation§!\n\n£ukn_icon_planet_blue£§EDefault Worlds§! will benefit from these developments in the form of £building£ §Y$name_ukn_building$ Upgrades§! "
  
  TECH_UNLOCK_UKN_TYPE_3_AUTOMATION_DESC_TITLE:0 "§HUnlocks Feature:§! §EType-3§! £ukn_icon_automation_type_3£ §YAutomation§!"
  TECH_UNLOCK_UKN_TYPE_3_AUTOMATION_DESC_DESC:0 "Recent advancements in §YComputing§! and §YArtificial Intelligence§! has allowed us to develop systems which greatly increase the effectiveness of our §YPlanetary Automation§!\n\nWhile £ukn_icon_planet_blue£§EDefault Worlds§! will benefit from these developments in the form of £building£ §Y$name_ukn_building$ Upgrades§!, full-scale implementation will only be possible on £ukn_icon_planet_blue£§EArcology Worlds§!\n\nIn addition, researching this technology and fulfilling all other requirements will allow us to build £ukn_icon_megastructure£ §HKilostructures§! "
@@ -291,8 +291,8 @@
 # FUTURE GLIMPSES #---------------------------------------------------------
 
 # Kilostructural Engineering
- TECH_UNLOCK_UKN_FUTUREGLIMPSE_KILOSTRUCTURAL_ENGINEERING_TITLE:0 "§HFuture Glimpse:§! £engineering_research£$tech_starbase_5$"
- TECH_UNLOCK_UKN_FUTUREGLIMPSE_KILOSTRUCTURAL_ENGINEERING_DESC:0 "This technology will lead to the practical conceptualization of structures the mass or scale of a small to moderately-sized moon. "
+ TECH_UNLOCK_UKN_FUTURE_GLIMPSE_KILOSTRUCTURAL_ENGINEERING_TITLE:0 "§HFuture Glimpse:§! £engineering_research£$tech_starbase_5$"
+ TECH_UNLOCK_UKN_FUTURE_GLIMPSE_KILOSTRUCTURAL_ENGINEERING_DESC:0 "This technology will lead to the practical conceptualization of structures the mass or scale of a small to moderately-sized moon. "
  
 # Automation Building Glimpses
  TECH_UNLOCK_UKN_TYPE_2_AUTOMATION_GLIMPSE_TITLE:0 "§HFuture Glimpse:§! §EType-2§! £ukn_icon_automation_type_2£ $name_ukn_building$"

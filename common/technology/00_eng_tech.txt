@@ -1393,11 +1393,11 @@ tech_mineral_purification_1 = {
 	area = engineering
 	tier = @tech_ukn_minerals_2_tier
 	category = { industry }
-	prerequisites = { "tech_mining_1" }
+	prerequisites = { "tech_mechanized_mining" }
 	weight = @tech_ukn_minerals_2_weight
 	
 #P]	potential = {
-#P]		has_technology = tech_mining_1
+#P]		has_technology = tech_mechanized_mining
 #P]		has_technology = tech_capital_productivity_1
 #P]	}
 
@@ -2570,8 +2570,8 @@ tech_starbase_4 = {
 
 	prereqfor_desc = {
 		custom = {
-			title = "TECH_UNLOCK_UKN_FUTUREGLIMPSE_KILOSTRUCTURAL_ENGINEERING_TITLE"
-			desc = "TECH_UNLOCK_UKN_FUTUREGLIMPSE_KILOSTRUCTURAL_ENGINEERING_DESC"
+			title = "TECH_UNLOCK_UKN_FUTURE_GLIMPSE_KILOSTRUCTURAL_ENGINEERING_TITLE"
+			desc = "TECH_UNLOCK_UKN_FUTURE_GLIMPSE_KILOSTRUCTURAL_ENGINEERING_DESC"
 		}
 	}
 	
@@ -3295,12 +3295,10 @@ tech_titans = {
 		country_command_limit_add = 10
 	}
 
-#P]	
-potential = {
+	potential = {
 		host_has_dlc = "Apocalypse"		#needs to stay
 #P]		has_technology = tech_battleships
-#P]	
-}
+	}
 
 	## unlock titans
 	prereqfor_desc = {
@@ -3379,13 +3377,11 @@ tech_juggernaut = {
 	prerequisites = { "tech_battleships" "tech_starbase_5" }
 	is_rare = yes
 
-#P]	
-potential = {
+	potential = {
 		host_has_dlc = "Federations"		#needs to stay
 #P]		has_technology = tech_battleships
 #P]		has_technology = tech_starbase_5
-#P]	
-}
+	}
 
 	# unlocks Juggernaut
 	prereqfor_desc = {
@@ -3401,7 +3397,7 @@ potential = {
 #[ALL] (E5) Required Techs
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_thrusters_5 }
+			NOT = { has_technology = tech_ukn_thrusters_5 }
 		}
 #[ALL] (Other) Boosting/Debuffing
 		modifier = {

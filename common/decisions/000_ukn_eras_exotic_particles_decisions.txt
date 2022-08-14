@@ -226,7 +226,7 @@ decision_ukn_causalitons_based_exotic_particles_production = {
 	owned_planets_only = yes
 
 	prerequisites = {
-		"tech_ukn_causaliton_synthesizer"
+		"tech_ukn_materials_8"
 	}
 
 	resources = {

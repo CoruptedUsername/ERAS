@@ -50,9 +50,9 @@ tech_mine_volatile_motes = {
 }
 
 tech_volatile_motes = {
-	cost = @tech_ukn_volatile_motes_4_cost
+	cost = @tech_ukn_rare_isotopes_2_cost
 	area = physics
-	tier = @tech_ukn_volatile_motes_4_tier
+	tier = @tech_ukn_rare_isotopes_2_tier
 	category = { particles }	
 	prerequisites = { "tech_mine_volatile_motes" }
 	weight = 0
@@ -226,8 +226,8 @@ tech_mine_exotic_gases = {
 	prereqfor_desc = {
 		hide_prereq_for_desc = resource
 		custom = {
-			title = "TECH_UNLOCK_UKN_EXOTIC_FUILDS_TITLE"
-			desc = "TECH_UNLOCK_UKN_EXOTIC_FUILDS_TITLE_DESC"
+			title = "TECH_UNLOCK_UKN_EXOTIC_FLUIDS_TITLE"
+			desc = "TECH_UNLOCK_UKN_EXOTIC_FLUIDS_TITLE_DESC"
 		}
 	}
 	

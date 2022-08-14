@@ -226,7 +226,7 @@ UKN_CANNOT_BUILD_GALACTIC_MEMORIAL_GRID = {
 UKN_CAN_BUILD_TEMPLE_GRID = {
 	owner = {
 		is_spiritualist = yes
-		is_cult = no
+		is_bugged_cult = no
 	}
 	NOT = { has_modifier = slave_colony }
 }
@@ -236,7 +236,7 @@ UKN_CANNOT_BUILD_TEMPLE_GRID = {
 		owner = {
 			OR = {
 				is_spiritualist = no
-				is_cult = yes
+				is_bugged_cult = yes
 			}
 		}
 		has_modifier = slave_colony

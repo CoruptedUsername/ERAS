@@ -479,6 +479,35 @@
  
 
 
+##############
+# STATECRAFT #
+##############
+
+# MAINLINE STATECRAFT TECHS #-----------------
+ #E1
+ tech_genome_mapping:0 "$tech_ukn_genetics_1$"
+ tech_genome_mapping_desc:1 "$tech_ukn_genetics_1_desc$"
+ 
+ #E1+
+ tech_gene_tailoring:0 "$tech_ukn_genetics_2$"
+ tech_gene_tailoring_desc:1 "$tech_ukn_genetics_2_desc$"
+ tech_gene_tailoring_modifier_desc:0 "$species_trait_points_add$: $POINTS|0=+$"
+ 
+ #E2
+ tech_glandular_acclimation:0 "Glandular Acclimation"
+ tech_glandular_acclimation_desc:0 "$UKN_TECH_ERA_2$Through glandular biological tailoring we can change the environmental tolerance of a species to suit our needs."
+ tech_glandular_acclimation_modifier_desc:0 "$species_trait_points_add$: $POINTS|0=+$"
+ 
+ tech_gene_expressions:0 "$tech_ukn_genetics_3$"
+ tech_gene_expressions_desc:1 "$tech_ukn_genetics_3_desc$"
+ tech_gene_expressions_modifier_desc:0 "$mod_country_food_produces_mult$: §G+10%§!\n$species_trait_points_add$: $POINTS|0=+$"
+ 
+ #E3
+ tech_genetic_resequencing:0 "$tech_ukn_genetics_4$"
+ tech_genetic_resequencing_desc:0 "$tech_ukn_genetics_4_desc$"
+
+
+
 ##########################################
 # AUTOMATION / RESOURCE PRODUCTION BUFFS #
 ##########################################
@@ -512,10 +541,24 @@
  
 
 # UNITY (BUILDING+EDICT) #-----------------
- #@tech_ukn_unity_2 = 2
- #@tech_ukn_unity_3 = 3
- #@tech_ukn_unity_4 = 4
-
+ tech_planetary_infrastructure_1:0 "$tech_ukn_default_unity_output_1$"
+ tech_planetary_infrastructure_1_desc:1 "$tech_ukn_default_unity_output_1_desc$"
+ 
+ tech_holographic_rituals:0 "$tech_ukn_spiritualist_unity_output_1$"
+ tech_holographic_rituals_desc:0 "$tech_ukn_spiritualist_unity_output_1_desc$"
+ 
+ tech_consecration_fields:0 "$tech_ukn_spiritualist_unity_output_2$"
+ tech_consecration_fields_desc:0 "$tech_ukn_spiritualist_unity_output_2_desc$"
+ 
+ tech_transcendent_faith:0 "$tech_ukn_spiritualist_unity_output_3$"
+ tech_transcendent_faith_desc:0 "$tech_ukn_spiritualist_unity_output_3_desc$"
+ 
+ tech_hive_cluster:0 "$tech_ukn_hive_unity_output_1$"
+ tech_hive_cluster_desc:1 "$tech_ukn_hive_unity_output_1_desc$"
+ 
+ tech_hive_confluence:0 "$tech_ukn_hive_unity_output_2$"
+ tech_hive_confluence_desc:1 "$tech_ukn_hive_unity_output_2_desc$"
+ 
 
 # FOOD (BUILDING+EDICT) #-----------------
  tech_food_processing_1:0 "Food Processing"
