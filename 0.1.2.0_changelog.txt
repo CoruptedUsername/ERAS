@@ -1,6 +1,10 @@
 CHANGELOG
 ---------
 
+[0.1.2.0] Current Version
+---------
+-Too many things fixed/changed to realistically list here. Definitely not savegame compatible.
+
 [0.1.1.8] Current Version
 ---------
 -Made AI able to build at least basic districts/buildings again.
