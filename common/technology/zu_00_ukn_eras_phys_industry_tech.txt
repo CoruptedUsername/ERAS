@@ -490,7 +490,7 @@ tech_ukn_milestone_theory_5 = {
 			NOR = {
 				has_technology = tech_pd_tracking_3
 				has_technology = tech_plasma_2
-				has_technology = tech_ukn_potential_dislocator_2
+				has_technology = tech_disruptors_2
 				has_technology = tech_energy_torpedoes_1
 			}
 		}
@@ -700,7 +700,7 @@ tech_ukn_milestone_theory_6 = {
 			NOR = {
 				has_technology = tech_ukn_laser_pd_4
 				has_technology = tech_plasma_3
-				has_technology = tech_ukn_potential_dislocator_3
+				has_technology = tech_disruptors_3
 				has_technology = tech_energy_torpedoes_2
 			}
 		}
@@ -1862,7 +1862,7 @@ tech_ukn_milestone_theory_10 = {
 		modifier = {
 			factor = 0.70
 			NOR = {
-				has_technology = tech_ukn_strike_craft_9
+				has_technology = tech_ukn_strike_craft_7
 			}
 		}
 #[ALL] (Other) Boosting/Debuffing

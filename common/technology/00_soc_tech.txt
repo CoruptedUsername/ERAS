@@ -27,8 +27,8 @@ tech_capital_productivity_1 = {
 			desc = "TECH_UNLOCK_UKN_TYPE_2_AUTOMATION_DESC_DESC"
 		}
 		custom = {
-			title = "TECH_UNLOCK_UKN_TYPE_2_AUTOMATION_GLIMPSE_TITLE"
-			desc = "TECH_UNLOCK_UKN_TYPE_2_AUTOMATION_GLIMPSE_DESC"
+			title = "TECH_UNLOCK_UKN_AUTOMATION_BUILDING_UNLOCK_2_TITLE"
+			desc = "TECH_UNLOCK_UKN_AUTOMATION_BUILDING_UNLOCK_2_DESC"
 		}
 	}
 	
@@ -1842,22 +1842,32 @@ tech_interplanetary_commerce = {
 
 # Space Trading
 tech_space_trading = {
-	cost = @tech_ukn_trade_1_cost
+	cost = @tech_ukn_trade_2_cost
 	area = society
-	tier = @tech_ukn_trade_1_tier
+	tier = @tech_ukn_trade_2_tier
 	category = { statecraft }
 	prerequisites = { "tech_interplanetary_commerce" }
-	weight = @tech_ukn_trade_1_weight
+	weight = @tech_ukn_trade_2_weight
 
-	potential = {
-		is_gestalt = no
+	modifier = {
+		description = TECH_UNLOCK_UKN_UPGRADE_COMMERCIAL_GRID_1_TITLE
+		description_parameters = {
+			POINTS = @building_ukn_commercial_zone_2_default_normal_trade_value_mult
+		}
 	}
 	
-#P]	potential = {
+	potential = {
+		is_gestalt = no
 #P]		has_technology = tech_interplanetary_commerce
-#P]	}
+#P]		has_technology = tech_capital_productivity_1
+	}
 
 	weight_modifier = {
+#[ALL] (E1) Required Techs
+		modifier = {
+			factor = 0
+			NOT = { has_technology = tech_capital_productivity_1 }
+		}
 #[ALL] (Other) Boosting/Debuffing
 		modifier = {
 			factor = 1.25
@@ -1892,34 +1902,14 @@ tech_interstellar_economics = {
 	category = { statecraft }
 	prerequisites = { "tech_space_trading" }
 	weight = @tech_ukn_trade_2_weight
-
-	modifier = {
-		description = TECH_UNLOCK_UKN_UPGRADE_COMMERCIAL_GRID_1_TITLE
-		description_parameters = {
-			VALUE = @building_ukn_commercial_zone_2_default_normal_trade_value_mult
-		}
-	}
-
-#	prereqfor_desc = {
-#		custom = {
-#			title = "TECH_UNLOCK_UKN_UPGRADE_COMMERCIAL_GRID_1_TITLE"
-#			desc = "TECH_UNLOCK_UKN_UPGRADE_COMMERCIAL_GRID_1_DESC"
-#		}
-#	}
 	
 	potential = {
 		is_gestalt = no
 #P]		has_technology = tech_space_trading
-#P]		has_technology = tech_capital_productivity_1
 	}
 
 	weight_modifier = {
 		factor = 2
-#[ALL] (E1) Required Techs
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_capital_productivity_1 }
-		}
 #[ALL] (Other) Boosting/Debuffing
 		modifier = {
 			factor = 1.25
@@ -1959,13 +1949,10 @@ tech_galactic_markets = {
 	# unlocks Galactic Stock Exchange empire wonder
 
 	potential = {
-		is_gestalt = no
-	}
-	
-#P]	potential = {
+		is_gestalt = n
 #P]		has_technology = tech_interstellar_economics
-#P]		has_technology = tech_colonial_centralization
-#P]	}
+#P]		has_technology = tech_colonial_centralizationo
+	}
 
 	weight_modifier = {
 		factor = 0.5
@@ -2050,6 +2037,124 @@ tech_prescient_data_modeling = {
 # (OLD) [DEFAULT] UNITY BUFFING / BUREAUCRACY TECHS #
 #####################################################
 
+tech_planetary_infrastructure_1 = {
+	cost = @tech_ukn_unity_2_cost
+	area = society
+	tier = @tech_ukn_unity_2_tier
+	category = { statecraft }
+	prerequisites = { "tech_planetary_government" }
+	weight = @tech_ukn_unity_2_weight
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_UKN_UPGRADE_BASIC_UNITY_INFRASTRUCTUE_1_TITLE"
+			desc = "TECH_UNLOCK_UKN_UPGRADE_BASIC_UNITY_INFRASTRUCTUE_1_DESC"
+		}
+	}
+	
+	potential = {
+		NOR = {
+			has_ethic = ethic_spiritualist
+			has_ethic = ethic_fanatic_spiritualist
+			has_authority = auth_hive_mind
+		}
+#P]		has_technology = tech_planetary_government
+#P]		has_technology = tech_capital_productivity_1
+	}
+
+	weight_modifier = {
+#[ALL] (E1) Required Techs
+		modifier = {
+			factor = 0
+			NOT = { has_technology = tech_capital_productivity_1 }
+		}
+#[ALL] (Other) Boosting/Debuffing
+		modifier = {
+			factor = value:tech_weight_likelihood
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+		modifier = {
+			factor = 0.5
+			num_owned_planets < 2
+		}
+		modifier = {
+			factor = 1.5
+			num_owned_planets > 2
+		}
+		modifier = {
+			factor = 1.5
+			num_owned_planets > 3
+		}
+		modifier = {
+			factor = 1.5
+			num_owned_planets > 4
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+tech_planetary_infrastructure_2 = {
+	cost = @tech_ukn_unity_3_cost
+	area = society
+	tier = @tech_ukn_unity_3_tier
+	category = { statecraft }
+	prerequisites = { "tech_planetary_infrastructure_1" "tech_colonial_centralization" }
+	weight = @tech_ukn_unity_3_weight
+
+	modifier = {
+		planet_administrators_unity_produces_mult = 0.05
+	}
+	
+	potential = {
+		NOR = {
+			has_ethic = ethic_spiritualist
+			has_ethic = ethic_fanatic_spiritualist
+			has_authority = auth_hive_mind
+		}
+#P]		has_technology = tech_planetary_infrastructure_1
+#P]		has_technology = tech_colonial_centralization
+	}
+
+	weight_modifier = {
+#[ALL] (E1) Required Techs
+		modifier = {
+			factor = 0
+			NOT = { has_technology = tech_capital_productivity_1 }
+		}
+#[ALL] (Other) Boosting/Debuffing
+		modifier = {
+			factor = value:tech_weight_likelihood
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 5 # Important tech
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+}
+
 #Adaptive Bureaucracy
 tech_adaptive_bureaucracy = {
 	cost = @tier1cost2
@@ -2111,32 +2216,10 @@ tech_effective_bureaucracy = {
 	weight = @tier2weight1
 
 	modifier = {
-#		country_edict_fund_add = 20
-	}
-
-	prereqfor_desc = {
-		custom = {
-			title = "TECH_UNLOCK_UKN_UPGRADE_BASIC_UNITY_INFRASTRUCTUE_1_TITLE"
-			desc = "TECH_UNLOCK_UKN_UPGRADE_BASIC_UNITY_INFRASTRUCTUE_1_DESC"
-		}
-	}
-	
-	potential = {
-		NOR = {
-			has_ethic = ethic_spiritualist
-			has_ethic = ethic_fanatic_spiritualist
-			has_authority = auth_hive_mind
-		}
-#P]		has_technology = tech_adaptive_bureaucracy
-#P]		has_technology = tech_capital_productivity_1
+		country_edict_fund_add = 20
 	}
 
 	weight_modifier = {
-#[ALL] (E1) Required Techs
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_capital_productivity_1 }
-		}
 #[ALL] (Other) Boosting/Debuffing
 		modifier = {
 			factor = value:tech_weight_likelihood
@@ -2350,6 +2433,7 @@ tech_collective_self = {
 	modifier = {
 		leader_skill_levels = 1
 		leaders_upkeep_mult = -0.10
+		pop_factions_unity_produces_mult = 0.1
 	}
 
 	potential = {
@@ -2575,6 +2659,10 @@ tech_consecration_fields = {
 	prerequisites = { "tech_holographic_rituals" "tech_colonial_centralization" }
 	weight = @tech_ukn_unity_3_weight
 
+	modifier = {
+		planet_administrators_unity_produces_mult = 0.05
+	}
+	
 	potential = {
 		OR = {
 			has_ethic = ethic_spiritualist
@@ -2687,10 +2775,11 @@ tech_hive_cluster = {
 		}
 	}
 	
-#P]	potential = {
+	potential = {
+		is_hive_empire = yes
 #P]		has_technology = tech_hive_node
 #P]		has_technology = tech_capital_productivity_1
-#P]	}
+	}
 
 	weight_modifier = {
 #[ALL] (E1) Required Techs
@@ -2727,10 +2816,15 @@ tech_hive_confluence = {
 	prerequisites = { "tech_hive_cluster" "tech_colonial_centralization" }
 	weight = @tech_ukn_unity_3_weight
 	
-#P]	potential = {
+	modifier = {
+		planet_administrators_unity_produces_mult = 0.05
+	}
+	
+	potential = {
+		is_hive_empire = yes
 #P]		has_technology = tech_hive_cluster
 #P]		has_technology = tech_colonial_centralization
-#P]	}
+	}
 
 	weight_modifier = {
 #[ALL] (Other) Boosting/Debuffing
@@ -2797,15 +2891,9 @@ tech_heritage_site = {
 			has_valid_civic = civic_machine_servitor
 		}
 #P]		has_technology = tech_cultural_heritage
-#P]		has_technology = tech_capital_productivity_1
 	}
 
 	weight_modifier = {
-#[ALL] (E1) Required Techs
-		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_capital_productivity_1 }
-		}
 #[ALL] (Other) Boosting/Debuffing
 		modifier = {
 			factor = value:tech_weight_likelihood
@@ -2919,13 +3007,13 @@ tech_food_processing_1 = {
 	area = society
 	tier = @tech_ukn_food_2_tier
 	category = { biology }
-	prerequisites = { "tech_eco_simulation" }
+	prerequisites = { "tech_industrial_farming" }
 	weight = @tech_ukn_food_2_weight
 
 	# unlock food processing facility
 	
 #P]	potential = {
-#P]		has_technology = tech_eco_simulation
+#P]		has_technology = tech_industrial_farming
 #P]		has_technology = tech_capital_productivity_1
 #P]	}
 
@@ -6207,80 +6295,6 @@ tech_galactic_administration = {
 			research_leader = {
 				area = society
 				has_trait = "leader_trait_expertise_statecraft"
-			}
-		}
-	}
-}
-
-tech_planetary_infrastructure_1 = {
-	cost = @tier2cost3
-	area = society
-	tier = 2
-	category = { new_worlds }
-	prerequisites = { "tech_colonial_centralization" "tech_ship_armor_2" }
-	weight = @tier2weight3
-
-	gateway = infrastructure
-
-	modifier = {
-		planet_max_buildings_add = 1
-		planet_colony_development_speed_mult = 0.25
-	}
-
-	weight_modifier = {
-		factor = 4
-		modifier = {
-			factor = value:tech_weight_likelihood
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_new_worlds"
-			}
-		}
-	}
-
-	ai_weight = {
-		factor = 5 # Important tech
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_new_worlds"
-			}
-		}
-	}
-}
-
-tech_planetary_infrastructure_2 = {
-	cost = @tier4cost3
-	area = society
-	tier = 4
-	category = { new_worlds }
-	prerequisites = { "tech_galactic_administration" "tech_ship_armor_4" "tech_planetary_infrastructure_1" }
-	weight = @tier4weight3
-
-	modifier = {
-		planet_max_buildings_add = 1
-		planet_colony_development_speed_mult = 0.25
-	}
-
-	weight_modifier = {
-		factor = 4
-		modifier = {
-			factor = value:tech_weight_likelihood
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_new_worlds"
-			}
-		}
-	}
-
-	ai_weight = {
-		factor = 5 # Important tech
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_new_worlds"
 			}
 		}
 	}

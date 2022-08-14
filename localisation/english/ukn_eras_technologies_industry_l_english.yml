@@ -143,7 +143,7 @@
  tech_ukn_milestone_theory_5:0 "£ukn_icon_tech_milestone£ Quantum Supersymmetric Analysis"
  tech_ukn_milestone_theory_5_desc:0 "$UKN_TECH_ERA_4$Precision quantum field analysis has allowed the reliable production of, among other previously rare particles, various anti-particle groups and the higgsino supersymmetric fermion, opening up vast new fields of physics.$UKN_TECH_MILESTONE_TOOLTIP_ERA_5$"
  
- tech_ukn_milestone_theory_6:0 "£ukn_icon_tech_milestone£ Condensed Quantum-Hyperyonic Mechanics"
+ tech_ukn_milestone_theory_6:0 "£ukn_icon_tech_milestone£ Condensed Quantum-Electroweak Mechanics"
  tech_ukn_milestone_theory_6_desc:0 "$UKN_TECH_ERA_5$Our recent advances in the understanding of the electroweak field, bose-einstein mechanics, higgs mass-dynamics and hyperspace field interactions have allowed us to comtemplate mass-energy interactions on a much more precise scale.$UKN_TECH_MILESTONE_TOOLTIP_ERA_6$"
  
  tech_ukn_milestone_theory_7:0 "£ukn_icon_tech_milestone£ Quasi-Quantum States"
@@ -177,7 +177,7 @@
  tech_ukn_physics_output_4:0 "£ukn_icon_tech_milestone£ Applied Quark-Gluon Interactivity"
  tech_ukn_physics_output_4_desc:0 "$UKN_TECH_ERA_4$DESC$UKN_TECH_MILESTONE_TOOLTIP_ERA_5$"
  
- tech_ukn_physics_output_5:0 "£ukn_icon_tech_milestone£ Macroscale Higgs-Hyperyon Mass-Field Dynamics"
+ tech_ukn_physics_output_5:0 "£ukn_icon_tech_milestone£ Macroscale Electroweak-Field Dynamics"
  tech_ukn_physics_output_5_desc:0 "$UKN_TECH_ERA_5$DESC$UKN_TECH_MILESTONE_TOOLTIP_ERA_6$"
  
  tech_ukn_physics_output_6:0 "£ukn_icon_tech_milestone£ Macroscale Quasi-Particulate Field Dynamics"
@@ -236,10 +236,10 @@
 # MATERIALS / HULL COMPOSITION #---------------------------------------------------------
  
 # Armor
- tech_ukn_materials_1:0 "Nano-Metallic Weave Materials"
+ tech_ukn_materials_1:0 "Macromolecular Polymeric Materials"
  tech_ukn_materials_1_desc:0 "$UKN_TECH_ERA_0$DESC"
  
- tech_ukn_materials_2:0 "£ukn_icon_tech_milestone£ Macromolecular Polymeric Materials"
+ tech_ukn_materials_2:0 "£ukn_icon_tech_milestone£ Nano-Metallic Weave Materials"
  tech_ukn_materials_2_desc:0 "$UKN_TECH_ERA_1$DESC$UKN_TECH_MILESTONE_TOOLTIP_ERA_2$"
  
  tech_ukn_materials_3:0 "£ukn_icon_tech_milestone£ Meta-Material Constructs"
@@ -350,6 +350,26 @@
  tech_ukn_society_output_9_desc:0 "$UKN_TECH_ERA_9$DESC"
  
  
+# Unity Output Techs
+ tech_ukn_default_unity_output_1:0 "Administrative Restructuring"
+ tech_ukn_default_unity_output_1_desc:0 "$UKN_TECH_ERA_1$DESC"
+ 
+ tech_ukn_spiritualist_unity_output_1:0 "Holographic Rituals"
+ tech_ukn_spiritualist_unity_output_1_desc:0 "$UKN_TECH_ERA_1$Seeing is believing, and belief begets reality."
+ 
+ tech_ukn_spiritualist_unity_output_2:0 "Consecration Fields"
+ tech_ukn_spiritualist_unity_output_2_desc:0 "$UKN_TECH_ERA_1$Through our understanding of physics and field manipulation, our holy places shall we seen and felt by all."
+ 
+ tech_ukn_spiritualist_unity_output_3:0 "Metacognitive Faith"
+ tech_ukn_spiritualist_unity_output_3_desc:0 "$UKN_TECH_ERA_1$Leaving our planetary cradle has opened us up to a new understanding of faith, and its place in a wider context."
+ 
+ tech_ukn_hive_unity_output_1:0 "Clustered Synapses"
+ tech_ukn_hive_unity_output_1_desc:0 "$UKN_TECH_ERA_1$By clustering networks of macroscopic synaptic nodes, maximum meganeuron transmission per available surface area can be attained."
+ 
+ tech_ukn_hive_unity_output_2:0 "Administrative Restructuring"
+ tech_ukn_hive_unity_output_2_desc:0 "$UKN_TECH_ERA_1$The will of the Hive will be further strengthened and coordinated with the expansion and development of a massive nervous center of meganeurons."
+ 
+ 
 # Food Output Techs
  tech_ukn_genetics_0:0 "Simplistic Base-Pair Editing"
  tech_ukn_genetics_0_desc:0 "$UKN_TECH_ERA_0$DESC"
@@ -365,6 +385,7 @@
  
  tech_ukn_genetics_4:0 "Morphogenetics"
  tech_ukn_genetics_4_desc:0 "$UKN_TECH_ERA_4$DESC"
+ 
  
 # Food Output Techs
  tech_ukn_food_output_1:0 "Simplistic Gene-Editing"

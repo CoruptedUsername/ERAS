@@ -825,7 +825,7 @@ tech_sensors_4 = {
 			NOR = {
 				has_technology = tech_pd_tracking_2
 				has_technology = tech_plasma_1
-				has_technology = tech_ukn_potential_dislocator_1
+				has_technology = tech_disruptors_1
 			}
 		}
 #[SOC] (E2) Boosting Techs
