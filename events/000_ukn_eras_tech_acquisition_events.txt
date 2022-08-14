@@ -122,10 +122,10 @@ namespace = ukn_critter_tech_acquisition_events
 
 # On researching cloning
 country_event = {
-	id = ukn_critter_tech_acquisition_events.10
+	id = ukn_critter_tech_acquisition_events.11
 #	hide_window = yes
-	title = ukn_critter_tech_acquisition_events.10.name
-	desc = ukn_critter_tech_acquisition_events.10.desc
+	title = ukn_critter_tech_acquisition_events.11.name
+	desc = ukn_critter_tech_acquisition_events.11.desc
 	picture = GFX_evt_fleet_neutral
 	show_sound = event_space_amoeba
 	is_triggered_only = yes
@@ -157,8 +157,8 @@ country_event = {
 #	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.10.a
-		custom_tooltip = ukn_critter_tech_acquisition_events.10.a.tooltip
+		name = ukn_critter_tech_acquisition_events.11.a
+		custom_tooltip = ukn_critter_tech_acquisition_events.11.a.tooltip
 		trigger = {
 			NOR = { 
 				OR = { 
@@ -176,8 +176,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.10.b
-		custom_tooltip = ukn_critter_tech_acquisition_events.10.b.tooltip
+		name = ukn_critter_tech_acquisition_events.11.b
+		custom_tooltip = ukn_critter_tech_acquisition_events.11.b.tooltip
 		trigger = {
 			NOR = { 
 				has_tech_option = tech_crystal_armor_1
@@ -192,8 +192,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.10.c
-		custom_tooltip = ukn_critter_tech_acquisition_events.10.c.tooltip
+		name = ukn_critter_tech_acquisition_events.11.c
+		custom_tooltip = ukn_critter_tech_acquisition_events.11.c.tooltip
 		trigger = {
 			OR = { 
 				has_tech_option = tech_crystal_armor_1
@@ -208,8 +208,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.10.d
-		custom_tooltip = ukn_critter_tech_acquisition_events.10.d.tooltip
+		name = ukn_critter_tech_acquisition_events.11.d
+		custom_tooltip = ukn_critter_tech_acquisition_events.11.d.tooltip
 		trigger = {
 			OR = { 
 				AND = { 
@@ -235,10 +235,10 @@ country_event = {
 
 # On researching cloning
 country_event = {
-	id = ukn_critter_tech_acquisition_events.10
+	id = ukn_critter_tech_acquisition_events.12
 #	hide_window = yes
-	title = ukn_critter_tech_acquisition_events.11.name
-	desc = ukn_critter_tech_acquisition_events.11.desc
+	title = ukn_critter_tech_acquisition_events.12.name
+	desc = ukn_critter_tech_acquisition_events.12.desc
 	picture = GFX_evt_fleet_neutral
 	show_sound = event_space_amoeba
 	is_triggered_only = yes
@@ -270,8 +270,8 @@ country_event = {
 #	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.11.a
-		custom_tooltip = ukn_critter_tech_acquisition_events.11.a.tooltip
+		name = ukn_critter_tech_acquisition_events.12.a
+		custom_tooltip = ukn_critter_tech_acquisition_events.12.a.tooltip
 		trigger = {
 			NOR = { 
 				OR = { 
@@ -289,8 +289,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.11.b
-		custom_tooltip = ukn_critter_tech_acquisition_events.11.b.tooltip
+		name = ukn_critter_tech_acquisition_events.12.b
+		custom_tooltip = ukn_critter_tech_acquisition_events.12.b.tooltip
 		trigger = {
 			NOR = { 
 				has_tech_option = tech_crystal_armor_2
@@ -305,8 +305,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.11.c
-		custom_tooltip = ukn_critter_tech_acquisition_events.11.c.tooltip
+		name = ukn_critter_tech_acquisition_events.12.c
+		custom_tooltip = ukn_critter_tech_acquisition_events.12.c.tooltip
 		trigger = {
 			OR = { 
 				has_tech_option = tech_crystal_armor_2
@@ -321,8 +321,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.11.d
-		custom_tooltip = ukn_critter_tech_acquisition_events.11.d.tooltip
+		name = ukn_critter_tech_acquisition_events.12.d
+		custom_tooltip = ukn_critter_tech_acquisition_events.12.d.tooltip
 		trigger = {
 			OR = { 
 				AND = { 
@@ -348,10 +348,10 @@ country_event = {
 
 # On researching cloning
 country_event = {
-	id = ukn_critter_tech_acquisition_events.20
+	id = ukn_critter_tech_acquisition_events.21
 #	hide_window = yes
-	title = ukn_critter_tech_acquisition_events.20.name
-	desc = ukn_critter_tech_acquisition_events.20.desc
+	title = ukn_critter_tech_acquisition_events.21.name
+	desc = ukn_critter_tech_acquisition_events.21.desc
 	picture = GFX_evt_fleet_neutral
 	show_sound = event_space_amoeba
 	is_triggered_only = yes
@@ -383,8 +383,8 @@ country_event = {
 #	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.20.a
-		custom_tooltip = ukn_critter_tech_acquisition_events.20.a.tooltip
+		name = ukn_critter_tech_acquisition_events.21.a
+		custom_tooltip = ukn_critter_tech_acquisition_events.21.a.tooltip
 		trigger = {
 			NOR = { 
 				OR = { 
@@ -402,8 +402,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.20.b
-		custom_tooltip = ukn_critter_tech_acquisition_events.20.b.tooltip
+		name = ukn_critter_tech_acquisition_events.21.b
+		custom_tooltip = ukn_critter_tech_acquisition_events.21.b.tooltip
 		trigger = {
 			NOR = { 
 				has_tech_option = tech_mining_drone_weapon_1
@@ -418,8 +418,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.20.c
-		custom_tooltip = ukn_critter_tech_acquisition_events.20.c.tooltip
+		name = ukn_critter_tech_acquisition_events.21.c
+		custom_tooltip = ukn_critter_tech_acquisition_events.21.c.tooltip
 		trigger = {
 			OR = { 
 				has_tech_option = tech_mining_drone_weapon_1
@@ -434,8 +434,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.20.d
-		custom_tooltip = ukn_critter_tech_acquisition_events.20.d.tooltip
+		name = ukn_critter_tech_acquisition_events.21.d
+		custom_tooltip = ukn_critter_tech_acquisition_events.21.d.tooltip
 		trigger = {
 			OR = { 
 				AND = { 
@@ -461,10 +461,10 @@ country_event = {
 
 # On researching cloning
 country_event = {
-	id = ukn_critter_tech_acquisition_events.30
+	id = ukn_critter_tech_acquisition_events.31
 #	hide_window = yes
-	title = ukn_critter_tech_acquisition_events.30.name
-	desc = ukn_critter_tech_acquisition_events.30.desc
+	title = ukn_critter_tech_acquisition_events.31.name
+	desc = ukn_critter_tech_acquisition_events.31.desc
 	picture = GFX_evt_fleet_neutral
 	show_sound = event_space_amoeba
 	is_triggered_only = yes
@@ -496,8 +496,8 @@ country_event = {
 #	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.30.a
-		custom_tooltip = ukn_critter_tech_acquisition_events.30.a.tooltip
+		name = ukn_critter_tech_acquisition_events.31.a
+		custom_tooltip = ukn_critter_tech_acquisition_events.31.a.tooltip
 		trigger = {
 			NOR = { 
 				OR = { 
@@ -515,8 +515,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.30.b
-		custom_tooltip = ukn_critter_tech_acquisition_events.30.b.tooltip
+		name = ukn_critter_tech_acquisition_events.31.b
+		custom_tooltip = ukn_critter_tech_acquisition_events.31.b.tooltip
 		trigger = {
 			NOR = { 
 				has_tech_option = tech_regenerative_hull_tissue
@@ -531,8 +531,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.30.c
-		custom_tooltip = ukn_critter_tech_acquisition_events.30.c.tooltip
+		name = ukn_critter_tech_acquisition_events.31.c
+		custom_tooltip = ukn_critter_tech_acquisition_events.31.c.tooltip
 		trigger = {
 			OR = { 
 				has_tech_option = tech_regenerative_hull_tissue
@@ -547,8 +547,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.30.d
-		custom_tooltip = ukn_critter_tech_acquisition_events.30.d.tooltip
+		name = ukn_critter_tech_acquisition_events.31.d
+		custom_tooltip = ukn_critter_tech_acquisition_events.31.d.tooltip
 		trigger = {
 			OR = { 
 				AND = { 
@@ -574,10 +574,10 @@ country_event = {
 
 # On researching cloning
 country_event = {
-	id = ukn_critter_tech_acquisition_events.40
+	id = ukn_critter_tech_acquisition_events.41
 #	hide_window = yes
-	title = ukn_critter_tech_acquisition_events.40.name
-	desc = ukn_critter_tech_acquisition_events.40.desc
+	title = ukn_critter_tech_acquisition_events.41.name
+	desc = ukn_critter_tech_acquisition_events.41.desc
 	picture = GFX_evt_fleet_neutral
 	show_sound = event_space_amoeba
 	is_triggered_only = yes
@@ -609,8 +609,8 @@ country_event = {
 #	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.40.a
-		custom_tooltip = ukn_critter_tech_acquisition_events.40.a.tooltip
+		name = ukn_critter_tech_acquisition_events.41.a
+		custom_tooltip = ukn_critter_tech_acquisition_events.41.a.tooltip
 		trigger = {
 			NOR = { 
 				OR = { 
@@ -628,8 +628,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.40.b
-		custom_tooltip = ukn_critter_tech_acquisition_events.40.b.tooltip
+		name = ukn_critter_tech_acquisition_events.41.b
+		custom_tooltip = ukn_critter_tech_acquisition_events.41.b.tooltip
 		trigger = {
 			NOR = { 
 				has_tech_option = tech_regenerative_hull_tissue
@@ -644,8 +644,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.40.c
-		custom_tooltip = ukn_critter_tech_acquisition_events.40.c.tooltip
+		name = ukn_critter_tech_acquisition_events.41.c
+		custom_tooltip = ukn_critter_tech_acquisition_events.41.c.tooltip
 		trigger = {
 			OR = { 
 				has_tech_option = tech_regenerative_hull_tissue
@@ -660,8 +660,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.40.d
-		custom_tooltip = ukn_critter_tech_acquisition_events.40.d.tooltip
+		name = ukn_critter_tech_acquisition_events.41.d
+		custom_tooltip = ukn_critter_tech_acquisition_events.41.d.tooltip
 		trigger = {
 			OR = { 
 				AND = { 
@@ -687,10 +687,10 @@ country_event = {
 
 # On researching cloning
 country_event = {
-	id = ukn_critter_tech_acquisition_events.50
+	id = ukn_critter_tech_acquisition_events.51
 #	hide_window = yes
-	title = ukn_critter_tech_acquisition_events.50.name
-	desc = ukn_critter_tech_acquisition_events.50.desc
+	title = ukn_critter_tech_acquisition_events.51.name
+	desc = ukn_critter_tech_acquisition_events.51.desc
 	picture = GFX_evt_fleet_neutral
 	show_sound = event_space_amoeba
 	is_triggered_only = yes
@@ -716,8 +716,8 @@ country_event = {
 #	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.50.a
-		custom_tooltip = ukn_critter_tech_acquisition_events.50.a.tooltip
+		name = ukn_critter_tech_acquisition_events.51.a
+		custom_tooltip = ukn_critter_tech_acquisition_events.51.a.tooltip
 		trigger = {
 			NOR = { 
 				OR = { 
@@ -735,8 +735,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.50.b
-		custom_tooltip = ukn_critter_tech_acquisition_events.50.b.tooltip
+		name = ukn_critter_tech_acquisition_events.51.b
+		custom_tooltip = ukn_critter_tech_acquisition_events.51.b.tooltip
 		trigger = {
 			NOR = { 
 				has_tech_option = tech_space_cloud_weapon_1
@@ -751,8 +751,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.50.c
-		custom_tooltip = ukn_critter_tech_acquisition_events.50.c.tooltip
+		name = ukn_critter_tech_acquisition_events.51.c
+		custom_tooltip = ukn_critter_tech_acquisition_events.51.c.tooltip
 		trigger = {
 			OR = { 
 				has_tech_option = tech_space_cloud_weapon_1
@@ -767,8 +767,8 @@ country_event = {
 	}
 
 	option = {
-		name = ukn_critter_tech_acquisition_events.50.d
-		custom_tooltip = ukn_critter_tech_acquisition_events.50.d.tooltip
+		name = ukn_critter_tech_acquisition_events.51.d
+		custom_tooltip = ukn_critter_tech_acquisition_events.51.d.tooltip
 		trigger = {
 			OR = { 
 				AND = { 

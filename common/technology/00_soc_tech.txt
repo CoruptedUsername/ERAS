@@ -1852,7 +1852,7 @@ tech_space_trading = {
 	modifier = {
 		description = TECH_UNLOCK_UKN_UPGRADE_COMMERCIAL_GRID_1_TITLE
 		description_parameters = {
-			VALUE = @building_ukn_commercial_zone_2_default_normal_trade_value_mult
+			POINTS = @building_ukn_commercial_zone_2_default_normal_trade_value_mult
 		}
 	}
 	

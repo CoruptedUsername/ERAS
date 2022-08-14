@@ -1,12 +1,12 @@
 on_tech_increased = {
 	events = {
-		ukn_critter_tech_acquisition_events.10
-		ukn_critter_tech_acquisition_events.11
-		ukn_critter_tech_acquisition_events.20
-		ukn_critter_tech_acquisition_events.30
-		ukn_critter_tech_acquisition_events.40
-		ukn_critter_tech_acquisition_events.50
 		ukn_automation_tech_acquisition_events.11
+		ukn_critter_tech_acquisition_events.11
+		ukn_critter_tech_acquisition_events.12
+		ukn_critter_tech_acquisition_events.21
+		ukn_critter_tech_acquisition_events.31
+		ukn_critter_tech_acquisition_events.41
+		ukn_critter_tech_acquisition_events.51
 		ukn_megastructure_tech_acquisition_events.11
 		ukn_megastructure_tech_acquisition_events.12
 		ukn_megastructure_tech_acquisition_events.13

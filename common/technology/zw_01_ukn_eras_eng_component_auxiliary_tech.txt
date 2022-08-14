@@ -993,14 +993,14 @@ tech_ukn_repair_system_sentient_metal_planck = {
 	
 #P]	potential = {
 #P]		has_technology = tech_ukn_repair_system_sentient_metal_1
-#P]		has_technology = tech_ukn_engineering_output__planck
+#P]		has_technology = tech_ukn_engineering_output_planck
 #P]	}
 
 	weight_modifier = {
 #[ALL] (E-P) Required Techs
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_ukn_engineering_output__planck }
+			NOT = { has_technology = tech_ukn_engineering_output_planck }
 		}
 #[ALL] (Other) Boosting/Debuffing
 		modifier = {
@@ -1031,7 +1031,7 @@ tech_ukn_repair_system_living_metal_1 = {
 	tier = @tech_ukn_repair_system_living_metal_9_tier
 	category = { materials }
 	ai_update_type = all
-	prerequisites = { "tech_ukn_engineering_output__8" }
+	prerequisites = { "tech_ukn_engineering_output_8" }
 	weight = @tech_ukn_repair_system_living_metal_9_weight
 
 #	gateway = power_generation
@@ -1093,14 +1093,14 @@ tech_ukn_repair_system_living_metal_2 = {
 	
 #P]	potential = {
 #P]		has_technology = tech_ukn_repair_system_living_metal_1
-#P]		has_technology = tech_ukn_engineering_output__9
+#P]		has_technology = tech_ukn_engineering_output_9
 #P]	}
 
 	weight_modifier = {
 #[ALL] (E9) Required Techs
 		modifier = {
 			factor = 0
-			NOT = { has_technology = tech_ukn_engineering_output__9 }
+			NOT = { has_technology = tech_ukn_engineering_output_9 }
 		}
 #[ALL] (Other) Boosting/Debuffing
 		modifier = {
