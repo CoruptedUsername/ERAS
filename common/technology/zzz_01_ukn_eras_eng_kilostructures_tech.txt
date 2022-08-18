@@ -234,7 +234,7 @@ giga_tech_crystal_megabore = {
 	tier = @tech_ukn_crystal_megabore_tier
 	category = { industry }
 	is_rare = yes
-	prerequisites = { "tech_mining_3" "tech_mineral_purification_2" "tech_mega_engineering" "tech_mine_rare_crystals" }
+	prerequisites = { "tech_mining_3" "tech_mineral_purification_2" "tech_mega_engineering" "tech_rare_crystals" }
 	weight = @tech_ukn_crystal_megabore_weight
 	prereqfor_desc = {
 		custom = { title = "allow_crystal_megabore"	desc = "desc_crystal_megabore" }
@@ -246,7 +246,7 @@ giga_tech_crystal_megabore = {
 #P]		has_technology = tech_mining_3
 #P]		has_technology = tech_mineral_purification_2
 #P]		has_technology = tech_mega_engineering
-#P]		has_technology = tech_mine_rare_crystals
+#P]		has_technology = tech_rare_crystals
 #P]	}
 
 	weight_modifier = {

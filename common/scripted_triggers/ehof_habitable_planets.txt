@@ -96,7 +96,7 @@ eligible_for_rare_crystals = {
 		has_planet_flag = has_society_deposit
 		has_planet_flag = has_engineering_deposit
 
-		event_target:current_system_creator = { NOT = { has_technology = tech_mine_rare_crystals } }
+		event_target:current_system_creator = { NOT = { has_technology = tech_rare_crystals } }
 		is_planet_class = pc_gas_giant
 		is_star = yes
 	}
@@ -113,7 +113,7 @@ eligible_for_exotic_gases = {
 		has_planet_flag = has_society_deposit
 		has_planet_flag = has_engineering_deposit
 
-		event_target:current_system_creator = { NOT = { has_technology = tech_mine_exotic_gases } }
+		event_target:current_system_creator = { NOT = { has_technology = tech_exotic_gases } }
 		is_star = yes
 	}
 }

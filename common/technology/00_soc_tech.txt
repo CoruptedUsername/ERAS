@@ -3011,6 +3011,13 @@ tech_food_processing_1 = {
 	weight = @tech_ukn_food_2_weight
 
 	# unlock food processing facility
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_UKN_UPGRADE_FOOD_PROCESSING_GRID_1_TITLE"
+			desc = "TECH_UNLOCK_UKN_UPGRADE_FOOD_PROCESSING_GRID_1_DESC"
+		}
+	}
 	
 #P]	potential = {
 #P]		has_technology = tech_industrial_farming
@@ -3967,7 +3974,7 @@ tech_frontier_hospital = {
 		modifier = {
 			factor = 0
 			NOR = {
-				has_technology = tech_mine_exotic_gases
+				has_technology = tech_exotic_gases
 				has_technology = tech_exotic_gases
 				has_country_flag = has_market_access
 			}

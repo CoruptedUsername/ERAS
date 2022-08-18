@@ -655,13 +655,13 @@ tech_sensors_3 = {
 		}
 #[ENG] (E1) Boosting Techs
 		modifier = {
-			factor = 0.5
+			factor = 0.70
 			NOR = {
 				has_technology = tech_mine_rare_crystals
 			}
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.70
 			NOR = {
 				has_technology = tech_mine_exotic_gases
 			}
@@ -794,6 +794,14 @@ tech_sensors_4 = {
 		modifier = {
 			factor = 0
 			NOT = { has_technology = tech_engineering_2 }
+		}
+		modifier = {
+			factor = 0
+			NOT = { has_technology = tech_rare_crystals }
+		}
+		modifier = {
+			factor = 0
+			NOT = { has_technology = tech_exotic_gases }
 		}
 #[PHY] (E2) Boosting Techs
 		modifier = {
@@ -1424,6 +1432,13 @@ tech_power_hub_1 = {
 	category = { field_manipulation }
 	prerequisites = { "tech_power_plant_1" }
 	weight = @tech_ukn_energy_2_weight
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_UKN_UPGRADE_ENERGY_GRID_1_TITLE"
+			desc = "TECH_UNLOCK_UKN_UPGRADE_ENERGY_GRID_1_DESC"
+		}
+	}
 	
 #P]	potential = {
 #P]		has_technology = tech_power_plant_1

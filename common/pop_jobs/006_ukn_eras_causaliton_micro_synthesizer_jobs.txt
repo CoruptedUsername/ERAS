@@ -2,7 +2,7 @@
 ukn_causaliton_micro_synthesizer = {
 	category = specialist
 	condition_string = SPECIALIST_JOB_TRIGGER
-	building_icon = building_ukn_causaliton_micro_synthesizer_grid
+	building_icon = building_ukn_causaliton_micro_synthesizer_grid_1
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {
@@ -70,7 +70,7 @@ ukn_causaliton_micro_synthesizer = {
 ukn_causaliton_micro_synthesis_drone = {
 	category = complex_drone
 	condition_string = DRONE_JOB_TRIGGER
-	building_icon = building_ukn_causaliton_micro_synthesizer_grid
+	building_icon = building_ukn_causaliton_micro_synthesizer_grid_1
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {

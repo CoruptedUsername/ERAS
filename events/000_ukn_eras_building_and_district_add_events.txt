@@ -26,7 +26,117 @@ country_event = {
 				limit = {
 					is_colony = yes
 				}
-#[ALL] District/Building Remove
+#[BASIC-PRE] District/Building Add
+				if = {
+					limit = {
+						is_colony = yes
+#O]						is_capital = yes
+						OR = {
+		#[ALL] ENERGY DISTRICTS
+							has_district = district_generator
+							has_district = district_generator_uncapped
+							has_district = district_hab_energy
+							has_district = district_ukn_arcology_generator
+						}
+						NOR = {
+							has_building = building_energy_grid
+							has_building = building_energy_nexus
+							has_building = building_ukn_energy_grid_3
+							has_building = building_ukn_energy_grid_4
+							has_building = building_ukn_energy_grid_5
+						}
+					}
+					remove_building = building_energy_grid
+					add_building = building_energy_grid
+				}
+				if = {
+					limit = {
+						is_colony = yes
+#O]						is_capital = yes
+						OR = {
+		#[ALL] MINING DISTRICTS
+							has_district = district_mining
+							has_district = district_mining_uncapped
+							has_district = district_hab_mining
+						}
+						NOR = {
+							has_building = building_mineral_purification_plant
+							has_building = building_mineral_purification_hub
+							has_building = building_ukn_mineral_purification_plant_3
+							has_building = building_ukn_mineral_purification_plant_4
+							has_building = building_ukn_mineral_purification_plant_5
+						}
+					}
+					remove_building = building_mineral_purification_plant
+					add_building = building_mineral_purification_plant
+				}
+				if = {
+					limit = {
+						is_colony = yes
+#O]						is_capital = yes
+						OR = {
+		#[ALL] FARMING DISTRICTS
+							has_district = district_farming
+							has_district = district_farming_uncapped
+							has_district = district_ukn_hab_farming
+						}
+						NOR = {
+							has_building = building_food_processing_facility
+							has_building = building_food_processing_center
+							has_building = building_ukn_food_processing_facility_3
+							has_building = building_ukn_food_processing_facility_4
+							has_building = building_ukn_food_processing_facility_5
+						}
+					}
+					remove_building = building_food_processing_facility
+					add_building = building_food_processing_facility
+				}
+				if = {
+					limit = {
+						is_colony = yes
+#O]						is_capital = yes
+						OR = {
+		#[ALL] INDUSTRIAL DISTRICTS
+							has_district = district_industrial
+							has_district = district_hab_industrial
+							has_district = district_arcology_arms_industry
+						}
+						NOR = {
+							has_building = building_foundry_1
+							has_building = building_foundry_2
+							has_building = building_foundry_3
+							has_building = building_ukn_foundry_4
+							has_building = building_ukn_foundry_5
+						}
+					}
+					remove_building = building_foundry_1
+					add_building = building_foundry_1
+				}
+				if = {
+					limit = {
+						owner = {
+							country_uses_consumer_goods = yes
+						}
+						is_colony = yes
+#O]						is_capital = yes
+						OR = {
+		#[USES-ARTICLES] INDUSTRIAL DISTRICTS
+							has_district = district_industrial
+							has_district = district_hab_industrial
+							has_district = district_arcology_arms_industry
+						}
+						NOR = {
+							has_building = building_factory_1
+							has_building = building_factory_2
+							has_building = building_factory_3
+							has_building = building_ukn_factory_4
+							has_building = building_ukn_factory_5
+						}
+					}
+					remove_building = building_factory_1
+					add_building = building_factory_1
+				}
+#[PRE] District/Building Convert
 				if = {
 					limit = {
 						is_colony = yes
