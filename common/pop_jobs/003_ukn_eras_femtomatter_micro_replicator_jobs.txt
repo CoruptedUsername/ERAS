@@ -2,7 +2,7 @@
 ukn_femtomatter_micro_replicator = {
 	category = specialist
 	condition_string = SPECIALIST_JOB_TRIGGER
-	building_icon = building_ukn_femtomatter_replication_grid
+	building_icon = building_ukn_femtomatter_replication_grid_1
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {
@@ -93,7 +93,7 @@ ukn_femtomatter_micro_replicator = {
 ukn_femtomatter_micro_replication_drone = {
 	category = complex_drone
 	condition_string = DRONE_JOB_TRIGGER
-	building_icon = building_ukn_femtomatter_replication_grid
+	building_icon = building_ukn_femtomatter_replication_grid_1
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {

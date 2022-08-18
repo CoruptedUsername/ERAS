@@ -4,19 +4,52 @@ district_generator_uncapped = {
 	is_capped_by_modifier = no
 	exempt_from_ai_planet_specialization = yes
 
-	prerequisites = {
-		tech_power_plant_1
+	abort_trigger = {
+		NOR = {
+			has_building = building_energy_grid
+			has_building = building_energy_nexus
+			has_building = building_ukn_energy_grid_3
+			has_building = building_ukn_energy_grid_4
+			has_building = building_ukn_energy_grid_5
+		}
 	}
 
 	show_on_uncolonized = {
+		exists = from
 		UKN_USES_STANDARD_DISTRICTS = yes
+		OR = {
+			has_building = building_energy_grid
+			has_building = building_energy_nexus
+			has_building = building_ukn_energy_grid_3
+			has_building = building_ukn_energy_grid_4
+			has_building = building_ukn_energy_grid_5
+			has_district = district_generator
+		}
 	}
 
 	potential = {
+		exists = owner
 		UKN_USES_STANDARD_DISTRICTS = yes
+		OR = {
+			has_building = building_energy_grid
+			has_building = building_energy_nexus
+			has_building = building_ukn_energy_grid_3
+			has_building = building_ukn_energy_grid_4
+			has_building = building_ukn_energy_grid_5
+			has_district = district_generator
+			has_district = district_generator_uncapped
+			has_district = district_ukn_arcology_generator
+		}
 	}
 
 	allow = {
+		OR = {
+			has_building = building_energy_grid
+			has_building = building_energy_nexus
+			has_building = building_ukn_energy_grid_3
+			has_building = building_ukn_energy_grid_4
+			has_building = building_ukn_energy_grid_5
+		}
 		NOT = { has_modifier = resort_colony }
 	}
 
@@ -124,6 +157,10 @@ district_generator_uncapped = {
 			energy = 0.15
 		}
 		#Bug Branch
+	}
+
+	prerequisites = {
+		"tech_power_plant_1"
 	}
 
 	planet_modifier = {
@@ -304,15 +341,51 @@ district_mining = {
 	
 	exempt_from_ai_planet_specialization = yes
 
+	abort_trigger = {
+		NOR = {
+			has_building = building_mineral_purification_plant
+			has_building = building_mineral_purification_hub
+			has_building = building_ukn_mineral_purification_plant_3
+			has_building = building_ukn_mineral_purification_plant_4
+			has_building = building_ukn_mineral_purification_plant_5
+		}
+	}
+
 	show_on_uncolonized = {
+		exists = from
 		UKN_USES_STANDARD_DISTRICTS = yes
+		OR = {
+			has_building = building_mineral_purification_plant
+			has_building = building_mineral_purification_hub
+			has_building = building_ukn_mineral_purification_plant_3
+			has_building = building_ukn_mineral_purification_plant_4
+			has_building = building_ukn_mineral_purification_plant_5
+			has_district = district_mining
+		}
 	}
 
 	potential = {
+		exists = owner
 		UKN_USES_STANDARD_DISTRICTS = yes
+		OR = {
+			has_building = building_mineral_purification_plant
+			has_building = building_mineral_purification_hub
+			has_building = building_ukn_mineral_purification_plant_3
+			has_building = building_ukn_mineral_purification_plant_4
+			has_building = building_ukn_mineral_purification_plant_5
+			has_district = district_mining
+			has_district = district_mining_uncapped
+		}
 	}
 
 	allow = {
+		OR = {
+			has_building = building_mineral_purification_plant
+			has_building = building_mineral_purification_hub
+			has_building = building_ukn_mineral_purification_plant_3
+			has_building = building_ukn_mineral_purification_plant_4
+			has_building = building_ukn_mineral_purification_plant_5
+		}
 		NOT = { has_modifier = resort_colony }
 	}
 
@@ -438,7 +511,7 @@ district_mining = {
 			owner = { is_hive_empire = yes }
 		}
 		modifier = {
-			job_mining_drone_add = 3
+			job_mining_drone_add = 2
 		}
 	}
 
@@ -449,7 +522,6 @@ district_mining = {
 		}
 		modifier = {
 			job_mining_drone_add = 2
-			planet_housing_add = 1
 		}
 	}
 
@@ -477,30 +549,30 @@ district_mining = {
 	}
 
 	#Bug Branch
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_bugged_mining_civic = yes
-			}
-		}
-		modifier = {
-			planet_housing_add = 1
-			job_miner_add = 1
-		}
-	}
+#	triggered_planet_modifier = {
+#		potential = {
+#			exists = owner
+#			owner = {
+#				is_bugged_mining_civic = yes
+#			}
+#		}
+#		modifier = {
+#			planet_housing_add = 1
+#			job_miner_add = 1
+#		}
+#	}
 
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_bugged_government_intervention = yes
-			}
-		}
-		modifier = {
-			job_miner_add = 1
-		}
-	}
+#	triggered_planet_modifier = {
+#		potential = {
+#			exists = owner
+#			owner = {
+#				is_bugged_government_intervention = yes
+#			}
+#		}
+#		modifier = {
+#			job_miner_add = 1
+#		}
+#	}
 	#Bug Branch
 #----------------------------------------------------
 
@@ -718,7 +790,7 @@ district_mining_uncapped = {
 			owner = { is_hive_empire = yes }
 		}
 		modifier = {
-			job_mining_drone_add = 3
+			job_mining_drone_add = 2
 		}
 	}
 
@@ -729,7 +801,6 @@ district_mining_uncapped = {
 		}
 		modifier = {
 			job_mining_drone_add = 2
-			planet_housing_add = 1
 		}
 	}
 
@@ -862,11 +933,18 @@ district_farming_uncapped = {
 	is_capped_by_modifier = no
 	exempt_from_ai_planet_specialization = yes
 
-	prerequisites = {
-		tech_industrial_farming
+	abort_trigger = {
+		NOR = {
+			has_building = building_food_processing_facility
+			has_building = building_food_processing_center
+			has_building = building_ukn_food_processing_facility_3
+			has_building = building_ukn_food_processing_facility_4
+			has_building = building_ukn_food_processing_facility_5
+		}
 	}
 
 	show_on_uncolonized = {
+		exists = from
 		UKN_USES_STANDARD_DISTRICTS = yes
 		OR = {
 			uses_district_set = shattered_ring_world
@@ -881,14 +959,21 @@ district_farming_uncapped = {
 				owner = { is_ai = yes }
 				owner = { country_uses_food = no }
 			}
+		}
+		OR = {
+			has_building = building_food_processing_facility
+			has_building = building_food_processing_center
+			has_building = building_ukn_food_processing_facility_3
+			has_building = building_ukn_food_processing_facility_4
+			has_building = building_ukn_food_processing_facility_5
+			has_district = district_farming
 		}
 	}
 
 	potential = {
+		exists = owner
 		UKN_USES_STANDARD_DISTRICTS = yes
 		OR = {
-			has_modifier = ukn_uncapped_farming_districts
-			has_modifier = ukn_gaia_world
 			uses_district_set = shattered_ring_world
 			AND = {
 				exists = owner
@@ -902,9 +987,25 @@ district_farming_uncapped = {
 				owner = { country_uses_food = no }
 			}
 		}
+		OR = {
+			has_building = building_food_processing_facility
+			has_building = building_food_processing_center
+			has_building = building_ukn_food_processing_facility_3
+			has_building = building_ukn_food_processing_facility_4
+			has_building = building_ukn_food_processing_facility_5
+			has_district = district_farming
+			has_district = district_farming_uncapped
+		}
 	}
 
 	allow = {
+		OR = {
+			has_building = building_food_processing_facility
+			has_building = building_food_processing_center
+			has_building = building_ukn_food_processing_facility_3
+			has_building = building_ukn_food_processing_facility_4
+			has_building = building_ukn_food_processing_facility_5
+		}
 		NOT = { has_modifier = resort_colony }
 	}
 
@@ -1018,6 +1119,10 @@ district_farming_uncapped = {
 			energy = 0.15
 		}
 		#Bug Branch
+	}
+
+	prerequisites = {
+		"tech_industrial_farming"
 	}
 
 	planet_modifier = {
@@ -1223,11 +1328,18 @@ district_farming = {
 	
 	exempt_from_ai_planet_specialization = yes
 
-	prerequisites = {
-		tech_industrial_farming
+	abort_trigger = {
+		NOR = {
+			has_building = building_food_processing_facility
+			has_building = building_food_processing_center
+			has_building = building_ukn_food_processing_facility_3
+			has_building = building_ukn_food_processing_facility_4
+			has_building = building_ukn_food_processing_facility_5
+		}
 	}
 
 	show_on_uncolonized = {
+		exists = from
 		UKN_USES_STANDARD_DISTRICTS = yes
 		OR = {
 			NOT = { exists = owner }
@@ -1242,10 +1354,19 @@ district_farming = {
 				owner = { is_ai = yes }
 				owner = { country_uses_food = no }
 			}
+		}
+		OR = {
+			has_building = building_food_processing_facility
+			has_building = building_food_processing_center
+			has_building = building_ukn_food_processing_facility_3
+			has_building = building_ukn_food_processing_facility_4
+			has_building = building_ukn_food_processing_facility_5
+			has_district = district_farming
 		}
 	}
 
 	potential = {
+		exists = owner
 		UKN_USES_STANDARD_DISTRICTS = yes
 		OR = {
 			NOT = { exists = owner }
@@ -1261,9 +1382,25 @@ district_farming = {
 				owner = { country_uses_food = no }
 			}
 		}
+		OR = {
+			has_building = building_food_processing_facility
+			has_building = building_food_processing_center
+			has_building = building_ukn_food_processing_facility_3
+			has_building = building_ukn_food_processing_facility_4
+			has_building = building_ukn_food_processing_facility_5
+			has_district = district_farming
+			has_district = district_farming_uncapped
+		}
 	}
 
 	allow = {
+		OR = {
+			has_building = building_food_processing_facility
+			has_building = building_food_processing_center
+			has_building = building_ukn_food_processing_facility_3
+			has_building = building_ukn_food_processing_facility_4
+			has_building = building_ukn_food_processing_facility_5
+		}
 		NOT = { has_modifier = resort_colony }
 	}
 
@@ -1377,6 +1514,10 @@ district_farming = {
 			energy = 0.15
 		}
 		#Bug Branch
+	}
+
+	prerequisites = {
+		tech_industrial_farming
 	}
 
 	planet_modifier = {
@@ -1602,10 +1743,6 @@ district_generator = {
 	
 	exempt_from_ai_planet_specialization = yes
 
-	prerequisites = {
-		tech_power_plant_1
-	}
-
 	show_on_uncolonized = {
 		UKN_USES_STANDARD_DISTRICTS = yes
 		always = no
@@ -1723,6 +1860,10 @@ district_generator = {
 			energy = 0.15
 		}
 		#Bug Branch
+	}
+
+	prerequisites = {
+		"tech_power_plant_1"
 	}
 
 	planet_modifier = {

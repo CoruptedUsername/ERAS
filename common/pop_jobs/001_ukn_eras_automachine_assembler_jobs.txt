@@ -2,7 +2,7 @@
 ukn_automachine_assembler = {
 	category = specialist
 	condition_string = SPECIALIST_JOB_TRIGGER
-	building_icon = building_ukn_automachine_assembly_grid
+	building_icon = building_ukn_automachine_assembly_grid_1
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {
@@ -271,7 +271,7 @@ ukn_automachine_assembler = {
 ukn_automachine_assembly_drone = {
 	category = complex_drone
 	condition_string = DRONE_JOB_TRIGGER
-	building_icon = building_ukn_automachine_assembly_grid
+	building_icon = building_ukn_automachine_assembly_grid_1
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {

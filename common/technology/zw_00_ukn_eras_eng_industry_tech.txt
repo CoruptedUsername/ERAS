@@ -199,8 +199,8 @@ tech_ukn_materials_6 = {
 #			desc = "feature_ukn_quasi_matter_construction_desc"
 #		}
 		custom = {
-			title = "TECH_UNLOCK_UKN_QUASI_MATTER_TITLE"
-			desc = "TECH_UNLOCK_UKN_QUASI_MATTER_DESC"
+			title = "TECH_EXTRACT_MANUFACTURE_UKN_QUASI_MATTER_TITLE"
+			desc = "TECH_EXTRACT_MANUFACTURE_UKN_QUASI_MATTER_DESC"
 		}
 	}
 	
@@ -360,8 +360,8 @@ tech_ukn_materials_8 = {
 		hide_prereq_for_desc = resource
 		hide_prereq_for_desc = decision
 		custom = {
-			title = "TECH_UNLOCK_UKN_OSCILLYONS_TITLE"
-			desc = "TECH_UNLOCK_UKN_OSCILLYONS_DESC"
+			title = "TECH_EXTRACT_MANUFACTURE_UKN_OSCILLYONS_TITLE"
+			desc = "TECH_EXTRACT_MANUFACTURE_UKN_OSCILLYONS_DESC"
 		}
 	}
 	
@@ -415,8 +415,8 @@ tech_ukn_materials_9 = {
 		hide_prereq_for_desc = resource
 		hide_prereq_for_desc = decision
 		custom = {
-			title = "TECH_UNLOCK_UKN_TEMPORAL_THREADS_TITLE"
-			desc = "TECH_UNLOCK_UKN_TEMPORAL_THREADS_DESC"
+			title = "TECH_EXTRACT_MANUFACTURE_UKN_TEMPORAL_THREADS_TITLE"
+			desc = "TECH_EXTRACT_MANUFACTURE_UKN_TEMPORAL_THREADS_DESC"
 		}
 	}
 	

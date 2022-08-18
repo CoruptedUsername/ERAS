@@ -230,6 +230,7 @@ building_ukn_foundry_4 = {
 		trigger = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			NOT = { has_building = building_ukn_factory_5 }
 		}
 		text = cost_info_district_ukn_industrial
 	}
@@ -238,6 +239,7 @@ building_ukn_foundry_4 = {
 		trigger = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			NOT = { has_building = building_ukn_factory_5 }
 		}
 		text = cost_info_district_ukn_hab_industrial
 	}
@@ -246,6 +248,7 @@ building_ukn_foundry_4 = {
 		trigger = {
 			exists = owner
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			NOT = { has_building = building_ukn_factory_5 }
 		}
 		text = cost_info_district_ukn_arcology_arms_industry
 	}
@@ -254,6 +257,7 @@ building_ukn_foundry_4 = {
 		trigger = {
 			exists = owner
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			NOT = { has_building = building_ukn_factory_5 }
 		}
 		text = cost_info_district_ukn_rw_industrial
 	}
@@ -3179,6 +3183,10 @@ building_ukn_factory_4 = {
 		trigger = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			NOR = {
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
 		}
 		text = cost_info_district_ukn_industrial
 	}
@@ -3187,6 +3195,10 @@ building_ukn_factory_4 = {
 		trigger = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			NOR = {
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
 		}
 		text = cost_info_district_ukn_hab_industrial
 	}
@@ -3195,6 +3207,10 @@ building_ukn_factory_4 = {
 		trigger = {
 			exists = owner
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			NOR = {
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
 		}
 		text = cost_info_district_ukn_arcology_arms_industry
 	}
@@ -3203,6 +3219,10 @@ building_ukn_factory_4 = {
 		trigger = {
 			exists = owner
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			NOR = {
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
 		}
 		text = cost_info_district_ukn_rw_industrial
 	}
@@ -3711,6 +3731,7 @@ building_ukn_factory_5 = {
 		trigger = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			NOT = { has_building = building_ukn_foundry_5 }
 		}
 		text = cost_info_district_ukn_industrial
 	}
@@ -3719,6 +3740,7 @@ building_ukn_factory_5 = {
 		trigger = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			NOT = { has_building = building_ukn_foundry_5 }
 		}
 		text = cost_info_district_ukn_hab_industrial
 	}
@@ -3727,6 +3749,7 @@ building_ukn_factory_5 = {
 		trigger = {
 			exists = owner
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			NOT = { has_building = building_ukn_foundry_5 }
 		}
 		text = cost_info_district_ukn_arcology_arms_industry
 	}
@@ -3735,6 +3758,7 @@ building_ukn_factory_5 = {
 		trigger = {
 			exists = owner
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			NOT = { has_building = building_ukn_foundry_5 }
 		}
 		text = cost_info_district_ukn_rw_industrial
 	}
@@ -4177,6 +4201,10 @@ building_ukn_refinery_2 = {
 		trigger = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			NOR = {
+				has_building = building_ukn_crystal_plant_3
+				has_building = building_ukn_crystal_plant_4
+			}
 		}
 		text = cost_info_district_ukn_refinery
 	}
@@ -4185,6 +4213,10 @@ building_ukn_refinery_2 = {
 		trigger = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			NOR = {
+				has_building = building_ukn_crystal_plant_3
+				has_building = building_ukn_crystal_plant_4
+			}
 		}
 		text = cost_info_district_ukn_hab_refinery
 	}
@@ -4193,6 +4225,10 @@ building_ukn_refinery_2 = {
 		trigger = {
 			exists = owner
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			NOR = {
+				has_building = building_ukn_crystal_plant_3
+				has_building = building_ukn_crystal_plant_4
+			}
 		}
 		text = cost_info_district_ukn_arcology_refinery
 	}
@@ -4548,6 +4584,7 @@ building_ukn_refinery_3 = {
 		trigger = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			NOT = { has_building = building_ukn_crystal_plant_4 }
 		}
 		text = cost_info_district_ukn_refinery
 	}
@@ -4556,6 +4593,7 @@ building_ukn_refinery_3 = {
 		trigger = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			NOT = { has_building = building_ukn_crystal_plant_4 }
 		}
 		text = cost_info_district_ukn_hab_refinery
 	}
@@ -4564,6 +4602,7 @@ building_ukn_refinery_3 = {
 		trigger = {
 			exists = owner
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			NOT = { has_building = building_ukn_crystal_plant_4 }
 		}
 		text = cost_info_district_ukn_arcology_refinery
 	}
@@ -4572,6 +4611,7 @@ building_ukn_refinery_3 = {
 		trigger = {
 			exists = owner
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			NOT = { has_building = building_ukn_crystal_plant_4 }
 		}
 		text = cost_info_district_ukn_rw_refinery
 	}
@@ -5379,6 +5419,11 @@ building_ukn_crystal_plant_2 = {
 		trigger = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			NOR = {
+				has_building = building_ukn_refinery_2
+				has_building = building_ukn_refinery_3
+				has_building = building_ukn_refinery_4
+			}
 		}
 		text = cost_info_district_ukn_refinery
 	}
@@ -5387,6 +5432,11 @@ building_ukn_crystal_plant_2 = {
 		trigger = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			NOR = {
+				has_building = building_ukn_refinery_2
+				has_building = building_ukn_refinery_3
+				has_building = building_ukn_refinery_4
+			}
 		}
 		text = cost_info_district_ukn_hab_refinery
 	}
@@ -5395,6 +5445,11 @@ building_ukn_crystal_plant_2 = {
 		trigger = {
 			exists = owner
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			NOR = {
+				has_building = building_ukn_refinery_2
+				has_building = building_ukn_refinery_3
+				has_building = building_ukn_refinery_4
+			}
 		}
 		text = cost_info_district_ukn_arcology_refinery
 	}
@@ -5753,6 +5808,10 @@ building_ukn_crystal_plant_3 = {
 		trigger = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			NOR = {
+				has_building = building_ukn_refinery_3
+				has_building = building_ukn_refinery_4
+			}
 		}
 		text = cost_info_district_ukn_refinery
 	}
@@ -5761,6 +5820,10 @@ building_ukn_crystal_plant_3 = {
 		trigger = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			NOR = {
+				has_building = building_ukn_refinery_3
+				has_building = building_ukn_refinery_4
+			}
 		}
 		text = cost_info_district_ukn_hab_refinery
 	}
@@ -5769,6 +5832,10 @@ building_ukn_crystal_plant_3 = {
 		trigger = {
 			exists = owner
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			NOR = {
+				has_building = building_ukn_refinery_3
+				has_building = building_ukn_refinery_4
+			}
 		}
 		text = cost_info_district_ukn_arcology_refinery
 	}
@@ -5777,6 +5844,10 @@ building_ukn_crystal_plant_3 = {
 		trigger = {
 			exists = owner
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			NOR = {
+				has_building = building_ukn_refinery_3
+				has_building = building_ukn_refinery_4
+			}
 		}
 		text = cost_info_district_ukn_rw_refinery
 	}
@@ -6181,6 +6252,7 @@ building_ukn_crystal_plant_4 = {
 		trigger = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			NOT = { has_building = building_ukn_refinery_4 }
 		}
 		text = cost_info_district_ukn_refinery
 	}
@@ -6189,6 +6261,7 @@ building_ukn_crystal_plant_4 = {
 		trigger = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			NOT = { has_building = building_ukn_refinery_4 }
 		}
 		text = cost_info_district_ukn_hab_refinery
 	}
@@ -6197,6 +6270,7 @@ building_ukn_crystal_plant_4 = {
 		trigger = {
 			exists = owner
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			NOT = { has_building = building_ukn_refinery_4 }
 		}
 		text = cost_info_district_ukn_arcology_refinery
 	}
@@ -6205,6 +6279,7 @@ building_ukn_crystal_plant_4 = {
 		trigger = {
 			exists = owner
 			UKN_USES_RW_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			NOT = { has_building = building_ukn_refinery_4 }
 		}
 		text = cost_info_district_ukn_rw_refinery
 	}

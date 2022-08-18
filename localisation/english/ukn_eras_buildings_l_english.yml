@@ -27,9 +27,9 @@
  unlock_district_ukn_arcology_automation:0 "Allows us to construct £district£ §H$district_ukn_arcology_automation_plural$§!\n "
  job_ukn_automation_technician_auto_provide: "£building£ §H$building_ukn_automation_grid_1$§! will automatically provide a sufficient amount of £job_ukn_automation_technician_rw£ §H$job_ukn_automation_technician_rw_plural$§!\n "
  
- job_ukn_automation_technician_infrastructure_slot_capital_basic_provide: "§HEmpire Capital Planets§! gain §G2§! additional §YInfrastructure Slots§! and §G1§! additional £job_ukn_automation_technician_normal£ §H$job_ukn_automation_technician_normal$§!\n§PThis bonus does not apply to £ukn_icon_planet_blue£§ERingworlds§!, £ukn_icon_planet_blue£§EAlderson Disks§!, or £ukn_icon_planet_blue£§EBirch Worlds§!§!\n "
- job_ukn_automation_technician_infrastructure_slot_capital_habitat_provide: "§HEmpire Capital Planets§! gain §G2§! additional §YInfrastructure Slots§! and §G1§! additional £job_ukn_automation_technician_normal£ §H$job_ukn_automation_technician_normal$§!\n§PThis bonus does not apply to £ukn_icon_planet_blue£§ERingworlds§!, £ukn_icon_planet_blue£§EAlderson Disks§!, or £ukn_icon_planet_blue£§EBirch Worlds§!§!\n "
- job_ukn_automation_technician_infrastructure_slot_capital_arcology_provide: "§HEmpire Capital Planets§! gain §G2§! additional §YInfrastructure Slots§! and §G1§! additional £job_ukn_automation_technician_arcology£ §H$job_ukn_automation_technician_arcology$§!\n§PThis bonus does not apply to £ukn_icon_planet_blue£§ERingworlds§!, £ukn_icon_planet_blue£§EAlderson Disks§!, or £ukn_icon_planet_blue£§EBirch Worlds§!§!\n "
+ job_ukn_automation_technician_infrastructure_slot_capital_basic_provide: "\n§HEmpire Capital Planets§! gain §G2§! additional §YInfrastructure Slots§! and §G1§! additional £job_ukn_automation_technician_normal£ §H$job_ukn_automation_technician_normal$§!\n§PThis bonus does not apply to £ukn_icon_planet_blue£§ERingworlds§!, £ukn_icon_planet_blue£§EAlderson Disks§!, or £ukn_icon_planet_blue£§EBirch Worlds§!§! "
+ job_ukn_automation_technician_infrastructure_slot_capital_habitat_provide: "\n§HEmpire Capital Planets§! gain §G2§! additional §YInfrastructure Slots§! and §G1§! additional £job_ukn_automation_technician_normal£ §H$job_ukn_automation_technician_normal$§!\n§PThis bonus does not apply to £ukn_icon_planet_blue£§ERingworlds§!, £ukn_icon_planet_blue£§EAlderson Disks§!, or £ukn_icon_planet_blue£§EBirch Worlds§!§! "
+ job_ukn_automation_technician_infrastructure_slot_capital_arcology_provide: "\n§HEmpire Capital Planets§! gain §G2§! additional §YInfrastructure Slots§! and §G1§! additional £job_ukn_automation_technician_arcology£ §H$job_ukn_automation_technician_arcology$§!\n§PThis bonus does not apply to £ukn_icon_planet_blue£§ERingworlds§!, £ukn_icon_planet_blue£§EAlderson Disks§!, or £ukn_icon_planet_blue£§EBirch Worlds§!§! "
  
  ukn_automation_integrity_auto_provide_0: "Will automatically assure §YAdequate§! £ukn_icon_automation_integrity£§HAutomation Integrity§!\n "
  ukn_automation_integrity_auto_provide_1: "Will automatically assure §GQualitative§! £ukn_icon_automation_integrity£§HAutomation Integrity§!\n "
@@ -169,6 +169,7 @@
 
 # Factory Grid
  building_ukn_factory_1:0 "§G§!§B§!§B§!Factory Grid"
+ building_ukn_factory_1_plural:0 "§G§!§B§!§B§!Factory Grids"
  building_ukn_factory_1_desc:0 "A wide collection of civilian industries and manufactories where a variety of consumer goods are produced."
  mod_planet_building_ukn_factory_1_build_speed_mult:0 "$building_ukn_factory_1$ Build Speed"
  
@@ -200,6 +201,9 @@
  upgrade_district_ukn_rw_industrial:0 "Allows us to construct £district£ §H$district_rw_industrial_plural$§!\nUpgrades new and existing £district£ §H$district_rw_industrial_plural$§!\n "
  upgrade_district_ukn_alderson_industrial:0 "Allows us to construct £district£ §H$district_alderson_industrial_plural$§!\nUpgrades new and existing £district£ §H$district_alderson_industrial_plural$§!\n "
 
+ upgrade_unlock_district_ukn_industrial:0 "Allows us to construct £district£ §H$district_industrial_plural$§!\n§EIt will be necessary to exit and re-enter the planet view to access these $name_ukn_district_lower_case_plural$ after the construction of a £building£ §H$building_factory_1$§! or £building£ §H$building_foundry_1$§!§!\nUpgrades new and existing £district£ §H$district_industrial_plural$§!\n "
+ upgrade_unlock_district_ukn_hab_industrial:0 "Allows us to construct £district£ §H$district_hab_industrial_plural$§!\n§EIt will be necessary to exit and re-enter the planet view to access these $name_ukn_district_lower_case_plural$ after the construction of a £building£ §H$building_factory_1$§! or £building£ §H$building_foundry_1$§!§!\nUpgrades new and existing £district£ §H$district_hab_industrial_plural$§!\n "
+ 
  cost_info_district_ukn_industrial:0 "§E£district£ §H$district_industrial$§! cost modifier will only be applied once\n(and, if applicable, by the highest tier £building£ §Y$name_ukn_building$ Type§!) if this planet possesses both £building£ §HFabrication $name_ukn_building$§! and £building£ §HFactory $name_ukn_building$§!§!\n "
  cost_info_district_ukn_hab_industrial:0 "§E£district£ §H$district_hab_industrial$§! cost modifier will only be applied once\n(and, if applicable, by the highest tier £building£ §Y$name_ukn_building$ Type§!) if this planet possesses both £building£ §HFabrication $name_ukn_building$§! and £building£ §HFactory $name_ukn_building$§!§!\n "
  cost_info_district_ukn_arcology_arms_industry:0 "§E£district£ §H$district_arcology_arms_industry$§! cost modifier will only be applied once\n(and, if applicable, by the highest tier £building£ §Y$name_ukn_building$ Type§!) if this planet possesses both £building£ §HFabrication $name_ukn_building$§! and £building£ §HFactory $name_ukn_building$§!§!\n "
@@ -207,6 +211,7 @@
  
 # Fabrication Grid
  building_ukn_foundry_1:0 "§G§!§E§!§B§!Fabrication Grid"
+ building_ukn_foundry_1_plural:0 "§G§!§E§!§B§!Fabrication Grids"
  building_ukn_foundry_1_desc:0 "The Fabricators working in these grids produce high-quality advanced construction materials."
  mod_planet_building_ukn_foundry_1_build_speed_mult:0 "$building_ukn_foundry_1$ Build Speed"
  
@@ -400,6 +405,7 @@
 
 # Energy Grid
  building_ukn_energy_grid_1:0 "§H§!§B§!§B§!Energy Grid"
+ building_ukn_energy_grid_1_plural:0 "§H§!§B§!§B§!Energy Grids"
  building_ukn_energy_grid_1_desc:0 "A wide collection of civilian industries and manufactories where a variety of consumer goods are produced."
  mod_planet_building_ukn_energy_grid_1_build_speed_mult:0 "$building_ukn_energy_grid_1$ Build Speed"
  
@@ -431,8 +437,12 @@
  upgrade_district_ukn_rw_generator:0 "Allows us to construct £district£ §H$district_rw_generator_plural$§!\nUpgrades new and existing £district£ §H$district_rw_generator_plural$§!\n "
  upgrade_district_ukn_alderson_generator:0 "Allows us to construct £district£ §H$district_alderson_generator_plural$§!\nUpgrades new and existing £district£ §H$district_alderson_generator_plural$§!\n "
 
+ upgrade_unlock_district_ukn_generator:0 "Allows us to construct £district£ §H$district_generator_plural$§!\n§EIt will be necessary to exit and re-enter the planet view to access these $name_ukn_district_lower_case_plural$ after the construction of a £building£ §H$building_energy_grid$§!§!\nUpgrades new and existing £district£ §H$district_generator_plural$§!\n "
+ upgrade_unlock_district_ukn_hab_generator:0 "Allows us to construct £district£ §H$district_hab_generator_plural$§!\n§EIt will be necessary to exit and re-enter the planet view to access these $name_ukn_district_lower_case_plural$ after the construction of a £building£ §H$building_energy_grid$§!§!\nUpgrades new and existing £district£ §H$district_hab_generator_plural$§!\n "
+ 
 # Food Processing Grid
  building_ukn_food_processing_facility_1:0 "§H§!§E§!§B§!Food Processing Grid"
+ building_ukn_food_processing_facility_1_plural:0 "§H§!§E§!§B§!Food Processing Grids"
  building_ukn_food_processing_facility_1_desc:0 "A wide collection of civilian industries and manufactories where a variety of consumer goods are produced."
  mod_planet_building_ukn_food_processing_facility_1_build_speed_mult:0 "$building_ukn_food_processing_facility_1$ Build Speed"
  
@@ -464,8 +474,12 @@
  upgrade_district_ukn_rw_farming:0 "Allows us to construct £district£ §H$district_rw_farming_plural$§!\nUpgrades new and existing £district£ §H$district_rw_farming_plural$§!\n "
  upgrade_district_ukn_alderson_farming:0 "Allows us to construct £district£ §H$district_alderson_farming_plural$§!\nUpgrades new and existing £district£ §H$district_alderson_farming_plural$§!\n "
  
+ upgrade_unlock_district_ukn_farming:0 "Allows us to construct £district£ §H$district_farming_plural$§!\n§EIt will be necessary to exit and re-enter the planet view to access these $name_ukn_district_lower_case_plural$ after the construction of a £building£ §H$building_food_processing_facility$§!§!\nUpgrades new and existing £district£ §H$district_farming_plural$§!\n "
+ upgrade_unlock_district_ukn_hab_farming:0 "Allows us to construct £district£ §H$district_ukn_hab_farming_plural$§!\n§EIt will be necessary to exit and re-enter the planet view to access these $name_ukn_district_lower_case_plural$ after the construction of a £building£ §H$building_food_processing_facility$§!§!\nUpgrades new and existing £district£ §H$district_ukn_hab_farming_plural$§!\n "
+ 
 # Mineral Extraction Grid
  building_ukn_mineral_purification_plant_1:0 "§H§!§G§!§B§!Mineral Extraction Grid"
+ building_ukn_mineral_purification_plant_1_plural:0 "§H§!§G§!§B§!Mineral Extraction Grids"
  building_ukn_mineral_purification_plant_1_desc:0 "A wide collection of civilian industries and manufactories where a variety of consumer goods are produced."
  mod_planet_building_ukn_mineral_purification_plant_1_build_speed_mult:0 "$building_ukn_mineral_purification_plant_1$ Build Speed"
  
@@ -497,6 +511,9 @@
  upgrade_district_ukn_rw_mining:0 "Allows us to construct £district£ §H$district_rw_mining_plural$§!\nUpgrades new and existing £district£ §H$district_rw_mining_plural$§!\n "
  upgrade_district_ukn_alderson_mining:0 "Allows us to construct £district£ §H$district_alderson_mining_plural$§!\nUpgrades new and existing £district£ §H$district_alderson_mining_plural$§!\n "
 
+ upgrade_unlock_district_ukn_mining:0 "Allows us to construct £district£ §H$district_mining_plural$§!\n§EIt will be necessary to exit and re-enter the planet view to access these $name_ukn_district_lower_case_plural$ after the construction of a £building£ §H$building_food_processing_facility$§!§!\nUpgrades new and existing £building£ §H$building_mineral_purification_plant$§!§!\n "
+ upgrade_unlock_district_ukn_hab_mining:0 "Allows us to construct £district£ §H$district_hab_mining_plural$§!\n§EIt will be necessary to exit and re-enter the planet view to access these $name_ukn_district_lower_case_plural$ after the construction of a £building£ §H$building_food_processing_facility$§!§!\nUpgrades new and existing £building£ §H$building_mineral_purification_plant$§!§!\n "
+ 
 # Particle Harvesting Traps
  building_ukn_particle_harvesting_traps_1:0 "§H§!§H§!§B§!Particle Harvesting Traps"
  building_ukn_particle_harvesting_traps_1_desc:0 "These intricate facilities trap exotic particles within energy fields, funneling them into special containment zones below ground where they can be stabilized and harvested."

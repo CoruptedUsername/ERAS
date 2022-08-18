@@ -2,7 +2,7 @@
 ukn_automation_technician_normal = {
 	category = specialist
 	condition_string = SPECIALIST_JOB_TRIGGER
-	building_icon = building_ukn_automachine_assembly_grid
+	building_icon = building_ukn_automation_grid_1
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {
@@ -61,7 +61,7 @@ ukn_automation_technician_normal = {
 ukn_automation_technician_drone_normal = {
 	category = complex_drone
 	condition_string = DRONE_JOB_TRIGGER
-	building_icon = building_ukn_automachine_assembly_grid
+	building_icon = building_ukn_automation_grid_1
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {
@@ -119,7 +119,7 @@ ukn_automation_technician_drone_normal = {
 ukn_automation_technician_arcology = {
 	category = specialist
 	condition_string = SPECIALIST_JOB_TRIGGER
-	building_icon = building_ukn_automachine_assembly_grid
+	building_icon = building_ukn_automation_grid_1
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {
@@ -182,7 +182,7 @@ ukn_automation_technician_arcology = {
 ukn_automation_technician_drone_arcology = {
 	category = complex_drone
 	condition_string = DRONE_JOB_TRIGGER
-	building_icon = building_ukn_automachine_assembly_grid
+	building_icon = building_ukn_automation_grid_1
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {
@@ -245,7 +245,7 @@ ukn_automation_technician_drone_arcology = {
 ukn_automation_technician_rw = {
 	category = specialist
 	condition_string = SPECIALIST_JOB_TRIGGER
-	building_icon = building_ukn_automachine_assembly_grid
+	building_icon = building_ukn_automation_grid_1
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {
@@ -308,7 +308,7 @@ ukn_automation_technician_rw = {
 ukn_automation_technician_drone_rw = {
 	category = complex_drone
 	condition_string = DRONE_JOB_TRIGGER
-	building_icon = building_ukn_automachine_assembly_grid
+	building_icon = building_ukn_automation_grid_1
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {

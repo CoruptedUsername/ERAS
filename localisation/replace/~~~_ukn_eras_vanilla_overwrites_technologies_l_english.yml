@@ -812,16 +812,16 @@
  tech_mine_rare_crystals:0 "Rare Crystal Mining"
  tech_mine_rare_crystals_desc:1 "$UKN_TECH_ERA_1$Mining these crystals without damaging or even destroying them is an extremely delicate process. It requires advanced equipment capable of pinpoint precision."
 
- tech_rare_crystals:0 "Rare Crystal Manufacturing"
- tech_rare_crystals_desc:1 "$UKN_TECH_ERA_2$The crystallization process is complicated and difficult, but synthetic crystals can be manufactured by using specialized industrial plants."
+ tech_rare_crystals:0 "£ukn_icon_tech_milestone£ Rare Crystal Manufacturing"
+ tech_rare_crystals_desc:1 "$UKN_TECH_ERA_2$The crystallization process is complicated and difficult, but synthetic crystals can be manufactured by using specialized industrial plants.$UKN_TECH_MILESTONE_TOOLTIP_ERA_3"
 
  
 # EXOTIC FUILDS PRODUCTION / BUFFING TECHS #-----------------
  tech_mine_exotic_gases:0 "Exotic Gas Extraction"
  tech_mine_exotic_gases_desc:0 "$UKN_TECH_ERA_1$Pockets of Exotic Gas are rare and often inaccessible by conventional means. Such deposits can only be reached by using special extractor technology."
  
- tech_exotic_gases:0 "Exotic Gas Refining"
- tech_exotic_gases_desc:0 "$UKN_TECH_ERA_2$Exotic Gas can be produced artificially, but it is a difficult process that requires advanced refinery equipment."
+ tech_exotic_gases:0 "£ukn_icon_tech_milestone£ Exotic Gas Refining"
+ tech_exotic_gases_desc:0 "$UKN_TECH_ERA_2$Exotic Gas can be produced artificially, but it is a difficult process that requires advanced refinery equipment.$UKN_TECH_MILESTONE_TOOLTIP_ERA_3"
  
 
 

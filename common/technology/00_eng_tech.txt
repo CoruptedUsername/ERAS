@@ -787,8 +787,8 @@ tech_ship_armor_1 = {
 			desc = "TECH_UNLOCK_UKN_MATERIALS_1_DESC"
 		}
 		custom = {
-			title = "TECH_UNLOCK_UKN_POLYMERICS_TITLE"
-			desc = "TECH_UNLOCK_UKN_POLYMERICS_DESC"
+			title = "TECH_EXTRACT_MANUFACTURE_UKN_POLYMERICS_TITLE"
+			desc = "TECH_EXTRACT_MANUFACTURE_UKN_POLYMERICS_DESC"
 		}
 	}
 }
@@ -870,8 +870,8 @@ tech_ship_armor_3 = {
 			desc = "TECH_UNLOCK_UKN_HULL_COMPOSITION_2_DESC"
 		}
 		custom = {
-			title = "TECH_UNLOCK_UKN_META_MATERIALS_TITLE"
-			desc = "TECH_UNLOCK_UKN_META_MATERIALS_DESC"
+			title = "TECH_EXTRACT_MANUFACTURE_UKN_META_MATERIALS_TITLE"
+			desc = "TECH_EXTRACT_MANUFACTURE_UKN_META_MATERIALS_DESC"
 		}
 	}
 	
@@ -934,8 +934,8 @@ tech_ship_armor_4 = {
 			desc = "TECH_UNLOCK_UKN_HULL_COMPOSITION_3_DESC"
 		}
 		custom = {
-			title = "TECH_UNLOCK_UKN_FEMTOMATTER_TITLE"
-			desc = "TECH_UNLOCK_UKN_FEMTOMATTER_DESC"
+			title = "TECH_EXTRACT_MANUFACTURE_UKN_FEMTOMATTER_TITLE"
+			desc = "TECH_EXTRACT_MANUFACTURE_UKN_FEMTOMATTER_DESC"
 		}
 	}
 	
@@ -998,8 +998,8 @@ tech_ship_armor_5 = {
 			desc = "TECH_UNLOCK_UKN_HULL_COMPOSITION_4_DESC"
 		}
 		custom = {
-			title = "TECH_UNLOCK_UKN_CONDENSICS_TITLE"
-			desc = "TECH_UNLOCK_UKN_CONDENSICS_DESC"
+			title = "TECH_EXTRACT_MANUFACTURE_UKN_CONDENSICS_TITLE"
+			desc = "TECH_EXTRACT_MANUFACTURE_UKN_CONDENSICS_DESC"
 		}
 	}
 	
@@ -1059,8 +1059,8 @@ tech_engineering_1 = {
 
 	prereqfor_desc = {
 		custom = {
-			title = "TECH_UNLOCK_UKN_AUTOMACHINES_TITLE"
-			desc = "TECH_UNLOCK_UKN_AUTOMACHINES_DESC"
+			title = "TECH_EXTRACT_MANUFACTURE_UKN_AUTOMACHINES_TITLE"
+			desc = "TECH_EXTRACT_MANUFACTURE_UKN_AUTOMACHINES_DESC"
 		}
 	}
 	
@@ -1215,6 +1215,13 @@ tech_alloys_1 = {
 	weight = @tech_ukn_alloys_2_weight
 
 	# Unlock better alloy buildings
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_UKN_UPGRADE_FABRICATION_GRID_1_TITLE"
+			desc = "TECH_UNLOCK_UKN_UPGRADE_FABRICATION_GRID_1_DESC"
+		}
+	}
 	
 #P]	potential = {
 #P]		has_technology = tech_basic_industry
@@ -1304,7 +1311,14 @@ tech_luxuries_1 = {
 	prerequisites = { "tech_basic_industry" }
 	weight = @tech_ukn_consumer_goods_2_weight
 
-	# Unlocks better consumer goods buildings
+	# Grants output buffs to consumer goods buildings
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_UKN_UPGRADE_FACTORY_GRID_1_TITLE"
+			desc = "TECH_UNLOCK_UKN_UPGRADE_FACTORY_GRID_1_DESC"
+		}
+	}
 
 	potential = {
 		country_uses_consumer_goods = yes
@@ -1348,7 +1362,7 @@ tech_luxuries_2 = {
 	prerequisites = { "tech_luxuries_1" "tech_colonial_centralization" }
 	weight = @tech_ukn_consumer_goods_3_weight
 
-	# Unlocks better luxury goods buildings
+	# Grants output buffs to luxury goods buildings
 	modifier = {
 		planet_artisans_produces_mult = 0.05
 	}
@@ -1395,6 +1409,13 @@ tech_mineral_purification_1 = {
 	category = { industry }
 	prerequisites = { "tech_mechanized_mining" }
 	weight = @tech_ukn_minerals_2_weight
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_UKN_UPGRADE_MINERAL_EXTRACTION_GRID_1_TITLE"
+			desc = "TECH_UNLOCK_UKN_UPGRADE_MINERAL_EXTRACTION_GRID_1_DESC"
+		}
+	}
 	
 #P]	potential = {
 #P]		has_technology = tech_mechanized_mining
