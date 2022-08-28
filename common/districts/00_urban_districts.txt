@@ -949,21 +949,71 @@ district_industrial = {
 	is_capped_by_modifier = no
 	exempt_from_ai_planet_specialization = yes
 
-	prerequisites = {
-		tech_basic_industry
+	abort_trigger = {
+		NOR = {
+			has_building = building_factory_1
+			has_building = building_factory_2
+			has_building = building_factory_3
+			has_building = building_ukn_factory_4
+			has_building = building_ukn_factory_5
+			has_building = building_foundry_1
+			has_building = building_foundry_2
+			has_building = building_foundry_3
+			has_building = building_ukn_foundry_4
+			has_building = building_ukn_foundry_5
+		}
 	}
 
 	show_on_uncolonized = {
 		exists = from
 		UKN_USES_STANDARD_DISTRICTS = yes
+		OR = {
+			has_building = building_factory_1
+			has_building = building_factory_2
+			has_building = building_factory_3
+			has_building = building_ukn_factory_4
+			has_building = building_ukn_factory_5
+			has_building = building_foundry_1
+			has_building = building_foundry_2
+			has_building = building_foundry_3
+			has_building = building_ukn_foundry_4
+			has_district = district_arcology_arms_industry
+			has_district = district_industrial
+		}
 	}
 
 	potential = {
 		exists = owner
 		UKN_USES_STANDARD_DISTRICTS = yes
+		OR = {
+			has_building = building_factory_1
+			has_building = building_factory_2
+			has_building = building_factory_3
+			has_building = building_ukn_factory_4
+			has_building = building_ukn_factory_5
+			has_building = building_foundry_1
+			has_building = building_foundry_2
+			has_building = building_foundry_3
+			has_building = building_ukn_foundry_4
+			has_building = building_ukn_foundry_5
+			has_district = district_arcology_arms_industry
+			has_district = district_industrial
+		}
 	}
 
 	allow = {
+		OR = {
+			has_building = building_factory_1
+			has_building = building_factory_2
+			has_building = building_factory_3
+			has_building = building_ukn_factory_4
+			has_building = building_ukn_factory_5
+			has_building = building_foundry_1
+			has_building = building_foundry_2
+			has_building = building_foundry_3
+			has_building = building_ukn_foundry_4
+			has_building = building_ukn_foundry_5
+		}
 		NOR = {
 			has_modifier = resort_colony
 			has_modifier = slave_colony
@@ -1070,10 +1120,14 @@ district_industrial = {
 		}
 	}
 
+	prerequisites = {
+		"tech_basic_industry"
+	}
+#----------------------------------------------------
+
 	planet_modifier = {
 		planet_housing_add = 1
 	}
-#----------------------------------------------------
 
 #[BASIC] (All) Fabricators
 	triggered_planet_modifier = {
@@ -1083,9 +1137,16 @@ district_industrial = {
 				is_regular_empire = yes
 				is_catalytic_empire = no
 			}
+			OR = {
+				has_building = building_foundry_1
+				has_building = building_foundry_2
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
 		}
 		modifier = {
-			job_foundry_add = 2
+			job_foundry_add = 1
 		}
 	}
 
@@ -1096,9 +1157,16 @@ district_industrial = {
 				is_machine_empire = yes
 				is_catalytic_empire = no
 			}
+			OR = {
+				has_building = building_foundry_1
+				has_building = building_foundry_2
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
 		}
 		modifier = {
-			job_fabricator_add = 2
+			job_fabricator_add = 1
 		}
 	}
 
@@ -1109,9 +1177,16 @@ district_industrial = {
 				is_hive_empire = yes
 				is_catalytic_empire = no
 			}
+			OR = {
+				has_building = building_foundry_1
+				has_building = building_foundry_2
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
 		}
 		modifier = {
-			job_alloy_drone_add = 2
+			job_alloy_drone_add = 1
 		}
 	}
 
@@ -1123,392 +1198,324 @@ district_industrial = {
 				is_regular_empire = yes
 				is_catalytic_empire = yes
 			}
-		}
-		modifier = {
-			job_catalytic_technician_add = 2
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_gestalt = yes
-				is_catalytic_empire = yes
+			OR = {
+				has_building = building_foundry_1
+				has_building = building_foundry_2
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
 			}
 		}
 		modifier = {
-			job_catalytic_drone_add = 2
-		}
-	}
-#----------------------------------------------------
-
-#[BASIC-BASIC] (All) Artisans Replace
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-				country_uses_consumer_goods = yes
-				is_catalytic_empire = no
-				is_crafter_empire = no
-			}
-		}
-		modifier = {
-			job_artisan_add = 1
-			job_foundry_add = -1
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_machine_empire = yes
-				country_uses_consumer_goods = yes
-				is_catalytic_empire = no
-			}
-		}
-		modifier = {
-			job_artisan_drone_add = 1
-			job_fabricator_add = -1
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_hive_empire = yes
-				country_uses_consumer_goods = yes
-				is_catalytic_empire = no
-			}
-		}
-		modifier = {
-			job_artisan_drone_add = 1
-			job_alloy_drone_add = -1
-		}
-	}
-
-#[CATALYTIC-BASIC] (All) Artisans Replace
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-				country_uses_consumer_goods = yes
-				is_catalytic_empire = yes
-				is_crafter_empire = no
-			}
-		}
-		modifier = {
-			job_artisan_add = 1
-			job_catalytic_technician_add = -1
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_gestalt = yes
-				country_uses_consumer_goods = yes
-				is_catalytic_empire = yes
-			}
-		}
-		modifier = {
-			job_artisan_drone_add = 1
-			job_catalytic_drone_add = -1
-		}
-	}
-
-#[BASIC-ARTIFICER] (All) Artisans Replace
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-				country_uses_consumer_goods = yes
-				is_catalytic_empire = no
-				is_crafter_empire = yes
-			}
-		}
-		modifier = {
-			job_artificer_add = 1
-			job_foundry_add = -1
-		}
-	}
-
-#[CATALYTIC-ARTIFICER] (All) Artisans Replace
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-				country_uses_consumer_goods = yes
-				is_catalytic_empire = yes
-				is_crafter_empire = yes
-			}
-		}
-		modifier = {
-			job_artificer_add = 1
-			job_catalytic_technician_add = -1
-		}
-	}
-#----------------------------------------------------
-
-	# Designation Job Changes
-#[BASIC-BASIC] (All) Switch To Fabricators
-	triggered_planet_modifier = {
-		potential = {
-			has_designation = col_foundry
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-				country_uses_consumer_goods = yes
-				is_catalytic_empire = no
-				is_crafter_empire = no
-			}
-		}
-		modifier = {
-			job_artisan_add = -1
-			job_foundry_add = 1
-		}
-	}
-	
-	triggered_planet_modifier = {
-		potential = {
-			has_designation = col_foundry
-			exists = owner
-			owner = {
-				is_machine_empire = yes
-				country_uses_consumer_goods = yes
-				is_catalytic_empire = no
-			}
-		}
-		modifier = {
-			job_artisan_drone_add = -1
-			job_fabricator_add = 1
-		}
-	}
-	
-	triggered_planet_modifier = {
-		potential = {
-			has_designation = col_foundry
-			exists = owner
-			owner = {
-				is_hive_empire = yes
-				country_uses_consumer_goods = yes
-				is_catalytic_empire = no
-			}
-		}
-		modifier = {
-			job_artisan_drone_add = -1
-			job_alloy_drone_add = 1
-		}
-	}
-
-	# Designation Job Changes
-#[CATALYTIC-BASIC] (All) Switch To Fabricators
-	triggered_planet_modifier = {
-		potential = {
-			has_designation = col_foundry
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-				country_uses_consumer_goods = yes
-				is_catalytic_empire = yes
-				is_crafter_empire = no
-			}
-		}
-		modifier = {
-			job_artisan_add = -1
 			job_catalytic_technician_add = 1
 		}
 	}
-	
+
 	triggered_planet_modifier = {
 		potential = {
-			has_designation = col_foundry
 			exists = owner
 			owner = {
 				is_gestalt = yes
-				country_uses_consumer_goods = yes
 				is_catalytic_empire = yes
+			}
+			OR = {
+				has_building = building_foundry_1
+				has_building = building_foundry_2
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
 			}
 		}
 		modifier = {
-			job_artisan_drone_add = -1
 			job_catalytic_drone_add = 1
 		}
 	}
 
-	# Designation Job Changes
-#[BASIC-ARTIFICER] (All) Switch To Fabricators
+#[BASIC] (All) Artisans
 	triggered_planet_modifier = {
 		potential = {
-			has_designation = col_foundry
 			exists = owner
 			owner = {
 				is_regular_empire = yes
-				country_uses_consumer_goods = yes
-				is_catalytic_empire = no
-				is_crafter_empire = yes
+#O]				country_uses_consumer_goods = yes
+				is_crafter_empire = no
+			}
+			OR = {
+				has_building = building_factory_1
+				has_building = building_factory_2
+				has_building = building_factory_3
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
 			}
 		}
 		modifier = {
-			job_artificer_add = -1
+			job_artisan_add = 1
+		}
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_machine_empire = yes
+#O				country_uses_consumer_goods = yes
+			}
+			OR = {
+				has_building = building_factory_1
+				has_building = building_factory_2
+				has_building = building_factory_3
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
+			}
+		}
+		modifier = {
+			job_artisan_drone_add = 1
+		}
+	}
+	
+#[ARTIFICER] (All) Artisans Replace
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+#				country_uses_consumer_goods = yes
+				is_crafter_empire = yes
+			}
+			OR = {
+				has_building = building_factory_1
+				has_building = building_factory_2
+				has_building = building_factory_3
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
+			}
+		}
+		modifier = {
+			job_artisan_add = 1
+		}
+	}
+#----------------------------------------------------
+	
+# 1 Infrastructure Type Only
+#[BASIC] (All) Fabricators
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_catalytic_empire = no
+			}
+			OR = {
+				has_building = building_foundry_1
+				has_building = building_foundry_2
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
+			NOR = {
+				has_building = building_factory_1
+				has_building = building_factory_2
+				has_building = building_factory_3
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
+			}
+		}
+		modifier = {
 			job_foundry_add = 1
 		}
 	}
 
-	# Designation Job Changes
-#[CATALYTIC-ARTIFICER] (All) Switch To Fabricators
 	triggered_planet_modifier = {
 		potential = {
-			has_designation = col_foundry
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-				country_uses_consumer_goods = yes
-				is_catalytic_empire = yes
-				is_crafter_empire = yes
-			}
-		}
-		modifier = {
-			job_artificer_add = -1
-			job_catalytic_technician_add = 1
-		}
-	}
-#----------------------------------------------------
-
-	# Designation Job Changes
-#[BASIC-BASIC] (All) Switch To Artisans
-	triggered_planet_modifier = {
-		potential = {
-			has_designation = col_factory
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-				country_uses_consumer_goods = yes
-				is_catalytic_empire = no
-				is_crafter_empire = no
-			}
-		}
-		modifier = {
-			job_artisan_add = 1
-			job_foundry_add = -1
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			OR = {
-				has_designation = col_factory
-				has_designation = col_mac_factory
-			}
 			exists = owner
 			owner = {
 				is_machine_empire = yes
-				country_uses_consumer_goods = yes
 				is_catalytic_empire = no
+			}
+			OR = {
+				has_building = building_foundry_1
+				has_building = building_foundry_2
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
+			NOR = {
+				has_building = building_factory_1
+				has_building = building_factory_2
+				has_building = building_factory_3
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
 			}
 		}
 		modifier = {
-			job_artisan_drone_add = 1
-			job_fabricator_add = -1
+			job_fabricator_add = 1
 		}
 	}
 
 	triggered_planet_modifier = {
 		potential = {
-			has_designation = col_factory
 			exists = owner
 			owner = {
 				is_hive_empire = yes
-				country_uses_consumer_goods = yes
 				is_catalytic_empire = no
+			}
+			OR = {
+				has_building = building_foundry_1
+				has_building = building_foundry_2
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
+			NOR = {
+				has_building = building_factory_1
+				has_building = building_factory_2
+				has_building = building_factory_3
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
 			}
 		}
 		modifier = {
-			job_artisan_drone_add = 1
-			job_alloy_drone_add = -1
+			job_alloy_drone_add = 1
 		}
 	}
 
-	# Designation Job Changes
-#[CATALYTIC-BASIC] (All) Switch To Artisans
+#[CATALYTIC] (All) Fabricators
 	triggered_planet_modifier = {
 		potential = {
-			has_designation = col_factory
 			exists = owner
 			owner = {
 				is_regular_empire = yes
-				country_uses_consumer_goods = yes
 				is_catalytic_empire = yes
+			}
+			OR = {
+				has_building = building_foundry_1
+				has_building = building_foundry_2
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
+			NOR = {
+				has_building = building_factory_1
+				has_building = building_factory_2
+				has_building = building_factory_3
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
+			}
+		}
+		modifier = {
+			job_catalytic_technician_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+				is_catalytic_empire = yes
+			}
+			OR = {
+				has_building = building_foundry_1
+				has_building = building_foundry_2
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
+			NOR = {
+				has_building = building_factory_1
+				has_building = building_factory_2
+				has_building = building_factory_3
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
+			}
+		}
+		modifier = {
+			job_catalytic_drone_add = 1
+		}
+	}
+
+#[BASIC] (All) Artisans
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+#O]				country_uses_consumer_goods = yes
 				is_crafter_empire = no
+			}
+			OR = {
+				has_building = building_factory_1
+				has_building = building_factory_2
+				has_building = building_factory_3
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
+			}
+			NOR = {
+				has_building = building_foundry_1
+				has_building = building_foundry_2
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
 			}
 		}
 		modifier = {
 			job_artisan_add = 1
-			job_catalytic_technician_add = -1
 		}
 	}
-
+	
 	triggered_planet_modifier = {
 		potential = {
-			OR = {
-				has_designation = col_factory
-				has_designation = col_mac_factory
-			}
 			exists = owner
 			owner = {
-				is_gestalt = yes
-				country_uses_consumer_goods = yes
-				is_catalytic_empire = yes
+				is_machine_empire = yes
+#O				country_uses_consumer_goods = yes
+			}
+			OR = {
+				has_building = building_factory_1
+				has_building = building_factory_2
+				has_building = building_factory_3
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
+			}
+			NOR = {
+				has_building = building_foundry_1
+				has_building = building_foundry_2
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
 			}
 		}
 		modifier = {
 			job_artisan_drone_add = 1
-			job_catalytic_drone_add = -1
 		}
 	}
-
-	# Designation Job Changes
-#[BASIC-ARTIFICER] (All) Switch To Artisans
+	
+#[ARTIFICER] (All) Artisans Replace
 	triggered_planet_modifier = {
 		potential = {
-			has_designation = col_factory
 			exists = owner
 			owner = {
 				is_regular_empire = yes
-				country_uses_consumer_goods = yes
-				is_catalytic_empire = no
+#				country_uses_consumer_goods = yes
 				is_crafter_empire = yes
+			}
+			OR = {
+				has_building = building_factory_1
+				has_building = building_factory_2
+				has_building = building_factory_3
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
+			}
+			NOR = {
+				has_building = building_foundry_1
+				has_building = building_foundry_2
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
 			}
 		}
 		modifier = {
-			job_artificer_add = 1
-			job_foundry_add = -1
-		}
-	}
-
-	# Designation Job Changes
-#[CATALYTIC-ARTIFICER] (All) Switch To Artisans
-	triggered_planet_modifier = {
-		potential = {
-			has_designation = col_factory
-			exists = owner
-			owner = {
-				is_regular_empire = yes
-				country_uses_consumer_goods = yes
-				is_catalytic_empire = yes
-				is_crafter_empire = yes
-			}
-		}
-		modifier = {
-			job_artificer_add = 1
-			job_catalytic_technician_add = -1
+			job_artisan_add = 1
 		}
 	}
 #----------------------------------------------------

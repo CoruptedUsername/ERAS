@@ -2,7 +2,7 @@
 ukn_quasi_matter_supramutator = {
 	category = specialist
 	condition_string = SPECIALIST_JOB_TRIGGER
-	building_icon = building_ukn_quasi_matter_micro_array_grid
+	building_icon = building_ukn_quasi_matter_micro_array_grid_1
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {

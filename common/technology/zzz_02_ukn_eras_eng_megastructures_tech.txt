@@ -485,7 +485,7 @@ giga_tech_succ = {
 	tier = @tech_ukn_succ_tier
 	category = { voidcraft }
 	is_rare = yes
-	prerequisites = { "tech_mega_engineering" "tech_power_plant_4" "tech_mine_exotic_gases" }
+	prerequisites = { "tech_mega_engineering" "tech_power_plant_4" "tech_exotic_gases" }
 	weight = @tech_ukn_succ_weight
 	prereqfor_desc = {
 		custom = { title = "allow_succ"	desc = "desc_succ" }
@@ -496,7 +496,7 @@ giga_tech_succ = {
 #P]		has_technology = tech_ship_armor_4
 #P]		has_technology = tech_mega_engineering
 #P]		has_technology = tech_power_plant_4
-#P]		has_technology = tech_mine_exotic_gases
+#P]		has_technology = tech_exotic_gases
 #P] }
 
 	weight_modifier = {

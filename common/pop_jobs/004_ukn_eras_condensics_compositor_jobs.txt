@@ -2,7 +2,7 @@
 ukn_condensics_compositor = {
 	category = specialist
 	condition_string = SPECIALIST_JOB_TRIGGER
-	building_icon = building_ukn_condensics_compositation_grid
+	building_icon = building_ukn_condensics_compositation_grid_1
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {
@@ -90,7 +90,7 @@ ukn_condensics_compositor = {
 ukn_condensics_compositation_drone = {
 	category = complex_drone
 	condition_string = DRONE_JOB_TRIGGER
-	building_icon = building_ukn_condensics_compositation_grid
+	building_icon = building_ukn_condensics_compositation_grid_1
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {

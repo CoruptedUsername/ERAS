@@ -216,7 +216,7 @@ building_foundry_1 = {
 	}
 
 	prerequisites = {
-		"tech_alloys_1"
+		"tech_basic_industry"
 	}
 
 	upgrades = {
@@ -229,16 +229,34 @@ building_foundry_1 = {
 
 	triggered_desc = {
 		trigger = {
-			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			exists = owner
+			owner = {
+				has_technology = tech_alloys_1
+			}
+			NOR = {
+				has_building = building_factory_2
+				has_building = building_factory_3
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
+			}
 		}
 		text = cost_info_district_ukn_industrial
 	}
 	
 	triggered_desc = {
 		trigger = {
-			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			exists = owner
+			owner = {
+				has_technology = tech_alloys_1
+			}
+			NOR = {
+				has_building = building_factory_2
+				has_building = building_factory_3
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
+			}
 		}
 		text = cost_info_district_ukn_hab_industrial
 	}
@@ -248,16 +266,44 @@ building_foundry_1 = {
 		trigger = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			owner = {
+				NOT = { has_technology = tech_alloys_1 }
+			}
 		}
-		text = upgrade_district_ukn_industrial
+		text = unlock_district_ukn_industrial
 	}
-	
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+			owner = {
+				has_technology = tech_alloys_1
+			}
+		}
+		text = upgrade_unlock_district_ukn_industrial
+	}
+
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			owner = {
+				NOT = { has_technology = tech_alloys_1 }
+			}
 		}
-		text = upgrade_district_ukn_hab_industrial
+		text = unlock_district_ukn_hab_industrial
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+			owner = {
+				has_technology = tech_alloys_1
+			}
+		}
+		text = upgrade_unlock_district_ukn_hab_industrial
 	}
 
 	triggered_desc = {
@@ -293,6 +339,7 @@ building_foundry_1 = {
 			owner = {
 				is_regular_empire = yes
 #				is_catalytic_empire = no
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_100_0_PRODUCTION = yes
 		}
@@ -310,6 +357,7 @@ building_foundry_1 = {
 			owner = {
 				is_regular_empire = yes
 #				is_catalytic_empire = no
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_50_50_PRODUCTION = yes
 		}
@@ -328,6 +376,7 @@ building_foundry_1 = {
 			owner = {
 				is_regular_empire = yes
 #				is_catalytic_empire = no
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_0_100_PRODUCTION = yes
 		}
@@ -346,6 +395,7 @@ building_foundry_1 = {
 			owner = {
 				is_machine_empire = yes
 #				is_catalytic_empire = no
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_100_0_PRODUCTION = yes
 		}
@@ -363,6 +413,7 @@ building_foundry_1 = {
 			owner = {
 				is_machine_empire = yes
 #				is_catalytic_empire = no
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_50_50_PRODUCTION = yes
 		}
@@ -381,6 +432,7 @@ building_foundry_1 = {
 			owner = {
 				is_machine_empire = yes
 #				is_catalytic_empire = no
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_0_100_PRODUCTION = yes
 		}
@@ -399,6 +451,7 @@ building_foundry_1 = {
 			owner = {
 				is_hive_empire = yes
 #				is_catalytic_empire = no
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_100_0_PRODUCTION = yes
 		}
@@ -416,6 +469,7 @@ building_foundry_1 = {
 			owner = {
 				is_hive_empire = yes
 #				is_catalytic_empire = no
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_50_50_PRODUCTION = yes
 		}
@@ -434,6 +488,7 @@ building_foundry_1 = {
 			owner = {
 				is_hive_empire = yes
 #				is_catalytic_empire = no
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_0_100_PRODUCTION = yes
 		}
@@ -454,6 +509,7 @@ building_foundry_1 = {
 			owner = {
 				is_regular_empire = yes
 				is_catalytic_empire = yes
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_100_0_PRODUCTION = yes
 		}
@@ -471,6 +527,7 @@ building_foundry_1 = {
 			owner = {
 				is_regular_empire = yes
 				is_catalytic_empire = yes
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_50_50_PRODUCTION = yes
 		}
@@ -488,6 +545,7 @@ building_foundry_1 = {
 			owner = {
 				is_regular_empire = yes
 				is_catalytic_empire = yes
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_0_100_PRODUCTION = yes
 		}
@@ -506,6 +564,7 @@ building_foundry_1 = {
 			owner = {
 				is_machine_empire = yes
 				is_catalytic_empire = yes
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_100_0_PRODUCTION = yes
 		}
@@ -523,6 +582,7 @@ building_foundry_1 = {
 			owner = {
 				is_machine_empire = yes
 				is_catalytic_empire = yes
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_50_50_PRODUCTION = yes
 		}
@@ -540,6 +600,7 @@ building_foundry_1 = {
 			owner = {
 				is_machine_empire = yes
 				is_catalytic_empire = yes
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_0_100_PRODUCTION = yes
 		}
@@ -558,6 +619,7 @@ building_foundry_1 = {
 			owner = {
 				is_hive_empire = yes
 				is_catalytic_empire = yes
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_100_0_PRODUCTION = yes
 		}
@@ -575,6 +637,7 @@ building_foundry_1 = {
 			owner = {
 				is_hive_empire = yes
 				is_catalytic_empire = yes
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_50_50_PRODUCTION = yes
 		}
@@ -592,6 +655,7 @@ building_foundry_1 = {
 			owner = {
 				is_hive_empire = yes
 				is_catalytic_empire = yes
+				has_technology = tech_alloys_1
 			}
 			UKN_FABRICATORS_0_100_PRODUCTION = yes
 		}
@@ -608,6 +672,9 @@ building_foundry_1 = {
 		potential = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
+			owner = {
+				has_technology = tech_alloys_1
+			}
 			OR = {
 				UKN_FABRICATORS_50_50_PRODUCTION = yes
 				UKN_FABRICATORS_0_100_PRODUCTION = yes
@@ -680,8 +747,11 @@ building_foundry_1 = {
 
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			exists = owner
+			owner = {
+				has_technology = tech_alloys_1
+			}
 			NOR = {
 				has_building = building_factory_2
 				has_building = building_factory_3
@@ -696,8 +766,11 @@ building_foundry_1 = {
 
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			exists = owner
+			owner = {
+				has_technology = tech_alloys_1
+			}
 			NOR = {
 				has_building = building_factory_2
 				has_building = building_factory_3
@@ -983,6 +1056,11 @@ building_foundry_2 = {
 		trigger = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			NOR = {
+				has_building = building_factory_3
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
+			}
 		}
 		text = cost_info_district_ukn_industrial
 	}
@@ -991,6 +1069,11 @@ building_foundry_2 = {
 		trigger = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			NOR = {
+				has_building = building_factory_3
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
+			}
 		}
 		text = cost_info_district_ukn_hab_industrial
 	}
@@ -1737,6 +1820,10 @@ building_foundry_3 = {
 		trigger = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			NOR = {
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
+			}
 		}
 		text = cost_info_district_ukn_industrial
 	}
@@ -1745,6 +1832,10 @@ building_foundry_3 = {
 		trigger = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			NOR = {
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
+			}
 		}
 		text = cost_info_district_ukn_hab_industrial
 	}
@@ -1753,6 +1844,10 @@ building_foundry_3 = {
 		trigger = {
 			exists = owner
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			NOR = {
+				has_building = building_ukn_factory_4
+				has_building = building_ukn_factory_5
+			}
 		}
 		text = cost_info_district_ukn_arcology_arms_industry
 	}
@@ -2828,7 +2923,7 @@ building_factory_1 = {
 	}
 
 	prerequisites = {
-		"tech_luxuries_1"
+		"tech_basic_industry"
 	}
 
 	upgrades = {
@@ -2841,16 +2936,36 @@ building_factory_1 = {
 
 	triggered_desc = {
 		trigger = {
-			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			exists = owner
+			owner = {
+				has_technology = tech_luxuries_1
+			}
+			NOR = {
+				has_building = building_foundry_1
+				has_building = building_foundry_2
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
 		}
 		text = cost_info_district_ukn_industrial
 	}
 	
 	triggered_desc = {
 		trigger = {
-			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			exists = owner
+			owner = {
+				has_technology = tech_luxuries_1
+			}
+			NOR = {
+				has_building = building_foundry_1
+				has_building = building_foundry_2
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
 		}
 		text = cost_info_district_ukn_hab_industrial
 	}
@@ -2860,16 +2975,44 @@ building_factory_1 = {
 		trigger = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			owner = {
+				NOT = { has_technology = tech_luxuries_1 }
+			}
 		}
-		text = upgrade_district_ukn_industrial
+		text = unlock_district_ukn_industrial
 	}
-	
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+			owner = {
+				has_technology = tech_luxuries_1
+			}
+		}
+		text = upgrade_unlock_district_ukn_industrial
+	}
+
 	triggered_desc = {
 		trigger = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			owner = {
+				NOT = { has_technology = tech_luxuries_1 }
+			}
 		}
-		text = upgrade_district_ukn_hab_industrial
+		text = unlock_district_ukn_hab_industrial
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+			owner = {
+				has_technology = tech_luxuries_1
+			}
+		}
+		text = upgrade_unlock_district_ukn_hab_industrial
 	}
 
 	triggered_desc = {
@@ -2902,7 +3045,10 @@ building_factory_1 = {
 		potential = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
-			owner = { is_regular_empire = yes }
+			owner = {
+				is_regular_empire = yes
+				has_technology = tech_luxuries_1
+			}
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_factory_2_default_effect_desc
@@ -2916,7 +3062,10 @@ building_factory_1 = {
 		potential = {
 			UKN_USES_NORMAL_DISTRICTS = yes
 			exists = owner
-			owner = { is_gestalt = yes }
+			owner = {
+				is_gestalt = yes
+				has_technology = tech_luxuries_1
+			}
 		}
 		modifier = {
 #			custom_tooltip = building_ukn_factory_2_gestalt_effect_desc
@@ -2963,8 +3112,11 @@ building_factory_1 = {
 
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			exists = owner
+			owner = {
+				has_technology = tech_luxuries_1
+			}
 			NOR = {
 				has_building = building_foundry_1
 				has_building = building_foundry_2
@@ -2980,8 +3132,11 @@ building_factory_1 = {
 
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			exists = owner
+			owner = {
+				has_technology = tech_luxuries_1
+			}
 			NOR = {
 				has_building = building_foundry_1
 				has_building = building_foundry_2
@@ -3263,6 +3418,12 @@ building_factory_2 = {
 		trigger = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			NOR = {
+				has_building = building_foundry_2
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
 		}
 		text = cost_info_district_ukn_industrial
 	}
@@ -3271,6 +3432,12 @@ building_factory_2 = {
 		trigger = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			NOR = {
+				has_building = building_foundry_2
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
 		}
 		text = cost_info_district_ukn_hab_industrial
 	}
@@ -3684,6 +3851,11 @@ building_factory_3 = {
 		trigger = {
 			exists = owner
 			UKN_USES_BASIC_DISTRICTS = yes
+			NOR = {
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
 		}
 		text = cost_info_district_ukn_industrial
 	}
@@ -3692,6 +3864,11 @@ building_factory_3 = {
 		trigger = {
 			exists = owner
 			UKN_USES_HABITAT_DISTRICTS = yes
+			NOR = {
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
 		}
 		text = cost_info_district_ukn_hab_industrial
 	}
@@ -3700,6 +3877,11 @@ building_factory_3 = {
 		trigger = {
 			exists = owner
 			UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+			NOR = {
+				has_building = building_foundry_3
+				has_building = building_ukn_foundry_4
+				has_building = building_ukn_foundry_5
+			}
 		}
 		text = cost_info_district_ukn_arcology_arms_industry
 	}
@@ -4094,7 +4276,7 @@ building_refinery = {
 	}
 
 	prerequisites = {
-		"tech_mine_exotic_gases"
+		"tech_exotic_gases"
 	}
 
 	upgrades = {
@@ -4767,7 +4949,7 @@ building_crystal_plant = {
 		}
 	}
 	prerequisites = {
-		"tech_mine_rare_crystals"
+		"tech_rare_crystals"
 	}
 
 	upgrades = {
