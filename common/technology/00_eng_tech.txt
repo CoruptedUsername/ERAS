@@ -6,6 +6,7 @@
 # SPACE STRUCTURES #
 ####################
 
+#[E0]
 tech_space_construction = {
 	cost = 0
 	area = engineering
@@ -49,6 +50,7 @@ tech_space_construction = {
 # AUTOMATION / ROBOTS #
 #######################
 
+#[E0]
 tech_basic_industry = {
 	cost = 0
 	area = engineering
@@ -64,7 +66,7 @@ tech_basic_industry = {
 	# unlocks basic buildings
 }
 
-### Powered Exoskeletons (T1) ###----------------------
+#[E1]
 tech_powered_exoskeletons = {
 	cost = @tech_ukn_robotics_1_cost
 	area = engineering
@@ -108,7 +110,7 @@ tech_powered_exoskeletons = {
 	}
 }
 
-### Robots (T1) ###----------------------
+#[E1.f]
 tech_robotic_workers = {
 	cost = @tech_ukn_robotics_2_cost
 	area = engineering
@@ -195,7 +197,7 @@ tech_robotic_workers = {
 	}
 }
 
-### Droids (T2) ###----------------------
+#[E2]
 tech_droid_workers = {
 	cost = @tech_ukn_robotics_3_cost
 	area = engineering
@@ -287,7 +289,7 @@ tech_droid_workers = {
 	}
 }
 
-### Synthetics (T1) ###----------------------
+#[E3]
 tech_synthetic_workers = {
 	cost = @tech_ukn_robotics_4_cost
 	area = engineering
@@ -419,7 +421,7 @@ tech_synthetic_workers = {
 	}
 }
 
-#Synthetic Personality Matrix
+#[E3]
 tech_synthetic_leaders = {
 	cost = @tech_ukn_robotics_4_cost
 	area = engineering
@@ -478,6 +480,7 @@ tech_synthetic_leaders = {
 # PLANET HOUSING UPGRADES #
 ###########################
 
+#[E1.f]
 tech_housing_1 = {
 	cost = @tech_ukn_housing_2_cost
 	area = engineering
@@ -520,6 +523,7 @@ tech_housing_1 = {
 	}
 }
 
+#[E2]
 tech_housing_2 = {
 	cost = @tech_ukn_housing_3_cost
 	area = engineering
@@ -566,6 +570,7 @@ tech_housing_2 = {
 # PLANET STRUCTURES CONSTRUCTION BUFFING #
 ##########################################
 
+#[E1]
 tech_assembly_pattern  = {
 	cost = @tech_ukn_planet_build_speed_1_cost
 	area = engineering
@@ -611,6 +616,7 @@ tech_assembly_pattern  = {
 	}
 }
 
+#[E2]
 tech_construction_templates = {
 	cost = @tech_ukn_planet_build_speed_3_cost
 	area = engineering
@@ -677,6 +683,7 @@ tech_construction_templates = {
 	}
 }
 
+#[E3]
 tech_advanced_metallurgy_1 = {
 	cost = @tech_ukn_planet_build_speed_4_cost
 	area = engineering
@@ -722,6 +729,7 @@ tech_advanced_metallurgy_1 = {
 	}
 }
 
+#[E4]
 tech_advanced_metallurgy_2 = {
 	cost = @tech_ukn_planet_build_speed_5_cost
 	area = engineering
@@ -771,7 +779,7 @@ tech_advanced_metallurgy_2 = {
 # MATERIALS / HULL #
 ####################
 
-### Carbo-Metallic Armor (T1) ###----------------------
+#[E0]
 tech_ship_armor_1 = {
 	area = engineering
 	cost = 0
@@ -793,7 +801,7 @@ tech_ship_armor_1 = {
 	}
 }
 
-### Quasi-Solid Armor (T2) ###----------------------
+#[E1]
 tech_ship_armor_2 = {
 	area = engineering
 	cost = @tech_ukn_materials_1_cost
@@ -805,6 +813,10 @@ tech_ship_armor_2 = {
 
 	gateway = tech_ukn_materials_2_gateway
 
+	modifier = {
+		planet_metallurgists_minerals_upkeep_mult = -0.10
+	}
+	
 	prereqfor_desc = {
 		hide_prereq_for_desc = component
 		custom = {
@@ -845,7 +857,7 @@ tech_ship_armor_2 = {
 	}
 }
 
-### Quasi-Solid Armor (T2) ###----------------------
+#[E3]
 tech_ship_armor_3 = {
 	area = engineering
 	cost = @tech_ukn_materials_4_cost
@@ -909,7 +921,7 @@ tech_ship_armor_3 = {
 	}
 }
 
-### Femtomatter Armor (T3) ###----------------------
+#[E4]
 tech_ship_armor_4 = {
 	area = engineering
 	cost = @tech_ukn_materials_5_cost
@@ -973,7 +985,7 @@ tech_ship_armor_4 = {
 	}
 }
 
-### Condensic Materials (T4) ###----------------------
+#[E5]
 tech_ship_armor_5 = {
 	area = engineering
 	cost = @tech_ukn_materials_6_cost
@@ -1042,7 +1054,7 @@ tech_ship_armor_5 = {
 # ENGINEERING OUTPUT / ARMOR #
 ##############################
 
-#Mining 2
+#[E1]
 tech_engineering_1 = {
 	cost = @tech_ukn_engineering_output_1_cost
 	tier = @tech_ukn_engineering_output_1_tier
@@ -1090,7 +1102,7 @@ tech_engineering_1 = {
 	}
 }
 
-#Mining 2
+#[E2]
 tech_engineering_2 = {
 	cost = @tech_ukn_engineering_output_3_cost
 	tier = @tech_ukn_engineering_output_3_tier
@@ -1145,7 +1157,7 @@ tech_engineering_2 = {
 	}
 }
 
-#Mining 3
+#[E3]
 tech_engineering_3 = {
 	cost = @tech_ukn_engineering_output_4_cost
 	tier = @tech_ukn_engineering_output_4_tier
@@ -1205,7 +1217,7 @@ tech_engineering_3 = {
 # (OLD) ALLOYS BUILDING & BUFFING TECHS #
 #########################################
 
-#Alloys 1
+#[E1.r]
 tech_alloys_1 = {
 	cost = @tech_ukn_alloys_2_cost
 	area = engineering
@@ -1255,7 +1267,7 @@ tech_alloys_1 = {
 	}
 }
 
-#Alloys 2
+#[E2]
 tech_alloys_2 = {
 	cost = @tech_ukn_alloys_3_cost
 	area = engineering
@@ -1264,7 +1276,7 @@ tech_alloys_2 = {
 	prerequisites = { "tech_alloys_1" "tech_colonial_centralization" }
 	weight = @tech_ukn_alloys_3_weight
 
-	# Unlock better alloy buildings
+	# Unlock alloy edict
 	modifier = {
 		planet_metallurgists_produces_mult = 0.05
 	}
@@ -1302,7 +1314,7 @@ tech_alloys_2 = {
 # (OLD) CONSUMER GOODS BUILDING TECHS #
 #######################################
 
-#Luxuries 1
+#[E1.r]
 tech_luxuries_1 = {
 	cost = @tech_ukn_consumer_goods_2_cost
 	area = engineering
@@ -1353,7 +1365,7 @@ tech_luxuries_1 = {
 	}
 }
 
-#Luxuries 2
+#[E2]
 tech_luxuries_2 = {
 	cost = @tech_ukn_consumer_goods_3_cost
 	area = engineering
@@ -1362,7 +1374,7 @@ tech_luxuries_2 = {
 	prerequisites = { "tech_luxuries_1" "tech_colonial_centralization" }
 	weight = @tech_ukn_consumer_goods_3_weight
 
-	# Grants output buffs to luxury goods buildings
+	# Unlock articles edict
 	modifier = {
 		planet_artisans_produces_mult = 0.05
 	}
@@ -1401,7 +1413,7 @@ tech_luxuries_2 = {
 # (OLD) MINING BUILDING TECHS #
 ###############################
 
-#Mineral Purification
+#[E1.r]
 tech_mineral_purification_1 = {
 	cost = @tech_ukn_minerals_2_cost
 	area = engineering
@@ -1449,7 +1461,7 @@ tech_mineral_purification_1 = {
 	}
 }
 
-#Advanced Mineral Purification
+#[E2]
 tech_mineral_purification_2 = {
 	cost = @tech_ukn_minerals_3_cost
 	area = engineering
@@ -1458,6 +1470,7 @@ tech_mineral_purification_2 = {
 	prerequisites = { "tech_mineral_purification_1" "tech_colonial_centralization" }
 	weight = @tech_ukn_minerals_3_weight
 	
+	# Unlocks minerals edict
 	modifier = {
 		planet_miners_produces_mult = 0.05
 	}
@@ -1495,6 +1508,7 @@ tech_mineral_purification_2 = {
 # (OLD) PLANET MINING TECHS #
 #############################
 
+#[E0]
 tech_mechanized_mining = {
 	cost = 0
 	area = engineering
@@ -1506,7 +1520,7 @@ tech_mechanized_mining = {
 	# unlocks mining districts
 }
 
-#Mining 1
+#[E1]
 tech_mining_1 = {
 	cost = @tech_ukn_planet_mining_output_1_cost
 	tier = @tech_ukn_planet_mining_output_1_tier
@@ -1549,7 +1563,7 @@ tech_mining_1 = {
 	}
 }
 
-#Mining 2
+#[E2]
 tech_mining_2 = {
 	cost = @tech_ukn_planet_mining_output_3_cost
 	tier = @tech_ukn_planet_mining_output_3_tier
@@ -1592,7 +1606,7 @@ tech_mining_2 = {
 	}
 }
 
-#Mining 3
+#[E3]
 tech_mining_3 = {
 	cost = @tech_ukn_planet_mining_output_4_cost
 	tier = @tech_ukn_planet_mining_output_4_tier
@@ -1646,6 +1660,7 @@ tech_mining_3 = {
 # (OLD) SPACE MINING TECHS #
 ############################
 
+#[E1]
 tech_space_mining_1 = {
 	cost = @tech_ukn_space_mining_output_1_cost
 	area = engineering
@@ -1686,6 +1701,7 @@ tech_space_mining_1 = {
 	}
 }
 
+#[E1.r]
 tech_space_mining_2 = {
 	cost = @tech_ukn_space_mining_output_2_cost
 	area = engineering
@@ -1726,6 +1742,7 @@ tech_space_mining_2 = {
 	}
 }
 
+#[E2]
 tech_space_mining_3 = {
 	cost = @tech_ukn_space_mining_output_3_cost
 	area = engineering
@@ -1766,6 +1783,7 @@ tech_space_mining_3 = {
 	}
 }
 
+#[E3]
 tech_space_mining_4 = {
 	cost = @tech_ukn_space_mining_output_4_cost
 	area = engineering
@@ -1812,6 +1830,7 @@ tech_space_mining_4 = {
 	}
 }
 
+#[E4]
 tech_space_mining_5 = {
 	cost = @tech_ukn_space_mining_output_5_cost
 	area = engineering
@@ -1861,7 +1880,7 @@ tech_space_mining_5 = {
 # PROPULSION OVERDRIVERS #
 ##########################
 
-### Impulse Thrusters (T2) ###----------------------
+#[E2]
 tech_afterburners_1 = {
 	area = engineering
 	cost = @tech_ukn_propulsion_overdrivers_3_cost
@@ -1909,7 +1928,7 @@ tech_afterburners_1 = {
 	}
 }
 
-### Antimatter Thrusters (T3) ###----------------------
+#[E3]
 tech_afterburners_2 = {
 	area = engineering
 	cost = @tech_ukn_propulsion_overdrivers_4_cost
@@ -1968,7 +1987,7 @@ tech_afterburners_2 = {
 # CRYSTALLINE ENTITY AUX #
 ##########################
 
-### Quasi-Solid Armor (T2) ###----------------------
+#[E2]
 tech_crystal_armor_1 = {
 	area = engineering
 	cost = @tech_ukn_crystalline_hull_plating_3_cost
@@ -2008,7 +2027,7 @@ tech_crystal_armor_1 = {
 	}
 }
 
-### Statichronic Armor (T3) ###----------------------
+#[E3]
 tech_crystal_armor_2 = {
 	area = engineering
 	cost = @tech_ukn_crystalline_hull_plating_4_cost
@@ -2057,7 +2076,7 @@ tech_crystal_armor_2 = {
 # THRUSTERS #
 #############
 
-### Plasma Thrusters (T1) ###----------------------
+#[E0]
 tech_thrusters_1 = {
 	area = engineering
 	cost = 0
@@ -2075,7 +2094,7 @@ tech_thrusters_1 = {
 	}
 }
 
-### Impulse Thrusters (T2) ###----------------------
+#[E1]
 tech_thrusters_2 = {
 	area = engineering
 	cost = @tech_ukn_thrusters_1_cost
@@ -2133,7 +2152,7 @@ tech_thrusters_2 = {
 	}
 }
 
-### Impulse Thrusters (T2) ###----------------------
+#[E2]
 tech_thrusters_3 = {
 	area = engineering
 	cost = @tech_ukn_thrusters_3_cost
@@ -2191,7 +2210,7 @@ tech_thrusters_3 = {
 	}
 }
 
-### Antimatter Thrusters (T3) ###----------------------
+#[E3]
 tech_thrusters_4 = {
 	area = engineering
 	cost = @tech_ukn_thrusters_4_cost
@@ -2258,7 +2277,7 @@ tech_thrusters_4 = {
 # FIGHTERS / BOMBERS #
 ######################
 
-### Prototype Fighters (T2) ###----------------------
+#[E2]
 tech_strike_craft_1 = {
 	area = engineering
 	cost = @tech_ukn_strike_craft_3_cost
@@ -2320,7 +2339,7 @@ tech_strike_craft_1 = {
 	}
 }
 
-### Antimatter Fighters (T3) ###----------------------
+#[E3]
 tech_strike_craft_2 = {
 	area = engineering
 	cost = @tech_ukn_strike_craft_4_cost
@@ -2392,7 +2411,7 @@ tech_strike_craft_2 = {
 	}
 }
 
-### Subspace Fighters (T4) ###----------------------
+#[E4]
 tech_strike_craft_3 = {
 	area = engineering
 	cost = @tech_ukn_strike_craft_5_cost
@@ -2469,14 +2488,14 @@ tech_strike_craft_3 = {
 #---------## [STATIONS] OVERWRITES ##---------#
           ###########################
 
-### Outposts (T1) ###----------------------
+#[E0]
 tech_starbase_1 = {
-	cost = @tech_ukn_starbase_1_cost
+	cost = 0
 	area = engineering
 	start_tech = yes
 	category = { voidcraft }
 	prerequisites = { "tech_space_construction" }
-	tier = @tech_ukn_starbase_1_tier
+	tier = 0
 
 	prereqfor_desc = {
 		ship = {
@@ -2486,13 +2505,13 @@ tech_starbase_1 = {
 	}
 }
 
-### Starport (T2) ###----------------------
+#[E0]
 tech_starbase_2 = {
-	cost = @tech_ukn_starbase_2_cost
+	cost = 0
 	area = engineering
 	start_tech = yes
 	category = { voidcraft }
-	tier = @tech_ukn_starbase_2_tier
+	tier = 0
 	prerequisites = { "tech_starbase_1" }
 
 	prereqfor_desc = {
@@ -2503,13 +2522,13 @@ tech_starbase_2 = {
 	}
 }
 
-### Starhold (T3) ###---------------------
+#[E1.r]
 tech_starbase_3 = {
-	cost = @tech_ukn_starbase_3_cost
-	weight = @tech_ukn_starbase_3_weight
+	cost = @tech_ukn_starbase_2_cost
+	weight = @tech_ukn_starbase_2_weight
 	area = engineering
 	category = { voidcraft }
-	tier = 	weight = @tech_ukn_starbase_3_tier
+	tier = 	weight = @tech_ukn_starbase_2_tier
 	prerequisites = { "tech_starbase_2" }
 	
 	prereqfor_desc = {
@@ -2580,13 +2599,13 @@ tech_starbase_3 = {
 	}
 }
 
-### Star Fortress (T4) ###---------------------
+#[E2]
 tech_starbase_4 = {
-	cost = @tech_ukn_starbase_4_cost
-	weight = @tech_ukn_starbase_4_weight
+	cost = @tech_ukn_starbase_3_cost
+	weight = @tech_ukn_starbase_3_weight
 	area = engineering
 	category = { voidcraft }
-	tier = tech_ukn_starbase_4_tier
+	tier = @tech_ukn_starbase_3_tier
 	prerequisites = { "tech_starbase_3" }
 
 	prereqfor_desc = {
@@ -2664,13 +2683,13 @@ tech_starbase_4 = {
 	}
 }
 
-### Star Citadel (T5) ###---------------------
+#[E3]
 tech_starbase_5 = {
-	cost = @tech_ukn_starbase_5_cost
-	weight = @tech_ukn_starbase_5_weight
+	cost = @tech_ukn_starbase_4_cost
+	weight = @tech_ukn_starbase_4_weight
 	area = engineering
 	category = { voidcraft }
-	tier = @tech_ukn_starbase_5_tier
+	tier = @tech_ukn_starbase_4_tier
 	prerequisites = { "tech_starbase_4" }
 	is_rare = yes
 
@@ -2777,7 +2796,7 @@ tech_starbase_5 = {
 #---------## [STATIONS] UPGRADES ##---------#
           #########################
 
-### Modular Engineering ###-----------------------------
+#[E1.f]
 tech_modular_engineering = {
 	cost = @tech_ukn_modular_engineering_cost
 	weight = @tech_ukn_modular_engineering_weight
@@ -2850,7 +2869,7 @@ tech_modular_engineering = {
 	}
 }
 
-### Corps of Engineers ###-----------------------
+#[E2]
 tech_space_defense_station_improvement = {
 	cost = @tech_ukn_space_defense_station_improvement_cost
 	weight = @tech_ukn_space_defense_station_improvement_weight
@@ -2927,16 +2946,16 @@ tech_space_defense_station_improvement = {
 #---------## [STATIONS] DEFENSE PLATFORMS ##---------#
           ##################################
 
-### Defense Platform ###-------------------
+#[E0]
 tech_space_defense_station_1 = {
-	cost = @tech_ukn_space_defense_station_1_cost
-	tier = @tech_ukn_space_defense_station_1_tier
+	cost = 0
+	tier = 0
 	area = engineering
 	start_tech = yes
 	category = { voidcraft }
 }
 
-### Defense Platform Health ###---------------------
+#[E1.f]
 tech_defense_platform_hull_1 = {
 	cost = @tech_ukn_defense_platform_hull_1_cost
 	weight = @tech_ukn_defense_platform_hull_1_weight
@@ -2988,6 +3007,7 @@ tech_defense_platform_hull_1 = {
 # (OLD) ASSAULT ARMIES # (Moved To Society)
 ########################
 
+#[E0]
 tech_assault_armies = {
 	cost = @tier1cost1
 	area = society

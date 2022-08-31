@@ -6,8 +6,7 @@
 # INDUSTRIAL AUTOMATION # (Moved To Engineering)
 #########################
 
-
-### Applied Quantum Computing (T1) ###----------------------
+#[E1]
 tech_capital_productivity_1 = {
 	cost = @tech_ukn_automation_1_cost
 	area = engineering
@@ -62,6 +61,7 @@ tech_capital_productivity_1 = {
 	}
 }
 
+#[E2]
 tech_capital_productivity_2 = {
 	cost = @tech_ukn_automation_3_cost
 	area = engineering
@@ -126,6 +126,7 @@ tech_capital_productivity_2 = {
 	}
 }
 
+#[E3]
 tech_capital_productivity_3 = {
 	cost = @tech_ukn_automation_4_cost
 	area = engineering
@@ -200,7 +201,7 @@ tech_capital_productivity_3 = {
 # SOCIETY OUTPUT / GENERAL RESEARCHER OUTPUT #
 ##############################################
 
-# Biodiversity Studies
+#[E1]
 tech_society_1 = {
 	cost = @tech_ukn_society_output_1_cost
 	area = society
@@ -262,7 +263,7 @@ tech_society_1 = {
 	}
 }
 
-# Xenobiology
+#[E2]
 tech_society_2 = {
 	cost = @tech_ukn_society_output_3_cost
 	area = society
@@ -322,7 +323,7 @@ tech_society_2 = {
 	}
 }
 
-# Secrets of Life
+#[E3]
 tech_society_3 = {
 	cost = @tech_ukn_society_output_4_cost
 	area = society
@@ -386,7 +387,7 @@ tech_society_3 = {
 # FARMING OUTPUT #
 ##################
 
-#Eco Simulation
+#[E0]
 tech_industrial_farming = {
 	cost = 0
 	area = society
@@ -397,7 +398,7 @@ tech_industrial_farming = {
 	# unlocks farming districts
 }
 
-#Eco Simulation
+#[E1]
 tech_eco_simulation = {
 	cost = @tier1cost1
 	area = society
@@ -479,7 +480,7 @@ tech_eco_simulation = {
 	}
 }
 
-#Gene Crops
+#[E1.f]
 tech_gene_crops = {
 	cost = @tier2cost1
 	area = society
@@ -561,7 +562,7 @@ tech_gene_crops = {
 	}
 }
 
-#Nano-Vitality Crops
+#[E2]
 tech_nano_vitality_crops = {
 	cost = @tier3cost1
 	area = society
@@ -647,7 +648,7 @@ tech_nano_vitality_crops = {
 # MAINLINE GENETICS TECHS #
 ###########################
 
-#Genome Mapping
+#[E1]
 tech_genome_mapping = {
 	cost = @tech_ukn_genetics_1_cost
 	area = society
@@ -707,7 +708,7 @@ tech_genome_mapping = {
 	}
 }
 
-#Gene Tailoring
+#[E1.r]
 tech_gene_tailoring = {
 	cost = @tech_ukn_genetics_2_cost
 	area = society
@@ -786,7 +787,7 @@ tech_gene_tailoring = {
 	}
 }
 
-# Glandular Acclimation (planet preference modding)
+#[E2]
 @tech_glandular_acclimation_POINTS = 1
 tech_glandular_acclimation = {
 	cost = @tech_ukn_glandular_acclimation_cost
@@ -863,7 +864,7 @@ tech_glandular_acclimation = {
 	}
 }
 
-#Targeted Gene Expressions
+#[E2]
 @tech_gene_expressions_POINTS = 1
 tech_gene_expressions = {
 	cost = @tech_ukn_genetics_3_cost
@@ -958,6 +959,7 @@ tech_gene_expressions = {
 	}
 }
 
+#[E3]
 tech_genetic_resequencing = {
 	cost = @tech_ukn_genetics_4_cost
 	area = society
@@ -1054,7 +1056,7 @@ tech_genetic_resequencing = {
 # Genetics
 # ##################
 
-#Vitality Boosters
+#[E1]
 tech_vitality_boosters = {
 	cost = @tech_ukn_vitality_boosters_cost
 	area = society
@@ -1106,7 +1108,7 @@ tech_vitality_boosters = {
 	}
 }
 
-#Cloning
+#[E1.r]
 tech_cloning = {
 	cost = @tech_ukn_cloning_cost
 	area = society
@@ -1158,7 +1160,7 @@ tech_cloning = {
 	}
 }
 
-#Epigenetic Triggers
+#[E2]
 tech_epigenetic_triggers = {
 	cost = @tech_ukn_epigenetic_triggers_cost
 	area = society
@@ -1247,7 +1249,7 @@ tech_epigenetic_triggers = {
 	}
 }
 
-#Gene Banks
+#[E2]
 tech_gene_banks = {
 	cost = @tech_ukn_gene_banks_cost
 	area = society
@@ -1329,6 +1331,7 @@ tech_gene_banks = {
 	}
 }
 
+#[E2]
 tech_gene_seed_purification = {
 	cost = @tech_ukn_gene_seed_purification_cost
 	area = society
@@ -1441,6 +1444,7 @@ tech_gene_seed_purification = {
 	}
 }
 
+#[E2]
 tech_morphogenetic_field_mastery = {
 	cost = @tech_ukn_morphogenetic_field_mastery_cost
 	area = society
@@ -1732,6 +1736,7 @@ tech_regenerative_hull_tissue = {
 # (OLD) AMENITIES BUFFING TECHS #
 #################################
 
+#[E0]
 tech_holo_entertainment = {
 	cost = 0
 	area = society
@@ -1746,6 +1751,7 @@ tech_holo_entertainment = {
 	## unlock holo-theatres building
 }
 
+#[E1.f]
 tech_hyper_entertainment_forum = {
 	cost = @tech_ukn_amenities_2_cost
 	area = society
@@ -1784,6 +1790,7 @@ tech_hyper_entertainment_forum = {
 	}
 }
 
+#[E2]
 tech_paradise_dome = {
 	cost = @tech_ukn_amenities_3_cost
 	area = society
@@ -1826,6 +1833,7 @@ tech_paradise_dome = {
 # (OLD) TRADE BUFFING TECHS #
 #############################
 
+#[E0]
 tech_interplanetary_commerce = {
 	cost = 0
 	area = society
@@ -1840,7 +1848,7 @@ tech_interplanetary_commerce = {
 	## unlock commercial zone building
 }
 
-# Space Trading
+#[E1.r]
 tech_space_trading = {
 	cost = @tech_ukn_trade_2_cost
 	area = society
@@ -1894,7 +1902,7 @@ tech_space_trading = {
 	}
 }
 
-# Interstellar Economics
+#[E1.f]
 tech_interstellar_economics = {
 	cost = @tech_ukn_trade_2_cost
 	area = society
@@ -1936,7 +1944,7 @@ tech_interstellar_economics = {
 	}
 }
 
-# Galactic Markets
+#[E3]
 tech_galactic_markets = {
 	cost = @tech_ukn_trade_4_cost
 	area = society
@@ -2015,6 +2023,7 @@ tech_galactic_markets = {
 	}
 }
 
+#[E2]
 tech_prescient_data_modeling = {
 	cost = @tech_ukn_trade_3_cost
 	area = society
@@ -2037,6 +2046,7 @@ tech_prescient_data_modeling = {
 # (OLD) [DEFAULT] UNITY BUFFING / BUREAUCRACY TECHS #
 #####################################################
 
+#[E1.r]
 tech_planetary_infrastructure_1 = {
 	cost = @tech_ukn_unity_2_cost
 	area = society
@@ -2105,6 +2115,7 @@ tech_planetary_infrastructure_1 = {
 	}
 }
 
+#[E2]
 tech_planetary_infrastructure_2 = {
 	cost = @tech_ukn_unity_3_cost
 	area = society
@@ -2155,7 +2166,7 @@ tech_planetary_infrastructure_2 = {
 	}
 }
 
-#Adaptive Bureaucracy
+#[E1]
 tech_adaptive_bureaucracy = {
 	cost = @tier1cost2
 	area = society
@@ -2207,6 +2218,7 @@ tech_adaptive_bureaucracy = {
 	}
 }
 
+#[E1.r]
 tech_effective_bureaucracy = {
 	cost = @tier2cost1
 	area = society
@@ -2257,6 +2269,7 @@ tech_effective_bureaucracy = {
 	}
 }
 
+#[E1.r]
 tech_colonial_bureaucracy = {
 	cost = @tier2cost1
 	area = society
@@ -2309,6 +2322,7 @@ tech_colonial_bureaucracy = {
 	}
 }
 
+#[E2]
 tech_galactic_bureaucracy = {
 	cost = @tier3cost1
 	area = society
@@ -2359,7 +2373,7 @@ tech_galactic_bureaucracy = {
 	}
 }
 
-#Living State
+#[E1.f]
 tech_living_state = {
 	cost = @tier2cost3
 	area = society
@@ -2421,7 +2435,7 @@ tech_living_state = {
 	}
 }
 
-#Collective Self
+#[E2]
 tech_collective_self = {
 	cost = @tier3cost3
 	area = society
@@ -2484,7 +2498,7 @@ tech_collective_self = {
 	}
 }
 
-# Autonomous Agents
+#[E1.f]
 tech_autonomous_agents = {
 	cost = @tier2cost3
 	area = society
@@ -2540,7 +2554,7 @@ tech_autonomous_agents = {
 	}
 }
 
-#Embodied Dynamism
+#[E2]
 tech_embodied_dynamism = {
 	cost = @tier3cost3
 	area = society
@@ -2600,6 +2614,7 @@ tech_embodied_dynamism = {
 # (OLD) [SPIRITUALIST] UNITY BUFFING TECHS #
 ############################################
 
+#[E1.r]
 tech_holographic_rituals = {
 	cost = @tech_ukn_unity_2_cost
 	area = society
@@ -2651,6 +2666,7 @@ tech_holographic_rituals = {
 	}
 }
 
+#[E2]
 tech_consecration_fields = {
 	cost = @tech_ukn_unity_3_cost
 	area = society
@@ -2694,6 +2710,7 @@ tech_consecration_fields = {
 	}
 }
 
+#[E3]
 tech_transcendent_faith = {
 	cost = @tech_ukn_unity_4_cost
 	area = society
@@ -2737,7 +2754,7 @@ tech_transcendent_faith = {
 # (OLD) [HIVE] UNITY BUFFING TECHS #
 ####################################
 
-# Hive Mind
+#[E0]
 tech_hive_node = {
 	cost = 0
 	area = society
@@ -2760,6 +2777,7 @@ tech_hive_node = {
 	}
 }
 
+#[E1.r]
 tech_hive_cluster = {
 	cost = @tech_ukn_unity_2_cost
 	area = society
@@ -2808,6 +2826,7 @@ tech_hive_cluster = {
 	}
 }
 
+#[E2]
 tech_hive_confluence = {
 	cost = @tech_ukn_unity_3_cost
 	area = society
@@ -2852,6 +2871,7 @@ tech_hive_confluence = {
 # (OLD) [SPECIAL] UNITY BUFFING TECHS #
 #######################################
 
+#[E0]
 tech_cultural_heritage = {
 	cost = 0
 	area = society
@@ -2874,6 +2894,7 @@ tech_cultural_heritage = {
 	}
 }
 
+#[E1.f]
 tech_heritage_site = {
 	cost = @tech_ukn_unity_2_cost
 	area = society
@@ -2915,6 +2936,7 @@ tech_heritage_site = {
 	}
 }
 
+#[E2]
 tech_hypercomms_forum = {
 	cost = @tech_ukn_unity_3_cost
 	area = society
@@ -2957,6 +2979,7 @@ tech_hypercomms_forum = {
 	}
 }
 
+#[E3]
 tech_autocurating_vault = {
 	cost = @tech_ukn_unity_4_cost
 	area = society
@@ -3001,7 +3024,7 @@ tech_autocurating_vault = {
 # (OLD) FOOD BUFFING TECHS #
 ############################
 
-#Food Processing
+#[E1.r]
 tech_food_processing_1 = {
 	cost = @tech_ukn_food_2_cost
 	area = society
@@ -3076,7 +3099,7 @@ tech_food_processing_1 = {
 	}
 }
 
-#Advanced Food Processing
+#[E2]
 tech_food_processing_2 = {
 	cost = @tech_ukn_food_3_cost
 	area = society
@@ -3159,6 +3182,7 @@ tech_food_processing_2 = {
 # FTL DRIVES # (Moved To Physics)
 ##############
 
+#[E5]
 tech_psi_jump_drive_1 = {
 	cost = @tech_ukn_jump_drive_psi_6_cost
 	area = physics
@@ -3234,6 +3258,7 @@ tech_psi_jump_drive_1 = {
 # SHIELDS # (Moved To Physics)
 ###########
 
+#[E2]
 tech_psionic_barrier = {
 	area = society
 	cost = @tier3cost1
@@ -3251,6 +3276,7 @@ tech_psionic_barrier = {
 	}
 }
 
+#[E5]
 tech_psionic_shield = {
 	area = physics
 	cost = @tech_ukn_shields_psi_6_cost

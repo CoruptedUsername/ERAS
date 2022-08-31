@@ -88,28 +88,28 @@
 
 # FARMERS #-----------
 
- mod_planet_farmers_produces_mult:0 "£job_farmer£ $planet_farmers$ Output"
- mod_planet_farmers_food_produces_mult:1 "£food£ $food$ from £job_farmer£ $planet_farmers$"
+ mod_planet_farmers_produces_mult:0 "£job_farmer£ [GetFarmer] Output"
+ mod_planet_farmers_food_produces_mult:1 "£food£ $food$ from £job_farmer£ [GetFarmerPlural]"
  mod_planet_farmers_food_produces_add:0 "$mod_planet_farmers_food_produces_mult$"
- mod_planet_farmers_unity_produces_mult:1 "£unity£ $unity$ from £job_farmer£ $planet_farmers$"
+ mod_planet_farmers_unity_produces_mult:1 "£unity£ $unity$ from £job_farmer£ [GetFarmerPlural]"
  mod_planet_farmers_unity_produces_add:0 "$mod_planet_farmers_unity_produces_mult$"
- mod_planet_farmers_energy_upkeep_add:0 "£job_farmer£ $planet_farmers$ £energy£ $energy$ Upkeep"
+ mod_planet_farmers_energy_upkeep_add:0 "£energy£ $energy$ Upkeep of £job_farmer£ [GetFarmerPlural]"
 
 # MINERS #-----------
 
- mod_planet_miners_produces_mult:0 "£job_miner£ $planet_miners$ Output"
- mod_planet_miners_minerals_produces_mult:1 "£minerals£ $minerals$ from £job_miner£ $planet_miners$"
+ mod_planet_miners_produces_mult:0 "£job_miner£ [GetMiner] and Strategic $planet_sr_miners$"
+ mod_planet_miners_minerals_produces_mult:1 "£minerals£ $minerals$ from £job_miner£ [GetMinerPlural]"
  mod_planet_miners_minerals_produces_add:0 "$mod_planet_miners_minerals_produces_mult$"
- mod_planet_miners_alloys_produces_add:0 "£alloys£ $alloys$ from £job_miner£ $planet_miners$"
- mod_planet_miners_energy_upkeep_add:0 "£job_miner£ $planet_miners$ £energy£ $energy$ Upkeep"
- mod_planet_sr_miners_energy_upkeep_add:0 "$planet_sr_miners$ £energy£ $energy$ Upkeep"
+ mod_planet_miners_alloys_produces_add:0 "£alloys£ $alloys$ from £job_miner£ [GetMinerPlural]"
+ mod_planet_miners_energy_upkeep_add:0 "£energy£ $energy$ Upkeep of £job_miner£ [GetMinerPlural]"
+ mod_planet_sr_miners_energy_upkeep_add:0 "£energy£ $energy$ Upkeep of $planet_sr_miners$"
  
 # TECHNICIANS #-----------
 
- mod_planet_technician_produces_mult:0 "£job_technician£ $planet_technician$ Output"
- mod_planet_technician_energy_produces_mult:1 "£energy£ $energy$ from £job_technician£ $planet_technician$"
+ mod_planet_technician_produces_mult:0 "£job_technician£ [GetTechnician] Output"
+ mod_planet_technician_energy_produces_mult:1 "£energy£ $energy$ from £job_technician£ [GetTechnicianPlural]"
  mod_planet_technician_energy_produces_add:0 "$mod_planet_technician_energy_produces_mult$"
- mod_planet_technician_energy_upkeep_add:0 "£job_technician£ $planet_technician$ £energy£ $energy$ Upkeep"
+ mod_planet_technician_energy_upkeep_add:0 "£energy£ $energy$ Upkeep of £job_technician£ [GetTechnicianPlural]"
 
 # POLITICIAS #-----------
 
@@ -118,7 +118,7 @@
  mod_planet_politicians_upkeep_mult: "£job_bureaucrat£ Politicians Upkeep"
  mod_planet_politicians_unity_produces_mult: "£unity£ $unity$ from £job_bureaucrat£ Politicians"
  mod_planet_politicians_unity_produces_add: "$mod_planet_bureaucrats_unity_produces_mult$"
- mod_planet_politicians_consumer_goods_upkeep_mult: "£job_bureaucrat£ Politicians £consumer_goods£ $consumer_goods$ Upkeep"
+ mod_planet_politicians_consumer_goods_upkeep_mult: "£consumer_goods£ $consumer_goods$ Upkeep of £job_bureaucrat£ Politicians"
  mod_planet_politicians_consumer_goods_upkeep_add: "$mod_planet_bureaucrats_consumer_goods_upkeep_mult$"
 
 # EXECUTIVES #-----------
@@ -128,67 +128,67 @@
  mod_planet_executives_upkeep_mult: "£job_executive£ $planet_executives$ Upkeep"
  mod_planet_executives_unity_produces_mult: "£unity£ $unity$ from £job_executive£ $job_executive_plural$"
  mod_planet_executives_unity_produces_add: "$mod_planet_executives_unity_produces_mult$"
- mod_planet_executives_consumer_goods_upkeep_mult: "£job_executive£ $planet_executives$ £consumer_goods£ $consumer_goods$ Upkeep"
+ mod_planet_executives_consumer_goods_upkeep_mult: "£consumer_goods£ $consumer_goods$ Upkeep of £job_executive£ $job_executive_plural$"
  mod_planet_executives_consumer_goods_upkeep_add: "$mod_planet_executives_consumer_goods_upkeep_mult$"
 
 # RESEARCHERS #-----------
 
- mod_planet_researchers_produces_mult:2 "£job_researcher£ $planet_researchers$ Output"
- mod_planet_researchers_physics_research_produces_mult:1 "£physics£ $physics_research$ from £job_researcher£ $planet_researchers$"
+ mod_planet_researchers_produces_mult:2 "£job_researcher£ [GetResearcher] Output"
+ mod_planet_researchers_physics_research_produces_mult:1 "£physics£ $physics_research$ from £job_researcher£ [GetResearcherPlural]"
  mod_planet_researchers_physics_research_produces_add:0 "$mod_planet_researchers_physics_research_produces_mult$"
- mod_planet_researchers_engineering_research_produces_mult:1 "£engineering£ $engineering_research$ from £job_researcher£ $planet_researchers$"
+ mod_planet_researchers_engineering_research_produces_mult:1 "£engineering£ $engineering_research$ from £job_researcher£ [GetResearcherPlural]"
  mod_planet_researchers_engineering_research_produces_add:0 "$mod_planet_researchers_engineering_research_produces_mult$"
- mod_planet_researchers_society_research_produces_mult:1 "£society£ $society_research$ from £job_researcher£ $planet_researchers$"
+ mod_planet_researchers_society_research_produces_mult:1 "£society£ $society_research$ from £job_researcher£ [GetResearcherPlural]"
  mod_planet_researchers_society_research_produces_add:0 "$mod_planet_researchers_society_research_produces_mult$"
- mod_planet_researchers_unity_produces_mult:0 "£unity£ $unity$ from £job_researcher£ $planet_researchers$"
- mod_planet_researchers_consumer_goods_upkeep_mult:0 "£job_researcher£ $planet_researchers$ £consumer_goods£ $consumer_goods$ Upkeep"
+ mod_planet_researchers_unity_produces_mult:0 "£unity£ $unity$ from £job_researcher£ [GetResearcherPlural]"
+ mod_planet_researchers_consumer_goods_upkeep_mult:0 "£consumer_goods£ $consumer_goods$ Upkeep of £job_researcher£ [GetResearcherPlural]"
  mod_planet_researchers_consumer_goods_upkeep_add:0 "$mod_planet_researchers_consumer_goods_upkeep_mult$"
- mod_planet_researchers_energy_upkeep_mult:0 "£job_researcher£ $planet_researchers$ £energy£ $energy$ Upkeep"
+ mod_planet_researchers_energy_upkeep_mult:0 "£energy£ $energy$ Upkeep of £job_researcher£ [GetResearcherPlural]"
  mod_planet_researchers_energy_upkeep_add:0 "$mod_planet_researchers_energy_upkeep_mult$"
- mod_planet_researchers_minerals_upkeep_mult:0 "£job_researcher£ $planet_researchers$ £minerals£ $minerals$ Upkeep"
+ mod_planet_researchers_minerals_upkeep_mult:0 "£minerals£ $minerals$ Upkeep of £job_researcher£ [GetResearcherPlural]"
  mod_planet_researchers_minerals_upkeep_add:0 "$mod_planet_researchers_minerals_upkeep_mult$"
- mod_planet_researchers_food_upkeep_mult:0 "£job_researcher£ $planet_researchers$ £food£ $food$ Upkeep"
+ mod_planet_researchers_food_upkeep_mult:0 "£food£ $food$ Upkeep of £job_researcher£ [GetResearcherPlural]"
  mod_planet_researchers_food_upkeep_add:0 "$mod_planet_researchers_food_upkeep_mult$"
- mod_planet_researchers_alloys_upkeep_mult:0 "£job_researcher£ $planet_researchers$ £alloys£ $alloys$ Upkeep"
+ mod_planet_researchers_alloys_upkeep_mult:0 "£alloys£ $alloys$ Upkeep of £job_researcher£ [GetResearcherPlural]"
  mod_planet_researchers_alloys_upkeep_add:0 "$mod_planet_researchers_alloys_upkeep_mult$"
- mod_planet_researchers_exotic_gases_upkeep_mult:0 "£job_researcher£ $planet_researchers$ £exotic_gases£ $exotic_gases$ Upkeep"
+ mod_planet_researchers_exotic_gases_upkeep_mult:0 "£exotic_gases£ $exotic_gases$ Upkeep of £job_researcher£ [GetResearcherPlural]"
  mod_planet_researchers_exotic_gases_upkeep_add:0 "$mod_planet_researchers_exotic_gases_upkeep_mult$"
- mod_planet_researchers_rare_crystals_upkeep_mult:0 "£job_researcher£ $planet_researchers$ £rare_crystals£ $rare_crystals$ Upkeep"
+ mod_planet_researchers_rare_crystals_upkeep_mult:0 "£rare_crystals£ $rare_crystals$ Upkeep of £job_researcher£ [GetResearcherPlural]"
  mod_planet_researchers_rare_crystals_upkeep_add:0 "$mod_planet_researchers_rare_crystals_upkeep_mult$"
 
 # METALLURGISTS #-----------
 
- mod_planet_metallurgists_produces_mult:0 "£job_foundry£ $planet_metallurgists$ Output"
- mod_planet_metallurgists_alloys_produces_mult:0 "£alloys£ $alloys$ from £job_foundry£ $planet_metallurgists$"
+ mod_planet_metallurgists_produces_mult:0 "£job_foundry£ [GetAlloyProducer] Output"
+ mod_planet_metallurgists_alloys_produces_mult:0 "£alloys£ $alloys$ from £job_foundry£ [GetAlloyProducerPlural]"
  mod_planet_metallurgists_alloys_produces_add:0 "$mod_planet_metallurgists_alloys_produces_mult$"
- mod_planet_metallurgists_ukn_meta_materials_produces_mult:0 "£ukn_meta_materials£ $ukn_meta_materials$ from £job_foundry£ $planet_metallurgists$"
+ mod_planet_metallurgists_ukn_meta_materials_produces_mult:0 "£ukn_meta_materials£ $ukn_meta_materials$ from £job_foundry£ [GetAlloyProducerPlural]"
  mod_planet_metallurgists_ukn_meta_materials_produces_add:0 "$mod_planet_metallurgists_ukn_meta_materials_produces_mult$"
- mod_planet_metallurgists_energy_upkeep_mult:0 "£job_foundry£ $planet_metallurgists$ £energy£ $energy$ Upkeep"
+ mod_planet_metallurgists_energy_upkeep_mult:0 "£energy£ $energy$ Upkeep from £job_foundry£ [GetAlloyProducerPlural]"
  mod_planet_metallurgists_energy_upkeep_add:0 "$mod_planet_metallurgists_energy_upkeep_mult$"
- mod_planet_metallurgists_minerals_upkeep_mult:0 "£job_foundry£ $planet_metallurgists$ £minerals£ $minerals$ Upkeep"
+ mod_planet_metallurgists_minerals_upkeep_mult:0 "£minerals£ $minerals$ Upkeep from £job_foundry£ [GetAlloyProducerPlural]"
  mod_planet_metallurgists_minerals_upkeep_add:0 "$mod_planet_metallurgists_minerals_upkeep_mult$"
- mod_planet_metallurgists_food_upkeep_mult:0 "£job_foundry£ $planet_metallurgists$ £food£ $food$ Upkeep"
+ mod_planet_metallurgists_food_upkeep_mult:0 "£food£ $food$ Upkeep from £job_foundry£ [GetAlloyProducerPlural]"
  mod_planet_metallurgists_food_upkeep_add:0 "$mod_planet_metallurgists_food_upkeep_mult$"
 
 # CULTURE WORKERS #-----------
 
- mod_planet_culture_workers_produces_mult:0 "£job_culture_worker£ $planet_culture_workers$ Output"
+ mod_planet_culture_workers_produces_mult:0 "£job_culture_worker£ $job_culture_worker_plural$ Output"
 
 # EVALUATORS #-----------
 
- mod_planet_evaluators_produces_mult:0 "£job_evaluator£ $planet_evaluators$ Output"
+ mod_planet_evaluators_produces_mult:0 "£job_evaluator£ $job_evaluator_plural$ Output"
  mod_planet_evaluators_unity_produces_mult:0 "£unity£ $unity$ from £job_evaluator£ $planet_evaluators$"
 
 # ADMINISTRATORS #-----------
 
- mod_planet_administrators_produces_mult: "£job_bureaucrat£ $planet_administrators$ Output"
+ mod_planet_administrators_produces_mult: "[GetAdministratorWithIcon] Output"
  mod_planet_administrators_produces_add: "$mod_planet_administrators_produces_mult$"
- mod_planet_administrators_upkeep_mult: "£job_bureaucrat£ $planet_administrators$ Upkeep"
- mod_planet_administrators_unity_produces_mult: "£unity£ $unity$ from £job_bureaucrat£ $job_bureaucrat_plural$"
+ mod_planet_administrators_upkeep_mult: "[GetAdministratorWithIcon] Upkeep"
+ mod_planet_administrators_unity_produces_mult: "£unity£ $unity$ from [GetAdministratorPluralWithIcon]"
  mod_planet_administrators_unity_produces_add: "$mod_planet_administrators_unity_produces_mult$"
- mod_planet_administrators_consumer_goods_upkeep_mult: "£job_bureaucrat£ $planet_administrators$ £consumer_goods£ $consumer_goods$ Upkeep"
+ mod_planet_administrators_consumer_goods_upkeep_mult: "£consumer_goods£ $consumer_goods$ Upkeep of [GetAdministratorPluralWithIcon]"
  mod_planet_administrators_consumer_goods_upkeep_add: "$mod_planet_administrators_consumer_goods_upkeep_mult$"
- mod_planet_administrators_energy_upkeep_mult: "£job_bureaucrat£ $planet_administrators$ £energy£ $energy$ Upkeep"
+ mod_planet_administrators_energy_upkeep_mult: "£energy£ $energy$ Upkeep of [GetAdministratorPluralWithIcon]"
  mod_planet_administrators_energy_upkeep_add: "$mod_planet_administrators_energy_upkeep_mult$"
 
 # MANAGERS #-----------
@@ -198,9 +198,9 @@
  mod_planet_managers_upkeep_mult: "£job_manager£ $planet_managers$ Upkeep"
  mod_planet_managers_unity_produces_mult: "£unity£ $unity$ from £job_manager£ $job_manager_plural$"
  mod_planet_managers_unity_produces_add: "$mod_planet_managers_unity_produces_mult$"
- mod_planet_managers_consumer_goods_upkeep_mult: "£job_manager£ $planet_managers$ £consumer_goods£ $consumer_goods$ Upkeep"
+ mod_planet_managers_consumer_goods_upkeep_mult: " £consumer_goods£ $consumer_goods$ Upkeep of £job_manager£ $planet_managers$"
  mod_planet_managers_consumer_goods_upkeep_add: "$mod_planet_managers_consumer_goods_upkeep_mult$"
- mod_planet_managers_energy_upkeep_mult: "£job_manager£ $planet_managers$ £energy£ $energy$ Upkeep"
+ mod_planet_managers_energy_upkeep_mult: "£energy£ $energy$ Upkeep of £job_manager£ $planet_managers$"
  mod_planet_managers_energy_upkeep_add: "$mod_planet_managers_energy_upkeep_mult$"
 
 # SYNAPSE DRONES #-----------
@@ -210,9 +210,9 @@
  mod_planet_synapse_drones_upkeep_mult: "£job_synapse_drone£ $planet_synapse_drones$ Upkeep"
  mod_planet_synapse_drones_unity_produces_mult: "£unity£ $unity$ from £job_synapse_drone£ $job_synapse_drone_plural$"
  mod_planet_synapse_drones_unity_produces_add: "$mod_planet_synapse_drones_unity_produces_mult$"
- mod_planet_synapse_drones_consumer_goods_upkeep_mult: "£job_synapse_drone£ $planet_synapse_drones$ £consumer_goods£ $consumer_goods$ Upkeep"
+ mod_planet_synapse_drones_consumer_goods_upkeep_mult: "£consumer_goods£ $consumer_goods$ Upkeep of £job_synapse_drone£ $planet_synapse_drones$"
  mod_planet_synapse_drones_consumer_goods_upkeep_add: "$mod_planet_synapse_drones_consumer_goods_upkeep_mult$"
- mod_planet_synapse_drones_energy_upkeep_mult: "£job_synapse_drone£ $planet_synapse_drones$ £energy£ $energy$ Upkeep"
+ mod_planet_synapse_drones_energy_upkeep_mult: "£energy£ $energy$ Upkeep of £job_synapse_drone£ $planet_synapse_drones$"
  mod_planet_synapse_drones_energy_upkeep_add: "$mod_planet_synapse_drones_energy_upkeep_mult$"
 
 # PRIESTS #-----------
@@ -224,9 +224,9 @@
  mod_planet_priests_unity_produces_add: "$mod_planet_priests_unity_produces_mult$"
  mod_planet_priests_society_research_produces_mult: "£society_research£ $society_research$ from £job_priest£ $job_priest_plural$"
  mod_planet_priests_society_research_produces_add: "$mod_planet_priests_society_research_produces_mult$"
- mod_planet_priests_consumer_goods_upkeep_mult: "£job_priest£ $planet_priests$ £consumer_goods£ $consumer_goods$ Upkeep"
+ mod_planet_priests_consumer_goods_upkeep_mult: "£consumer_goods£ $consumer_goods$ Upkeep £job_priest£ $planet_priests$"
  mod_planet_priests_consumer_goods_upkeep_add: "$mod_planet_priests_consumer_goods_upkeep_mult$"
- mod_planet_priests_energy_upkeep_mult: "£job_priest£ $planet_priests$ £energy£ $energy$ Upkeep"
+ mod_planet_priests_energy_upkeep_mult: "£energy£ $energy$ Upkeep of £job_priest£ $planet_priests$"
  mod_planet_priests_energy_upkeep_add: "$mod_planet_priests_energy_upkeep_mult$"
 
 # (EXOTIC GASES) REFINERS #-----------
@@ -235,7 +235,7 @@
  mod_planet_refiners_upkeep_mult:0 "£job_gas_refiner£ $planet_refiners$ Upkeep"
  mod_planet_refiners_exotic_gases_produces_mult:0 "£exotic_gases£ $exotic_gases$ from £job_gas_refiner£ $planet_refiners$"
  mod_planet_refiners_exotic_gases_produces_add:0 "$mod_planet_refiners_exotic_gases_produces_mult$"
- mod_planet_refiners_minerals_upkeep_mult:0 "£job_gas_refiner£ $planet_refiners$ £minerals£ $minerals$ Upkeep"
+ mod_planet_refiners_minerals_upkeep_mult:0 "£minerals£ $minerals$ Upkeep of £job_gas_refiner£ $planet_refiners$"
  mod_planet_refiners_minerals_upkeep_add:0 "$mod_planet_refiners_minerals_upkeep_mult$"
 
 # (RARE CRYSTALS) TRANSLUCERS #-----------
@@ -244,7 +244,7 @@
  mod_planet_translucers_upkeep_mult:0 "£job_translucer£ $planet_translucers$ Upkeep"
  mod_planet_translucers_rare_crystals_produces_mult:0 "£rare_crystals£ $rare_crystals$ from £job_translucer£ $planet_translucers$"
  mod_planet_translucers_rare_crystals_produces_add:0 "$mod_planet_translucers_rare_crystals_produces_mult$"
- mod_planet_translucers_minerals_upkeep_mult:0 "£job_translucer£ $planet_translucers$ £minerals£ $minerals$ Upkeep"
+ mod_planet_translucers_minerals_upkeep_mult:0 "£minerals£ $minerals$ Upkeep of £job_translucer£ $planet_translucers$"
  mod_planet_translucers_minerals_upkeep_add:0 "$mod_planet_translucers_minerals_upkeep_mult$"
  
 # (EXOTIC PARTICLE) TRANSMUTATORS #-----------
@@ -253,20 +253,20 @@
  mod_planet_chemists_upkeep_mult:0 "£job_chemist£ $planet_chemists$ Upkeep"
  mod_planet_chemists_volatile_motes_produces_mult:0 "£volatile_motes£ $volatile_motes$ from £job_chemist£ $planet_chemists$"
  mod_planet_chemists_volatile_motes_produces_add:0 "$mod_planet_chemists_volatile_motes_produces_mult$"
- mod_planet_chemists_energy_upkeep_mult:0 "£job_chemist£ $planet_chemists$ £energy£ $energy$ Upkeep"
+ mod_planet_chemists_energy_upkeep_mult:0 "£energy£ $energy$ Upkeep of £job_chemist£ $planet_chemists$"
  mod_planet_chemists_energy_upkeep_add:0 "$mod_planet_chemists_energy_upkeep_mult$"
- mod_planet_chemists_minerals_upkeep_mult:0 "£job_chemist£ $planet_chemists$ £minerals£ $minerals$ Upkeep"
+ mod_planet_chemists_minerals_upkeep_mult:0 "£minerals£ $minerals$ Upkeep £job_chemist£ $planet_chemists$"
  mod_planet_chemists_minerals_upkeep_add:0 "$mod_planet_chemists_minerals_upkeep_mult$"
  
 # ARTISANS #-----------
 
- mod_planet_artisans_produces_mult:0 "£job_artisan£ $planet_artisans$ Output"
- mod_planet_artisans_upkeep_mult:0 "£job_artisan£ $planet_artisans$ Upkeep"
- mod_planet_artisans_consumer_goods_produces_mult:0 "£consumer_goods£ $consumer_goods$ from £job_artisan£ $planet_artisans$"
+ mod_planet_artisans_produces_mult:0 "[GetArtisanIcon] [GetArtisan] Output"
+ mod_planet_artisans_upkeep_mult:0 "[GetArtisanIcon] [GetArtisan] Upkeep"
+ mod_planet_artisans_consumer_goods_produces_mult:0 "£consumer_goods£ $consumer_goods$ from [GetArtisanIcon] [GetArtisan]"
  mod_planet_artisans_consumer_goods_produces_add:0 "$mod_planet_artisans_consumer_goods_produces_mult$"
- mod_planet_artisans_energy_upkeep_mult:0 "£job_artisan£ $planet_artisans$ £energy£ $energy$ Upkeep"
+ mod_planet_artisans_energy_upkeep_mult:0 "£energy£ $energy$ Upkeep of [GetArtisanIcon] [GetArtisan]"
  mod_planet_artisans_energy_upkeep_add:0 "$mod_planet_artisans_energy_upkeep_mult$"
- mod_planet_artisans_minerals_upkeep_mult:0 "£job_artisan£ $planet_artisans$ £minerals£ $minerals$ Upkeep"
+ mod_planet_artisans_minerals_upkeep_mult:0 "£minerals£ $minerals$ Upkeep of [GetArtisanIcon] [GetArtisan]"
  mod_planet_artisans_minerals_upkeep_add:0 "$mod_planet_artisans_minerals_upkeep_mult$"
- mod_planet_artisans_food_upkeep_mult:0 "£job_artisan£ $planet_artisans$ £food£ $food$ Upkeep"
+ mod_planet_artisans_food_upkeep_mult:0 "£food£ $food$ Upkeep of [GetArtisanIcon] [GetArtisan]"
  mod_planet_artisans_food_upkeep_add:0 "$mod_planet_artisans_food_upkeep_mult$"

@@ -6,7 +6,7 @@
 # RARE ISOTOPE PRODUCTION / OUTPUT #
 ####################################
 
-#Volatile Mote Mining
+#[E0]
 tech_mine_volatile_motes = {
 	cost = 0
 	area = physics
@@ -49,6 +49,7 @@ tech_mine_volatile_motes = {
 	}
 }
 
+#[E1.f]
 tech_volatile_motes = {
 	cost = @tech_ukn_rare_isotopes_2_cost
 	area = physics
@@ -125,7 +126,7 @@ tech_volatile_motes = {
 # EXOTIC PARTICLE PRODUCTION / OUTPUT #
 #######################################
 
-#Exotic Particle Extraction/Production
+#[E3]
 tech_mine_ukn_exotic_particles = {
 	cost = @tech_ukn_exotic_particles_4_cost
 	area = physics
@@ -173,7 +174,7 @@ tech_mine_ukn_exotic_particles = {
 	}
 }
 
-#Exotic Field Manipulation
+#[E3]
 tech_ukn_exotic_particles = {
 	cost = @tech_ukn_exotic_particles_4_cost
 	area = physics
@@ -220,7 +221,7 @@ tech_ukn_exotic_particles = {
 # EXOTIC FLUIDS PRODUCTION / OUTPUT #
 #####################################
 
-#Exotic Gas Extraction
+#[E1.r]
 tech_mine_exotic_gases = {
 	icon = tech_exotic_gases
 	cost = @tech_ukn_exotic_fluids_2_cost
@@ -294,7 +295,7 @@ tech_mine_exotic_gases = {
 	}
 }
 
-#Exotic Gas Refining
+#[E2]
 tech_exotic_gases = {
 	cost = @tech_ukn_exotic_fluids_3_cost
 	area = engineering
@@ -353,7 +354,7 @@ tech_exotic_gases = {
 # SUPERCONDUCTIVE CRYSTALS PRODUCTION / OUTPUT #
 ################################################
 
-#Rare Crystal Mining
+#[E1.r]
 tech_mine_rare_crystals = {
 	cost = @tech_ukn_superconductive_crystals_2_cost
 	area = engineering
@@ -427,7 +428,7 @@ tech_mine_rare_crystals = {
 	}	
 }
 
-#Rare Crystal Manufacturing
+#[E2]
 tech_rare_crystals = {
 	cost = @tech_ukn_superconductive_crystals_3_cost
 	area = engineering

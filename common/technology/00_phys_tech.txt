@@ -6,7 +6,7 @@
 # SYSTEMIC AUTOMATION / COMBAT COMPUTERS #
 ##########################################
 
-### Applied Quantum Computing (T1) ###----------------------
+#[E1]
 tech_administrative_ai = {
 	area = physics
 	tier = @tech_ukn_computing_1_tier
@@ -47,7 +47,7 @@ tech_administrative_ai = {
 	}
 }
 
-### Applied Quantum Computing (T1) ###----------------------
+#[E1]
 tech_combat_computers_1 = {
 	area = physics
 	tier = @tech_ukn_programming_1_tier
@@ -111,7 +111,7 @@ tech_combat_computers_1 = {
 	}
 }
 
-### Applied Quantum Computing (T1) ###----------------------
+#[E2]
 tech_self_aware_logic = {
 	area = physics
 	tier = @tech_ukn_computing_3_tier
@@ -128,7 +128,7 @@ tech_self_aware_logic = {
 	
 #P]	potential = {
 #P]		has_technology = tech_administrative_ai
-#P]		has_technology = tech_sensors_2
+#P]		has_technology = tech_sensors_3
 #P]	}
 
 	weight_modifier = {
@@ -158,7 +158,7 @@ tech_self_aware_logic = {
 	}
 }
 
-### Applied Quantum Computing (T1) ###----------------------
+#[E2]
 tech_combat_computers_2 = {
 	area = physics
 	tier = @tech_ukn_programming_3_tier
@@ -207,7 +207,7 @@ tech_combat_computers_2 = {
 	}
 }
 
-### Applied Quantum Computing (T1) ###----------------------
+#[E3]
 tech_sapient_ai = {
 	area = physics
 	tier = @tech_ukn_computing_4_tier
@@ -258,6 +258,7 @@ tech_sapient_ai = {
 		}
 	}
 }
+#[E3]
 tech_positronic_implants = {
 	area = physics
 	tier = @tech_ukn_computing_4_tier
@@ -309,7 +310,7 @@ tech_positronic_implants = {
 	}
 }
 
-### Applied Quantum Computing (T1) ###----------------------
+#[E3]
 tech_combat_computers_3 = {
 	area = physics
 	tier = @tech_ukn_programming_4_tier
@@ -397,6 +398,7 @@ tech_combat_computers_3 = {
 		}
 	}
 }
+#[E3]
 tech_combat_computers_autonomous = {
 	area = physics
 	tier = @tech_ukn_programming_4_tier
@@ -482,7 +484,7 @@ tech_combat_computers_autonomous = {
 # PHYSICS MILESTONE / SENSORS #
 ###############################
 
-### Gravi-Multispectral Sensors (T1) ###----------------------
+#[E0]
 tech_sensors_1 = {
 	area = physics
 	cost = 0
@@ -499,7 +501,7 @@ tech_sensors_1 = {
 	}
 }
 
-### Multi-Field Sensors (T2) ###----------------------
+#[E1]
 tech_sensors_2 = {
 	area = physics
 	cost = @tech_ukn_milestone_theory_1_cost
@@ -555,7 +557,7 @@ tech_sensors_2 = {
 	}
 }
 
-### Multi-Field Sensors (T2) ###----------------------
+#[E2]
 tech_sensors_3 = {
 	area = physics
 	cost = @tech_ukn_milestone_theory_3_cost
@@ -744,7 +746,7 @@ tech_sensors_3 = {
 	}
 }
 
-### Gravelectric Theory (T4) ###----------------------
+#[E3]
 tech_sensors_4 = {
 	area = physics
 	cost = @tech_ukn_milestone_theory_4_cost
@@ -947,7 +949,7 @@ tech_sensors_4 = {
 # PYSICS OUTPUT / SHIELDS #
 ###########################
 
-### EM-Plasmic Deflectors (T1) ###----------------------
+#[E0]
 tech_shields_1 = {
 	area = physics
 	cost = 0
@@ -965,7 +967,7 @@ tech_shields_1 = {
 	}
 }
 
-#Mining Network 1
+#[E1]
 tech_physics_1 = {
 	cost = @tech_ukn_physics_output_1_cost
 	tier = @tech_ukn_physics_output_1_tier
@@ -1016,7 +1018,7 @@ tech_physics_1 = {
 	}
 }
 
-#Mining 2
+#[E2]
 tech_physics_2 = {
 	cost = @tech_ukn_physics_output_3_cost
 	tier = @tech_ukn_physics_output_3_tier
@@ -1073,7 +1075,7 @@ tech_physics_2 = {
 	}
 }
 
-#Mining 3
+#[E3]
 tech_physics_3 = {
 	cost = @tech_ukn_physics_output_4_cost
 	tier = @tech_ukn_physics_output_4_tier
@@ -1135,7 +1137,7 @@ tech_physics_3 = {
 # ENERGY OUTPUT / REACTORS #
 ############################
 
-### Fusion Power (T1) ###----------------------
+#[E0]
 tech_fission_power = {
 	area = physics
 	cost = 0
@@ -1153,7 +1155,7 @@ tech_fission_power = {
 	}
 }
 
-### Cold Fusion Power (T2) ###----------------------
+#[E1]
 tech_fusion_power = {
 	area = physics
 	cost = @tech_ukn_power_1_cost
@@ -1215,7 +1217,7 @@ tech_fusion_power = {
 	}
 }
 
-### Flow Power (T2) ###----------------------
+#[E2]
 tech_cold_fusion_power = {
 	area = physics
 	cost = @tech_ukn_power_3_cost
@@ -1283,7 +1285,7 @@ tech_cold_fusion_power = {
 	}
 }
 
-### Antimatter Power (T3) ###----------------------
+#[E3]
 tech_antimatter_power = {
 	area = physics
 	cost = @tech_ukn_power_4_cost
@@ -1351,7 +1353,7 @@ tech_antimatter_power = {
 	}
 }
 
-### Cyclonic Subspace Power (T4) ###----------------------
+#[E4]
 tech_zero_point_power = {
 	area = physics
 	cost = @tech_ukn_power_5_cost
@@ -1424,7 +1426,7 @@ tech_zero_point_power = {
 # (OLD) ENERGY BUILDING TECHS #
 ###############################
 
-#Global Energy Management
+#[E1.r]
 tech_power_hub_1 = {
 	cost = @tech_ukn_energy_2_cost
 	area = physics
@@ -1477,7 +1479,7 @@ tech_power_hub_1 = {
 	}
 }
 
-#Planetary Power Grid
+#[E2]
 tech_power_hub_2 = {
 	cost = @tech_ukn_energy_3_cost
 	area = physics
@@ -1486,6 +1488,7 @@ tech_power_hub_2 = {
 	prerequisites = { "tech_power_hub_1" "tech_colonial_centralization"}
 	weight = @tech_ukn_energy_3_weight
 	
+	# Unlock energy edict
 	modifier = {
 		planet_technician_produces_mult = 0.05
 	}
@@ -1526,6 +1529,7 @@ tech_power_hub_2 = {
 # (OLD) RESEARCH LAB TECHS #
 ############################
 
+#[E0]
 tech_basic_science_lab_1 = {
 	cost = 0
 	area = physics
@@ -1536,6 +1540,7 @@ tech_basic_science_lab_1 = {
 	# # unlock basic science lab lvl 1
 }
 
+#[E1.r]
 tech_basic_science_lab_2 = {
 	area = physics
 	category = { computing }
@@ -1589,6 +1594,7 @@ tech_basic_science_lab_2 = {
 	}
 }
 
+#[E2]
 tech_basic_science_lab_3 = {
 	area = physics
 	category = { computing }
@@ -1597,7 +1603,7 @@ tech_basic_science_lab_3 = {
 	prerequisites = { "tech_basic_science_lab_2" "tech_colonial_centralization" }
 	weight = @tech_ukn_research_3_weight
 
-	# unlocks 2nd upgraded labs
+	# unlocks science edict
 	modifier = {
 		planet_researchers_produces_mult = 0.05
 	}
@@ -1634,6 +1640,7 @@ tech_basic_science_lab_3 = {
 	}
 }
 
+#[E2]
 tech_global_research_initiative = {
 	area = physics
 	tier = @tech_ukn_research_3_tier
@@ -1696,6 +1703,7 @@ tech_global_research_initiative = {
 # (OLD) CONSUMER GOODS BUFFING TECHS # (Moved To Society)
 ######################################
 
+#[E1.f]
 tech_consumer_good_refinement_1 = {
 	cost = @tech_ukn_market_analysis_2_cost
 	area = society
@@ -1737,6 +1745,7 @@ tech_consumer_good_refinement_1 = {
 	}
 }
 
+#[E2]
 tech_consumer_good_refinement_2 = {
 	cost = @tech_ukn_market_analysis_3_cost
 	area = society
@@ -1784,6 +1793,7 @@ tech_consumer_good_refinement_2 = {
 # SPACE SCIENCE OUTPUT / ANOMOLIES # (Moved To Society)
 ####################################
 
+#[E1]
 tech_space_science_1 = {
 	cost = @tech_ukn_space_science_output_1_cost
 	area = society
@@ -1823,6 +1833,7 @@ tech_space_science_1 = {
 	}
 }
 
+#[E1.f]
 tech_space_science_2 = {
 	cost = @tech_ukn_space_science_output_2_cost
 	area = society
@@ -1868,6 +1879,7 @@ tech_space_science_2 = {
 	}
 }
 
+#[E2]
 tech_space_science_3 = {
 	cost = @tech_ukn_space_science_output_3_cost
 	area = society
@@ -1913,6 +1925,7 @@ tech_space_science_3 = {
 	}
 }
 
+#[E3]
 tech_space_science_4 = {
 	cost = @tech_ukn_space_science_output_4_cost
 	area = society
@@ -1958,6 +1971,7 @@ tech_space_science_4 = {
 	}
 }
 
+#[E4]
 tech_space_science_5 = {
 	cost = @tech_ukn_space_science_output_5_cost
 	area = society
@@ -2012,6 +2026,7 @@ tech_space_science_5 = {
 # [OLD] REACTOR BOOSTER TECHS # (CURRENTLY UNUSED!)
 ###############################
 
+#[E0]
 tech_reactor_boosters_1 = {
 	area = physics
 	cost = 0
@@ -2022,6 +2037,7 @@ tech_reactor_boosters_1 = {
 	prerequisites = { "tech_fission_power" }
 }
 
+#[UNUSED]
 tech_reactor_boosters_2 = {
 	area = physics
 	cost = @tier1cost3
@@ -2053,6 +2069,7 @@ tech_reactor_boosters_2 = {
 	}
 }
 
+#[UNUSED]
 tech_reactor_boosters_3 = {
 	area = physics
 	cost = @tier3cost3
@@ -2088,7 +2105,7 @@ tech_reactor_boosters_3 = {
 # MACRO-CAPACITORS #
 ####################
 
-### Applied Muonic Fusion Energy Dynamics (T2) ###----------------------
+#[E0]
 tech_power_plant_1 = {
 	area = physics
 	cost = 0
@@ -2107,7 +2124,7 @@ tech_power_plant_1 = {
 	}
 }
 
-### Applied Multi-Field Dynamics (T2) ###----------------------
+#[E1]
 tech_power_plant_2 = {
 	area = physics
 	cost = @tech_ukn_reactor_boosters_1_cost
@@ -2165,7 +2182,7 @@ tech_power_plant_2 = {
 	}
 }
 
-### Applied Multi-Field Dynamics (T2) ###----------------------
+#[E2]
 tech_power_plant_3 = {
 	area = physics
 	cost = @tech_ukn_reactor_boosters_3_cost
@@ -2223,7 +2240,7 @@ tech_power_plant_3 = {
 	}
 }
 
-### Applied Antimatter Mechanics (T3) ###----------------------
+#[E3]
 tech_power_plant_4 = {
 	area = physics
 	cost = @tech_ukn_reactor_boosters_4_cost
@@ -2285,6 +2302,7 @@ tech_power_plant_4 = {
 # SHIELD OVERCHARGERS #
 #######################
 
+#[E1]
 tech_shield_rechargers_1 = {
 	area = physics
 	cost = @tech_ukn_shield_overchargers_1_cost
@@ -2336,7 +2354,7 @@ tech_shield_rechargers_1 = {
 	}
 }
 
-### QF Shielding (T2) ###----------------------
+#[E2]
 tech_shields_2 = {
 	area = physics
 	cost = @tech_ukn_shield_overchargers_3_cost
@@ -2394,7 +2412,7 @@ tech_shields_2 = {
 	}
 }
 
-### QF Shielding (T2) ###----------------------
+#[E3]
 tech_shields_3 = {
 	area = physics
 	cost = @tech_ukn_shield_overchargers_4_cost
@@ -2452,7 +2470,7 @@ tech_shields_3 = {
 	}
 }
 
-### QFH-i Shielding (T3) ###----------------------
+#[E4]
 tech_shields_4 = {
 	area = physics
 	cost = @tech_ukn_shield_overchargers_5_cost
@@ -2510,7 +2528,7 @@ tech_shields_4 = {
 	}
 }
 
-### Subspace Shielding (T4) ###----------------------
+#[E5]
 tech_shields_5 = {
 	area = physics
 	cost = @tech_ukn_shield_overchargers_6_cost
@@ -2573,6 +2591,7 @@ tech_shields_5 = {
 # (OLD) AUXILIARY FIRE CONTROL #
 ################################
 
+#[E1]
 tech_auxiliary_fire_control = {
 	area = physics
 	tier = @tech_ukn_auxiliary_fire_control_1_tier
@@ -2627,7 +2646,7 @@ tech_auxiliary_fire_control = {
 # FTL DRIVES #
 ##############
 
-### Hyper Drive I (T1) ###----------------------
+#[E0]
 tech_hyper_drive_1 = {
 	area = physics
 	cost = 0
@@ -2644,7 +2663,7 @@ tech_hyper_drive_1 = {
 	}
 }
 
-### Hyper Drive II (T2) ###----------------------
+#[E1.r]
 tech_hyper_drive_2 = {
 	area = physics
 	cost = @tech_ukn_hyper_drive_2_cost
@@ -2706,7 +2725,7 @@ tech_hyper_drive_2 = {
 	}
 }
 
-### Hyper Drive III (T4) ###----------------------
+#[E3]
 tech_hyper_drive_3 = {
 	area = physics
 	cost = @tech_ukn_hyper_drive_4_cost
@@ -2768,7 +2787,7 @@ tech_hyper_drive_3 = {
 	}
 }
 
-### Alcubierre Drive (T6) ###----------------------
+#[E5]
 tech_jump_drive_1 = {
 	area = physics
 	cost = @tech_ukn_hyper_drive_6_cost

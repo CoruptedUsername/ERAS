@@ -6,7 +6,7 @@
 # PLANETS # (ORBITAL!)
 ###########
 
-###[TECH-1] Orbital Habitats ###----------------------
+#[E1.r]
 tech_habitat_1 = {
 	cost = @tech_ukn_habitat_2_cost
 	area = engineering
@@ -88,7 +88,7 @@ tech_habitat_1 = {
 }
 
 
-###[TECH-2] Kilostructural Engineering ###----------------------
+#[E3]
 tech_habitat_2 = {
 	cost = @tech_ukn_habitat_4_cost
 	area = engineering
@@ -162,7 +162,7 @@ tech_habitat_2 = {
 }
 
 
-###[TECH-3] Habitat World ###----------------------
+#[E4]
 tech_habitat_3 = {
 	cost = @tech_ukn_habitat_5_cost
 	area = engineering

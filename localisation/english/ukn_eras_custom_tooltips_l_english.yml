@@ -90,7 +90,7 @@
 
 # RESOURCES #---------------------------------------------------------
 
- TECH_EXTRACT_MANUFACTURE_UKN_POLYMERICS_TITLE:0 "§Extract §L&§! Manufacture Resource:§! £alloys£"
+ TECH_EXTRACT_MANUFACTURE_UKN_POLYMERICS_TITLE:0 "§HExtract §L&§! Manufacture Resource:§! £alloys£"
  TECH_EXTRACT_MANUFACTURE_UKN_POLYMERICS_DESC:0 "$alloys_desc$"
  
  TECH_EXTRACT_MANUFACTURE_UKN_AUTOMACHINES_TITLE:0 "§HExtract §L&§! Manufacture Resource:§! £nanites£"
