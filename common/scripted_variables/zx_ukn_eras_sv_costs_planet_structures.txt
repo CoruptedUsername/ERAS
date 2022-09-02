@@ -948,19 +948,19 @@
 @building_ukn_energy_grid_7_cost_advanced_rare_crystals = 10
 
 # Alloys
-@building_ukn_energy_grid_2_cost_basic_alloys = 100
-@building_ukn_energy_grid_3_cost_basic_alloys = 100
-@building_ukn_energy_grid_4_cost_basic_alloys = 100
-@building_ukn_energy_grid_6_cost_basic_alloys = 100
-@building_ukn_energy_grid_7_cost_basic_alloys = 100
+@building_ukn_energy_grid_2_cost_basic_alloys = 50
+@building_ukn_energy_grid_3_cost_basic_alloys = 50
+@building_ukn_energy_grid_4_cost_basic_alloys = 50
+@building_ukn_energy_grid_6_cost_basic_alloys = 50
+@building_ukn_energy_grid_7_cost_basic_alloys = 50
 
 # Meta-Materials
 #--- [Basic Replace]
-@building_ukn_energy_grid_2_r_cost_basic_ukn_meta_materials = 300
-@building_ukn_energy_grid_3_r_cost_basic_ukn_meta_materials = 300
-@building_ukn_energy_grid_4_r_cost_basic_ukn_meta_materials = 300
-@building_ukn_energy_grid_6_r_cost_basic_ukn_meta_materials = 300
-@building_ukn_energy_grid_7_r_cost_basic_ukn_meta_materials = 300
+@building_ukn_energy_grid_2_r_cost_basic_ukn_meta_materials = 250
+@building_ukn_energy_grid_3_r_cost_basic_ukn_meta_materials = 250
+@building_ukn_energy_grid_4_r_cost_basic_ukn_meta_materials = 250
+@building_ukn_energy_grid_6_r_cost_basic_ukn_meta_materials = 250
+@building_ukn_energy_grid_7_r_cost_basic_ukn_meta_materials = 250
 
 # Femtomatter
 #--- [Advanced Replace]
@@ -980,11 +980,11 @@
 
 # Quasi-Matter
 #--- [Basic Replace]
-@building_ukn_energy_grid_2_r_cost_basic_ukn_quasi_matter = 0.7367
-@building_ukn_energy_grid_3_r_cost_basic_ukn_quasi_matter = 0.7367
-@building_ukn_energy_grid_4_r_cost_basic_ukn_quasi_matter = 0.7367
-@building_ukn_energy_grid_6_r_cost_basic_ukn_quasi_matter = 0.7367
-@building_ukn_energy_grid_7_r_cost_basic_ukn_quasi_matter = 0.7367
+@building_ukn_energy_grid_2_r_cost_basic_ukn_quasi_matter = 0.6139
+@building_ukn_energy_grid_3_r_cost_basic_ukn_quasi_matter = 0.6139
+@building_ukn_energy_grid_4_r_cost_basic_ukn_quasi_matter = 0.6139
+@building_ukn_energy_grid_6_r_cost_basic_ukn_quasi_matter = 0.6139
+@building_ukn_energy_grid_7_r_cost_basic_ukn_quasi_matter = 0.6139
 #--- [Advanced Replace]
 @building_ukn_energy_grid_2_r_cost_advanced_ukn_quasi_matter = 0
 @building_ukn_energy_grid_3_r_cost_advanced_ukn_quasi_matter = 0.0526
@@ -994,11 +994,11 @@
 
 # Causalitons
 #--- [Basic Replace]
-@building_ukn_energy_grid_2_r_cost_basic_ukn_causalitons = 0.2294
-@building_ukn_energy_grid_3_r_cost_basic_ukn_causalitons = 0.2294
-@building_ukn_energy_grid_4_r_cost_basic_ukn_causalitons = 0.2294
-@building_ukn_energy_grid_6_r_cost_basic_ukn_causalitons = 0.2294
-@building_ukn_energy_grid_7_r_cost_basic_ukn_causalitons = 0.2294
+@building_ukn_energy_grid_2_r_cost_basic_ukn_causalitons = 0.1912
+@building_ukn_energy_grid_3_r_cost_basic_ukn_causalitons = 0.1912
+@building_ukn_energy_grid_4_r_cost_basic_ukn_causalitons = 0.1912
+@building_ukn_energy_grid_6_r_cost_basic_ukn_causalitons = 0.1912
+@building_ukn_energy_grid_7_r_cost_basic_ukn_causalitons = 0.1912
 #--- [Advanced Replace]
 @building_ukn_energy_grid_2_r_cost_advanced_ukn_causalitons = 0
 @building_ukn_energy_grid_3_r_cost_advanced_ukn_causalitons = 0.0163

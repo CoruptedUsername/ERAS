@@ -324,7 +324,7 @@ building_ukn_automation_grid_1 = {
 			is_capital = yes
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 6
 			job_ukn_automation_technician_normal_add = 1
 		}
 	}
@@ -339,7 +339,7 @@ building_ukn_automation_grid_1 = {
 			is_capital = yes
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 6
 			job_ukn_automation_technician_drone_normal_add = 1
 		}
 	}
@@ -355,7 +355,7 @@ building_ukn_automation_grid_1 = {
 			is_capital = yes
 		}
 		modifier = {
-			planet_max_buildings_add = 1
+			planet_max_buildings_add = 3
 			job_ukn_automation_technician_normal_add = 1
 		}
 	}
@@ -370,7 +370,7 @@ building_ukn_automation_grid_1 = {
 			is_capital = yes
 		}
 		modifier = {
-			planet_max_buildings_add = 1
+			planet_max_buildings_add = 3
 			job_ukn_automation_technician_drone_normal_add = 1
 		}
 	}
@@ -392,7 +392,7 @@ building_ukn_automation_grid_1 = {
 			is_capital = yes
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 6
 			job_ukn_automation_technician_arcology_add = 1
 		}
 	}
@@ -413,7 +413,7 @@ building_ukn_automation_grid_1 = {
 			is_capital = yes
 		}
 		modifier = {
-			planet_max_buildings_add = 2
+			planet_max_buildings_add = 6
 			job_ukn_automation_technician_drone_arcology_add = 1
 		}
 	}
@@ -1432,40 +1432,6 @@ building_ukn_automation_grid_1 = {
 	}
 #----------------------------------------------------
 
-	triggered_desc = {
-		trigger = {
-			exists = owner
-			UKN_USES_BASIC_DISTRICTS = yes
-			is_capital = yes
-		}
-		text = job_ukn_automation_technician_infrastructure_slot_capital_basic_provide
-	}
-	
-	triggered_desc = {
-		trigger = {
-			exists = owner
-			UKN_USES_HABITAT_DISTRICTS = yes
-			is_capital = yes
-		}
-		text = job_ukn_automation_technician_infrastructure_slot_capital_habitat_provide
-	}
-	
-	triggered_desc = {
-		trigger = {
-			exists = owner
-			OR = {
-				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
-				UKN_USES_MILITARY_ARCOLOGY_DISTRICTS = yes
-			}
-			is_capital = yes
-		}
-		text = job_ukn_automation_technician_infrastructure_slot_capital_arcology_provide
-	}
-#----------------------------------------------------
-
 #[NORMAL] Automation Technician Job
 	triggered_desc = {
 		trigger = {
@@ -1557,6 +1523,40 @@ building_ukn_automation_grid_1 = {
 			}
 		}
 		text = job_ukn_automation_technician_drone_rw_effect_desc
+	}
+#----------------------------------------------------
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			UKN_USES_BASIC_DISTRICTS = yes
+			is_capital = yes
+		}
+		text = job_ukn_automation_technician_infrastructure_slot_capital_basic_provide
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			UKN_USES_HABITAT_DISTRICTS = yes
+			is_capital = yes
+		}
+		text = job_ukn_automation_technician_infrastructure_slot_capital_habitat_provide
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			OR = {
+				UKN_USES_GAIA_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_EXTRACTION_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_PRODUCTION_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_SCIENCE_ARCOLOGY_DISTRICTS = yes
+				UKN_USES_MILITARY_ARCOLOGY_DISTRICTS = yes
+			}
+			is_capital = yes
+		}
+		text = job_ukn_automation_technician_infrastructure_slot_capital_arcology_provide
 	}
 #----------------------------------------------------
 }

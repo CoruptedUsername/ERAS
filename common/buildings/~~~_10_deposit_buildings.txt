@@ -92,7 +92,7 @@ building_gas_extractors = {
 	}
 
 	prerequisites = {
-		"tech_mine_exotic_gases"
+		"tech_exotic_gases"
 	}
 }
 
@@ -138,7 +138,7 @@ building_crystal_mines = {
 	}
 
 	prerequisites = {
-		"tech_mine_rare_crystals"
+		"tech_rare_crystals"
 	}
 }
 

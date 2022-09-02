@@ -20,8 +20,8 @@ tech_mine_volatile_motes = {
 		hide_prereq_for_desc = decision
 		hide_prereq_for_desc = resource
 		custom = {
-			title = "TECH_UNLOCK_UKN_VOLATILE_MOTES_TITLE"
-			desc = "TECH_UNLOCK_UKN_VOLATILE_MOTES_DESC"
+			title = "TECH_EXTRACT_UKN_VOLATILE_MOTES_TITLE"
+			desc = "TECH_EXTRACT_UKN_VOLATILE_MOTES_DESC"
 		}
 	}
 
@@ -62,6 +62,15 @@ tech_volatile_motes = {
 	modifier = {
 		weapon_type_energy_weapon_damage_mult = 0.05
 		planet_ukn_exotic_particles_producers_ukn_exotic_particles_produces_mult = 0.1
+	}
+
+	prereqfor_desc = {
+		hide_prereq_for_desc = decision
+		hide_prereq_for_desc = resource
+		custom = {
+			title = "TECH_MANUFACTURE_UKN_VOLATILE_MOTES_TITLE"
+			desc = "TECH_MANUFACTURE_UKN_VOLATILE_MOTES_DESC"
+		}
 	}
 	
 #P]	potential = {
@@ -131,8 +140,8 @@ tech_mine_ukn_exotic_particles = {
 		hide_prereq_for_desc = decision
 		hide_prereq_for_desc = resource
 		custom = {
-			title = "TECH_UNLOCK_UKN_EXOTIC_PARTICLES_TITLE"
-			desc = "TECH_UNLOCK_UKN_EXOTIC_PARTICLES_DESC"
+			title = "TECH_EXTRACT_MANUFACTURE_UKN_EXOTIC_PARTICLES_TITLE"
+			desc = "TECH_EXTRACT_MANUFACTURE_UKN_EXOTIC_PARTICLES_DESC"
 		}
 	}
 	
@@ -221,13 +230,13 @@ tech_mine_exotic_gases = {
 	prerequisites = { "tech_space_construction" }
 	weight = @tech_ukn_exotic_fluids_2_weight
 
-	gateway = tech_ukn_exotic_fluids_manufacturing_gateway
+	gateway = tech_ukn_exotic_fluids_extraction_gateway
 
 	prereqfor_desc = {
 		hide_prereq_for_desc = resource
 		custom = {
-			title = "TECH_UNLOCK_UKN_EXOTIC_FLUIDS_TITLE"
-			desc = "TECH_UNLOCK_UKN_EXOTIC_FLUIDS_TITLE_DESC"
+			title = "TECH_EXTRACT_UKN_EXOTIC_FLUIDS_TITLE"
+			desc = "TECH_EXTRACT_UKN_EXOTIC_FLUIDS_DESC"
 		}
 	}
 	
@@ -291,23 +300,32 @@ tech_exotic_gases = {
 	area = engineering
 	tier = @tech_ukn_exotic_fluids_3_tier
 	category = { materials }	
-	prerequisites = { "tech_mine_exotic_gases" }
+	prerequisites = { "tech_sensors_3" }
 	weight = @tech_ukn_exotic_fluids_3_weight
+
+	gateway = tech_ukn_exotic_fluids_manufacturing_gateway
 	
 	modifier = {
-		planet_refiners_exotic_gases_produces_mult = 0.1
+#		planet_refiners_exotic_gases_produces_mult = 0.1
+	}
+
+	prereqfor_desc = {
+		hide_prereq_for_desc = resource
+		custom = {
+			title = "TECH_MANUFACTURE_UKN_EXOTIC_FLUIDS_TITLE"
+			desc = "TECH_MANUFACTURE_UKN_EXOTIC_FLUIDS_DESC"
+		}
 	}
 	
 #P]	potential = {
-#P]		has_technology = tech_mine_exotic_gases
-#P]		has_technology = tech_engineering_2
+#P]		has_technology = tech_sensors_3
 #P]	}
 
 	weight_modifier = {
-#[ALL] (E2) Required Techs
+#[PHY] (E1) Boosting Techs
 		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_engineering_2 }
+			factor = 0.5
+			NOT = { has_technology = tech_mine_exotic_gases }
 		}
 #[ALL] (Other) Boosting/Debuffing
 		modifier = {
@@ -344,13 +362,13 @@ tech_mine_rare_crystals = {
 	prerequisites = { "tech_space_construction" }
 	weight = @tech_ukn_superconductive_crystals_2_weight
 
-	gateway = tech_ukn_superconductive_crystals_manufacturing_gateway
+	gateway = tech_ukn_superconductive_crystals_extraction_gateway
 
 	prereqfor_desc = {
 		hide_prereq_for_desc = resource
 		custom = {
-			title = "TECH_UNLOCK_UKN_SUPERCONDUCTIVE_CRYSTALS_TITLE"
-			desc = "TECH_UNLOCK_UKN_SUPERCONDUCTIVE_CRYSTALS_DESC"
+			title = "TECH_EXTRACT_UKN_SUPERCONDUCTIVE_CRYSTALS_TITLE"
+			desc = "TECH_EXTRACT_UKN_SUPERCONDUCTIVE_CRYSTALS_DESC"
 		}
 	}
 	
@@ -415,23 +433,32 @@ tech_rare_crystals = {
 	area = engineering
 	tier = @tech_ukn_superconductive_crystals_3_tier
 	category = { materials }	
-	prerequisites = { "tech_mine_rare_crystals" }
+	prerequisites = { "tech_sensors_3" }
 	weight = @tech_ukn_superconductive_crystals_3_weight
+
+	gateway = tech_ukn_superconductive_crystals_manufacturing_gateway
 	
 	modifier = {
-		planet_translucers_rare_crystals_produces_mult = 0.1
+#		planet_translucers_rare_crystals_produces_mult = 0.1
+	}
+
+	prereqfor_desc = {
+		hide_prereq_for_desc = resource
+		custom = {
+			title = "TECH_MANUFACTURE_UKN_SUPERCONDUCTIVE_CRYSTALS_TITLE"
+			desc = "TECH_MANUFACTURE_UKN_SUPERCONDUCTIVE_CRYSTALS_DESC"
+		}
 	}
 	
 #P]	potential = {
-#P]		has_technology = tech_mine_rare_crystals
-#P]		has_technology = tech_engineering_2
+#P]		has_technology = tech_sensors_3
 #P]	}
 
 	weight_modifier = {
-#[ALL] (E2) Required Techs
+#[PHY] (E1) Boosting Techs
 		modifier = {
-			factor = 0
-			NOT = { has_technology = tech_engineering_2 }
+			factor = 0.5
+			NOT = { has_technology = tech_mine_rare_crystals }
 		}
 #[ALL] (Other) Boosting/Debuffing
 		modifier = {
