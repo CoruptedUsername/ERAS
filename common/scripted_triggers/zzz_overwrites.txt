@@ -14,12 +14,62 @@ has_no_non_gate_megastructure = {
 			any_system_megastructure = { # exclude gateways
 				OR = {
 					# vanilla
+					is_megastructure_type = femtomatter_replicator_0
+					is_megastructure_type = femtomatter_replicator_1
+					is_megastructure_type = femtomatter_replicator_2
+					
+					is_megastructure_type = particle_factory_0
+					is_megastructure_type = particle_factory_1
+					
+					is_megastructure_type = condensics_macro_compositor_0
+					is_megastructure_type = condensics_macro_compositor_1
+					is_megastructure_type = condensics_macro_compositor_2
+					is_megastructure_type = condensics_macro_compositor_3
+					
+					is_megastructure_type = quasimatter_array_0
+					is_megastructure_type = quasimatter_array_1
+					is_megastructure_type = quasimatter_array_2
+					is_megastructure_type = quasimatter_array_3
+					is_megastructure_type = quasimatter_array_4
+					is_megastructure_type = quasimatter_array_5
+					
+					is_megastructure_type = causaliton_synthesizer_0
+					is_megastructure_type = causaliton_synthesizer_1
+					is_megastructure_type = causaliton_synthesizer_2
+					is_megastructure_type = causaliton_synthesizer_3
+					is_megastructure_type = causaliton_synthesizer_4
+					is_megastructure_type = causaliton_synthesizer_5
+					
 					is_megastructure_type = ring_world_1
 					is_megastructure_type = ring_world_2_intermediate
 					is_megastructure_type = ring_world_2
 					is_megastructure_type = ring_world_3_intermediate
 					is_megastructure_type = ring_world_ruined
 					is_megastructure_type = ring_world_restored
+					
+					is_megastructure_type = ring_world_2_a
+					is_megastructure_type = ring_world_2_b
+					is_megastructure_type = ring_world_2_c
+					is_megastructure_type = ring_world_2_d
+					is_megastructure_type = ring_world_3_a_intermediate
+					is_megastructure_type = ring_world_2_b_intermediate
+					is_megastructure_type = ring_world_2_c_intermediate
+					is_megastructure_type = ring_world_2_d_intermediate
+
+					is_megastructure_type = ringworld_titanic_0
+					is_megastructure_type = ringworld_titanic_1
+					is_megastructure_type = ringworld_titanic_2
+					is_megastructure_type = ringworld_t_3x_segment
+
+					is_megastructure_type = ringworld_behemoth_0
+					is_megastructure_type = ringworld_behemoth_1
+					is_megastructure_type = ringworld_behemoth_2
+					is_megastructure_type = ringworld_b_3x_segment
+
+					is_megastructure_type = ringworld_gargantuan_0
+					is_megastructure_type = ringworld_gargantuan_1
+					is_megastructure_type = ringworld_gargantuan_2
+					is_megastructure_type = ringworld_g_3x_segment
 
 					is_megastructure_type = think_tank_0
 					is_megastructure_type = think_tank_1
@@ -575,21 +625,6 @@ has_no_non_gate_megastructure = {
 					is_megastructure_type = the_vat_3
 					is_megastructure_type = the_vat_4
 
-					is_megastructure_type = ringworld_titanic_0
-					is_megastructure_type = ringworld_titanic_1
-					is_megastructure_type = ringworld_titanic_2
-					is_megastructure_type = ringworld_t_3x_segment
-
-					is_megastructure_type = ringworld_behemoth_0
-					is_megastructure_type = ringworld_behemoth_1
-					is_megastructure_type = ringworld_behemoth_2
-					is_megastructure_type = ringworld_b_3x_segment
-
-					is_megastructure_type = ringworld_gargantuan_0
-					is_megastructure_type = ringworld_gargantuan_1
-					is_megastructure_type = ringworld_gargantuan_2
-					is_megastructure_type = ringworld_g_3x_segment
-
 					is_megastructure_type = r_square_world_hub
 					is_megastructure_type = r_square_world_hub_garyx
 					is_megastructure_type = r_square_world_hub_powered
@@ -641,12 +676,62 @@ has_any_megastructure_in_empire = {
 			# megastructure objects
 			OR = {
 				# vanilla
-				has_megastructure = ring_world_1
-				has_megastructure = ring_world_2_intermediate
-				has_megastructure = ring_world_2
-				has_megastructure = ring_world_3_intermediate
-				has_megastructure = ring_world_ruined
-				has_megastructure = ring_world_restored
+				is_megastructure_type = femtomatter_replicator_0
+				is_megastructure_type = femtomatter_replicator_1
+				is_megastructure_type = femtomatter_replicator_2
+				
+				is_megastructure_type = particle_factory_0
+				is_megastructure_type = particle_factory_1
+				
+				is_megastructure_type = condensics_macro_compositor_0
+				is_megastructure_type = condensics_macro_compositor_1
+				is_megastructure_type = condensics_macro_compositor_2
+				is_megastructure_type = condensics_macro_compositor_3
+				
+				is_megastructure_type = quasimatter_array_0
+				is_megastructure_type = quasimatter_array_1
+				is_megastructure_type = quasimatter_array_2
+				is_megastructure_type = quasimatter_array_3
+				is_megastructure_type = quasimatter_array_4
+				is_megastructure_type = quasimatter_array_5
+				
+				is_megastructure_type = causaliton_synthesizer_0
+				is_megastructure_type = causaliton_synthesizer_1
+				is_megastructure_type = causaliton_synthesizer_2
+				is_megastructure_type = causaliton_synthesizer_3
+				is_megastructure_type = causaliton_synthesizer_4
+				is_megastructure_type = causaliton_synthesizer_5
+				
+				is_megastructure_type = ring_world_1
+				is_megastructure_type = ring_world_2_intermediate
+				is_megastructure_type = ring_world_2
+				is_megastructure_type = ring_world_3_intermediate
+				is_megastructure_type = ring_world_ruined
+				is_megastructure_type = ring_world_restored
+				
+				is_megastructure_type = ring_world_2_a
+				is_megastructure_type = ring_world_2_b
+				is_megastructure_type = ring_world_2_c
+				is_megastructure_type = ring_world_2_d
+				is_megastructure_type = ring_world_3_a_intermediate
+				is_megastructure_type = ring_world_2_b_intermediate
+				is_megastructure_type = ring_world_2_c_intermediate
+				is_megastructure_type = ring_world_2_d_intermediate
+
+				is_megastructure_type = ringworld_titanic_0
+				is_megastructure_type = ringworld_titanic_1
+				is_megastructure_type = ringworld_titanic_2
+				is_megastructure_type = ringworld_t_3x_segment
+
+				is_megastructure_type = ringworld_behemoth_0
+				is_megastructure_type = ringworld_behemoth_1
+				is_megastructure_type = ringworld_behemoth_2
+				is_megastructure_type = ringworld_b_3x_segment
+
+				is_megastructure_type = ringworld_gargantuan_0
+				is_megastructure_type = ringworld_gargantuan_1
+				is_megastructure_type = ringworld_gargantuan_2
+				is_megastructure_type = ringworld_g_3x_segment
 
 				has_megastructure = think_tank_0
 				has_megastructure = think_tank_1
@@ -1197,21 +1282,6 @@ has_any_megastructure_in_empire = {
 				has_megastructure = the_vat_3
 				has_megastructure = the_vat_4
 
-				has_megastructure = ringworld_titanic_0
-				has_megastructure = ringworld_titanic_1
-				has_megastructure = ringworld_titanic_2
-				has_megastructure = ringworld_t_3x_segment
-
-				has_megastructure = ringworld_behemoth_0
-				has_megastructure = ringworld_behemoth_1
-				has_megastructure = ringworld_behemoth_2
-				has_megastructure = ringworld_b_3x_segment
-
-				has_megastructure = ringworld_gargantuan_0
-				has_megastructure = ringworld_gargantuan_1
-				has_megastructure = ringworld_gargantuan_2
-				has_megastructure = ringworld_g_3x_segment
-
 				has_megastructure = r_square_world_hub
 				has_megastructure = r_square_world_hub_garyx
 				has_megastructure = r_square_world_hub_powered
@@ -1584,8 +1654,9 @@ uses_district_industrial = {
 		uses_district_set = standard
 		uses_district_set = hive_world
 		uses_district_set = machine_world
-		uses_district_set = giga_planet
 		uses_district_set = shattered_ring_world
+		
+		uses_district_set = giga_ancient_elysium
 	}
 }
 
@@ -1636,6 +1707,21 @@ has_any_generator_district_or_building = {
 	}
 }
 
+
+# overwrite for a workaround to AI ascension perk picking being broken 
+has_galactic_wonders = {
+	OR = {
+		and = {
+			is_ai = yes
+			has_country_flag = giga_galactic_wonders_override
+		}
+
+		has_ascension_perk = ap_galactic_wonders_utopia
+		has_ascension_perk = ap_galactic_wonders_megacorp
+		has_ascension_perk = ap_galactic_wonders_utopia_and_megacorp
+	}
+}
+
 ##### SYSTEMCRAFT PLANETKILLER FIX
 can_destroy_planet_with_PLANET_KILLER_CRACKER_SYSTEMCRAFT = {
 	can_destroy_planet_with_PLANET_KILLER_CRACKER = yes
@@ -1657,3 +1743,58 @@ can_destroy_planet_with_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT = {
 	can_destroy_planet_with_PLANET_KILLER_NANOBOTS = yes
 }
 
+habitable_planet = {
+	# merger of rules can ignore this, it already covers everything this overwrite does
+	or = {
+		is_planet_class = pc_desert
+		is_planet_class = pc_tropical
+		is_planet_class = pc_arid
+		is_planet_class = pc_continental
+		is_planet_class = pc_ocean
+		is_planet_class = pc_tundra
+		is_planet_class = pc_arctic
+		is_planet_class = pc_alpine
+		is_planet_class = pc_savannah
+
+		is_planet_class = pc_city
+		is_planet_class = pc_gaia
+		is_planet_class = pc_relic
+
+		is_planet_class = pc_ll_temperate
+		is_planet_class = pc_ll_foggy
+		is_planet_class = pc_ll_torrid
+
+		# Planetary Diversity
+		is_planet_class = pc_megaflorahive
+		is_planet_class = pc_megafloratol
+		is_planet_class = pc_pdhive1
+		is_planet_class = pc_pdhive2
+		is_planet_class = pc_bioforge
+		is_planet_class = pc_biocapital
+		is_planet_class = pc_biofort
+		is_pd_regular = yes
+		is_pd_gaia = yes
+		is_pd_rare = yes
+	}
+}
+uses_habitat_capitals = {
+	or = {
+		# vanilla
+		uses_district_set = habitat
+			
+		# gigas
+		giga_uses_habitat_capitals = yes
+			
+		# PD planetary habitats
+		is_planet_class = pc_pd_gas_giant_hab
+		is_planet_class = pc_pd_barren_hab
+		is_planet_class = pc_pd_barren_cold_hab
+		is_planet_class = pc_pd_frozen_hab
+		is_planet_class = pc_pd_molten_hab
+		is_planet_class = pc_pd_toxic_hab
+		is_planet_class = pc_pd_hothouse_hab
+		is_planet_class = pc_pd_asteroid_hab
+		#misc compat
+		has_planet_flag = giga_habitat_capital_compat
+	}
+}

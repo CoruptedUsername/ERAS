@@ -50,8 +50,8 @@ giga_frameworld_needs_to_unlock_motes = {
 giga_frameworld_needs_to_unlock_gases = {
 	not = { has_country_flag = giga_frameworld_unlocked_gases }
 	nor = { 
-		has_technology = tech_exotic_gases
-		has_tech_option = tech_exotic_gases
+		has_technology = tech_mine_exotic_gases
+		has_tech_option = tech_mine_exotic_gases
 	}
 
 	# prereq techs
@@ -75,8 +75,8 @@ giga_frameworld_needs_to_unlock_gases = {
 giga_frameworld_needs_to_unlock_crystals = {
 	not = { has_country_flag = giga_frameworld_unlocked_crystals }
 	nor = { 
-		has_technology = tech_rare_crystals
-		has_tech_option = tech_rare_crystals
+		has_technology = tech_mine_rare_crystals
+		has_tech_option = tech_mine_rare_crystals
 	}
 
 	# prereq techs

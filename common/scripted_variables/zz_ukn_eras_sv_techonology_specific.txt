@@ -1313,23 +1313,21 @@
 
 # HABITATS / KILOENGINEERING #-----------------
 @tech_ukn_habitat_2_tier = 2
+@tech_ukn_habitat_3_tier = 3
 
 @tech_ukn_habitat_4_tier = 4
-@tech_ukn_habitat_5_tier = 4
 
 #[X]
 @tech_ukn_habitat_2_cost = 8000
-#[M]
-@tech_ukn_habitat_4_cost = 20000
-#[S]
-@tech_ukn_habitat_5_cost = 40000
+@tech_ukn_habitat_3_cost = 16000
+#[l]
+@tech_ukn_habitat_4_cost = 24000
 
 #[X]
 @tech_ukn_habitat_2_weight = 65
-#[M]
-@tech_ukn_habitat_4_weight = 40
-#[S]
-@tech_ukn_habitat_5_weight = 40
+@tech_ukn_habitat_3_weight = 45
+#[l]
+@tech_ukn_habitat_4_weight = 35
 
 
 ###################################################
@@ -2522,24 +2520,20 @@
 # [STARBASES] SIZES #
 #####################
 
-@tech_ukn_starbase_1_tier = 0
-@tech_ukn_starbase_2_tier = 0
-@tech_ukn_starbase_3_tier = 2
-@tech_ukn_starbase_4_tier = 3
-@tech_ukn_starbase_5_tier = 4
+@tech_ukn_starbase_2_tier = 2
+@tech_ukn_starbase_3_tier = 3
+@tech_ukn_starbase_4_tier = 4
 
 #[S]
-@tech_ukn_starbase_1_cost = 0
-@tech_ukn_starbase_2_cost = 0
-@tech_ukn_starbase_3_cost = 4000
-@tech_ukn_starbase_4_cost = 8000
-@tech_ukn_starbase_5_cost = 16000
+@tech_ukn_starbase_2_cost = 4000
+@tech_ukn_starbase_3_cost = 8000
+@tech_ukn_starbase_4_cost = 16000
 
 #[S]
 
-@tech_ukn_starbase_3_weight = 85
-@tech_ukn_starbase_4_weight = 65
-@tech_ukn_starbase_5_weight = 45
+@tech_ukn_starbase_2_weight = 85
+@tech_ukn_starbase_3_weight = 65
+@tech_ukn_starbase_4_weight = 45
 
 
 ########################
