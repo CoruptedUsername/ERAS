@@ -19,7 +19,7 @@ guiTypes = {
 		orientation = center
 		origo = center
 		moveable = yes
-		size = { width = 880 height = 750 }
+		size = { width = 640 height = 400 }
 		containerWindowType = {
 			name = "portrait"
 			position = { x = -95 y = 11000 } #Yeet
@@ -84,12 +84,12 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "eras_tech_era_contain"
-			position = { x = 230 y = 40 }
+			position = { x = 230 y = 50 }
 			
 			effectButtonType = {
 				name = "eras_tech_era"
 				spriteType = "GFX_half_menu_button_bg"
-				position = { x = -210 y = 2 }
+				position = { x = -210 y = 0 }
 				format = left
 				no_clicksound = yes
 				borderSize = { x = 10 y = 0 }
@@ -114,12 +114,12 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "eras_ftl_access_contain"
-			position = { x = 230 y = 80 }
+			position = { x = 230 y = 90 }
 			
 			effectButtonType = {
 				name = "eras_ftl_access"
 				spriteType = "GFX_half_menu_button_bg"
-				position = { x = -210 y = 2 }
+				position = { x = -210 y = 0 }
 				format = left
 				no_clicksound = yes
 				borderSize = { x = 10 y = 0 }
@@ -139,12 +139,12 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "eras_ftl_types_contain"
-			position = { x = 230 y = 120 }
+			position = { x = 230 y = 130 }
 			
 			effectButtonType = {
 				name = "eras_ftl_types"
 				spriteType = "GFX_half_menu_button_bg"
-				position = { x = -210 y = 2 }
+				position = { x = -210 y = 0 }
 				format = left
 				no_clicksound = yes
 				borderSize = { x = 10 y = 0 }
@@ -156,9 +156,37 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "eras_megastructures_contain"
-			position = { x = 260 y = 300 }
+			position = { x = 150 y = 180 }
 			effectButtonType = { name = "hms_generation_page_left" spriteType = "GFX_hms_arrow_left_toll" position = { x = -111 y = 0 } clicksound = interface font = "cg_16b" text = "" effect = "eras_blank_effect" }
-			effectButtonType = { name = "hms_generation_page_right" spriteType = "GFX_hms_arrow_right_toll" position = { x = 496 y = 0 } clicksound = interface font = "cg_16b" text = "" effect = "eras_blank_effect" }
+			effectButtonType = { name = "hms_generation_page_right" spriteType = "GFX_hms_arrow_right_toll" position = { x = 456 y = 0 } clicksound = interface font = "cg_16b" text = "" effect = "eras_blank_effect" }
+			
+			effectButtonType = {
+				name = "megastructure_1"
+				spriteType = "GFX_half_menu_button_bg"
+				position = { x = -95 y = 0 }
+				format = left
+				no_clicksound = yes
+				borderSize = { x = 10 y = 0 }
+				font = "cg_16b"
+				text = "megastructure_1"
+				effect = "eras_blank_effect"
+			}
+			effectButtonType = { name = "megastructure_1_enable" spriteType = "GFX_giga_menu_enabled" position = { x = 115 y = 5 } clicksound = interface effect = "eras_blank_effect" }
+			effectButtonType = { name = "megastructure_1_disable" spriteType = "GFX_giga_menu_disabled" position = { x = 115 y = 5 } clicksound = interface effect = "eras_blank_effect" }
+			effectButtonType = {
+				name = "megastructure_2"
+				spriteType = "GFX_half_menu_button_bg"
+				position = { x = 245 y = 0 }
+				format = left
+				no_clicksound = yes
+				borderSize = { x = 10 y = 0 }
+				font = "cg_16b"
+				text = "megastructure_2"
+				effect = "eras_blank_effect"
+			}
+			effectButtonType = { name = "megastructure_2_enable" spriteType = "GFX_giga_menu_enabled" position = { x = 215 y = 5 } clicksound = interface effect = "eras_blank_effect" }
+			effectButtonType = { name = "megastructure_2_disable" spriteType = "GFX_giga_menu_disabled" position = { x = 215 y = 5 } clicksound = interface effect = "eras_blank_effect" }
+		
 		}
 		
 		background = {
@@ -170,7 +198,7 @@ guiTypes = {
 			name = "eras_country_MENU"
 			font = "malgun_goth_24"
 			text = "eras_country_MENU"
-			position = { x = 525 y = 15 }
+			position = { x = 525 y = 1500 }#Yeet
 			maxWidth = 543
 			maxHeight = 22
 			fixedSize = yes
